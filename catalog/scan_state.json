@@ -1,27 +1,26 @@
 {
  "schema": 1,
- "slot": 41500,
+ "slot": 41502,
  "query_sets": [
-  8,
-  9
+  12,
+  13
  ],
  "queries": [
-  "kivy android archived:false fork:false",
-  "chaquopy android archived:false fork:false",
-  "android language:Python archived:false fork:false",
-  "android language:C++ archived:false fork:false",
-  "android language:JavaScript archived:false fork:false",
-  "android messenger archived:false fork:false",
-  "android maps navigation archived:false fork:false",
-  "android finance archived:false fork:false",
-  "android fitness archived:false fork:false",
-  "android travel archived:false fork:false",
-  "android transit archived:false fork:false",
-  "android recipes archived:false fork:false"
+  "android language:Kotlin archived:false fork:false stars:<10",
+  "android language:Java archived:false fork:false stars:<10",
+  "android language:Dart archived:false fork:false stars:<10",
+  "android language:C++ archived:false fork:false stars:<10",
+  "android language:Rust archived:false fork:false stars:<10",
+  "android podcast archived:false fork:false",
+  "android ebook reader archived:false fork:false",
+  "android expense tracker archived:false fork:false",
+  "android habit tracker archived:false fork:false",
+  "android translation archived:false fork:false",
+  "android shopping archived:false fork:false"
  ],
  "checked_ids": [],
- "candidates": 10633,
- "started_at": "2026-10-24T07:02:05.729062+00:00",
- "updated_at": "2026-10-24T23:02:11.159828+00:00",
- "complete": true
+ "candidates": 8837,
+ "started_at": "2026-10-25T07:26:23.154419+00:00",
+ "updated_at": "2026-10-25T10:52:56.856777+00:00",
+ "complete": false
 }
