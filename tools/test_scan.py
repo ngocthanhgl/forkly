@@ -129,6 +129,44 @@ class QueueCacheTest(unittest.TestCase):
         self.assertFalse(os.path.exists(path + ".tmp"))
 
 
+class IndexPublishingTest(unittest.TestCase):
+    """The app-facing index must carry the whole catalog, not a star-ranked
+    slice: capping it at 3,500 hid 2,000+ entries from the app (2026-10-26)."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self._out_dir = scan.OUT_DIR
+        scan.OUT_DIR = self.tmp.name
+        self.addCleanup(setattr, scan, "OUT_DIR", self._out_dir)
+
+    def test_index_contains_every_entry(self):
+        total = 3600
+        entries = [
+            {
+                "last_verified": "2026-10-26",
+                "repo": {
+                    "id": i,
+                    "full_name": f"owner{i}/app{i}",
+                    "owner": f"owner{i}",
+                    "stars": 10000 - i,
+                    "description": "x",
+                },
+                "release": {"id": i, "tag": f"v{i}", "published_at": "2026-10-26T00:00:00Z"},
+                "assets": [],
+            }
+            for i in range(total)
+        ]
+
+        scan.write_results(entries, {"complete": True}, {"schema": 1})
+
+        index = scan.load_json(os.path.join(self.tmp.name, "index.json"))
+        self.assertEqual(total, len(index))
+        self.assertEqual(f"owner0/app0", index[0]["repo"]["full_name"])
+        self.assertEqual(f"owner{total - 1}/app{total - 1}",
+                         index[-1]["repo"]["full_name"])
+
+
 class MainFlowTest(unittest.TestCase):
     """End-to-end: a stopped chunk checkpoints, the next run resumes, the
     third finds the slot already complete."""
