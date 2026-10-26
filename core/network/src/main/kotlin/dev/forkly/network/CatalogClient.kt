@@ -21,15 +21,19 @@ const val CATALOG_OWNER = "ngocthanhgl"
 const val CATALOG_REPO = "forkly"
 /**
  * Slim launch index (repo metadata + latest-APK-release pointer, no notes,
- * no per-asset rows). The full apps.json outgrew a safe single pull
- * (2.8 MiB and growing with merge-accumulation), so the app pulls this.
- * Full asset lists load lazily per repo via the GitHub API on demand.
+ * no per-asset rows) covering the whole catalog. raw.githubusercontent.com
+ * gzip-serves it, so ~5-9 MiB of JSON costs ~1-2 MiB on the wire; ETag makes
+ * an unchanged catalog a 304 with no body.
  */
 const val CATALOG_INDEX_URL =
     "https://raw.githubusercontent.com/$CATALOG_OWNER/$CATALOG_REPO/main/catalog/index.json"
 
-/** 4 MiB cap — the slim index stays near 1 MiB; anything bigger is a bug. */
-const val CATALOG_MAX_BYTES = 4L * 1024 * 1024
+/**
+ * 16 MiB cap on the *decompressed* body. The catalog currently holds ~7k
+ * entries (~5 MiB); a 12k entry cap in the scanner plus schema growth still
+ * fits, and anything bigger is a bug.
+ */
+const val CATALOG_MAX_BYTES = 16L * 1024 * 1024
 
 @Serializable
 data class CatalogRepo(

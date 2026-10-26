@@ -68,10 +68,13 @@ RELEASES_PER_REPO = 10
 ENTRY_CAP = 12000
 NOTES_CAP = 2000
 ASSETS_CAP = 20
-# Slim app index: top entries by stars, repo metadata + latest APK release
-# pointer only (no notes, no per-asset rows). The app pulls this on launch;
+# Slim app index: every catalog entry (repo metadata + latest APK release
+# pointer only; no notes, no per-asset rows). The app pulls this on launch;
 # full asset lists load lazily per repo via the GitHub API on demand.
-INDEX_CAP = 3500
+# Capping here used to hide the long tail from the app entirely: the file is
+# gzip-served by raw.githubusercontent.com (~1.2 MB for 7k entries), so the
+# whole catalog ships.
+INDEX_CAP = ENTRY_CAP
 DESC_CAP = 240
 # Entries not re-verified within this window are dropped as stale.
 STALE_DAYS = int(os.environ.get("SCAN_STALE_DAYS", "30"))

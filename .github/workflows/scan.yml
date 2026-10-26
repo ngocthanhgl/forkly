@@ -38,12 +38,15 @@ jobs:
         run: python3 -m unittest discover -s tools -p "test_*.py" -v
       - name: Run catalog scan
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional PAT with no scopes: GITHUB_TOKEN is capped at 1,000
+          # requests/hour per repository, a PAT gets 5,000/hour. Without the
+          # secret the scan still works, just ~5x slower.
+          GITHUB_TOKEN: ${{ secrets.CATALOG_TOKEN || secrets.GITHUB_TOKEN }}
           MAX_CHECK: 12000
           SCAN_DEADLINE_S: 2100 # 35 min per chunk, well inside the 360 min job
-          # ~1 release check per second => ~3,200 calls/hour, under the
-          # 5,000/hour token allowance with headroom for search pages and the
-          # rate-limit guard (which sleeps to reset when remaining < 60).
+          # ~1 release check per second. Under a PAT that is ~3,200 calls/hour
+          # against 5,000; under the built-in token the quota guard sleeps to
+          # the hourly reset, which is why chunks can overrun their deadline.
           SCAN_REQUEST_INTERVAL_S: 0.9
         # Every chunk commits its own checkpoint, so a job killed mid-chunk
         # (or a runner failure) never discards earlier chunks. The script

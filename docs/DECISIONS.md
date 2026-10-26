@@ -1293,3 +1293,23 @@ AMOLED/red setup:
 Honest limit: persisted preferences are not migrated. An install that already
 saved AMOLED or a Material accent keeps it until the user changes it or clears
 app data; uninstall/reinstall is the supported reset for the 1.0.0 line.
+
+## 39. Catalog index uncapped (2026-10-26)
+
+The app could only ever show 3,500 apps while `catalog/apps.json` held 7,342.
+`write_results` published `entries[:INDEX_CAP]` with `INDEX_CAP = 3500`, and
+entries are sorted by stars, so the entire low-star/long tail — exactly the
+part that makes a store worth browsing — was invisible. Growth was real
+(+2,195 repos in two days) but only visible in git.
+
+- Scanner publishes every catalog entry: `INDEX_CAP = ENTRY_CAP` (12,000).
+- Client cap raised 4 MiB -> 16 MiB of decompressed JSON. `raw.githubusercontent.com`
+  gzip-serves the index (~1.2 MB on the wire for 7k entries) and the client
+  already streams with a hard byte cap, so the wire cost is unchanged in practice.
+- Scan workflow accepts an optional `CATALOG_TOKEN` secret (zero scopes). The
+  built-in `GITHUB_TOKEN` is limited to 1,000 requests/hour per repo, which is
+  why chunks overrun their 35-minute deadline: the quota guard sleeps to the
+  hourly reset. A PAT raises that to 5,000/hour (5x faster discovery).
+
+Verified locally: `python -m unittest discover -s tools` passes; the next scan
+checkpoint is the proof that `meta.index_matches == meta.matches`.

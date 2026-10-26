@@ -137,13 +137,20 @@ this repo; the app pulls it on launch so Home always has a list.
   the scan misses.
 
 
-## 7 - Slim launch index (2026-10-12)
+## 7 - Slim launch index (2026-10-12, uncapped 2026-10-26)
 The app no longer pulls catalog/apps.json at launch (it passed 2.8MB and
 tripped the 2MiB response cap). The bot also writes catalog/index.json
-(top 3500 by stars, descriptions capped at 240 chars, no asset lists,
-~0.5MB); the app pulls the index and imports repo+release rows only.
-Full per-release asset lists lazy-load when a details screen opens.
+(repo metadata + latest-APK-release pointer, descriptions capped at 240
+chars, no asset lists); the app pulls the index and imports repo+release
+rows only. Full per-release asset lists lazy-load when a details screen opens.
 scan.yml commits both files.
+
+The index was originally truncated to the top 3,500 entries by stars, which
+silently hid the low-star long tail: apps.json held 7,342 entries while the
+app could only ever see 3,500. The scanner now publishes every catalog entry
+(up to ENTRY_CAP = 12,000). raw.githubusercontent.com serves it gzipped
+(~1.2 MB for 7k entries), and the client cap moved from 4 MiB to 16 MiB of
+decompressed JSON. Growth is therefore visible in the app, not just in git.
 
 ## 8 - Catalog categories and repository screenshots
 Index imports refresh repository topics from each current scan instead of
