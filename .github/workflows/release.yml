@@ -59,5 +59,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           test "$(ls app/build/outputs/apk/release/*.apk | wc -l)" -eq 2
+          # Re-running the same version (e.g. a re-tagged 1.0.0) must replace
+          # the old release instead of failing on "release already exists".
+          gh release delete "$GITHUB_REF_NAME" --yes 2>/dev/null || true
           gh release create "$GITHUB_REF_NAME" app/build/outputs/apk/release/*.apk \
             --title "$GITHUB_REF_NAME" --generate-notes

@@ -16,6 +16,13 @@ on:
   schedule:
     - cron: "0 2,14 * * *" # 02:00 + 14:00 UTC
   workflow_dispatch:
+  # A scanner change should start a run immediately instead of waiting for the
+  # next slot. Bot checkpoint commits only touch catalog/, so this never loops.
+  push:
+    branches: [main]
+    paths:
+      - "tools/scan.py"
+      - ".github/workflows/scan.yml"
 
 permissions:
   contents: write
