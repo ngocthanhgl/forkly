@@ -1,28 +1,29 @@
 {
  "schema": 1,
- "slot": 41505,
+ "slot": 41506,
  "query_sets": [
-  4,
-  5
+  6,
+  7
  ],
  "queries": [
-  "android file manager archived:false fork:false",
-  "android launcher archived:false fork:false",
-  "android keyboard archived:false fork:false",
-  "android vpn archived:false fork:false",
-  "android accessibility archived:false fork:false",
-  "android home automation archived:false fork:false",
-  "android notes todo archived:false fork:false",
-  "android rss reader archived:false fork:false",
-  "android weather archived:false fork:false",
-  "android password manager archived:false fork:false",
-  "android calendar archived:false fork:false",
-  "android email archived:false fork:false",
-  "android education archived:false fork:false"
+  "topic:f-droid archived:false fork:false",
+  "android adblock archived:false fork:false",
+  "android firewall archived:false fork:false",
+  "android backup archived:false fork:false",
+  "android privacy archived:false fork:false",
+  "android encryption archived:false fork:false",
+  "android 2fa archived:false fork:false",
+  "godot android archived:false fork:false",
+  "unity android archived:false fork:false",
+  "android game archived:false fork:false",
+  "android emulator archived:false fork:false",
+  "android libgdx archived:false fork:false",
+  "android bevy archived:false fork:false",
+  "android renpy archived:false fork:false"
  ],
  "checked_ids": [],
- "candidates": 6027,
- "started_at": "2026-10-26T19:48:05.027748+00:00",
- "updated_at": "2026-10-27T10:51:07.807297+00:00",
- "complete": true
+ "candidates": 5509,
+ "started_at": "2026-10-27T10:51:13.588193+00:00",
+ "updated_at": "2026-10-27T13:13:47.193508+00:00",
+ "complete": false
 }
