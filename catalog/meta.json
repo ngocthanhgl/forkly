@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "scanned_at": "2026-10-27T23:34:23.781928+00:00",
+ "scanned_at": "2026-10-28T00:09:30.328332+00:00",
  "tool": "tools/scan.py",
  "query_set": 6,
  "query_sets": [
@@ -24,19 +24,19 @@
   "android renpy archived:false fork:false"
  ],
  "candidates": 7784,
- "pending": 6079,
- "checked": 1728,
- "checked_total": 3433,
- "verified_today": 492,
- "carried_over": 7598,
+ "pending": 4351,
+ "checked": 1737,
+ "checked_total": 5170,
+ "verified_today": 386,
+ "carried_over": 7780,
  "dropped_stale": 0,
  "truncated": true,
  "resumed": true,
  "interrupted": false,
  "complete": false,
  "error": null,
- "duration_s": 2100.7,
- "matches": 7780,
- "index_matches": 7780,
- "index_bytes": 6424600
+ "duration_s": 2100.9,
+ "matches": 7963,
+ "index_matches": 7963,
+ "index_bytes": 6590460
 }
