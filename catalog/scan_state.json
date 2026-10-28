@@ -1,29 +1,28 @@
 {
  "schema": 1,
- "slot": 41506,
+ "slot": 41508,
  "query_sets": [
-  6,
-  7
+  10,
+  11
  ],
  "queries": [
-  "topic:f-droid archived:false fork:false",
-  "android adblock archived:false fork:false",
-  "android firewall archived:false fork:false",
-  "android backup archived:false fork:false",
-  "android privacy archived:false fork:false",
-  "android encryption archived:false fork:false",
-  "android 2fa archived:false fork:false",
-  "godot android archived:false fork:false",
-  "unity android archived:false fork:false",
-  "android game archived:false fork:false",
-  "android emulator archived:false fork:false",
-  "android libgdx archived:false fork:false",
-  "android bevy archived:false fork:false",
-  "android renpy archived:false fork:false"
+  "android language:Rust archived:false fork:false",
+  "android language:Go archived:false fork:false",
+  "android language:Scala archived:false fork:false",
+  "android language:C archived:false fork:false",
+  "android git client archived:false fork:false",
+  "android terminal archived:false fork:false",
+  "android code editor archived:false fork:false",
+  "topic:apk archived:false fork:false",
+  "topic:android-app archived:false fork:false",
+  "android tv archived:false fork:false",
+  "android wear os archived:false fork:false",
+  "android wallpaper archived:false fork:false",
+  "android icon pack archived:false fork:false"
  ],
  "checked_ids": [],
- "candidates": 7784,
- "started_at": "2026-10-27T10:51:13.588193+00:00",
- "updated_at": "2026-10-28T01:01:40.130014+00:00",
- "complete": true
+ "candidates": 9580,
+ "started_at": "2026-10-28T08:05:09.513034+00:00",
+ "updated_at": "2026-10-28T11:59:03.099401+00:00",
+ "complete": false
 }
