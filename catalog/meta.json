@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "scanned_at": "2026-10-29T00:27:53.015420+00:00",
+ "scanned_at": "2026-10-29T01:02:20.732378+00:00",
  "tool": "tools/scan.py",
  "query_set": 10,
  "query_sets": [
@@ -23,19 +23,19 @@
   "android icon pack archived:false fork:false"
  ],
  "candidates": 9581,
- "pending": 3373,
- "checked": 1708,
- "checked_total": 7917,
- "verified_today": 437,
- "carried_over": 9435,
+ "pending": 1665,
+ "checked": 1665,
+ "checked_total": 9582,
+ "verified_today": 374,
+ "carried_over": 9756,
  "dropped_stale": 0,
- "truncated": true,
+ "truncated": false,
  "resumed": true,
  "interrupted": false,
- "complete": false,
+ "complete": true,
  "error": null,
- "duration_s": 2100.2,
- "matches": 9756,
- "index_matches": 9756,
- "index_bytes": 8091520
+ "duration_s": 2059.2,
+ "matches": 10021,
+ "index_matches": 10021,
+ "index_bytes": 8312800
 }
