@@ -48177,6 +48177,55 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 109925322,
+   "full_name": "vipulasri/TicketView",
+   "owner": "vipulasri",
+   "avatar_url": "https://avatars.githubusercontent.com/u/7822179?v=4",
+   "description": "An Android library to implement TicketView in android with normal, rounded and scallop corners",
+   "stars": 1279,
+   "forks": 218,
+   "topics": [
+    "android",
+    "customview",
+    "ticketview",
+    "ui"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-22T20:13:47Z",
+   "created_at": "2017-11-08T03:54:52Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 14,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2022-07-09T18:24:49Z"
+  },
+  "release": {
+   "id": 8538964,
+   "tag": "v1.0.1",
+   "name": "1.0.1",
+   "notes": "Added: rounded corners option",
+   "published_at": "2017-11-16T07:07:26Z",
+   "html_url": "https://github.com/vipulasri/TicketView/releases/tag/v1.0.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 5361058,
+    "name": "sample-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2586133,
+    "download_url": "https://github.com/vipulasri/TicketView/releases/download/v1.0.1/sample-debug.apk",
+    "digest": null,
+    "download_count": 37
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-26",
   "repo": {
    "id": 241443229,
@@ -48771,7 +48820,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 36009080,
    "full_name": "javiersantos/MLManager",
@@ -48815,7 +48864,55 @@
     "size": 4211580,
     "download_url": "https://github.com/javiersantos/MLManager/releases/download/v1.0.4.1/com.javiersantos.mlmanager_1.0.4.1.apk",
     "digest": null,
-    "download_count": 4524
+    "download_count": 4535
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 4387088,
+   "full_name": "codinguser/gnucash-android",
+   "owner": "codinguser",
+   "avatar_url": "https://avatars.githubusercontent.com/u/276699?v=4",
+   "description": "Gnucash for Android mobile companion application. ",
+   "stars": 1265,
+   "forks": 545,
+   "topics": [
+    "android",
+    "gnucash",
+    "java"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-11T19:43:36Z",
+   "created_at": "2012-05-20T19:58:40Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 170,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2024-06-14T12:24:04Z"
+  },
+  "release": {
+   "id": 11502308,
+   "tag": "v2.4.0",
+   "name": "v2.4.0",
+   "notes": "* Feature #665: Adds CSV export format\r\n* Feature #544: Add extra checkbox confirmation for irreversible actions\r\n* Feature #767: Backup before destructive actions\r\n* Feature #465: Account balances now include future transactions\r\n* Fixed #764: Crash when importing XML files from Gnucash desktop v2.7 and up\r\n* Fixed #768: ScheduledActionService crashes on Android 8 (Oreo)\r\n* Fixed #731: Double display of Persian currency symbol\r\n* Fixed #771: QIF export crashes due to illegal denominator\r\n* Fixed #757: Backups are created every hour\r\n* Fixed #766: Backups are kept forever",
+   "published_at": "2018-06-15T14:40:39Z",
+   "html_url": "https://github.com/codinguser/gnucash-android/releases/tag/v2.4.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 7547668,
+    "name": "GnucashAndroid_v2.4.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 7202958,
+    "download_url": "https://github.com/codinguser/gnucash-android/releases/download/v2.4.0/GnucashAndroid_v2.4.0.apk",
+    "digest": null,
+    "download_count": 5624
    }
   ]
  },
@@ -48866,6 +48963,50 @@
     "download_url": "https://github.com/nightmare-space/code_lfa/releases/download/v1.6.1/CodeLFA_1.6.0_Android_arm64.apk",
     "digest": "sha256:243b69026b6e59b711755d5e069a8a3b899b3023aa36865789931b37624b8cf9",
     "download_count": 6389
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 22175394,
+   "full_name": "mikepenz/Android-ActionItemBadge",
+   "owner": "mikepenz",
+   "avatar_url": "https://avatars.githubusercontent.com/u/1476232?v=4",
+   "description": "This library offers a simple method to add a small badge icon to your ActionBar-MenuItem",
+   "stars": 1256,
+   "forks": 219,
+   "topics": [],
+   "archived": false,
+   "default_branch": "develop",
+   "updated_at": "2026-10-11T20:24:09Z",
+   "created_at": "2014-07-23T20:23:45Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "http://mikepenz.github.io/Android-ActionItemBadge",
+   "pushedAt": "2020-06-14T15:11:19Z"
+  },
+  "release": {
+   "id": 20807735,
+   "tag": "v4.0.0",
+   "name": "v4.0.0",
+   "notes": "**library**\r\n* update all dependencies to their latest version\r\n* require AndroidX\r\n* update Android-Iconics to v4\r\n* adjust to fix compatiblity with Android-Iconics v4\r\n  * FIX https://github.com/mikepenz/Android-ActionItemBadge/issues/70",
+   "published_at": "2019-10-18T14:28:15Z",
+   "html_url": "https://github.com/mikepenz/Android-ActionItemBadge/releases/tag/v4.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 15569657,
+    "name": "ActionItemBadge-v4.0.0-c4000-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5268912,
+    "download_url": "https://github.com/mikepenz/Android-ActionItemBadge/releases/download/v4.0.0/ActionItemBadge-v4.0.0-c4000-release.apk",
+    "digest": null,
+    "download_count": 49
    }
   ]
  },
@@ -49236,6 +49377,50 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1322545,
+   "full_name": "ushahidi/SMSSync",
+   "owner": "ushahidi",
+   "avatar_url": "https://avatars.githubusercontent.com/u/16959?v=4",
+   "description": "SMS gateway for Android powered phones",
+   "stars": 1228,
+   "forks": 483,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-28T07:10:45Z",
+   "created_at": "2011-02-03T00:35:27Z",
+   "license": "LGPL-3.0",
+   "language": "Java",
+   "openIssues": 98,
+   "watchers": null,
+   "homepage": "http://smssync.ushahidi.com",
+   "pushedAt": "2021-11-24T10:47:06Z"
+  },
+  "release": {
+   "id": 5517457,
+   "tag": "v3.1.1",
+   "name": "v3.1.1",
+   "notes": "Release of v3.1.1\n- Fix Google security vulnerabilities alert warning.\n",
+   "published_at": "2017-02-21T06:50:31Z",
+   "html_url": "https://github.com/ushahidi/SMSSync/releases/tag/v3.1.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 3237356,
+    "name": "smssync-withAnalyticsRelease-v3.1.1-RELEASE.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 4425967,
+    "download_url": "https://github.com/ushahidi/SMSSync/releases/download/v3.1.1/smssync-withAnalyticsRelease-v3.1.1-RELEASE.apk",
+    "digest": null,
+    "download_count": 5415
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-28",
   "repo": {
    "id": 768431601,
@@ -49466,6 +49651,107 @@
     "download_url": "https://github.com/Materialious/Materialious/releases/download/1.18.11/Materialious-win32-arm64.exe",
     "digest": "sha256:748fca850416f07d1df34b64a61048dbb1d150aaf6f31f564de3ce8e6e0503d8",
     "download_count": 4
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 18671453,
+   "full_name": "qpython-android/qpython",
+   "owner": "qpython-android",
+   "avatar_url": "https://avatars.githubusercontent.com/u/4011161?v=4",
+   "description": "QPython is an Android Python engine primarily designed for Python and AI learners. It offers a range of impressive features to enhance Python programming experience.",
+   "stars": 1227,
+   "forks": 211,
+   "topics": [
+    "ai",
+    "android",
+    "generative-ai",
+    "python"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T14:46:22Z",
+   "created_at": "2014-04-11T11:03:38Z",
+   "license": null,
+   "language": "Java",
+   "openIssues": 143,
+   "watchers": null,
+   "homepage": "https://www.qpython.org",
+   "pushedAt": "2026-04-14T07:56:40Z"
+  },
+  "release": {
+   "id": 91710715,
+   "tag": "v3.2.3",
+   "name": "QPython v3.2.3",
+   "notes": "## What's NEW\r\n+ Python Interpreter upgrade as 3.11.0\r\n+ Terminal supports multiple options\r\n+ Improved some user experience\r\n\r\n### Install Python OS v3.2.3\r\nYou can install the apk by downloading the qpython_os_2023-02-04_ol.apk ;\r\n\r\n## 更新\r\n+ Python 环境升级为 3.11.0\r\n+ 终端支持多种选择\r\n+ 改进了部分使用体验\r\n+ 进行了大量测试\r\n\r\n### 安装 QPython OS v3.2.3\r\n+ 下载 qpython_os_2023-02-04_ol.apk\r\n+ 传送到 Android 手机中直接安装",
+   "published_at": "2023-02-08T09:12:19Z",
+   "html_url": "https://github.com/qpython-android/qpython/releases/tag/v3.2.3",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 94769701,
+    "name": "qpython_os_2023-02-04_ol.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 106880376,
+    "download_url": "https://github.com/qpython-android/qpython/releases/download/v3.2.3/qpython_os_2023-02-04_ol.apk",
+    "digest": null,
+    "download_count": 46814
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 79662592,
+   "full_name": "michael-rapp/ChromeLikeTabSwitcher",
+   "owner": "michael-rapp",
+   "avatar_url": "https://avatars.githubusercontent.com/u/6638695?v=4",
+   "description": "Provides a tab switcher similar to the one, which is used in Google Chrome on Android",
+   "stars": 1226,
+   "forks": 141,
+   "topics": [
+    "android",
+    "cards",
+    "chrome",
+    "google",
+    "navigation",
+    "switcher",
+    "tab"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-13T20:14:34Z",
+   "created_at": "2017-01-21T17:57:17Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 9,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2024-03-10T05:41:43Z"
+  },
+  "release": {
+   "id": 23625224,
+   "tag": "0.4.6",
+   "name": "Version 0.4.6",
+   "notes": "A minor release, which introduces the following changes:\r\n\r\n- Allow to specify whether the state of a `TabSwitcher` should be preserved (see https://github.com/michael-rapp/ChromeLikeTabSwitcher/pull/26).\r\n- Updated dependency \"AndroidUtil\" to version 2.1.0.\r\n- Updated AppCompat support library to version 1.1.0.",
+   "published_at": "2020-02-12T23:33:45Z",
+   "html_url": "https://github.com/michael-rapp/ChromeLikeTabSwitcher/releases/tag/0.4.6",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 17988581,
+    "name": "ChromeLikeTabSwitcher-v0.4.6.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 3175240,
+    "download_url": "https://github.com/michael-rapp/ChromeLikeTabSwitcher/releases/download/0.4.6/ChromeLikeTabSwitcher-v0.4.6.apk",
+    "digest": null,
+    "download_count": 222
    }
   ]
  },
@@ -49861,14 +50147,67 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 10880863,
+   "full_name": "ManuelPeinado/GlassActionBar",
+   "owner": "ManuelPeinado",
+   "avatar_url": "https://avatars.githubusercontent.com/u/2700015?v=4",
+   "description": "Android - a library that adds a glass-like effect to the action bar.",
+   "stars": 1204,
+   "forks": 228,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-11T20:23:32Z",
+   "created_at": "2013-06-23T08:44:04Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 10,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2018-05-05T22:06:20Z"
+  },
+  "release": {
+   "id": 9585,
+   "tag": "v0.2.1",
+   "name": "Version 0.2.1",
+   "notes": "- Adds support for changing content (through the \"invalidate\" method).\n- Handles non-scrollable content in a more efficient manner.\n- Fixes bug which prevented transparent content from being blurred properly.\n- Many performance optimizations.\n- Adds possibility of changing the gaussian blur params (\"radius\" and \"downsampling\").\n- Adds support for maven and gradle builds.\n",
+   "published_at": "2013-07-14T12:36:52Z",
+   "html_url": "https://github.com/ManuelPeinado/GlassActionBar/releases/tag/v0.2.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 4024,
+    "name": "glassactionbar-0.2.1.aar",
+    "content_type": "application/octet-stream",
+    "size": 276186,
+    "download_url": "https://github.com/ManuelPeinado/GlassActionBar/releases/download/v0.2.1/glassactionbar-0.2.1.aar",
+    "digest": null,
+    "download_count": 57
+   },
+   {
+    "id": 4022,
+    "name": "GlassActionBarDemo-0.2.1.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 1531952,
+    "download_url": "https://github.com/ManuelPeinado/GlassActionBar/releases/download/v0.2.1/GlassActionBarDemo-0.2.1.apk",
+    "digest": null,
+    "download_count": 169
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 253602846,
    "full_name": "patzly/grocy-android",
    "owner": "patzly",
    "avatar_url": "https://avatars.githubusercontent.com/u/33599892?v=4",
    "description": "ERP beyond your fridge, now on your phone – An awesome companion app for Grocy",
-   "stars": 1204,
+   "stars": 1203,
    "forks": 147,
    "topics": [
     "android",
@@ -49882,7 +50221,7 @@
    ],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-10-23T11:30:13Z",
+   "updated_at": "2026-10-28T11:59:14Z",
    "created_at": "2020-04-06T20:01:15Z",
    "license": "GPL-3.0",
    "language": "Java",
@@ -49908,7 +50247,7 @@
     "size": 38731350,
     "download_url": "https://github.com/patzly/grocy-android/releases/download/v3.8.3/Grocy-Android-v3.8.3.apk",
     "digest": "sha256:9ccfd634283bf03d2ad5f54c14d98d055f95037d0b6ecae129a61dc1190ee8b2",
-    "download_count": 1836
+    "download_count": 1839
    }
   ]
  },
@@ -97700,6 +98039,67 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 114755475,
+   "full_name": "victordiaz/PHONK",
+   "owner": "victordiaz",
+   "avatar_url": "https://avatars.githubusercontent.com/u/422387?v=4",
+   "description": "PHONK is a coding playground for new and old Android devices",
+   "stars": 499,
+   "forks": 31,
+   "topics": [
+    "android",
+    "framework",
+    "javascript",
+    "mqtt",
+    "osc",
+    "prototyping",
+    "sensors"
+   ],
+   "archived": false,
+   "default_branch": "develop",
+   "updated_at": "2026-10-27T16:48:51Z",
+   "created_at": "2017-12-19T11:10:06Z",
+   "license": "GPL-3.0",
+   "language": "Java",
+   "openIssues": 47,
+   "watchers": null,
+   "homepage": "https://phonk.app",
+   "pushedAt": "2023-07-29T10:39:22Z"
+  },
+  "release": {
+   "id": 89830546,
+   "tag": "1.5.0",
+   "name": "PHONK 1.5.0",
+   "notes": "## Changelog\r\n  - Upgraded WebEditor to a more recent Vue.js version\r\n  - Some refactor and clean-up of the App and WebEditor. Hopefully there aren't too many new bugs :D\r\n  - Emulate Midi device support and Vertical Slides thanks to @polhomarkho contributions\r\n  - Use Gradle tasks to compile the webIDE and copy the examples\r\n  - httpServer accepts an IP parameter and can use app.runOnMainLoop when running on a service Thanks to @notEvil\r\n\r\n---\r\n\r\nNote: PHONK comes in 2 variants which you should have **only one installed** otherwise the might conflict!\r\n- Normal: The **recommended** download\r\n- Extended: This version let's you send and receive SMS functionality. Google Play is not very happy with apps that access your SMSs, so here there is an alternative in case someone wants to use it",
+   "published_at": "2023-01-22T20:09:02Z",
+   "html_url": "https://github.com/victordiaz/PHONK/releases/tag/1.5.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 92605111,
+    "name": "phonk-1.5.0-extended-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 25075685,
+    "download_url": "https://github.com/victordiaz/PHONK/releases/download/1.5.0/phonk-1.5.0-extended-release.apk",
+    "digest": null,
+    "download_count": 1566
+   },
+   {
+    "id": 92605115,
+    "name": "phonk-1.5.0-normal-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 25075420,
+    "download_url": "https://github.com/victordiaz/PHONK/releases/download/1.5.0/phonk-1.5.0-normal-release.apk",
+    "digest": null,
+    "download_count": 914
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-26",
   "repo": {
    "id": 541560413,
@@ -97931,6 +98331,50 @@
     "download_url": "https://github.com/Suwayomi/Suwayomi-JUI/releases/download/v1.3.3/suwayomi-jui_1.3.3-1_amd64.deb",
     "digest": null,
     "download_count": 1180
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 181327586,
+   "full_name": "exzhawk/EhViewer",
+   "owner": "exzhawk",
+   "avatar_url": "https://avatars.githubusercontent.com/u/7038938?v=4",
+   "description": "A Modified Unofficial E-Hentai Application for Android",
+   "stars": 498,
+   "forks": 23,
+   "topics": [],
+   "archived": false,
+   "default_branch": "epix_mod",
+   "updated_at": "2026-10-28T06:23:13Z",
+   "created_at": "2019-04-14T15:15:39Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 17,
+   "watchers": null,
+   "homepage": "https://blog.exz.me/post/ehviewer-mod/",
+   "pushedAt": "2026-08-08T15:25:14Z"
+  },
+  "release": {
+   "id": 367233303,
+   "tag": "1.7.26",
+   "name": "1.7.26 support.webp.animation",
+   "notes": "support webp animation",
+   "published_at": "2026-08-08T15:25:14Z",
+   "html_url": "https://github.com/exzhawk/EhViewer/releases/tag/1.7.26",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 506500973,
+    "name": "EhViewer.epix_mod.1.7.26.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 7577959,
+    "download_url": "https://github.com/exzhawk/EhViewer/releases/download/1.7.26/EhViewer.epix_mod.1.7.26.apk",
+    "digest": "sha256:5a124179463d8b3f3552a2673b4e7b7926fab08c2964d3ddbb44f595d553a10d",
+    "download_count": 24572
    }
   ]
  },
@@ -98184,14 +98628,14 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 99133682,
    "full_name": "akhilkedia/AllTrans",
    "owner": "akhilkedia",
    "avatar_url": "https://avatars.githubusercontent.com/u/16665267?v=4",
    "description": "Completely Translate Android apps in-place aka Google translate in Chrome",
-   "stars": 495,
+   "stars": 496,
    "forks": 47,
    "topics": [
     "android-apps",
@@ -98202,7 +98646,7 @@
    ],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-10-22T23:55:48Z",
+   "updated_at": "2026-10-29T06:35:31Z",
    "created_at": "2017-08-02T15:39:07Z",
    "license": "Other",
    "language": "Java",
@@ -98228,7 +98672,55 @@
     "size": 26580505,
     "download_url": "https://github.com/akhilkedia/AllTrans/releases/download/1.9.6/AllTrans.apk",
     "digest": null,
-    "download_count": 13139
+    "download_count": 13168
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 117568401,
+   "full_name": "nekocode/MusicVisualization",
+   "owner": "nekocode",
+   "avatar_url": "https://avatars.githubusercontent.com/u/4783781?v=4",
+   "description": "Some music visualization demos on android.",
+   "stars": 495,
+   "forks": 58,
+   "topics": [
+    "android",
+    "app",
+    "graphics"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-05-12T03:13:20Z",
+   "created_at": "2018-01-15T16:24:18Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 5,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2019-01-06T04:06:31Z"
+  },
+  "release": {
+   "id": 9362380,
+   "tag": "1.0",
+   "name": "Version 1.0",
+   "notes": "",
+   "published_at": "2018-01-24T08:22:33Z",
+   "html_url": "https://github.com/nekocode/MusicVisualization/releases/tag/1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 5968751,
+    "name": "app-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 1454616,
+    "download_url": "https://github.com/nekocode/MusicVisualization/releases/download/1.0/app-release.apk",
+    "digest": null,
+    "download_count": 1615
    }
   ]
  },
@@ -98571,6 +99063,50 @@
   "schema": 1,
   "last_verified": "2026-10-29",
   "repo": {
+   "id": 97372391,
+   "full_name": "tranleduy2000/javaide",
+   "owner": "tranleduy2000",
+   "avatar_url": "https://avatars.githubusercontent.com/u/19369448?v=4",
+   "description": "Code editor, java auto complete, java compiler, aapt, dx, zipsigner for Android",
+   "stars": 492,
+   "forks": 164,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-20T12:48:45Z",
+   "created_at": "2017-07-16T09:11:22Z",
+   "license": "GPL-3.0",
+   "language": "Java",
+   "openIssues": 250,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2021-09-29T16:30:25Z"
+  },
+  "release": {
+   "id": 11499838,
+   "tag": "1.4.5",
+   "name": "",
+   "notes": "",
+   "published_at": "2018-06-15T12:26:02Z",
+   "html_url": "https://github.com/tranleduy2000/javaide/releases/tag/1.4.5",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 7546010,
+    "name": "app-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 36728773,
+    "download_url": "https://github.com/tranleduy2000/javaide/releases/download/1.4.5/app-release.apk",
+    "digest": null,
+    "download_count": 2300
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
    "id": 1043411548,
    "full_name": "aunchagaonkar/NetworkSwitch",
    "owner": "aunchagaonkar",
@@ -98806,6 +99342,61 @@
     "download_url": "https://github.com/alabsi91/reanimated-color-picker/releases/download/v5.1.3/app-x86_64-release.apk",
     "digest": "sha256:8cb2d87adc3ec11fe0d759f86377a12111b92fc5fc8e605012f663f612f5c795",
     "download_count": 3
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 171574469,
+   "full_name": "a2633063/SmartControl_Android_MQTT",
+   "owner": "a2633063",
+   "avatar_url": "https://avatars.githubusercontent.com/u/19439881?v=4",
+   "description": "个人智能设备android控制/配置端,可控设备包含ButtonMate/zTC1/zDC1/zA1/zM1/zS7等设备",
+   "stars": 489,
+   "forks": 111,
+   "topics": [
+    "android",
+    "android-application",
+    "android-studio",
+    "mqtt-client",
+    "smarthome",
+    "za1",
+    "zdc1",
+    "zm1",
+    "zs7",
+    "ztc1"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-26T14:09:21Z",
+   "created_at": "2019-02-20T00:49:59Z",
+   "license": null,
+   "language": "Java",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2025-12-16T06:01:44Z"
+  },
+  "release": {
+   "id": 231399819,
+   "tag": "v1.12.3",
+   "name": "APP更新增加应用宝源，修复bug",
+   "notes": "fix: 解决zTC1返回功率校准系数为nan时,app无法设置激活状态的问题\r\nadd: app更新弹窗增加应用宝更新跳转\r\nadd: 更新提示弹窗适配Markdown解析显示,现在在更新提示里可以显示图片了!\r\n![image](https://github.com/user-attachments/assets/3a9bc118-11e8-4587-966b-572d69dd71fa)\r\n",
+   "published_at": "2025-07-10T09:57:33Z",
+   "html_url": "https://github.com/a2633063/SmartControl_Android_MQTT/releases/tag/v1.12.3",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 271648640,
+    "name": "zControl_v1.12.3.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5486779,
+    "download_url": "https://github.com/a2633063/SmartControl_Android_MQTT/releases/download/v1.12.3/zControl_v1.12.3.apk",
+    "digest": "sha256:27a5779b49b8c5a5746e3557bb1b0481859ed125d9b775f3f4f14d562883425d",
+    "download_count": 2112
    }
   ]
  },
@@ -99704,6 +100295,57 @@
   "schema": 1,
   "last_verified": "2026-10-29",
   "repo": {
+   "id": 619085817,
+   "full_name": "Yu2002s/SplitLanzou",
+   "owner": "Yu2002s",
+   "avatar_url": "https://avatars.githubusercontent.com/u/72638117?v=4",
+   "description": "蓝奏云 | 第三方蓝奏云客户端。双面板快速管理文件",
+   "stars": 483,
+   "forks": 14,
+   "topics": [
+    "android",
+    "java",
+    "lanzou",
+    "lanzoucloud",
+    "lanzouwangpan",
+    "lanzouyunpan"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-27T14:54:29Z",
+   "created_at": "2023-03-26T08:15:03Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 4,
+   "watchers": null,
+   "homepage": "https://gitee.com/jdy2002/SplitLanzou",
+   "pushedAt": "2026-08-20T11:54:47Z"
+  },
+  "release": {
+   "id": 373697152,
+   "tag": "1.9.0",
+   "name": "1.9.0",
+   "notes": "**Full Changelog**: https://github.com/Yu2002s/SplitLanzou/compare/1.8.8...1.9.0\r\n\r\n1. 支持访问/Android/data 目录",
+   "published_at": "2026-08-20T11:54:48Z",
+   "html_url": "https://github.com/Yu2002s/SplitLanzou/releases/tag/1.9.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 522188133,
+    "name": "app-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 8662292,
+    "download_url": "https://github.com/Yu2002s/SplitLanzou/releases/download/1.9.0/app-release.apk",
+    "digest": "sha256:29fcc8fceab3b1b7a17c406afc1d40150275e162cc05ae501ef1e86270f55f28",
+    "download_count": 454
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
    "id": 1005396,
    "full_name": "opendocument-app/OpenDocument.droid",
    "owner": "opendocument-app",
@@ -99978,6 +100620,54 @@
   "schema": 1,
   "last_verified": "2026-10-29",
   "repo": {
+   "id": 211003512,
+   "full_name": "xiaoyuanhost/TranspondSms",
+   "owner": "xiaoyuanhost",
+   "avatar_url": "https://avatars.githubusercontent.com/u/46616128?v=4",
+   "description": "1.Android的短信通过邮件或者钉钉转出去    APP下载[http://tsms.allmything.com/topic/3]  讨论社区 [http://tsms.allmything.com]",
+   "stars": 482,
+   "forks": 102,
+   "topics": [
+    "android",
+    "message",
+    "tool"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-09-29T07:45:00Z",
+   "created_at": "2019-09-26T05:01:54Z",
+   "license": "BSD-2-Clause",
+   "language": "Java",
+   "openIssues": 11,
+   "watchers": null,
+   "homepage": "http://tsms.allmything.com",
+   "pushedAt": "2026-06-02T06:30:48Z"
+  },
+  "release": {
+   "id": 39504528,
+   "tag": "v363",
+   "name": "转发消息添加设备和卡备注相关信息",
+   "notes": "",
+   "published_at": "2021-03-09T11:00:29Z",
+   "html_url": "https://github.com/xiaoyuanhost/TranspondSms/releases/tag/v363",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 33187236,
+    "name": "TSMS_release_20210309_3.6.3.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 4072836,
+    "download_url": "https://github.com/xiaoyuanhost/TranspondSms/releases/download/v363/TSMS_release_20210309_3.6.3.apk",
+    "digest": null,
+    "download_count": 1952
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
    "id": 922474276,
    "full_name": "DigitallyRefined/android-ip-camera",
    "owner": "DigitallyRefined",
@@ -100040,6 +100730,94 @@
     "download_url": "https://github.com/DigitallyRefined/android-ip-camera/releases/download/v0.15.0/androidipcamera-0.15.0-universal-release.apk",
     "digest": "sha256:297535de42e46328de2b3b7052729011c4d4cd6b0e9513e6b3add81a3018e994",
     "download_count": 108
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 32623844,
+   "full_name": "MarcusWolschon/osmeditor4android",
+   "owner": "MarcusWolschon",
+   "avatar_url": "https://avatars.githubusercontent.com/u/604692?v=4",
+   "description": "Vespucci is a OpenStreetMap editor for Android",
+   "stars": 481,
+   "forks": 109,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-26T22:24:34Z",
+   "created_at": "2015-03-21T07:25:43Z",
+   "license": "Other",
+   "language": "Java",
+   "openIssues": 219,
+   "watchers": null,
+   "homepage": "http://vespucci.io",
+   "pushedAt": "2026-10-28T07:34:36Z"
+  },
+  "release": {
+   "id": 416434072,
+   "tag": "22.1.3.0",
+   "name": "22.1.3 Release",
+   "notes": "October 2026 maintenance release of 22.1.\r\n\r\nBesides the usual updates this includes improvements to uploading existing images  to Panoramax and Wikimedia Commons on newer devices and should handle permission issues caused by googles ever more restrictive policies some what better.\r\n\r\nNote that the Maproulette integration currently doesn't allow updating the status of tasks as 3rd party access to the API has been taken down, see https://github.com/MarcusWolschon/osmeditor4android/issues/3432 for more information.\r\n\r\nRelease notes: https://vespucci.io/help/en/22.1.0%20Release%20notes/\r\n\r\nChange log: https://github.com/MarcusWolschon/osmeditor4android/blob/22.1-MAINT/CHANGELOG.txt\r\n",
+   "published_at": "2026-10-18T12:21:02Z",
+   "html_url": "https://github.com/MarcusWolschon/osmeditor4android/releases/tag/22.1.3.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 654101489,
+    "name": "vespucci-22.1.3-signed16k.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 126274013,
+    "download_url": "https://github.com/MarcusWolschon/osmeditor4android/releases/download/22.1.3.0/vespucci-22.1.3-signed16k.apk",
+    "digest": "sha256:194d43593a7dc91cb954163c8dfe30c1d98d59fb8f0b7dff5d818d00c599953a",
+    "download_count": 753
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 4475999,
+   "full_name": "Catrobat/Catroid",
+   "owner": "Catrobat",
+   "avatar_url": "https://avatars.githubusercontent.com/u/1747223?v=4",
+   "description": "Writing programs on an Android device without prior knowledge.",
+   "stars": 481,
+   "forks": 847,
+   "topics": [],
+   "archived": false,
+   "default_branch": "develop",
+   "updated_at": "2026-10-26T23:30:40Z",
+   "created_at": "2012-05-29T00:18:04Z",
+   "license": null,
+   "language": "Java",
+   "openIssues": 295,
+   "watchers": null,
+   "homepage": "https://www.catrobat.org/",
+   "pushedAt": "2026-10-26T14:39:30Z"
+  },
+  "release": {
+   "id": 182633954,
+   "tag": "v1.3.0",
+   "name": "v1.3.0",
+   "notes": "## What's Changed\r\n* CATROID-1394 Export projects to Downloads-directory by @Walcho1125 in https://github.com/Catrobat/Catroid/pull/4504\r\n* CATROID-1416 \"Find/search\" in Scripts should ignore trailing spaces by @devsebastian in https://github.com/Catrobat/Catroid/pull/4535\r\n* CATROID-1390 Upload projects via upload.catrob.at only by @Piki2000 in https://github.com/Catrobat/Catroid/pull/4497\r\n* CATROID-1399 Bluetooth export (.catrobat, .dst) by @juliajulie95 in https://github.com/Catrobat/Catroid/pull/4540\r\n* CATROID-1420 [HIGH-PRIORITY] Looks in scenes becomes corrupted after renaming the scene by @dandrawes in https://github.com/Catrobat/Catroid/pull/4545\r\n* CATROID-1419 [HIGH-PRIORITY] Crash with formulas in parameter fields of \"Become focus point with x y flexibility\" by @Rawbat in https://github.com/Catrobat/Catroid/pull/4542\r\n* CATROID-1301 Catrobat Language Test for \"If-Then-Else\" brick by @JayTropper in https://github.com/Catrobat/Catroid/pull/4403\r\n* CATROID-1348 Fix testGlideToSpeedRangeAndDuration.catrobat by @NoQQ in https://github.com/Catrobat/Catroid/pull/4447\r\n* MAINTENANCE: Fix release filename issue by @juliajulie95 in https://github.com/Catrobat/Catroid/pull/4562\r\n* CATROID-1392 CLT for look name and number of looks by @l-ilma in https://github.com/Catrobat/Catroid/pull/4490\r\n* [Maintenance] Upgrade to Paintroid v2.9.1 by @wslany in https://github.com/Catrobat/Catroid/pull/4575\r\n* CATROID-1425 Fix Performance of BrickSearch by @Walcho1125 in https://github.com/Catrobat/Catroid/pull/4547\r\n* DEVOPS-375 MAINTENANCE Add boolean param. for outgoingNetworkCalls, a… by @vargmal in https://github.com/Catrobat/Catroid/pull/4583\r\n* CATROID-1286 Improve constants names by @l-ilma in https://github.com/Catrobat/Catroid/pull/4492\r\n* CATROID-1417 Bug fixed where visual placement is skipped by @dorianpercic in https://github.com/Catrobat/Catroid/pull/4556\r\n* Catroid-1196 Implement search history for the brick search  by @Walcho1125 in https://github.com/Catrobat/C",
+   "published_at": "2024-10-30T09:00:32Z",
+   "html_url": "https://github.com/Catrobat/Catroid/releases/tag/v1.3.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 202799398,
+    "name": "catroid-pocketCode-signedRelease-v1.3.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 143766265,
+    "download_url": "https://github.com/Catrobat/Catroid/releases/download/v1.3.0/catroid-pocketCode-signedRelease-v1.3.0.apk",
+    "digest": null,
+    "download_count": 992
    }
   ]
  },
@@ -119140,64 +119918,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-28",
-  "repo": {
-   "id": 1009740979,
-   "full_name": "WJZ-P/NekoCrypt",
-   "owner": "WJZ-P",
-   "avatar_url": "https://avatars.githubusercontent.com/u/110795301?v=4",
-   "description": "一款Android上的神奇又好用的全局消息加解密软件，包括文字、图片、文件加密。 (｀・ω・´)ﾉ✧",
-   "stars": 361,
-   "forks": 63,
-   "topics": [
-    "accessibilityservice",
-    "android",
-    "android-app",
-    "android-application",
-    "cat",
-    "chat-tool",
-    "encryption-decryption",
-    "encryption-tool",
-    "neko",
-    "qq",
-    "useful",
-    "useful-tools",
-    "wechat"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-15T05:55:50Z",
-   "created_at": "2025-06-27T16:23:03Z",
-   "license": "GPL-2.0",
-   "language": "Kotlin",
-   "openIssues": 7,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-04-28T07:53:48Z"
-  },
-  "release": {
-   "id": 314450618,
-   "tag": "1.6.1",
-   "name": "Release v1.6.1",
-   "notes": "**Full Changelog**: https://github.com/WJZ-P/NekoCrypt/compare/1.6.0...1.6.1\r\n\r\n🐛 Bug 修复\r\n修复了图片文件加密失败的bug。\r\n相册选图无响应：修复 PickVisualMedia 返回的 URI 无法持久化权限的问题，相册选图现在会先复制到缓存再上传\r\n相册选图后 URI 丢失：修复 SharedFlow replay=0 导致 handler 反激活期间发出的 URI 被丢弃的问题\r\n上传文件名显示 unknown：修复缓存文件无法通过 ContentResolver 查询文件名的问题，现在保留原始文件名\r\n预览图空白：修复缓存文件在上传完成前被删除导致 AsyncImage 无法加载的问题，改为对话框关闭时清理\r\n✨ UI 改进\r\n弹簧动画：附件发送对话框增加 scale + fade 弹簧入场/退场动画",
-   "published_at": "2026-04-28T07:53:49Z",
-   "html_url": "https://github.com/WJZ-P/NekoCrypt/releases/tag/1.6.1",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 407215581,
-    "name": "NekoCrypt-v1.6.0-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 2500523,
-    "download_url": "https://github.com/WJZ-P/NekoCrypt/releases/download/1.6.1/NekoCrypt-v1.6.0-release.apk",
-    "digest": "sha256:536d44c145db9ee4e68f11fdda0251bd184a7f608f7efe9e62ebef8455910776",
-    "download_count": 239
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-10-29",
   "repo": {
    "id": 1306166652,
@@ -119446,6 +120166,64 @@
     "download_url": "https://github.com/GetStream/AvengersChat/releases/download/1.1.0/app-debug.apk",
     "digest": null,
     "download_count": 107
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1009740979,
+   "full_name": "WJZ-P/NekoCrypt",
+   "owner": "WJZ-P",
+   "avatar_url": "https://avatars.githubusercontent.com/u/110795301?v=4",
+   "description": "一款Android上的神奇又好用的全局消息加解密软件，包括文字、图片、文件加密。 (｀・ω・´)ﾉ✧",
+   "stars": 360,
+   "forks": 63,
+   "topics": [
+    "accessibilityservice",
+    "android",
+    "android-app",
+    "android-application",
+    "cat",
+    "chat-tool",
+    "encryption-decryption",
+    "encryption-tool",
+    "neko",
+    "qq",
+    "useful",
+    "useful-tools",
+    "wechat"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T15:17:56Z",
+   "created_at": "2025-06-27T16:23:03Z",
+   "license": "GPL-2.0",
+   "language": "Kotlin",
+   "openIssues": 7,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-04-28T07:53:48Z"
+  },
+  "release": {
+   "id": 314450618,
+   "tag": "1.6.1",
+   "name": "Release v1.6.1",
+   "notes": "**Full Changelog**: https://github.com/WJZ-P/NekoCrypt/compare/1.6.0...1.6.1\r\n\r\n🐛 Bug 修复\r\n修复了图片文件加密失败的bug。\r\n相册选图无响应：修复 PickVisualMedia 返回的 URI 无法持久化权限的问题，相册选图现在会先复制到缓存再上传\r\n相册选图后 URI 丢失：修复 SharedFlow replay=0 导致 handler 反激活期间发出的 URI 被丢弃的问题\r\n上传文件名显示 unknown：修复缓存文件无法通过 ContentResolver 查询文件名的问题，现在保留原始文件名\r\n预览图空白：修复缓存文件在上传完成前被删除导致 AsyncImage 无法加载的问题，改为对话框关闭时清理\r\n✨ UI 改进\r\n弹簧动画：附件发送对话框增加 scale + fade 弹簧入场/退场动画",
+   "published_at": "2026-04-28T07:53:49Z",
+   "html_url": "https://github.com/WJZ-P/NekoCrypt/releases/tag/1.6.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 407215581,
+    "name": "NekoCrypt-v1.6.0-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2500523,
+    "download_url": "https://github.com/WJZ-P/NekoCrypt/releases/download/1.6.1/NekoCrypt-v1.6.0-release.apk",
+    "digest": "sha256:536d44c145db9ee4e68f11fdda0251bd184a7f608f7efe9e62ebef8455910776",
+    "download_count": 248
    }
   ]
  },
@@ -119940,71 +120718,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-26",
-  "repo": {
-   "id": 604200671,
-   "full_name": "DanielRendox/RoutineTracker",
-   "owner": "DanielRendox",
-   "avatar_url": "https://avatars.githubusercontent.com/u/107246216?v=4",
-   "description": "An Android planner calendar app and a habit tracker that aims to simplify scheduling consistent activities and tracking your progress.",
-   "stars": 358,
-   "forks": 32,
-   "topics": [
-    "android",
-    "calendar-app",
-    "clean-architecture",
-    "habit-tracker",
-    "jetpack-compose",
-    "junit",
-    "koin",
-    "kotlin",
-    "kotlin-coroutines",
-    "kotlin-flow",
-    "mobile",
-    "mvvm",
-    "offline-first",
-    "planner",
-    "productivity",
-    "routine",
-    "sql",
-    "sqldelight",
-    "testing",
-    "to-do-app"
-   ],
-   "archived": false,
-   "default_branch": "develop",
-   "updated_at": "2026-10-24T14:36:34Z",
-   "created_at": "2023-02-20T14:48:55Z",
-   "license": "GPL-3.0",
-   "language": "Kotlin",
-   "openIssues": 5,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2024-09-23T16:50:34Z"
-  },
-  "release": {
-   "id": 146758060,
-   "tag": "v0.1.0",
-   "name": "v0.1.0",
-   "notes": "Initial release\r\n\r\n_You can notice there was previously another release v0.1.1 but it was erroneously labeled incorrectly, with the actual app version being 0.1.0. So re-released to fix this inconsistency._",
-   "published_at": "2024-03-15T11:13:23Z",
-   "html_url": "https://github.com/DanielRendox/RoutineTracker/releases/tag/v0.1.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 156838577,
-    "name": "routinetracker-v0.1.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 7565394,
-    "download_url": "https://github.com/DanielRendox/RoutineTracker/releases/download/v0.1.0/routinetracker-v0.1.0.apk",
-    "digest": null,
-    "download_count": 6668
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-10-28",
   "repo": {
    "id": 120328696,
@@ -120202,7 +120915,120 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-27",
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 724531401,
+   "full_name": "XFY9326/MiLinkNFC",
+   "owner": "XFY9326",
+   "avatar_url": "https://avatars.githubusercontent.com/u/14016892?v=4",
+   "description": "Xiaomi HyperOS NFC tools",
+   "stars": 358,
+   "forks": 17,
+   "topics": [
+    "android",
+    "nfc",
+    "xiaomi"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-28T05:25:12Z",
+   "created_at": "2023-11-28T09:16:57Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 4,
+   "watchers": null,
+   "homepage": "https://gitee.com/XFY9326/MiLinkNFC",
+   "pushedAt": "2025-01-19T14:38:46Z"
+  },
+  "release": {
+   "id": 195516717,
+   "tag": "2.0.2",
+   "name": "2.0.2",
+   "notes": "**Full Changelog**: https://github.com/XFY9326/MiLinkNFC/compare/2.0.1...2.0.2",
+   "published_at": "2025-01-19T14:41:06Z",
+   "html_url": "https://github.com/XFY9326/MiLinkNFC/releases/tag/2.0.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 221590675,
+    "name": "app-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2768659,
+    "download_url": "https://github.com/XFY9326/MiLinkNFC/releases/download/2.0.2/app-release.apk",
+    "digest": null,
+    "download_count": 2156
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 604200671,
+   "full_name": "DanielRendox/RoutineTracker",
+   "owner": "DanielRendox",
+   "avatar_url": "https://avatars.githubusercontent.com/u/107246216?v=4",
+   "description": "An Android planner calendar app and a habit tracker that aims to simplify scheduling consistent activities and tracking your progress.",
+   "stars": 357,
+   "forks": 32,
+   "topics": [
+    "android",
+    "calendar-app",
+    "clean-architecture",
+    "habit-tracker",
+    "jetpack-compose",
+    "junit",
+    "koin",
+    "kotlin",
+    "kotlin-coroutines",
+    "kotlin-flow",
+    "mobile",
+    "mvvm",
+    "offline-first",
+    "planner",
+    "productivity",
+    "routine",
+    "sql",
+    "sqldelight",
+    "testing",
+    "to-do-app"
+   ],
+   "archived": false,
+   "default_branch": "develop",
+   "updated_at": "2026-10-27T10:08:34Z",
+   "created_at": "2023-02-20T14:48:55Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 5,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2024-09-23T16:50:34Z"
+  },
+  "release": {
+   "id": 146758060,
+   "tag": "v0.1.0",
+   "name": "v0.1.0",
+   "notes": "Initial release\r\n\r\n_You can notice there was previously another release v0.1.1 but it was erroneously labeled incorrectly, with the actual app version being 0.1.0. So re-released to fix this inconsistency._",
+   "published_at": "2024-03-15T11:13:23Z",
+   "html_url": "https://github.com/DanielRendox/RoutineTracker/releases/tag/v0.1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 156838577,
+    "name": "routinetracker-v0.1.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 7565394,
+    "download_url": "https://github.com/DanielRendox/RoutineTracker/releases/download/v0.1.0/routinetracker-v0.1.0.apk",
+    "digest": null,
+    "download_count": 6675
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 444212390,
    "full_name": "SimpleMobileTools/Simple-Keyboard",
@@ -120249,7 +121075,120 @@
     "size": 18955300,
     "download_url": "https://github.com/SimpleMobileTools/Simple-Keyboard/releases/download/5.4.9/keyboard-fdroid-release.apk",
     "digest": null,
-    "download_count": 6915
+    "download_count": 6926
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 659098498,
+   "full_name": "aritra-tech/Notify",
+   "owner": "aritra-tech",
+   "avatar_url": "https://avatars.githubusercontent.com/u/80090908?v=4",
+   "description": "📝 Notify is a simple note application build to demonstrate the use of clean MVVM Architecture with Jetpack Compose and Material-3 guidelines along with some Modern Android development tools.",
+   "stars": 357,
+   "forks": 69,
+   "topics": [
+    "android",
+    "compose",
+    "dependency-injection",
+    "good-first-issue",
+    "hacktoberfest",
+    "hilt-android",
+    "jetpack-compose",
+    "kotlin",
+    "material-design",
+    "mvvm-android",
+    "mvvm-architecture",
+    "note-taking-app",
+    "notes-app",
+    "open-source",
+    "room"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-24T12:49:48Z",
+   "created_at": "2023-06-27T06:20:37Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 32,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-08T12:11:31Z"
+  },
+  "release": {
+   "id": 203178230,
+   "tag": "v.1.10.4",
+   "name": "v.1.10.4",
+   "notes": "## What's Changed\r\n* Shared Element Transition Animations by @aritra-tech in https://github.com/aritra-tech/Notify/pull/488\r\n* Bump com.google.devtools.ksp from 2.0.0-1.0.21 to 2.0.0-1.0.24 by @dependabot in https://github.com/aritra-tech/Notify/pull/523\r\n* Bump io.coil-kt:coil-compose from 2.6.0 to 2.7.0 by @dependabot in https://github.com/aritra-tech/Notify/pull/519\r\n* Bump androidx.test.ext:junit from 1.1.5 to 1.2.1 by @dependabot in https://github.com/aritra-tech/Notify/pull/501\r\n* Bump androidx.test.espresso:espresso-core from 3.5.1 to 3.6.1 by @dependabot in https://github.com/aritra-tech/Notify/pull/500\r\n* [feature/pinning-notes] by @andy-ife in https://github.com/aritra-tech/Notify/pull/540\r\n* Bump androidx.compose:compose-bom from 2024.05.00 to 2025.01.00 by @dependabot in https://github.com/aritra-tech/Notify/pull/569\r\n* Bump com.google.devtools.ksp from 2.0.0-1.0.21 to 2.1.0-1.0.29 by @dependabot in https://github.com/aritra-tech/Notify/pull/565\r\n* Bump kotlin-android from 2.0.0 to 2.0.21 by @dependabot in https://github.com/aritra-tech/Notify/pull/560\r\n* Update dependency androidx.compose:compose-bom to v2025.02.00 by @renovate in https://github.com/aritra-tech/Notify/pull/559\r\n* Bump io.coil-kt:coil-compose from 2.6.0 to 2.7.0 by @dependabot in https://github.com/aritra-tech/Notify/pull/549\r\n* Update dependency androidx.compose.material3:material3-window-size-class to v1.3.1 by @renovate in https://github.com/aritra-tech/Notify/pull/546\r\n* Update dependency androidx.compose.material:material-icons-extended to v1.7.8 - autoclosed by @renovate in https://github.com/aritra-tech/Notify/pull/547\r\n* Update actions/upload-artifact action to v3.2.1 by @renovate in https://github.com/aritra-tech/Notify/pull/544\r\n* Update dependency androidx.activity:activity-compose to v1.10.1 by @renovate in https://github.com/aritra-tech/Notify/pull/543\r\n\r\n## New Contributors\r\n* @andy-ife made their first contribution in https://github.com/aritra-tech/Notify/pull/540\r\n\r\n**Ful",
+   "published_at": "2025-03-01T17:50:10Z",
+   "html_url": "https://github.com/aritra-tech/Notify/releases/tag/v.1.10.4",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 235144758,
+    "name": "Notify.v.1.10.4.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 3638485,
+    "download_url": "https://github.com/aritra-tech/Notify/releases/download/v.1.10.4/Notify.v.1.10.4.apk",
+    "digest": null,
+    "download_count": 318
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 220802452,
+   "full_name": "Chrisvin/EasyReveal",
+   "owner": "Chrisvin",
+   "avatar_url": "https://avatars.githubusercontent.com/u/20887005?v=4",
+   "description": "Android Easy Reveal Library",
+   "stars": 356,
+   "forks": 23,
+   "topics": [
+    "android",
+    "android-library",
+    "clip",
+    "easy",
+    "easyreveal",
+    "library",
+    "reveal",
+    "reveal-animations"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-02T11:19:23Z",
+   "created_at": "2019-11-10T14:35:12Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2020-12-11T15:10:15Z"
+  },
+  "release": {
+   "id": 21598526,
+   "tag": "1.2",
+   "name": "EasyReveal 1.2",
+   "notes": "Added dokka documentation plugin related repositories & dependencies directly in the EasyReveal build.gradle\r\n\r\nEasyReveal library now uses fixed kotlin version (1.3.50)\r\n\r\nResolves [issue #1](https://github.com/Chrisvin/EasyReveal/issues/1)",
+   "published_at": "2019-11-19T20:22:21Z",
+   "html_url": "https://github.com/Chrisvin/EasyReveal/releases/tag/1.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 16267688,
+    "name": "EasyRevealDemo.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2526544,
+    "download_url": "https://github.com/Chrisvin/EasyReveal/releases/download/1.2/EasyRevealDemo.apk",
+    "digest": null,
+    "download_count": 289
    }
   ]
  },
@@ -120557,7 +121496,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-27",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 817915471,
    "full_name": "VishnuSanal/WhatsAppCleaner",
@@ -120604,7 +121543,7 @@
     "size": 1852481,
     "download_url": "https://github.com/VishnuSanal/WhatsAppCleaner/releases/download/v1.4.1/whatsapp-cleaner-v1.4.1.apk",
     "digest": "sha256:9957c78f0f6e97cd019fcc7d3b451d1a74db8bc8b34ef081338bb557d8947f3a",
-    "download_count": 3224
+    "download_count": 3264
    }
   ]
  },
@@ -120714,6 +121653,158 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 471998778,
+   "full_name": "sweakpl/qralarm-android",
+   "owner": "sweakpl",
+   "avatar_url": "https://avatars.githubusercontent.com/u/70141120?v=4",
+   "description": "QRAlarm is an Android alarm clock application that lets the user turn off alarms by scanning the QR Code.",
+   "stars": 353,
+   "forks": 29,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-26T22:39:51Z",
+   "created_at": "2022-03-20T14:07:55Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 9,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-26T22:39:47Z"
+  },
+  "release": {
+   "id": 423302099,
+   "tag": "2.11.4",
+   "name": "Release 2.11.4",
+   "notes": "## Changes\r\n* UI improvements,\r\n* Bug fixes.\r\n",
+   "published_at": "2026-10-26T10:51:40Z",
+   "html_url": "https://github.com/sweakpl/qralarm-android/releases/tag/2.11.4",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 674670328,
+    "name": "qralarm-2.11.4.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 19656476,
+    "download_url": "https://github.com/sweakpl/qralarm-android/releases/download/2.11.4/qralarm-2.11.4.apk",
+    "digest": "sha256:19561cbc9848ff879b315565e88bb5225b378f618b5ea05f3624a1f76cefeee6",
+    "download_count": 194
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1141698997,
+   "full_name": "Doryoku1223/TabulaV3",
+   "owner": "Doryoku1223",
+   "avatar_url": "https://avatars.githubusercontent.com/u/112797174?v=4",
+   "description": "Tabula V3 - 极简相册整理工具 | Tinder风格卡片交互，单手滑动整理照片。100%本地处理，免费无广告，隐私安全。",
+   "stars": 353,
+   "forks": 14,
+   "topics": [
+    "android",
+    "free",
+    "jetpack-compose",
+    "kotlin",
+    "material-design",
+    "photo-cleaner",
+    "photo-manager",
+    "photo-organizer"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-28T14:52:12Z",
+   "created_at": "2026-01-25T09:09:25Z",
+   "license": "Other",
+   "language": "Kotlin",
+   "openIssues": 14,
+   "watchers": null,
+   "homepage": "https://github.com/Doryoku1223/TabulaV3/releases/latest",
+   "pushedAt": "2026-02-09T12:41:16Z"
+  },
+  "release": {
+   "id": 284379622,
+   "tag": "V3.3.3",
+   "name": "V3.3.3",
+   "notes": "###  本次更新为您带来了更精细化的管理体验：\r\n\r\n新增图集屏蔽功能：您可以手动隐藏或屏蔽不需要扫描的图集，让整理更聚焦，隐私更安全。\r\n\r\n按月份专清：支持在图集内按月份筛选并进行专项清理，查找和删除旧照片更加高效。\r\n\r\n新增回收站图集排序功能。\r\n\r\n优化了部分功能的性能体验。",
+   "published_at": "2026-02-09T12:13:39Z",
+   "html_url": "https://github.com/Doryoku1223/TabulaV3/releases/tag/V3.3.3",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 353066804,
+    "name": "TabulaV3.3.3.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 28820441,
+    "download_url": "https://github.com/Doryoku1223/TabulaV3/releases/download/V3.3.3/TabulaV3.3.3.apk",
+    "digest": "sha256:b689638e34bcc3ccbed8e37ac94bc1946f75160b84551cb4f545c74c8e8f3df2",
+    "download_count": 4079
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 997507965,
+   "full_name": "chindaronit/Flux",
+   "owner": "chindaronit",
+   "avatar_url": "https://avatars.githubusercontent.com/u/103933693?v=4",
+   "description": "Flux is an open-source Android app built around flexible workspaces and customizable spaces—enabling you to organize notes, journals, tasks, events, and more, while adapting to your own systems as it evolves.",
+   "stars": 353,
+   "forks": 20,
+   "topics": [
+    "android",
+    "awesome",
+    "free",
+    "jetpack-compose",
+    "kotlin",
+    "notes",
+    "open-source",
+    "room",
+    "tasks",
+    "worspaces"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-27T19:01:48Z",
+   "created_at": "2025-06-06T16:41:38Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 8,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-25T11:21:41Z"
+  },
+  "release": {
+   "id": 423351719,
+   "tag": "v3.2.5",
+   "name": "v3.2.5",
+   "notes": "feat:\r\n    - Added horizontal paging in workspace details to swipe between spaces.\r\n    - Added a single habit analytics widget to track weekly progress, streaks, heatmap for last 30 days.\r\n\r\nfix:\r\n    - Fixed the to-do widget disappearing on days when no tasks are scheduled.\r\n    - Fixed spacing issues in workspace details.\r\n    - Made note task lists scrollable.\r\n    - Made the storage selection page scrollable.\r\n\r\nchore:\r\n    - Upgraded version to 3.2.5 (22) for release.",
+   "published_at": "2026-10-25T11:21:41Z",
+   "html_url": "https://github.com/chindaronit/Flux/releases/tag/v3.2.5",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 674850506,
+    "name": "Flux.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 14086122,
+    "download_url": "https://github.com/chindaronit/Flux/releases/download/v3.2.5/Flux.apk",
+    "digest": "sha256:6c4289089dba1153b505453e3a4940505f6e56f901be6882e563d0b94495e05f",
+    "download_count": 240
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-26",
   "repo": {
    "id": 78352260,
@@ -120762,6 +121853,86 @@
     "download_url": "https://github.com/XboxYan/DYTT/releases/download/v2.2/app-armeabi-v7a-release.apk",
     "digest": null,
     "download_count": 3541
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1248307528,
+   "full_name": "SpaceNeuroX/proxy-turn-vk-android",
+   "owner": "SpaceNeuroX",
+   "avatar_url": "https://avatars.githubusercontent.com/u/175625208?v=4",
+   "description": null,
+   "stars": 352,
+   "forks": 36,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-26T05:55:21Z",
+   "created_at": "2026-05-24T13:23:49Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 30,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-24T09:28:56Z"
+  },
+  "release": {
+   "id": 387864681,
+   "tag": "v1.4.4",
+   "name": "qWDTT v1.4.4",
+   "notes": "**Full Changelog**: https://github.com/SpaceNeuroX/proxy-turn-vk-android/compare/v1.4.3...v1.4.4",
+   "published_at": "2026-09-13T10:30:42Z",
+   "html_url": "https://github.com/SpaceNeuroX/proxy-turn-vk-android/releases/tag/v1.4.4",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 561018991,
+    "name": "qwdtt-1.4.4-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 21518372,
+    "download_url": "https://github.com/SpaceNeuroX/proxy-turn-vk-android/releases/download/v1.4.4/qwdtt-1.4.4-arm64-v8a.apk",
+    "digest": "sha256:3a576075a4cf2c4fd72696cc611f9332169460309105bda711f4d016a71d8f67",
+    "download_count": 4274
+   },
+   {
+    "id": 561018994,
+    "name": "qwdtt-1.4.4-armeabi-v7a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 21804561,
+    "download_url": "https://github.com/SpaceNeuroX/proxy-turn-vk-android/releases/download/v1.4.4/qwdtt-1.4.4-armeabi-v7a.apk",
+    "digest": "sha256:5d48adbc2c717fdcde6706dfb5ee7de6265c5932903e113a1914a8441ae2300e",
+    "download_count": 248
+   },
+   {
+    "id": 561018989,
+    "name": "qwdtt-1.4.4-universal.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 38622923,
+    "download_url": "https://github.com/SpaceNeuroX/proxy-turn-vk-android/releases/download/v1.4.4/qwdtt-1.4.4-universal.apk",
+    "digest": "sha256:66d965539d0cf54de6e0f2648938fc6a99280733ced3b1b6956ee73419fd6620",
+    "download_count": 10606
+   },
+   {
+    "id": 561018992,
+    "name": "qwdtt-1.4.4-x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 22045666,
+    "download_url": "https://github.com/SpaceNeuroX/proxy-turn-vk-android/releases/download/v1.4.4/qwdtt-1.4.4-x86_64.apk",
+    "digest": "sha256:7f9588d7219b0739b5be159c7bf35c648792d406874ba36d1c359038b2c717e6",
+    "download_count": 98
+   },
+   {
+    "id": 561018987,
+    "name": "SHA256SUMS.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 375,
+    "download_url": "https://github.com/SpaceNeuroX/proxy-turn-vk-android/releases/download/v1.4.4/SHA256SUMS.txt",
+    "digest": "sha256:1a6e6bdf0b1cfa957708388215475728ca93aadf1c727f2449e419a616c8e24d",
+    "download_count": 58
    }
   ]
  },
@@ -120824,6 +121995,175 @@
     "download_url": "https://github.com/MovingBlocks/DestinationSol/releases/download/v2.1.0/DestinationSol.zip",
     "digest": null,
     "download_count": 532
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1270568813,
+   "full_name": "Hy4ri/hermes-mobile",
+   "owner": "Hy4ri",
+   "avatar_url": "https://avatars.githubusercontent.com/u/41645758?v=4",
+   "description": "Native Android app for Hermes Agent. Your agent, in your pocket.",
+   "stars": 351,
+   "forks": 79,
+   "topics": [
+    "ai",
+    "android",
+    "apk",
+    "hermes",
+    "hermes-agent",
+    "jetpack-compose",
+    "kotlin",
+    "mobile",
+    "native"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-29T06:49:15Z",
+   "created_at": "2026-06-15T20:59:22Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "https://hy4ri.github.io/hermes-mobile/",
+   "pushedAt": "2026-10-29T06:49:13Z"
+  },
+  "release": {
+   "id": 427528918,
+   "tag": "v2.8.0",
+   "name": "v2.8.0",
+   "notes": "## What's Changed\n* chore(nix): add pinned Android CLI to the dev shell by @Hy4ri in https://github.com/Hy4ri/hermes-mobile/pull/1713\n* fix(nix): give android-cli the X11 libs preview render needs by @Hy4ri in https://github.com/Hy4ri/hermes-mobile/pull/1714\n* fix(#1717): avoid insert-first conflicts on replayed messages by @Hy4ri in https://github.com/Hy4ri/hermes-mobile/pull/1718\n* fix(#1716): release pending reasoning state on cancellation by @Hy4ri in https://github.com/Hy4ri/hermes-mobile/pull/1719\n* feat(#1715): browse remote folders when editing projects by @Hy4ri in https://github.com/Hy4ri/hermes-mobile/pull/1720\n* fix(#1721): sync composer model with live usage by @Hy4ri in https://github.com/Hy4ri/hermes-mobile/pull/1722\n\n\n**Full Changelog**: https://github.com/Hy4ri/hermes-mobile/compare/v2.7.9...v2.8.0",
+   "published_at": "2026-10-29T06:25:52Z",
+   "html_url": "https://github.com/Hy4ri/hermes-mobile/releases/tag/v2.8.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 687590816,
+    "name": "hermes-mobile-v2.8.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 15795763,
+    "download_url": "https://github.com/Hy4ri/hermes-mobile/releases/download/v2.8.0/hermes-mobile-v2.8.0.apk",
+    "digest": "sha256:8b86e02c04665980f0e5298800a62fd9943dfb31fcc7615da53420b4b470f333",
+    "download_count": 276
+   },
+   {
+    "id": 687590814,
+    "name": "SHA256SUMS",
+    "content_type": "application/octet-stream",
+    "size": 169,
+    "download_url": "https://github.com/Hy4ri/hermes-mobile/releases/download/v2.8.0/SHA256SUMS",
+    "digest": "sha256:e105e7143a3efc938bfac39d0dda99e57215d561cdc4abccfe1256b26949989d",
+    "download_count": 5
+   },
+   {
+    "id": 687590810,
+    "name": "version.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 36,
+    "download_url": "https://github.com/Hy4ri/hermes-mobile/releases/download/v2.8.0/version.txt",
+    "digest": "sha256:6613f8732305e27f95672fdb4bda0ce278498d6b27ace22f5726b5e5877b1b2e",
+    "download_count": 3
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 529307026,
+   "full_name": "dubrowgn/wattz",
+   "owner": "dubrowgn",
+   "avatar_url": "https://avatars.githubusercontent.com/u/1294253?v=4",
+   "description": "An Android battery power status bar indicator",
+   "stars": 351,
+   "forks": 31,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-21T00:13:56Z",
+   "created_at": "2022-08-26T15:17:15Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 44,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-08T20:25:20Z"
+  },
+  "release": {
+   "id": 238085474,
+   "tag": "v1.20",
+   "name": "v1.20",
+   "notes": "* Add Spanish language translations (contributed by @frdarko)",
+   "published_at": "2025-08-06T19:37:00Z",
+   "html_url": "https://github.com/dubrowgn/wattz/releases/tag/v1.20",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 280009431,
+    "name": "wattz-1.20.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 678828,
+    "download_url": "https://github.com/dubrowgn/wattz/releases/download/v1.20/wattz-1.20.apk",
+    "digest": "sha256:e6c41fd0c3d47418aa3a643d127347c48066a07a611320fe1ee1e1566ad01e3b",
+    "download_count": 5882
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 709530733,
+   "full_name": "fibelatti/photo-widget",
+   "owner": "fibelatti",
+   "avatar_url": "https://avatars.githubusercontent.com/u/3277516?v=4",
+   "description": "Material Photo Widget is as simple as it can be: an Android home screen widget to display your favorite photos. It is a free, no-ads, open source alternative for people who want to customize their home screen.",
+   "stars": 351,
+   "forks": 22,
+   "topics": [
+    "android",
+    "compose",
+    "coroutines",
+    "jetpack",
+    "jetpack-compose",
+    "kotlin",
+    "material",
+    "widget"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T07:12:08Z",
+   "created_at": "2023-10-24T21:42:39Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 7,
+   "watchers": null,
+   "homepage": "https://play.google.com/store/apps/details?id=com.fibelatti.photowidget",
+   "pushedAt": "2026-10-28T18:53:10Z"
+  },
+  "release": {
+   "id": 422748025,
+   "tag": "v1.48.1",
+   "name": "v1.48.1",
+   "notes": "This version brings the following updates:\n\n* Widgets with many photos now load faster and use fewer resources\n\nThanks for using the app!\n",
+   "published_at": "2026-10-24T13:26:15Z",
+   "html_url": "https://github.com/fibelatti/photo-widget/releases/tag/v1.48.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 672335831,
+    "name": "com.fibelatti.photowidget-v1.48.1-1480100-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 4759873,
+    "download_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.48.1/com.fibelatti.photowidget-v1.48.1-1480100-release.apk",
+    "digest": "sha256:c13b69f3ef78e1e032e98abf6819211fbeb4ab9d56474fef3766aec49ee75d31",
+    "download_count": 558
    }
   ]
  },
@@ -121045,7 +122385,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 231891447,
    "full_name": "cliuff/boundo",
@@ -121090,7 +122430,7 @@
     "size": 9823856,
     "download_url": "https://github.com/cliuff/boundo/releases/download/v5.1.2/Meta-app-5.1.2-foss.apk",
     "digest": "sha256:6f233f12250a7c9c5cf3525b0fe9b43016679bcefa958eb718bfade8ebda582c",
-    "download_count": 198
+    "download_count": 202
    },
    {
     "id": 479937514,
@@ -121100,6 +122440,118 @@
     "download_url": "https://github.com/cliuff/boundo/releases/download/v5.1.2/Meta-app-5.1.2-full.apk",
     "digest": "sha256:c9cc21a0b1956f8022e236b35ec9fa61692a68ccbd9bb4de908a93821fc758e5",
     "download_count": 206
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 94566365,
+   "full_name": "openMF/mifos-pay",
+   "owner": "openMF",
+   "avatar_url": "https://avatars.githubusercontent.com/u/3473607?v=4",
+   "description": "A reference implementation of Mifos platform wallet and payment capabilities.  Default branch is Dev for Pull Requests.  Main is release code and subject to release process.",
+   "stars": 350,
+   "forks": 578,
+   "topics": [
+    "android",
+    "cmp",
+    "compose-multiplatform",
+    "compose-multiplatform-sample",
+    "fineract",
+    "hacktoberfest",
+    "kmm",
+    "kmp",
+    "kotlin",
+    "kotlin-multiplatform",
+    "kotlin-multiplatform-mobile",
+    "kotlin-multiplatform-sample",
+    "wallet"
+   ],
+   "archived": false,
+   "default_branch": "dev",
+   "updated_at": "2026-10-28T22:52:55Z",
+   "created_at": "2017-06-16T17:22:57Z",
+   "license": "MPL-2.0",
+   "language": "Kotlin",
+   "openIssues": 27,
+   "watchers": null,
+   "homepage": "https://openmf.github.io/mifos-pay/",
+   "pushedAt": "2026-10-15T03:57:38Z"
+  },
+  "release": {
+   "id": 233733370,
+   "tag": "2025.7.4-beta.0.0",
+   "name": "2025.7.4-beta.0.0",
+   "notes": "## What's Changed\r\n* chore(docs): Updated module graph by @niyajali in https://github.com/openMF/mobile-wallet/pull/1840\r\n* chore(actions): Migrated Android & iOS Workflows to use Fastlane by @niyajali in https://github.com/openMF/mobile-wallet/pull/1841\r\n* [fix] Fix typo: ktrofit to ktorfit by @biplab1 in https://github.com/openMF/mobile-wallet/pull/1842\r\n* docs: Update module dependency graphs by @biplab1 in https://github.com/openMF/mobile-wallet/pull/1844\r\n* docs: Update :core:designsystem dependency and dependency graphs by @biplab1 in https://github.com/openMF/mobile-wallet/pull/1845\r\n* chore(fastlane): Refactor Fastlane configuration and workflows by @niyajali in https://github.com/openMF/mobile-wallet/pull/1846\r\n* feat(fastlane): Update Firebase production app ID by @niyajali in https://github.com/openMF/mobile-wallet/pull/1847\r\n* fix: Added jira and zoom link in Readme.md file by @aritra-tech in https://github.com/openMF/mobile-wallet/pull/1850\r\n* Update Zoom Link with Current Standup Link by @revanthkumarJ in https://github.com/openMF/mobile-wallet/pull/1854\r\n* enhancement: Keyboard will close automatically when we change tabs by @TheKalpeshPawar in https://github.com/openMF/mobile-wallet/pull/1858\r\n* Fix : KYC screen scroll issue on orientation change by @AbdelrahmanKarim in https://github.com/openMF/mobile-wallet/pull/1860\r\n* MW-167: Fixed dark theme for the whole app. by @TheKalpeshPawar in https://github.com/openMF/mobile-wallet/pull/1859\r\n* chore: Updated Workflow Name & Version by @niyajali in https://github.com/openMF/mobile-wallet/pull/1862\r\n* chore: Added Compose Preview Dependency on UI Module by @kpatel2000 in https://github.com/openMF/mobile-wallet/pull/1863\r\n* Update Readme with updated Code of conduct and contributor agreement by @DavidH-1 in https://github.com/openMF/mobile-wallet/pull/1865\r\n* Update testers group name for app distribution by @HekmatullahAmin in https://github.com/openMF/mobile-wallet/pull/1867\r\n* Logout on Unauthorized acce",
+   "published_at": "2025-07-20T05:51:02Z",
+   "html_url": "https://github.com/openMF/mifos-pay/releases/tag/2025.7.4-beta.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 274567501,
+    "name": "mifospay-android-demo-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 44756164,
+    "download_url": "https://github.com/openMF/mifos-pay/releases/download/2025.7.4-beta.0.0/mifospay-android-demo-release.apk",
+    "digest": "sha256:f147a58da692cf3469609a4acef39ff55efc524d5ba30dae41886afd8f0f46ed",
+    "download_count": 133
+   },
+   {
+    "id": 274567503,
+    "name": "mifospay-android-prod-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 44756143,
+    "download_url": "https://github.com/openMF/mifos-pay/releases/download/2025.7.4-beta.0.0/mifospay-android-prod-release.apk",
+    "digest": "sha256:b59de391a6ef1b3d114c822970476422c2778299b967271fe91b0331991e90fc",
+    "download_count": 56
+   },
+   {
+    "id": 274567508,
+    "name": "mifospay-web.zip",
+    "content_type": "application/zip",
+    "size": 8313519,
+    "download_url": "https://github.com/openMF/mifos-pay/releases/download/2025.7.4-beta.0.0/mifospay-web.zip",
+    "digest": "sha256:2960d030a383701859ee7cd8fdbe559fcd008c8eafe4bed19e861e539b8ecb81",
+    "download_count": 38
+   },
+   {
+    "id": 274567499,
+    "name": "MifosWallet-1.0.0.dmg",
+    "content_type": "application/octet-stream",
+    "size": 96887618,
+    "download_url": "https://github.com/openMF/mifos-pay/releases/download/2025.7.4-beta.0.0/MifosWallet-1.0.0.dmg",
+    "digest": "sha256:9d061a1f04e2735e972eeae4734869f333c5af893220459e21e8b9ececbe792c",
+    "download_count": 15
+   },
+   {
+    "id": 274567502,
+    "name": "MifosWallet-1.0.0.exe",
+    "content_type": "application/octet-stream",
+    "size": 85963776,
+    "download_url": "https://github.com/openMF/mifos-pay/releases/download/2025.7.4-beta.0.0/MifosWallet-1.0.0.exe",
+    "digest": "sha256:46a61fa8b6a618bc4ab95460606faf19620660c071da2b576415631a33cf9b26",
+    "download_count": 41
+   },
+   {
+    "id": 274567505,
+    "name": "MifosWallet-1.0.0.msi",
+    "content_type": "application/octet-stream",
+    "size": 85209284,
+    "download_url": "https://github.com/openMF/mifos-pay/releases/download/2025.7.4-beta.0.0/MifosWallet-1.0.0.msi",
+    "digest": "sha256:c27c76c85f2171f6ecf05ba52e1693be5b85a4d930ff4025574c21d95724e2e0",
+    "download_count": 11
+   },
+   {
+    "id": 274567507,
+    "name": "mifoswallet_1.0.0-1_amd64.deb",
+    "content_type": "application/octet-stream",
+    "size": 70481034,
+    "download_url": "https://github.com/openMF/mifos-pay/releases/download/2025.7.4-beta.0.0/mifoswallet_1.0.0-1_amd64.deb",
+    "digest": "sha256:3980be2010c55df875c28047f0c54d2648f33288cdf14fe5eb4d23ebb93973a5",
+    "download_count": 10
    }
   ]
  },
@@ -121279,73 +122731,94 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-29",
   "repo": {
-   "id": 1270568813,
-   "full_name": "Hy4ri/hermes-mobile",
-   "owner": "Hy4ri",
-   "avatar_url": "https://avatars.githubusercontent.com/u/41645758?v=4",
-   "description": "Native Android app for Hermes Agent. Your agent, in your pocket.",
+   "id": 666417818,
+   "full_name": "iamr0s/AndroidAccounts",
+   "owner": "iamr0s",
+   "avatar_url": "https://avatars.githubusercontent.com/u/41138521?v=4",
+   "description": null,
    "stars": 349,
-   "forks": 79,
-   "topics": [
-    "ai",
-    "android",
-    "apk",
-    "hermes",
-    "hermes-agent",
-    "jetpack-compose",
-    "kotlin",
-    "mobile",
-    "native"
-   ],
+   "forks": 9,
+   "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-28T09:31:18Z",
-   "created_at": "2026-06-15T20:59:22Z",
-   "license": "Apache-2.0",
+   "updated_at": "2026-10-27T16:20:25Z",
+   "created_at": "2023-07-14T13:16:55Z",
+   "license": null,
    "language": "Kotlin",
-   "openIssues": 1,
+   "openIssues": 5,
    "watchers": null,
-   "homepage": "https://hy4ri.github.io/hermes-mobile/",
-   "pushedAt": "2026-10-28T04:39:06Z"
+   "homepage": null,
+   "pushedAt": "2023-07-19T09:18:47Z"
   },
   "release": {
-   "id": 425974449,
-   "tag": "v2.7.8",
-   "name": "v2.7.8",
-   "notes": "**Full Changelog**: https://github.com/Hy4ri/hermes-mobile/compare/v2.7.6...v2.7.8",
-   "published_at": "2026-10-27T20:55:00Z",
-   "html_url": "https://github.com/Hy4ri/hermes-mobile/releases/tag/v2.7.8",
+   "id": 112743744,
+   "tag": "v1.5",
+   "name": "1.5",
+   "notes": "- Modern design, modular code\r\n\r\n---\r\n\r\n- 现代设计，模块化代码",
+   "published_at": "2023-07-19T01:03:54Z",
+   "html_url": "https://github.com/iamr0s/AndroidAccounts/releases/tag/v1.5",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 682850169,
-    "name": "hermes-mobile-v2.7.8.apk",
+    "id": 117652379,
+    "name": "Accounts_v1.5.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 15776415,
-    "download_url": "https://github.com/Hy4ri/hermes-mobile/releases/download/v2.7.8/hermes-mobile-v2.7.8.apk",
-    "digest": "sha256:5f5898d2c7bbd5c1ae56e329a4ab7aec9e24091851bfe7b7c8b2641e768b0074",
-    "download_count": 487
-   },
+    "size": 1634895,
+    "download_url": "https://github.com/iamr0s/AndroidAccounts/releases/download/v1.5/Accounts_v1.5.apk",
+    "digest": null,
+    "download_count": 30702
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 307544369,
+   "full_name": "sal0max/currencies",
+   "owner": "sal0max",
+   "avatar_url": "https://avatars.githubusercontent.com/u/423373?v=4",
+   "description": "An exchange rates currency converter for Android",
+   "stars": 349,
+   "forks": 33,
+   "topics": [
+    "android",
+    "currency-converter",
+    "kotlin",
+    "material-design"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-26T11:57:03Z",
+   "created_at": "2020-10-27T00:45:38Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 23,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-09-29T00:31:09Z"
+  },
+  "release": {
+   "id": 233779903,
+   "tag": "1.23.0",
+   "name": "",
+   "notes": "- The main display now shows the current conversion rate in the bottom right corner.\r\n- Fix an issue where currency symbols were wrong, when using data from Norges Bank.\r\n- New supported language: Danish 🇩🇰\r\n- Various improved translations. Thanks to all volunteers!\r\n- Various little improvements to keep the app reliable.\r\n",
+   "published_at": "2025-07-20T23:06:14Z",
+   "html_url": "https://github.com/sal0max/currencies/releases/tag/1.23.0",
+   "prerelease": false
+  },
+  "assets": [
    {
-    "id": 682850170,
-    "name": "SHA256SUMS",
-    "content_type": "application/octet-stream",
-    "size": 169,
-    "download_url": "https://github.com/Hy4ri/hermes-mobile/releases/download/v2.7.8/SHA256SUMS",
-    "digest": "sha256:04c1c31afadfa1d9c7a099185f085ab45a3e1af74cfe8d8f7334a02c5dc1128c",
-    "download_count": 5
-   },
-   {
-    "id": 682850167,
-    "name": "version.txt",
-    "content_type": "text/plain; charset=utf-8",
-    "size": 36,
-    "download_url": "https://github.com/Hy4ri/hermes-mobile/releases/download/v2.7.8/version.txt",
-    "digest": "sha256:19b5e5a7ba5d209d75503209bdef1536e42bbee48a213498c048d798e9fc6d89",
-    "download_count": 5
+    "id": 274714392,
+    "name": "de.salomax.currencies-v12300-play-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 3980506,
+    "download_url": "https://github.com/sal0max/currencies/releases/download/1.23.0/de.salomax.currencies-v12300-play-release.apk",
+    "digest": "sha256:3358ee9e8be1e34640cbbaca2fbed78274c38aed4e93e170453eb6d24b3e0164",
+    "download_count": 2768
    }
   ]
  },
@@ -121468,7 +122941,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-26",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 1100831459,
    "full_name": "JB-SelfCompany/Tyr",
@@ -121510,7 +122983,7 @@
     "size": 13209934,
     "download_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.8.1/Tyr-1.8.1-arm64-v8a.apk",
     "digest": "sha256:c3f2c48b8576b4d91f268ce886db3af383da488f494f80abbcae08b1106300d3",
-    "download_count": 2372
+    "download_count": 2375
    },
    {
     "id": 395965216,
@@ -121552,7 +123025,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 908358247,
    "full_name": "dessalines/habit-maker",
@@ -121567,14 +123040,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-25T09:30:12Z",
+   "updated_at": "2026-10-28T12:04:14Z",
    "created_at": "2024-12-25T21:15:13Z",
    "license": "AGPL-3.0",
    "language": "Kotlin",
    "openIssues": 5,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-24T08:35:48Z"
+   "pushedAt": "2026-10-27T01:32:44Z"
   },
   "release": {
    "id": 415292905,
@@ -121593,7 +123066,7 @@
     "size": 2870347,
     "download_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.58/habit-maker-fdroid-0.0.58.apk",
     "digest": "sha256:7bbb2c0a1fddaf2b4a135b7c730be4234e8c6652900b14a86f1a8bf2b1905661",
-    "download_count": 33
+    "download_count": 39
    },
    {
     "id": 648318528,
@@ -121602,7 +123075,7 @@
     "size": 3210012,
     "download_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.58/habit-maker-full-0.0.58.apk",
     "digest": "sha256:d22fa212e798c7ffcf1061cd658f15b1cc71f766275714215e56591fe65b9e2c",
-    "download_count": 62
+    "download_count": 75
    },
    {
     "id": 648318622,
@@ -121611,13 +123084,13 @@
     "size": 3127662,
     "download_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.58/habit-maker-wearos-0.0.58.apk",
     "digest": "sha256:c0b8422bad93005e64c7f427994c8f11551016f20dde8efa493e4eb696572099",
-    "download_count": 4
+    "download_count": 5
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-27",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 269843045,
    "full_name": "PurpleI2P/i2pd-android",
@@ -121639,7 +123112,7 @@
    ],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-10-24T09:34:54Z",
+   "updated_at": "2026-10-28T17:14:31Z",
    "created_at": "2020-06-06T02:27:54Z",
    "license": "BSD-3-Clause",
    "language": "Kotlin",
@@ -121665,7 +123138,7 @@
     "size": 7254284,
     "download_url": "https://github.com/PurpleI2P/i2pd-android/releases/download/3.0.0/i2pd-3.0.0-arm64-v8a-release.apk",
     "digest": "sha256:32a4336baebe27c9b2d6c33ebb501ee0839e7be1d7fff3b073222a3d9fd69111",
-    "download_count": 316
+    "download_count": 361
    },
    {
     "id": 670948614,
@@ -121674,7 +123147,7 @@
     "size": 5729511,
     "download_url": "https://github.com/PurpleI2P/i2pd-android/releases/download/3.0.0/i2pd-3.0.0-armeabi-v7a-release.apk",
     "digest": "sha256:0b890baba129bdcee179bd7069f2f6c1cc804dc69506abed56e7ca735f74b407",
-    "download_count": 33
+    "download_count": 35
    },
    {
     "id": 670948647,
@@ -121683,7 +123156,7 @@
     "size": 20801135,
     "download_url": "https://github.com/PurpleI2P/i2pd-android/releases/download/3.0.0/i2pd-3.0.0-universal-release.apk",
     "digest": "sha256:bf49984569cfef974763623d4580c3c87322453fde11db3133c6715d6fbac64d",
-    "download_count": 86
+    "download_count": 108
    },
    {
     "id": 670948735,
@@ -121710,7 +123183,110 @@
     "size": 18764834,
     "download_url": "https://github.com/PurpleI2P/i2pd-android/releases/download/3.0.0/i2pd_3.0.0_android_binary.zip",
     "digest": "sha256:38b7ab84347153bd048134d6d2a13a7582a70b0c90d2e63261608223e752b9d6",
-    "download_count": 6
+    "download_count": 8
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 52680091,
+   "full_name": "ykrank/S1-Next",
+   "owner": "ykrank",
+   "avatar_url": "https://avatars.githubusercontent.com/u/6565673?v=4",
+   "description": "A STAGE1 Android App",
+   "stars": 347,
+   "forks": 35,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-21T06:09:09Z",
+   "created_at": "2016-02-27T17:47:43Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-06-04T07:09:04Z"
+  },
+  "release": {
+   "id": 14744830,
+   "tag": "v2.1.2-56",
+   "name": "2.1.2-56",
+   "notes": "",
+   "published_at": "2018-12-30T13:07:21Z",
+   "html_url": "https://github.com/ykrank/S1-Next/releases/tag/v2.1.2-56",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 10355308,
+    "name": "S1NextGoose-2.1.2-56.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 7037243,
+    "download_url": "https://github.com/ykrank/S1-Next/releases/download/v2.1.2-56/S1NextGoose-2.1.2-56.apk",
+    "digest": null,
+    "download_count": 17125
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 108241871,
+   "full_name": "rock3r/uplift",
+   "owner": "rock3r",
+   "avatar_url": "https://avatars.githubusercontent.com/u/153802?v=4",
+   "description": "A playground for elevation on Android",
+   "stars": 347,
+   "forks": 26,
+   "topics": [
+    "android",
+    "demo",
+    "elevation",
+    "material-design",
+    "ui"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-06-03T07:27:31Z",
+   "created_at": "2017-10-25T08:30:24Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2020-09-01T08:08:02Z"
+  },
+  "release": {
+   "id": 30491816,
+   "tag": "v3.2.2",
+   "name": "v3.2.2",
+   "notes": "✨ NEW! Now the panel is dragged to open and close it, instead of clicking\r\n💅 Minor improvements: target API 30, updated dependencies, switched to app bundle",
+   "published_at": "2020-09-01T08:03:52Z",
+   "html_url": "https://github.com/rock3r/uplift/releases/tag/v3.2.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 24621741,
+    "name": "uplift-v3.2.2.aab",
+    "content_type": "application/octet-stream",
+    "size": 3333995,
+    "download_url": "https://github.com/rock3r/uplift/releases/download/v3.2.2/uplift-v3.2.2.aab",
+    "digest": null,
+    "download_count": 23
+   },
+   {
+    "id": 24621764,
+    "name": "uplift-v3.2.2.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 3585003,
+    "download_url": "https://github.com/rock3r/uplift/releases/download/v3.2.2/uplift-v3.2.2.apk",
+    "digest": null,
+    "download_count": 94
    }
   ]
  },
@@ -121763,6 +123339,219 @@
     "download_url": "https://github.com/AOSSIE-Org/Resonate/releases/download/latest_build/app-release.apk",
     "digest": "sha256:bd7ec6340555a726531d47a09336934530920bf07857698929f3364fe81ae9a2",
     "download_count": 29
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 987161420,
+   "full_name": "lhear/SimpleXray",
+   "owner": "lhear",
+   "avatar_url": "https://avatars.githubusercontent.com/u/121179341?v=4",
+   "description": "Stable and efficient Android proxy client based on Xray-core",
+   "stars": 345,
+   "forks": 48,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T12:05:00Z",
+   "created_at": "2025-05-20T17:02:19Z",
+   "license": "MPL-2.0",
+   "language": "Kotlin",
+   "openIssues": 26,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-27T08:23:39Z"
+  },
+  "release": {
+   "id": 425187300,
+   "tag": "v1.10.18",
+   "name": "v1.10.18",
+   "notes": "### Changes\n- **Xray-core**: Updated to version **26.10.21**\n",
+   "published_at": "2026-10-27T08:23:39Z",
+   "html_url": "https://github.com/lhear/SimpleXray/releases/tag/v1.10.18",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 680949260,
+    "name": "simplexray-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 18284443,
+    "download_url": "https://github.com/lhear/SimpleXray/releases/download/v1.10.18/simplexray-arm64-v8a.apk",
+    "digest": "sha256:9020c982ec73201949991ece1ba8f9925fb6633a75221d2be046f6ad7189c02d",
+    "download_count": 91
+   },
+   {
+    "id": 680949330,
+    "name": "simplexray-universal.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 30956659,
+    "download_url": "https://github.com/lhear/SimpleXray/releases/download/v1.10.18/simplexray-universal.apk",
+    "digest": "sha256:e0b7cb3c736a4460d2df222ed6207a8d24ebb566ea9b145d0609af8371fc5801",
+    "download_count": 9
+   },
+   {
+    "id": 680949454,
+    "name": "simplexray-x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 19313490,
+    "download_url": "https://github.com/lhear/SimpleXray/releases/download/v1.10.18/simplexray-x86_64.apk",
+    "digest": "sha256:35b77ed2f7676b3eb727705f830743c4ff37ffc7aa14411b0a2883d553c0003f",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 115437864,
+   "full_name": "michaelbel/movies",
+   "owner": "michaelbel",
+   "avatar_url": "https://avatars.githubusercontent.com/u/16020628?v=4",
+   "description": "Kotlin Multiplatform movie discovery app powered by TMDb – Android, iOS and Desktop with Compose Multiplatform and Material3",
+   "stars": 345,
+   "forks": 47,
+   "topics": [
+    "android",
+    "compose",
+    "kotlin",
+    "material3",
+    "mobile",
+    "tmdb"
+   ],
+   "archived": false,
+   "default_branch": "develop",
+   "updated_at": "2026-10-29T09:09:58Z",
+   "created_at": "2017-12-26T16:27:58Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "https://play.google.com/store/apps/details?id=org.michaelbel.moviemade",
+   "pushedAt": "2026-10-29T09:09:52Z"
+  },
+  "release": {
+   "id": 294384747,
+   "tag": "3.0.0",
+   "name": "3.0.0",
+   "notes": "## What's Changed\r\n* Bump com.squareup.okio:okio from 3.10.1 to 3.10.2 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/412\r\n* Bump org.jetbrains.androidx.navigation:navigation-compose from 2.8.0-alpha11 to 2.8.0-alpha12 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/413\r\n* Bump koin from 4.0.1 to 4.0.2 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/414\r\n* Bump kotlin from 2.1.0 to 2.1.10 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/415\r\n* Bump com.google.devtools.ksp from 2.1.0-1.0.29 to 2.1.10-1.0.29 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/416\r\n* Bump org.jetbrains.kotlinx:kotlinx-datetime from 0.6.1 to 0.6.2 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/418\r\n* Bump io.gitlab.arturbosch.detekt from 1.23.7 to 1.23.8 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/423\r\n* Bump ktor from 3.0.3 to 3.1.1 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/424\r\n* Bump com.codingfeline.buildkonfig from 0.15.2 to 0.17.0 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/425\r\n* Bump com.google.devtools.ksp from 2.1.10-1.0.29 to 2.1.10-1.0.31 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/426\r\n* Bump com.palantir.git-version from 3.1.0 to 3.2.0 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/432\r\n* Bump org.jetbrains.kotlinx:kotlinx-serialization-json from 1.8.0 to 1.8.1 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/436\r\n* Bump koin from 4.0.2 to 4.0.4 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/435\r\n* Bump com.squareup.okio:okio from 3.10.2 to 3.11.0 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/440\r\n* Bump ktor from 3.1.1 to 3.1.3 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/444\r\n* Bump kotlinx-coroutines from 1.10.1 to 1.10.2 by @dependabot[bot] in https://github.com/michaelbel/movies/pull/437\r\n* Bump k",
+   "published_at": "2026-03-08T11:31:17Z",
+   "html_url": "https://github.com/michaelbel/movies/releases/tag/3.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 369409895,
+    "name": "Movies-v3.0.0.2292.-foss-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 38720753,
+    "download_url": "https://github.com/michaelbel/movies/releases/download/3.0.0/Movies-v3.0.0.2292.-foss-debug.apk",
+    "digest": "sha256:cb09ad72246fbcc4efef3f7b64b0e3e850653f1070eb8fdb6dca98b33b23b6f0",
+    "download_count": 59
+   },
+   {
+    "id": 369409944,
+    "name": "Movies-v3.0.0.2292.-foss-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 9841027,
+    "download_url": "https://github.com/michaelbel/movies/releases/download/3.0.0/Movies-v3.0.0.2292.-foss-release.apk",
+    "digest": "sha256:003ba439edb7048cddc5b3a0d014d94343414f2f62e4247eeac2b70ead1e9666",
+    "download_count": 91
+   },
+   {
+    "id": 369409751,
+    "name": "Movies-v3.0.0.2292.-gms-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 41298012,
+    "download_url": "https://github.com/michaelbel/movies/releases/download/3.0.0/Movies-v3.0.0.2292.-gms-debug.apk",
+    "digest": "sha256:ee59859ebc7322e4b13f7989108470f95783c9776787504e44beb3ca33e3db43",
+    "download_count": 60
+   },
+   {
+    "id": 369409802,
+    "name": "Movies-v3.0.0.2292.-gms-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 10518717,
+    "download_url": "https://github.com/michaelbel/movies/releases/download/3.0.0/Movies-v3.0.0.2292.-gms-release.apk",
+    "digest": "sha256:7d38913509dc677943a99f1e0ae8515800808cd4ed05bcbf20608cdf2b6eae50",
+    "download_count": 407
+   },
+   {
+    "id": 369409838,
+    "name": "Movies-v3.0.0.2292.-hms-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 38720753,
+    "download_url": "https://github.com/michaelbel/movies/releases/download/3.0.0/Movies-v3.0.0.2292.-hms-debug.apk",
+    "digest": "sha256:123cdf4a90c582fc9c5f6b6d045a2cf583fc58b89896a2c1b14912e3c2a6ed22",
+    "download_count": 6
+   },
+   {
+    "id": 369409875,
+    "name": "Movies-v3.0.0.2292.-hms-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 9841027,
+    "download_url": "https://github.com/michaelbel/movies/releases/download/3.0.0/Movies-v3.0.0.2292.-hms-release.apk",
+    "digest": "sha256:c15e34175fd235836794e89209556ddff49257e2089aebea56e728a737d18e2e",
+    "download_count": 44
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1286852789,
+   "full_name": "agupta07505/SmartIsland",
+   "owner": "agupta07505",
+   "avatar_url": "https://avatars.githubusercontent.com/u/228664621?v=4",
+   "description": "Smart Island is a modern, open-source implementation of Android's Dynamic Island experience. It transforms notifications, media playback, incoming calls, timers, charging status, and other live activities into a beautiful floating island with smooth animations and a premium user experience.",
+   "stars": 345,
+   "forks": 52,
+   "topics": [
+    "android",
+    "app-development",
+    "dynamic-island",
+    "dynamicisland",
+    "hyper-island",
+    "kotlin",
+    "notification-history",
+    "notifications",
+    "open-source",
+    "smartisland"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-29T08:22:28Z",
+   "created_at": "2026-07-02T06:46:25Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 48,
+   "watchers": null,
+   "homepage": "http://smartisland.vercel.app/",
+   "pushedAt": "2026-10-19T15:36:38Z"
+  },
+  "release": {
+   "id": 417316123,
+   "tag": "v7.6.0",
+   "name": "Smart Island v7.6.0 - Android Dynamic Island",
+   "notes": "> **Smart Island v7.6.0** brings a lightweight, privacy-conscious Dynamic Island experience to Android with glanceable notifications, calls, media controls, battery status, and quick app shortcuts.\n\n# Changelog\n\n## Features\n\n- feat: add Spanish strings resource file and Gradle configuration — by @agupta07505\n\n\n\n<details>\n<summary>Other changes</summary>\n\n- added ignore and fixed Translation issue — by @agupta07505\n- Add translations for four locales — by @agupta07505\n- Merge pull request #113 from agupta07505/translate — by @agupta07505\n- Remove download stats from card descriptions — by @agupta07505\n- Refresh v7.6.0 docs and release UI — by @agupta07505\n- Merge pull request #114 from agupta07505/translate — by @agupta07505\n- Merge pull request #115 from agupta07505/dev — by @agupta07505\n- Fix translated string placeholders and escapes — by @agupta07505\n- Disable checkReleaseBuilds in lint to prevent AGP 9.1.1 FIR compiler crash during assembleRelease — by @agupta07505\n- Merge pull request #116 from agupta07505/translate — by @agupta07505\n- Merge pull request #117 from agupta07505/dev — by @agupta07505\n\n</details>\n\n\n## Download and install\n\nDownload the signed Android APK: **[SmartIsland-v7.6.0.apk](https://github.com/agupta07505/SmartIsland/releases/download/v7.6.0/SmartIsland-v7.6.0.apk)**\n\nSmart Island supports **Android 8.0 and newer**.\n\n> Android may ask you to allow installation from your browser or file manager. After installation, Smart Island guides you through the overlay and notification permissions it needs.\n\n## Project links\n\n[Full changelog](https://github.com/agupta07505/SmartIsland/blob/main/CHANGELOG.md) · [Features and setup](https://github.com/agupta07505/SmartIsland#readme) · [Privacy](https://github.com/agupta07505/SmartIsland/blob/main/PRIVACY.md) · [Report a bug](https://github.com/agupta07505/SmartIsland/issues/new?template=bug_report.md) · [Request a feature](https://github.com/agupta07505/SmartIsland/issues/new?template=feature_request.md)\n",
+   "published_at": "2026-10-19T13:19:36Z",
+   "html_url": "https://github.com/agupta07505/SmartIsland/releases/tag/v7.6.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 656337242,
+    "name": "SmartIsland-v7.6.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 10249548,
+    "download_url": "https://github.com/agupta07505/SmartIsland/releases/download/v7.6.0/SmartIsland-v7.6.0.apk",
+    "digest": "sha256:1b2cfc235eb1bcb7f49400b9b14f3fb5d373a7858652d26e7c97b694acf0c52e",
+    "download_count": 7189
    }
   ]
  },
@@ -221306,6 +223095,137 @@
   "schema": 1,
   "last_verified": "2026-10-29",
   "repo": {
+   "id": 92406961,
+   "full_name": "koderkashif/android-folder-picker-library",
+   "owner": "koderkashif",
+   "avatar_url": "https://avatars.githubusercontent.com/u/13944934?v=4",
+   "description": "A light-weight (just 27 KB) android library to let users choose folder / files.",
+   "stars": 80,
+   "forks": 29,
+   "topics": [
+    "android",
+    "android-library",
+    "chooser",
+    "file-picker",
+    "filepicker",
+    "folder",
+    "folder-picker",
+    "folderpicker",
+    "picker"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-05-07T10:55:14Z",
+   "created_at": "2017-05-25T13:38:52Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 9,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2021-01-18T19:03:07Z"
+  },
+  "release": {
+   "id": 10875124,
+   "tag": "v2.4",
+   "name": "Version 2.4",
+   "notes": "Thanks to all who reported issues, they have been fixed and code has been improved.",
+   "published_at": "2018-05-07T04:08:11Z",
+   "html_url": "https://github.com/koderkashif/android-folder-picker-library/releases/tag/v2.4",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 7087689,
+    "name": "FolderPickerDemo_v2.4.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 1450367,
+    "download_url": "https://github.com/koderkashif/android-folder-picker-library/releases/download/v2.4/FolderPickerDemo_v2.4.apk",
+    "digest": null,
+    "download_count": 371
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1101829594,
+   "full_name": "h465855hgg/WebIDE",
+   "owner": "h465855hgg",
+   "avatar_url": "https://avatars.githubusercontent.com/u/124551348?v=4",
+   "description": "Android for WebIDE",
+   "stars": 80,
+   "forks": 10,
+   "topics": [
+    "android",
+    "codeedit",
+    "web",
+    "webapp",
+    "webide"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-23T02:24:51Z",
+   "created_at": "2025-11-22T10:14:26Z",
+   "license": "GPL-3.0",
+   "language": "Java",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-17T23:17:27Z"
+  },
+  "release": {
+   "id": 416130622,
+   "tag": "0.4.1",
+   "name": "0.4.1",
+   "notes": "### WebIDE v0.4.1\r\n\r\n- 新增 ACP Agent 面板\r\n\r\n- 更新版本号到 0.4.1\r\n\r\n# en\r\n\r\n- Added ACP Agent panel\r\n\r\n- Bumped version to 0.4.1.\r\n\r\n## What's Changed\r\n* WebIDE 0.4.1: ACP Agent 工作台 by @h465855hgg in https://github.com/h465855hgg/WebIDE/pull/42\r\n\r\n\r\n**Full Changelog**: https://github.com/h465855hgg/WebIDE/compare/0.4.0...0.4.1",
+   "published_at": "2026-10-17T23:33:51Z",
+   "html_url": "https://github.com/h465855hgg/WebIDE/releases/tag/0.4.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 651893518,
+    "name": "WebIDE-0.4.1-arm64-v8a-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 176647693,
+    "download_url": "https://github.com/h465855hgg/WebIDE/releases/download/0.4.1/WebIDE-0.4.1-arm64-v8a-debug.apk",
+    "digest": "sha256:a90189319ed20a6e7bdf6d6788c908154f2c4e6b63a36a4f97e2811f307bf1a7",
+    "download_count": 6
+   },
+   {
+    "id": 651893516,
+    "name": "WebIDE-0.4.1-arm64-v8a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 75161015,
+    "download_url": "https://github.com/h465855hgg/WebIDE/releases/download/0.4.1/WebIDE-0.4.1-arm64-v8a-release.apk",
+    "digest": "sha256:83c5f0d4ea0754c35e5ba84df2d416fbdfdc27458872409d42e28632e07638ab",
+    "download_count": 12
+   },
+   {
+    "id": 651893517,
+    "name": "WebIDE-0.4.1-armeabi-v7a-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 174158687,
+    "download_url": "https://github.com/h465855hgg/WebIDE/releases/download/0.4.1/WebIDE-0.4.1-armeabi-v7a-debug.apk",
+    "digest": "sha256:19feeeedc24c32ae00d67ea98ebc9f72166c31c8a07096ab6ac02df783a50313",
+    "download_count": 6
+   },
+   {
+    "id": 651893519,
+    "name": "WebIDE-0.4.1-armeabi-v7a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 72704905,
+    "download_url": "https://github.com/h465855hgg/WebIDE/releases/download/0.4.1/WebIDE-0.4.1-armeabi-v7a-release.apk",
+    "digest": "sha256:99b1ae381af7de8173c82b1a852dbed95e59a55ece431734780e930389148335",
+    "download_count": 6
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
    "id": 401675193,
    "full_name": "kittoku/Minimum-VPN-Client-for-SoftEther-VPN",
    "owner": "kittoku",
@@ -233019,62 +234939,6 @@
   "schema": 1,
   "last_verified": "2026-10-28",
   "repo": {
-   "id": 1153621983,
-   "full_name": "Andrey4ik21pro1/apkgit",
-   "owner": "Andrey4ik21pro1",
-   "avatar_url": "https://avatars.githubusercontent.com/u/114901555?v=4",
-   "description": "A Material 3 client to update apps from GitHub",
-   "stars": 72,
-   "forks": 4,
-   "topics": [
-    "android",
-    "android-app",
-    "apk",
-    "application",
-    "git",
-    "github",
-    "jetpack-compose",
-    "kotlin-android",
-    "material-design",
-    "material-you",
-    "updater"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-08T16:58:24Z",
-   "created_at": "2026-02-09T14:09:01Z",
-   "license": "GPL-3.0",
-   "language": "Kotlin",
-   "openIssues": 1,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-04-26T18:59:47Z"
-  },
-  "release": {
-   "id": 287392617,
-   "tag": "v1.1.2",
-   "name": "1.1.2",
-   "notes": "### Update: 1.1.2 (Release)\r\n**Changes:**\r\n- Bug fix: UI closes when there is an error in the Add App menu.\r\n\r\n#### This is the final update. I have tested the entire application and did not notice any critical bugs in the code or UI/UX. If new issues or pull requests appear, I will release an update. Thank you for the support!",
-   "published_at": "2026-02-17T19:38:38Z",
-   "html_url": "https://github.com/Andrey4ik21pro1/apkgit/releases/tag/v1.1.2",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 357500144,
-    "name": "ApkGit-v1.1.2.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 4845694,
-    "download_url": "https://github.com/Andrey4ik21pro1/apkgit/releases/download/v1.1.2/ApkGit-v1.1.2.apk",
-    "digest": "sha256:35c9d370152afd1be17077a22da13bdb79182497234ac3765d7257dae402727b",
-    "download_count": 668
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-28",
-  "repo": {
    "id": 99392677,
    "full_name": "gigabytedevelopers/FireFiles",
    "owner": "gigabytedevelopers",
@@ -233713,6 +235577,62 @@
     "download_url": "https://github.com/nikbulavin/flick/releases/download/v1.2.2/app-release.apk",
     "digest": null,
     "download_count": 1016
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1153621983,
+   "full_name": "Andrey4ik21pro1/apkgit",
+   "owner": "Andrey4ik21pro1",
+   "avatar_url": "https://avatars.githubusercontent.com/u/114901555?v=4",
+   "description": "A Material 3 client to update apps from GitHub",
+   "stars": 71,
+   "forks": 4,
+   "topics": [
+    "android",
+    "android-app",
+    "apk",
+    "application",
+    "git",
+    "github",
+    "jetpack-compose",
+    "kotlin-android",
+    "material-design",
+    "material-you",
+    "updater"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T15:19:19Z",
+   "created_at": "2026-02-09T14:09:01Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-04-26T18:59:47Z"
+  },
+  "release": {
+   "id": 287392617,
+   "tag": "v1.1.2",
+   "name": "1.1.2",
+   "notes": "### Update: 1.1.2 (Release)\r\n**Changes:**\r\n- Bug fix: UI closes when there is an error in the Add App menu.\r\n\r\n#### This is the final update. I have tested the entire application and did not notice any critical bugs in the code or UI/UX. If new issues or pull requests appear, I will release an update. Thank you for the support!",
+   "published_at": "2026-02-17T19:38:38Z",
+   "html_url": "https://github.com/Andrey4ik21pro1/apkgit/releases/tag/v1.1.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 357500144,
+    "name": "ApkGit-v1.1.2.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 4845694,
+    "download_url": "https://github.com/Andrey4ik21pro1/apkgit/releases/download/v1.1.2/ApkGit-v1.1.2.apk",
+    "digest": "sha256:35c9d370152afd1be17077a22da13bdb79182497234ac3765d7257dae402727b",
+    "download_count": 668
    }
   ]
  },
@@ -234972,6 +236892,132 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1035625641,
+   "full_name": "Saschl/alpha-gps",
+   "owner": "Saschl",
+   "avatar_url": "https://avatars.githubusercontent.com/u/19493808?v=4",
+   "description": "App for transmitting location data to sony cameras to allow geotagging",
+   "stars": 71,
+   "forks": 9,
+   "topics": [
+    "android",
+    "camera",
+    "creators",
+    "geotagging",
+    "gps",
+    "imaging-edge",
+    "location",
+    "photography",
+    "sony"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-27T22:00:04Z",
+   "created_at": "2025-08-10T19:46:07Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 15,
+   "watchers": null,
+   "homepage": "https://alphagps.app",
+   "pushedAt": "2026-10-28T15:00:39Z"
+  },
+  "release": {
+   "id": 416762416,
+   "tag": "v1.7.1",
+   "name": "Release v1.7.1",
+   "notes": "<!-- Release notes generated using configuration in .github/release.yaml at v1.7.1 -->\r\n\r\n## What's Changed\r\n\r\n## Fixed\r\n - Improved Wi-Fi remote compatibility for the Sony ZV-1 and other older Sony cameras, including live view startup and photo transfer.\r\n - Fixed repeated Bluetooth disconnections during location sharing with cameras such as the Sony RX0 II when Always On is disabled.\r\n### Other Changes\r\n* Translations update from Hosted Weblate by @weblate in https://github.com/Saschl/alpha-gps/pull/286\r\n* Translations update from Hosted Weblate by @weblate in https://github.com/Saschl/alpha-gps/pull/287\r\n* Update dependency astro to v7.3.8 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/289\r\n* Update kotlin monorepo to v2.4.21 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/186\r\n* Update actions/setup-node digest to 949feb2 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/288\r\n* Update Gradle to v9.8.1 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/290\r\n* Lock file maintenance by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/276\r\n* Update dependency androidx.navigationevent:navigationevent to v1.2.0 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/291\r\n* Update dependency org.jetbrains.kotlinx:kotlinx-coroutines-test to v1.11.0 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/235\r\n* Update composeMultiplatform to v1.12.2 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/296\r\n* Update actions/setup-java digest to b843ebf by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/295\r\n* Update sentry to v8.61.0 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/292\r\n\r\n\r\n**Full Changelog**: https://github.com/Saschl/alpha-gps/compare/v1.7.0...v1.7.1",
+   "published_at": "2026-10-18T23:04:53Z",
+   "html_url": "https://github.com/Saschl/alpha-gps/releases/tag/v1.7.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 654693337,
+    "name": "app-foss-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 20732754,
+    "download_url": "https://github.com/Saschl/alpha-gps/releases/download/v1.7.1/app-foss-release.apk",
+    "digest": "sha256:888751e9efc65348e56ffd0958e818259199aed6a90e846f832dda72c2c8e431",
+    "download_count": 38
+   },
+   {
+    "id": 654693330,
+    "name": "app-gplay-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 24721206,
+    "download_url": "https://github.com/Saschl/alpha-gps/releases/download/v1.7.1/app-gplay-release.apk",
+    "digest": "sha256:4bee7cfe717bdca06fd998ee6e6fb4179aa5b1a354b84b43e0ecaa2504ea2536",
+    "download_count": 8
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1337488144,
+   "full_name": "Foxlape/GhostMode",
+   "owner": "Foxlape",
+   "avatar_url": "https://avatars.githubusercontent.com/u/206479388?v=4",
+   "description": "Turn your Android device 'unavailable' for incoming calls while keeping LTE/5G mobile data fully working. Supports Shizuku & Root.",
+   "stars": 71,
+   "forks": 4,
+   "topics": [
+    "android",
+    "jetpack-compose",
+    "kernelsu",
+    "kotlin",
+    "lte",
+    "magisk",
+    "root",
+    "shizuku",
+    "volte"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T10:16:43Z",
+   "created_at": "2026-08-17T18:05:12Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-08T17:50:41Z"
+  },
+  "release": {
+   "id": 407114354,
+   "tag": "v0.2.1",
+   "name": "Ghost Mode v0.2.1",
+   "notes": "### Fixed\n\n- **\"On\" while calls still came through ([#6](https://github.com/Foxlape/GhostMode/issues/6)).** IMS packages are disabled with `|| true`, so when the system refused, the app still reported success. Ghost Mode now checks the result and warns that the IMS service is still active and VoLTE / Wi-Fi Calling calls may get through.\n- **Samsung One UI preset** also disables the IMS service package the system actually uses, in case newer One UI releases ship it under a different name.\n\n<details><summary>🇷🇺 На русском</summary>\n\nИсправление для Samsung и других телефонов, где не удавалось отключить IMS.\n• Если система не даёт отключить службу IMS, Ghost Mode больше не делает вид, что всё в порядке, а предупреждает: звонки по VoLTE / Wi-Fi Calling могут доходить\n• Пресет Samsung One UI также отключает IMS-пакет, который реально использует система\n\n</details>\n\n---\n**Verify:** `apksigner verify --print-certs` must show SHA-256 `FB:2A:E9:C4:80:BB:0F:04:55:65:F7:B5:CA:BF:01:7D:98:18:21:A9:33:F0:78:53:DD:47:12:28:D5:71:B0:50`; checksums are in `SHA256SUMS.txt`.\n\nFull changelog: [CHANGELOG.md](https://github.com/Foxlape/GhostMode/blob/v0.2.1/CHANGELOG.md)\n",
+   "published_at": "2026-10-08T17:54:43Z",
+   "html_url": "https://github.com/Foxlape/GhostMode/releases/tag/v0.2.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 622571337,
+    "name": "GhostMode-v0.2.1.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2096916,
+    "download_url": "https://github.com/Foxlape/GhostMode/releases/download/v0.2.1/GhostMode-v0.2.1.apk",
+    "digest": "sha256:9d146e9a68c2942e153f4c4f3dacd5ff7c32af5e57207b207134d1f508394022",
+    "download_count": 1667
+   },
+   {
+    "id": 622571338,
+    "name": "SHA256SUMS.txt",
+    "content_type": "text/plain",
+    "size": 89,
+    "download_url": "https://github.com/Foxlape/GhostMode/releases/download/v0.2.1/SHA256SUMS.txt",
+    "digest": "sha256:ac246e508d4f97c6a9ae49ebf99767ad8a3673a7d46af78b8f28a02236946e02",
+    "download_count": 5
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-26",
   "repo": {
    "id": 966009957,
@@ -235098,7 +237144,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-26",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 346727020,
    "full_name": "jayluxferro/ProxyMe",
@@ -235143,7 +237189,7 @@
     "size": 59065134,
     "download_url": "https://github.com/jayluxferro/ProxyMe/releases/download/v2.0.0/ProxyMe_v2.0.0.apk",
     "digest": "sha256:ae4354847a538047ba68cabe8d2289567903976b10fccf1f7f6b445cef6e98cc",
-    "download_count": 2064
+    "download_count": 2066
    }
   ]
  },
@@ -235267,7 +237313,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 809273823,
    "full_name": "dimrnhhh/moneytopia",
@@ -235288,14 +237334,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-15T16:05:17Z",
+   "updated_at": "2026-10-27T23:29:00Z",
    "created_at": "2024-06-02T08:12:09Z",
    "license": "GPL-3.0",
    "language": "Kotlin",
    "openIssues": 15,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-20T11:17:11Z"
+   "pushedAt": "2026-10-28T18:28:41Z"
   },
   "release": {
    "id": 184478364,
@@ -235314,7 +237360,7 @@
     "size": 13611903,
     "download_url": "https://github.com/dimrnhhh/moneytopia/releases/download/v1.0.2/Moneytopia.v1.0.2.apk",
     "digest": null,
-    "download_count": 2007
+    "download_count": 2019
    }
   ]
  },
@@ -235407,7 +237453,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-27",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 1269938590,
    "full_name": "Eve-146T/cube-run",
@@ -235431,7 +237477,7 @@
    "created_at": "2026-06-15T08:33:23Z",
    "license": "GPL-3.0",
    "language": "Kotlin",
-   "openIssues": 21,
+   "openIssues": 20,
    "watchers": null,
    "homepage": "",
    "pushedAt": "2026-10-27T10:24:35Z"
@@ -235453,13 +237499,13 @@
     "size": 10312011,
     "download_url": "https://github.com/Eve-146T/cube-run/releases/download/v2.8/cube-run-v2.8.apk",
     "digest": "sha256:ca8d35a492fb5ff20a8a9cb9ffe3c64ac4ce88710e7816f90a1925c8ede132e7",
-    "download_count": 154
+    "download_count": 159
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 930926142,
    "full_name": "BOTPanzer/Coon-Gallery",
@@ -235506,7 +237552,7 @@
     "size": 121592966,
     "download_url": "https://github.com/BOTPanzer/Coon-Gallery/releases/download/v2.1.0/coon-gallery-v2.1.0.apk",
     "digest": "sha256:203491e8cd835cb361d530b269fd46f3984a14b6447500604cef2b929f387234",
-    "download_count": 335
+    "download_count": 338
    }
   ]
  },
@@ -235611,6 +237657,887 @@
     "download_url": "https://github.com/gtxPrime/Mind-Mint/releases/download/v14.0.0/app-release.apk",
     "digest": "sha256:2e7d40aa680bc019c90359ba89fe1b27c42f70cdcdd5383ec93abec7539ba932",
     "download_count": 705
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1133198337,
+   "full_name": "reapercanuk39/termux-kotlin-app",
+   "owner": "reapercanuk39",
+   "avatar_url": "https://avatars.githubusercontent.com/u/117741646?v=4",
+   "description": "🚀 Termux Android Terminal Emulator - Fully converted to Kotlin! A modern, type-safe fork of the official termux-app with 100% Kotlin codebase.",
+   "stars": 70,
+   "forks": 11,
+   "topics": [
+    "android",
+    "android-app",
+    "android-terminal",
+    "bash",
+    "kotlin",
+    "kotlin-android",
+    "linux",
+    "shell",
+    "terminal",
+    "terminal-app",
+    "terminal-emulator",
+    "termux",
+    "termux-app",
+    "termux-kotlin"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-29T08:26:57Z",
+   "created_at": "2026-01-13T02:41:58Z",
+   "license": "Other",
+   "language": "Kotlin",
+   "openIssues": 11,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-03-27T09:17:34Z"
+  },
+  "release": {
+   "id": 280277256,
+   "tag": "v2.0.14",
+   "name": "🚀 Termux Kotlin v2.0.14",
+   "notes": "## What's Changed\n\n- Merge pull request #21 from reapercanuk39/dependabot/github_actions/lewagon/wait-on-check-action-1.5.0\n- Changed: Bump lewagon/wait-on-check-action from 1.4.1 to 1.5.0\n- docs: Update build documentation [skip ci]\n\n**Full Changelog**: https://github.com/reapercanuk39/termux-kotlin-app/compare/v2.0.13...v2.0.14\n",
+   "published_at": "2026-01-27T12:27:30Z",
+   "html_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/tag/v2.0.14",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 346610810,
+    "name": "termux-app_apt-android-7-debug_arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 55570023,
+    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_arm64-v8a.apk",
+    "digest": "sha256:8302e0496b1ac20c75359f6ab57665b71f546b7497758dd7f92f058e3c0dfe89",
+    "download_count": 740
+   },
+   {
+    "id": 346610812,
+    "name": "termux-app_apt-android-7-debug_armeabi-v7a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 52455073,
+    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_armeabi-v7a.apk",
+    "digest": "sha256:82125da4e61b8d0e2a7ca463cc3637881c77595608188c18ee2be9de37b2d39e",
+    "download_count": 61
+   },
+   {
+    "id": 346610813,
+    "name": "termux-app_apt-android-7-debug_universal.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 141335134,
+    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_universal.apk",
+    "digest": "sha256:64012c41042b8eeeacfd773f68f33a4f64fd27aed717db3d3e509a86e495f3fb",
+    "download_count": 149
+   },
+   {
+    "id": 346610809,
+    "name": "termux-app_apt-android-7-debug_x86.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 54753725,
+    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_x86.apk",
+    "digest": "sha256:42e5506f79371c62e4ad9dd78800713c7cb91554957cea840f1172105d477291",
+    "download_count": 17
+   },
+   {
+    "id": 346610811,
+    "name": "termux-app_apt-android-7-debug_x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 55445068,
+    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_x86_64.apk",
+    "digest": "sha256:b81ec9d2351a6e59b8ad29a8a6056977e28e4d12106a3e1c1c0be0d3185ad9fd",
+    "download_count": 24
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1151068359,
+   "full_name": "aeonBTC/IbisWallet",
+   "owner": "aeonBTC",
+   "avatar_url": "https://avatars.githubusercontent.com/u/7865680?v=4",
+   "description": "A self-custody Bitcoin wallet for Android with a focus on customizability, security, and privacy.",
+   "stars": 70,
+   "forks": 5,
+   "topics": [
+    "android",
+    "ark",
+    "bitcoin",
+    "layer2",
+    "lightning",
+    "liquid",
+    "on-chain",
+    "spark",
+    "swap"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T18:31:03Z",
+   "created_at": "2026-02-06T02:37:28Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 4,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-05T01:25:07Z"
+  },
+  "release": {
+   "id": 395706342,
+   "tag": "v5.0.1-beta",
+   "name": "Ibis Wallet v5.0.1-beta",
+   "notes": "## v5.0.1-beta — Ark receive hotfix\r\n\r\nFixes Ark-to-Ark payments that debited the sender while the recipient never saw the funds. No funds were lost; affected payments were stranded server-side.\r\n\r\n### Action required\r\n\r\nRecipients missing an Ark payment: run a **mailbox rescan** from VTXO management screen and wait for it to complete. The payment should appear on the next sync.\r\n\r\n-======-\r\nSHA256: 53D9897459E0526519E3775F1EF79E602F596386238E8DC1C07357A342AC65D6\r\nMD5: 235FCCAC7BAA0D964485627FC57E6322\r\n[PGP Public Key](https://github.com/aeonBTC/PGP-Public-Key)\r\n-======-\r\n\r\n**Full Changelog**: https://github.com/aeonBTC/IbisWallet/compare/v5.0-beta...v5.0.1-beta",
+   "published_at": "2026-09-24T13:14:02Z",
+   "html_url": "https://github.com/aeonBTC/IbisWallet/releases/tag/v5.0.1-beta",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 586003327,
+    "name": "IbisWallet_v5.0.1-beta.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 110693022,
+    "download_url": "https://github.com/aeonBTC/IbisWallet/releases/download/v5.0.1-beta/IbisWallet_v5.0.1-beta.apk",
+    "digest": "sha256:53d9897459e0526519e3775f1ef79e602f596386238e8dc1c07357a342ac65d6",
+    "download_count": 164
+   },
+   {
+    "id": 586005834,
+    "name": "IbisWallet_v5.0.1-beta.apk.sig",
+    "content_type": "application/octet-stream",
+    "size": 594,
+    "download_url": "https://github.com/aeonBTC/IbisWallet/releases/download/v5.0.1-beta/IbisWallet_v5.0.1-beta.apk.sig",
+    "digest": "sha256:1ed86d241d6dd51482973f7fb72417d1d1813fd2fa99b49ae0b23fe373e6a211",
+    "download_count": 3
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 995131741,
+   "full_name": "FellipitoPV/NekoVideo",
+   "owner": "FellipitoPV",
+   "avatar_url": "https://avatars.githubusercontent.com/u/154937279?v=4",
+   "description": "A Android video player",
+   "stars": 70,
+   "forks": 8,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-10-29T01:31:41Z",
+   "created_at": "2025-06-03T02:42:12Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-29T01:31:37Z"
+  },
+  "release": {
+   "id": 421127975,
+   "tag": "v1.9.1",
+   "name": "NekoVideo 1.9.1 - Faster Folder Navigation, Untagged Filter and UI Fixes",
+   "notes": "### Features\r\n- Added a “No tags” filter in the sorting menu to help find videos that need tagging\r\n\r\n### Improvements\r\n- Faster loading and navigation in large folders\r\n- Name sorting now uses alphabetical order to reduce processing; numbers are treated as text, so “video 10” appears before “video 2”\r\n\r\n### Fixes\r\n- Fixed the move destination dialog sometimes opening only partially and closing when adjusted\r\n- Adjusted video previews, including in the tags dialog, to prevent videos from appearing small in the corner\r\n- Action messages no longer shift the folder list",
+   "published_at": "2026-10-22T19:43:56Z",
+   "html_url": "https://github.com/FellipitoPV/NekoVideo/releases/tag/v1.9.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 666889777,
+    "name": "NekoVideo.v1.9.1.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 7850037,
+    "download_url": "https://github.com/FellipitoPV/NekoVideo/releases/download/v1.9.1/NekoVideo.v1.9.1.apk",
+    "digest": "sha256:b5cbe3887291bff500ba7f1240b8ef9a190caee503277b2ba15d96a012db6827",
+    "download_count": 235
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 131461823,
+   "full_name": "gabeg805/NFC-Alarm-Clock",
+   "owner": "gabeg805",
+   "avatar_url": "https://avatars.githubusercontent.com/u/6011521?v=4",
+   "description": "An NFC Alarm Clock app for Android.",
+   "stars": 70,
+   "forks": 16,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-19T16:11:19Z",
+   "created_at": "2018-04-29T03:05:26Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 12,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-11T03:02:37Z"
+  },
+  "release": {
+   "id": 409365844,
+   "tag": "v12.7.5",
+   "name": "v12.7.5",
+   "notes": "* Increased maximum $${\\textsf{\\color{orange}dismiss early}}$$ time from 2 hours to 6 hours.\r\n* Fixed translation issue with $${\\textsf{\\color{orange}flashlight}}$$ options which was causing a crash.\r\n* Fixed rare issue where the $${\\textsf{\\color{orange}alarm screen}}$$ would still show even after an alarm was dismissed.\r\n* Proguard optimization is still disabled (started in v12.7.3), so the $${\\textsf{\\color{orange}app file size}}$$ is still slightly bigger than normal.",
+   "published_at": "2026-10-11T03:02:38Z",
+   "html_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/tag/v12.7.5",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 629617404,
+    "name": "nfc_alarm_clock_v12.7.5-foss-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5509529,
+    "download_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.7.5/nfc_alarm_clock_v12.7.5-foss-release.apk",
+    "digest": "sha256:9beb1a787d0cb0256ca794d14177d5dcad1339d87776124be8d1b6acc2eb7a1a",
+    "download_count": 111
+   },
+   {
+    "id": 629618006,
+    "name": "nfc_alarm_clock_v12.7.5-googleplay-release.aab",
+    "content_type": "application/vnd.android.app-bundle",
+    "size": 6519478,
+    "download_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.7.5/nfc_alarm_clock_v12.7.5-googleplay-release.aab",
+    "digest": "sha256:d33d03d4cc4f1b35a4b6e32dc38c8667f69a018c454aac7a3d307b0ec1674c15",
+    "download_count": 0
+   },
+   {
+    "id": 629617629,
+    "name": "nfc_alarm_clock_v12.7.5-googleplay-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5928148,
+    "download_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.7.5/nfc_alarm_clock_v12.7.5-googleplay-release.apk",
+    "digest": "sha256:ee872c7ac37dbda4c1773e1f0cac6863c20109d76881cefd3717085d6dab6d6a",
+    "download_count": 21
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 216745059,
+   "full_name": "mnayef95/Android-Weekly",
+   "owner": "mnayef95",
+   "avatar_url": "https://avatars.githubusercontent.com/u/25001862?v=4",
+   "description": "Android Weekly is a free newsletter that helps you to stay cutting-edge with your Android Development. The newsletter comes once a week and covers a broad range of topics like tutorials, screencasts, news... just everything that's awesome in the Android Development world!",
+   "stars": 70,
+   "forks": 4,
+   "topics": [
+    "android-development",
+    "android-weekly",
+    "androidweekly",
+    "news",
+    "newsletter",
+    "screencasts",
+    "tutorials"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-06-15T20:54:12Z",
+   "created_at": "2019-10-22T07:01:28Z",
+   "license": null,
+   "language": "Kotlin",
+   "openIssues": 7,
+   "watchers": null,
+   "homepage": "https://androidweekly.net",
+   "pushedAt": "2019-12-14T19:55:51Z"
+  },
+  "release": {
+   "id": 22050400,
+   "tag": "v1.0.0",
+   "name": "v1.0.0",
+   "notes": "",
+   "published_at": "2019-12-07T19:35:20Z",
+   "html_url": "https://github.com/mnayef95/Android-Weekly/releases/tag/v1.0.0",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 16657912,
+    "name": "app-staging-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 6679647,
+    "download_url": "https://github.com/mnayef95/Android-Weekly/releases/download/v1.0.0/app-staging-debug.apk",
+    "digest": null,
+    "download_count": 112
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1313002842,
+   "full_name": "taka-4602/LINE-Chrome-Android-App",
+   "owner": "taka-4602",
+   "avatar_url": "https://avatars.githubusercontent.com/u/116678390?v=4",
+   "description": "Chrome Extension LINEのAndroidアプリケーション",
+   "stars": 70,
+   "forks": 5,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-09-28T12:45:21Z",
+   "created_at": "2026-07-26T17:18:19Z",
+   "license": "BSD-3-Clause",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-07-31T14:55:05Z"
+  },
+  "release": {
+   "id": 363143812,
+   "tag": "4",
+   "name": "Release 4",
+   "notes": "その日初めて送ったメッセージの \"Today\" のラベルがメッセージの下に表示される問題を修正",
+   "published_at": "2026-07-31T14:55:05Z",
+   "html_url": "https://github.com/taka-4602/LINE-Chrome-Android-App/releases/tag/4",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 496809105,
+    "name": "LINE_Chrome.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 16750492,
+    "download_url": "https://github.com/taka-4602/LINE-Chrome-Android-App/releases/download/4/LINE_Chrome.apk",
+    "digest": "sha256:e5e2acce8f8a6c253e6ae6aab9282ec00f664b3350df19d763ecc9ee1b5ffdf8",
+    "download_count": 109
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 272554133,
+   "full_name": "Chrisvin/BlobBackgroundLayout",
+   "owner": "Chrisvin",
+   "avatar_url": "https://avatars.githubusercontent.com/u/20887005?v=4",
+   "description": "Android Layout Library with animated Blob Background",
+   "stars": 70,
+   "forks": 7,
+   "topics": [
+    "android",
+    "background",
+    "blob",
+    "blobbackground",
+    "customizable",
+    "layout",
+    "library"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-06-05T11:25:54Z",
+   "created_at": "2020-06-15T22:10:10Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2020-06-20T23:02:35Z"
+  },
+  "release": {
+   "id": 27755210,
+   "tag": "1.1",
+   "name": "BlobLayout 1.1",
+   "notes": "Initial release for BlobBackgroundLayout library.\r\n\r\nFixed jitpack issue from release 1.0.",
+   "published_at": "2020-06-20T22:52:51Z",
+   "html_url": "https://github.com/Chrisvin/BlobBackgroundLayout/releases/tag/1.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 21926351,
+    "name": "BlobLayoutDemo.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2356253,
+    "download_url": "https://github.com/Chrisvin/BlobBackgroundLayout/releases/download/1.1/BlobLayoutDemo.apk",
+    "digest": null,
+    "download_count": 125
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1365543213,
+   "full_name": "marcoazeem/duo-open",
+   "owner": "marcoazeem",
+   "avatar_url": "https://avatars.githubusercontent.com/u/39097433?v=4",
+   "description": "iPhone-Duo frosted-glass fold effect for Android foldables, driven by the real hinge angle. No root.",
+   "stars": 70,
+   "forks": 21,
+   "topics": [
+    "accessibility-service",
+    "agsl",
+    "android",
+    "foldable",
+    "jetpack-compose",
+    "kotlin",
+    "live-wallpaper",
+    "oneplus-open"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T21:00:44Z",
+   "created_at": "2026-09-11T07:17:18Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 12,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-25T06:03:49Z"
+  },
+  "release": {
+   "id": 396415567,
+   "tag": "v1.3.0",
+   "name": "Duo Open 1.3.0",
+   "notes": "**New: Live blur — the fold without screenshots.** Tune → *How it's drawn* → **Live blur** uses the system's own window blur on the live screen instead of capturing and warping a screenshot. It starts the instant a fold phase begins, has no capture rate limit, and content keeps moving underneath. The frost is stepped rather than smooth and there is no perspective bend. Greyed out on devices with window blur turned off. Snapshot (the previous behaviour) stays the default.\n\n**Clearer settings.** The Tune sheet is now six explained sections in the order you need them: where it plays, how it's drawn, look, which parts move, wallpaper image, hinge sensor.\n\n**Phones that keep both screens on.** The service now runs one fold engine per lit display, so on hardware that leaves the cover screen on while the inner screen is active, both play together with no gap at the handover. Verified on an emulator with a simulated second display, not on real hardware — if you have such a phone (Pixel Fold dual-screen modes etc.), please open an issue with `adb logcat -s DuoOverlay` from one open/close. In Snapshot mode the second panel's capture lands ~0.35 s late because Android's screenshot rate limit is global; Live blur avoids that.\n\n**README** now explains why phones that light one panel at a time (OnePlus Open and most book-style foldables) always have a gap at the panel swap, and what can and can't be done about it.\n\n**Files:** `DuoOpen-1.3.0.apk` — full (system-wide fold + wallpaper). `DuoOpen-1.3.0-lite.apk` — wallpaper only, no accessibility service.\n\nUpgrading from a debug/sideloaded dev build: uninstall it first (different signing key). Upgrading from 1.x release builds installs over the top; re-check that the accessibility service is still on.",
+   "published_at": "2026-09-25T07:55:17Z",
+   "html_url": "https://github.com/marcoazeem/duo-open/releases/tag/v1.3.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 587844085,
+    "name": "DuoOpen-1.3.0-lite.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 19409537,
+    "download_url": "https://github.com/marcoazeem/duo-open/releases/download/v1.3.0/DuoOpen-1.3.0-lite.apk",
+    "digest": "sha256:434f3c4898a459a5a7e6b08d2a767f7cbe5128e14b484ed4d0e128ba76cbd7f9",
+    "download_count": 1127
+   },
+   {
+    "id": 587844087,
+    "name": "DuoOpen-1.3.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 19476657,
+    "download_url": "https://github.com/marcoazeem/duo-open/releases/download/v1.3.0/DuoOpen-1.3.0.apk",
+    "digest": "sha256:b05ff43520031cef81ed5bbedbdeb7cd0faf1d0c523cd716aa3b0082afd65f2b",
+    "download_count": 3054
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 339242809,
+   "full_name": "opensrp/fhircore",
+   "owner": "opensrp",
+   "avatar_url": "https://avatars.githubusercontent.com/u/7898027?v=4",
+   "description": "FHIR Core / OpenSRP 2 is a Kotlin application for delivering offline-capable, mobile-first healthcare project implementations from local community to national and international scale using FHIR and WHO Smart Guidelines on Android. ",
+   "stars": 70,
+   "forks": 80,
+   "topics": [
+    "android",
+    "android-fhir-sdk",
+    "android-library",
+    "fhir",
+    "fhir-client",
+    "fhircore",
+    "hapi-fhir",
+    "healthcare",
+    "java",
+    "kotlin",
+    "kotlin-android",
+    "kotlin-library",
+    "opensrp",
+    "opensrp-web"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-21T17:09:40Z",
+   "created_at": "2021-02-16T00:15:15Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 216,
+   "watchers": null,
+   "homepage": "https://opensrp.io",
+   "pushedAt": "2026-09-03T10:51:33Z"
+  },
+  "release": {
+   "id": 214179409,
+   "tag": "v2.1.3-opensrp",
+   "name": "OpenSRP v2.1.3",
+   "notes": "## What's Changed\r\n* Add missing Indonesian translation by @FikriMilano in https://github.com/opensrp/fhircore/pull/3668\r\n* 🐛 Add row weights to the fix top bar icons being hidden when text is too big by @dubdabasoduba in https://github.com/opensrp/fhircore/pull/3669\r\n* Add Composition.entry and Composition.focus by @sharon2719 in https://github.com/opensrp/fhircore/pull/3662\r\n* Updates for file android/engine/src/main/res/values/strings.xml in fr by @transifex-integration in https://github.com/opensrp/fhircore/pull/3657\r\n* Updates for file android/quest/src/main/res/values/strings.xml in fr by @transifex-integration in https://github.com/opensrp/fhircore/pull/3658\r\n* Add junit-platform-launcher dependency as described in docs by @LZRS in https://github.com/opensrp/fhircore/pull/3671\r\n* Kader app logo and label update by @FikriMilano in https://github.com/opensrp/fhircore/pull/3677\r\n* Support Configurable Database Export by @qiarie in https://github.com/opensrp/fhircore/pull/3685\r\n* Align center the app title in login page by @FikriMilano in https://github.com/opensrp/fhircore/pull/3681\r\n* Fix save as draft will not save for QR with nested answer by @FikriMilano in https://github.com/opensrp/fhircore/pull/3682\r\n* Fix actionable button icon size not configured by @FikriMilano in https://github.com/opensrp/fhircore/pull/3679\r\n* Update French translations in English. by @Lentumunai-Mark in https://github.com/opensrp/fhircore/pull/3691\r\n* Add 'edit' icon for actionable button by @FikriMilano in https://github.com/opensrp/fhircore/pull/3686\r\n* Add configurable content padding to change size of actionable button by @FikriMilano in https://github.com/opensrp/fhircore/pull/3680\r\n* Fix response not showing in summary mode by @hamza-vd in https://github.com/opensrp/fhircore/pull/3670\r\n* Migrate FHIR SDK Artifacts - Engine SDC by @ndegwamartin in https://github.com/opensrp/fhircore/pull/3692\r\n* Fix Add Location Bug on Map View. by @Lentumunai-Mark in https://github.com/opensrp",
+   "published_at": "2025-04-23T10:39:08Z",
+   "html_url": "https://github.com/opensrp/fhircore/releases/tag/v2.1.3-opensrp",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 248746190,
+    "name": "OpenSRP-v2.1.1-preview-rc2-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 241078886,
+    "download_url": "https://github.com/opensrp/fhircore/releases/download/v2.1.3-opensrp/OpenSRP-v2.1.1-preview-rc2-release.apk",
+    "digest": null,
+    "download_count": 33
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 332237059,
+   "full_name": "mars885/hilt-binder",
+   "owner": "mars885",
+   "avatar_url": "https://avatars.githubusercontent.com/u/14782808?v=4",
+   "description": "An annotating processing library that automatically generates Dagger Hilt's `@Binds` methods.",
+   "stars": 70,
+   "forks": 5,
+   "topics": [
+    "android",
+    "annotation-processing",
+    "annotation-processor",
+    "dagger",
+    "dagger-hilt",
+    "dagger2",
+    "kotlin",
+    "kotlin-library"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-08-17T07:33:22Z",
+   "created_at": "2021-01-23T15:03:39Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2025-12-14T03:32:49Z"
+  },
+  "release": {
+   "id": 270153250,
+   "tag": "v1.1.4",
+   "name": "1.1.4",
+   "notes": "See [ChangeLog](https://github.com/mars885/hilt-binder/blob/master/CHANGELOG.md#version-114-2025-12-14).",
+   "published_at": "2025-12-14T03:33:09Z",
+   "html_url": "https://github.com/mars885/hilt-binder/releases/tag/v1.1.4",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 328426030,
+    "name": "hilt-binder.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 7589965,
+    "download_url": "https://github.com/mars885/hilt-binder/releases/download/v1.1.4/hilt-binder.apk",
+    "digest": "sha256:1816117d611f00912c28b34625ac49fc21ea9501116c4f4ccebe17e89ee89bcf",
+    "download_count": 6
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1170722001,
+   "full_name": "ThinkOffApp/ClawWatch",
+   "owner": "ThinkOffApp",
+   "avatar_url": "https://avatars.githubusercontent.com/u/233579950?v=4",
+   "description": "The first intelligent AI agent running natively on a smartwatch. NullClaw + Vosk offline STT + Claude on Galaxy Watch",
+   "stars": 70,
+   "forks": 10,
+   "topics": [
+    "ai-agent",
+    "android",
+    "galaxy-watch",
+    "health",
+    "kotlin",
+    "nullclaw",
+    "offline-ai",
+    "on-device-ai",
+    "smartwatch",
+    "speech-recognition",
+    "voice-assistant",
+    "wear-os"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-27T08:21:24Z",
+   "created_at": "2026-03-02T12:50:38Z",
+   "license": "Other",
+   "language": "Kotlin",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": "https://thinkoff.io",
+   "pushedAt": "2026-09-12T18:47:14Z"
+  },
+  "release": {
+   "id": 292705304,
+   "tag": "v0.2.0",
+   "name": "ClawWatch v0.2.0 — Polished UI, Admin Panel & Architecture",
+   "notes": "## What's New\n\n### Watch UI\n- Avatar system with 5 characters (lobster, ant, robot, boy, girl) + swipe switching\n- Action indicator showing state (ear, cloud, magnifier, speech bubble)\n- Auto-listen window after response for quick follow-ups\n- Battery-aware grey-out below 20%\n- Screen stays awake during active conversation\n- Flat action bubble (no dark halo overlap)\n\n### Security\n- EncryptedSharedPreferences for all API keys and config\n- Automatic migration from legacy plaintext prefs\n- Admin server binds localhost only\n\n### Admin Panel\n- Web UI at localhost:4747 for watch configuration\n- Push API keys, model, avatar, system prompt, RAG mode via ADB WiFi\n- Avatar selector, log capture, rebuild & reinstall from browser\n- Watch connection status indicator\n\n### RAG (Web Search)\n- Auto-search mode: detects live-info queries and pre-searches\n- Tavily and Brave Search support\n- Opus Tool Use mode: Claude decides when to search\n- Rolling conversation context for follow-ups\n\n### Code Quality\n- Vosk recognizer leak fix\n- Gzip response handling for Brave API\n- ProGuard rules for Vosk/Kaldi JNI\n- Architecture diagram in README",
+   "published_at": "2026-03-03T20:18:14Z",
+   "html_url": "https://github.com/ThinkOffApp/ClawWatch/releases/tag/v0.2.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 375850490,
+    "name": "app-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 75408672,
+    "download_url": "https://github.com/ThinkOffApp/ClawWatch/releases/download/v0.2.0/app-debug.apk",
+    "digest": "sha256:dfb87fd0338431029b0687cb906f44dc876e8c26fc1cd75d252fce6b4fd5bf25",
+    "download_count": 9
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1396072736,
+   "full_name": "sudiptacmd/homedroid",
+   "owner": "sudiptacmd",
+   "avatar_url": "https://avatars.githubusercontent.com/u/56980003?v=4",
+   "description": "Turn an old Android phone into a home server: SSH, web hosting, Jellyfin with hardware transcoding, Immich, qBittorrent, Home Assistant and a web dashboard. No root.",
+   "stars": 70,
+   "forks": 3,
+   "topics": [
+    "android",
+    "android-server",
+    "cloudflare-tunnel",
+    "home-server",
+    "homelab",
+    "immich",
+    "jellyfin",
+    "llama-cpp",
+    "nas",
+    "no-root",
+    "self-hosted",
+    "tailscale"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-27T07:48:27Z",
+   "created_at": "2026-09-29T16:59:42Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": "https://sudiptacmd.github.io/homedroid/",
+   "pushedAt": "2026-10-02T01:13:37Z"
+  },
+  "release": {
+   "id": 401481549,
+   "tag": "v0.9.4-beta",
+   "name": "Homedroid 0.9.4-beta",
+   "notes": "# Homedroid 0.9.4 beta\n\n**Ad blocking for your whole tailnet, Wake on LAN, network tools and Gemma 4.** This release\nalso carries everything from 0.9.3, which was tagged but never published.\n\n## New\n\n- **AdGuard Home.** Network-wide ad and tracker blocking with blocklists, statistics and a query\n  log. Android won't let apps use port 53, so it answers on 1053, and Homedroid's Tailscale passes\n  port 53 on the phone's tailnet address straight to it: add the phone as a custom nameserver in\n  the Tailscale admin console and every device on your tailnet is filtered, at home or on mobile\n  data. A setup guide covers that, routers that forward DNS to a port, and what DNS blocking\n  can't do.\n- **Wake on LAN.** Save your computers and wake them from anywhere the dashboard reaches:\n  Tailscale, a Cloudflare tunnel or another phone in the cluster. The phone broadcasts the magic\n  packet on its networks and shows whether a computer is on. Scripts and shortcuts can call\n  `POST /api/wol/wake`.\n- **Network tools.** A Network page with this phone's addresses, gateway, DNS and throughput;\n  device discovery (mDNS, SSDP/UPnP and quick TCP probes); and ping, traceroute, DNS lookups,\n  nmap port scans, HTTP checks, whois, iperf3 LAN speed tests and an internet speed test, all\n  cancellable and with validated input. Live packet capture needs root, so it isn't included.\n- **Gemma 4 E2B** joins the model catalog: Google's quantization-aware 4-bit build, which writes\n  like a 2B model and is recommended on phones that run it quickly enough.\n- **A website** at [sudiptacmd.github.io/homedroid](https://sudiptacmd.github.io/homedroid/),\n  a new walkthrough (`homedroid-walkthrough.mp4`, attached), a rewritten README and issue forms\n  for bugs, phone reports and app requests.\n\n## Fixed\n\n- **Updates from the dashboard work again.** Checking for updates asked GitHub for its \"latest\"\n  release, which leaves out pre-releases, and every Homedroid beta is one. *Phones on 0.9.3 or\n  older need to in",
+   "published_at": "2026-10-02T01:46:01Z",
+   "html_url": "https://github.com/sudiptacmd/homedroid/releases/tag/v0.9.4-beta",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 604551061,
+    "name": "homedroid-0.9.4-beta-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 49039301,
+    "download_url": "https://github.com/sudiptacmd/homedroid/releases/download/v0.9.4-beta/homedroid-0.9.4-beta-arm64-v8a.apk",
+    "digest": "sha256:e1da21234aa7dcdb79ef6bbcd071b33c129c1a45fa5415506afcefaea2ebf28e",
+    "download_count": 96
+   },
+   {
+    "id": 604551060,
+    "name": "homedroid-0.9.4-beta-armeabi-v7a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 52009759,
+    "download_url": "https://github.com/sudiptacmd/homedroid/releases/download/v0.9.4-beta/homedroid-0.9.4-beta-armeabi-v7a.apk",
+    "digest": "sha256:9b0945c06a4891318fbcc3e4d4f8cb39176315008e21aef245888d34beb1c95d",
+    "download_count": 15
+   },
+   {
+    "id": 604551058,
+    "name": "homedroid-0.9.4-beta-universal.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 152562989,
+    "download_url": "https://github.com/sudiptacmd/homedroid/releases/download/v0.9.4-beta/homedroid-0.9.4-beta-universal.apk",
+    "digest": "sha256:985a189f4295a83b06af179b41950704d82ac1094ebca60b4ce0412bb902196d",
+    "download_count": 36
+   },
+   {
+    "id": 604551064,
+    "name": "homedroid-0.9.4-beta-x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 53512917,
+    "download_url": "https://github.com/sudiptacmd/homedroid/releases/download/v0.9.4-beta/homedroid-0.9.4-beta-x86_64.apk",
+    "digest": "sha256:a896d5a38eb67b7c76b414a8f7e4349680a33dde0a74928b3da249586f050e77",
+    "download_count": 4
+   },
+   {
+    "id": 604551605,
+    "name": "homedroid-walkthrough.mp4",
+    "content_type": "video/mp4",
+    "size": 13322219,
+    "download_url": "https://github.com/sudiptacmd/homedroid/releases/download/v0.9.4-beta/homedroid-walkthrough.mp4",
+    "digest": "sha256:44755e99a53a0462a78af6e8140d03bcafa488e32be894b107073c553614e847",
+    "download_count": 23
+   },
+   {
+    "id": 604551073,
+    "name": "llama-runtime-arm64-v8a.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 17535889,
+    "download_url": "https://github.com/sudiptacmd/homedroid/releases/download/v0.9.4-beta/llama-runtime-arm64-v8a.tar.gz",
+    "digest": "sha256:8d168ac622514c8a749047e8df7eb6f6d8bdf14b301a6265d656c8a2d986a85e",
+    "download_count": 16
+   },
+   {
+    "id": 604551172,
+    "name": "llama-runtime-x86_64.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 21864200,
+    "download_url": "https://github.com/sudiptacmd/homedroid/releases/download/v0.9.4-beta/llama-runtime-x86_64.tar.gz",
+    "digest": "sha256:0eb188794ba77b5738a2b31ab88b29248eb49c0fd729f8da34732990b34503ae",
+    "download_count": 1
+   },
+   {
+    "id": 604551062,
+    "name": "SHA256SUMS",
+    "content_type": "application/octet-stream",
+    "size": 594,
+    "download_url": "https://github.com/sudiptacmd/homedroid/releases/download/v0.9.4-beta/SHA256SUMS",
+    "digest": "sha256:ff4bfc6a8c9a372e2861ac870bb0a22232b3a69218935fc79fc2a72575a30c8e",
+    "download_count": 4
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1106814438,
+   "full_name": "wuxianggujun/TinaIDE",
+   "owner": "wuxianggujun",
+   "avatar_url": "https://avatars.githubusercontent.com/u/39469560?v=4",
+   "description": "TinaIDE is an Android-first C/C++ development environment. It bundles a ready-to-use clang/LLD toolchain, xmake integration, and a single-file build runner so you can edit, compile, and run native code directly on phones or tablets. Upcoming work includes a lightweight CMake parser to enable custom build flows without porting large toolchains.",
+   "stars": 70,
+   "forks": 12,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-25T00:14:40Z",
+   "created_at": "2025-11-30T01:50:11Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-25T00:14:36Z"
+  },
+  "release": {
+   "id": 409813359,
+   "tag": "v0.18.36",
+   "name": "TinaIDE v0.18.36",
+   "notes": "\n### Fixed\n\n- **保存/关闭文件时崩溃**：修复关闭标签后编辑器仍重算可见行，访问已释放的文本缓冲区而导致的\n  `RopeTextBuffer is already closed` 崩溃。运行时等最后一个编辑器页面退出后才释放资源，\n  同一文件的镜像分屏也按页面引用计数处理。\n- **双指缩放松手后回跳**：缩放结束时一次性提交字号与视口位置，偏好设置保留小数字号，\n  避免设置回写造成字号取整和滚动位置跳变；关闭软换行时保持焦点下的文档位置稳定。\n- **缩放与滚动手势竞争**：调整双指缩放和轴向滚动的事件处理顺序，确保缩放能够提交，\n  手势结束后单指滚动继续正常工作。\n\n### Validation\n\n- 本轮关闭生命周期、真实文件保存、偏好回写和缩放定向回归共 35 个不同用例通过，0 失败、0 跳过。\n- Android 14 / API 34 模拟器上的两项设备测试连续运行 3 轮均通过；报告中的 Redmi Note 12 5G\n  尚未回测。详细步骤见 `docs/testing/editor-save-close-lifecycle.md`。\n",
+   "published_at": "2026-10-11T19:15:50Z",
+   "html_url": "https://github.com/wuxianggujun/TinaIDE/releases/tag/v0.18.36",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 631582627,
+    "name": "TinaIDE-0.18.36-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 155351615,
+    "download_url": "https://github.com/wuxianggujun/TinaIDE/releases/download/v0.18.36/TinaIDE-0.18.36-arm64-v8a.apk",
+    "digest": "sha256:ce8e4e6582896a3e12c06adda6e321f74b648b9eef08eb07c71a614e236d78ee",
+    "download_count": 153
+   },
+   {
+    "id": 631582626,
+    "name": "TinaIDE-0.18.36-x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 148421679,
+    "download_url": "https://github.com/wuxianggujun/TinaIDE/releases/download/v0.18.36/TinaIDE-0.18.36-x86_64.apk",
+    "digest": "sha256:05e88f30543bd1cca947d965f83e2299c847eb060140c746e9934008f89051b3",
+    "download_count": 8
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 475379557,
+   "full_name": "HaythemMejerbi/Blogfy",
+   "owner": "HaythemMejerbi",
+   "avatar_url": "https://avatars.githubusercontent.com/u/63319103?v=4",
+   "description": "📷 Blog taking application utilizing Ktor REST-API and following modern practices: Kotlin, Coroutines, Flows, Channels, Room, Work Manager, Navigation Component, MVI, Clean Architecture, Modularization, Dagger Hilt, Tests...",
+   "stars": 70,
+   "forks": 11,
+   "topics": [
+    "android",
+    "android-clean-architecture",
+    "android-modularization",
+    "android-mvi",
+    "android-testing",
+    "coil-image-loader",
+    "coroutines",
+    "dependency-management",
+    "fakes",
+    "firebase",
+    "junit",
+    "kotlin",
+    "kotlin-channels",
+    "kotlin-flow",
+    "ktor-server",
+    "mockk",
+    "refresh-token",
+    "retrofit2",
+    "room",
+    "workmanager-kotlin"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2025-10-15T04:27:50Z",
+   "created_at": "2022-03-29T09:52:43Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2024-07-07T08:49:29Z"
+  },
+  "release": {
+   "id": 65746248,
+   "tag": "2",
+   "name": "Blogfy v1.0.1",
+   "notes": "",
+   "published_at": "2022-05-01T00:24:46Z",
+   "html_url": "https://github.com/HaythemMejerbi/Blogfy/releases/tag/2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 64138083,
+    "name": "Blogfy.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 14836278,
+    "download_url": "https://github.com/HaythemMejerbi/Blogfy/releases/download/2/Blogfy.apk",
+    "digest": null,
+    "download_count": 66
    }
   ]
  },
@@ -235721,7 +238648,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-26",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 692073153,
    "full_name": "TangoBeee/Weathernaut",
@@ -235775,13 +238702,13 @@
     "size": 6516462,
     "download_url": "https://github.com/TangoBeee/Weathernaut/releases/download/2.0/app-release.apk",
     "digest": null,
-    "download_count": 5538
+    "download_count": 5540
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-18",
+  "last_verified": "2026-10-29",
   "repo": {
    "id": 300906577,
    "full_name": "thelumiereguy/AstroAdventures-Android",
@@ -236568,101 +239495,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-28",
-  "repo": {
-   "id": 1133198337,
-   "full_name": "reapercanuk39/termux-kotlin-app",
-   "owner": "reapercanuk39",
-   "avatar_url": "https://avatars.githubusercontent.com/u/117741646?v=4",
-   "description": "🚀 Termux Android Terminal Emulator - Fully converted to Kotlin! A modern, type-safe fork of the official termux-app with 100% Kotlin codebase.",
-   "stars": 69,
-   "forks": 11,
-   "topics": [
-    "android",
-    "android-app",
-    "android-terminal",
-    "bash",
-    "kotlin",
-    "kotlin-android",
-    "linux",
-    "shell",
-    "terminal",
-    "terminal-app",
-    "terminal-emulator",
-    "termux",
-    "termux-app",
-    "termux-kotlin"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-24T06:00:19Z",
-   "created_at": "2026-01-13T02:41:58Z",
-   "license": "Other",
-   "language": "Kotlin",
-   "openIssues": 11,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-03-27T09:17:34Z"
-  },
-  "release": {
-   "id": 280277256,
-   "tag": "v2.0.14",
-   "name": "🚀 Termux Kotlin v2.0.14",
-   "notes": "## What's Changed\n\n- Merge pull request #21 from reapercanuk39/dependabot/github_actions/lewagon/wait-on-check-action-1.5.0\n- Changed: Bump lewagon/wait-on-check-action from 1.4.1 to 1.5.0\n- docs: Update build documentation [skip ci]\n\n**Full Changelog**: https://github.com/reapercanuk39/termux-kotlin-app/compare/v2.0.13...v2.0.14\n",
-   "published_at": "2026-01-27T12:27:30Z",
-   "html_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/tag/v2.0.14",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 346610810,
-    "name": "termux-app_apt-android-7-debug_arm64-v8a.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 55570023,
-    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_arm64-v8a.apk",
-    "digest": "sha256:8302e0496b1ac20c75359f6ab57665b71f546b7497758dd7f92f058e3c0dfe89",
-    "download_count": 736
-   },
-   {
-    "id": 346610812,
-    "name": "termux-app_apt-android-7-debug_armeabi-v7a.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 52455073,
-    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_armeabi-v7a.apk",
-    "digest": "sha256:82125da4e61b8d0e2a7ca463cc3637881c77595608188c18ee2be9de37b2d39e",
-    "download_count": 58
-   },
-   {
-    "id": 346610813,
-    "name": "termux-app_apt-android-7-debug_universal.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 141335134,
-    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_universal.apk",
-    "digest": "sha256:64012c41042b8eeeacfd773f68f33a4f64fd27aed717db3d3e509a86e495f3fb",
-    "download_count": 149
-   },
-   {
-    "id": 346610809,
-    "name": "termux-app_apt-android-7-debug_x86.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 54753725,
-    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_x86.apk",
-    "digest": "sha256:42e5506f79371c62e4ad9dd78800713c7cb91554957cea840f1172105d477291",
-    "download_count": 17
-   },
-   {
-    "id": 346610811,
-    "name": "termux-app_apt-android-7-debug_x86_64.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 55445068,
-    "download_url": "https://github.com/reapercanuk39/termux-kotlin-app/releases/download/v2.0.14/termux-app_apt-android-7-debug_x86_64.apk",
-    "digest": "sha256:b81ec9d2351a6e59b8ad29a8a6056977e28e4d12106a3e1c1c0be0d3185ad9fd",
-    "download_count": 24
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-10-27",
   "repo": {
    "id": 1229950078,
@@ -236710,69 +239542,6 @@
     "download_url": "https://github.com/duck-psycho/nsz-converter/releases/download/v1.2/NSZ.Converter.1.2.apk",
     "digest": "sha256:71b43ac17663c0e49526eead1b4e5cb20e7aa7d84baef70761a7056017b3397f",
     "download_count": 8251
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-27",
-  "repo": {
-   "id": 1151068359,
-   "full_name": "aeonBTC/IbisWallet",
-   "owner": "aeonBTC",
-   "avatar_url": "https://avatars.githubusercontent.com/u/7865680?v=4",
-   "description": "A self-custody Bitcoin wallet for Android with a focus on customizability, security, and privacy.",
-   "stars": 69,
-   "forks": 5,
-   "topics": [
-    "android",
-    "ark",
-    "bitcoin",
-    "layer2",
-    "lightning",
-    "liquid",
-    "on-chain",
-    "spark",
-    "swap"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-07T12:18:21Z",
-   "created_at": "2026-02-06T02:37:28Z",
-   "license": "MIT",
-   "language": "Kotlin",
-   "openIssues": 4,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-10-05T01:25:07Z"
-  },
-  "release": {
-   "id": 395706342,
-   "tag": "v5.0.1-beta",
-   "name": "Ibis Wallet v5.0.1-beta",
-   "notes": "## v5.0.1-beta — Ark receive hotfix\r\n\r\nFixes Ark-to-Ark payments that debited the sender while the recipient never saw the funds. No funds were lost; affected payments were stranded server-side.\r\n\r\n### Action required\r\n\r\nRecipients missing an Ark payment: run a **mailbox rescan** from VTXO management screen and wait for it to complete. The payment should appear on the next sync.\r\n\r\n-======-\r\nSHA256: 53D9897459E0526519E3775F1EF79E602F596386238E8DC1C07357A342AC65D6\r\nMD5: 235FCCAC7BAA0D964485627FC57E6322\r\n[PGP Public Key](https://github.com/aeonBTC/PGP-Public-Key)\r\n-======-\r\n\r\n**Full Changelog**: https://github.com/aeonBTC/IbisWallet/compare/v5.0-beta...v5.0.1-beta",
-   "published_at": "2026-09-24T13:14:02Z",
-   "html_url": "https://github.com/aeonBTC/IbisWallet/releases/tag/v5.0.1-beta",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 586003327,
-    "name": "IbisWallet_v5.0.1-beta.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 110693022,
-    "download_url": "https://github.com/aeonBTC/IbisWallet/releases/download/v5.0.1-beta/IbisWallet_v5.0.1-beta.apk",
-    "digest": "sha256:53d9897459e0526519e3775f1ef79e602f596386238e8dc1c07357a342ac65d6",
-    "download_count": 159
-   },
-   {
-    "id": 586005834,
-    "name": "IbisWallet_v5.0.1-beta.apk.sig",
-    "content_type": "application/octet-stream",
-    "size": 594,
-    "download_url": "https://github.com/aeonBTC/IbisWallet/releases/download/v5.0.1-beta/IbisWallet_v5.0.1-beta.apk.sig",
-    "digest": "sha256:1ed86d241d6dd51482973f7fb72417d1d1813fd2fa99b49ae0b23fe373e6a211",
-    "download_count": 3
    }
   ]
  },
@@ -237023,6 +239792,161 @@
     "download_url": "https://github.com/TheMetallists/LoudBang/releases/download/v0.53/LoudBang-v0.53-release.apk",
     "digest": "sha256:17b630d8b06d8a77ec5738bf9d51e206ae5457d64cca11c654e257e5b58482f6",
     "download_count": 333
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 330602407,
+   "full_name": "Ylianst/MeshCentralAndroidAgent",
+   "owner": "Ylianst",
+   "avatar_url": "https://avatars.githubusercontent.com/u/1319013?v=4",
+   "description": "MeshCentral Agent for Android Device",
+   "stars": 69,
+   "forks": 60,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-26T21:35:07Z",
+   "created_at": "2021-01-18T08:33:27Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 33,
+   "watchers": null,
+   "homepage": "https://meshcentral.com",
+   "pushedAt": "2026-10-08T13:36:10Z"
+  },
+  "release": {
+   "id": 406770588,
+   "tag": "legacy-1.2.6",
+   "name": "legacy-1.2.6",
+   "notes": "Preserved binaries from MeshCentral 1.2.6. These files have not been rebuilt. Source paths and checksums are recorded in agent-release.json.\r\n",
+   "published_at": "2026-10-08T11:49:56Z",
+   "html_url": "https://github.com/Ylianst/MeshCentralAndroidAgent/releases/tag/legacy-1.2.6",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 621679797,
+    "name": "agent-release.json",
+    "content_type": "application/json",
+    "size": 574,
+    "download_url": "https://github.com/Ylianst/MeshCentralAndroidAgent/releases/download/legacy-1.2.6/agent-release.json",
+    "digest": "sha256:c1d10cc01b05436a2770b616df0c89ff515ee287cc138ecd3378dd0fbe1179d5",
+    "download_count": 24
+   },
+   {
+    "id": 621679796,
+    "name": "meshagent_android.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 9236275,
+    "download_url": "https://github.com/Ylianst/MeshCentralAndroidAgent/releases/download/legacy-1.2.6/meshagent_android.apk",
+    "digest": "sha256:70f1ed3ea1ba5d2fe5430735089f03cbce1b85a4c719ad2adc7d1049345f2b6c",
+    "download_count": 11320
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 209758901,
+   "full_name": "wwy863399246/WanAndroid",
+   "owner": "wwy863399246",
+   "avatar_url": "https://avatars.githubusercontent.com/u/38743328?v=4",
+   "description": "Kotlin+JetPack+协程+retrofit2实现的MVVM架构Material Design风格版Wanandroid客户端",
+   "stars": 69,
+   "forks": 8,
+   "topics": [
+    "coroutines",
+    "jetpack",
+    "kotlin",
+    "mvvm"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-07-29T17:38:01Z",
+   "created_at": "2019-09-20T09:52:08Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://github.com/wwy863399246/WanAndroid",
+   "pushedAt": "2020-09-28T08:34:26Z"
+  },
+  "release": {
+   "id": 30015859,
+   "tag": "1.0.0",
+   "name": "apk_v1.0.0",
+   "notes": "go download",
+   "published_at": "2020-08-22T18:45:26Z",
+   "html_url": "https://github.com/wwy863399246/WanAndroid/releases/tag/1.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 24188808,
+    "name": "app-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 8775161,
+    "download_url": "https://github.com/wwy863399246/WanAndroid/releases/download/1.0.0/app-debug.apk",
+    "digest": null,
+    "download_count": 732
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-10-29",
+  "repo": {
+   "id": 1191276395,
+   "full_name": "jqssun/android-mac-editor",
+   "owner": "jqssun",
+   "avatar_url": "https://avatars.githubusercontent.com/u/195176069?v=4",
+   "description": "Securely edit Wi-Fi MAC address on Android",
+   "stars": 69,
+   "forks": 9,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T12:06:32Z",
+   "created_at": "2026-03-25T04:46:09Z",
+   "license": "AGPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "https://f-droid.org/en/packages/io.github.jqssun.maceditor/",
+   "pushedAt": "2026-10-16T20:31:20Z"
+  },
+  "release": {
+   "id": 415355268,
+   "tag": "v0.0.8",
+   "name": "v0.0.8",
+   "notes": "",
+   "published_at": "2026-10-16T20:31:20Z",
+   "html_url": "https://github.com/jqssun/android-mac-editor/releases/tag/v0.0.8",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 648533053,
+    "name": "app-release.aab",
+    "content_type": "application/x-authorware-bin",
+    "size": 4199083,
+    "download_url": "https://github.com/jqssun/android-mac-editor/releases/download/v0.0.8/app-release.aab",
+    "digest": "sha256:298f9cd0db2ee2633b18a5c2d86813b45f2812202cb292ab41b770b50601c56c",
+    "download_count": 14
+   },
+   {
+    "id": 648533054,
+    "name": "app-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 10265908,
+    "download_url": "https://github.com/jqssun/android-mac-editor/releases/download/v0.0.8/app-release.apk",
+    "digest": "sha256:7ab6db750d76775d49a9720b979001ee21faac4a27a0c7dc2b2cf8fcbf799fbc",
+    "download_count": 131
    }
   ]
  },
@@ -237772,50 +240696,6 @@
     "download_url": "https://github.com/FricoRico/Versta.Android/releases/download/v1.3.1/app.versta.translate.apk",
     "digest": "sha256:50242b088326b2706422bdc0e3e4468579b2a5c81ab07841c607e67a6ba66c53",
     "download_count": 846
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-26",
-  "repo": {
-   "id": 995131741,
-   "full_name": "FellipitoPV/NekoVideo",
-   "owner": "FellipitoPV",
-   "avatar_url": "https://avatars.githubusercontent.com/u/154937279?v=4",
-   "description": "A Android video player",
-   "stars": 68,
-   "forks": 8,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-10-25T21:45:35Z",
-   "created_at": "2025-06-03T02:42:12Z",
-   "license": "GPL-3.0",
-   "language": "Kotlin",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-10-22T19:37:59Z"
-  },
-  "release": {
-   "id": 421127975,
-   "tag": "v1.9.1",
-   "name": "NekoVideo 1.9.1 - Faster Folder Navigation, Untagged Filter and UI Fixes",
-   "notes": "### Features\r\n- Added a “No tags” filter in the sorting menu to help find videos that need tagging\r\n\r\n### Improvements\r\n- Faster loading and navigation in large folders\r\n- Name sorting now uses alphabetical order to reduce processing; numbers are treated as text, so “video 10” appears before “video 2”\r\n\r\n### Fixes\r\n- Fixed the move destination dialog sometimes opening only partially and closing when adjusted\r\n- Adjusted video previews, including in the tags dialog, to prevent videos from appearing small in the corner\r\n- Action messages no longer shift the folder list",
-   "published_at": "2026-10-22T19:43:56Z",
-   "html_url": "https://github.com/FellipitoPV/NekoVideo/releases/tag/v1.9.1",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 666889777,
-    "name": "NekoVideo.v1.9.1.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 7850037,
-    "download_url": "https://github.com/FellipitoPV/NekoVideo/releases/download/v1.9.1/NekoVideo.v1.9.1.apk",
-    "digest": "sha256:b5cbe3887291bff500ba7f1240b8ef9a190caee503277b2ba15d96a012db6827",
-    "download_count": 164
    }
   ]
  },
@@ -239023,69 +241903,6 @@
     "download_url": "https://github.com/codepdbh/nfsmwpc-recompiled/releases/download/v0.1.8/NFSMWPC-v0.1.8-SHA256SUMS.txt",
     "digest": "sha256:4d538cae3b7ee277920af46f402480e02fb02aa20846068b1875fe705e3302e6",
     "download_count": 264
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-26",
-  "repo": {
-   "id": 1035625641,
-   "full_name": "Saschl/alpha-gps",
-   "owner": "Saschl",
-   "avatar_url": "https://avatars.githubusercontent.com/u/19493808?v=4",
-   "description": "App for transmitting location data to sony cameras to allow geotagging",
-   "stars": 67,
-   "forks": 8,
-   "topics": [
-    "android",
-    "camera",
-    "creators",
-    "geotagging",
-    "gps",
-    "imaging-edge",
-    "location",
-    "photography",
-    "sony"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-26T02:50:45Z",
-   "created_at": "2025-08-10T19:46:07Z",
-   "license": "GPL-3.0",
-   "language": "Kotlin",
-   "openIssues": 13,
-   "watchers": null,
-   "homepage": "https://alphagps.app",
-   "pushedAt": "2026-10-25T23:35:08Z"
-  },
-  "release": {
-   "id": 416762416,
-   "tag": "v1.7.1",
-   "name": "Release v1.7.1",
-   "notes": "<!-- Release notes generated using configuration in .github/release.yaml at v1.7.1 -->\r\n\r\n## What's Changed\r\n\r\n## Fixed\r\n - Improved Wi-Fi remote compatibility for the Sony ZV-1 and other older Sony cameras, including live view startup and photo transfer.\r\n - Fixed repeated Bluetooth disconnections during location sharing with cameras such as the Sony RX0 II when Always On is disabled.\r\n### Other Changes\r\n* Translations update from Hosted Weblate by @weblate in https://github.com/Saschl/alpha-gps/pull/286\r\n* Translations update from Hosted Weblate by @weblate in https://github.com/Saschl/alpha-gps/pull/287\r\n* Update dependency astro to v7.3.8 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/289\r\n* Update kotlin monorepo to v2.4.21 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/186\r\n* Update actions/setup-node digest to 949feb2 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/288\r\n* Update Gradle to v9.8.1 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/290\r\n* Lock file maintenance by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/276\r\n* Update dependency androidx.navigationevent:navigationevent to v1.2.0 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/291\r\n* Update dependency org.jetbrains.kotlinx:kotlinx-coroutines-test to v1.11.0 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/235\r\n* Update composeMultiplatform to v1.12.2 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/296\r\n* Update actions/setup-java digest to b843ebf by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/295\r\n* Update sentry to v8.61.0 by @renovate[bot] in https://github.com/Saschl/alpha-gps/pull/292\r\n\r\n\r\n**Full Changelog**: https://github.com/Saschl/alpha-gps/compare/v1.7.0...v1.7.1",
-   "published_at": "2026-10-18T23:04:53Z",
-   "html_url": "https://github.com/Saschl/alpha-gps/releases/tag/v1.7.1",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 654693337,
-    "name": "app-foss-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 20732754,
-    "download_url": "https://github.com/Saschl/alpha-gps/releases/download/v1.7.1/app-foss-release.apk",
-    "digest": "sha256:888751e9efc65348e56ffd0958e818259199aed6a90e846f832dda72c2c8e431",
-    "download_count": 32
-   },
-   {
-    "id": 654693330,
-    "name": "app-gplay-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 24721206,
-    "download_url": "https://github.com/Saschl/alpha-gps/releases/download/v1.7.1/app-gplay-release.apk",
-    "digest": "sha256:4bee7cfe717bdca06fd998ee6e6fb4179aa5b1a354b84b43e0ecaa2504ea2536",
-    "download_count": 5
    }
   ]
  },
