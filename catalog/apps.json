@@ -418596,7 +418596,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 789520416,
    "full_name": "RikudouSage/AiWallpaperChanger",
@@ -418645,7 +418645,7 @@
     "size": 11853031,
     "download_url": "https://github.com/RikudouSage/AiWallpaperChanger/releases/download/v1.30.1/cz.chrastecky.aiwallpaperchanger_1.30.1_NSFW.apk",
     "digest": null,
-    "download_count": 208
+    "download_count": 212
    },
    {
     "id": 229443019,
@@ -425725,6 +425725,99 @@
     "download_url": "https://github.com/bliper2/yoinks-gui-fork/releases/download/v3.0.1/Yoinks-extension-3.0.1.zip",
     "digest": "sha256:404f87ae65eaa1c4cd010eb82de919414b34066df0e56e076c3fed1fd27f2933",
     "download_count": 2
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-01",
+  "repo": {
+   "id": 1312025769,
+   "full_name": "hamzabellouch/links",
+   "owner": "hamzabellouch",
+   "avatar_url": "https://avatars.githubusercontent.com/u/237856042?v=4",
+   "description": "Links is an open-source Android application designed to scan, generate, and manage custom QR codes and short URLs, featuring link safety inspection and enhanced link security within a modern, clean interface.",
+   "stars": 9,
+   "forks": 0,
+   "topics": [
+    "links",
+    "qr",
+    "qrcode",
+    "qrcode-generator"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-16T18:45:34Z",
+   "created_at": "2026-07-25T13:55:24Z",
+   "license": "Apache-2.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "https://hamzabellouch.github.io/",
+   "pushedAt": "2026-10-16T18:45:30Z"
+  },
+  "release": {
+   "id": 415277919,
+   "tag": "v0.0.6-beta",
+   "name": "Links v0.0.6-beta",
+   "notes": "</p>\r\n<h3 align=\"center\">Version 0.0.6-beta</h3>\r\n<p align=\"center\">\r\n</p>\r\n\r\n> Changes — October 16, 2026\r\n\r\n- New Logo!\r\n- Multi-format QR code export supporting PNG, JPG, WebP, and printable PDF documents.\r\n- Dedicated action buttons separating color selection, visual styling, and file format choices.\r\n- On-screen custom panels placed directly beneath the QR preview for colors and dot patterns.\r\n- Unified sizing, icon scales, and typography for the Save QR capsule and action circles matching the Scan tab.\r\n- Standardized Save QR button title across all supported application languages.\r\n- Set the Custom tab in QR Code to be turned off by default in General settings.\r\n- Removed the colored selection outline from export format cards for a cleaner visual design.\r\n- Integrated official Noto Sans Arabic font family across five weights directly into the app resources for offline use.\r\n- Automated Arabic typography switching across all Material Design text styles whenever the Arabic language is active.\r\n- Updated the onboarding flow typography to properly adapt to Noto Sans Arabic.\r\n- Added Noto Sans Arabic attribution under the open source credits page.\r\n- Updated the Translate card description to point community contributions to the GitHub repository instead of Hosted Weblate.\r\n- Resolved the Dark theme switch bug in Look and feel so toggling it off successfully switches the app to light mode.\r\n\r\n> Build Status\r\n\r\n```bash\r\nBUILD SUCCESSFUL\r\n```\r\n\r\n</p>\r\n<h3 align=\"center\">الإصدار 0.0.6-بيتا</h3>\r\n<p align=\"center\">\r\n</p>\r\n\r\n<div dir=\"rtl\">\r\n\r\n> التغييرات — 16 اكتوبر 2026\r\n\r\n- تصميم شعار جديد!\r\n- دعم تصدير رموز QR بصيغ متعددة، تشمل PNG وJPG وWebP، بالإضافة إلى مستندات PDF جاهزة للطباعة.\r\n- إضافة أزرار إجراءات منفصلة لاختيار الألوان، وتخصيص الأنماط البصرية، وتحديد تنسيق الملف.\r\n- إضافة لوحات تخصيص مباشرة أسفل معاينة رمز QR، لتعديل الألوان وأنماط النقاط.\r\n- توحيد الأحجام ومقاييس الأيقونات والخطوط الخاصة بزر Save QR الدائري وأزرار الإجراءات، بما يتوافق مع تصميم تبويب المسح",
+   "published_at": "2026-10-16T18:49:34Z",
+   "html_url": "https://github.com/hamzabellouch/links/releases/tag/v0.0.6-beta",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 648267279,
+    "name": "Links-v0.0.6-beta-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 3771414,
+    "download_url": "https://github.com/hamzabellouch/links/releases/download/v0.0.6-beta/Links-v0.0.6-beta-release.apk",
+    "digest": "sha256:5c8d8cb805da8167d04bf0ba13571186b1a7acb935ecafe6b4d6581e640dc7f7",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-01",
+  "repo": {
+   "id": 1234804817,
+   "full_name": "1093791954/QishuiHelper",
+   "owner": "1093791954",
+   "avatar_url": "https://avatars.githubusercontent.com/u/76523442?v=4",
+   "description": "GPT-5.5 视觉驱动的 Android 浮窗自动化工具,自动看广告领取汽水音乐免费听时长",
+   "stars": 9,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-15T14:08:24Z",
+   "created_at": "2026-05-10T17:00:44Z",
+   "license": null,
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-05-11T05:44:01Z"
+  },
+  "release": {
+   "id": 320270953,
+   "tag": "v1.2",
+   "name": "v1.2 - 移除第三方中转站引用",
+   "notes": "## 改动\n\n- 移除 README / strings.xml / GptVisionClient.kt 中的 otokapi.com 硬编码\n- 改为通用示例（用户自己的中转站地址）\n- 措辞调整：「示例: ...」「必填，从你的 AI 中转站后台获取」\n- 不再使用「留空使用默认 Key」表述（本应用不内置任何 API 凭据）\n\n## 安装\n下载 `app-release-v1.2.apk` 直接安装，覆盖旧版即可（versionCode 3）。\n\n首次使用必须在 APP 内填写 API base / key / model 三项。",
+   "published_at": "2026-05-11T05:44:25Z",
+   "html_url": "https://github.com/1093791954/QishuiHelper/releases/tag/v1.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 417181514,
+    "name": "app-release-v1.2.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5160773,
+    "download_url": "https://github.com/1093791954/QishuiHelper/releases/download/v1.2/app-release-v1.2.apk",
+    "digest": "sha256:d3f6c4c99e197615ce1d21cfca19f1a7f1c578d2d4a510b1bcf069089fe181b5",
+    "download_count": 126
    }
   ]
  },
@@ -473628,7 +473721,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1339891354,
    "full_name": "Agtom-FN/Ollidar",
@@ -473650,10 +473743,10 @@
    "created_at": "2026-08-19T18:12:54Z",
    "license": "Apache-2.0",
    "language": "C++",
-   "openIssues": 3,
+   "openIssues": 4,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-18T08:16:33Z"
+   "pushedAt": "2026-11-01T10:13:46Z"
   },
   "release": {
    "id": 376242887,
@@ -473690,13 +473783,13 @@
     "size": 101648770,
     "download_url": "https://github.com/Agtom-FN/Ollidar/releases/download/v1.0.3/Ollidar-1.0.3-10003.apk",
     "digest": "sha256:2aaf9ecd965b9efa5e033ced07e1b747d67ead56ff8a43f177cb556c50c741f3",
-    "download_count": 6
+    "download_count": 7
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 201906141,
    "full_name": "khoben/ar.core",
@@ -473783,7 +473876,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1262426162,
    "full_name": "james28909/clipboard-plus-plus",
@@ -473842,7 +473935,7 @@
     "size": 44938,
     "download_url": "https://github.com/james28909/clipboard-plus-plus/releases/download/v0.1.0-beta.8/clipboardpp-android-api-debug.apk",
     "digest": "sha256:9692897e497d2fd2ec5c6f392f659228d9fba30b92170c171f177294e25eec86",
-    "download_count": 3
+    "download_count": 4
    },
    {
     "id": 480003175,
@@ -473851,7 +473944,7 @@
     "size": 52499887,
     "download_url": "https://github.com/james28909/clipboard-plus-plus/releases/download/v0.1.0-beta.8/debug-x64.zip",
     "digest": "sha256:7ecb19c3289496d63001b771991756149aef786a03885c57b827291f62e3ef15",
-    "download_count": 2
+    "download_count": 3
    },
    {
     "id": 480003177,
@@ -473860,7 +473953,7 @@
     "size": 6652352,
     "download_url": "https://github.com/james28909/clipboard-plus-plus/releases/download/v0.1.0-beta.8/fonts-installer.zip",
     "digest": "sha256:dc7a8beb751986f720fe8ede18acd13ff0d0ee026db18d90fa6a1c06f5383325",
-    "download_count": 2
+    "download_count": 4
    },
    {
     "id": 480003176,
@@ -473869,7 +473962,7 @@
     "size": 4421349,
     "download_url": "https://github.com/james28909/clipboard-plus-plus/releases/download/v0.1.0-beta.8/release-x64.zip",
     "digest": "sha256:4b7327e5c8d76943821728beaac01168798d849ff73283b1fdad21b140ec7f41",
-    "download_count": 23
+    "download_count": 26
    }
   ]
  },
@@ -668812,7 +668905,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1398531113,
    "full_name": "sajjadka21/ratatoskr",
@@ -668824,14 +668917,14 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-10T00:14:56Z",
+   "updated_at": "2026-10-29T20:12:44Z",
    "created_at": "2026-09-30T17:30:59Z",
    "license": "Other",
    "language": "Rust",
-   "openIssues": 21,
+   "openIssues": 19,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-25T07:08:51Z"
+   "pushedAt": "2026-10-29T20:12:40Z"
   },
   "release": {
    "id": 402646131,
@@ -668850,7 +668943,7 @@
     "size": 687,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/latest.json",
     "digest": "sha256:eda8bb4dc6d9c679b66508ccd7482392abc14db5b44f8e4d58c303f9fee3be21",
-    "download_count": 5
+    "download_count": 6
    },
    {
     "id": 608341712,
@@ -668868,7 +668961,7 @@
     "size": 57143416,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr-android-armeabi-v7a.apk",
     "digest": "sha256:b6ef62437f9c2710194c26173ccd4b740c9fba7c2b0a9b0f8f47cc648e8f8a44",
-    "download_count": 0
+    "download_count": 3
    },
    {
     "id": 608341716,
@@ -668877,7 +668970,7 @@
     "size": 10765507,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr-android-source.zip",
     "digest": "sha256:0404f6bf0d678a0cf8673591f4e8447d45b6f2290ff4d6dfb0fa1b7a4608bd09",
-    "download_count": 0
+    "download_count": 2
    },
    {
     "id": 608341713,
@@ -668886,7 +668979,7 @@
     "size": 66794401,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr-android-x86_64.apk",
     "digest": "sha256:fa44be65babae91f70d1f1a71fec59f21d9ebf2ac67012a4d1ed444eea313921",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 608341711,
@@ -668895,7 +668988,7 @@
     "size": 63810750,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr-android.apk",
     "digest": "sha256:c2ecf8f3a19bb067d81c44d380c5da13ac606c0b7d430b2d8c16aaa7b385080c",
-    "download_count": 6
+    "download_count": 9
    },
    {
     "id": 608341733,
@@ -668904,7 +668997,7 @@
     "size": 31148,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr-extension-chrome.zip",
     "digest": "sha256:36a95357bdc3106b599c548b9a4f5a780f6fb66f975e8a23dce5f70d2836f93c",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 608341742,
@@ -668922,7 +669015,7 @@
     "size": 31276,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr-extension-firefox.zip",
     "digest": "sha256:d4ab646b0ee7607e03c857ff30dd166772ccd5c5184b29907b0c915321b007d7",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 608341761,
@@ -668931,7 +669024,7 @@
     "size": 27166424,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr-portable.zip",
     "digest": "sha256:5db1adc9d2df492511ac95c72977833241d056af58b2b17b88192b750c4b91b5",
-    "download_count": 1
+    "download_count": 2
    },
    {
     "id": 608341767,
@@ -668940,7 +669033,7 @@
     "size": 25905659,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr_1.3.0_x64-setup.exe",
     "digest": "sha256:46db896b5d80614cf38f07248960ea77d3df0762d7bc7acac2a6b7c3fe3e3f1f",
-    "download_count": 4
+    "download_count": 5
    },
    {
     "id": 608341768,
@@ -668949,7 +669042,7 @@
     "size": 420,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr_1.3.0_x64-setup.exe.sig",
     "digest": "sha256:0e70e1bb59cee419421362d5a1a43b3c6366bd18033818750e04f1ac3c921d36",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 608341772,
@@ -668958,7 +669051,7 @@
     "size": 29159424,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/Ratatoskr_1.3.0_x64_en-US.msi",
     "digest": "sha256:a9ef105e84135fe1fd3a3935d4905740063f55b36c35edfc47eb15be0af8fa9c",
-    "download_count": 1
+    "download_count": 3
    },
    {
     "id": 608341773,
@@ -668967,13 +669060,13 @@
     "size": 1225,
     "download_url": "https://github.com/sajjadka21/ratatoskr/releases/download/v1.3.0/SHA256SUMS.txt",
     "digest": "sha256:81b8cb4adf24a7930ae0a2e3bca765e7ba593223c3b1489c81e0b06c3c8a1e0a",
-    "download_count": 5
+    "download_count": 9
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1374579782,
    "full_name": "nekomario28/mobile-webcam-bridge",
@@ -668985,66 +669078,93 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-25T16:20:08Z",
+   "updated_at": "2026-10-30T13:34:28Z",
    "created_at": "2026-09-17T14:36:33Z",
    "license": "Apache-2.0",
    "language": "Rust",
-   "openIssues": 29,
+   "openIssues": 7,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-25T16:20:04Z"
+   "pushedAt": "2026-10-31T16:04:04Z"
   },
   "release": {
-   "id": 423507430,
-   "tag": "v0.2.4",
-   "name": "Mobile Webcam 0.2.4",
+   "id": 424703511,
+   "tag": "v0.3.2",
+   "name": "Mobile Webcam 0.3.2",
    "notes": "Rust host + Android release.\n\n- Linux AppImage is the Rust build (minimal LGPL FFmpeg), not the classic Qt/GPL AppImage from v0.1.x.\n- Android APK is signed with the project release key.\n- See THIRD_PARTY_NOTICES.md and FFMPEG_SOURCE_OFFER.md (when attached) for LGPL obligations.\n",
-   "published_at": "2026-10-25T16:06:52Z",
-   "html_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/tag/v0.2.4",
+   "published_at": "2026-10-26T20:02:58Z",
+   "html_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/tag/v0.3.2",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 675473819,
+    "id": 679309278,
     "name": "FFMPEG_SOURCE_OFFER.md",
     "content_type": "text/markdown; charset=utf-8",
     "size": 4219,
-    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.2.4/FFMPEG_SOURCE_OFFER.md",
+    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.3.2/FFMPEG_SOURCE_OFFER.md",
     "digest": "sha256:a5523d267add63dbc86c98366da55cd8787363c69f859469a3fbebc7602bba58",
     "download_count": 0
    },
    {
-    "id": 675473820,
-    "name": "Mobile_Webcam-0.2.4-android.apk",
+    "id": 679309274,
+    "name": "Mobile_Webcam-0.3.2-android.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 754090,
-    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.2.4/Mobile_Webcam-0.2.4-android.apk",
-    "digest": "sha256:d4e9d89fac29b65f2fb49ce52a81017460a355caaba354d6f4d3928759a8e04d",
-    "download_count": 2
+    "size": 775211,
+    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.3.2/Mobile_Webcam-0.3.2-android.apk",
+    "digest": "sha256:8d6a6908e35c4c00fd9b4173469ed9021449915e9fe6dc6a7fac3d47db68e404",
+    "download_count": 1
    },
    {
-    "id": 675473825,
-    "name": "Mobile_Webcam-0.2.4-x86_64.AppImage",
+    "id": 679354726,
+    "name": "Mobile_Webcam-0.3.2-windows-x86_64-rust-preview-Setup.exe",
+    "content_type": "application/x-msdownload",
+    "size": 4991246,
+    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.3.2/Mobile_Webcam-0.3.2-windows-x86_64-rust-preview-Setup.exe",
+    "digest": "sha256:6048b6116c24318adc9f39a68739ed31a81a806042b911e7db19f260e9466adc",
+    "download_count": 1
+   },
+   {
+    "id": 679354725,
+    "name": "Mobile_Webcam-0.3.2-windows-x86_64-rust-preview.zip",
+    "content_type": "application/zip",
+    "size": 7171679,
+    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.3.2/Mobile_Webcam-0.3.2-windows-x86_64-rust-preview.zip",
+    "digest": "sha256:b31a505277924b9cec52d824b2332a7c2e891ee453dfd127e1e6448789cd8ac3",
+    "download_count": 1
+   },
+   {
+    "id": 679309284,
+    "name": "Mobile_Webcam-0.3.2-x86_64.AppImage",
     "content_type": "application/vnd.appimage",
-    "size": 8894968,
-    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.2.4/Mobile_Webcam-0.2.4-x86_64.AppImage",
-    "digest": "sha256:4cd14d69375c38b43b24a71eaa02ac8aea60f695e04ebd6a8057f41e33c851dd",
+    "size": 8313336,
+    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.3.2/Mobile_Webcam-0.3.2-x86_64.AppImage",
+    "digest": "sha256:cab2d0c0ca63752f84283f11191eab4ace32bfc1fd677f9a7537fa7b2abf6c98",
     "download_count": 0
    },
    {
-    "id": 675473818,
+    "id": 679309280,
     "name": "SHA256SUMS",
     "content_type": "application/octet-stream",
     "size": 289,
-    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.2.4/SHA256SUMS",
-    "digest": "sha256:417f47b47e1b55ad9b83f7daa025e34b5d12f3922cf21340ce8ad45446254e56",
-    "download_count": 0
+    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.3.2/SHA256SUMS",
+    "digest": "sha256:94b7922d4667db0251ad6a96fd26dcd4a593f659f58b0b1ce3dc10fe13ba7295",
+    "download_count": 1
+   },
+   {
+    "id": 679354722,
+    "name": "SHA256SUMS-windows.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 242,
+    "download_url": "https://github.com/nekomario28/mobile-webcam-bridge/releases/download/v0.3.2/SHA256SUMS-windows.txt",
+    "digest": "sha256:1b124935961c5c1e05baa3d8d99e09509305eb684574d7f966a22130c0d79547",
+    "download_count": 1
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1390528066,
    "full_name": "qvr/spotlet",
@@ -669056,39 +669176,39 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-09-27T18:38:35Z",
+   "updated_at": "2026-11-01T11:44:29Z",
    "created_at": "2026-09-27T09:07:09Z",
    "license": "MIT",
    "language": "Rust",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-09-27T18:38:34Z"
+   "pushedAt": "2026-11-01T11:53:56Z"
   },
   "release": {
-   "id": 397754428,
-   "tag": "v0.1.1",
-   "name": "Spotlet 0.1.1",
-   "notes": "Bug fix release.\n\n- Resuming after the receiver has been idle now continues from where you paused. Before, the track started over from the beginning.\n- When the receiver goes idle after 10 minutes, it now leaves the Spotify Connect session cleanly.\n\nInstall with `adb install -r spotlet-0.1.1.apk`. It updates 0.1.0 in place and keeps your settings and statistics.\n",
-   "published_at": "2026-09-27T18:05:54Z",
-   "html_url": "https://github.com/qvr/spotlet/releases/tag/v0.1.1",
+   "id": 430548127,
+   "tag": "v0.1.2",
+   "name": "Spotlet 0.1.2",
+   "notes": "Bug fix release.\n\n- Selecting a song in a playlist plays that song again. Recent versions of the Spotify app probably changed how they send the selected song, which made the receiver start the first song in the list instead.\n\nInstall with `adb install -r spotlet-0.1.2.apk`. It updates 0.1.1 in place and keeps your settings and statistics.\n",
+   "published_at": "2026-11-01T11:53:56Z",
+   "html_url": "https://github.com/qvr/spotlet/releases/tag/v0.1.2",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 593470499,
-    "name": "spotlet-0.1.1.apk",
+    "id": 698193579,
+    "name": "spotlet-0.1.2.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 18756387,
-    "download_url": "https://github.com/qvr/spotlet/releases/download/v0.1.1/spotlet-0.1.1.apk",
-    "digest": "sha256:32886bf31adc367ff27614373b0d8600159a2ddef8a1ce47a48a1387b56c576b",
-    "download_count": 9
+    "size": 18810907,
+    "download_url": "https://github.com/qvr/spotlet/releases/download/v0.1.2/spotlet-0.1.2.apk",
+    "digest": "sha256:d22050bfd3ecc07a823b94b70099db4729cc3612d98c35edd54645b1aed9bc39",
+    "download_count": 1
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1120694720,
    "full_name": "billybobbain/fracpack",
@@ -670061,7 +670181,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1384103610,
    "full_name": "PlutaB/News-Alarm",
@@ -670073,33 +670193,33 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-23T09:01:11Z",
+   "updated_at": "2026-10-28T14:46:04Z",
    "created_at": "2026-09-23T19:37:27Z",
    "license": null,
    "language": null,
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-23T09:01:21Z"
+   "pushedAt": "2026-10-28T14:46:10Z"
   },
   "release": {
-   "id": 421636136,
-   "tag": "v0.5.76",
-   "name": "News Alarm v0.5.76",
-   "notes": "Public Android preview build.\n\n- Version: 0.5.76 (versionCode 170)\n- Application ID: com.plutab.newsalarm\n- Requires Android 8.0 or newer; ARM64 devices\n- Android debug test build\n",
-   "published_at": "2026-10-23T09:01:22Z",
-   "html_url": "https://github.com/PlutaB/News-Alarm/releases/tag/v0.5.76",
+   "id": 426796159,
+   "tag": "v0.5.83",
+   "name": "News Alarm v0.5.83",
+   "notes": "Public Android preview build.\n\n- Version: 0.5.83 (versionCode 177)\n- Application ID: com.plutab.newsalarm\n- Requires Android 8.0 or newer; ARM64 devices\n- Android debug test build\n",
+   "published_at": "2026-10-28T14:46:11Z",
+   "html_url": "https://github.com/PlutaB/News-Alarm/releases/tag/v0.5.83",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 668563989,
-    "name": "NewsAlarm-0.5.76-debug.apk",
+    "id": 685303229,
+    "name": "NewsAlarm-0.5.83-debug.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 37919119,
-    "download_url": "https://github.com/PlutaB/News-Alarm/releases/download/v0.5.76/NewsAlarm-0.5.76-debug.apk",
-    "digest": "sha256:9b56d48ffa50fa27161e6dad12ad591eb9aceb1c2a4b61d59afe39d6a4fb7fc0",
-    "download_count": 4
+    "size": 38087942,
+    "download_url": "https://github.com/PlutaB/News-Alarm/releases/download/v0.5.83/NewsAlarm-0.5.83-debug.apk",
+    "digest": "sha256:852178c6bffa45dbe89b6d7bf6587d3c73410514966ee7650d1febdf33454f8c",
+    "download_count": 1
    }
   ]
  },
@@ -692290,6 +692410,313 @@
     "download_url": "https://github.com/mypenc/paintcraft/releases/download/v0.1.0/paintcraft-arm64-signed.apk",
     "digest": "sha256:a645a8e53d00d69ac988b1555a6bc22afcc517716ee6846789e1f17a84b25d80",
     "download_count": 21
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-01",
+  "repo": {
+   "id": 1441865415,
+   "full_name": "nanodevmc/zl1-archiver",
+   "owner": "nanodevmc",
+   "avatar_url": "https://avatars.githubusercontent.com/u/350523822?v=4",
+   "description": "ZL1 Extreme Solid Archiver & Crossplatform Toolkit (Windows, Linux, macOS, Android APK, Termux CLI)",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-01T14:11:01Z",
+   "created_at": "2026-11-01T13:47:51Z",
+   "license": null,
+   "language": "Rust",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-01T14:11:01Z"
+  },
+  "release": {
+   "id": 430626244,
+   "tag": "v0.4.0",
+   "name": "v0.4.0",
+   "notes": "**Full Changelog**: https://github.com/nanodevmc/zl1-archiver/commits/v0.4.0",
+   "published_at": "2026-11-01T14:12:27Z",
+   "html_url": "https://github.com/nanodevmc/zl1-archiver/releases/tag/v0.4.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 698522666,
+    "name": "config",
+    "content_type": "application/octet-stream",
+    "size": 809,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/config",
+    "digest": "sha256:3889e4537b0710ea2c01b71f1d2b28f318e6e907ef2c28af2bca3a9bdafdbd4f",
+    "download_count": 1
+   },
+   {
+    "id": 698522651,
+    "name": "config.worktree",
+    "content_type": "application/octet-stream",
+    "size": 83,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/config.worktree",
+    "digest": "sha256:443a5f645c23c3d0c0aa09f634b2ad111d46ef61946b598a2fb311678ab47454",
+    "download_count": 1
+   },
+   {
+    "id": 698522661,
+    "name": "default.gitignore",
+    "content_type": "application/octet-stream",
+    "size": 8,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/default.gitignore",
+    "digest": "sha256:44c92e3a70ad3307b7056871c2bdb096d8bfa9373f5bf06a79bb6324a20ff2fb",
+    "download_count": 1
+   },
+   {
+    "id": 698522655,
+    "name": "description",
+    "content_type": "application/octet-stream",
+    "size": 73,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/description",
+    "digest": "sha256:85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "download_count": 1
+   },
+   {
+    "id": 698522657,
+    "name": "FETCH_HEAD",
+    "content_type": "application/octet-stream",
+    "size": 130,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/FETCH_HEAD",
+    "digest": "sha256:866a3f101c28bd56626912fd66dd2cbd94ac4a1b70158012375ce232d90747a9",
+    "download_count": 1
+   },
+   {
+    "id": 698522640,
+    "name": "HEAD",
+    "content_type": "application/octet-stream",
+    "size": 41,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/HEAD",
+    "digest": "sha256:d26e63f5c8df07a4a8f8e9943c7c3e9b03ef8aca442a3d3d8b4f05975f7d9b23",
+    "download_count": 0
+   },
+   {
+    "id": 698522660,
+    "name": "icon.svg",
+    "content_type": "image/svg+xml",
+    "size": 1333,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/icon.svg",
+    "digest": "sha256:fc4b1b5ac8e14f67828c2437b079d7550dcb5a9b30bfa09efd7553f65b1ef3f9",
+    "download_count": 1
+   },
+   {
+    "id": 698522654,
+    "name": "index",
+    "content_type": "application/octet-stream",
+    "size": 2974,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/index",
+    "digest": "sha256:bbdb454c29964838a072ebf77eeb7c720d2e4d6e0b4c0ce2cb4fd434fa9d11d1",
+    "download_count": 1
+   },
+   {
+    "id": 698522646,
+    "name": "install.bat",
+    "content_type": "application/x-msdownload",
+    "size": 1967,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/install.bat",
+    "digest": "sha256:136ed0eb78c2a49b5da80ade6db8801e2290fa2936708d1e925856aa323397a1",
+    "download_count": 1
+   },
+   {
+    "id": 698522639,
+    "name": "shallow",
+    "content_type": "application/octet-stream",
+    "size": 41,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/shallow",
+    "digest": "sha256:d26e63f5c8df07a4a8f8e9943c7c3e9b03ef8aca442a3d3d8b4f05975f7d9b23",
+    "download_count": 1
+   },
+   {
+    "id": 698529861,
+    "name": "zl1-archiver-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 29138,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/zl1-archiver-release.apk",
+    "digest": "sha256:ab6240c86cf19a06fb4613a8ceaa4e8194119beb6987b80d8eb233c7c708a352",
+    "download_count": 1
+   },
+   {
+    "id": 698522689,
+    "name": "zl1-cli",
+    "content_type": "application/octet-stream",
+    "size": 661104,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/zl1-cli",
+    "digest": "sha256:9f9dc98fcdc85c163584b8502357534ecee35b3d59d17976611558fa133d74ff",
+    "download_count": 1
+   },
+   {
+    "id": 698522642,
+    "name": "zl1-gui.exe",
+    "content_type": "application/x-msdos-program",
+    "size": 242176,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/zl1-gui.exe",
+    "digest": "sha256:6cebff45bac766002b2968b95a8c67db7d1e9ca21be859546ce8ea28b2962ca3",
+    "download_count": 1
+   },
+   {
+    "id": 698529857,
+    "name": "zl1-linux-arm64",
+    "content_type": "application/octet-stream",
+    "size": 729128,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/zl1-linux-arm64",
+    "digest": "sha256:a58d507d392e62dff5a0dca28b8795724bd700962b1aa5fcca19f9b096999568",
+    "download_count": 1
+   },
+   {
+    "id": 698529854,
+    "name": "zl1-linux-x64",
+    "content_type": "application/octet-stream",
+    "size": 706512,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/zl1-linux-x64",
+    "digest": "sha256:31c20c270046cf91b4fa7c9617a103a22cb28b46c86e38655242c59b2b7bda86",
+    "download_count": 1
+   },
+   {
+    "id": 698529855,
+    "name": "zl1-macos-arm64",
+    "content_type": "application/octet-stream",
+    "size": 661104,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/zl1-macos-arm64",
+    "digest": "sha256:9f9dc98fcdc85c163584b8502357534ecee35b3d59d17976611558fa133d74ff",
+    "download_count": 0
+   },
+   {
+    "id": 698529859,
+    "name": "zl1-macos-x64",
+    "content_type": "application/octet-stream",
+    "size": 649520,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/zl1-macos-x64",
+    "digest": "sha256:8288a84d45426d84f67b57e2b642117a6adc93f2f2a3d32b3a4055b81f64adfd",
+    "download_count": 1
+   },
+   {
+    "id": 698529858,
+    "name": "zl1-termux-arm64",
+    "content_type": "application/octet-stream",
+    "size": 742320,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/zl1-termux-arm64",
+    "digest": "sha256:70528289bbc725cff37d8807bd7491bbb52a973c14704cc4755fc7cda8ce2a01",
+    "download_count": 1
+   },
+   {
+    "id": 698529856,
+    "name": "zl1-windows-x64.exe",
+    "content_type": "application/x-msdos-program",
+    "size": 368128,
+    "download_url": "https://github.com/nanodevmc/zl1-archiver/releases/download/v0.4.0/zl1-windows-x64.exe",
+    "digest": "sha256:141b105eaf7b8ec3857ad7207efe2e4322df12bd0feba5911565d0225e7facdc",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-01",
+  "repo": {
+   "id": 1424013416,
+   "full_name": "HoangDeXiong01/Android-Localization",
+   "owner": "HoangDeXiong01",
+   "avatar_url": "https://avatars.githubusercontent.com/u/212800537?v=4",
+   "description": "An Android app for translating .xliff/.xlf or strings.xml files, designed for translators without a computer",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "android-web-app",
+    "strings-xml-editor",
+    "xliff-editor"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-01T04:05:50Z",
+   "created_at": "2026-10-18T05:09:06Z",
+   "license": null,
+   "language": "HTML",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-01T04:08:14Z"
+  },
+  "release": {
+   "id": 430354052,
+   "tag": "v1.3.7",
+   "name": "Android Localization 1.3.7",
+   "notes": "",
+   "published_at": "2026-11-01T04:08:14Z",
+   "html_url": "https://github.com/HoangDeXiong01/Android-Localization/releases/tag/v1.3.7",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 697282957,
+    "name": "Android-Localization-1.3.7.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 3263553,
+    "download_url": "https://github.com/HoangDeXiong01/Android-Localization/releases/download/v1.3.7/Android-Localization-1.3.7.apk",
+    "digest": "sha256:42b67c7ba144b776b7b4bfcd91238f71ae9a3cbbe3c6f4293c81839d9b0aa769",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-01",
+  "repo": {
+   "id": 1442009132,
+   "full_name": "Sp4wnE/RavenDroid",
+   "owner": "Sp4wnE",
+   "avatar_url": "https://avatars.githubusercontent.com/u/141812135?v=4",
+   "description": "Native Android Port for Ravenfield, with offline game data and customizable touch controls.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-01T20:37:42Z",
+   "created_at": "2026-11-01T16:26:05Z",
+   "license": null,
+   "language": "Rust",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-01T20:18:39Z"
+  },
+  "release": {
+   "id": 430709491,
+   "tag": "v0.20",
+   "name": "RavenDroid 0.20 · Full Offline APK",
+   "notes": "## RavenDroid 0.20 — Full Offline APK\r\n\r\nThe full ARM64 package includes the game code and game data. On first launch the launcher prepares the files automatically; existing verified data is reused. No separate game APK/ZIP or download is required.\r\n\r\n- Android 10+ / ARM64; approximately 1.02GB.\r\n- Install over the existing app to preserve saves and control layouts. The signing certificate is unchanged.\r\n- Allow approximately 1.5GB of additional free space after installation for data preparation and the AOT cache.\r\n- This build uses generic compiler source paths and removes unnecessary image provenance metadata. The native engine and reviewed game payload are otherwise unchanged.\r\n- Build 25 retains the 0.20 version name and can update the previous build.\r\n\r\nValidation: 34 Java tests; lint 0 errors / 27 warnings; artifact/profile/hash/signature and 16 KiB alignment checks. The package and decoded game data were checked for the identified workstation/user markers. The production importer previously passed full-size preparation/reuse with 256 MiB Java heap.\r\n\r\nThe latest first-launch UI has not yet been validated on a physical device. No across-device performance guarantee is made.\r\n",
+   "published_at": "2026-11-01T16:45:35Z",
+   "html_url": "https://github.com/Sp4wnE/RavenDroid/releases/tag/v0.20",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 698872252,
+    "name": "ravendroid-v0.20-full.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 1020492173,
+    "download_url": "https://github.com/Sp4wnE/RavenDroid/releases/download/v0.20/ravendroid-v0.20-full.apk",
+    "digest": "sha256:3a6aaf1598b674c53b12fe6a662b808751bae0d640f2c8f4dc673cf8dbbd422a",
+    "download_count": 2
+   },
+   {
+    "id": 698872250,
+    "name": "ravendroid-v0.20-full.apk.sha256",
+    "content_type": "application/octet-stream",
+    "size": 93,
+    "download_url": "https://github.com/Sp4wnE/RavenDroid/releases/download/v0.20/ravendroid-v0.20-full.apk.sha256",
+    "digest": "sha256:3d7530472d00f25249e71c0c745a951b4694f8479a1499a8a4f1e183371d52e0",
+    "download_count": 0
    }
   ]
  },
@@ -720277,7 +720704,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1385604852,
    "full_name": "kalki-kgp/Tally",
@@ -720330,7 +720757,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1361677841,
    "full_name": "Akash2529/SpendSense",
@@ -720374,7 +720801,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-11-01",
   "repo": {
    "id": 1343568399,
    "full_name": "seifsheikhelarab/vault_app",
