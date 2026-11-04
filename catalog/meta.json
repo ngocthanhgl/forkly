@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "scanned_at": "2026-11-04T01:05:51.319947+00:00",
+ "scanned_at": "2026-11-04T01:41:01.015254+00:00",
  "tool": "tools/scan.py",
  "query_set": 8,
  "query_sets": [
@@ -22,19 +22,19 @@
   "android recipes archived:false fork:false"
  ],
  "candidates": 10674,
- "pending": 10674,
- "checked": 1786,
- "checked_total": 1786,
- "verified_today": 418,
- "carried_over": 11322,
+ "pending": 8888,
+ "checked": 1796,
+ "checked_total": 3582,
+ "verified_today": 352,
+ "carried_over": 11326,
  "dropped_stale": 0,
  "truncated": true,
  "resumed": true,
  "interrupted": false,
  "complete": false,
  "error": null,
- "duration_s": 2100.1,
- "matches": 11326,
- "index_matches": 11326,
- "index_bytes": 9370627
+ "duration_s": 2100.5,
+ "matches": 11331,
+ "index_matches": 11331,
+ "index_bytes": 9374861
 }
