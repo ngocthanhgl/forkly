@@ -205004,7 +205004,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 212129355,
    "full_name": "aijason/RN_WanAndroid",
@@ -208535,6 +208535,161 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1339888634,
+   "full_name": "zexadev/dsh-tether",
+   "owner": "zexadev",
+   "avatar_url": "https://avatars.githubusercontent.com/u/160208005?v=4",
+   "description": "DeepSeek Harness (dsh) remote access from your phone: Android / iOS mobile client, peer-to-peer over iroh across networks, no server to set up, relay fallback sees only ciphertext; Android can also run dsh locally · 手机远程使用电脑上的 DSH，点对点直连，不用架服务器",
+   "stars": 92,
+   "forks": 13,
+   "topics": [
+    "ai-agent",
+    "android",
+    "coding-agent",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-mobile",
+    "dsh-plugin",
+    "hole-punching",
+    "ios",
+    "iroh",
+    "mobile",
+    "mobile-app",
+    "nat-traversal",
+    "p2p",
+    "remote-access",
+    "remote-control",
+    "remote-development",
+    "rust",
+    "tauri"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-03T03:50:24Z",
+   "created_at": "2026-08-19T18:09:51Z",
+   "license": "MIT",
+   "language": "JavaScript",
+   "openIssues": 4,
+   "watchers": null,
+   "homepage": "https://dsh-tether.zexa.cc/",
+   "pushedAt": "2026-11-03T03:50:20Z"
+  },
+  "release": {
+   "id": 431826639,
+   "tag": "v0.1.25",
+   "name": "v0.1.25",
+   "notes": "### 修复\n\n- **窄屏下侧栏卡在 56px:标签文字渲染出来却被裁掉,侧栏开关也找不到**([#22](https://github.com/zexadev/dsh-tether/issues/22))。0.1.24 的窄屏样式用「主框架下有没有拖拽把手」判断侧栏是否展开,这个判据要靠 `:has()`。有的厂商 WebView 会把带 `:has()` 的规则整条丢掉(报告机型:华为 Mate 50 / HarmonyOS 4.2),于是「展开时侧栏 300px」那条不生效,而 dsh 自己处在展开态——标签照常渲染,被 56px 的盒子裁成每行一两个字;开关只在收起态渲染,页面上也找不到,界面就卡在这个混态。现在改读 dsh 写在主框架上的 `data-sidebar-collapsed`(收起为 `\"true\"`,展开时属性不存在),不再用 `:has()`;插件声明支持的五段 dsh 范围各取一版查过,这个属性每版都有。拖拽把手那条规则一并删掉,手机上它本来也拖不动。实测 480×1056:收起侧栏 57px、无遮罩、「主机」标签隐藏;按开关 301px、遮罩出现、标签显示;点内容区收回。\n- **dsh 桌面端里「我的电脑」按钮点了没有任何反应**([#23](https://github.com/zexadev/dsh-tether/issues/23))。按钮的文案和行为原本按 `window.parent !== window` 判断「是不是在 tether 手机 App 里」,而 dsh 桌面端的插件界面同样跑在宿主的内嵌 frame 里,于是桌面端被当成手机:按钮显示「我的电脑」,点击只向父窗口发一条 `dsh-tether:open-hosts` 消息——桌面宿主没有这条消息的监听者,按钮因此是死的,也没有别的出路。现在改成 App 建窗口时往所有 frame 注入 `window.__DSH_TETHER_APP__`,谁是 App 谁挂标记;拿不到标记一律按浏览器处理,当场出示配对串。桌面端因此也能拿到配对串(换手机、加设备时用),不必再手动开浏览器访问本机地址。这条要配新版 App 才完整:老 App 没有这个标记,装上新插件后按钮会显示「连接手机」并出示配对串。\n- **窄屏下附件缩略图被挤变形**(修 #22 时发现)。窄屏那几条规则用 `[class*=\"_frame\"]` 选主框架,但 dsh 的会话区、附件缩略图、子代理、文档预览的局部类名也带 `_frame`,而且都长在主框架里面。附件缩略图自己是个单格网格,被 `grid-template-columns: 56px minmax(0,1fr) 0px` 改成三列之后,图片挤进 56px 的第一列;侧栏遮罩那条同理会糊在每个嵌套元素上。这几条现在限定成「带 `_frame` 且不在任何 `_frame` 里面」。\n\n### 变更\n\n- 声明支持 dsh `0.2.1-rc.5` 与 `0.2.2-alpha.2`。dsh 从 0.1.7 起会拒装声明范围没覆盖自己的插件,所以 0.2.2-alpha 线上原本装不上。两个版本都实跑验证过:布局包的类名与 `data-sidebar-collapsed` 和 0.2.1-rc.3 逐字相同,抽屉、设置弹窗、侧栏按钮行为一致。APK 内置的 dsh 仍是 `0.2.1-rc.2`,本次不动。\n\n### English\n\nOn a narrow screen the sidebar could get stuck at 56px with its labels rendered but clipped and no sidebar toggle in sight ([#22](https://github.com/zexadev/dsh-tether/issues/22)). The narrow-screen styling in 0.1.24 decided whether the sidebar was expanded by looking for the drag handle under the frame, which needs `:has()`. Some vendor WebViews drop every rule containing `:has()` (reported on a Huawei Mate 50 running HarmonyOS 4.2), so the \"sidebar is 300px when expanded\" rule never applied while dsh itself was in the expanded state: ",
+   "published_at": "2026-11-02T18:28:29Z",
+   "html_url": "https://github.com/zexadev/dsh-tether/releases/tag/v0.1.25",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 702746377,
+    "name": "dsh-tether-0.1.25-arm.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 10973837,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-0.1.25-arm.apk",
+    "digest": "sha256:fd48bcb8c8578bd626cdb529d80b09d885da4282f4dbc210a42c028f40de11e2",
+    "download_count": 10
+   },
+   {
+    "id": 702746383,
+    "name": "dsh-tether-0.1.25-arm64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 86579907,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-0.1.25-arm64.apk",
+    "digest": "sha256:a33751f68bc7a1fada27e087aaa39d7f3f6d489b71ea03a39df8927ab37cc13c",
+    "download_count": 68
+   },
+   {
+    "id": 702746380,
+    "name": "dsh-tether-0.1.25-ios-unsigned.ipa",
+    "content_type": "application/octet-stream",
+    "size": 7123667,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-0.1.25-ios-unsigned.ipa",
+    "digest": "sha256:dbb9a423b14f92eb554db6146b25583ceeda7f085aae72189aa9ba2d94b6fd32",
+    "download_count": 22
+   },
+   {
+    "id": 702746381,
+    "name": "dsh-tether-0.1.25-x86.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 12913205,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-0.1.25-x86.apk",
+    "digest": "sha256:2508f3e2769f954e3ee8e97941d0727154ad8a80a838eae251989885c375cfd8",
+    "download_count": 5
+   },
+   {
+    "id": 702746382,
+    "name": "dsh-tether-0.1.25-x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 12283244,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-0.1.25-x86_64.apk",
+    "digest": "sha256:c661feb5c2a944a5b5a4b5aaab13f5f937d2a1d3a4bcdc1009f4181d79a5380f",
+    "download_count": 5
+   },
+   {
+    "id": 702746387,
+    "name": "dsh-tether-host-android-arm64-0.1.25.tgz",
+    "content_type": "application/octet-stream",
+    "size": 7847124,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-host-android-arm64-0.1.25.tgz",
+    "digest": "sha256:bdd432f20b6aca7f6d4b4f9dc4e84a58316a0a25d7fa32002e53146355fab036",
+    "download_count": 2
+   },
+   {
+    "id": 702746384,
+    "name": "dsh-tether-host-darwin-arm64-0.1.25.tgz",
+    "content_type": "application/octet-stream",
+    "size": 6748954,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-host-darwin-arm64-0.1.25.tgz",
+    "digest": "sha256:8da3cd858c422c4d02e7d43820aa8ff6cea9216c8aea71e4a63dae39eaa087f7",
+    "download_count": 2
+   },
+   {
+    "id": 702746378,
+    "name": "dsh-tether-host-darwin-x64-0.1.25.tgz",
+    "content_type": "application/octet-stream",
+    "size": 6942601,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-host-darwin-x64-0.1.25.tgz",
+    "digest": "sha256:41914baeb82b7dc1bdff7fffc4e09a293ff663f97bdd7b5f708232c7d62e66ca",
+    "download_count": 1
+   },
+   {
+    "id": 702746388,
+    "name": "dsh-tether-host-linux-arm64-0.1.25.tgz",
+    "content_type": "application/octet-stream",
+    "size": 8314403,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-host-linux-arm64-0.1.25.tgz",
+    "digest": "sha256:7b70494f61a39c4156127e2ca217817e8aba1a3ea1401b32949f794e79faf1fe",
+    "download_count": 1
+   },
+   {
+    "id": 702746373,
+    "name": "dsh-tether-host-linux-x64-0.1.25.tgz",
+    "content_type": "application/octet-stream",
+    "size": 8030155,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-host-linux-x64-0.1.25.tgz",
+    "digest": "sha256:896c1de040f4f1efc029a789abdfacc49765f32518a6bbec51b184c80c61a0ee",
+    "download_count": 1
+   },
+   {
+    "id": 702746379,
+    "name": "dsh-tether-host-win32-x64-0.1.25.tgz",
+    "content_type": "application/octet-stream",
+    "size": 6166321,
+    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.25/dsh-tether-host-win32-x64-0.1.25.tgz",
+    "digest": "sha256:059e60be80d872402535337905ed937efac6a9a05ffc3dc67964fb312bcbdaff",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-29",
   "repo": {
    "id": 1297285274,
@@ -209456,7 +209611,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1067795575,
    "full_name": "Ark-Repoleved/BDroid_X",
@@ -209501,157 +209656,7 @@
     "size": 42211811,
     "download_url": "https://github.com/Ark-Repoleved/BDroid_X/releases/download/1.4.9/app-release.apk",
     "digest": "sha256:20898afb6c11d3e856c70ba745e154cac2b46bf0b318ac172f32f6167bcd7e58",
-    "download_count": 646
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 1339888634,
-   "full_name": "zexadev/dsh-tether",
-   "owner": "zexadev",
-   "avatar_url": "https://avatars.githubusercontent.com/u/160208005?v=4",
-   "description": "Mobile client for the DeepSeek Harness — use the dsh on your dev machine from your Android or iOS phone, remotely across networks, peer-to-peer over iroh with no server to set up (falls back to a relay that only sees ciphertext)",
-   "stars": 91,
-   "forks": 13,
-   "topics": [
-    "ai-agent",
-    "android",
-    "coding-agent",
-    "deepseek",
-    "deepseek-harness",
-    "dsh",
-    "dsh-plugin",
-    "hole-punching",
-    "iroh",
-    "mobile",
-    "nat-traversal",
-    "p2p",
-    "remote-development",
-    "rust",
-    "tauri"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-31T15:27:05Z",
-   "created_at": "2026-08-19T18:09:51Z",
-   "license": "MIT",
-   "language": "JavaScript",
-   "openIssues": 4,
-   "watchers": null,
-   "homepage": "https://dsh-tether.zexa.cc/",
-   "pushedAt": "2026-10-26T06:23:53Z"
-  },
-  "release": {
-   "id": 423926675,
-   "tag": "v0.1.24",
-   "name": "v0.1.24",
-   "notes": "### 修复\n\n- **老 WebView 上 dsh 界面整个起不来:停在「正在加载工作区…」,或点「选择工作区」时报 `AbortSignal.any is not a function`**([#20](https://github.com/zexadev/dsh-tether/issues/20))。dsh 0.2.1-rc 的前端用到 `Promise.withResolvers`(Chrome 119 起有)和 `AbortSignal.any`(Chrome 116 起有),而华为等厂商随系统发的 WebView 还停在 Chromium 114,两个都没有。前者让启动脚本当场抛错,后者让读取远端数据那一步次次失败,界面于是无限转圈重连。现在 App 在建窗口时就补上这两个 API,并且补进页面里内嵌的 dsh 界面那一层——它和外壳不同源,只补外壳够不着。补之前先探测,WebView 自带的就不动,新机器上等于没有这段代码。真机对照:华为 TET-AN50 / Android 12 / WebView 114.0.5.302,修前必现,修后 dsh 正常启动、目录列表正常、脚本报错为零;本机模式与终端不受影响。\n- **放一段时间后界面卡在「重新连接中」,等多久都不恢复,只能强停 App 重开**([#19](https://github.com/zexadev/dsh-tether/issues/19))。四处缺陷叠在一起:\n  - 链路死了也不报断开。读写两侧用「都结束才算完」来等,而写侧平时一直阻塞在待发队列上、只有读侧会报错,这个条件于是永远不成立。实测杀掉电脑侧 sidecar 七分钟,手机顶栏一直显示「已连接」,一条断开事件都没发出来。改成任一侧结束即收尾,现在约半分钟内就会报「连接已断开」并给出「重新连接」。\n  - 本地代理的监听口既不随连接关闭,换连接时也不让出。按主机派生的那个固定端口因此被废弃的监听长期占着,新连接只能退回随机端口。更要命的是废监听照样接受 TCP 连接、但每个请求都被丢掉——页面看着是连上的,实际一个请求也出不去,这正是「显示正常却一直重连」的来由。\n  - 端口一换,对 dsh 来说就是换了个来源,按来源存的状态(当前会话、界面偏好)全是空的,于是每次重连都像第一次打开。\n  - 旧连接收尾时不看自己还是不是当前那条,一律广播断开并清空发送端。刚建好的新连接会被它一起判死:顶栏在连上的同一毫秒跳回「未连接」,审批决定也发不出去。\n  \n  真机验证:杀掉电脑侧进程后 37 秒内报断开;重连回到同一个固定端口;连按三次重连,手机上始终只有那一个监听口,也不再出现多余的断开事件。\n- **会话里工具调用那几行被切掉大半,只剩文字最上面一道横杠**([#18](https://github.com/zexadev/dsh-tether/issues/18))。这是 0.1.0 起给窄屏注入的样式写宽了:那条规则本来只给设置弹窗的「说明 + 控件」行用,判据却只看类名里带不带 `row`,把会话里的工具调用行一并命中了。那种行高度写死、超出即裁,被强行允许换行之后图标占满第一行、标题掉到第二行,露在外面的只剩第二行最上面几个像素。文件路径、命令、报错这类长标题全中招,短标题排得下反而没事,所以一问一答看不出来、任务一跑长就满屏横杠。判据改成「这一行里确实有说明列」:设置弹窗照旧,会话里的行恢复单行加省略号。顺带说明,这跟手机型号和 WebView 版本都没关系——把桌面浏览器窗口收到同样宽度,一样会出现。\n\n### English\n\nThe whole dsh interface failed to start on older WebViews: it sat at \"Loading workspace…\", or choosing a workspace reported `AbortSignal.any is not a function` ([#20](https://github.com/zexadev/dsh-tether/issues/20)). The dsh 0.2.1-rc frontend uses `Promise.withResolvers` (Chrome 119 and later) and `AbortSignal.any` (Chrome 116 and later), and the system WebView shipped by Huawei and others is still on Chromium 114, which has neither. The first made the boot script throw outri",
-   "published_at": "2026-10-26T06:42:42Z",
-   "html_url": "https://github.com/zexadev/dsh-tether/releases/tag/v0.1.24",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 677268244,
-    "name": "dsh-tether-0.1.24-arm.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 10972129,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-0.1.24-arm.apk",
-    "digest": "sha256:8920acb24b32f4f597bdfd01ddc25bd30dec262250ccd582b0740c00d37194d7",
-    "download_count": 19
-   },
-   {
-    "id": 677268247,
-    "name": "dsh-tether-0.1.24-arm64.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 86710543,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-0.1.24-arm64.apk",
-    "digest": "sha256:91d67eaf6ea18f7f7e81fe367381301c529d376a52600f57d5d35952fb023c9d",
-    "download_count": 503
-   },
-   {
-    "id": 677268250,
-    "name": "dsh-tether-0.1.24-ios-unsigned.ipa",
-    "content_type": "application/octet-stream",
-    "size": 7121725,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-0.1.24-ios-unsigned.ipa",
-    "digest": "sha256:23989236699c07b6c4b82341e8c0cd2ccb9c746756c6473642bfe5ab5bba1087",
-    "download_count": 87
-   },
-   {
-    "id": 677268255,
-    "name": "dsh-tether-0.1.24-x86.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 12906673,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-0.1.24-x86.apk",
-    "digest": "sha256:a77f48daf4f6f14b7bcf738ddd5934c37f68831c8f4acd713895e0e3ae8c6e85",
-    "download_count": 5
-   },
-   {
-    "id": 677268253,
-    "name": "dsh-tether-0.1.24-x86_64.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 12275068,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-0.1.24-x86_64.apk",
-    "digest": "sha256:2e34fd0058c70adde0a0a6677c6ddf13c53363757dff66f8435e36bad770bc7c",
-    "download_count": 6
-   },
-   {
-    "id": 677268249,
-    "name": "dsh-tether-host-android-arm64-0.1.24.tgz",
-    "content_type": "application/octet-stream",
-    "size": 7846759,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-host-android-arm64-0.1.24.tgz",
-    "digest": "sha256:a8342ff8757b8e95f7108898cc569fd6c597e4f43e2d5187a8d1f769d2033c05",
-    "download_count": 3
-   },
-   {
-    "id": 677268248,
-    "name": "dsh-tether-host-darwin-arm64-0.1.24.tgz",
-    "content_type": "application/octet-stream",
-    "size": 6748993,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-host-darwin-arm64-0.1.24.tgz",
-    "digest": "sha256:afac9fa238038e28dbfa063c3d950eaeec880623ebaa4e9304aa7ac552b68eb3",
-    "download_count": 3
-   },
-   {
-    "id": 677268256,
-    "name": "dsh-tether-host-darwin-x64-0.1.24.tgz",
-    "content_type": "application/octet-stream",
-    "size": 6942854,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-host-darwin-x64-0.1.24.tgz",
-    "digest": "sha256:7ba24f5c84da7dd8c599597460f383d0faf1e742888871d3e0401e767a8b2dd6",
-    "download_count": 3
-   },
-   {
-    "id": 677268252,
-    "name": "dsh-tether-host-linux-arm64-0.1.24.tgz",
-    "content_type": "application/octet-stream",
-    "size": 8316176,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-host-linux-arm64-0.1.24.tgz",
-    "digest": "sha256:b27febaa18148712ded1f33ca17c01483d51b3df33f1d79e7533f57e27463b3d",
-    "download_count": 3
-   },
-   {
-    "id": 677268242,
-    "name": "dsh-tether-host-linux-x64-0.1.24.tgz",
-    "content_type": "application/octet-stream",
-    "size": 8030282,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-host-linux-x64-0.1.24.tgz",
-    "digest": "sha256:caca9a921e50d4ecb4fc99ae1b74663577b459ce7034af74a5f0744d6050b3fa",
-    "download_count": 5
-   },
-   {
-    "id": 677268246,
-    "name": "dsh-tether-host-win32-x64-0.1.24.tgz",
-    "content_type": "application/octet-stream",
-    "size": 6166315,
-    "download_url": "https://github.com/zexadev/dsh-tether/releases/download/v0.1.24/dsh-tether-host-win32-x64-0.1.24.tgz",
-    "digest": "sha256:a252974774c13117ab3650b7bee6649ced38d47c03e92c73809c7ec64c1a92d6",
-    "download_count": 3
+    "download_count": 740
    }
   ]
  },
@@ -210005,7 +210010,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 89148863,
    "full_name": "N3TC4T/Nearby-Live",
@@ -211102,7 +211107,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 657788937,
    "full_name": "j-jorge/bim",
@@ -211122,14 +211127,14 @@
    ],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-10-30T18:30:12Z",
+   "updated_at": "2026-11-02T21:53:52Z",
    "created_at": "2023-06-23T21:22:48Z",
    "license": "AGPL-3.0",
    "language": "C++",
    "openIssues": 1,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-30T18:30:05Z"
+   "pushedAt": "2026-11-03T21:47:59Z"
   },
   "release": {
    "id": 418726208,
@@ -211148,7 +211153,7 @@
     "size": 65295456,
     "download_url": "https://github.com/j-jorge/bim/releases/download/v17/bim-17.apk",
     "digest": "sha256:1eb5bff145e810c56e9b311f386244c76fac0244273551b65bf54d65a4ed0e40",
-    "download_count": 146
+    "download_count": 149
    }
   ]
  },
@@ -211491,6 +211496,121 @@
     "download_url": "https://github.com/aarcangeli/Serious-Sam-Android/releases/download/v1.04.0/SeriousSamRelease-V1.04.0.apk",
     "digest": null,
     "download_count": 55693
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 778690973,
+   "full_name": "TheYogMehta/StrawVerse",
+   "owner": "TheYogMehta",
+   "avatar_url": "https://avatars.githubusercontent.com/u/84078595?v=4",
+   "description": "A fast, open-source anime and manga downloader for Windows, Linux, and Android with batch downloads, subtitles, multiple sources, quality selection, and MyAnimeList integration.",
+   "stars": 90,
+   "forks": 25,
+   "topics": [
+    "anime",
+    "anime-app",
+    "anime-download",
+    "anime-downloader",
+    "anime-manager",
+    "anime-manga",
+    "anime-scraper",
+    "batch-downloader",
+    "desktop-app",
+    "mal",
+    "manga",
+    "manga-downloader",
+    "mobile-app",
+    "myanimelist",
+    "open-source",
+    "video-downloader"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-03T19:38:38Z",
+   "created_at": "2024-03-28T07:58:43Z",
+   "license": "GPL-3.0",
+   "language": "JavaScript",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "https://strawverse.theyogmehta.online/",
+   "pushedAt": "2026-10-25T20:54:28Z"
+  },
+  "release": {
+   "id": 423636874,
+   "tag": "v11.1.1",
+   "name": "StrawVerse v11.1.1",
+   "notes": "### Android Updates & Notifications\n\n- **Tap to Install from Notification Bar:** When an app update finishes downloading, you can now tap the notification directly in your Android notification shade to open the installer immediately\n\n### Mobile & Marketplace\n\n- **Fixed Broken Mobile Marketplace Layout:** extension cards were cut off on the left with blank space on the right on mobile screens. The header buttons and tabs now wrap neatly to fit your phone.\n\n### Database & Mapping Stability\n\n- **Fixed Mapping Sync Errors:** Fixed an issue where mapping database updates would fail on mobile due to missing unmapped tables and schema differences, ensuring updates apply smoothly.\n\n\n**Full Changelog**: https://github.com/TheYogMehta/StrawVerse/compare/v11.1.0...v11.1.1\n**Discord Support Server**: https://discord.gg/PzfUBgQ2gt",
+   "published_at": "2026-10-25T20:18:00Z",
+   "html_url": "https://github.com/TheYogMehta/StrawVerse/releases/tag/v11.1.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 676019703,
+    "name": "latest-linux.yml",
+    "content_type": "application/yaml",
+    "size": 533,
+    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/latest-linux.yml",
+    "digest": "sha256:77fb499528a7d3c4abafb0ee168b39e28963d331adea76705e9853775d4c45ee",
+    "download_count": 115
+   },
+   {
+    "id": 676019731,
+    "name": "latest.yml",
+    "content_type": "application/yaml",
+    "size": 352,
+    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/latest.yml",
+    "digest": "sha256:410279c08b3d2ab78c096b56facfb282a0742b66924f4a9fdf39d7762931238b",
+    "download_count": 1375
+   },
+   {
+    "id": 676016935,
+    "name": "StrawVerse-11.1.1.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 99041555,
+    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/StrawVerse-11.1.1.apk",
+    "digest": "sha256:edf25897be9f5380b24929ffc7021635c35fe621297fffee6b9d9a7353004a4e",
+    "download_count": 196
+   },
+   {
+    "id": 676016953,
+    "name": "strawverse-11.1.1.AppImage",
+    "content_type": "application/vnd.appimage",
+    "size": 266823203,
+    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/strawverse-11.1.1.AppImage",
+    "digest": "sha256:036509dcd4884df61612a7e465826419d11ec449bd69af4ee78ce90c36eeb31a",
+    "download_count": 22
+   },
+   {
+    "id": 676016954,
+    "name": "StrawVerse.Setup.11.1.1.exe",
+    "content_type": "application/octet-stream",
+    "size": 216730186,
+    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/StrawVerse.Setup.11.1.1.exe",
+    "digest": "sha256:f036927ce1b20ebc0cedb88117e0bd1bbfd3065d1295421d8b735387a791710a",
+    "download_count": 270
+   },
+   {
+    "id": 676016955,
+    "name": "strawverse_11.1.1_amd64.deb",
+    "content_type": "application/x-debian-package",
+    "size": 220915156,
+    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/strawverse_11.1.1_amd64.deb",
+    "digest": "sha256:a731b6ea5aee9b719b99e155f0057f5ad09663ad2b37b9417980f876e728e435",
+    "download_count": 14
+   },
+   {
+    "id": 676016937,
+    "name": "strawverse_11.1.1_amd64.snap",
+    "content_type": "application/vnd.snap",
+    "size": 232222720,
+    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/strawverse_11.1.1_amd64.snap",
+    "digest": "sha256:a9d1ab97feb0efb1379376072aff13e7f0b4e3a50f5b8d4037a797f5eda2d343",
+    "download_count": 8
    }
   ]
  },
@@ -212546,6 +212666,50 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1231471942,
+   "full_name": "xiangsu1145/Auto-aim_android-yolo",
+   "owner": "xiangsu1145",
+   "avatar_url": "https://avatars.githubusercontent.com/u/179441403?v=4",
+   "description": "安卓运行yolo模型进行图像识别",
+   "stars": 89,
+   "forks": 22,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-02T09:56:19Z",
+   "created_at": "2026-05-07T01:56:14Z",
+   "license": "GPL-3.0",
+   "language": "C++",
+   "openIssues": 9,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-07-16T10:35:14Z"
+  },
+  "release": {
+   "id": 354982314,
+   "tag": "v1.2.1",
+   "name": "Aimbot Android v1.2.1",
+   "notes": "## v1.2.1 更新内容\n\n- 触摸稳定性增强，长时间运行更可靠\n- QNN HTP 推理优化，启动与模型切换更流畅\n- UI 细节优化，操作更清晰\n- 修复若干已知问题\n\n## 其他变更\n\n- 新增授权码登录系统\n- 开源协议由 MIT 切换至 GPL-3.0\n\n## 系统要求\n\n- 芯片：骁龙 8 Gen 1 及以上（SM8450+）\n- 系统：Android 12 (API 31) 及以上\n- 架构：arm64-v8a\n\n## 许可\n\n本项目基于 GNU GPL v3 开源。",
+   "published_at": "2026-07-16T09:21:56Z",
+   "html_url": "https://github.com/xiangsu1145/Auto-aim_android-yolo/releases/tag/v1.2.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 478993268,
+    "name": "app-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 236753822,
+    "download_url": "https://github.com/xiangsu1145/Auto-aim_android-yolo/releases/download/v1.2.1/app-release.apk",
+    "digest": "sha256:c787ebcc360d0d33c7eb1b826ec195ce8ba77b90966b4b152222032cc0b5c007",
+    "download_count": 1456
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 531224554,
@@ -212762,7 +212926,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 35741384,
    "full_name": "lubomyr/uae4arm",
@@ -212774,33 +212938,33 @@
    "topics": [],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-10-31T19:17:07Z",
+   "updated_at": "2026-11-03T19:41:01Z",
    "created_at": "2015-05-16T21:43:27Z",
    "license": "GPL-2.0",
    "language": "C++",
    "openIssues": 39,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-31T19:24:03Z"
+   "pushedAt": "2026-11-03T19:47:19Z"
   },
   "release": {
-   "id": 430137457,
-   "tag": "1.0.9.0",
-   "name": "1.0.9.0",
-   "notes": "uae4arm 1.0.9.0\n\n### New\n- Z3 Fast RAM up to 512 MB (Memory panel), as Quake III wants at least 256 MB. Devices without room for that much get the most there is, at least 128 MB as before\n- amigaApps/Libs/minigl.library: QuarkTex NG's minigl.library with the camera of GLQuake fixed. Copy it to LIBS: in place of the one from QuarkTex NG\n\n### Fixes\n- QuarkTex NG: GLQuake for MiniGL draws correctly, with the minigl.library above: the lighting of the walls, the text and the models were missing or white, and on Android the picture was a strip at the bottom of the window. Tested with GLQuake and Quake III for MiniGL\n",
-   "published_at": "2026-10-31T19:24:03Z",
-   "html_url": "https://github.com/lubomyr/uae4arm/releases/tag/1.0.9.0",
+   "id": 433144657,
+   "tag": "1.0.9.4",
+   "name": "1.0.9.4",
+   "notes": "uae4arm 1.0.9.4\n\n### New\n- HostPlay plays files of any drive: a video inside a hardfile, on a floppy or in RAM: goes over to the device first; from the Shell it tells how far it is, and Ctrl-C stops it\n- HostPlay: the title tells the time played and the length of the video, a click on the slider goes to that place, and the zoom gadget makes the window fill the screen and gives it its size back\n- Copy the new amigaApps/HostPlay to C:, as the older one does not work with this version\n\n### Fixes\n- HostPlay: seeking no longer stops the Amiga while the place is found, and picture and sound start together at the new place. Long videos saved by downloaders took seconds to seek to a far place; now they seek at once after the first few seconds of playing\n- HostPlay: videos decoded by Android's software decoders, such as MPEG-4 (DivX, Xvid), were grey\n",
+   "published_at": "2026-11-03T19:47:20Z",
+   "html_url": "https://github.com/lubomyr/uae4arm/releases/tag/1.0.9.4",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 696272753,
-    "name": "uae4arm-1.0.9.0.apk",
+    "id": 706870430,
+    "name": "uae4arm-1.0.9.4.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 15700274,
-    "download_url": "https://github.com/lubomyr/uae4arm/releases/download/1.0.9.0/uae4arm-1.0.9.0.apk",
-    "digest": "sha256:fb74e4f2aa8cd7af1f66f7d9d90e13815b580f80da56ffcbaa19a9c50cb68f3e",
-    "download_count": 5
+    "size": 15753522,
+    "download_url": "https://github.com/lubomyr/uae4arm/releases/download/1.0.9.4/uae4arm-1.0.9.4.apk",
+    "digest": "sha256:efd9d93342d46ec219410fde57250b510b0e3285bfa8c6157ec47809753ab2ef",
+    "download_count": 9
    }
   ]
  },
@@ -214977,50 +215141,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 1231471942,
-   "full_name": "xiangsu1145/Auto-aim_android-yolo",
-   "owner": "xiangsu1145",
-   "avatar_url": "https://avatars.githubusercontent.com/u/179441403?v=4",
-   "description": "安卓运行yolo模型进行图像识别",
-   "stars": 87,
-   "forks": 22,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-10-30T16:08:12Z",
-   "created_at": "2026-05-07T01:56:14Z",
-   "license": "GPL-3.0",
-   "language": "C++",
-   "openIssues": 9,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-07-16T10:35:14Z"
-  },
-  "release": {
-   "id": 354982314,
-   "tag": "v1.2.1",
-   "name": "Aimbot Android v1.2.1",
-   "notes": "## v1.2.1 更新内容\n\n- 触摸稳定性增强，长时间运行更可靠\n- QNN HTP 推理优化，启动与模型切换更流畅\n- UI 细节优化，操作更清晰\n- 修复若干已知问题\n\n## 其他变更\n\n- 新增授权码登录系统\n- 开源协议由 MIT 切换至 GPL-3.0\n\n## 系统要求\n\n- 芯片：骁龙 8 Gen 1 及以上（SM8450+）\n- 系统：Android 12 (API 31) 及以上\n- 架构：arm64-v8a\n\n## 许可\n\n本项目基于 GNU GPL v3 开源。",
-   "published_at": "2026-07-16T09:21:56Z",
-   "html_url": "https://github.com/xiangsu1145/Auto-aim_android-yolo/releases/tag/v1.2.1",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 478993268,
-    "name": "app-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 236753822,
-    "download_url": "https://github.com/xiangsu1145/Auto-aim_android-yolo/releases/download/v1.2.1/app-release.apk",
-    "digest": "sha256:c787ebcc360d0d33c7eb1b826ec195ce8ba77b90966b4b152222032cc0b5c007",
-    "download_count": 1441
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 1015883837,
@@ -215120,6 +215240,68 @@
     "download_url": "https://github.com/brandonp2412/BlockDrop/releases/download/v1.0.73/block_drop_windows_1.0.73.zip",
     "digest": "sha256:6762c9e0980364491bba3b184a8b6edc34b7562e923b73da62e3c97160a61a50",
     "download_count": 2
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1417908549,
+   "full_name": "codepdbh/nfsu1-recompiled",
+   "owner": "codepdbh",
+   "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
+   "description": "Need for Speed Underground (2003) statically recompiled to native code for Windows and Android — no emulator. Requires your own copy of the game.",
+   "stars": 87,
+   "forks": 5,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T02:11:51Z",
+   "created_at": "2026-10-13T20:12:46Z",
+   "license": null,
+   "language": "C++",
+   "openIssues": 206,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-30T14:51:25Z"
+  },
+  "release": {
+   "id": 429150369,
+   "tag": "v0.2.10",
+   "name": "Underground 1 Android Evolved v0.2.10",
+   "notes": "## Underground 1 Android Evolved v0.2.10: luces y launcher\n\n### Cambios\n\n- **Luces, reflejos y efectos girados bien.** Las funciones de rotación de D3DX que trae el juego tenían el seno y el coseno intercambiados. Es el mismo fallo que en Carbon hacía que las luces se vieran como rayas.\n- **El launcher dice qué falta.** Si falta el archivo de idioma (`LANGUAGES/<idioma>.bin`), el launcher lo indica en vez de dejar JUGAR desactivado sin explicación. El aviso del HUD panorámico (`WidescreenFix.dat`) ahora pone que es opcional: no impide jugar.\n\nDos APK: **arm64** y **armeabi-v7a**. Android 10+, Vulkan 1.1+, datos de tu copia de PC en `nfsu1`. Misma firma; se instalan como actualización. Se adjunta `NFSU1-v0.2.10-SHA256SUMS.txt`.\n",
+   "published_at": "2026-10-30T14:51:25Z",
+   "html_url": "https://github.com/codepdbh/nfsu1-recompiled/releases/tag/v0.2.10",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 692428497,
+    "name": "NFSU1-AndroidEvolved-v0.2.10-arm64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 43521357,
+    "download_url": "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.10/NFSU1-AndroidEvolved-v0.2.10-arm64.apk",
+    "digest": "sha256:0d43bd12477130a00398022862c7ca76520a323cf94a7d017d74d9dd19b773b5",
+    "download_count": 3896
+   },
+   {
+    "id": 692428490,
+    "name": "NFSU1-AndroidEvolved-v0.2.10-armeabi-v7a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 51326439,
+    "download_url": "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.10/NFSU1-AndroidEvolved-v0.2.10-armeabi-v7a.apk",
+    "digest": "sha256:013b01edf4dc91b685575190fe481666364df74115ec2764abf04454521eef5d",
+    "download_count": 136
+   },
+   {
+    "id": 692428489,
+    "name": "NFSU1-v0.2.10-SHA256SUMS.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 216,
+    "download_url": "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.10/NFSU1-v0.2.10-SHA256SUMS.txt",
+    "digest": "sha256:6351228433ec250b37f8c30277a915bd8136c07358f7530dede8bebf0630bfc0",
+    "download_count": 86
    }
   ]
  },
@@ -215314,7 +215496,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 272156123,
    "full_name": "nihui/ncnn-android-benchmark",
@@ -216801,121 +216983,6 @@
     "download_url": "https://github.com/swisslite/Kryptos/releases/download/v2.4/Kryptos.ipa",
     "digest": "sha256:10ad030b01852130ce829095cd6ff849afb3992d000bd080a9d24196d2edf187",
     "download_count": 463
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 778690973,
-   "full_name": "TheYogMehta/StrawVerse",
-   "owner": "TheYogMehta",
-   "avatar_url": "https://avatars.githubusercontent.com/u/84078595?v=4",
-   "description": "A fast, open-source anime and manga downloader for Windows, Linux, and Android with batch downloads, subtitles, multiple sources, quality selection, and MyAnimeList integration.",
-   "stars": 86,
-   "forks": 25,
-   "topics": [
-    "anime",
-    "anime-app",
-    "anime-download",
-    "anime-downloader",
-    "anime-manager",
-    "anime-manga",
-    "anime-scraper",
-    "batch-downloader",
-    "desktop-app",
-    "mal",
-    "manga",
-    "manga-downloader",
-    "mobile-app",
-    "myanimelist",
-    "open-source",
-    "video-downloader"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-30T17:42:50Z",
-   "created_at": "2024-03-28T07:58:43Z",
-   "license": "GPL-3.0",
-   "language": "JavaScript",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "https://strawverse.theyogmehta.online/",
-   "pushedAt": "2026-10-25T20:54:28Z"
-  },
-  "release": {
-   "id": 423636874,
-   "tag": "v11.1.1",
-   "name": "StrawVerse v11.1.1",
-   "notes": "### Android Updates & Notifications\n\n- **Tap to Install from Notification Bar:** When an app update finishes downloading, you can now tap the notification directly in your Android notification shade to open the installer immediately\n\n### Mobile & Marketplace\n\n- **Fixed Broken Mobile Marketplace Layout:** extension cards were cut off on the left with blank space on the right on mobile screens. The header buttons and tabs now wrap neatly to fit your phone.\n\n### Database & Mapping Stability\n\n- **Fixed Mapping Sync Errors:** Fixed an issue where mapping database updates would fail on mobile due to missing unmapped tables and schema differences, ensuring updates apply smoothly.\n\n\n**Full Changelog**: https://github.com/TheYogMehta/StrawVerse/compare/v11.1.0...v11.1.1\n**Discord Support Server**: https://discord.gg/PzfUBgQ2gt",
-   "published_at": "2026-10-25T20:18:00Z",
-   "html_url": "https://github.com/TheYogMehta/StrawVerse/releases/tag/v11.1.1",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 676019703,
-    "name": "latest-linux.yml",
-    "content_type": "application/yaml",
-    "size": 533,
-    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/latest-linux.yml",
-    "digest": "sha256:77fb499528a7d3c4abafb0ee168b39e28963d331adea76705e9853775d4c45ee",
-    "download_count": 82
-   },
-   {
-    "id": 676019731,
-    "name": "latest.yml",
-    "content_type": "application/yaml",
-    "size": 352,
-    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/latest.yml",
-    "digest": "sha256:410279c08b3d2ab78c096b56facfb282a0742b66924f4a9fdf39d7762931238b",
-    "download_count": 849
-   },
-   {
-    "id": 676016935,
-    "name": "StrawVerse-11.1.1.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 99041555,
-    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/StrawVerse-11.1.1.apk",
-    "digest": "sha256:edf25897be9f5380b24929ffc7021635c35fe621297fffee6b9d9a7353004a4e",
-    "download_count": 129
-   },
-   {
-    "id": 676016953,
-    "name": "strawverse-11.1.1.AppImage",
-    "content_type": "application/vnd.appimage",
-    "size": 266823203,
-    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/strawverse-11.1.1.AppImage",
-    "digest": "sha256:036509dcd4884df61612a7e465826419d11ec449bd69af4ee78ce90c36eeb31a",
-    "download_count": 17
-   },
-   {
-    "id": 676016954,
-    "name": "StrawVerse.Setup.11.1.1.exe",
-    "content_type": "application/octet-stream",
-    "size": 216730186,
-    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/StrawVerse.Setup.11.1.1.exe",
-    "digest": "sha256:f036927ce1b20ebc0cedb88117e0bd1bbfd3065d1295421d8b735387a791710a",
-    "download_count": 191
-   },
-   {
-    "id": 676016955,
-    "name": "strawverse_11.1.1_amd64.deb",
-    "content_type": "application/x-debian-package",
-    "size": 220915156,
-    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/strawverse_11.1.1_amd64.deb",
-    "digest": "sha256:a731b6ea5aee9b719b99e155f0057f5ad09663ad2b37b9417980f876e728e435",
-    "download_count": 10
-   },
-   {
-    "id": 676016937,
-    "name": "strawverse_11.1.1_amd64.snap",
-    "content_type": "application/vnd.snap",
-    "size": 232222720,
-    "download_url": "https://github.com/TheYogMehta/StrawVerse/releases/download/v11.1.1/strawverse_11.1.1_amd64.snap",
-    "digest": "sha256:a9d1ab97feb0efb1379376072aff13e7f0b4e3a50f5b8d4037a797f5eda2d343",
-    "download_count": 8
    }
   ]
  },
@@ -223293,6 +223360,50 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1111499279,
+   "full_name": "JS8Call-improved/Android-port",
+   "owner": "JS8Call-improved",
+   "avatar_url": "https://avatars.githubusercontent.com/u/244272504?v=4",
+   "description": "Port of JS8Call to Android tablets",
+   "stars": 82,
+   "forks": 10,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-02T20:22:52Z",
+   "created_at": "2025-12-07T03:57:53Z",
+   "license": "GPL-3.0",
+   "language": "C++",
+   "openIssues": 32,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-30T04:02:59Z"
+  },
+  "release": {
+   "id": 426926755,
+   "tag": "1.1-RELEASE",
+   "name": "1.1-RELEASE",
+   "notes": "- Added BTECH UV-Pro radio support, including Bluetooth audio.\r\n- Combined the Decodes tab with the Monitor screen and introduced a more compact status strip.\r\n- Added a rig connection indicator and clearer error reporting on the Monitor screen.\r\n- Added a manual time-drift adjustment dialog.\r\n- Added audio input selection to Settings, preserved selections across screen changes, and stopped the engine with a notification - when the selected device is unplugged.\r\n- Improved landscape navigation with a side rail.\r\n- Fixed multipart message assembly, message persistence, and decoding of callsigns containing /.\r\n- Improved compatibility with desktop JS8Call for directed messages, compound callsigns, signal reports, and Turbo mode decoding.\r\n- Improved QMX startup handling and safe frequency defaults.\r\n- Reduced decoder memory use and added protocol and radio-related regression tests.",
+   "published_at": "2026-10-28T16:39:25Z",
+   "html_url": "https://github.com/JS8Call-improved/Android-port/releases/tag/1.1-RELEASE",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 685642089,
+    "name": "js8android-1.1-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 67066076,
+    "download_url": "https://github.com/JS8Call-improved/Android-port/releases/download/1.1-RELEASE/js8android-1.1-release.apk",
+    "digest": "sha256:0ea9acde627ae5336c678a2c98e26ad1ad0364ceb37b180dc2a3a610504a9fd3",
+    "download_count": 329
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-29",
   "repo": {
    "id": 904261072,
@@ -223343,7 +223454,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 821328497,
    "full_name": "Axixi2233/chiaki-android",
@@ -223381,7 +223492,7 @@
     "size": 9332275,
     "download_url": "https://github.com/Axixi2233/chiaki-android/releases/download/250105/chiaki-250105-axixi.apk",
     "digest": null,
-    "download_count": 2859
+    "download_count": 2877
    }
   ]
  },
@@ -223490,7 +223601,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 100157046,
    "full_name": "qiuxiang/react-native-tuner",
@@ -223531,7 +223642,7 @@
     "size": 22858286,
     "download_url": "https://github.com/qiuxiang/react-native-tuner/releases/download/v1.2.0/app-release.apk",
     "digest": null,
-    "download_count": 737
+    "download_count": 739
    }
   ]
  },
@@ -225164,6 +225275,57 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 242374168,
+   "full_name": "mx0c/Android-BLE-Monitor",
+   "owner": "mx0c",
+   "avatar_url": "https://avatars.githubusercontent.com/u/15305062?v=4",
+   "description": "A BLE reverse engineering Tool for Android",
+   "stars": 81,
+   "forks": 15,
+   "topics": [
+    "android",
+    "android-ble-monitor",
+    "android-bluetooth",
+    "ble-devices",
+    "hacktoberfest",
+    "snoop"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-03T15:52:42Z",
+   "created_at": "2020-02-22T16:33:08Z",
+   "license": "MIT",
+   "language": "C++",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2021-05-04T13:24:28Z"
+  },
+  "release": {
+   "id": 34817421,
+   "tag": "1.0.0",
+   "name": "1.0.0",
+   "notes": "Generated release from Travis CI for build 334",
+   "published_at": "2020-12-04T10:40:11Z",
+   "html_url": "https://github.com/mx0c/Android-BLE-Monitor/releases/tag/1.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 29141784,
+    "name": "app-1.0.0-86-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 3836033,
+    "download_url": "https://github.com/mx0c/Android-BLE-Monitor/releases/download/1.0.0/app-1.0.0-86-release.apk",
+    "digest": null,
+    "download_count": 2034
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 589603309,
@@ -225274,102 +225436,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 242374168,
-   "full_name": "mx0c/Android-BLE-Monitor",
-   "owner": "mx0c",
-   "avatar_url": "https://avatars.githubusercontent.com/u/15305062?v=4",
-   "description": "A BLE reverse engineering Tool for Android",
-   "stars": 80,
-   "forks": 15,
-   "topics": [
-    "android",
-    "android-ble-monitor",
-    "android-bluetooth",
-    "ble-devices",
-    "hacktoberfest",
-    "snoop"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-10-23T09:00:42Z",
-   "created_at": "2020-02-22T16:33:08Z",
-   "license": "MIT",
-   "language": "C++",
-   "openIssues": 2,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2021-05-04T13:24:28Z"
-  },
-  "release": {
-   "id": 34817421,
-   "tag": "1.0.0",
-   "name": "1.0.0",
-   "notes": "Generated release from Travis CI for build 334",
-   "published_at": "2020-12-04T10:40:11Z",
-   "html_url": "https://github.com/mx0c/Android-BLE-Monitor/releases/tag/1.0.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 29141784,
-    "name": "app-1.0.0-86-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 3836033,
-    "download_url": "https://github.com/mx0c/Android-BLE-Monitor/releases/download/1.0.0/app-1.0.0-86-release.apk",
-    "digest": null,
-    "download_count": 2025
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 1111499279,
-   "full_name": "JS8Call-improved/Android-port",
-   "owner": "JS8Call-improved",
-   "avatar_url": "https://avatars.githubusercontent.com/u/244272504?v=4",
-   "description": "Port of JS8Call to Android tablets",
-   "stars": 80,
-   "forks": 10,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-10-30T04:03:05Z",
-   "created_at": "2025-12-07T03:57:53Z",
-   "license": "GPL-3.0",
-   "language": "C++",
-   "openIssues": 29,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-10-30T04:02:59Z"
-  },
-  "release": {
-   "id": 426926755,
-   "tag": "1.1-RELEASE",
-   "name": "1.1-RELEASE",
-   "notes": "- Added BTECH UV-Pro radio support, including Bluetooth audio.\r\n- Combined the Decodes tab with the Monitor screen and introduced a more compact status strip.\r\n- Added a rig connection indicator and clearer error reporting on the Monitor screen.\r\n- Added a manual time-drift adjustment dialog.\r\n- Added audio input selection to Settings, preserved selections across screen changes, and stopped the engine with a notification - when the selected device is unplugged.\r\n- Improved landscape navigation with a side rail.\r\n- Fixed multipart message assembly, message persistence, and decoding of callsigns containing /.\r\n- Improved compatibility with desktop JS8Call for directed messages, compound callsigns, signal reports, and Turbo mode decoding.\r\n- Improved QMX startup handling and safe frequency defaults.\r\n- Reduced decoder memory use and added protocol and radio-related regression tests.",
-   "published_at": "2026-10-28T16:39:25Z",
-   "html_url": "https://github.com/JS8Call-improved/Android-port/releases/tag/1.1-RELEASE",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 685642089,
-    "name": "js8android-1.1-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 67066076,
-    "download_url": "https://github.com/JS8Call-improved/Android-port/releases/download/1.1-RELEASE/js8android-1.1-release.apk",
-    "digest": "sha256:0ea9acde627ae5336c678a2c98e26ad1ad0364ceb37b180dc2a3a610504a9fd3",
-    "download_count": 240
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 767885319,
    "full_name": "micahlt/offsides",
@@ -225381,14 +225448,14 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-17T06:46:13Z",
+   "updated_at": "2026-11-02T01:44:20Z",
    "created_at": "2024-03-06T04:20:39Z",
-   "license": null,
+   "license": "GPL-3.0",
    "language": "JavaScript",
    "openIssues": 27,
    "watchers": null,
    "homepage": "http://offsides.micahlindley.com",
-   "pushedAt": "2026-09-14T07:52:58Z"
+   "pushedAt": "2026-11-02T02:11:12Z"
   },
   "release": {
    "id": 388201219,
@@ -225407,7 +225474,7 @@
     "size": 117192407,
     "download_url": "https://github.com/micahlt/offsides/releases/download/1.0.1/offsides-1-0-1.apk",
     "digest": "sha256:5a97b80b502d03f37395124dcd8d1aa921ceabcb4d71559ca27aac3d6f68eab3",
-    "download_count": 5447
+    "download_count": 5569
    }
   ]
  },
@@ -227009,7 +227076,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 136309503,
    "full_name": "huzongyao/PlatinumMedia",
@@ -230004,7 +230071,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 381051890,
    "full_name": "Liang2uv/sky",
@@ -230046,7 +230113,7 @@
     "size": 34170865,
     "download_url": "https://github.com/Liang2uv/sky/releases/download/1.0.2/v1.0.2.apk",
     "digest": null,
-    "download_count": 2622
+    "download_count": 2626
    }
   ]
  },
@@ -230343,7 +230410,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 802781638,
    "full_name": "cheese-framework/Cheese",
@@ -230400,7 +230467,7 @@
     "size": 190133467,
     "download_url": "https://github.com/cheese-framework/Cheese/releases/download/1.0.12/cheese_arm64-v8a-1.0.12.apk",
     "digest": null,
-    "download_count": 53
+    "download_count": 57
    },
    {
     "id": 255485572,
@@ -230472,7 +230539,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 636224161,
    "full_name": "Postroggy/OC_SORT_CPP",
@@ -231398,68 +231465,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 1417908549,
-   "full_name": "codepdbh/nfsu1-recompiled",
-   "owner": "codepdbh",
-   "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
-   "description": "Need for Speed Underground (2003) statically recompiled to native code for Windows and Android — no emulator. Requires your own copy of the game.",
-   "stars": 77,
-   "forks": 5,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-31T17:25:00Z",
-   "created_at": "2026-10-13T20:12:46Z",
-   "license": null,
-   "language": "C++",
-   "openIssues": 193,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-10-30T14:51:25Z"
-  },
-  "release": {
-   "id": 429150369,
-   "tag": "v0.2.10",
-   "name": "Underground 1 Android Evolved v0.2.10",
-   "notes": "## Underground 1 Android Evolved v0.2.10: luces y launcher\n\n### Cambios\n\n- **Luces, reflejos y efectos girados bien.** Las funciones de rotación de D3DX que trae el juego tenían el seno y el coseno intercambiados. Es el mismo fallo que en Carbon hacía que las luces se vieran como rayas.\n- **El launcher dice qué falta.** Si falta el archivo de idioma (`LANGUAGES/<idioma>.bin`), el launcher lo indica en vez de dejar JUGAR desactivado sin explicación. El aviso del HUD panorámico (`WidescreenFix.dat`) ahora pone que es opcional: no impide jugar.\n\nDos APK: **arm64** y **armeabi-v7a**. Android 10+, Vulkan 1.1+, datos de tu copia de PC en `nfsu1`. Misma firma; se instalan como actualización. Se adjunta `NFSU1-v0.2.10-SHA256SUMS.txt`.\n",
-   "published_at": "2026-10-30T14:51:25Z",
-   "html_url": "https://github.com/codepdbh/nfsu1-recompiled/releases/tag/v0.2.10",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 692428497,
-    "name": "NFSU1-AndroidEvolved-v0.2.10-arm64.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 43521357,
-    "download_url": "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.10/NFSU1-AndroidEvolved-v0.2.10-arm64.apk",
-    "digest": "sha256:0d43bd12477130a00398022862c7ca76520a323cf94a7d017d74d9dd19b773b5",
-    "download_count": 1627
-   },
-   {
-    "id": 692428490,
-    "name": "NFSU1-AndroidEvolved-v0.2.10-armeabi-v7a.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 51326439,
-    "download_url": "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.10/NFSU1-AndroidEvolved-v0.2.10-armeabi-v7a.apk",
-    "digest": "sha256:013b01edf4dc91b685575190fe481666364df74115ec2764abf04454521eef5d",
-    "download_count": 52
-   },
-   {
-    "id": 692428489,
-    "name": "NFSU1-v0.2.10-SHA256SUMS.txt",
-    "content_type": "text/plain; charset=utf-8",
-    "size": 216,
-    "download_url": "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.10/NFSU1-v0.2.10-SHA256SUMS.txt",
-    "digest": "sha256:6351228433ec250b37f8c30277a915bd8136c07358f7530dede8bebf0630bfc0",
-    "download_count": 27
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 120938884,
@@ -231573,6 +231578,71 @@
     "download_url": "https://github.com/CluvexStudio/ZedPass/releases/download/v1.0.0/ZedPass-1.0.0-armeabi-v7a.apk",
     "digest": "sha256:870eb13ce00dcfe928909be8fc58669f15ae75d257480fca6eb79f282c5a3c86",
     "download_count": 994
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1182972202,
+   "full_name": "1337Xcode/aimbuddy",
+   "owner": "1337Xcode",
+   "avatar_url": "https://avatars.githubusercontent.com/u/64787166?v=4",
+   "description": "A fully on‑device Android‑native aim assistant",
+   "stars": 77,
+   "forks": 21,
+   "topics": [
+    "ai",
+    "ai-aim-assistant",
+    "ai-aimbot",
+    "ai-aimbot-android",
+    "aimbot",
+    "aimbuddy",
+    "android",
+    "esp",
+    "machine-learning",
+    "object-detection",
+    "yolov26"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-04T08:56:11Z",
+   "created_at": "2026-03-16T06:23:19Z",
+   "license": "Other",
+   "language": "C++",
+   "openIssues": 3,
+   "watchers": null,
+   "homepage": "https://1337xcode.github.io/aimbuddy",
+   "pushedAt": "2026-10-30T23:39:27Z"
+  },
+  "release": {
+   "id": 427358954,
+   "tag": "v0.3.5-beta.2",
+   "name": "AimBuddy v0.3.5-beta.2",
+   "notes": "Colour detection that needs no model, two choices for what steering does on a target, a Touch access screen with a test button, and the fixes that five independent reviews of the code turned up.\n\n### Added\n- Two aim choices, in the app's Settings and in the in-game menu (English, Chinese and Russian). \"Once on target\" is what steering does when the crosshair is on a target: keep following it, as before, or make one correction, lift the finger and leave the aiming to the player until the next target (or until the same one has left the reach and come back). In the simulation the one correction landed on a still target 300 px away in under a second, and it did not follow a target swinging 140 px to either side afterwards, which is the point of it. \"Switching targets\" is how readily the lock moves to a target that has come closer to the crosshair: Sticky (the rival must be 45% closer and stay so for 0.3 s), Balanced (30% closer for 0.15 s, as before) or Quick (15% closer for 0.06 s, which moves from one player to the next almost at once).\n- Colour detection, a way to find targets with no model (experimental). Under Settings, Detection, choose Colour for Find targets with, and press Start. Open the in-game menu, press Learn colour and tap the colour of an enemy's outline inside the blue square. AimBuddy takes the most vivid colour round the tap and looks in the square for patches of that hue (the tolerance is 14 degrees and can be set from 4 to 40). It closes the small gaps that scenery makes in an outline, joins the head and the body of one player, and keeps the patches that are shaped like a person and at least 40 screen pixels tall (10 to 300 can be set). Every patch is reported at 90% and tracked like a model's box. The overlay turns its own marks away from the colour looked for, because they are in the picture too, and the performance readout says Colour where it says CPU or GPU. A colour that is also in the scenery or on the game's buttons gives false targets. On t",
+   "published_at": "2026-10-29T01:12:05Z",
+   "html_url": "https://github.com/1337Xcode/aimbuddy/releases/tag/v0.3.5-beta.2",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 686922143,
+    "name": "AimBuddy-v0.3.5-beta.2-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 67647121,
+    "download_url": "https://github.com/1337Xcode/aimbuddy/releases/download/v0.3.5-beta.2/AimBuddy-v0.3.5-beta.2-debug.apk",
+    "digest": "sha256:ee6af9682bbec9f8f78c5a0748c0ed34ca0516fad0ff25cfb0c1a93e160adf46",
+    "download_count": 184
+   },
+   {
+    "id": 686922142,
+    "name": "AimBuddy-v0.3.5-beta.2.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 7699250,
+    "download_url": "https://github.com/1337Xcode/aimbuddy/releases/download/v0.3.5-beta.2/AimBuddy-v0.3.5-beta.2.apk",
+    "digest": "sha256:f37576b21d9c22d15e74ea645f3811789f74fa487dfe4dd00970c83f940eb4f3",
+    "download_count": 288
    }
   ]
  },
@@ -232009,7 +232079,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 124941114,
    "full_name": "lopespm/arxiv-papers-mobile",
@@ -233193,6 +233263,131 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1426442578,
+   "full_name": "OTPR26/Ocarina-ReTuned",
+   "owner": "OTPR26",
+   "avatar_url": "https://avatars.githubusercontent.com/u/306326493?v=4",
+   "description": "OOT3D, recompiled for Windows, Mac, Linux, Android, iOS and Apple TV. A substantially modified TriAevum fork with the Ocarina ReFramed single-screen HUD, HD dialogue fonts and controller-friendly menus.",
+   "stars": 76,
+   "forks": 2,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-03T20:53:05Z",
+   "created_at": "2026-10-20T03:15:12Z",
+   "license": null,
+   "language": "Python",
+   "openIssues": 14,
+   "watchers": null,
+   "homepage": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.1.0-preview",
+   "pushedAt": "2026-10-31T11:30:22Z"
+  },
+  "release": {
+   "id": 429838453,
+   "tag": "v0.6.1",
+   "name": "Ocarina ReTuned Preview 0.6.1",
+   "notes": "## Ocarina ReTuned Preview 0.6.1\n\n- Added Save game access in Dual mode, from the lower screen and General settings.\n- Fixed the save dialogue’s Back button and removed Options.\n- Improved appearance timing for the Save button and equipment panel.\n\nAndroid update. Other platform builds are unchanged.\n",
+   "published_at": "2026-10-31T09:32:28Z",
+   "html_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.6.1",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 694942031,
+    "name": "Ocarina-ReTuned-0.5.8-Linux-ARM64.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 213294954,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Linux-ARM64.tar.gz",
+    "digest": "sha256:9d939835804f23c4be0d427b975057ab2cd8c2019f5ca7c47542feb2fc56c50a",
+    "download_count": 21
+   },
+   {
+    "id": 694944211,
+    "name": "Ocarina-ReTuned-0.5.8-Linux-x86_64.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 248230839,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Linux-x86_64.tar.gz",
+    "digest": "sha256:078f3533a459a879bfed5db6382a1a0bc5d08e8826f7b55c8b331da4f62ff477",
+    "download_count": 182
+   },
+   {
+    "id": 694946571,
+    "name": "Ocarina-ReTuned-0.5.8-Mac.zip",
+    "content_type": "application/zip",
+    "size": 84848427,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Mac.zip",
+    "digest": "sha256:ed51abefa6e4feb9ce21aa1d01a4007c38b5b7b3110e5b4d6ac2b0de643e24b9",
+    "download_count": 62
+   },
+   {
+    "id": 694947438,
+    "name": "Ocarina-ReTuned-0.5.8-Windows-ARM64.zip",
+    "content_type": "application/zip",
+    "size": 192963443,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Windows-ARM64.zip",
+    "digest": "sha256:157271f5e6857a0b52a33895942505517a52d5612de9845db15e036f84d6cdaa",
+    "download_count": 23
+   },
+   {
+    "id": 694949010,
+    "name": "Ocarina-ReTuned-0.5.8-Windows-x64.zip",
+    "content_type": "application/zip",
+    "size": 222584822,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Windows-x64.zip",
+    "digest": "sha256:a58bcc968a6f16ca071b7ceed5f09ba2c8b5a233013f9ee6523f8392fa210c3f",
+    "download_count": 1061
+   },
+   {
+    "id": 694950497,
+    "name": "Ocarina-ReTuned-0.6.1-Android-arm64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 140666778,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.6.1-Android-arm64.apk",
+    "digest": "sha256:63ffa434ec04b51685fcf45b039c7ad0a8f4cd1e26d1c14a6e3aa06f17155c3d",
+    "download_count": 1034
+   },
+   {
+    "id": 694949807,
+    "name": "Ocarina-ReTuned-2.6.0-iOS-Unsigned.ipa",
+    "content_type": "application/octet-stream",
+    "size": 39319262,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-2.6.0-iOS-Unsigned.ipa",
+    "digest": "sha256:08614c45de13e78f71397132e5872bd2c376e44a562560d574bf0d6ab5f67bfe",
+    "download_count": 23
+   },
+   {
+    "id": 694949950,
+    "name": "Ocarina-ReTuned-2.6.0-Switch-Experimental.zip",
+    "content_type": "application/zip",
+    "size": 40543092,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-2.6.0-Switch-Experimental.zip",
+    "digest": "sha256:62eb361cf29d2a0a8891bdab675f3d731a79df947bd95d89aa996f3bab039b10",
+    "download_count": 24
+   },
+   {
+    "id": 694950219,
+    "name": "Ocarina-ReTuned-2.6.0-tvOS-Unsigned.ipa",
+    "content_type": "application/octet-stream",
+    "size": 40311106,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-2.6.0-tvOS-Unsigned.ipa",
+    "digest": "sha256:2a67ea3af248e3186a0857a1983e43b4cf4190fb5242e9c92cf40d0633af98d5",
+    "download_count": 12
+   },
+   {
+    "id": 694951619,
+    "name": "SHA256-Checksums.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 950,
+    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/SHA256-Checksums.txt",
+    "digest": "sha256:a7ba7bba1e70c927a274293e937bfb07d7f31931dbe77e5b6342203f5e731e96",
+    "download_count": 15
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 518110869,
@@ -233241,7 +233436,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1007180581,
    "full_name": "mpj1234/ncnn-yolov13-android",
@@ -233519,7 +233714,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 274129933,
    "full_name": "ZYFDroid/epub-android",
@@ -233561,7 +233756,7 @@
     "size": 6042628,
     "download_url": "https://github.com/ZYFDroid/epub-android/releases/download/v1.9.0.0/app-release_sign.apk",
     "digest": "sha256:95c836786d09c2f82942ec4b1a7fb855e5822bdc0eee5e0e3b08ea5fbe58bc50",
-    "download_count": 1936
+    "download_count": 1938
    }
   ]
  },
@@ -235181,6 +235376,56 @@
     "download_url": "https://github.com/Saschl/alpha-gps/releases/download/v1.7.1/app-gplay-release.apk",
     "digest": "sha256:4bee7cfe717bdca06fd998ee6e6fb4179aa5b1a354b84b43e0ecaa2504ea2536",
     "download_count": 12
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 391484033,
+   "full_name": "OpenAHU/AHUTong",
+   "owner": "OpenAHU",
+   "avatar_url": "https://avatars.githubusercontent.com/u/90179285?v=4",
+   "description": "安大通 App",
+   "stars": 75,
+   "forks": 9,
+   "topics": [
+    "android",
+    "harmonyos",
+    "ios",
+    "kotlin-multiplatform",
+    "rust"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-03T12:42:26Z",
+   "created_at": "2021-07-31T23:50:16Z",
+   "license": "GPL-3.0",
+   "language": "Python",
+   "openIssues": 4,
+   "watchers": null,
+   "homepage": "openahu.org",
+   "pushedAt": "2026-09-26T07:51:04Z"
+  },
+  "release": {
+   "id": 312782973,
+   "tag": "v3.1.3",
+   "name": "v3.1.3",
+   "notes": "更换了服务器，历史版本更新日志见官网\r\n\r\np.s. 意见交流，bug反馈等问题欢迎加 qq 群讨论：1006203134",
+   "published_at": "2026-04-23T14:49:05Z",
+   "html_url": "https://github.com/OpenAHU/AHUTong/releases/tag/v3.1.3",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 403509771,
+    "name": "AHUTong-v3.1.3.Apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 8351997,
+    "download_url": "https://github.com/OpenAHU/AHUTong/releases/download/v3.1.3/AHUTong-v3.1.3.Apk",
+    "digest": "sha256:8fd4805e85bde78324e54c0d30adb2fbfa577d557024dd5b23cdddec0190d923",
+    "download_count": 224
    }
   ]
  },
@@ -236894,56 +237139,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 391484033,
-   "full_name": "OpenAHU/AHUTong",
-   "owner": "OpenAHU",
-   "avatar_url": "https://avatars.githubusercontent.com/u/90179285?v=4",
-   "description": "安大通 App",
-   "stars": 74,
-   "forks": 9,
-   "topics": [
-    "android",
-    "harmonyos",
-    "ios",
-    "kotlin-multiplatform",
-    "rust"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-10-25T23:06:32Z",
-   "created_at": "2021-07-31T23:50:16Z",
-   "license": "GPL-3.0",
-   "language": "Python",
-   "openIssues": 4,
-   "watchers": null,
-   "homepage": "openahu.org",
-   "pushedAt": "2026-09-26T07:51:04Z"
-  },
-  "release": {
-   "id": 312782973,
-   "tag": "v3.1.3",
-   "name": "v3.1.3",
-   "notes": "更换了服务器，历史版本更新日志见官网\r\n\r\np.s. 意见交流，bug反馈等问题欢迎加 qq 群讨论：1006203134",
-   "published_at": "2026-04-23T14:49:05Z",
-   "html_url": "https://github.com/OpenAHU/AHUTong/releases/tag/v3.1.3",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 403509771,
-    "name": "AHUTong-v3.1.3.Apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 8351997,
-    "download_url": "https://github.com/OpenAHU/AHUTong/releases/download/v3.1.3/AHUTong-v3.1.3.Apk",
-    "digest": "sha256:8fd4805e85bde78324e54c0d30adb2fbfa577d557024dd5b23cdddec0190d923",
-    "download_count": 222
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 1327444594,
@@ -237093,7 +237288,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1134680162,
    "full_name": "viik4/iisu-asset-tool",
@@ -237140,7 +237335,7 @@
     "size": 175452244,
     "download_url": "https://github.com/viik4/iisu-asset-tool/releases/download/2.0.1/iiSU_Asset_Tool_macOS_v2.0.1.zip",
     "digest": "sha256:1f519b60e44a8b51f1c35c10292b0d9c59bdb6ca9135146fae4982e723a924df",
-    "download_count": 182
+    "download_count": 185
    },
    {
     "id": 355725900,
@@ -237149,7 +237344,7 @@
     "size": 44863953,
     "download_url": "https://github.com/viik4/iisu-asset-tool/releases/download/2.0.1/iiSU_Asset_Tool_v2.0.1.apk",
     "digest": "sha256:017b3e20374a67df20044cdd81152ff1aa7fc918a4e7dc01047e38b90bac70c6",
-    "download_count": 2807
+    "download_count": 2812
    },
    {
     "id": 355727467,
@@ -237665,71 +237860,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 1182972202,
-   "full_name": "1337Xcode/aimbuddy",
-   "owner": "1337Xcode",
-   "avatar_url": "https://avatars.githubusercontent.com/u/64787166?v=4",
-   "description": "A fully on‑device Android‑native aim assistant",
-   "stars": 73,
-   "forks": 20,
-   "topics": [
-    "ai",
-    "ai-aim-assistant",
-    "ai-aimbot",
-    "ai-aimbot-android",
-    "aimbot",
-    "aimbuddy",
-    "android",
-    "esp",
-    "machine-learning",
-    "object-detection",
-    "yolov26"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-10-31T08:58:57Z",
-   "created_at": "2026-03-16T06:23:19Z",
-   "license": "Other",
-   "language": "C++",
-   "openIssues": 1,
-   "watchers": null,
-   "homepage": "https://1337xcode.github.io/aimbuddy",
-   "pushedAt": "2026-10-30T23:39:27Z"
-  },
-  "release": {
-   "id": 427358954,
-   "tag": "v0.3.5-beta.2",
-   "name": "AimBuddy v0.3.5-beta.2",
-   "notes": "Colour detection that needs no model, two choices for what steering does on a target, a Touch access screen with a test button, and the fixes that five independent reviews of the code turned up.\n\n### Added\n- Two aim choices, in the app's Settings and in the in-game menu (English, Chinese and Russian). \"Once on target\" is what steering does when the crosshair is on a target: keep following it, as before, or make one correction, lift the finger and leave the aiming to the player until the next target (or until the same one has left the reach and come back). In the simulation the one correction landed on a still target 300 px away in under a second, and it did not follow a target swinging 140 px to either side afterwards, which is the point of it. \"Switching targets\" is how readily the lock moves to a target that has come closer to the crosshair: Sticky (the rival must be 45% closer and stay so for 0.3 s), Balanced (30% closer for 0.15 s, as before) or Quick (15% closer for 0.06 s, which moves from one player to the next almost at once).\n- Colour detection, a way to find targets with no model (experimental). Under Settings, Detection, choose Colour for Find targets with, and press Start. Open the in-game menu, press Learn colour and tap the colour of an enemy's outline inside the blue square. AimBuddy takes the most vivid colour round the tap and looks in the square for patches of that hue (the tolerance is 14 degrees and can be set from 4 to 40). It closes the small gaps that scenery makes in an outline, joins the head and the body of one player, and keeps the patches that are shaped like a person and at least 40 screen pixels tall (10 to 300 can be set). Every patch is reported at 90% and tracked like a model's box. The overlay turns its own marks away from the colour looked for, because they are in the picture too, and the performance readout says Colour where it says CPU or GPU. A colour that is also in the scenery or on the game's buttons gives false targets. On t",
-   "published_at": "2026-10-29T01:12:05Z",
-   "html_url": "https://github.com/1337Xcode/aimbuddy/releases/tag/v0.3.5-beta.2",
-   "prerelease": true
-  },
-  "assets": [
-   {
-    "id": 686922143,
-    "name": "AimBuddy-v0.3.5-beta.2-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 67647121,
-    "download_url": "https://github.com/1337Xcode/aimbuddy/releases/download/v0.3.5-beta.2/AimBuddy-v0.3.5-beta.2-debug.apk",
-    "digest": "sha256:ee6af9682bbec9f8f78c5a0748c0ed34ca0516fad0ff25cfb0c1a93e160adf46",
-    "download_count": 98
-   },
-   {
-    "id": 686922142,
-    "name": "AimBuddy-v0.3.5-beta.2.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 7699250,
-    "download_url": "https://github.com/1337Xcode/aimbuddy/releases/download/v0.3.5-beta.2/AimBuddy-v0.3.5-beta.2.apk",
-    "digest": "sha256:f37576b21d9c22d15e74ea645f3811789f74fa487dfe4dd00970c83f940eb4f3",
-    "download_count": 159
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-01",
   "repo": {
    "id": 1289796105,
@@ -238074,6 +238204,72 @@
     "download_url": "https://github.com/spideytznn/GlassProjection/releases/download/v0.4.30/GlassProjection-0.4.30.apk.sha256",
     "digest": "sha256:4fa5458526d2c7ac9fc4b080713ae5b4c4a4a4a32d15def9f5230d9cd6fdf20a",
     "download_count": 166
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1360430391,
+   "full_name": "feelime/feelime",
+   "owner": "feelime",
+   "avatar_url": "https://avatars.githubusercontent.com/u/324545388?v=4",
+   "description": "离线优先的 Android 输入法：全拼/双拼、离线语音、常用语与剪贴板，数据不出设备 | Offline-first Android IME (librime · sherpa-onnx)",
+   "stars": 73,
+   "forks": 8,
+   "topics": [
+    "android",
+    "chinese-input",
+    "ime",
+    "input-method",
+    "keyboard",
+    "kotlin",
+    "librime",
+    "offline-first",
+    "pinyin",
+    "sherpa-onnx",
+    "speech-recognition",
+    "webview"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T02:24:50Z",
+   "created_at": "2026-09-07T16:14:14Z",
+   "license": "GPL-3.0",
+   "language": "JavaScript",
+   "openIssues": 16,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-02T08:15:26Z"
+  },
+  "release": {
+   "id": 428881406,
+   "tag": "v1.4.2",
+   "name": "v1.4.2",
+   "notes": "## 新增\n\n- **候选符号词支持指定位置**（#81）：附加符号词现在可以在「设置 → 词库 → 候选符号词叠加 → 管理词条」里逐词指定候选位次（1-9），不指定默认排在第 3 位、不影响正常输入；新增「基于词频排序」开关（默认关），开启后未指定位置的符号词会随使用次数前移，用得越多排得越靠前。导入词库的第三列也可以直接写位置。\n\n## 修复\n\n- 删除输入法切换时的「正在准备」闪烁提示（#82）：切换过程很快，提示没有信息量；真正需要较长时间的引擎加载（如首装编译）仍会正常提示。\n- 修复候选位置输入框与其它输入框样式不一致的问题。\n",
+   "published_at": "2026-10-30T10:07:03Z",
+   "html_url": "https://github.com/feelime/feelime/releases/tag/v1.4.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 691694440,
+    "name": "feelime-v1.4.2-full.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 367334522,
+    "download_url": "https://github.com/feelime/feelime/releases/download/v1.4.2/feelime-v1.4.2-full.apk",
+    "digest": "sha256:3f2b9e66fce152a38d9e83c52766782f9c3a10f66b58b66bf8cd7766e15c9a6d",
+    "download_count": 253
+   },
+   {
+    "id": 691694437,
+    "name": "feelime-v1.4.2-thin.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 87472644,
+    "download_url": "https://github.com/feelime/feelime/releases/download/v1.4.2/feelime-v1.4.2-thin.apk",
+    "digest": "sha256:fb62819a0220adfbb4d4e983f3cf98415b8181481f05346bd07eff136b420160",
+    "download_count": 562
    }
   ]
  },
@@ -239098,72 +239294,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
-  "repo": {
-   "id": 1360430391,
-   "full_name": "feelime/feelime",
-   "owner": "feelime",
-   "avatar_url": "https://avatars.githubusercontent.com/u/324545388?v=4",
-   "description": "离线优先的 Android 输入法：全拼/双拼、离线语音、常用语与剪贴板，数据不出设备 | Offline-first Android IME (librime · sherpa-onnx)",
-   "stars": 72,
-   "forks": 8,
-   "topics": [
-    "android",
-    "chinese-input",
-    "ime",
-    "input-method",
-    "keyboard",
-    "kotlin",
-    "librime",
-    "offline-first",
-    "pinyin",
-    "sherpa-onnx",
-    "speech-recognition",
-    "webview"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-02T08:15:31Z",
-   "created_at": "2026-09-07T16:14:14Z",
-   "license": "GPL-3.0",
-   "language": "JavaScript",
-   "openIssues": 16,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-11-02T08:15:26Z"
-  },
-  "release": {
-   "id": 428881406,
-   "tag": "v1.4.2",
-   "name": "v1.4.2",
-   "notes": "## 新增\n\n- **候选符号词支持指定位置**（#81）：附加符号词现在可以在「设置 → 词库 → 候选符号词叠加 → 管理词条」里逐词指定候选位次（1-9），不指定默认排在第 3 位、不影响正常输入；新增「基于词频排序」开关（默认关），开启后未指定位置的符号词会随使用次数前移，用得越多排得越靠前。导入词库的第三列也可以直接写位置。\n\n## 修复\n\n- 删除输入法切换时的「正在准备」闪烁提示（#82）：切换过程很快，提示没有信息量；真正需要较长时间的引擎加载（如首装编译）仍会正常提示。\n- 修复候选位置输入框与其它输入框样式不一致的问题。\n",
-   "published_at": "2026-10-30T10:07:03Z",
-   "html_url": "https://github.com/feelime/feelime/releases/tag/v1.4.2",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 691694440,
-    "name": "feelime-v1.4.2-full.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 367334522,
-    "download_url": "https://github.com/feelime/feelime/releases/download/v1.4.2/feelime-v1.4.2-full.apk",
-    "digest": "sha256:3f2b9e66fce152a38d9e83c52766782f9c3a10f66b58b66bf8cd7766e15c9a6d",
-    "download_count": 208
-   },
-   {
-    "id": 691694437,
-    "name": "feelime-v1.4.2-thin.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 87472644,
-    "download_url": "https://github.com/feelime/feelime/releases/download/v1.4.2/feelime-v1.4.2-thin.apk",
-    "digest": "sha256:fb62819a0220adfbb4d4e983f3cf98415b8181481f05346bd07eff136b420160",
-    "download_count": 420
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 995131741,
@@ -239486,7 +239616,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1040597754,
    "full_name": "nihui/ncnn-android-piper",
@@ -239533,13 +239663,13 @@
     "size": 97446242,
     "download_url": "https://github.com/nihui/ncnn-android-piper/releases/download/20261020.8edd948/ncnn-android-piper-20261020.8edd948.apk",
     "digest": "sha256:744df00d57181a41314049a963a996f2c4a66999f84c2b36b060847b3cc0a7d7",
-    "download_count": 40
+    "download_count": 55
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1281220980,
    "full_name": "henrikekblad/codelight",
@@ -239598,7 +239728,7 @@
     "size": 2892191,
     "download_url": "https://github.com/henrikekblad/codelight/releases/download/v1.8.4/codelight-v1.8.4.apk",
     "digest": "sha256:33f5ce94da7a737ba7a3aa5b93ab9a1e5c829fca954ed0f20cc97ffedddad8f9",
-    "download_count": 12
+    "download_count": 17
    },
    {
     "id": 633233345,
@@ -239631,7 +239761,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 177186233,
    "full_name": "coreyphillips/moonshine",
@@ -239682,7 +239812,7 @@
     "size": 27591643,
     "download_url": "https://github.com/coreyphillips/moonshine/releases/download/v0.4.0/app-arm64-v8a-release.apk",
     "digest": null,
-    "download_count": 82
+    "download_count": 83
    },
    {
     "id": 24214676,
@@ -239700,7 +239830,7 @@
     "size": 94952840,
     "download_url": "https://github.com/coreyphillips/moonshine/releases/download/v0.4.0/app-universal-release.apk",
     "digest": null,
-    "download_count": 175
+    "download_count": 176
    },
    {
     "id": 24214732,
@@ -240888,6 +241018,50 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1134702789,
+   "full_name": "Olsc/Android_ORB-SLAM2s",
+   "owner": "Olsc",
+   "avatar_url": "https://avatars.githubusercontent.com/u/50769145?v=4",
+   "description": "Make all Android phones capable of SLAM, point cloud scanning, and relocalization projects.",
+   "stars": 71,
+   "forks": 9,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-03T14:03:00Z",
+   "created_at": "2026-01-15T04:40:02Z",
+   "license": "Other",
+   "language": "C++",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-02T11:13:34Z"
+  },
+  "release": {
+   "id": 425602240,
+   "tag": "v0.0.12",
+   "name": "v0.0.12",
+   "notes": "# 重点\r\n\r\n1. 取消原有的横屏适配，修改为更容易使用的竖屏。\r\n2. 构建和优化上下左右镜像功能，更加统一可靠。\r\n3. 重构3dof功能，更加稳定，并支持手动调整正反向数值。\r\n4. 增加独立的SDK库，既能通过IPC隔离双开源协议，又能方便管理。\r\n5. 修复地图线程锁导致的崩溃问题。\r\n6. 修复部分翻译问题。\r\n\r\n\r\n**所有修改内容**: https://github.com/Olsc/Android_ORB-SLAM2s/compare/v0.0.11...v0.0.12",
+   "published_at": "2026-10-27T15:09:20Z",
+   "html_url": "https://github.com/Olsc/Android_ORB-SLAM2s/releases/tag/v0.0.12",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 681938822,
+    "name": "Android_MenthaAR_signed.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 29213996,
+    "download_url": "https://github.com/Olsc/Android_ORB-SLAM2s/releases/download/v0.0.12/Android_MenthaAR_signed.apk",
+    "digest": "sha256:7d5861df70199377927abd784a0e593981069731418ca5a56ad2227ae2724b13",
+    "download_count": 3
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 966009957,
@@ -241014,7 +241188,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 199529853,
    "full_name": "daniele-rapagnani/alephone-android",
@@ -241064,7 +241238,7 @@
     "size": 209535581,
     "download_url": "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon-inf-signed.apk",
     "digest": null,
-    "download_count": 1547
+    "download_count": 1550
    },
    {
     "id": 37305866,
@@ -241073,7 +241247,7 @@
     "size": 64556592,
     "download_url": "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon-signed.apk",
     "digest": null,
-    "download_count": 2164
+    "download_count": 2171
    },
    {
     "id": 37305868,
@@ -241082,13 +241256,13 @@
     "size": 82164676,
     "download_url": "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon2-signed.apk",
     "digest": null,
-    "download_count": 1420
+    "download_count": 1424
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 163283766,
    "full_name": "EspressifApp/EspMeshForAndroid",
@@ -241126,7 +241300,7 @@
     "size": 12487105,
     "download_url": "https://github.com/EspressifApp/EspMeshForAndroid/releases/download/v1.2.3/mesh-1.2.3-51.apk",
     "digest": null,
-    "download_count": 18066
+    "download_count": 18091
    }
   ]
  },
@@ -242231,7 +242405,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 283270176,
    "full_name": "Oknolaz/vasisualy",
@@ -242291,51 +242465,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 1134702789,
-   "full_name": "Olsc/Android_ORB-SLAM2s",
-   "owner": "Olsc",
-   "avatar_url": "https://avatars.githubusercontent.com/u/50769145?v=4",
-   "description": "Make all Android phones capable of SLAM, point cloud scanning, and relocalization projects.",
-   "stars": 70,
-   "forks": 8,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-27T18:35:21Z",
-   "created_at": "2026-01-15T04:40:02Z",
-   "license": "Other",
-   "language": "C++",
-   "openIssues": 1,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-10-27T15:12:27Z"
-  },
-  "release": {
-   "id": 425602240,
-   "tag": "v0.0.12",
-   "name": "v0.0.12",
-   "notes": "# 重点\r\n\r\n1. 取消原有的横屏适配，修改为更容易使用的竖屏。\r\n2. 构建和优化上下左右镜像功能，更加统一可靠。\r\n3. 重构3dof功能，更加稳定，并支持手动调整正反向数值。\r\n4. 增加独立的SDK库，既能通过IPC隔离双开源协议，又能方便管理。\r\n5. 修复地图线程锁导致的崩溃问题。\r\n6. 修复部分翻译问题。\r\n\r\n\r\n**所有修改内容**: https://github.com/Olsc/Android_ORB-SLAM2s/compare/v0.0.11...v0.0.12",
-   "published_at": "2026-10-27T15:09:20Z",
-   "html_url": "https://github.com/Olsc/Android_ORB-SLAM2s/releases/tag/v0.0.12",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 681938822,
-    "name": "Android_MenthaAR_signed.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 29213996,
-    "download_url": "https://github.com/Olsc/Android_ORB-SLAM2s/releases/download/v0.0.12/Android_MenthaAR_signed.apk",
-    "digest": "sha256:7d5861df70199377927abd784a0e593981069731418ca5a56ad2227ae2724b13",
-    "download_count": 1
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 864823369,
    "full_name": "mr-bogey/TouchTool",
@@ -242343,18 +242473,18 @@
    "avatar_url": "https://avatars.githubusercontent.com/u/25943429?v=4",
    "description": "使用Android无障碍功能来帮助用户点击。蓝图式任务编辑",
    "stars": 70,
-   "forks": 18,
+   "forks": 17,
    "topics": [],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-10-31T04:27:02Z",
+   "updated_at": "2026-11-04T09:01:44Z",
    "created_at": "2024-09-29T09:03:22Z",
    "license": "GPL-3.0",
    "language": "C++",
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-20T06:34:01Z"
+   "pushedAt": "2026-11-04T09:01:38Z"
   },
   "release": {
    "id": 418067509,
@@ -242373,132 +242503,7 @@
     "size": 25313419,
     "download_url": "https://github.com/mr-bogey/TouchTool/releases/download/2026-10-20/_261020_1412.APK",
     "digest": "sha256:4d0e1e6d158e35ae3da6a72dacccb657181d853eddde73df5d1c1b2fce9eaf8e",
-    "download_count": 28
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 1426442578,
-   "full_name": "OTPR26/Ocarina-ReTuned",
-   "owner": "OTPR26",
-   "avatar_url": "https://avatars.githubusercontent.com/u/306326493?v=4",
-   "description": "OOT3D, recompiled for Windows, Mac, Linux, Android, iOS and Apple TV. A substantially modified TriAevum fork with the Ocarina ReFramed single-screen HUD, HD dialogue fonts and controller-friendly menus.",
-   "stars": 70,
-   "forks": 1,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-31T18:56:28Z",
-   "created_at": "2026-10-20T03:15:12Z",
-   "license": null,
-   "language": "Python",
-   "openIssues": 10,
-   "watchers": null,
-   "homepage": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.1.0-preview",
-   "pushedAt": "2026-10-31T11:30:22Z"
-  },
-  "release": {
-   "id": 429838453,
-   "tag": "v0.6.1",
-   "name": "Ocarina ReTuned Preview 0.6.1",
-   "notes": "## Ocarina ReTuned Preview 0.6.1\n\n- Added Save game access in Dual mode, from the lower screen and General settings.\n- Fixed the save dialogue’s Back button and removed Options.\n- Improved appearance timing for the Save button and equipment panel.\n\nAndroid update. Other platform builds are unchanged.\n",
-   "published_at": "2026-10-31T09:32:28Z",
-   "html_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.6.1",
-   "prerelease": true
-  },
-  "assets": [
-   {
-    "id": 694942031,
-    "name": "Ocarina-ReTuned-0.5.8-Linux-ARM64.tar.gz",
-    "content_type": "application/x-gtar",
-    "size": 213294954,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Linux-ARM64.tar.gz",
-    "digest": "sha256:9d939835804f23c4be0d427b975057ab2cd8c2019f5ca7c47542feb2fc56c50a",
-    "download_count": 7
-   },
-   {
-    "id": 694944211,
-    "name": "Ocarina-ReTuned-0.5.8-Linux-x86_64.tar.gz",
-    "content_type": "application/x-gtar",
-    "size": 248230839,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Linux-x86_64.tar.gz",
-    "digest": "sha256:078f3533a459a879bfed5db6382a1a0bc5d08e8826f7b55c8b331da4f62ff477",
-    "download_count": 24
-   },
-   {
-    "id": 694946571,
-    "name": "Ocarina-ReTuned-0.5.8-Mac.zip",
-    "content_type": "application/zip",
-    "size": 84848427,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Mac.zip",
-    "digest": "sha256:ed51abefa6e4feb9ce21aa1d01a4007c38b5b7b3110e5b4d6ac2b0de643e24b9",
-    "download_count": 11
-   },
-   {
-    "id": 694947438,
-    "name": "Ocarina-ReTuned-0.5.8-Windows-ARM64.zip",
-    "content_type": "application/zip",
-    "size": 192963443,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Windows-ARM64.zip",
-    "digest": "sha256:157271f5e6857a0b52a33895942505517a52d5612de9845db15e036f84d6cdaa",
-    "download_count": 6
-   },
-   {
-    "id": 694949010,
-    "name": "Ocarina-ReTuned-0.5.8-Windows-x64.zip",
-    "content_type": "application/zip",
-    "size": 222584822,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.5.8-Windows-x64.zip",
-    "digest": "sha256:a58bcc968a6f16ca071b7ceed5f09ba2c8b5a233013f9ee6523f8392fa210c3f",
-    "download_count": 232
-   },
-   {
-    "id": 694950497,
-    "name": "Ocarina-ReTuned-0.6.1-Android-arm64.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 140666778,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-0.6.1-Android-arm64.apk",
-    "digest": "sha256:63ffa434ec04b51685fcf45b039c7ad0a8f4cd1e26d1c14a6e3aa06f17155c3d",
-    "download_count": 193
-   },
-   {
-    "id": 694949807,
-    "name": "Ocarina-ReTuned-2.6.0-iOS-Unsigned.ipa",
-    "content_type": "application/octet-stream",
-    "size": 39319262,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-2.6.0-iOS-Unsigned.ipa",
-    "digest": "sha256:08614c45de13e78f71397132e5872bd2c376e44a562560d574bf0d6ab5f67bfe",
-    "download_count": 7
-   },
-   {
-    "id": 694949950,
-    "name": "Ocarina-ReTuned-2.6.0-Switch-Experimental.zip",
-    "content_type": "application/zip",
-    "size": 40543092,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-2.6.0-Switch-Experimental.zip",
-    "digest": "sha256:62eb361cf29d2a0a8891bdab675f3d731a79df947bd95d89aa996f3bab039b10",
-    "download_count": 6
-   },
-   {
-    "id": 694950219,
-    "name": "Ocarina-ReTuned-2.6.0-tvOS-Unsigned.ipa",
-    "content_type": "application/octet-stream",
-    "size": 40311106,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/Ocarina-ReTuned-2.6.0-tvOS-Unsigned.ipa",
-    "digest": "sha256:2a67ea3af248e3186a0857a1983e43b4cf4190fb5242e9c92cf40d0633af98d5",
-    "download_count": 4
-   },
-   {
-    "id": 694951619,
-    "name": "SHA256-Checksums.txt",
-    "content_type": "text/plain; charset=utf-8",
-    "size": 950,
-    "download_url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.1/SHA256-Checksums.txt",
-    "digest": "sha256:a7ba7bba1e70c927a274293e937bfb07d7f31931dbe77e5b6342203f5e731e96",
-    "download_count": 5
+    "download_count": 35
    }
   ]
  },
@@ -244752,7 +244757,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 182060921,
    "full_name": "DimensionDev/TesserPG-Android",
@@ -245824,6 +245829,102 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1266236370,
+   "full_name": "krambovic/Lumen",
+   "owner": "krambovic",
+   "avatar_url": "https://avatars.githubusercontent.com/u/281600644?v=4",
+   "description": "Lumen - is an advanced standalone VPN solution for bypassing DPI blocks.",
+   "stars": 68,
+   "forks": 7,
+   "topics": [
+    "android",
+    "dpi",
+    "openvpn",
+    "proxy",
+    "shadowsocks",
+    "singbox",
+    "trojan",
+    "v2fly",
+    "v2ray",
+    "vless",
+    "vmess",
+    "vpn",
+    "windows",
+    "xray",
+    "xtls"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T00:04:49Z",
+   "created_at": "2026-06-11T12:42:44Z",
+   "license": "GPL-3.0",
+   "language": "Python",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "https://telegram.me/lumenkvn",
+   "pushedAt": "2026-10-31T13:31:54Z"
+  },
+  "release": {
+   "id": 433915367,
+   "tag": "android-v1.5.1",
+   "name": "Lumen Android 1.5.1",
+   "notes": "## What's Changed\r\n\r\n* feat: add Xray as an optional companion core, following Lumen Desktop's hybrid approach — Hybrid automatically uses it for settings sing-box cannot handle, with Singbox and Xray modes available in Settings\r\n* fix: preserve advanced VLESS encryption, REALITY verification, XHTTP and fragmentation settings when importing subscriptions and passing configurations to Xray\r\n* feat: show group ping progress in the Servers dock label, such as `2/46`, and restore the tab name shortly after completion\r\n* feat: add a compact current-connection ping control to every dashboard layout\r\n* fix: honor the configured ping concurrency instead of limiting HTTP checks to two workers — the default is 16\r\n* fix: prevent group ping checks from getting stuck, improve cancellation and restart, and stop outstanding checks when connecting to a server\r\n* perf: reduce battery use by removing continuous decorative animations and slowing traffic polling while the app is in the background or the screen is off\r\n* fix: improve OpenVPN configuration compatibility, encrypted private-key handling, credential saving and startup error reporting\r\n* fix: repair WireGuard link parsing and improve QR scanning, including private keys containing `/` or `+`\r\n* fix: improve text and button contrast across themes and keep settings readable with large fonts and unusual display scaling\r\n* feat: add adjustable navigation dock sizes with layouts bounded by the available screen width\r\n* feat: add `.lumen` profile export with encryption for specific recipients or password-based delivery, optional editing and export restrictions, expiration and network access conditions\r\n\r\nFull Changelog: https://github.com/krambovic/Lumen/compare/android-v1.5.0...android-v1.5.1\r\n",
+   "published_at": "2026-11-04T12:55:34Z",
+   "html_url": "https://github.com/krambovic/Lumen/releases/tag/android-v1.5.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 709497375,
+    "name": "lumen-1.5.1-arm64-v8a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 52967931,
+    "download_url": "https://github.com/krambovic/Lumen/releases/download/android-v1.5.1/lumen-1.5.1-arm64-v8a-release.apk",
+    "digest": "sha256:fa831e65336db4bff687ffff4bcaf5f77272e90d837ccc2a60b72d655385521b",
+    "download_count": 6
+   },
+   {
+    "id": 709497368,
+    "name": "lumen-1.5.1-armeabi-v7a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 52967363,
+    "download_url": "https://github.com/krambovic/Lumen/releases/download/android-v1.5.1/lumen-1.5.1-armeabi-v7a-release.apk",
+    "digest": "sha256:28d77b64ea8a57b1114e5817438ddaf38099c48fe7275fd5ac75b67f9d0dbac5",
+    "download_count": 2
+   },
+   {
+    "id": 709497369,
+    "name": "lumen-1.5.1-universal-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 147052553,
+    "download_url": "https://github.com/krambovic/Lumen/releases/download/android-v1.5.1/lumen-1.5.1-universal-release.apk",
+    "digest": "sha256:37cfd9c361cdb3ec803812651004fa3bcd1143b94aeb38c3aa4a16a89ab7171f",
+    "download_count": 2
+   },
+   {
+    "id": 709497373,
+    "name": "lumen-1.5.1-x86_64-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 57065811,
+    "download_url": "https://github.com/krambovic/Lumen/releases/download/android-v1.5.1/lumen-1.5.1-x86_64-release.apk",
+    "digest": "sha256:0b26c6bf7206d3a0155b92f980d70667867a3d506b6b3f6e32571316f1479ec9",
+    "download_count": 2
+   },
+   {
+    "id": 709497376,
+    "name": "SHA256SUMS-1.5.1.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 403,
+    "download_url": "https://github.com/krambovic/Lumen/releases/download/android-v1.5.1/SHA256SUMS-1.5.1.txt",
+    "digest": "sha256:e915c420505486dfa06e9873b95b8ab57434022fb4a407aced0c5c8ce7b432ab",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 412054487,
@@ -245938,7 +246039,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 107510291,
    "full_name": "javandcpp/MediaPlus",
@@ -246633,93 +246734,6 @@
   "schema": 1,
   "last_verified": "2026-11-03",
   "repo": {
-   "id": 1266236370,
-   "full_name": "krambovic/Lumen",
-   "owner": "krambovic",
-   "avatar_url": "https://avatars.githubusercontent.com/u/281600644?v=4",
-   "description": "Lumen - is an advanced standalone VPN solution for bypassing DPI blocks.",
-   "stars": 67,
-   "forks": 7,
-   "topics": [
-    "android",
-    "dpi",
-    "openvpn",
-    "proxy",
-    "shadowsocks",
-    "singbox",
-    "trojan",
-    "v2fly",
-    "v2ray",
-    "vless",
-    "vmess",
-    "vpn",
-    "windows",
-    "xray",
-    "xtls"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-02T18:53:36Z",
-   "created_at": "2026-06-11T12:42:44Z",
-   "license": "GPL-3.0",
-   "language": "Python",
-   "openIssues": 1,
-   "watchers": null,
-   "homepage": "https://telegram.me/lumenkvn",
-   "pushedAt": "2026-10-31T13:31:54Z"
-  },
-  "release": {
-   "id": 428882150,
-   "tag": "android-v1.5.0",
-   "name": "Lumen Android 1.5.0",
-   "notes": "## What's Changed\r\n\r\n* feat: implement Material 3 Expressive floating navigation dock with fluid spring-physics tab switching animations\r\n* feat: add interactive drag-to-connect slider bar with dynamic wavy progress and real-time state feedback\r\n* feat: add modular and customizable settings tiles hub with drag-and-drop ordering and multi-size tile layouts\r\n* feat: add native MASQUE tunnel support with custom sing-box extended patches for censorship evasion\r\n* feat: add built-in Cloudflare WARP profile generation supporting WireGuard, AmneziaWG, and MASQUE endpoints\r\n* feat: add adaptive network profile for Iran with secure DoH resolvers (Cloudflare, Google, Quad9), HTTPS transport, and parallel queries\r\n* feat: bundle offline Iranian geo-resources (`geoip-ir.srs` and `geosite-ir.srs`) for instant out-of-the-box rule matching\r\n* feat: support inbound SOCKS5 and HTTP proxy listener with custom username and password authentication for LAN sharing\r\n* feat: add Network Info inspection screen detailing public IP, ISP, ASN, location, and VPN leak status\r\n* feat: add dynamic launcher icon switcher with System, Light, and Dark variants\r\n* feat: implement high refresh rate display policy unlocking 90Hz, 120Hz, and 144Hz panels without resolution downscaling\r\n* feat: introduce Material You dynamic color theming, AMOLED pure black, and custom accent palette options\r\n* feat: add layout switcher between Compact and Detailed server cards with instant search and filter controls\r\n* feat: add visual node editor modal supporting manual parameter configuration for VLESS, VMess, Trojan, SS, AWG, and MASQUE\r\n* feat: integrate in-app camera QR scanner with flashlight support and fast on-device QR code generator\r\n* feat: parse and display subscription metadata, traffic usage quotas, and expiry dates from provider response headers\r\n* feat: add scheduled subscription auto-updates with custom intervals and regex node filtering\r\n* feat: add granular reset controls to safely restore preferences",
-   "published_at": "2026-10-30T10:08:09Z",
-   "html_url": "https://github.com/krambovic/Lumen/releases/tag/android-v1.5.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 691696819,
-    "name": "lumen-1.5.0-arm64-v8a-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 38853548,
-    "download_url": "https://github.com/krambovic/Lumen/releases/download/android-v1.5.0/lumen-1.5.0-arm64-v8a-release.apk",
-    "digest": "sha256:8704ea8533dad8b1eeba1ad7336c1d3bd3c9c3da1d1bc28f9017f034ed2d567e",
-    "download_count": 223
-   },
-   {
-    "id": 691696823,
-    "name": "lumen-1.5.0-armeabi-v7a-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 39370330,
-    "download_url": "https://github.com/krambovic/Lumen/releases/download/android-v1.5.0/lumen-1.5.0-armeabi-v7a-release.apk",
-    "digest": "sha256:9f24c00f8febb522d5b7bb4dce7c8a6a19f2f1ac9e1455d6fbd4fc66c48d6cc5",
-    "download_count": 16
-   },
-   {
-    "id": 691696814,
-    "name": "lumen-1.5.0-universal-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 105347095,
-    "download_url": "https://github.com/krambovic/Lumen/releases/download/android-v1.5.0/lumen-1.5.0-universal-release.apk",
-    "digest": "sha256:53525dcda18c9ec413843471ade72f4292fd6e7de6c9882e6ff8cfca802035e6",
-    "download_count": 54
-   },
-   {
-    "id": 691696815,
-    "name": "lumen-1.5.0-x86_64-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 41518099,
-    "download_url": "https://github.com/krambovic/Lumen/releases/download/android-v1.5.0/lumen-1.5.0-x86_64-release.apk",
-    "digest": "sha256:cc80c18c9bb79cb5e72b1b517c541660ff92ce03f0fe48d612b5b12f56fbcd93",
-    "download_count": 3
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-03",
-  "repo": {
    "id": 355935918,
    "full_name": "Gitsaibot/AF-Weather-Widget",
    "owner": "Gitsaibot",
@@ -246818,7 +246832,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 872200691,
    "full_name": "PIPIKAI/android-ncnn-yolo11",
@@ -250556,7 +250570,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1322243816,
    "full_name": "tuxKOH/GPT-SoViTs-android",
@@ -250568,7 +250582,7 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-29T12:37:10Z",
+   "updated_at": "2026-11-02T04:49:54Z",
    "created_at": "2026-08-03T21:19:16Z",
    "license": "GPL-3.0",
    "language": "Python",
@@ -250594,7 +250608,7 @@
     "size": 169796219,
     "download_url": "https://github.com/tuxKOH/GPT-SoViTs-android/releases/download/v3.2.1/app-release-unsigned.apk",
     "digest": "sha256:9be7c4cc0fad4bd3fa5c3876f9c12eb27a6ac4a6bb81ef128bd484c7c270ed8a",
-    "download_count": 308
+    "download_count": 353
    }
   ]
  },
@@ -254361,7 +254375,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 391951917,
    "full_name": "lyc8503/jjwxcCrawler",
@@ -257919,6 +257933,55 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1339827209,
+   "full_name": "reveny/Android-Device-Trust",
+   "owner": "reveny",
+   "avatar_url": "https://avatars.githubusercontent.com/u/113244907?v=4",
+   "description": "Android device attestation and fingerprinting tool",
+   "stars": 57,
+   "forks": 8,
+   "topics": [
+    "android",
+    "emulator",
+    "fingerprinting",
+    "fingerprinting-demo"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-02T09:46:22Z",
+   "created_at": "2026-08-19T17:02:11Z",
+   "license": "Apache-2.0",
+   "language": "Python",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-08-20T07:38:45Z"
+  },
+  "release": {
+   "id": 373280279,
+   "tag": "v1.1.0",
+   "name": "Release v1.1.0",
+   "notes": "**Full Changelog**: https://github.com/reveny/Android-Device-Trust/compare/v1.0.0...v1.1.0",
+   "published_at": "2026-08-19T18:58:47Z",
+   "html_url": "https://github.com/reveny/Android-Device-Trust/releases/tag/v1.1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 521228841,
+    "name": "device-check-v1.1.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 13660274,
+    "download_url": "https://github.com/reveny/Android-Device-Trust/releases/download/v1.1.0/device-check-v1.1.0.apk",
+    "digest": "sha256:1147cae266bd8203197477f21598cf7455df33e9620d28ec59152538ff5ae284",
+    "download_count": 708
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-31",
   "repo": {
    "id": 796873419,
@@ -261048,55 +261111,6 @@
     "download_url": "https://github.com/Hamraj37/DevPulse/releases/download/v1.0.9/app-release.apk",
     "digest": "sha256:baf9eb6a0aa60e9ba9b9714df125c7cb609c3eb57701bbb8172dea9b88a20460",
     "download_count": 229
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-31",
-  "repo": {
-   "id": 1339827209,
-   "full_name": "reveny/Android-Device-Trust",
-   "owner": "reveny",
-   "avatar_url": "https://avatars.githubusercontent.com/u/113244907?v=4",
-   "description": "Android device attestation and fingerprinting tool",
-   "stars": 54,
-   "forks": 8,
-   "topics": [
-    "android",
-    "emulator",
-    "fingerprinting",
-    "fingerprinting-demo"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-30T02:29:20Z",
-   "created_at": "2026-08-19T17:02:11Z",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-08-20T07:38:45Z"
-  },
-  "release": {
-   "id": 373280279,
-   "tag": "v1.1.0",
-   "name": "Release v1.1.0",
-   "notes": "**Full Changelog**: https://github.com/reveny/Android-Device-Trust/compare/v1.0.0...v1.1.0",
-   "published_at": "2026-08-19T18:58:47Z",
-   "html_url": "https://github.com/reveny/Android-Device-Trust/releases/tag/v1.1.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 521228841,
-    "name": "device-check-v1.1.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 13660274,
-    "download_url": "https://github.com/reveny/Android-Device-Trust/releases/download/v1.1.0/device-check-v1.1.0.apk",
-    "digest": "sha256:1147cae266bd8203197477f21598cf7455df33e9620d28ec59152538ff5ae284",
-    "download_count": 696
    }
   ]
  },
@@ -633380,7 +633394,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1124717400,
    "full_name": "MrSfantaus/HealthConnect-Godot-Android-Plugin",
@@ -634781,7 +634795,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1409860127,
    "full_name": "elaina5201314qaq-max/elaina-travelogue",
@@ -661974,7 +661988,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1361643026,
    "full_name": "ellokojavi/Tickers",
@@ -662002,14 +662016,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-31T17:10:30Z",
+   "updated_at": "2026-11-01T17:52:35Z",
    "created_at": "2026-09-08T16:33:25Z",
    "license": "MIT",
    "language": "TypeScript",
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://ellokojavi.github.io/Tickers/",
-   "pushedAt": "2026-10-31T17:10:26Z"
+   "pushedAt": "2026-11-01T17:52:32Z"
   },
   "release": {
    "id": 384921811,
@@ -662043,7 +662057,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 665255330,
    "full_name": "ARCOOON/UpChat",
@@ -662081,13 +662095,13 @@
     "size": 15088549,
     "download_url": "https://github.com/ARCOOON/UpChat/releases/download/1.3.1-alpha/upchat-1.3.1-alpha.apk",
     "digest": null,
-    "download_count": 38
+    "download_count": 39
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1302873058,
    "full_name": "Alfonfdez/Finly",
@@ -662151,7 +662165,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1095718308,
    "full_name": "Samanyu-dev/durgapuja",
@@ -662258,7 +662272,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1297413915,
    "full_name": "RokiFauziErenJaegar/duitku",
@@ -662317,7 +662331,7 @@
     "size": 11302800,
     "download_url": "https://github.com/RokiFauziErenJaegar/duitku/releases/download/v2.2/Duitku-v2.2-playstore.aab",
     "digest": "sha256:703f5d10b20ab150e8c3a5794fd0157ee5ebf2ed843df52560051af62e980148",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 474991683,
@@ -662326,7 +662340,7 @@
     "size": 11651448,
     "download_url": "https://github.com/RokiFauziErenJaegar/duitku/releases/download/v2.2/Duitku-v2.2.apk",
     "digest": "sha256:6492bdf76ddeae31a6d26443623eeea19b99cf69d3fca8912301a14760774128",
-    "download_count": 0
+    "download_count": 1
    }
   ]
  },
@@ -662392,7 +662406,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1191000950,
    "full_name": "SanujaMenath/MoneyFlow",
@@ -662436,7 +662450,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 583663696,
    "full_name": "NicKoehler/Alla-Romana",
@@ -662497,34 +662511,34 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1410635684,
    "full_name": "Rawad-sm/Aurora-Messenger-web-and-app-for-windows-and-Android",
    "owner": "Rawad-sm",
    "avatar_url": "https://avatars.githubusercontent.com/u/313492899?v=4",
-   "description": "Aurora Messenger — A modern messaging platform for Xbox 360 users and everyone, with web and Windows versions.",
+   "description": "Aurora Messenger — A modern messaging platform for Xbox 360 users and everyone, featuring real-time voice calls, image sharing, voice messages, and message editing across web, Windows, and Android.",
    "stars": 1,
    "forks": 0,
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-12T18:48:52Z",
+   "updated_at": "2026-11-01T16:53:03Z",
    "created_at": "2026-10-08T16:17:44Z",
    "license": null,
    "language": null,
    "openIssues": 0,
    "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-10-12T18:48:49Z"
+   "homepage": "",
+   "pushedAt": "2026-11-01T16:52:17Z"
   },
   "release": {
    "id": 407058189,
-   "tag": "v1.0.0",
-   "name": "🚀 Aurora Messenger — Windows & Android Apps v1.0.0 💻📱",
-   "notes": "# 🚀 Aurora Messenger — Windows & Android Apps\r\n\r\n## 💬 Your conversations. Your community. Your Aurora.\r\n\r\nThe official **Aurora Messenger Windows and Android Apps** are here! 🖥️📱🔥\r\n\r\nAurora Messenger is a modern messaging platform built for **Xbox 360 users and everyone**, bringing a simple, evolving messaging experience to the web, Windows, and compatible Android devices.\r\n\r\n### ✨ What's Included\r\n\r\n* 💬 Modern messaging experience\r\n* ❤️ Message reactions for interactive conversations\r\n* 🔐 Account registration and login\r\n* 🖥️ Dedicated Windows application\r\n* 📱 Android application (APK)\r\n* 🌐 Full web version\r\n* 🔄 Regular updates and improvements\r\n* 🛠️ Bug fixes and ongoing development\r\n* 🚀 New features added over time\r\n\r\n### 🌐 Visit Aurora Messenger\r\n\r\n👉 https://aurora-messenger.onrender.com/\r\n\r\n### 📥 Official Download Center\r\n\r\nGet the available desktop and mobile downloads here:\r\n\r\n👉 https://rawad-sm.github.io/Aurora-Messenger-Download/\r\n\r\n### 🔄 Aurora Messenger Keeps Evolving\r\n\r\nThis project is actively developed with **new features, improvements, and bug fixes released regularly**, depending on the development schedule.\r\n\r\nEvery update is another step toward making Aurora Messenger better across supported platforms. ❤️‍🔥\r\n\r\n### 👨‍💻 Created by Rawad-sm\r\n\r\nBuilt with passion for the **Xbox 360 community and everyone who wants a modern place to connect.**\r\n\r\n**Aurora Messenger — More than messaging. It's a growing community. 🚀💚**",
+   "tag": "2.0.0",
+   "name": "🚀 Aurora Messenger — Windows & Android Apps v1.0.0 | Voice Calls, Image Sharing & Message Editing 💻📱",
+   "notes": "# 🚀 Aurora Messenger — Windows & Android Apps\r\n\r\n## 💬 Your conversations. Your community. Your Aurora.\r\n\r\nThe official **Aurora Messenger Windows and Android Apps** are here! 🖥️📱🔥\r\n\r\nAurora Messenger is a modern messaging platform built for **Xbox 360 users and everyone**, bringing a simple, evolving messaging experience to the web, Windows, and compatible Android devices.\r\n\r\n### ✨ What's Included\r\n\r\n* 💬 Modern messaging experience\r\n* ❤️ Message reactions for interactive conversations\r\n* 📞 Real-time voice calls between users\r\n* ✏️ Edit your own text messages after sending\r\n* 🖼️ Image messaging with preview before sending\r\n* 🎙️ Record and send voice messages\r\n* 🔐 Account registration and login\r\n* 🖥️ Dedicated Windows application\r\n* 📱 Android application (APK)\r\n* 🌐 Full web version\r\n* 🔄 Regular updates and improvements\r\n* 🛠️ Bug fixes and ongoing development\r\n* 🚀 New features added over time\r\n\r\n### 🌐 Visit Aurora Messenger\r\n\r\n👉 https://aurora-messenger.onrender.com/\r\n\r\n### 📥 Official Download Center\r\n\r\nGet the available desktop and mobile downloads here:\r\n\r\n👉 https://rawad-sm.github.io/Aurora-Messenger-Download/\r\n\r\n### 🔄 Aurora Messenger Keeps Evolving\r\n\r\nThis project is actively developed with **new features, improvements, and bug fixes released regularly**, depending on the development schedule.\r\n\r\nRecent improvements include real-time voice calls, message editing, image sharing, and voice messages.\r\n\r\nEvery update is another step toward making Aurora Messenger better across supported platforms. ❤️‍🔥\r\n\r\n### 👨‍💻 Created by Rawad-sm\r\n\r\nBuilt with passion for the **Xbox 360 community and everyone who wants a modern place to connect.**\r\n\r\n**Aurora Messenger — More than messaging. It's a growing community. 🚀💚**",
    "published_at": "2026-10-08T16:45:47Z",
-   "html_url": "https://github.com/Rawad-sm/Aurora-Messenger-web-and-app-for-windows-and-Android/releases/tag/v1.0.0",
+   "html_url": "https://github.com/Rawad-sm/Aurora-Messenger-web-and-app-for-windows-and-Android/releases/tag/2.0.0",
    "prerelease": false
   },
   "assets": [
@@ -662533,24 +662547,24 @@
     "name": "Aurora-Messenger-Win-x64.rar",
     "content_type": "application/octet-stream",
     "size": 15698740,
-    "download_url": "https://github.com/Rawad-sm/Aurora-Messenger-web-and-app-for-windows-and-Android/releases/download/v1.0.0/Aurora-Messenger-Win-x64.rar",
+    "download_url": "https://github.com/Rawad-sm/Aurora-Messenger-web-and-app-for-windows-and-Android/releases/download/2.0.0/Aurora-Messenger-Win-x64.rar",
     "digest": "sha256:fc93895985e69b5786e7e4c4bcd664964f27c812dbb6c0219d67659be768dfd2",
-    "download_count": 8
+    "download_count": 10
    },
    {
     "id": 641179773,
     "name": "aurora_messenger.apk",
     "content_type": "application/vnd.android.package-archive",
     "size": 10999526,
-    "download_url": "https://github.com/Rawad-sm/Aurora-Messenger-web-and-app-for-windows-and-Android/releases/download/v1.0.0/aurora_messenger.apk",
+    "download_url": "https://github.com/Rawad-sm/Aurora-Messenger-web-and-app-for-windows-and-Android/releases/download/2.0.0/aurora_messenger.apk",
     "digest": "sha256:2e5624990398dd655531562ef6f1f2721176f645fffe5465990b5cb24ea96188",
-    "download_count": 4
+    "download_count": 7
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 236765834,
    "full_name": "btmyles/RunSmart",
@@ -662594,7 +662608,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1311262957,
    "full_name": "2ANGELO/SkillUp",
@@ -662653,7 +662667,7 @@
     "size": 14322094,
     "download_url": "https://github.com/2ANGELO/SkillUp/releases/download/v1.1.1/SkillUp-1.1.1-Windows-x64.zip",
     "digest": "sha256:627a2ff2a79ffdac1a8d56b9ef91c8374806f21a07d4098e807569482504b61b",
-    "download_count": 28
+    "download_count": 31
    },
    {
     "id": 499771679,
@@ -662662,13 +662676,13 @@
     "size": 62718173,
     "download_url": "https://github.com/2ANGELO/SkillUp/releases/download/v1.1.1/SkillUp-1.1.1.apk",
     "digest": "sha256:8bea76f5b9a91479aacca1d49c42af11f65280084d94f23a0dea2066a7e16a73",
-    "download_count": 25
+    "download_count": 27
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1096107692,
    "full_name": "Justtyn/TravelMap",
@@ -662733,7 +662747,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 664299812,
    "full_name": "alkarim99/food-recipe-apps",
@@ -662780,7 +662794,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1408218701,
    "full_name": "jackh0006/X-Messenger",
@@ -662839,7 +662853,7 @@
     "size": 2793162,
     "download_url": "https://github.com/jackh0006/X-Messenger/releases/download/v1.5.2/X-Messenger-1.5.2-Android-arm64.apk",
     "digest": "sha256:e866f4ebb440f386c915682c596c9fd6de068abda8137f068ad2ed39939e9f7f",
-    "download_count": 1
+    "download_count": 3
    },
    {
     "id": 695751589,
@@ -662962,7 +662976,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1310921907,
    "full_name": "Joao-Serrao/INVESTigator",
@@ -663045,7 +663059,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1187871900,
    "full_name": "hram/family-messenger",
@@ -663091,7 +663105,7 @@
     "size": 11973527,
     "download_url": "https://github.com/hram/family-messenger/releases/download/v0.1.11/family-messenger-android-no-fcm-debug.apk",
     "digest": "sha256:4f766c01474abf61f7ea43bd5266a79648efa276a66305cd8dc28a7e73522796",
-    "download_count": 9
+    "download_count": 10
    },
    {
     "id": 383981331,
@@ -663115,7 +663129,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 336098882,
    "full_name": "Bysimeit/BeHide",
@@ -663160,7 +663174,7 @@
     "size": 192045171,
     "download_url": "https://github.com/Bysimeit/BeHide/releases/download/v1.1.0/behide.apk",
     "digest": "sha256:6d92c929234f4159239025f5e93f4d1cf96d2b0710cb80fed369e130aba5a227",
-    "download_count": 7
+    "download_count": 8
    },
    {
     "id": 500009352,
@@ -663193,7 +663207,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1296981842,
    "full_name": "Danbro007/fitness-app",
@@ -663237,7 +663251,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1224125323,
    "full_name": "DoubleGremlin181/fast-travel-app",
@@ -663283,7 +663297,7 @@
     "size": 4841041,
     "download_url": "https://github.com/DoubleGremlin181/fast-travel-app/releases/download/v2.3.3/app-release.aab",
     "digest": "sha256:119a24b072b872d06bd5b6b3cf0ded342654c43b9025b5b3a381d489859fb84c",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 577495177,
@@ -663301,7 +663315,7 @@
     "size": 322173,
     "download_url": "https://github.com/DoubleGremlin181/fast-travel-app/releases/download/v2.3.3/chrome-extension.zip",
     "digest": "sha256:fbd15aefdee350ed733297f8424939b89ee4b3ba4642afdb991bc8857dd51be2",
-    "download_count": 3
+    "download_count": 4
    },
    {
     "id": 577495175,
@@ -663310,13 +663324,13 @@
     "size": 321967,
     "download_url": "https://github.com/DoubleGremlin181/fast-travel-app/releases/download/v2.3.3/firefox-extension.zip",
     "digest": "sha256:3119a7fb6bb03137123f459c6ca04ecda81e17977c82cc6e20d4c098fe18bf39",
-    "download_count": 0
+    "download_count": 1
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1106038340,
    "full_name": "omgnoe/echochat-anonymous-messenger-app",
@@ -663360,7 +663374,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1125422567,
    "full_name": "arvido234/gym-log",
@@ -663418,7 +663432,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1097451157,
    "full_name": "TheJulianAlva/othliani",
@@ -663475,7 +663489,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 749923448,
    "full_name": "Perk7/Invami",
@@ -663519,7 +663533,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 471913732,
    "full_name": "progneo/UnifyChat",
@@ -663563,7 +663577,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1329987725,
    "full_name": "dxt6/FitLog",
@@ -663607,7 +663621,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1217862237,
    "full_name": "Schatten-Herz/SuicaReader",
@@ -663651,7 +663665,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 353307916,
    "full_name": "tushartripathi/DistanceTracker",
@@ -663701,7 +663715,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 321899106,
    "full_name": "nichyjt/HealthToolbox",
@@ -663745,7 +663759,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 550038170,
    "full_name": "sercan-esen/TravelApp",
@@ -663808,7 +663822,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1356033517,
    "full_name": "NayaGramPlatform/NayaGramAndroid",
@@ -663831,14 +663845,14 @@
    ],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-10-31T19:14:02Z",
+   "updated_at": "2026-11-04T08:50:21Z",
    "created_at": "2026-09-03T13:52:19Z",
    "license": "GPL-2.0",
    "language": "Java",
    "openIssues": 18,
    "watchers": null,
    "homepage": "https://nayagramplatform.github.io/PrivacyArticleCenter/",
-   "pushedAt": "2026-10-31T19:13:58Z"
+   "pushedAt": "2026-11-04T08:50:16Z"
   },
   "release": {
    "id": 405385941,
@@ -663857,13 +663871,13 @@
     "size": 140785355,
     "download_url": "https://github.com/NayaGramPlatform/NayaGramAndroid/releases/download/v1.0.1/NayaGram-Release.apk",
     "digest": "sha256:f0f7674d3584c26d9de3d23660b08045b75f551a0248906b543e345b6e31001e",
-    "download_count": 7
+    "download_count": 8
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 515361093,
    "full_name": "IslombekTurakulov/Travel-And-End",
@@ -663916,7 +663930,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1398373495,
    "full_name": "Ethan-0815/Travel-Map",
@@ -663969,7 +663983,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1323015854,
    "full_name": "HuaWeiQiu/AgentDeck",
@@ -663985,10 +663999,10 @@
    "created_at": "2026-08-04T14:01:55Z",
    "license": "Apache-2.0",
    "language": "Kotlin",
-   "openIssues": 8,
+   "openIssues": 9,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-01T00:22:06Z"
+   "pushedAt": "2026-11-01T00:19:34Z"
   },
   "release": {
    "id": 371843923,
@@ -664040,7 +664054,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1308377358,
    "full_name": "Himansho/memory-vault-app",
@@ -664084,7 +664098,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1244466490,
    "full_name": "Elegant-corgi/travel-assistant",
@@ -664128,7 +664142,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1310235562,
    "full_name": "rverma69/meshaid-android",
@@ -664201,7 +664215,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1194902975,
    "full_name": "arashsajjadi/aasm2-secure-messenger",
@@ -664278,7 +664292,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1403866677,
    "full_name": "larrydewey/threnody",
@@ -664306,7 +664320,7 @@
    "openIssues": 7,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-30T06:08:11Z"
+   "pushedAt": "2026-11-02T02:14:05Z"
   },
   "release": {
    "id": 428696661,
@@ -664412,7 +664426,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1277746615,
    "full_name": "matviimatinmercon/whaticancook",
@@ -664456,7 +664470,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1358981886,
    "full_name": "h4rl3y-q/PeerDroid",
@@ -664510,7 +664524,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1180937838,
    "full_name": "vainleet/AllInOne",
@@ -664554,7 +664568,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1022929685,
    "full_name": "sergcam/CheckIn24",
@@ -664604,7 +664618,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1358731083,
    "full_name": "realRurichan/two-way-permit-reader",
@@ -664648,7 +664662,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1404490947,
    "full_name": "hannanayaz/AethonFit-Android-App",
@@ -664692,7 +664706,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1361657655,
    "full_name": "ahhajlou/NoSpam",
@@ -664708,10 +664722,10 @@
    "created_at": "2026-09-08T16:46:01Z",
    "license": "GPL-3.0",
    "language": "Kotlin",
-   "openIssues": 0,
+   "openIssues": 1,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-23T13:13:26Z"
+   "pushedAt": "2026-11-01T01:27:12Z"
   },
   "release": {
    "id": 417312100,
@@ -664745,7 +664759,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1208632255,
    "full_name": "VenInDays/AppClone",
@@ -664783,7 +664797,7 @@
     "size": 4170104,
     "download_url": "https://github.com/VenInDays/AppClone/releases/download/v2.4.0/AppClone-signed.apk",
     "digest": "sha256:4927fba05632dd661d19b5c212ba6c6bb98e7fe25d952d6ac62d7b6af64850c4",
-    "download_count": 25
+    "download_count": 26
    },
    {
     "id": 395543253,
@@ -664798,7 +664812,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1416923546,
    "full_name": "gecesgb/gym-pusulasi",
@@ -664848,7 +664862,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 668575391,
    "full_name": "RenanMassari/bar-buddy",
@@ -664892,7 +664906,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1325200104,
    "full_name": "rasulmarsovich-lgtm/vanta-mesh-android",
@@ -664936,7 +664950,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1404078702,
    "full_name": "ManiaAmaeOvo/Logria",
@@ -664996,7 +665010,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1312439449,
    "full_name": "Lovkar-Squid/HushChat",
@@ -665058,7 +665072,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 827567180,
    "full_name": "rn0x/Afitik",
@@ -665116,7 +665130,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1356211397,
    "full_name": "kmakan/vault",
@@ -665187,7 +665201,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1406837468,
    "full_name": "R2D27829/Farm-Client",
@@ -665199,14 +665213,14 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-31T20:12:00Z",
+   "updated_at": "2026-11-02T17:33:21Z",
    "created_at": "2026-10-06T06:49:24Z",
    "license": null,
    "language": "HTML",
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://r2d27829.github.io/Farm-Client/",
-   "pushedAt": "2026-10-31T20:11:56Z"
+   "pushedAt": "2026-11-02T17:33:16Z"
   },
   "release": {
    "id": 430150240,
@@ -665243,7 +665257,7 @@
     "size": 157954024,
     "download_url": "https://github.com/R2D27829/Farm-Client/releases/download/v1.38.0/FarmClient-1.38.0-Linux-x64.AppImage",
     "digest": "sha256:039992df9f991bca7d2a5158aa902b1279a43649f69ed1385f89121b9e321093",
-    "download_count": 1
+    "download_count": 3
    },
    {
     "id": 696375468,
@@ -665279,7 +665293,7 @@
     "size": 116518873,
     "download_url": "https://github.com/R2D27829/Farm-Client/releases/download/v1.38.0/FarmClient-Setup-1.38.0-Windows-x64.exe",
     "digest": "sha256:e2dbdefedf0b77ccaaf01c3471ea73b1b15bd7cab7aaded1fc1ea01405fe9240",
-    "download_count": 1
+    "download_count": 3
    },
    {
     "id": 696466158,
@@ -665303,7 +665317,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1422373565,
    "full_name": "Whospr/Whospair",
@@ -665368,7 +665382,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 642755167,
    "full_name": "Pranjal360Agarwal/RecipeRadar",
@@ -665418,7 +665432,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1284075898,
    "full_name": "Neylivo/neylivo",
@@ -665508,7 +665522,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1419371982,
    "full_name": "kuro-cat/shiori",
@@ -665561,12 +665575,12 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1426423944,
-   "full_name": "Tejascodex001/sanctum",
-   "owner": "Tejascodex001",
-   "avatar_url": "https://avatars.githubusercontent.com/u/158545390?v=4",
+   "full_name": "RTensorLabs/sanctum",
+   "owner": "RTensorLabs",
+   "avatar_url": "https://avatars.githubusercontent.com/u/311415316?v=4",
    "description": "Private chat for close friends. No servers, no accounts, no tracking. Android, over Tor.",
    "stars": 1,
    "forks": 0,
@@ -665582,57 +665596,57 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-29T17:23:24Z",
+   "updated_at": "2026-11-01T13:21:41Z",
    "created_at": "2026-10-20T02:50:15Z",
    "license": null,
    "language": "Rust",
    "openIssues": 0,
    "watchers": null,
-   "homepage": "https://tejascodex001.github.io/sanctum/",
-   "pushedAt": "2026-10-29T17:40:28Z"
+   "homepage": "https://sanctum-rtensorlabs.vercel.app/",
+   "pushedAt": "2026-11-01T13:21:05Z"
   },
   "release": {
-   "id": 428196242,
-   "tag": "build-77",
-   "name": "Sanctum beta-1.0.0.77",
-   "notes": "## Build 77\n\n- **Mute, pins, drafts, forwarding, disappearing messages and more**\n  - Mute a chat from the ⋮ menu: for an hour, 8 hours, a week or until you turn it back on. Messages still arrive; the phone just stays quiet.\n  - What you type but don't send stays in the box, and the chat list shows \"Draft:\".\n  - Hold a message to pin it at the top of the chat for everyone, or to forward a copy to other chats.\n  - Disappearing messages in friends' chats and groups: new messages are deleted from every phone after the time you pick, up to 90 days.\n  - Open once: send a friend a photo or video they can see one time, then it's gone from both phones.\n  - Share where you are, once, with a button to open it in your maps app.\n  - Send later: type a message, pick a day and time, and it goes then. The ⋮ menu lists what's waiting so you can cancel it.\n  - Chat rows in the list are a little slimmer, so more fit on screen.\n",
-   "published_at": "2026-10-29T17:40:29Z",
-   "html_url": "https://github.com/Tejascodex001/sanctum/releases/tag/build-77",
+   "id": 430556012,
+   "tag": "build-83",
+   "name": "Sanctum beta-1.0.0.83",
+   "notes": "## Build 83\n\n- **Keep updates working when the project moves**\n  - Follow the project’s new address when checking for an update, including moves between GitHub accounts.\n  - Find the newest version without downloading its whole web page, and keep update downloads working through redirects.\n",
+   "published_at": "2026-11-01T12:04:32Z",
+   "html_url": "https://github.com/RTensorLabs/sanctum/releases/tag/build-83",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 689371427,
+    "id": 698228218,
     "name": "app-release.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 46230159,
-    "download_url": "https://github.com/Tejascodex001/sanctum/releases/download/build-77/app-release.apk",
-    "digest": "sha256:729d92d74850948c5177d4073484bb53db1de5154ac8a113884d9097882ee0d4",
+    "size": 46230727,
+    "download_url": "https://github.com/RTensorLabs/sanctum/releases/download/build-83/app-release.apk",
+    "digest": "sha256:85f8c5929a219948ba162e20bec53a1b52c8a9004ddf256fc417913dabda0ed6",
     "download_count": 2
    },
    {
-    "id": 689371433,
+    "id": 698228217,
     "name": "changelog.md",
     "content_type": "text/markdown",
-    "size": 19443,
-    "download_url": "https://github.com/Tejascodex001/sanctum/releases/download/build-77/changelog.md",
-    "digest": "sha256:00f2d65bce630241612a8720f7b1fe808ce452db911fa870912f58b7cce33816",
-    "download_count": 3
+    "size": 19639,
+    "download_url": "https://github.com/RTensorLabs/sanctum/releases/download/build-83/changelog.md",
+    "digest": "sha256:2d3da4f5d9600f116feac308e64088d8a27ab36d7a4809a25b3d4bab881b55f2",
+    "download_count": 8
    },
    {
-    "id": 689371426,
+    "id": 698228219,
     "name": "sanctum.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 46230159,
-    "download_url": "https://github.com/Tejascodex001/sanctum/releases/download/build-77/sanctum.apk",
-    "digest": "sha256:729d92d74850948c5177d4073484bb53db1de5154ac8a113884d9097882ee0d4",
+    "size": 46230727,
+    "download_url": "https://github.com/RTensorLabs/sanctum/releases/download/build-83/sanctum.apk",
+    "digest": "sha256:85f8c5929a219948ba162e20bec53a1b52c8a9004ddf256fc417913dabda0ed6",
     "download_count": 0
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 79648197,
    "full_name": "ashwinpilgaonkar/BusinessStats",
@@ -665681,7 +665695,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1389537940,
    "full_name": "Brajesh3/doot",
@@ -665710,10 +665724,10 @@
    "created_at": "2026-09-26T16:48:43Z",
    "license": "MIT",
    "language": "Rust",
-   "openIssues": 0,
+   "openIssues": 1,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-09-27T15:02:16Z"
+   "pushedAt": "2026-11-02T22:53:12Z"
   },
   "release": {
    "id": 397571940,
@@ -665774,7 +665788,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1335015130,
    "full_name": "spiritofkaiky-cloud/Energy",
@@ -665818,7 +665832,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1404075146,
    "full_name": "longkrichamp-sketch/OrcaPeek",
@@ -665856,13 +665870,13 @@
     "size": 87844,
     "download_url": "https://github.com/longkrichamp-sketch/OrcaPeek/releases/download/v0.10.1/OrcaPeek-0.10.1.apk",
     "digest": "sha256:6ee44ba0f4fa6a9684bf01462d1259be74e05726a096605e7ccdbf3e6ca01d41",
-    "download_count": 24
+    "download_count": 42
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1280308208,
    "full_name": "Amesu-afk/TarnVeil",
@@ -665964,7 +665978,7 @@
     "size": 45328035,
     "download_url": "https://github.com/Amesu-afk/TarnVeil/releases/download/v4.0.2/tarnveil-tauri-setup.exe",
     "digest": "sha256:4afb51334306b377c9dc2e43a7d4deed6b9851078c8ebfa3140ad496fce162bd",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 678158972,
@@ -665997,7 +666011,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 138306524,
    "full_name": "partheus/checkm8",
@@ -666131,7 +666145,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1368253218,
    "full_name": "arthas-solutions/The-Steward",
@@ -666192,7 +666206,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 901474704,
    "full_name": "MatthewLi-UW/valise",
@@ -666236,7 +666250,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1042861079,
    "full_name": "PlagueFitnessCanada/PegRun",
@@ -666287,7 +666301,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1411592950,
    "full_name": "atharvakanekar22-dev/Khali-Jagah",
@@ -666331,7 +666345,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1300419008,
    "full_name": "marcmayol/building-my-future",
@@ -666391,7 +666405,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1427492180,
    "full_name": "ClaudioBzrr/open-run",
@@ -666436,13 +666450,13 @@
     "size": 2745211,
     "download_url": "https://github.com/ClaudioBzrr/open-run/releases/download/v0.6.5/app-release.apk",
     "digest": "sha256:c94017c4455c5eddb202f9a5d0d57a6f5d56ac12efaa8c6b3d5e5107dcccf08a",
-    "download_count": 3
+    "download_count": 4
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1353883836,
    "full_name": "smartworldarafath/Zero-Internet-Connectivity",
@@ -666500,7 +666514,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1213656078,
    "full_name": "rudhrancodes-dev/allied-trainer",
@@ -666544,7 +666558,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1252022634,
    "full_name": "GanDaicheng/today-tasks",
@@ -666596,7 +666610,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 761803957,
    "full_name": "dinaraparanid/Star-Wars-Travel",
@@ -666660,7 +666674,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1269715790,
    "full_name": "raymondclowe/cadux",
@@ -666704,7 +666718,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1368616992,
    "full_name": "The-Omni-Stuart/VisaVole",
@@ -666748,7 +666762,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1188320288,
    "full_name": "gergelyvagujhelyi/ChatControll",
@@ -666812,7 +666826,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1405821208,
    "full_name": "AntnyGamer/Road-Conquest",
@@ -666828,84 +666842,93 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-31T20:06:41Z",
+   "updated_at": "2026-11-03T05:01:43Z",
    "created_at": "2026-10-05T13:34:36Z",
    "license": "AGPL-3.0",
    "language": "Kotlin",
-   "openIssues": 1,
+   "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-31T21:24:05Z"
+   "pushedAt": "2026-11-03T05:29:19Z"
   },
   "release": {
-   "id": 430135406,
-   "tag": "v1.1",
-   "name": "Road Conquest 1.1",
-   "notes": "# Road Conquest 1.1\n\n## Changes since 1.0\n\n- **Less unnecessary SQLite work:** Rendering a viewport with fewer than two saved road fragments skips loading road-visit windows, which cannot produce a junction in that case. The geometry-indexed junction search runs locally.\n- **Verified-geometry junction display:** Junction-guessing and GPS checks remain active; the live map only draws an estimated connection if an already-saved, matching road centerline supports its full path. Unverified diagonal and V-shaped extrapolations are hidden, not saved or credited. Existing road records, points and history are preserved, and no additional network calls are made. Missing centerline coverage can leave an honest gap until the road is matched again.\n- **Password-free, export-only ZIPs:** New exports write a readable ZIP directly to Android's document picker without Play verification or a passphrase. These are explicitly archive-only and cannot be imported back into Road Conquest. The removed second dialog no longer creates the cancelled-flow zero-byte file. A failed or interrupted active file write may still leave an incomplete file if Android's provider refuses deletion. Older authenticated restore formats remain unchanged.\n- **More balanced new earnings:** New roads earn 2 points, towns 35, states or regions 150, and countries 500. Weekly challenges and future achievement milestones award fewer points. Existing balances, earned ledger entries, purchases and already-owned achievements are preserved.\n- **Starting-place statistics:** The first verified starting town, state/region and country now appear as explored in Settings → Your progress. They do not give starting-place points or count toward earned milestones.\n- **Clearer choices:** Backup export formats and map-overlay options use separated tappable buttons; the Explore Nearby action is visually distinct. Town medal icons occupy less map space.\n- **Boundary display:** State and region overlays request unsimplified geometry ",
-   "published_at": "2026-10-31T19:19:40Z",
-   "html_url": "https://github.com/AntnyGamer/Road-Conquest/releases/tag/v1.1",
+   "id": 432311453,
+   "tag": "v1.0.2",
+   "name": "Road Conquest 1.0.2",
+   "notes": "# Road Conquest 1.0.2\n\nTracking, road-reward, export, and service-efficiency fixes.\n\n## Changes since 1.0.1\n\n- **More reliable tracking and place discovery:** A failed optional municipal discovery enqueue no longer stops tracking after a driving fix has been saved. Delayed discovery and matched-road work preserve GPS history and existing verification rules.\n- **Correct road rewards:** Newly discovered roads receive their points even when connecting road segments merge previously counted road groups. Rewards remain atomic with the geometry transaction; retrying or rolling back cannot duplicate points.\n- **Safer exports:** A separate read-only SQLite snapshot allows ongoing GPS writes during an export on Android 12+. Secure backups recheck the history and account after the destination stream closes, including slow document providers.\n- **Less redundant app work:** Cancel stale map/history reads, reuse CSV row buffers and already-evaluated achievements, and reduce repeat lookup, decoding and allocation work without changing map precision or road-matching eligibility.\n- **Leaner optional services:** Identical overlapping forum moderation checks share in-flight work, while new attempts still get fresh results. Disabled push registration avoids PostgreSQL rate limiting/session lookup, and empty notification recipient lists avoid unnecessary promise fan-out. Authenticated delivery and device removal retain their protections.\n- **Remove retired backup formats:** Deleted the passphrase writer/reader and unlock UI, plus the old Play-signed ZIP exporter, P-256 verification path, server signing endpoints, public-key fixture and associated tests. **Neither legacy format can be restored.** Current account-bound secure backups and private on-device recovery remain supported.\n- **Remove retired implementation paths:** Deleted road-only fog rendering and its obsolete raster tests; current mile-grid fog, its fades and cloud texture, and road-overlay geometry remain. Removed the stand",
+   "published_at": "2026-11-03T05:29:19Z",
+   "html_url": "https://github.com/AntnyGamer/Road-Conquest/releases/tag/v1.0.2",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 696262291,
-    "name": "RoadConquest-1.1-mapping.txt",
+    "id": 704433156,
+    "name": "RoadConquest-1.0.2-mapping.txt",
     "content_type": "text/plain; charset=utf-8",
-    "size": 52242038,
-    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.1/RoadConquest-1.1-mapping.txt",
-    "digest": "sha256:a4b39178f9f2cb7ef98f6961fda4c9a5cd86c66e53e61987e16704d9732a5df1",
+    "size": 51649992,
+    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.0.2/RoadConquest-1.0.2-mapping.txt",
+    "digest": "sha256:26c8eb69eddb14a0d98b88031b6c95b43743ac27292e13f6520ebb4f859eac43",
     "download_count": 1
    },
    {
-    "id": 696262316,
-    "name": "RoadConquest-1.1-SHA256SUMS.txt",
+    "id": 704433157,
+    "name": "RoadConquest-1.0.2-SHA256SUMS.txt",
     "content_type": "text/plain; charset=utf-8",
-    "size": 474,
-    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.1/RoadConquest-1.1-SHA256SUMS.txt",
-    "digest": "sha256:ba4ca1e913b4378fd4e5635da06144559190f57a34915304e1b26aec996749f1",
+    "size": 589,
+    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.0.2/RoadConquest-1.0.2-SHA256SUMS.txt",
+    "digest": "sha256:9e283d18f87866cd3aab35b39c6f3cebd14372e08fd96e63de6d87355d829e0a",
     "download_count": 1
    },
    {
-    "id": 696262298,
-    "name": "RoadConquest-1.1.aab",
+    "id": 704433132,
+    "name": "RoadConquest-1.0.2.aab",
     "content_type": "application/octet-stream",
-    "size": 175626223,
-    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.1/RoadConquest-1.1.aab",
-    "digest": "sha256:110dcb46ca82f794458bf433dbecfc05f89d966fe2875c5525d7859bb2b2ab38",
-    "download_count": 1
-   },
-   {
-    "id": 696262292,
-    "name": "RoadConquest-1.1.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 49243406,
-    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.1/RoadConquest-1.1.apk",
-    "digest": "sha256:3e1cb115138be4204580577b18fbe25ee45f7dbdd0840fa9ec838251914773e2",
+    "size": 175162847,
+    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.0.2/RoadConquest-1.0.2.aab",
+    "digest": "sha256:93b06324314ad7d9c5cb83f95a8be6fbb4e77f6a3c3e73993a58e4bb3589cb6b",
     "download_count": 2
    },
    {
-    "id": 696262296,
-    "name": "RoadConquest-account-function-1.1.mjs",
-    "content_type": "text/javascript; charset=utf-8",
-    "size": 410395,
-    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.1/RoadConquest-account-function-1.1.mjs",
-    "digest": "sha256:c60e99cf8f91deca75876bb5eb35b3888e3928a66a6839422b60f57f213b0825",
+    "id": 704433137,
+    "name": "RoadConquest-1.0.2.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 48523367,
+    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.0.2/RoadConquest-1.0.2.apk",
+    "digest": "sha256:bff878463ae068c0edd546a01b5271ba26e902d2aacb7db8cd991acb5d3e9dde",
     "download_count": 1
    },
    {
-    "id": 696262290,
-    "name": "RoadConquest-AndroidStudio-1.1.zip",
+    "id": 704433139,
+    "name": "RoadConquest-account-function-1.0.2.mjs",
+    "content_type": "text/javascript; charset=utf-8",
+    "size": 410508,
+    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.0.2/RoadConquest-account-function-1.0.2.mjs",
+    "digest": "sha256:d019245b7a7efa90daad09188006ac097a39bea8891a9668ca8c8791934dccb3",
+    "download_count": 1
+   },
+   {
+    "id": 704433138,
+    "name": "RoadConquest-account-ingress-1.0.2.mjs",
+    "content_type": "text/javascript; charset=utf-8",
+    "size": 5166,
+    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.0.2/RoadConquest-account-ingress-1.0.2.mjs",
+    "digest": "sha256:c1dbace2c499920d3027c71ede151a8c516349f5805054f5dfcade01f933f64b",
+    "download_count": 1
+   },
+   {
+    "id": 704433136,
+    "name": "RoadConquest-AndroidStudio-1.0.2.zip",
     "content_type": "application/zip",
-    "size": 1219294,
-    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.1/RoadConquest-AndroidStudio-1.1.zip",
-    "digest": "sha256:e7779726083989aabd8d7ad793ad8ab45b11ae8040013994480f40b3e1fbdc33",
+    "size": 1194999,
+    "download_url": "https://github.com/AntnyGamer/Road-Conquest/releases/download/v1.0.2/RoadConquest-AndroidStudio-1.0.2.zip",
+    "digest": "sha256:d202b6b3d5f4fbd3021ff6f046c9f96a679f189b0dc5d1479976481d766f053b",
     "download_count": 1
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1377930196,
    "full_name": "rainuel/FitFully-Workout",
@@ -666949,7 +666972,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1404199083,
    "full_name": "kuro-cat/koma",
@@ -667009,7 +667032,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1406449112,
    "full_name": "exercisetracks/tracks",
@@ -667030,57 +667053,57 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-21T00:28:52Z",
+   "updated_at": "2026-11-03T08:35:17Z",
    "created_at": "2026-10-05T22:41:04Z",
    "license": "AGPL-3.0",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-21T00:28:47Z"
+   "pushedAt": "2026-11-03T08:35:11Z"
   },
   "release": {
-   "id": 419011914,
-   "tag": "v1.8.5",
-   "name": "Tracks 1.8.5",
-   "notes": "### Phone and watch\n- The watch's activity in progress now really does update on the phone's map about once a second. The phone now asks the watch for its position the way Garmin Explore does; before, the watch never sent it.\n- While the watch records a GPS activity, a \"Recording on the watch\" banner shows on every page. Tap it to open the map.\n- The dashboard's Start activity button is greyed out while the watch is recording.\n- The start of a watch's track no longer jumps to the North Pole when the watch began recording before it had GPS.\n- Choosing sync on the watch now starts a sync with Tracks.\n- Water logged in the watch's hydration widget is added to that day's hydration in Tracks, and the widget shows Tracks' total for today. Your watch's first hydration sync turns this on.\n- Pull-to-sync no longer shows \"Syncing watch failed: rememberCoroutineScope left the composition\" when you leave the page while it is syncing.\n\n### Under the hood\n- The watch connection code is updated to Gadgetbridge 0.95.1, which fixes a decoder that could get stuck on a cut-off message, a connection leak, a crash on disconnect, and slow or failing weather messages on watches with a small Bluetooth link.\n- Wind speed on the watch is now correct (it was about 7% high).\n",
-   "published_at": "2026-10-21T00:29:19Z",
-   "html_url": "https://github.com/exercisetracks/tracks/releases/tag/v1.8.5",
+   "id": 432440676,
+   "tag": "v1.9.1",
+   "name": "Tracks 1.9.1",
+   "notes": "### Fixes\n- Fixes 1.9.0's server failing every background job — imports, syncing from the watch, plan updates — and setting up a new install. A library it depends on had been updated with a missing piece; the server now ships the versions 1.8.5 ran.\n\nIf you skipped 1.9.0, this release also brings all of it: the race plan rework, fuelling gauges and the homemade mix, every sport planned on the phone, and triathlon courses.\n",
+   "published_at": "2026-11-03T08:35:16Z",
+   "html_url": "https://github.com/exercisetracks/tracks/releases/tag/v1.9.1",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 660890663,
+    "id": 704900396,
     "name": "compose.yaml",
     "content_type": "application/yaml",
     "size": 1853,
-    "download_url": "https://github.com/exercisetracks/tracks/releases/download/v1.8.5/compose.yaml",
+    "download_url": "https://github.com/exercisetracks/tracks/releases/download/v1.9.1/compose.yaml",
     "digest": "sha256:a4a02db20b92fe0ff6ba521403fbc55d8d23f28883033688229f4ae9e16ba7bd",
     "download_count": 0
    },
    {
-    "id": 660890662,
-    "name": "tracks-1.8.5.apk",
+    "id": 704900394,
+    "name": "tracks-1.9.1.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 25200326,
-    "download_url": "https://github.com/exercisetracks/tracks/releases/download/v1.8.5/tracks-1.8.5.apk",
-    "digest": "sha256:861939706f557564b8841cb2fb4719e5ae6a4ced57d1111ae221bfeea81f329c",
+    "size": 25266818,
+    "download_url": "https://github.com/exercisetracks/tracks/releases/download/v1.9.1/tracks-1.9.1.apk",
+    "digest": "sha256:e0737dd201a2b6c2af7a4cda3bd0010bc00bf9ce3e9f9be61f2d2677fc89d9fd",
     "download_count": 2
    },
    {
-    "id": 660890661,
-    "name": "tracks-1.8.5.apk.sha256",
+    "id": 704900390,
+    "name": "tracks-1.9.1.apk.sha256",
     "content_type": "application/octet-stream",
     "size": 83,
-    "download_url": "https://github.com/exercisetracks/tracks/releases/download/v1.8.5/tracks-1.8.5.apk.sha256",
-    "digest": "sha256:48058f539e2682e0047a5822bdb6969ea0d01cf532c45079078bca1976126aaf",
-    "download_count": 0
+    "download_url": "https://github.com/exercisetracks/tracks/releases/download/v1.9.1/tracks-1.9.1.apk.sha256",
+    "digest": "sha256:47579c6a6127ab63c1d97374301aec8d4d674f694156ee333be2a310e81054c5",
+    "download_count": 3
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1406063762,
    "full_name": "mppjuro/PQChat.DHT",
@@ -667105,20 +667128,20 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-31T13:47:19Z",
+   "updated_at": "2026-11-04T06:38:43Z",
    "created_at": "2026-10-05T16:23:53Z",
    "license": "GPL-3.0",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-31T18:17:49Z"
+   "pushedAt": "2026-11-04T08:56:47Z"
   },
   "release": {
    "id": 411426379,
    "tag": "nightly",
-   "name": "Nightly Build (2026-10-24-385ede5)",
-   "notes": "## 🌙 PQChat.DHT Nightly Build\n\nAutomated daily developer build (`app-debug.apk`) after passing the full nightly test suite:\n- **Fast Unit Tests:** Zaliczone (standardowa suita jednostkowa)\n- **Slow Repository & Rekey Tests:** Zaliczone (PQC Rekey, ChatRepository Concurrency, Polling, Property)\n- **Slow Statistical & Tor Tests:** Zaliczone (Monte Carlo, Tor SOCKS5 fail-closed, Loopback Harness)\n- **Two Devices End-to-End Lifecycle:** Passed (Handshake, >10 Msg, Rekey after 50 messages, Out-of-Order / SlidingWindowBitmap, DhtLeafNode / FakeDht)\n- **Real BEP 44 Remote Integration Tests:** Zaliczone (Live Mainline DHT)\n- **Real DHT Loopback & Retention Suite:** Passed (500 iterations per environment, live Mainline DHT)\n- **DHT Real Traffic Testbed & Threat Analysis:** Passed (150 Kademlia nodes)\n- **Byzantine & Adversarial DHT Attack Simulation:** Zaliczone (Sybil / Eclipse /24 subnet bucketing, Active Bit-Flipper & Tampering rejection, BEP 44 Sequence Rollback & Tombstone suppression, Global Timing Correlation Analysis)\n\n### Metadane kompilacji:\n- **Commit:** [`385ede5`](https://github.com/mppjuro/PQChat.DHT/commit/385ede518fdb5663a098f2937c3e5a4998b0f33d)\n- **Data wydania:** 2026-10-24 03:55 UTC\n- **Pakiet APK:** `PQChat.DHT-nightly-2026-10-24-385ede5.apk`\n\n> [!NOTE]\n> This APK package is a developer build signed with a public debug key. Requires enabling installation from unknown sources on Android.\n",
+   "name": "Nightly Build (2026-11-03-7b36134)",
+   "notes": "## 🌙 PQChat.DHT Nightly Build\n\nAutomated daily developer build (`app-debug.apk`) after passing the full nightly test suite:\n- **Fast Unit Tests:** Zaliczone (standardowa suita jednostkowa)\n- **Slow Repository & Rekey Tests:** Zaliczone (PQC Rekey, ChatRepository Concurrency, Polling, Property)\n- **Slow Statistical & Tor Tests:** Zaliczone (Monte Carlo, Tor SOCKS5 fail-closed, Loopback Harness)\n- **Two Devices End-to-End Lifecycle:** Passed (Handshake, >10 Msg, Rekey after 50 messages, Out-of-Order / SlidingWindowBitmap, DhtLeafNode / FakeDht)\n- **Real BEP 44 Remote Integration Tests:** Zaliczone (Live Mainline DHT)\n- **Real DHT Loopback & Retention Suite:** Passed (500 iterations per environment, live Mainline DHT)\n- **DHT Real Traffic Testbed & Threat Analysis:** Passed (150 Kademlia nodes)\n- **Byzantine & Adversarial DHT Attack Simulation:** Zaliczone (Sybil / Eclipse /24 subnet bucketing, Active Bit-Flipper & Tampering rejection, BEP 44 Sequence Rollback & Tombstone suppression, Global Timing Correlation Analysis)\n\n### Metadane kompilacji:\n- **Commit:** [`7b36134`](https://github.com/mppjuro/PQChat.DHT/commit/7b36134c1a71c36f6a8bf99adc11173240eb2cf0)\n- **Data wydania:** 2026-11-03 09:08 UTC\n- **Pakiet APK:** `PQChat.DHT-nightly-2026-11-03-7b36134.apk`\n\n> [!NOTE]\n> This APK package is a developer build signed with a public debug key. Requires enabling installation from unknown sources on Android.\n",
    "published_at": "2026-10-13T07:53:01Z",
    "html_url": "https://github.com/mppjuro/PQChat.DHT/releases/tag/nightly",
    "prerelease": true
@@ -667240,12 +667263,30 @@
     "download_url": "https://github.com/mppjuro/PQChat.DHT/releases/download/nightly/PQChat.DHT-nightly-2026-10-24-f328c32.apk",
     "digest": "sha256:0a64303332201cf6b36bb4b59521287db42550bea11ad4cd9d2e600c8b4b11b1",
     "download_count": 0
+   },
+   {
+    "id": 700854845,
+    "name": "PQChat.DHT-nightly-2026-11-02-7b36134.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 32602836,
+    "download_url": "https://github.com/mppjuro/PQChat.DHT/releases/download/nightly/PQChat.DHT-nightly-2026-11-02-7b36134.apk",
+    "digest": "sha256:4e053a2b29912644b1b969cfefca1002cb0444098b8d6e3e43f22bfabeb5ffa3",
+    "download_count": 0
+   },
+   {
+    "id": 704983986,
+    "name": "PQChat.DHT-nightly-2026-11-03-7b36134.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 32602836,
+    "download_url": "https://github.com/mppjuro/PQChat.DHT/releases/download/nightly/PQChat.DHT-nightly-2026-11-03-7b36134.apk",
+    "digest": "sha256:80e7541d3cc1e14cac9b2745b8b164092b6ffe49a020922d2c73d07971b7993d",
+    "download_count": 0
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1299693134,
    "full_name": "54xkeee/fittrack",
@@ -667324,7 +667365,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1311486218,
    "full_name": "Henner4746/BitDM",
@@ -667470,7 +667511,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1208725603,
    "full_name": "DazedDingo/groceries-app",
@@ -667523,7 +667564,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1306668301,
    "full_name": "nixxintools/messy-app",
@@ -667579,7 +667620,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1276883342,
    "full_name": "jumppppp/KeepUP",
@@ -667623,7 +667664,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1422443790,
    "full_name": "dibaoyang/FitLedger",
@@ -667643,48 +667684,48 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-28T04:27:53Z",
+   "updated_at": "2026-11-01T09:01:05Z",
    "created_at": "2026-10-16T17:05:46Z",
    "license": null,
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-28T04:31:46Z"
+   "pushedAt": "2026-11-01T09:03:20Z"
   },
   "release": {
-   "id": 426262292,
-   "tag": "v1.9.1",
-   "name": "轻衡 FitLedger 1.9.1",
-   "notes": "这次修正了食品分区的计量和推荐限量，并增加分区内搜索、多选添加食品。\n\n| 更新 | 具体内容 |\n| --- | --- |\n| 分区单位 | g 分区只放按 g 记录的食品；份分区只放按份记录的食品，按实际数量累计，不再跨单位换算。 |\n| 两种上限 | 每日与单次推荐上限分别填写。例如每日300g、单次150g；推荐先扣除今天已经吃掉的同区数量。 |\n| 分区添加食品 | 在「管理种类分区」内搜索、多选同单位食品，一次确认加入；从其他分区移动时先显示来源。 |\n| 旧分区处理 | 单位混放或使用旧换算的分区会提示整理，并暂停该区推荐；经确认可把不匹配食品移到未分区，再核对单位和上限。食品与历史记录保留。 |\n\n分区上限只限制推荐，手动记录仍可如实填写。切换单位需要重新填写上限，不会自动把3份改成3g。1.9原有功能继续保留。\n\n**安装与兼容**\n\n- 版本：1.9.1（versionCode 12），Android8.0及以上。\n- 安装包：`FitLedger-v1.9.1-update.apk`；源码：`FitLedger-v1.9.1-source.zip`。\n- 使用原包名和原更新签名。先在旧App导出备份并另存，再直接覆盖安装；请保留旧App及其数据。\n- Room8，新增显式7→8迁移并保留完整1→8链；备份11可读取旧备份，新版备份不能导回旧App。历史摄入、营养、费用和其他记录保留。\n- 282项本地测试通过，Android Lint无错误；76项设备测试代码编译通过，尚未在手机执行，未进行真机覆盖安装测试。\n\n发布者：猪肚鸡；反馈邮箱：2239254611@qq.com。\n\n[完整更新说明](https://github.com/dibaoyang/FitLedger/blob/v1.9.1/UPDATE_1.9.1.md) · [项目介绍](https://github.com/dibaoyang/FitLedger/tree/v1.9.1#readme) · [构建与兼容检查](https://github.com/dibaoyang/FitLedger/blob/v1.9.1/BUILD_STATUS.md) · [使用条款与隐私说明](https://github.com/dibaoyang/FitLedger/blob/v1.9.1/TERMS_AND_PRIVACY_1.8.md)\n",
-   "published_at": "2026-10-28T04:31:46Z",
-   "html_url": "https://github.com/dibaoyang/FitLedger/releases/tag/v1.9.1",
+   "id": 430465734,
+   "tag": "v1.11",
+   "name": "轻衡 FitLedger 1.11",
+   "notes": "轻衡 FitLedger **1.11（versionCode 14）**，支持Android8.0及以上。\n\n这次加入待吃／已吃确认、自制配方与制作批次、未来预设及更多推荐条件。\n\n| 本次更新 | 具体内容 |\n| --- | --- |\n| 待吃与已吃 | 推荐先进入待吃清单，逐项确认「已吃」后才算实际摄入；支持核对资料、改量和移除未吃安排。 |\n| 自制配方与制作批次 | 按食材和成品实重计算营养、成本，保存每次制作及分装快照，可生成独立按g食品；后来改配方不重算旧批次。 |\n| 未来饮食预设 | 提前安排未来1～7天，保存参考消耗作预估，到当天完成身体记录并确认后才计入实际摄入。 |\n| 周预算与搭配偏好 | 周一至周日饮食预算、最近少重复、整套组合推荐和食品重量比例；比例按步长近似并显示偏差。 |\n| 推荐条件管理 | 保存多套条件档案，设置食品最小量、自定义食品周期、条件搭配和自定准备标签。 |\n| 批量与查找 | 批量编辑食品的收藏、推荐开关和营养标签；跨日期搜索实际饮食记录。 |\n| 整数份数 | 新记录和推荐使用整数份，g仍可用小数；旧小数份记录及快照保留原值，旧小数固定项需明确修改后继续使用。 |\n\n**同时包含此前功能**\n\n本版也包含1.10的历史补记、撤销与食品回收站、常吃组合、选择复制历史饮食、搜索收藏与常用数量、食品别名、推荐诊断和多方案对比、分区独立混选、食品比价与费用回顾、灵活固定安排、仅热量记录、CSV／PNG导出、分区折叠和桌面小组件。1.9.1的原生g／份分区修复和分区内直接添加食品继续保留。\n\n**使用变化**\n\n- 待吃和未来预设不计入实际摄入、费用或食品周期；点「已吃」后才新增实际记录，确认标记不会因删除摄入而丢失。\n- 食品周期从该食品保存的最早实际摄入日开始，默认7天、可选1～366天，同一天吃多次只算一个出现日；周预算按周一至周日统计。\n- 新份数请填整数，旧小数份不静默取整。手动实际记录仍可超过推荐限量；历史身体、目标和摄入快照保留。\n- 未知费用不当免费，未知宏量不当0；只有热量的记录仍需补全或移除后才能按剩余营养推荐。比例允许近似取整，必吃、分区、周期、搭配等限制保持有效。\n- 推荐采用有限搜索，不保证找全组合或达到全局最低价；预设及配方结果都是估算，需要核对实际情况。\n\n**升级与检查**\n\n- 先在旧App导出JSON备份并另存，再直接覆盖安装。原包名与更新签名保持一致，已有GitHub版本及附件继续保留。\n- Room13保留完整1→13迁移链；从1.9.1的Room8可沿完整链升级，从1.10经11→12→13升级。备份17可读1～16版，新备份不能导回旧App。\n- 构建记录中507项本地测试通过，Android Lint无错误；161项设备测试源码编译通过，未在设备运行，尚未进行手机覆盖升级测试。\n\n附件：`FitLedger-v1.11-update.apk`（Android安装包）、`FitLedger-v1.11-source.zip`（与仓库对应的源码）。\n\n[1.11完整更新公告](https://github.com/dibaoyang/FitLedger/blob/v1.11/UPDATE_1.11.md) · [1.10完整更新内容](https://github.com/dibaoyang/FitLedger/blob/v1.11/UPDATE_1.10.md) · [项目介绍](https://github.com/dibaoyang/FitLedger/tree/v1.11#readme) · [构建与兼容检查](https://github.com/dibaoyang/FitLedger/blob/v1.11/BUILD_STATUS.md) · [使用条款与隐私说明](https://github.com/dibaoyang/FitLedger/blob/v1.11/TERMS_AND_PRIVACY_1.8.md)\n\n发布者：猪肚鸡；反馈邮箱：2239254611@qq.com。\n",
+   "published_at": "2026-11-01T09:03:20Z",
+   "html_url": "https://github.com/dibaoyang/FitLedger/releases/tag/v1.11",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 683820017,
-    "name": "FitLedger-v1.9.1-source.zip",
+    "id": 697824851,
+    "name": "FitLedger-v1.11-source.zip",
     "content_type": "application/zip",
-    "size": 2810910,
-    "download_url": "https://github.com/dibaoyang/FitLedger/releases/download/v1.9.1/FitLedger-v1.9.1-source.zip",
-    "digest": "sha256:26f90ef681f92287704329abf6e14a26c77e26c178418256dd4e235435fa8cca",
-    "download_count": 1
+    "size": 3123324,
+    "download_url": "https://github.com/dibaoyang/FitLedger/releases/download/v1.11/FitLedger-v1.11-source.zip",
+    "digest": "sha256:122b7ad44e67d6c1a929c2623fa39b9c624571501f3e9df60ad1da9539abc12a",
+    "download_count": 3
    },
    {
-    "id": 683814094,
-    "name": "FitLedger-v1.9.1-update.apk",
+    "id": 697822578,
+    "name": "FitLedger-v1.11-update.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 52601354,
-    "download_url": "https://github.com/dibaoyang/FitLedger/releases/download/v1.9.1/FitLedger-v1.9.1-update.apk",
-    "digest": "sha256:ea62394aabd3bbd4e2507e89346d09087e1cee99b269f7c9a64b9e52aa43f6f1",
-    "download_count": 1
+    "size": 53161998,
+    "download_url": "https://github.com/dibaoyang/FitLedger/releases/download/v1.11/FitLedger-v1.11-update.apk",
+    "digest": "sha256:ea0f8861d735489cdb6724fdc4ba67eed3469a04b8432e10eb7aa75a02699d74",
+    "download_count": 2
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1381423989,
    "full_name": "slavabars/soty",
@@ -667768,7 +667809,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1247008869,
    "full_name": "kar-dim/TANREN-Kiroku",
@@ -667820,7 +667861,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1404197633,
    "full_name": "otto-tries-to-build-stuff/bldr-workout-app",
@@ -667872,7 +667913,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1411000541,
    "full_name": "eq67137/CielFit",
@@ -667916,7 +667957,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 681080985,
    "full_name": "4mritGiri/Build_Gainz",
@@ -667967,7 +668008,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1403125640,
    "full_name": "allen7wang/lianji",
@@ -667992,7 +668033,7 @@
    "created_at": "2026-10-03T12:16:46Z",
    "license": "MIT",
    "language": "TypeScript",
-   "openIssues": 0,
+   "openIssues": 1,
    "watchers": null,
    "homepage": "https://github.com/allen7wang/lianji/releases/tag/v1.0.1",
    "pushedAt": "2026-10-23T03:42:04Z"
@@ -668065,7 +668106,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1332912366,
    "full_name": "Teolabar03/WorkoutControl",
@@ -668121,7 +668162,7 @@
     "size": 1405,
     "download_url": "https://github.com/Teolabar03/WorkoutControl/releases/download/v1.0.22/manifest.json",
     "digest": "sha256:fdd66902fbaf5f5471cdbdbe432e73c7d9dce2400f1eb4923fdb67c35005465e",
-    "download_count": 19
+    "download_count": 36
    },
    {
     "id": 656139208,
@@ -668136,7 +668177,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1294916508,
    "full_name": "vitthal-hash/WayWise",
@@ -668180,7 +668221,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1267100833,
    "full_name": "Tianshang301/TianshangHealth",
@@ -668224,7 +668265,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1332689390,
    "full_name": "yingying-moon/WeekFlow",
@@ -668277,7 +668318,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 611104274,
    "full_name": "MQuitr/electrocook",
@@ -668333,7 +668374,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1359732678,
    "full_name": "Ruwantha-OFFICIAL/food-say",
@@ -668383,7 +668424,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 819223627,
    "full_name": "CrayFish0/cookbook",
@@ -668433,7 +668474,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1104049150,
    "full_name": "Khaledblel/intelli-cuisine",
@@ -697827,7 +697868,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1438546895,
    "full_name": "harshit-nimje/Ghar",
@@ -697896,7 +697937,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1362720499,
    "full_name": "william-aqn/family-messenger-e2e",
@@ -698010,7 +698051,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1356936921,
    "full_name": "sergeiboroday7-stack/Fenyvo",
@@ -698081,7 +698122,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1433375388,
    "full_name": "Asherdeng138/route-mileage",
@@ -698134,7 +698175,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1441197042,
    "full_name": "katakuna526-gif/calorie-tracker",
@@ -698146,7 +698187,7 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-31T20:03:13Z",
+   "updated_at": "2026-11-01T03:12:28Z",
    "created_at": "2026-10-31T19:40:01Z",
    "license": null,
    "language": "Python",
@@ -698178,7 +698219,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1436443481,
    "full_name": "wolfqing/openchat",
@@ -698215,7 +698256,7 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://github.com/wolfqing/openchat/releases",
-   "pushedAt": "2026-10-31T05:17:49Z"
+   "pushedAt": "2026-11-04T06:31:04Z"
   },
   "release": {
    "id": 429739252,
@@ -698234,7 +698275,7 @@
     "size": 8799328,
     "download_url": "https://github.com/wolfqing/openchat/releases/download/v0.6.0/openchat-0.6.0.apk",
     "digest": "sha256:659b40d79cfadad5fd26c58ba1db5ce752425fcc76f9bd6058f9f9ad059886ca",
-    "download_count": 2
+    "download_count": 3
    },
    {
     "id": 694447523,
@@ -698249,7 +698290,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1433948103,
    "full_name": "jrsmDev/ASCEND",
@@ -698277,7 +698318,7 @@
    "openIssues": 8,
    "watchers": null,
    "homepage": "https://opengym.ch",
-   "pushedAt": "2026-10-27T06:49:30Z"
+   "pushedAt": "2026-11-01T09:28:49Z"
   },
   "release": {
    "id": 423995126,
@@ -698320,7 +698361,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1436900240,
    "full_name": "changanhe/Waylore",
@@ -698396,7 +698437,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1438454098,
    "full_name": "smyrna-pergamum/fitvita",
@@ -698417,41 +698458,41 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-30T13:55:16Z",
+   "updated_at": "2026-11-02T09:20:37Z",
    "created_at": "2026-10-29T13:24:20Z",
    "license": "GPL-3.0",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-30T13:55:12Z"
+   "pushedAt": "2026-11-02T09:20:33Z"
   },
   "release": {
-   "id": 429037922,
-   "tag": "v0.3.1",
-   "name": "FitVita 0.3.1",
-   "notes": "All music and nature sounds are now freely licensed recordings from Wikimedia Commons, so FitVita contains no non-free content and can be published on F-Droid.\n\n- Meditation music by Kevin MacLeod (CC BY 3.0 / 4.0), shown with real track titles\n- Nature sounds under CC0, CC BY and CC BY-SA licences, trimmed and loudness-matched for smooth looping\n- Credits for every sound under Settings → About\n\nSigned with the same key as earlier releases, so it installs as an update and keeps your data.\n\nSHA-256 of `FitVita-0.3.1.apk`: `325ac951adb497e0a1429387e3e6fb3dfc7e6c7283efa0dd6ccaed98e39d4d4f`\n",
-   "published_at": "2026-10-30T13:00:21Z",
-   "html_url": "https://github.com/smyrna-pergamum/fitvita/releases/tag/v0.3.1",
+   "id": 431258436,
+   "tag": "v0.3.2",
+   "name": "FitVita 0.3.2",
+   "notes": "- Changing the language no longer flashes a white screen: the screen fades softly into the new language and keeps the current theme colour.\n\nSigned with the same key as earlier releases, so it installs as an update and keeps your data.\n\nSHA-256 of `FitVita-0.3.2.apk`: `806ede5777e937d1c7358d473127fd9c0706f2258cc4f75728e54f2524154a57`\n",
+   "published_at": "2026-11-02T09:15:42Z",
+   "html_url": "https://github.com/smyrna-pergamum/fitvita/releases/tag/v0.3.2",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 692135386,
-    "name": "FitVita-0.3.1.apk",
+    "id": 701168095,
+    "name": "FitVita-0.3.2.apk",
     "content_type": "application/vnd.android.package-archive",
     "size": 36465988,
-    "download_url": "https://github.com/smyrna-pergamum/fitvita/releases/download/v0.3.1/FitVita-0.3.1.apk",
-    "digest": "sha256:325ac951adb497e0a1429387e3e6fb3dfc7e6c7283efa0dd6ccaed98e39d4d4f",
+    "download_url": "https://github.com/smyrna-pergamum/fitvita/releases/download/v0.3.2/FitVita-0.3.2.apk",
+    "digest": "sha256:806ede5777e937d1c7358d473127fd9c0706f2258cc4f75728e54f2524154a57",
     "download_count": 1
    },
    {
-    "id": 692135377,
-    "name": "FitVita-0.3.1.apk.sha256",
+    "id": 701168099,
+    "name": "FitVita-0.3.2.apk.sha256",
     "content_type": "application/octet-stream",
     "size": 84,
-    "download_url": "https://github.com/smyrna-pergamum/fitvita/releases/download/v0.3.1/FitVita-0.3.1.apk.sha256",
-    "digest": "sha256:10af89214bbf36afce335dc2ecf50863be3f36346188584479922314d8e616ab",
+    "download_url": "https://github.com/smyrna-pergamum/fitvita/releases/download/v0.3.2/FitVita-0.3.2.apk.sha256",
+    "digest": "sha256:34c886d0e89d0d83077b3c07d20c0d5decf492704adcddb89321ef06fbde311b",
     "download_count": 1
    }
   ]
@@ -702341,6 +702382,210 @@
     "download_url": "https://github.com/a3wanth/Expenso/releases/download/v1.0.9/Expenso-1.0.9-main.apk",
     "digest": "sha256:e2addaa8be63fbb445005b6bdb9c52bdbea43b8951646fa24034dba4298cea8e",
     "download_count": 2
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1334441796,
+   "full_name": "pschmitt/syncwich",
+   "owner": "pschmitt",
+   "avatar_url": "https://avatars.githubusercontent.com/u/37886?v=4",
+   "description": "Offline-first Mealie recipe client for Android",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-03T22:51:46Z",
+   "created_at": "2026-08-14T17:51:47Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-03T23:02:25Z"
+  },
+  "release": {
+   "id": 378351897,
+   "tag": "1.0.7",
+   "name": "1.0.7",
+   "notes": "# Syncwich 1.0.7\n\nChanges since [v1.0.2](https://github.com/pschmitt/syncwich/releases/tag/v1.0.2):\n\n## Summary\n\n- Remove unused FOREGROUND_SERVICE_DATA_SYNC permission (cc96bdb)\n- TODO.md: mark SW-142 food-based filtering done, verified on Zenfone 10 (1807ba7)\n- Fix ktfmt formatting in cross-ref dedup fix (31bdeaf)\n- Fix UNIQUE constraint crash in recipe-food cross-ref insert (ebba85e)\n- Fix ktfmt formatting in SW-142 food-filter files (7281cd6)\n- Add food-based recipe filtering via bulk detail fetch (SW-142) (209fd85)\n- TODO.md: mark SW-139/140/141/142/143 real-device-verified on Zenfone 10 (6406930)\n- Fix residual ktfmt formatting in LabelsScreen (ee8cff3)\n- Fix ktfmt formatting in SW-139 Units/Labels/RecipeAutomations files (1e7a885)\n- Add Units/Labels/Recipe Actions, tool-based recipe search, and misc UX fixes (3a1c4fc)\n- TODO.md: file SW-142 (ingredient/tool recipe search) and SW-143 (move Data Management into Personalization) (f222dbe)\n- TODO.md: file SW-141, collapse SimpleCatalog FABs like New recipe (d6cda2b)\n- Fix ktfmt formatting in SW-139 Categories/Tags/Tools files (c46a937)\n- Sync Foods and Tools in the background (SyncWorker) (d7b7c71)\n- Add Categories/Tags/Tools management to Data Management (SW-139) (1d1fcce)\n- Add a dedicated Data Management settings subscreen (SW-140) (8875231)\n- Fix ktfmt formatting in FoodEditorViewModel (b89236d)\n- TODO.md: file SW-139/SW-140, more data types + Data Management subscreen (498474f)\n- Fix long-press-ingredient always creating a duplicate food (21fa88f)\n- Fix ktfmt formatting in FoodRepository/FoodsScreen (0cb32f1)\n- Add food/ingredients management UI (SW-137) (533bcad)\n- TODO.md: mark SW-138 done (4e33127)\n- Fix strikethrough on completed recipe steps (SW-138) (81807ec)\n- TODO.md: file SW-138, strike through completed recipe steps (4e2c720)\n- Fix ktfmt formatting in BackupSettingsScreen (a78a4cb)\n- TODO.md: file SW-137, food/ingredients management UI (f45d7ba)\n- Trigger a sync after restore; add reveal icon to re",
+   "published_at": "2026-08-28T08:32:17Z",
+   "html_url": "https://github.com/pschmitt/syncwich/releases/tag/1.0.7",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 533502884,
+    "name": "SHA256SUMS",
+    "content_type": "application/octet-stream",
+    "size": 421,
+    "download_url": "https://github.com/pschmitt/syncwich/releases/download/1.0.7/SHA256SUMS",
+    "digest": "sha256:9583b4cbcb7083e970ad16d158808834480706010d90aa88c800e7f7b4cfe29d",
+    "download_count": 3
+   },
+   {
+    "id": 533502883,
+    "name": "syncwich-1.0.7-app-arm64-v8a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2918962,
+    "download_url": "https://github.com/pschmitt/syncwich/releases/download/1.0.7/syncwich-1.0.7-app-arm64-v8a-release.apk",
+    "digest": "sha256:6f523331138d1867569bc901705de48f054529dee2ad953418856d99072c0d43",
+    "download_count": 650
+   },
+   {
+    "id": 533502885,
+    "name": "syncwich-1.0.7-app-armeabi-v7a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2916270,
+    "download_url": "https://github.com/pschmitt/syncwich/releases/download/1.0.7/syncwich-1.0.7-app-armeabi-v7a-release.apk",
+    "digest": "sha256:b0b3727b8ba71be2d512620f12271895b8098a3dcb0c46d0d940411a360ad4c1",
+    "download_count": 1
+   },
+   {
+    "id": 533502882,
+    "name": "syncwich-1.0.7-app-x86-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2916986,
+    "download_url": "https://github.com/pschmitt/syncwich/releases/download/1.0.7/syncwich-1.0.7-app-x86-release.apk",
+    "digest": "sha256:aafdb76dd3e8bef3f63c4196a099f25ab89ba7c6f0500b948b18b45c9417a804",
+    "download_count": 1
+   },
+   {
+    "id": 533502881,
+    "name": "syncwich-1.0.7-app-x86_64-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2918068,
+    "download_url": "https://github.com/pschmitt/syncwich/releases/download/1.0.7/syncwich-1.0.7-app-x86_64-release.apk",
+    "digest": "sha256:c614ccbbe690865ce224eb7ceb70f3e4c8236af18d6244b602f6d1462a4d1cec",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1217331065,
+   "full_name": "LamaJoker/kinetic-vercel-ready",
+   "owner": "LamaJoker",
+   "avatar_url": "https://avatars.githubusercontent.com/u/268556678?v=4",
+   "description": "Carnet de musculation hors-ligne (PWA + Android) — Alpine.js, TypeScript, Supabase, architecture hexagonale",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "alpinejs",
+    "fitness",
+    "offline-first",
+    "pwa",
+    "supabase",
+    "typescript",
+    "vitest"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-03T15:51:29Z",
+   "created_at": "2026-04-21T19:26:50Z",
+   "license": null,
+   "language": "TypeScript",
+   "openIssues": 10,
+   "watchers": null,
+   "homepage": "https://kinetic-prod.vercel.app",
+   "pushedAt": "2026-09-28T13:20:36Z"
+  },
+  "release": {
+   "id": 398042808,
+   "tag": "v9.0.0",
+   "name": "Kinetic 9.0.0",
+   "notes": "## Kinetic 9.0.0 — APK Android\n\nCarnet de musculation hors-ligne : séance du jour, suivi des charges et des records,\nnutrition, poids et mensurations, récupération. Identité « Compétition ».\n\n**Installer :** télécharge `kinetic-v9.0.0.apk` sur ton téléphone,\nouvre-le et autorise l'installation depuis cette source. Version de debug, non signée\npour le Play Store.\n\n**Essayer sans compte :** au premier lancement, choisis « Voir la démo ».\n\nVersion web : voir le README.\n",
+   "published_at": "2026-09-28T07:51:52Z",
+   "html_url": "https://github.com/LamaJoker/kinetic-vercel-ready/releases/tag/v9.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 595468851,
+    "name": "kinetic-v9.0.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 8990345,
+    "download_url": "https://github.com/LamaJoker/kinetic-vercel-ready/releases/download/v9.0.0/kinetic-v9.0.0.apk",
+    "digest": "sha256:77e746e95a7e62dc072a5b58259af9bc2a320bf8d51fcf96e55ca1bf3513b633",
+    "download_count": 0
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1440688100,
+   "full_name": "ks-iitjmu/pqchat",
+   "owner": "ks-iitjmu",
+   "avatar_url": "https://avatars.githubusercontent.com/u/159030119?v=4",
+   "description": "End-to-end encrypted messenger for Android and iOS, secure against quantum computers. Signal-style PQXDH and Double Ratchet with ML-KEM-768, hybrid Ed25519 + ML-DSA-65 signatures, post-quantum TLS (X25519MLKEM768), encrypted profiles and password-based account recovery.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "cryptography",
+    "double-ratchet",
+    "end-to-end-encryption",
+    "nodejs",
+    "post-quantum-cryptography",
+    "pqxdh",
+    "react-native",
+    "signal-protocol",
+    "typescript"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-02T06:52:19Z",
+   "created_at": "2026-10-31T09:08:42Z",
+   "license": null,
+   "language": "TypeScript",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://github.com/ks-iitjmu/pqchat/releases/latest",
+   "pushedAt": "2026-10-31T15:46:44Z"
+  },
+  "release": {
+   "id": 429947878,
+   "tag": "v1.0.0",
+   "name": "PQChat v1.0.0",
+   "notes": "## PQChat 1.0.0\r\n\r\nThe first public release of PQChat: an end-to-end encrypted messenger whose encryption is built to stay secure against future quantum computers.\r\n\r\n### Download\r\n\r\n| Platform | File | Install |\r\n|---|---|---|\r\n| Android 7.0 and later | `PQChat-1.0.0-android.apk` | Download on the phone, open it, and allow installing from this source when Android asks |\r\n| iPhone | No installable file | Apple only allows App Store, TestFlight or developer-signed installs. To try PQChat on an iPhone, run it in Expo Go (see the README) |\r\n\r\nVerify the download (optional):\r\n\r\n```\r\nsha256sum -c SHA256SUMS.txt\r\n```\r\n\r\n### What is in this release\r\n\r\n**Messaging**\r\n- One-to-one chats with delivery and read receipts (one tick, two ticks, two coloured ticks)\r\n- Read receipts can be turned off\r\n- Messages sent offline wait and go out automatically when the connection returns\r\n- Chat search, chat wallpaper, light and dark themes\r\n\r\n**Accounts**\r\n- Sign-up with name, surname, date of birth (stays on the phone), profile photo, username and password\r\n- Log in to the same account on a new phone with username and password; contacts keep the same safety number\r\n- Log out; signing in on another phone logs the old one out\r\n\r\n**Security**\r\n- PQXDH key agreement with ML-KEM-768 and X25519\r\n- Double Ratchet with an added ML-KEM-768 ratchet for post-quantum forward secrecy and recovery after compromise\r\n- Identity signatures with Ed25519 and ML-DSA-65; both must verify\r\n- Safety numbers to detect anyone in the middle\r\n- Profiles (name, about, photo) and receipts are end-to-end encrypted; the server cannot read them\r\n- Server connection over TLS 1.3 with hybrid post-quantum key exchange (X25519MLKEM768)\r\n- Everything stored on the phone is encrypted with a key held in the Android Keystore\r\n- The Android app requests only two permissions: Internet and vibration\r\n\r\n### Quality\r\n\r\n- 129 automated tests: 52 protocol, 42 app, 35 server\r\n- Production dependencies: 0 known vulnerabilities\r\n\r\n###",
+   "published_at": "2026-10-31T13:17:57Z",
+   "html_url": "https://github.com/ks-iitjmu/pqchat/releases/tag/v1.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 695432484,
+    "name": "PQChat-1.0.0-android.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 94813235,
+    "download_url": "https://github.com/ks-iitjmu/pqchat/releases/download/v1.0.0/PQChat-1.0.0-android.apk",
+    "digest": "sha256:4bcf8e3cff09685beba59ef83ac46ced46d48092aa196c226c606031f7311e54",
+    "download_count": 5
+   },
+   {
+    "id": 695438864,
+    "name": "SHA256SUMS.txt",
+    "content_type": "text/plain",
+    "size": 91,
+    "download_url": "https://github.com/ks-iitjmu/pqchat/releases/download/v1.0.0/SHA256SUMS.txt",
+    "digest": "sha256:6ca9b94576c0c72c292813b4e92b66892ea624b73c40bb737ffbdd262b042cf9",
+    "download_count": 0
+   },
+   {
+    "id": 695438911,
+    "name": "SIGNING-CERTIFICATE.txt",
+    "content_type": "text/plain",
+    "size": 302,
+    "download_url": "https://github.com/ks-iitjmu/pqchat/releases/download/v1.0.0/SIGNING-CERTIFICATE.txt",
+    "digest": "sha256:fcd52664db88f314759677b094ff0f73cfcde4c0f3c56baf5272fe1b1dcda4ad",
+    "download_count": 0
    }
   ]
  },
@@ -714351,7 +714596,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1193910215,
    "full_name": "devpapet/meditation-app",
@@ -714395,7 +714640,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 702608218,
    "full_name": "fredericbcv/sudoku_solver",
@@ -723438,7 +723683,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 613053894,
    "full_name": "AndreySamoylov/Finance",
@@ -723482,7 +723727,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 61196290,
    "full_name": "joshua-kairu/transition-demonstration",
@@ -723526,7 +723771,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 1285367587,
    "full_name": "chartmann1590/crowdsource-transit",
@@ -723549,10 +723794,10 @@
    "created_at": "2026-06-30T18:26:19Z",
    "license": "MIT",
    "language": "Kotlin",
-   "openIssues": 7,
+   "openIssues": 8,
    "watchers": null,
    "homepage": "https://chartmann1590.github.io/crowdsource-transit/",
-   "pushedAt": "2026-10-31T07:36:57Z"
+   "pushedAt": "2026-11-04T00:21:56Z"
   },
   "release": {
    "id": 406263009,
@@ -723586,7 +723831,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-04",
   "repo": {
    "id": 397215848,
    "full_name": "theojarrus/walletok-android",
@@ -747363,6 +747608,50 @@
     "download_url": "https://github.com/saurabh6017/tablet-gps-share/releases/download/v1.0.5/app-debug.apk",
     "digest": "sha256:99562256f770c656296cdd57fcbb2f6cf7ea2c69e8d9c17a97755d7f0db29ed2",
     "download_count": 5
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-04",
+  "repo": {
+   "id": 1443197713,
+   "full_name": "NikitaTestovich/Bumajnik-Android",
+   "owner": "NikitaTestovich",
+   "avatar_url": "https://avatars.githubusercontent.com/u/344281838?v=4",
+   "description": "Android personal finance tracker",
+   "stars": 0,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-03T05:05:45Z",
+   "created_at": "2026-11-02T16:21:12Z",
+   "license": null,
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-03T05:05:40Z"
+  },
+  "release": {
+   "id": 432280050,
+   "tag": "v1.21",
+   "name": "Finance Tracker 1.21",
+   "notes": "### Что нового\r\n\r\n- Обновлены README и руководства на русском и английском.\r\n- Подготовлено совместимое обновление с версии 1.20.\r\n- Функции и формат данных не изменились.\r\n\r\nОткройте «Ещё → Обновления» при включённом интернете и подтвердите установку в Android. Не удаляйте установленное приложение перед обновлением. Для старых тестовых сборок с другой подписью требуется отдельный перенос данных.",
+   "published_at": "2026-11-03T04:35:32Z",
+   "html_url": "https://github.com/NikitaTestovich/Bumajnik-Android/releases/tag/v1.21",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 704291688,
+    "name": "finance-tracker-vc6.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 9105449,
+    "download_url": "https://github.com/NikitaTestovich/Bumajnik-Android/releases/download/v1.21/finance-tracker-vc6.apk",
+    "digest": "sha256:544020a98005569928938ba957567f86c05906ecb720dc00363f6df140e43f5d",
+    "download_count": 7
    }
   ]
  }
