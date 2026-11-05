@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "scanned_at": "2026-11-05T12:20:35.967882+00:00",
+ "scanned_at": "2026-11-05T12:55:45.845978+00:00",
  "tool": "tools/scan.py",
  "query_set": 0,
  "query_sets": [
@@ -17,19 +17,19 @@
   "android language:Java archived:false fork:false stars:100..1000"
  ],
  "candidates": 6146,
- "pending": 6146,
- "checked": 1531,
- "checked_total": 1531,
- "verified_today": 479,
- "carried_over": 11372,
+ "pending": 4615,
+ "checked": 1538,
+ "checked_total": 3069,
+ "verified_today": 470,
+ "carried_over": 11415,
  "dropped_stale": 0,
  "truncated": true,
  "resumed": true,
  "interrupted": false,
  "complete": false,
  "error": null,
- "duration_s": 2100.2,
- "matches": 11415,
- "index_matches": 11415,
- "index_bytes": 9445602
+ "duration_s": 2100.6,
+ "matches": 11505,
+ "index_matches": 11505,
+ "index_bytes": 9519700
 }
