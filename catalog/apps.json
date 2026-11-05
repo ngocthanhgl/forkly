@@ -264447,6 +264447,97 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1434772624,
+   "full_name": "saharshbaiju/tandem",
+   "owner": "saharshbaiju",
+   "avatar_url": "https://avatars.githubusercontent.com/u/221453605?v=4",
+   "description": "Use an Android phone as a real, low-latency second monitor for Linux",
+   "stars": 52,
+   "forks": 5,
+   "topics": [
+    "android",
+    "gnome",
+    "hyprland",
+    "linux",
+    "low-latency",
+    "screen-extender",
+    "second-monitor",
+    "spacedesk-alternative",
+    "virtual-display",
+    "wayland"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T21:13:09Z",
+   "created_at": "2026-10-26T18:22:39Z",
+   "license": "GPL-3.0",
+   "language": "Python",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "https://saharshbaiju.github.io/tandem/",
+   "pushedAt": "2026-11-04T15:22:53Z"
+  },
+  "release": {
+   "id": 431163804,
+   "tag": "v0.6.2",
+   "name": "Tandem 0.6.2",
+   "notes": "Security hardening for the computer side, contributed by @Photon6000 in #1. Nothing changes in how you pair or use Tandem, and the protocol is the same, so phones and computers on 0.6.x keep working together. Updating both is still recommended.\n\n## Fixes\n\n- **Your USB phone can't be locked out by another program.** Every phone on USB connects from `127.0.0.1`. Before, five wrong pairing attempts from anything on that address (another program, or an old phone with an outdated key) locked the real phone out for a minute. Local addresses are no longer locked out. The 100-bit pairing key still makes guessing hopeless.\n- **One device on your Wi-Fi can't block pairing.** Connections still proving who they are used to share 8 slots, so one machine could take them all. Now each device gets 4, there are 32 in total, and 8 more are kept for phones that paired in the last hour. A connection that sends nothing is closed after 2 seconds instead of 6.\n- **A paired phone can't flood the computer's memory.** The daemon now reads at most 256 KB at a time and disconnects a phone that sends more than 5000 messages a second. A normal phone sends about 100 to 1200.\n- **One phone can't take every finger** on the shared touchscreen. Each phone can use up to 5.\n- **Cleaner logs.** Text sent by a phone that hasn't paired yet no longer ends up in the log, where it could confuse the TUI's client count.\n- **The app refuses oversized messages while pairing.** It checks the size before allocating any memory.\n\nNone of these let anyone see your screen or control your computer. Encryption and pairing were never affected.\n\nTested on the merged code: a harness running the real daemon passed 10 of 10 checks (5 of 10 on 0.6.1), and the app paired and streamed on an emulator.\n\n## Install\n\n**Phone** (Android 8+): download **Tandem.apk** below on the phone and open it. It installs over 0.6.x or 0.5.x without pairing again.\n\n**Computer** (Hyprland, or GNOME on Wayland):\n\n```bash\ncurl -fsSL https://raw.gith",
+   "published_at": "2026-11-02T07:15:49Z",
+   "html_url": "https://github.com/saharshbaiju/tandem/releases/tag/v0.6.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 700872728,
+    "name": "SHA256SUMS",
+    "content_type": "application/octet-stream",
+    "size": 335,
+    "download_url": "https://github.com/saharshbaiju/tandem/releases/download/v0.6.2/SHA256SUMS",
+    "digest": "sha256:f020a8dad68139a8a6f8cd6ef234c4d23b829cf4b8b7449884c6250945152aba",
+    "download_count": 1
+   },
+   {
+    "id": 700872729,
+    "name": "Tandem-0.6.2-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 6569798,
+    "download_url": "https://github.com/saharshbaiju/tandem/releases/download/v0.6.2/Tandem-0.6.2-debug.apk",
+    "digest": "sha256:99b5fe831339c8fb3ac3cb6cbea5c598ea215f0e805e08b6601bbf61c57ce75b",
+    "download_count": 8
+   },
+   {
+    "id": 700872727,
+    "name": "Tandem-0.6.2.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5387228,
+    "download_url": "https://github.com/saharshbaiju/tandem/releases/download/v0.6.2/Tandem-0.6.2.apk",
+    "digest": "sha256:f0a26754a667289bc30fc65e69532966b7e9bcc1a32f404d98ba2630f74c014f",
+    "download_count": 52
+   },
+   {
+    "id": 700872730,
+    "name": "tandem-linux.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 103288,
+    "download_url": "https://github.com/saharshbaiju/tandem/releases/download/v0.6.2/tandem-linux.tar.gz",
+    "digest": "sha256:4ca36a6253add527a92ec730d44086e7a42d7d6aec643fbd097b8646f0e869f4",
+    "download_count": 66
+   },
+   {
+    "id": 700872724,
+    "name": "Tandem.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5387228,
+    "download_url": "https://github.com/saharshbaiju/tandem/releases/download/v0.6.2/Tandem.apk",
+    "digest": "sha256:f0a26754a667289bc30fc65e69532966b7e9bcc1a32f404d98ba2630f74c014f",
+    "download_count": 18
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 957960862,
@@ -264555,7 +264646,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 203462018,
    "full_name": "Breta01/docus",
@@ -264605,7 +264696,7 @@
     "size": 14739674,
     "download_url": "https://github.com/Breta01/docus/releases/download/v1.0.6/app-release-arm.apk",
     "digest": null,
-    "download_count": 437
+    "download_count": 438
    },
    {
     "id": 47589197,
@@ -267961,6 +268052,121 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1426881124,
+   "full_name": "IssacL04/RhineDroid",
+   "owner": "IssacL04",
+   "avatar_url": "https://avatars.githubusercontent.com/u/111422624?v=4",
+   "description": "RhineDroid is an Android port of Rhine-Music-Demo for browsing and playing local music on a 3D album shelf. Its interface design comes from RhineLabUI. This branch independently maintains the Android adaptation.",
+   "stars": 50,
+   "forks": 2,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T17:58:48Z",
+   "created_at": "2026-10-20T10:43:17Z",
+   "license": "MIT",
+   "language": "JavaScript",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-20T11:03:41Z"
+  },
+  "release": {
+   "id": 418294727,
+   "tag": "v0.4.8-Alpha",
+   "name": "v0.4.8-Alpha",
+   "notes": "RhineDroid 的首个公开 Alpha 版本，基于 Rhine-Music-Demo 移植到 Android。\n\n### 已包含\n\n- Filament / Vulkan 原生 GPU 专辑架，包含开场波浪、透明亚克力与页脊高光、焦点外渐变模糊等效果。\n- 本地音乐库扫描、文件夹导入、专辑与歌曲搜索；支持 FLAC、MP3、M4A 等常用格式播放。\n- 后台播放、通知栏与锁屏控制、播放进度和音量调节。\n- 横竖屏布局与切换动画、暖昼和深夜主题、可展开及收起的播放控件。\n- 专辑简介与制作信息查询，加入缓存、请求限速以及 HTTP 429 退避处理。\n- 应用内运行日志导出，便于反馈真机问题。\n\n### 安装与反馈\n\n下载附件 `RhineDroid-v0.4.8-debug.apk` 并安装。需要 Android 8.0 或更新版本，且设备支持 Vulkan 1.1。\n\n此安装包为调试签名的 Alpha 测试版本，应用内版本号仍为 `0.4.8`，包名为 `com.enc3l.rhinedroid`。相同签名和包名的旧版可以覆盖安装；从旧包名版本迁移时需要重新授权并扫描曲库。\n\n音频格式支持取决于设备解码能力；在线专辑资料服务可能受来源限流影响。当前尚未完成广泛设备兼容性验证，欢迎通过 Issues 提交手机型号、系统版本、复现步骤及应用内导出的日志。公开分享日志前，请检查其中的文件名等个人信息。\n\n---\n\nRhineDroid's first public Alpha release, an Android port of Rhine-Music-Demo.\n\n### Included\n\n- A native Filament / Vulkan album shelf with an opening wave, acrylic layers, spine highlights, and subtle blur outside the focal area.\n- Local music scanning, folder import, album and track search, and playback of common formats including FLAC, MP3, and M4A.\n- Background playback, notification and lock-screen controls, seeking, and volume adjustment.\n- Landscape and portrait layouts with transitions, light and dark themes, and an expandable player.\n- Album introductions and production credits with caching, request pacing, and HTTP 429 backoff.\n- In-app diagnostic log export for device feedback.\n\n### Installation and feedback\n\nDownload and install `RhineDroid-v0.4.8-debug.apk`. Requires Android 8.0 or later and Vulkan 1.1 support.\n\nThis Alpha uses a debug signing certificate. Its in-app version remains `0.4.8`, with application ID `com.enc3l.rhinedroid`. Updates require the same application ID and signing certificate. Versions using the former application ID install separately and require fresh permissions and a library scan.\n\nCodec support depends on the device, and online metadata providers may impose rate limits. Broad device compatibility has not yet been verified. Please report the device model, Android version, reproduction steps, and exported logs through Issue",
+   "published_at": "2026-10-20T10:55:28Z",
+   "html_url": "https://github.com/IssacL04/RhineDroid/releases/tag/v0.4.8-Alpha",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 659067253,
+    "name": "RhineDroid-v0.4.8-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 47861467,
+    "download_url": "https://github.com/IssacL04/RhineDroid/releases/download/v0.4.8-Alpha/RhineDroid-v0.4.8-debug.apk",
+    "digest": "sha256:80435d669fe140dc10707ce383e6cbcd30e8529a0befada5eeff7572793f7c97",
+    "download_count": 561
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1416221693,
+   "full_name": "gybeyond1/Veyra",
+   "owner": "gybeyond1",
+   "avatar_url": "https://avatars.githubusercontent.com/u/86888868?v=4",
+   "description": "Veyra - 短剧聚合播放器（Android APK + 自建后端 + Docker），支持红果/黄果多源、私密模式、代理绕行、手机/NAS 下载与合并",
+   "stars": 50,
+   "forks": 8,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T16:42:17Z",
+   "created_at": "2026-10-12T23:11:51Z",
+   "license": "GPL-3.0",
+   "language": "JavaScript",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-04T16:42:12Z"
+  },
+  "release": {
+   "id": 434136660,
+   "tag": "v0.27.14",
+   "name": "Veyra v0.27.14",
+   "notes": "## Veyra v0.27.14\n\n- 公开源新增红果四个热播榜：总热播榜 / 真人剧榜 / 漫剧榜 / AI剧榜，每页 20 条，可续页\n- 电视端：首页分类条里多了四个榜单，卡片左下角显示名次（前三名描金），标题显示「xx榜 · 每日更新」\n- 手机端：剧场页二级切换变成「短剧 / 热播榜 / 真人榜」，漫剧页变成「漫剧 / 漫剧榜 / AI榜」，卡片显示名次与热度\n- 榜单直接解析站点服务端渲染的卡片，不依赖 _ROUTER_DATA，DOM 不成立才回落到序列化数据",
+   "published_at": "2026-11-04T15:54:28Z",
+   "html_url": "https://github.com/gybeyond1/Veyra/releases/tag/v0.27.14",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 710051496,
+    "name": "Veyra-0.27.14.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 13142009,
+    "download_url": "https://github.com/gybeyond1/Veyra/releases/download/v0.27.14/Veyra-0.27.14.apk",
+    "digest": "sha256:68981509e21457afef6eec1188f2f521a12f3ade0aaecaa8f2959cf9bfbc11e7",
+    "download_count": 953
+   },
+   {
+    "id": 710051495,
+    "name": "veyra-backend-0.27.14-amd64.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 113448545,
+    "download_url": "https://github.com/gybeyond1/Veyra/releases/download/v0.27.14/veyra-backend-0.27.14-amd64.tar.gz",
+    "digest": "sha256:440f224be5c55edeb7f9b4ca45fba134055e20f7b57c8f274f9ca07d2a1d8874",
+    "download_count": 2
+   },
+   {
+    "id": 710051494,
+    "name": "veyra-backend-0.27.14-arm64.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 108980680,
+    "download_url": "https://github.com/gybeyond1/Veyra/releases/download/v0.27.14/veyra-backend-0.27.14-arm64.tar.gz",
+    "digest": "sha256:c1292fb6ca5901f17ae48d98e01e76308febe1e105d76d63a1fe429c73115f6e",
+    "download_count": 2
+   },
+   {
+    "id": 710051491,
+    "name": "Veyra-TV-0.27.14.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 11021743,
+    "download_url": "https://github.com/gybeyond1/Veyra/releases/download/v0.27.14/Veyra-TV-0.27.14.apk",
+    "digest": "sha256:255858b7f1d505427b4c2d93ec6a3cfc89d5c7021aedd8f91c65a6dc42161f5c",
+    "download_count": 929
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-03",
   "repo": {
    "id": 1155938285,
@@ -268484,7 +268690,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1324372281,
    "full_name": "felipenalves/Dokke",
@@ -268529,7 +268735,7 @@
     "size": 42389839,
     "download_url": "https://github.com/felipenalves/Dokke/releases/download/v0.2.10/Dokke-macOS-apple-silicon-arm64.dmg",
     "digest": "sha256:0a218e47021f52081b0cd42342d65ee2ad0968ba4a51103f4d4591265fa3d17c",
-    "download_count": 18
+    "download_count": 24
    },
    {
     "id": 615365868,
@@ -268538,7 +268744,7 @@
     "size": 44387815,
     "download_url": "https://github.com/felipenalves/Dokke/releases/download/v0.2.10/Dokke-macOS-intel-x86_64.dmg",
     "digest": "sha256:70dd2571fa720127c76c30d6d26af960e880531ad0a07a6571f6f0ef717739de",
-    "download_count": 6
+    "download_count": 7
    },
    {
     "id": 615365872,
@@ -268547,7 +268753,7 @@
     "size": 81785413,
     "download_url": "https://github.com/felipenalves/Dokke/releases/download/v0.2.10/Dokke-macOS.dmg",
     "digest": "sha256:905a1963bd06ed8bd76de4d1ebd95640ca27c6df965dd1d2664f66254c8e504c",
-    "download_count": 40
+    "download_count": 47
    },
    {
     "id": 615365874,
@@ -268556,7 +268762,7 @@
     "size": 1762406,
     "download_url": "https://github.com/felipenalves/Dokke/releases/download/v0.2.10/dokke.apk",
     "digest": "sha256:4b53d5352647b95ceaf4b9257a9c1522c776f809578a526a7ad297db454372d0",
-    "download_count": 93
+    "download_count": 103
    }
   ]
  },
@@ -268911,6 +269117,132 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1427576606,
+   "full_name": "MoonCellar-Team/Glassline",
+   "owner": "MoonCellar-Team",
+   "avatar_url": "https://avatars.githubusercontent.com/u/345534467?v=4",
+   "description": "Unofficial port of Mirror's Edge (iPad, 2010) to Linux, Windows, Steam Deck and Android",
+   "stars": 49,
+   "forks": 0,
+   "topics": [
+    "android",
+    "appimage",
+    "cpp",
+    "decompilation",
+    "ffmpeg",
+    "game-port",
+    "imgui",
+    "level-editor",
+    "linux",
+    "mirrors-edge",
+    "openal",
+    "opengl-es",
+    "parkour",
+    "pc-port",
+    "reverse-engineering",
+    "sdl2",
+    "steam-deck",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T15:30:01Z",
+   "created_at": "2026-10-20T21:20:35Z",
+   "license": "Other",
+   "language": "C++",
+   "openIssues": 5,
+   "watchers": null,
+   "homepage": "https://mooncellar.space",
+   "pushedAt": "2026-11-02T19:17:03Z"
+  },
+  "release": {
+   "id": 428689705,
+   "tag": "v1.4.2",
+   "name": "Glassline 1.4.2",
+   "notes": "\n- **Fixed:** wall climbing no longer stops immediately after jumping onto a wall, making the final vertical section of 2-2 reliable with touch controls.\n\n",
+   "published_at": "2026-10-30T05:40:02Z",
+   "html_url": "https://github.com/MoonCellar-Team/Glassline/releases/tag/v1.4.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 691072310,
+    "name": "glassline-android-1.4.2.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 50791177,
+    "download_url": "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-android-1.4.2.apk",
+    "digest": "sha256:3ed14a05fe45b49ea861f7ba5f0a684f67e7c22fa656f699956e48f84929400c",
+    "download_count": 450
+   },
+   {
+    "id": 691072309,
+    "name": "glassline-linux-x64-1.4.2.AppImage",
+    "content_type": "application/vnd.appimage",
+    "size": 14858744,
+    "download_url": "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-linux-x64-1.4.2.AppImage",
+    "digest": "sha256:5d6f3a021f229c3f67887e381f495c96a72a999dae1d4a19e64883955e3e2fa9",
+    "download_count": 28
+   },
+   {
+    "id": 691072316,
+    "name": "glassline-linux-x64-1.4.2.AppImage.sig",
+    "content_type": "application/pgp-signature",
+    "size": 64,
+    "download_url": "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-linux-x64-1.4.2.AppImage.sig",
+    "digest": "sha256:fd738fe270d85f639a9052f023569d1950da73a4c1ddd75971e4932ac43654eb",
+    "download_count": 11
+   },
+   {
+    "id": 691072308,
+    "name": "glassline-linux-x64-1.4.2.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 15154098,
+    "download_url": "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-linux-x64-1.4.2.tar.gz",
+    "digest": "sha256:e37c12637d007e9c90d60bfd5db2134b4684a756feb1fdee5eaddfbb85649b56",
+    "download_count": 7
+   },
+   {
+    "id": 691072313,
+    "name": "glassline-web-1.4.2.zip",
+    "content_type": "application/zip",
+    "size": 4478278,
+    "download_url": "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-web-1.4.2.zip",
+    "digest": "sha256:2f1f0b8ef3b727348f90213e180cc399eb1c7d860be103a213ac0ccc2d4754f6",
+    "download_count": 22
+   },
+   {
+    "id": 691072333,
+    "name": "glassline-web-1.4.2.zip.sig",
+    "content_type": "application/pgp-signature",
+    "size": 64,
+    "download_url": "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-web-1.4.2.zip.sig",
+    "digest": "sha256:9bba32bbf5edc883f5974e5853efb99e8aac858b6ab0ae2016c314479289060c",
+    "download_count": 4
+   },
+   {
+    "id": 691072334,
+    "name": "glassline-windows-x64-1.4.2.zip",
+    "content_type": "application/zip",
+    "size": 24157064,
+    "download_url": "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-windows-x64-1.4.2.zip",
+    "digest": "sha256:2a75e37b0186c60a9c9a0eb046e51d07e7b4fee62430398455ef520d2e9445c7",
+    "download_count": 54
+   },
+   {
+    "id": 691072341,
+    "name": "glassline-windows-x64-1.4.2.zip.sig",
+    "content_type": "application/pgp-signature",
+    "size": 64,
+    "download_url": "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-windows-x64-1.4.2.zip.sig",
+    "digest": "sha256:e9d9b4df65548da117c897b1881be57fc62935c80594456d4741b1bd62856e44",
+    "download_count": 10
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-01",
   "repo": {
    "id": 130401960,
@@ -268958,7 +269290,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1037642255,
    "full_name": "sune-org/sune",
@@ -268982,42 +269314,42 @@
    ],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-10-30T18:53:43Z",
+   "updated_at": "2026-11-02T22:41:59Z",
    "created_at": "2025-08-13T22:30:06Z",
    "license": "Other",
    "language": "JavaScript",
    "openIssues": 1,
    "watchers": null,
-   "homepage": "https://sune.chat",
-   "pushedAt": "2026-10-30T18:53:39Z"
+   "homepage": "https://sune.planetrenox.com",
+   "pushedAt": "2026-11-02T22:41:55Z"
   },
   "release": {
-   "id": 401383898,
-   "tag": "v1.0.0",
-   "name": "Sune v1.0.0",
-   "notes": "Built and signed by GitHub Actions from commit `c31d01520ed81573b0feca9c028b6e51c40cac94` ([workflow run](https://github.com/sune-org/sune/actions/runs/36931413729)). Nobody handled the file in between.\n\nVerify a download:\n```\ngh attestation verify sune-v1.0.0.apk --repo sune-org/sune\n```\n\n- Package: `chat.sune.app`\n- SHA-256: `b225982bc18f94af3ba0309e3edbb88e9d9816d0723f506390f8e57e8973071d`\n- Signing certificate SHA-256: `09851f7bbb40679cf8701c7d9f657277780ec058cf34099a97d28a74fbce872a`\n",
-   "published_at": "2026-10-01T21:53:28Z",
-   "html_url": "https://github.com/sune-org/sune/releases/tag/v1.0.0",
+   "id": 432043756,
+   "tag": "v1.1.1",
+   "name": "Sune v1.1.1",
+   "notes": "## Sune has moved to sune.planetrenox.com\n\nThis version opens **sune.planetrenox.com** instead of sune.chat, which will be retired. It installs over v1.0.0 as a normal update.\n\n### ⚠️ Back up before you update\n\nYour threads, sunes and settings are saved in the browser under the site's address, so anything you made on sune.chat **will not show up** on sune.planetrenox.com by itself. In v1.0.0 (or at sune.chat in Chrome), before updating:\n\n1. **Threads:** set up [GitHub sync](https://github.com/sune-org/sune#-sync-your-chats-with-github) and tap **Upload to GitHub** in the Threads panel. Or save them one by one from each thread's menu → **Export thread (.json)**.\n2. **Sunes:** enter a repo like `gh://your-username/sunes` at the top of the Sunes sidebar, then tap **Sync** → **Upload to GitHub** (it uses the same GitHub token). Or User → **Export sunes (.sune)**.\n3. **Account settings:** User → Settings → **Export** (bottom left). This file contains your API keys and GitHub token, so keep it private.\n\nThen update, open the app and bring everything back: **Download from GitHub** for synced threads and sunes, User → **Import sunes** / **Import threads**, and Settings → **Import**.\n\n**Coming from the old app (`com.planetrenox.sune`, v0.x)?** It already used sune.planetrenox.com, so your data should carry over. Back up anyway, install this, then uninstall the old app.\n\n---\n\nBuilt and signed by GitHub Actions from commit `4a74a65b2fafd9be475e857ab901a7c0c17383c9` ([workflow run](https://github.com/sune-org/sune/actions/runs/41538642510)). Nobody handled the file in between.\n\nVerify a download:\n```\ngh attestation verify sune-v1.1.1.apk --repo sune-org/sune\n```\n\n- Package: `chat.sune.app`\n- SHA-256: `997dcf3cf2a45dabdcf3c5d3879392bfdddb0331d6d1a740d803bbf499d7bbf5`\n- Signing certificate SHA-256: `09851f7bbb40679cf8701c7d9f657277780ec058cf34099a97d28a74fbce872a`\n\n\n",
+   "published_at": "2026-11-02T22:37:50Z",
+   "html_url": "https://github.com/sune-org/sune/releases/tag/v1.1.1",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 604206466,
-    "name": "sune-v1.0.0.apk",
+    "id": 703415884,
+    "name": "sune-v1.1.1.apk",
     "content_type": "application/vnd.android.package-archive",
     "size": 2388134,
-    "download_url": "https://github.com/sune-org/sune/releases/download/v1.0.0/sune-v1.0.0.apk",
-    "digest": "sha256:b225982bc18f94af3ba0309e3edbb88e9d9816d0723f506390f8e57e8973071d",
-    "download_count": 402
+    "download_url": "https://github.com/sune-org/sune/releases/download/v1.1.1/sune-v1.1.1.apk",
+    "digest": "sha256:997dcf3cf2a45dabdcf3c5d3879392bfdddb0331d6d1a740d803bbf499d7bbf5",
+    "download_count": 19
    },
    {
-    "id": 604206470,
-    "name": "sune-v1.0.0.apk.sha256",
+    "id": 703415885,
+    "name": "sune-v1.1.1.apk.sha256",
     "content_type": "application/octet-stream",
     "size": 82,
-    "download_url": "https://github.com/sune-org/sune/releases/download/v1.0.0/sune-v1.0.0.apk.sha256",
-    "digest": "sha256:fd8eef35ef744f1b9f29330fdbf5d8145dff40ae77796b3f7b690bb7619568e2",
-    "download_count": 7
+    "download_url": "https://github.com/sune-org/sune/releases/download/v1.1.1/sune-v1.1.1.apk.sha256",
+    "digest": "sha256:4417fac572a5540ead30f2f6dd47a29f7f5c2cd0db7968336538bf504a4c663e",
+    "download_count": 1
    }
   ]
  },
@@ -269320,7 +269652,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 440842151,
    "full_name": "ibaiGorordo/depthai-android-jni-example",
@@ -270670,7 +271002,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1149722896,
    "full_name": "chentyjpm/openclaw-android-wechat",
@@ -271045,7 +271377,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 400178543,
    "full_name": "vivekkj123/quiz-app-react-native",
@@ -272020,7 +272352,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 380339641,
    "full_name": "Rabbit-Company/Passky-Android",
@@ -272063,7 +272395,7 @@
     "size": 2806517,
     "download_url": "https://github.com/Rabbit-Company/Passky-Android/releases/download/v7.1.0/passky-7.1.0.apk",
     "digest": null,
-    "download_count": 1107
+    "download_count": 1108
    }
   ]
  },
@@ -272225,6 +272557,130 @@
     "download_url": "https://github.com/StardustChocolate/lucima-tools/releases/download/v1.3.0/LucimaTools-windows-x64-1.3.0.zip",
     "digest": "sha256:923501e08618dd4ab208a262d44bf70e4792573296317de2f9b3f5d7253436a8",
     "download_count": 123
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1169511048,
+   "full_name": "nihaina/SubtitleEditforAndroid",
+   "owner": "nihaina",
+   "avatar_url": "https://avatars.githubusercontent.com/u/122545631?v=4",
+   "description": "TsumugiSub是一个在手机上使用的功能齐全的轻量字幕编辑软件，集成了离线的语音转字幕、人声分离、格式转换、文稿匹配等功能 TsumugiSub is a fully functional lightweight subtitle editing software for Android. It integrates offline speech to subtitles, voice separation, format conversion, document matching and other functions.",
+   "stars": 47,
+   "forks": 6,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T14:04:30Z",
+   "created_at": "2026-02-28T19:51:37Z",
+   "license": "GPL-3.0",
+   "language": "C++",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-04T14:04:25Z"
+  },
+  "release": {
+   "id": 433772862,
+   "tag": "1.2.5",
+   "name": "1.2.5",
+   "notes": "1.按标点切分可自行选择切分标点\r\n2.优化编辑器，现在可以编辑2w行超大字幕不卡顿\r\n3.AI字幕处理，点击可以暂停正在处理的字幕，退出应用时不会清除待处理文件\r\n4.输出目录可以快速选择保存到源文件夹，避免频繁选择目录\r\n5.移除自动打轴功能\r\n6.AI设置现在可以自行添加更多平台，便于切换\r\n7.支持文件批量重命名",
+   "published_at": "2026-11-04T10:18:27Z",
+   "html_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/tag/1.2.5",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 709081130,
+    "name": "app-qnn-arm64-v8a-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 264908894,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-qnn-arm64-v8a-debug.apk",
+    "digest": "sha256:d129b30dd7723d2432f886d00d582386455552fc7d20248d56cdf936637262e1",
+    "download_count": 12
+   },
+   {
+    "id": 709076007,
+    "name": "app-standard-arm64-v8a-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 123202504,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-arm64-v8a-debug.apk",
+    "digest": "sha256:7c97f3e4857d608be54ea6717e3c071ba2c991d695a9227fb907db25b28932fe",
+    "download_count": 9
+   },
+   {
+    "id": 709077147,
+    "name": "app-standard-armeabi-v7a-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 86591788,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-armeabi-v7a-debug.apk",
+    "digest": "sha256:794ad37600951d54799de7d58d69830b85cf5e364affb75cc8116e94a0fd669d",
+    "download_count": 2
+   },
+   {
+    "id": 709832120,
+    "name": "app-standard-universal-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 305017193,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-universal-debug.apk",
+    "digest": "sha256:bff35b524360f6f2d3ed4475022488d2fceb32f936ce688946a8c5af649dce11",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1385824149,
+   "full_name": "codepdbh/PSPRecomp-VCS-Android",
+   "owner": "codepdbh",
+   "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
+   "description": "Experimental Android ARM64 port of PSPRecomp's Vice City Stories profile",
+   "stars": 47,
+   "forks": 2,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-01T23:52:17Z",
+   "created_at": "2026-09-24T15:40:25Z",
+   "license": "MIT",
+   "language": "C++",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-22T14:10:54Z"
+  },
+  "release": {
+   "id": 398351484,
+   "tag": "v0.3.0-beta",
+   "name": "VCS Android beta 0.3.0",
+   "notes": "Beta 0.3.0 del port nativo para Android de **Grand Theft Auto: Vice City Stories** (recompilación estática con PSPRecomp; no es un emulador).\n\n> ⚠️ **No incluye datos del juego.** Necesitas tu propia copia de VCS (PSP, USA / ULUS10160) preparada con `setup_vcs.ps1`, copiada en **Almacenamiento interno/VCS**. Ver el [README](https://github.com/codepdbh/PSPRecomp-VCS-Android#instalación-en-android).\n\n## ¿Qué APK descargo?\n- **`VCS-Android-0.3.0-beta-arm64.apk`** → casi todos los celulares. Empieza por este.\n- **`VCS-Android-0.3.0-beta-armv7-32bit.apk`** → solo si el anterior no se instala (celulares con Android de 32 bits). Rinde menos que el de 64 bits. **Experimental:** todavía no se probó en un celular de 32 bits; cuéntanos cómo te va.\n\n## Novedades\n### Celulares de gama baja\n- **Nueva resolución \"PSP original\"** (272 líneas, la de la PSP) en ⚙ → Resolución interna.\n- **Nueva opción ⚙ → Velocidad (FPS):** 30 FPS (la velocidad original de la PSP, la mitad de trabajo) o 60 FPS.\n- **Modo gama baja automático:** la primera vez que se abre en un celular modesto (Helio G85, Snapdragon 6xx/7xx, menos de 4 GB de RAM…) empieza sola en resolución PSP y 30 FPS.\n- **Versión de 32 bits** (ver arriba).\n\n### Rendimiento\n- El juego corre en los núcleos más rápidos del procesador, con prioridad alta, y avisa a Android de su carga en cada fotograma para que suba la frecuencia antes de que haya tirones.\n- Menos trabajo por instrucción del juego y menos calentamiento del procesador.\n\n### Audio\n- **Menos distorsión cuando bajan los FPS:** el audio se pone al día en vez de meter huecos de silencio, y los cortes se suavizan en lugar de hacer clics.\n- Menos retraso entre voces y labios.\n\n### Arreglos\n- Cargar un estado guardado podía dejar el juego congelado. Arreglado.\n\n## Problemas conocidos\n- En celulares muy modestos (Helio G85 y similares) puede no llegar a velocidad completa ni en modo gama baja.\n- En algunos puntos (el icono de guardado del juego, el final de algunas misiones) la p",
+   "published_at": "2026-09-28T14:53:49Z",
+   "html_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases/tag/v0.3.0-beta",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 595660219,
+    "name": "VCS-Android-0.3.0-beta-arm64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 67936549,
+    "download_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases/download/v0.3.0-beta/VCS-Android-0.3.0-beta-arm64.apk",
+    "digest": "sha256:3907fc5a274a37169e3863ea74c059125a33f782dadc0f62b1190526aafa877a",
+    "download_count": 1774
+   },
+   {
+    "id": 595660216,
+    "name": "VCS-Android-0.3.0-beta-armv7-32bit.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 56332055,
+    "download_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases/download/v0.3.0-beta/VCS-Android-0.3.0-beta-armv7-32bit.apk",
+    "digest": "sha256:42a6b35a4fdbd67e2d032f2882d28826ef766bd97801354ce1d424f59f77ea62",
+    "download_count": 362
    }
   ]
  },
@@ -272746,7 +273202,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 14408419,
    "full_name": "alanwoolley/innoextract-android",
@@ -272770,7 +273226,7 @@
    "created_at": "2013-11-14T22:10:00Z",
    "license": "Other",
    "language": "C++",
-   "openIssues": 11,
+   "openIssues": 10,
    "watchers": null,
    "homepage": "https://www.armedpineapple.co.uk/projects/inno-setup-extractor/",
    "pushedAt": "2026-08-26T18:32:25Z"
@@ -272792,7 +273248,7 @@
     "size": 6940011,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-arm64-v8a-release-signed.apk",
     "digest": null,
-    "download_count": 3269
+    "download_count": 3312
    },
    {
     "id": 111009796,
@@ -272801,7 +273257,7 @@
     "size": 6292845,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-armeabi-v7a-release-signed.apk",
     "digest": null,
-    "download_count": 1144
+    "download_count": 1161
    },
    {
     "id": 111009809,
@@ -272810,7 +273266,7 @@
     "size": 15677003,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-universal-release-signed.apk",
     "digest": null,
-    "download_count": 2145
+    "download_count": 2172
    },
    {
     "id": 111009754,
@@ -272819,7 +273275,7 @@
     "size": 6940005,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-x86-release-signed.apk",
     "digest": null,
-    "download_count": 630
+    "download_count": 635
    },
    {
     "id": 111009693,
@@ -272828,7 +273284,7 @@
     "size": 7001448,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-x86_64-release-signed.apk",
     "digest": null,
-    "download_count": 847
+    "download_count": 855
    }
   ]
  },
@@ -273791,6 +274247,250 @@
     "download_url": "https://github.com/beenuar/shieldapp-android/releases/download/releases/app-release.apk",
     "digest": "sha256:9e52050963ab93d0a50c06b3c849550b60d8ce70884ff296c4488d13c2e01a2f",
     "download_count": 1260
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1333719936,
+   "full_name": "railgun0325/dsh-phone",
+   "owner": "railgun0325",
+   "avatar_url": "https://avatars.githubusercontent.com/u/102395850?v=4",
+   "description": "让 DeepSeek Harness 的 agent 跑在手机里，通过 Magisk root 原生操作安卓系统（截图/点击/滑动/开应用）+ 移动端布局 + WebView APK",
+   "stars": 46,
+   "forks": 10,
+   "topics": [
+    "agent",
+    "android",
+    "deepseek-harness",
+    "dsh-plugin",
+    "termux"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-04T04:59:39Z",
+   "created_at": "2026-08-14T02:38:13Z",
+   "license": "MIT",
+   "language": "JavaScript",
+   "openIssues": 4,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-09-18T10:38:26Z"
+  },
+  "release": {
+   "id": 390653944,
+   "tag": "v0.2.11",
+   "name": "v0.2.11 — 修复无法新建文件夹",
+   "notes": "# v0.2.11\n\n## 修复\n\n- **手机里「新建文件夹」报 `EACCES: permission denied`**：与 root 和系统权限无关。Termux 家目录的属主/权限在拷贝部署文件的过程中被改成了其他用户（模式 775），应用以自己的用户身份在该目录里只有读权限，因此无法新建文件或文件夹。\n  现在部署流程会自检并修正家目录的属主与权限，App 在拷贝部署文件后也会恢复它。\n\n## 升级\n\n- 覆盖安装即可（versionCode 15 / v0.2.11）。\n- 已经出现该问题的设备：安装后点一次「一键部署」会自动修复，也可在 Termux 执行\n  `chown $(id -u):$(id -g) ~ && chmod 700 ~`。\n",
+   "published_at": "2026-09-17T11:24:52Z",
+   "html_url": "https://github.com/railgun0325/dsh-phone/releases/tag/v0.2.11",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 570115607,
+    "name": "dsh-phone-root-v0.2.11.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 42806934,
+    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-root-v0.2.11.apk",
+    "digest": "sha256:f68ffd581f6995edfa4eb80013dc4a7f823997dcb4791de7b6291504afdc4133",
+    "download_count": 953
+   },
+   {
+    "id": 570115603,
+    "name": "dsh-phone-shizuku-v0.2.11.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 44584368,
+    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-shizuku-v0.2.11.apk",
+    "digest": "sha256:f462ab8db626e8f4f544e4aba899b9032e7624239ff9127c8ac44658627a65db",
+    "download_count": 1271
+   },
+   {
+    "id": 570115606,
+    "name": "SHA256SUMS-v0.2.11.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 193,
+    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/SHA256SUMS-v0.2.11.txt",
+    "digest": "sha256:06e1293afe76c315660f36e39d46db10fa4e426040f30d0a5f01a99d99716f04",
+    "download_count": 139
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1253473746,
+   "full_name": "thetechgeekko/Spektrafilm-android",
+   "owner": "thetechgeekko",
+   "avatar_url": "https://avatars.githubusercontent.com/u/38212509?v=4",
+   "description": "Spectral film simulation for Android — a native C++/NDK port of the spektrafilm engine (negative → enlarger → print → scan), with a Jetpack Compose editor, RAW/DNG import, local masks, and 16/32-bit export. GPLv3.",
+   "stars": 46,
+   "forks": 8,
+   "topics": [
+    "android",
+    "android-ndk",
+    "color-science",
+    "dng",
+    "film-emulation",
+    "film-simulation",
+    "gplv3",
+    "image-editor",
+    "jetpack-compose",
+    "kotlin",
+    "lightroom",
+    "photography",
+    "raw",
+    "spectral-rendering"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T12:47:12Z",
+   "created_at": "2026-05-29T13:54:25Z",
+   "license": "GPL-3.0",
+   "language": "C++",
+   "openIssues": 37,
+   "watchers": null,
+   "homepage": "https://discuss.pixls.us/t/spectral-film-simulations-from-scratch/48209",
+   "pushedAt": "2026-09-22T16:30:40Z"
+  },
+  "release": {
+   "id": 388887533,
+   "tag": "v0.10.0",
+   "name": "v0.10.0 — the GPU route is how the app renders",
+   "notes": "<!-- spektrafilm-release-run:v2:16ca5f0fcf692255e3fc3e203a693f87ea575b415d2fffa2c590ca7bf42ec2a9 -->\n**Spektrafilm for Android 0.10.0** (versionCode 12) · Android 7.0+ (API 24) · targets Android 16 (API 36) · arm64-v8a / armeabi-v7a / x86_64 · 16 KB page-size ready.\n\nInstall `Spektrafilm-v0.10.0.apk` (sha256 in `Spektrafilm-v0.10.0.apk.sha256`). Signed with the production key; this release is immutable.\n\n## Highlights\n\n- **The GPU route is how the app renders.** The three GPU toggles are gone. Every preview, render and export goes through the Vulkan engine, gated per device by its own self-check with automatic CPU fallback. A default export is no longer byte-identical to the CPU path — it is tolerance-bounded against the spektrafilm oracle; the strict exact contract now belongs to the CPU engine.\n- **27 presets corrected against manufacturer datasheets** — rem-jet halation, the Kodak PGI grain ladder, stock facts; one preset that could not deliver the look it advertised was removed, and the Dreamy Pro-Mist family is now explicit (#194).\n- **Editor honesty pass** (#222): eight places where the editor said one thing and did another are fixed — presets no longer re-frame the photo or compound while you browse, \"save preset\" and \"export\" do exactly what they say, and a rejected DNG no longer leaves a silently dead editor.\n- **Fixes #219 — the photo was lost every time you opened Settings.** The fix (session persistence, #139) has been on `main` since August but in no tagged release until now.\n\n## Editor & viewer\n\n- Browse film and paper stocks in a catalog instead of a menu; fourteen flat chips become five darkroom stages, with icon buttons that finally fit.\n- Press and hold the photo to see it unedited; tap the photo to hide every control; the magnifier gets its own button and is a true 1:1.\n- Clipping is marked on the preview histogram; parameters away from their default are marked; reset one category back to neutral; see what each built-in preset will do to your phot",
+   "published_at": "2026-09-15T05:29:23Z",
+   "html_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/tag/v0.10.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 564975527,
+    "name": "SHA256SUMS",
+    "content_type": "application/octet-stream",
+    "size": 1391,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/SHA256SUMS",
+    "digest": "sha256:5e9d2a8348bca6c5f610ebf08a305e7be40c0dfb4de2f7bbe3486627a78f399d",
+    "download_count": 24
+   },
+   {
+    "id": 564975544,
+    "name": "Spektrafilm-v0.10.0-app.spdx.json",
+    "content_type": "application/octet-stream",
+    "size": 722765,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-app.spdx.json",
+    "digest": "sha256:1540ad2bc48ba527fbc52245f34f15bcc4a3e7e30dc6d80b7846fa8a36798cd0",
+    "download_count": 23
+   },
+   {
+    "id": 564975564,
+    "name": "Spektrafilm-v0.10.0-engine-boundary-androidTest.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 15138604,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-engine-boundary-androidTest.apk",
+    "digest": "sha256:359eb3481692fee9b3318a50d1e3c19c3f1e9140a8b2460b31ce5e3b115aab5b",
+    "download_count": 145
+   },
+   {
+    "id": 564975597,
+    "name": "Spektrafilm-v0.10.0-engine-boundary-instrumentation.txt",
+    "content_type": "application/octet-stream",
+    "size": 95,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-engine-boundary-instrumentation.txt",
+    "digest": "sha256:c9f901da7c820985c61f5b7a797eb6b801b52ffe8539dd1400e3028f3b465458",
+    "download_count": 10
+   },
+   {
+    "id": 564975625,
+    "name": "Spektrafilm-v0.10.0-gradle-locks.zip",
+    "content_type": "application/octet-stream",
+    "size": 18833,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-gradle-locks.zip",
+    "digest": "sha256:203668301d5cfdb63b044146de0712410daa10029567b5f78eb75acc70d3645d",
+    "download_count": 11
+   },
+   {
+    "id": 564975656,
+    "name": "Spektrafilm-v0.10.0-libraw-source-relink.zip",
+    "content_type": "application/octet-stream",
+    "size": 10147954,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-libraw-source-relink.zip",
+    "digest": "sha256:6a7a33f1ea1adc4f9a8d903d48988c4f31f6da56d2b27025bcc1094ce1d12169",
+    "download_count": 13
+   },
+   {
+    "id": 564975684,
+    "name": "Spektrafilm-v0.10.0-libraw-source-relink.zip.sha256",
+    "content_type": "application/octet-stream",
+    "size": 111,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-libraw-source-relink.zip.sha256",
+    "digest": "sha256:80ba7de4aa6b9d9badfc2121242f384c56ac5b87f4d7e019acd2055dbe7407d5",
+    "download_count": 7
+   },
+   {
+    "id": 564975713,
+    "name": "Spektrafilm-v0.10.0-libraw.spdx.json",
+    "content_type": "application/octet-stream",
+    "size": 182868,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-libraw.spdx.json",
+    "digest": "sha256:42116da1c3e08183d2633e7355fd60bf748af0e5d2b6f8ac65eaa5d6c9aec78c",
+    "download_count": 6
+   },
+   {
+    "id": 564975723,
+    "name": "Spektrafilm-v0.10.0-native-debug-symbols.zip",
+    "content_type": "application/octet-stream",
+    "size": 21151728,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-native-debug-symbols.zip",
+    "digest": "sha256:2623850bc11f544daccd99ca20facc8fb1f019f328a18e0c646ca46d2fa070d3",
+    "download_count": 11
+   },
+   {
+    "id": 564975767,
+    "name": "Spektrafilm-v0.10.0-provenance.txt",
+    "content_type": "application/octet-stream",
+    "size": 1558,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-provenance.txt",
+    "digest": "sha256:c08b68252e7885812ff1ca74e9402606657124b7a45d09eac65a10261dfd91e7",
+    "download_count": 11
+   },
+   {
+    "id": 564975784,
+    "name": "Spektrafilm-v0.10.0-r8-mapping.txt",
+    "content_type": "application/octet-stream",
+    "size": 51767185,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-r8-mapping.txt",
+    "digest": "sha256:74f41007a76f56ada35da50238f55945a1bde273ca18b97824bd67ee07625455",
+    "download_count": 7
+   },
+   {
+    "id": 564975840,
+    "name": "Spektrafilm-v0.10.0-release-runtime-classpath.txt",
+    "content_type": "application/octet-stream",
+    "size": 6710,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0-release-runtime-classpath.txt",
+    "digest": "sha256:85fc3e6cd489be959ac0a30742028ffc8896fccb45334650c85d5f4bbf33a676",
+    "download_count": 5
+   },
+   {
+    "id": 564975855,
+    "name": "Spektrafilm-v0.10.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 21341655,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0.apk",
+    "digest": "sha256:a09b680a16446d5f6cc51554a5b282eb711bd0152fda367552b69beff6386dff",
+    "download_count": 515
+   },
+   {
+    "id": 564975916,
+    "name": "Spektrafilm-v0.10.0.apk.sha256",
+    "content_type": "application/octet-stream",
+    "size": 90,
+    "download_url": "https://github.com/thetechgeekko/Spektrafilm-android/releases/download/v0.10.0/Spektrafilm-v0.10.0.apk.sha256",
+    "digest": "sha256:79158ef28b614b17619c35df50761a31d8e5d41a68a7d9c44e89b0261d608c6a",
+    "download_count": 46
    }
   ]
  },
@@ -282625,7 +283325,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 114393199,
    "full_name": "pmp-p/pydk",
@@ -283615,7 +284315,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1226261730,
    "full_name": "nOneCode4u/mixplorer-google-drive",
@@ -283644,14 +284344,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-31T11:17:52Z",
+   "updated_at": "2026-11-04T14:46:40Z",
    "created_at": "2026-05-01T06:59:43Z",
    "license": "MIT",
    "language": "Python",
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://mixplorer.com",
-   "pushedAt": "2026-10-31T11:17:48Z"
+   "pushedAt": "2026-11-04T13:20:27Z"
   },
   "release": {
    "id": 382627400,
@@ -283670,7 +284370,7 @@
     "size": 8348822,
     "download_url": "https://github.com/nOneCode4u/mixplorer-google-drive/releases/download/MiXplorer_v6.71.15/MiXplorer_v6.71.15_B26090420-universal.apk",
     "digest": "sha256:dd1fe5b758b31a99312f02a9826adbffa29759b3c009bcf400a9404a7b67a756",
-    "download_count": 295
+    "download_count": 315
    },
    {
     "id": 544140358,
@@ -283679,7 +284379,7 @@
     "size": 5274370,
     "download_url": "https://github.com/nOneCode4u/mixplorer-google-drive/releases/download/MiXplorer_v6.71.15/MiXplorer_v6.71.15_B26090421-arm.apk",
     "digest": "sha256:3652c09c9cb8c46eeb2aa7eb0f0873af5578951a6dc3516f686f1925def2d13c",
-    "download_count": 53
+    "download_count": 57
    },
    {
     "id": 544140394,
@@ -283688,7 +284388,7 @@
     "size": 5298293,
     "download_url": "https://github.com/nOneCode4u/mixplorer-google-drive/releases/download/MiXplorer_v6.71.15/MiXplorer_v6.71.15_B26090422-arm64.apk",
     "digest": "sha256:bc2627659872cfc9895155d129c03eb8ac2b3c112cbdbe7303feb718f10c83f0",
-    "download_count": 789
+    "download_count": 828
    },
    {
     "id": 544140424,
@@ -283697,7 +284397,7 @@
     "size": 5473095,
     "download_url": "https://github.com/nOneCode4u/mixplorer-google-drive/releases/download/MiXplorer_v6.71.15/MiXplorer_v6.71.15_B26090423-x86.apk",
     "digest": "sha256:f10835025528d96dc7bda68a114bcda714f07ce4006b971262fe31316ddef4f4",
-    "download_count": 11
+    "download_count": 12
    },
    {
     "id": 544140437,
@@ -283706,7 +284406,7 @@
     "size": 5396265,
     "download_url": "https://github.com/nOneCode4u/mixplorer-google-drive/releases/download/MiXplorer_v6.71.15/MiXplorer_v6.71.15_B26090424-x64.apk",
     "digest": "sha256:5187f1dd972c79a7b1e0380643adc985796d8f88b51ef581d27c0d2b23c3f0b0",
-    "download_count": 35
+    "download_count": 38
    }
   ]
  },
@@ -284473,7 +285173,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1202440113,
    "full_name": "1936-zero/ctyun-keepalive-android",
@@ -565990,6 +566690,133 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1441477495,
+   "full_name": "yunluo91/WorkBuddy2API-Android",
+   "owner": "yunluo91",
+   "avatar_url": "https://avatars.githubusercontent.com/u/226801564?v=4",
+   "description": "WorkBuddy2API 手机版：Android 外壳 + 原生界面 + 内嵌 Python 网关",
+   "stars": 3,
+   "forks": 0,
+   "topics": [
+    "android",
+    "api-gateway",
+    "apk",
+    "chaquopy",
+    "deepseek",
+    "kotlin",
+    "openai-api",
+    "python",
+    "reverse-proxy",
+    "self-hosted",
+    "workbuddy",
+    "workbuddy2api"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T12:43:16Z",
+   "created_at": "2026-11-01T04:17:51Z",
+   "license": "MIT",
+   "language": "Python",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-04T12:43:30Z"
+  },
+  "release": {
+   "id": 433907059,
+   "tag": "v1.10.9-app132",
+   "name": "WorkBuddyAPI 手机版 1.10.9-app132",
+   "notes": "## WorkBuddyAPI · 手机版 1.10.9-app132\n\n**网关 1.10.9 + 本机自研改动。这一版新增后台排程的防机械节拍抖动。**\n\n### 本版重点：别让一组账号看起来像机器人\n\n上游对「同一出口 IP 上多个账号以完全一致的机械节拍活动」判得很重。\n以前的排程是准点 `HH:00:00` 触发、账号顺序固定、间隔 2~5 秒 —— 正是最典型的机械节拍。\n\n- **后台排程抖动**：不再卡整点第 0 分钟，而是在该小时内随机挑一分钟触发\n  （范围 0–N 分钟，默认 20，设 0 = 关闭）\n- **后台打乱账号顺序**、**账号间隔拉到 20~120 秒随机**\n- **只影响后台定时**：面板上手动点「签到」保持 2~5 秒的快速执行，点了立刻出结果\n- **看板 → 设置 → 后台定时任务**：签到 / 旅行 / 保活 / 猫猫 四个小时表 + 抖动，\n  可视化编辑（后端一直支持 `settings.schedule`，以前只能手改 JSON）\n\n### 其他（app130 / app131）\n\n- 「关思考」两条路径都认：`thinking.type=disabled` 与 `reasoning_effort=off/none/disabled`；\n  判定成关之后清掉档位字段并明确置 disabled，避免 `off` 被抬成最弱正档\n- **健康探测**：每 3 秒探一次 `/health`，连续 15 次（约 45 秒）不通 = 进程活着但不干活，\n  自动重启 Python\n- **被杀诊断**：通知栏显示自救次数与上次死因（`rc=137` 被系统强杀等）\n- 新增 `PITFALLS.md`（18 条本机特有的坑）；README 补「手机上怎么保证不掉线」、\n  后台保活重写、客户端接入片段、使用声明与免责\n\n### 校验\n\n```\n包名        com.yunluo.wb2api\nversionName 1.10.9-app132\nversionCode 100（可覆盖安装）\n签名        OK\n\n· 设置读写：设 35 → 35；越界 999 → 夹到 55；非法 abc → 保持原值；非法小时 25 → 400\n· 抖动逻辑：span=0 恒为 0（旧行为）；span=20/55 同小时稳定、跨小时随机\n· 39 个 .py 语法全过，dashboard JS node --check 通过\n· 沙箱启动 /health ok=true、/v1/models 200（19 个模型）、启动日志零异常\n```\n",
+   "published_at": "2026-11-04T12:43:31Z",
+   "html_url": "https://github.com/yunluo91/WorkBuddy2API-Android/releases/tag/v1.10.9-app132",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 709474735,
+    "name": "USAGE-zh.md",
+    "content_type": "text/markdown",
+    "size": 8471,
+    "download_url": "https://github.com/yunluo91/WorkBuddy2API-Android/releases/download/v1.10.9-app132/USAGE-zh.md",
+    "digest": "sha256:74208caa2629d94b0130381fea22e5eea10626b5e3c1acb7046387e8dd97012b",
+    "download_count": 0
+   },
+   {
+    "id": 709474637,
+    "name": "WorkBuddyAPI-1.10.9-app132-source.zip",
+    "content_type": "application/zip",
+    "size": 1612234,
+    "download_url": "https://github.com/yunluo91/WorkBuddy2API-Android/releases/download/v1.10.9-app132/WorkBuddyAPI-1.10.9-app132-source.zip",
+    "digest": "sha256:0604b0e8a5608e51031b4bbed9cac81e4e31d35e041cebe7f42b02178e9f4973",
+    "download_count": 1
+   },
+   {
+    "id": 709473243,
+    "name": "WorkBuddyAPI-1.10.9-app132.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 25570872,
+    "download_url": "https://github.com/yunluo91/WorkBuddy2API-Android/releases/download/v1.10.9-app132/WorkBuddyAPI-1.10.9-app132.apk",
+    "digest": "sha256:46421893b58aa0fae6107c314cc9d420151cc63e8e80f52acf72c0648bd6adb1",
+    "download_count": 4
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1309168240,
+   "full_name": "Marukiee/MarkMySteps",
+   "owner": "Marukiee",
+   "avatar_url": "https://avatars.githubusercontent.com/u/122899043?v=4",
+   "description": "A self-hosted travel tracker and Polarsteps alternative: plan routes, track without Google services, relive trips on a map",
+   "stars": 3,
+   "forks": 0,
+   "topics": [
+    "android",
+    "capacitor",
+    "immich",
+    "maplibre",
+    "polarsteps",
+    "self-hosted",
+    "travel"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T22:15:31Z",
+   "created_at": "2026-07-22T19:10:01Z",
+   "license": null,
+   "language": "TypeScript",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-04T22:18:47Z"
+  },
+  "release": {
+   "id": 434519113,
+   "tag": "v265",
+   "name": "Build 265",
+   "notes": "MarkMySteps build 265",
+   "published_at": "2026-11-04T22:18:47Z",
+   "html_url": "https://github.com/Marukiee/MarkMySteps/releases/tag/v265",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 711142156,
+    "name": "markmysteps.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5735119,
+    "download_url": "https://github.com/Marukiee/MarkMySteps/releases/download/v265/markmysteps.apk",
+    "digest": "sha256:ab6400f11fb3aa4d764c0cf8d4f9611377e8fd475bc42b075fdbcfc3c36397d2",
+    "download_count": 3
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-03",
   "repo": {
    "id": 1404246282,
@@ -624024,6 +624851,80 @@
     "download_url": "https://github.com/PremPoddar/LibreChat/releases/download/v1.1.1/LibreChat.apk",
     "digest": "sha256:29b80feda05ecd23530f706aa721cc0773d3ba3eb7f2068a6a0f3a5058060cfd",
     "download_count": 4
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1412323507,
+   "full_name": "LuanThierry/offline-gym",
+   "owner": "LuanThierry",
+   "avatar_url": "https://avatars.githubusercontent.com/u/73572103?v=4",
+   "description": "🏋️ App de treino 100% offline, grátis e sem anúncios para Android e iPhone. +2.000 exercícios com guia ilustrado, mapa de recuperação muscular, Coach que monta seu plano, nutrição e contador de passos. Sem login, seus dados ficam só no celular. Feito em Flutter · Código aberto (MIT).",
+   "stars": 2,
+   "forks": 0,
+   "topics": [
+    "academia",
+    "android",
+    "brazil",
+    "calorie-counter",
+    "dart",
+    "fitness",
+    "flutter",
+    "gym",
+    "health-connect",
+    "ios",
+    "mobile-app",
+    "musculacao",
+    "nutrition",
+    "offline-first",
+    "open-source",
+    "privacy",
+    "sqlite",
+    "treino",
+    "workout",
+    "workout-tracker"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T13:59:34Z",
+   "created_at": "2026-10-09T18:58:05Z",
+   "license": "Other",
+   "language": "Dart",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://github.com/LuanThierry/offline-gym/releases/latest",
+   "pushedAt": "2026-11-04T12:53:40Z"
+  },
+  "release": {
+   "id": 433931301,
+   "tag": "v1.7.1",
+   "name": "Offline Gym v1.7.1",
+   "notes": "# 🏋️‍♂️ Offline Gym — Versão 1.7.1 (Build 13)\r\n\r\n> **Aplicativo 100% offline, gratuito e sem anúncios para treinos, nutrição, hábitos e evolução corporal.**\r\n> Esta é a maior atualização do Offline Gym: reúne tudo o que foi feito desde a **v1.4.2** (última versão publicada).\r\n\r\n---\r\n\r\n## ✨ Destaques\r\n\r\n* **5 abas:** Hoje, **Corpo**, Semana, **Nutrição** e Histórico.\r\n* **Guia ilustrado em todos os +2.000 exercícios:** foto real animada (início → fim), passo a passo, respiração, como evitar lesão, músculos, articulações e dicas personalizadas no botão `ⓘ`.\r\n* **Aba Corpo:** mapa anatômico com % de recuperação nos músculos (modos Recuperação, Volume e Simetria), Coach, radar de simetria, volume semanal e conselhos por músculo.\r\n* **Co-piloto de plano:** monta a divisão semanal pelo seu objetivo, nível, dias, local, idade, sexo e IMC, e aplica no seu plano.\r\n* **Coach Brilhante (`!!`):** melhor exercício do dia e revisão completa da semana.\r\n* **Aba Nutrição:** o que comeu, o que gastou, saldo do dia, macros, água e tendência de 7 dias.\r\n* **Passos e Health Connect:** contador de passos do celular e integração opcional com Samsung Health / Google Fit.\r\n* **Ajuste de carga sem lag:** botões grandes de ±0,5 / ±2,5 kg e ±1 rep no lugar das roletas e do teclado.\r\n\r\n---\r\n\r\n## 🆕 Novidades\r\n\r\n### Treino\r\n* Guia de execução com foto real (domínio público, embutida no app) para ~85% dos exercícios e animações próprias para o restante; dicas da variação (drop-set, elástico, unilateral…) e seção **Para você** por idade e IMC.\r\n* Card do exercício redesenhado: nome inteiro, `ⓘ` neon, foto com proporção correta e bordas em degradê, e barra de ações (Trocar, −/+ Série, Cargas, Aquecer).\r\n* **Novo ajuste de carga/reps/séries** em Hoje e Semana: botões grandes, segurar para repetir; sem teclado e sem roleta.\r\n* Calculadora de anilhas por lado com barra de 20/15/10 kg e aviso do peso que sobra sem anilha.\r\n* Modo \"aparelho ocupado\", *ghost values* da última sessão, notas fixadas de reg",
+   "published_at": "2026-11-04T13:04:18Z",
+   "html_url": "https://github.com/LuanThierry/offline-gym/releases/tag/v1.7.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 709536014,
+    "name": "Offline-Gym-iOS.ipa",
+    "content_type": "application/octet-stream",
+    "size": 30170561,
+    "download_url": "https://github.com/LuanThierry/offline-gym/releases/download/v1.7.1/Offline-Gym-iOS.ipa",
+    "digest": "sha256:8b0ec8551630ce0d996bfd7904f3f30452ddeb129d7495e39c90581c7d75b751",
+    "download_count": 1
+   },
+   {
+    "id": 709572179,
+    "name": "Offline-Gym.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 90998166,
+    "download_url": "https://github.com/LuanThierry/offline-gym/releases/download/v1.7.1/Offline-Gym.apk",
+    "digest": "sha256:319c1f785a715138e4cb058d3773c1f9e8e44b330818705f8ae3bbd95132a351",
+    "download_count": 0
    }
   ]
  },
@@ -689367,7 +690268,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1430793145,
    "full_name": "jemangr/platebit-releases",
@@ -689398,141 +690299,159 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-28T09:58:25Z",
+   "updated_at": "2026-11-04T17:16:43Z",
    "created_at": "2026-10-23T08:42:40Z",
    "license": null,
    "language": null,
-   "openIssues": 0,
+   "openIssues": 1,
    "watchers": null,
    "homepage": "https://platebit.app",
-   "pushedAt": "2026-10-28T09:58:21Z"
+   "pushedAt": "2026-11-02T17:26:26Z"
   },
   "release": {
-   "id": 426495864,
-   "tag": "build-132",
-   "name": "Platebit 1.74.2",
-   "notes": "## Τι νέο υπάρχει\n\n- **Κουμπιά περπατήματος και κάμερας:** νέα εμφάνιση στο Σήμερα. Γύρω από το περπάτημα ένα δαχτυλίδι δείχνει πόσο απέχεις από τον στόχο βημάτων της μέρας, και την ίδια πρόοδο δείχνει μια λεπτή μπάρα όσο περπατάς.\n\n\n**Ρολόι (Wear OS):** το αρχείο Platebit-Wear-1.74.2.apk είναι στα αρχεία αυτής της έκδοσης.\n\n**Προσόψεις ρολογιού:** τα αρχεία Platebit-WatchFace-… (μία για κάθε πρόσοψη, Wear OS 5 και νεότερο).\n",
-   "published_at": "2026-10-28T09:58:10Z",
-   "html_url": "https://github.com/jemangr/platebit-releases/releases/tag/build-132",
+   "id": 431757068,
+   "tag": "build-140",
+   "name": "Platebit 2.2.0",
+   "notes": "## Τι νέο υπάρχει\n\n- **Ο Arni:** του στέλνεις φωτογραφία πιάτου μέσα στη συζήτηση και προτείνει καταγραφή με κάρτα. Αντιγράφει εβδομάδα (όλο το φαγητό, ένα γεύμα ή την προπόνηση) και κρατά μόνιμους κανόνες, π.χ. «πάντα το πρωί 6 βραστά αυγά». Ξέρει αν στάλθηκε μια αναφορά προβλήματος.\n- **Φωτογραφία:** «Είχε λάδι ή σάλτσα;» μετά τη σάρωση. Μαθαίνει από τις διορθώσεις σου (μόνο στο κινητό). Χωρίς internet, η φωτογραφία περιμένει κρυπτογραφημένη και αναλύεται μετά.\n- **Θερμίδες ανά μέρα της εβδομάδας** και κάρτα **«Πάμε σε συντήρηση;»** όταν μείνεις δύο εβδομάδες στον στόχο. Με GLP-1, μόνο «μίλα με τον γιατρό σου».\n- **Πλάνο γευμάτων:** κουμπί «Αντιγραφή εβδομάδας».\n- **Προπόνηση:** «Προπόνηση ημέρας» με ένα πάτημα· «Πού προπονούμαι» (σπίτι, γυμναστήριο, ξενοδοχείο, με δίσκους και εξοπλισμό)· χάρτης μυών εμπρός και πίσω, και στην κάρτα που μοιράζεσαι· 20 ασκήσεις σε κίνηση· strength level σε 14 ασκήσεις· μοίρασμα φακέλου ή προγράμματος με ένα link.\n- **Τρόφιμα σπιτιού:** συμπληρώματα με «τελειώνει σε Χ μέρες», τιμές από αποδείξεις και «έσωσες περίπου €Χ». Nutri-Score και NOVA στα προϊόντα, με διακόπτη.\n- **Νηστείες:** από πού μπορούν να έρθουν ασβέστιο, B12, σίδηρος και πρωτεΐνη. Σημειώματα για Πρωτοχρονιά, καλοκαίρι και Σεπτέμβρη.\n- **GLP-1:** τη μέρα μετά την εβδομαδιαία ένεση, το Σήμερα ρωτά πώς νιώθεις.\n- **Υπολογιστής:** στο αρχείο για τον διατροφολόγο, τον γυμναστή ή τον γιατρό, τα δικά τους στοιχεία (στον γιατρό μόνο ό,τι τσεκάρεις). Το Νερό δείχνει τον στόχο κάθε μέρας και τους ηλεκτρολύτες. Όλα στη γλώσσα και τις μονάδες σου.\n- **Ρολόι:** πιο σύντομη γραμμή πρωτεΐνης στις προσόψεις.\n- **Διορθώσεις:** η εφαρμογή έκλεινε σε γρήγορα διαδοχικά μηνύματα στον Arni (και με το μικρόφωνο).\n\n\n**Ρολόι (Wear OS):** το αρχείο Platebit-Wear-2.2.0.apk είναι στα αρχεία αυτής της έκδοσης.\n\n**Προσόψεις ρολογιού:** τα αρχεία Platebit-WatchFace-… (μία για κάθε πρόσοψη, Wear OS 5 και νεότερο).\n",
+   "published_at": "2026-11-02T17:26:14Z",
+   "html_url": "https://github.com/jemangr/platebit-releases/releases/tag/build-140",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 684551093,
+    "id": 702570727,
     "name": "notes-de.md",
     "content_type": "text/markdown; charset=utf-8",
-    "size": 196,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/notes-de.md",
-    "digest": "sha256:1739dbc0d561365d71d045083a693f32f46b43ad2b1a6d5fb0998c108af97b6d",
-    "download_count": 0
+    "size": 1831,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/notes-de.md",
+    "digest": "sha256:932fbfa6bf5db7dd3d1d5b5af66f02abf6d38c0239c7888faadc80672a88af49",
+    "download_count": 1
    },
    {
-    "id": 684551090,
+    "id": 702570732,
     "name": "notes-en.md",
     "content_type": "text/markdown; charset=utf-8",
-    "size": 191,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/notes-en.md",
-    "digest": "sha256:10d9c3cc4b084a377f047966748023a3bbee8fe453eeaf78b1d5f1ce8cc3b672",
-    "download_count": 3
+    "size": 1599,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/notes-en.md",
+    "digest": "sha256:7e924763a94a95dc8c50932d756be1b27f2089ece3d28443ddfa886905858129",
+    "download_count": 5
    },
    {
-    "id": 684551097,
+    "id": 702570730,
     "name": "notes-es.md",
     "content_type": "text/markdown; charset=utf-8",
-    "size": 227,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/notes-es.md",
-    "digest": "sha256:998d3fa2d32328f2ede0e686dca475a52267f7bc0f13e1ce68ac49ae3a3d30b2",
-    "download_count": 0
+    "size": 1767,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/notes-es.md",
+    "digest": "sha256:eea3c90b233850743f6f4ae6604c837255be123164aced80a0ba5281b8bf5c1a",
+    "download_count": 1
    },
    {
-    "id": 684551139,
+    "id": 702570771,
     "name": "notes-fr.md",
     "content_type": "text/markdown; charset=utf-8",
-    "size": 230,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/notes-fr.md",
-    "digest": "sha256:d13c78c0be1dc44bac88f029af0ac3f23673d91baee378d39913768896c26c01",
-    "download_count": 0
+    "size": 1928,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/notes-fr.md",
+    "digest": "sha256:c7c220a0c49fc40d46e9d875c8382eb3c1d8146d79cb6f9f2d6ba36c3a8b0580",
+    "download_count": 1
    },
    {
-    "id": 684551135,
+    "id": 702570779,
     "name": "notes-it.md",
     "content_type": "text/markdown; charset=utf-8",
-    "size": 222,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/notes-it.md",
-    "digest": "sha256:a581a058f4d1a76a764bac1da4aba08d2957c084d6c5491c707d824d0971a222",
-    "download_count": 0
+    "size": 1762,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/notes-it.md",
+    "digest": "sha256:8cd433d01d58105365c3284791b0853ef607a06657e71bfa1b54cd41728f5800",
+    "download_count": 1
    },
    {
-    "id": 684551144,
+    "id": 702570777,
     "name": "notes-pt.md",
     "content_type": "text/markdown; charset=utf-8",
-    "size": 218,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/notes-pt.md",
-    "digest": "sha256:ca1518414461d673b673848f208dde4edda3da60daf4bce3edcda8a79fbfdbe3",
-    "download_count": 0
+    "size": 1721,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/notes-pt.md",
+    "digest": "sha256:159aab39b3d498dd2c48bcc37de74d2145461f246b7aec562f33e62fb986e615",
+    "download_count": 1
    },
    {
-    "id": 684551092,
-    "name": "Platebit-1.74.2.apk",
+    "id": 702570735,
+    "name": "Platebit-2.2.0.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 113247093,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/Platebit-1.74.2.apk",
-    "digest": "sha256:00daf9db43a932f87a8f52dfe471d648530da03108d41ca745cfb53d9e7f3413",
+    "size": 116060371,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/Platebit-2.2.0.apk",
+    "digest": "sha256:fafe998589701936233d4be7f269f8b077aa8d90552cc1b3b26f126db71c87a1",
     "download_count": 0
    },
    {
-    "id": 684551531,
-    "name": "Platebit-WatchFace-arni-1.74.2.apk",
+    "id": 702571237,
+    "name": "Platebit-WatchFace-arni-2.2.0.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 104407,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/Platebit-WatchFace-arni-1.74.2.apk",
-    "digest": "sha256:9c6882763415fb2687d6a4c133f8a08039f9cbc3e05017e9bc30514ef6848bcb",
-    "download_count": 0
+    "size": 227763,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/Platebit-WatchFace-arni-2.2.0.apk",
+    "digest": "sha256:0a639b918774db63b943ac36268e82b4ceea13de7e9190f94aece2116e3b7e3f",
+    "download_count": 1
    },
    {
-    "id": 684551528,
-    "name": "Platebit-WatchFace-classic-1.74.2.apk",
+    "id": 702571234,
+    "name": "Platebit-WatchFace-classic-2.2.0.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 60327,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/Platebit-WatchFace-classic-1.74.2.apk",
-    "digest": "sha256:674fe8d1382d40029e7780ce1fd46b68fe65823a9e6da2af4c8ac4ae6d3c8587",
-    "download_count": 0
+    "size": 139643,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/Platebit-WatchFace-classic-2.2.0.apk",
+    "digest": "sha256:e9afe8cd25e7d28f41c623b81f69e64b7ba684e6082159d38a0c2099db0a9823",
+    "download_count": 1
    },
    {
-    "id": 684551521,
-    "name": "Platebit-WatchFace-day-1.74.2.apk",
+    "id": 702571233,
+    "name": "Platebit-WatchFace-day-2.2.0.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 58651,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/Platebit-WatchFace-day-1.74.2.apk",
-    "digest": "sha256:800bde6a18ddb8a9877923a9e92c733df07b1b50eff86f93776dbf500cbaacca",
-    "download_count": 0
+    "size": 91987,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/Platebit-WatchFace-day-2.2.0.apk",
+    "digest": "sha256:88a067052df625f05cf69b2e49d5984285f8a2be63908657949517979de87029",
+    "download_count": 1
    },
    {
-    "id": 684551534,
-    "name": "Platebit-WatchFace-lean-1.74.2.apk",
+    "id": 702571240,
+    "name": "Platebit-WatchFace-lean-2.2.0.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 46407,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/Platebit-WatchFace-lean-1.74.2.apk",
-    "digest": "sha256:c412d0349e8e1835c4f11f2314e0f65a36925f341adfdd6fe4b7a84048f9734e",
-    "download_count": 0
+    "size": 70239,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/Platebit-WatchFace-lean-2.2.0.apk",
+    "digest": "sha256:486521315a97666b9dfe813a77f7e1b8fc759f57e08c033d21d101afd1215b31",
+    "download_count": 1
    },
    {
-    "id": 684551402,
-    "name": "Platebit-Wear-1.74.2.apk",
+    "id": 702571232,
+    "name": "Platebit-WatchFace-sport-2.2.0.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 39188543,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/Platebit-Wear-1.74.2.apk",
-    "digest": "sha256:f18a3572f8e5b2cd16db3fa0edc078853dc5ccad7bf8ab2178b304a05676e98e",
-    "download_count": 0
+    "size": 165425,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/Platebit-WatchFace-sport-2.2.0.apk",
+    "digest": "sha256:5a64553ae5f296610266d000f585acc346667665f82c7dc3231f9f7e59ce195d",
+    "download_count": 1
    },
    {
-    "id": 684551096,
+    "id": 702571283,
+    "name": "Platebit-WatchFace-tourbillon-2.2.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 1269256,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/Platebit-WatchFace-tourbillon-2.2.0.apk",
+    "digest": "sha256:e68538911d6c6b36fe9bb56846ec12993ca17d0e6af1d81ee609013d9a7174a2",
+    "download_count": 1
+   },
+   {
+    "id": 702571083,
+    "name": "Platebit-Wear-2.2.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 39598903,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/Platebit-Wear-2.2.0.apk",
+    "digest": "sha256:f9bce260357d9d75311082b2d14755ce06f2d4347eb2279beba1541fccec9610",
+    "download_count": 1
+   },
+   {
+    "id": 702570728,
     "name": "Platebit.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 113247093,
-    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-132/Platebit.apk",
-    "digest": "sha256:00daf9db43a932f87a8f52dfe471d648530da03108d41ca745cfb53d9e7f3413",
-    "download_count": 4
+    "size": 116060371,
+    "download_url": "https://github.com/jemangr/platebit-releases/releases/download/build-140/Platebit.apk",
+    "digest": "sha256:fafe998589701936233d4be7f269f8b077aa8d90552cc1b3b26f126db71c87a1",
+    "download_count": 8
    }
   ]
  },
@@ -703021,6 +703940,115 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1446096016,
+   "full_name": "BasicOS2025/transit-tr",
+   "owner": "BasicOS2025",
+   "avatar_url": "https://avatars.githubusercontent.com/u/84375138?v=4",
+   "description": "A ultimate transportation app for Android 2.2+",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T19:27:34Z",
+   "created_at": "2026-11-04T19:18:23Z",
+   "license": "Apache-2.0",
+   "language": "Java",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-04T19:27:25Z"
+  },
+  "release": {
+   "id": 434352886,
+   "tag": "v0.9",
+   "name": "Transit TR v0.9",
+   "notes": "first release",
+   "published_at": "2026-11-04T19:26:34Z",
+   "html_url": "https://github.com/BasicOS2025/transit-tr/releases/tag/v0.9",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 710645076,
+    "name": "Transit-TR-v0.9-android22.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5976739,
+    "download_url": "https://github.com/BasicOS2025/transit-tr/releases/download/v0.9/Transit-TR-v0.9-android22.apk",
+    "digest": "sha256:6e1068d685024ab691cd35ff2414622c7078ba0597c48bb34a26c9ad8bb4c01d",
+    "download_count": 8
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1417907720,
+   "full_name": "Aebisc/Workout-Planner",
+   "owner": "Aebisc",
+   "avatar_url": "https://avatars.githubusercontent.com/u/183752521?v=4",
+   "description": "A lightweight, 100% offline hypertrophy training app built with Rust (Tauri v2) and React. Tracks progressive overload, eliminates junk volume, and balances direct/indirect muscle stimulus across desktop and mobile.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "android",
+    "calisthenics",
+    "cross-platform",
+    "fitness",
+    "fitness-tracker",
+    "hypertrophy",
+    "react",
+    "rust",
+    "tauri",
+    "tauri-v2",
+    "workout-tracker"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T18:13:18Z",
+   "created_at": "2026-10-13T20:12:15Z",
+   "license": null,
+   "language": "TypeScript",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://github.com/Aebisc/Workout-Planner/releases",
+   "pushedAt": "2026-11-04T18:10:34Z"
+  },
+  "release": {
+   "id": 434253848,
+   "tag": "V1.2",
+   "name": "Workout Planner",
+   "notes": "### Release Notes\r\n\r\n- **Features**:\r\n  - Per-exercise weight configuration and increment tracking.\r\n  - Categorized workout history view.\r\n  - Lock screen display support during active sessions (Shows timer on lock screen).\r\n  - Added 10kgs Weighted exercises to the pool of pull Exercises.\r\n- **Fixes**:\r\n  - Multiple bug fixes and stability improvements.",
+   "published_at": "2026-11-04T18:04:20Z",
+   "html_url": "https://github.com/Aebisc/Workout-Planner/releases/tag/V1.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 710377985,
+    "name": "WorkoutPlanner-arm64-Android-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 6827842,
+    "download_url": "https://github.com/Aebisc/Workout-Planner/releases/download/V1.2/WorkoutPlanner-arm64-Android-release.apk",
+    "digest": "sha256:f8503a61c9aa1d47a31c358fbaa68cd01d3311787e803c3ceb3f40e4f9527a87",
+    "download_count": 0
+   },
+   {
+    "id": 710414681,
+    "name": "Workout_Planner_v1.2.0_x64-Windows-setup.exe",
+    "content_type": "application/x-msdownload",
+    "size": 1771722,
+    "download_url": "https://github.com/Aebisc/Workout-Planner/releases/download/V1.2/Workout_Planner_v1.2.0_x64-Windows-setup.exe",
+    "digest": "sha256:5f67160d2052435e41d84bc09c972e6075d27631bf73dd6f34afefa7ccfacd4d",
+    "download_count": 0
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-02",
   "repo": {
    "id": 1209250768,
@@ -715384,7 +716412,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1243871576,
    "full_name": "sahilsaraearth-svg/citydrive-game",
@@ -715428,7 +716456,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1265143681,
    "full_name": "thedarkxh/hermes-android",
@@ -725321,7 +726349,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1393970939,
    "full_name": "unknwnco/FinanceBook-Releases-UNKNWNCO",
@@ -725365,7 +726393,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1283889350,
    "full_name": "chrisurwin/android-finance-app",
@@ -725409,7 +726437,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1347253170,
    "full_name": "fedor655/usb-cam-android",
@@ -725462,7 +726490,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1430884758,
    "full_name": "sikorokoro44/Messenger-Pro",
@@ -725515,7 +726543,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1182554499,
    "full_name": "ponrajaruldas/finance-tracker-android",
@@ -725559,7 +726587,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1162261591,
    "full_name": "youngbinkim0/spoke-express",
@@ -725647,7 +726675,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1353372987,
    "full_name": "yongjiangshi/suica-expense",
@@ -725753,7 +726781,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1405674509,
    "full_name": "AquilaWei/OpenPRT",
@@ -725860,7 +726888,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1289239405,
    "full_name": "raullavita/SSC",
@@ -725883,10 +726911,10 @@
    "created_at": "2026-07-04T13:50:43Z",
    "license": "Other",
    "language": "Python",
-   "openIssues": 29,
+   "openIssues": 30,
    "watchers": null,
    "homepage": "https://www.supersecurechat.com",
-   "pushedAt": "2026-10-31T14:24:20Z"
+   "pushedAt": "2026-11-03T03:36:20Z"
   },
   "release": {
    "id": 356393453,
@@ -725929,7 +726957,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1239342000,
    "full_name": "secondjb/AnnArBoard-Mobile",
@@ -725973,7 +727001,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 237722750,
    "full_name": "akashd50/Snowline",
@@ -726017,7 +727045,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1411828071,
    "full_name": "vxtor012/finance-secretary-android",
@@ -726070,7 +727098,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1416253583,
    "full_name": "rilclesaraiva/BusBus",
@@ -726091,14 +727119,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-23T19:44:17Z",
+   "updated_at": "2026-11-04T14:07:53Z",
    "created_at": "2026-10-13T00:04:48Z",
    "license": "GPL-3.0",
    "language": "JavaScript",
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://bus-bus-qdmb.vercel.app/",
-   "pushedAt": "2026-10-18T22:19:22Z"
+   "pushedAt": "2026-11-04T14:07:49Z"
   },
   "release": {
    "id": 416744861,
@@ -726117,13 +727145,13 @@
     "size": 3846560,
     "download_url": "https://github.com/rilclesaraiva/BusBus/releases/download/v1.7.0/busbus_v1.7.0.apk",
     "digest": "sha256:87e068ada696a20e65229f01e91e5da94606f9d490b864f45d64b30ed3f81441",
-    "download_count": 6
+    "download_count": 9
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1230283220,
    "full_name": "pocket-financer/pocket-financer-android",
@@ -726142,7 +727170,7 @@
    "openIssues": 5,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-11T22:38:05Z"
+   "pushedAt": "2026-11-02T17:27:32Z"
   },
   "release": {
    "id": 378648216,
@@ -726176,7 +727204,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1402894889,
    "full_name": "kulikartemtop-hash/vip-finance-android",
@@ -726264,7 +727292,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1375461261,
    "full_name": "Hamido212/checkit",
@@ -746223,7 +747251,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1434156022,
    "full_name": "htbNoob/VarFit",
@@ -746267,7 +747295,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-05",
   "repo": {
    "id": 1439342159,
    "full_name": "Arnav-Dugad/metropulse",
@@ -748179,6 +749207,219 @@
     "download_url": "https://github.com/RaMich271de/kreuz-solitaer/releases/download/v1.0.0/kreuzsolitaer.apk",
     "digest": "sha256:2dc57dc9ff0385628656f3c5b1d6fae24da82140af44e1167adda47790a28552",
     "download_count": 2
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1445932810,
+   "full_name": "vipa-ch-cloud/TgAuto",
+   "owner": "vipa-ch-cloud",
+   "avatar_url": "https://avatars.githubusercontent.com/u/176752493?v=4",
+   "description": "Run your Telethon Telegram userbot scripts on Android (Chaquopy)",
+   "stars": 0,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T17:07:50Z",
+   "created_at": "2026-11-04T16:44:29Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-04T17:07:47Z"
+  },
+  "release": {
+   "id": 434212710,
+   "tag": "v1.7",
+   "name": "TgAuto 1.7",
+   "notes": "- English localization of the app (follows system language; Russian stays for ru locale). Script config schemas can provide title_en/description_en.\n- License: GNU GPL-3.0-or-later.\n- English README and guide (README.en.md, GUIDE.en.md).\n\n- Английская локализация приложения (по языку системы, для ru остаётся русский).\n- Лицензия GNU GPL-3.0-or-later.\n- README и руководство на английском.",
+   "published_at": "2026-11-04T17:07:59Z",
+   "html_url": "https://github.com/vipa-ch-cloud/TgAuto/releases/tag/v1.7",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 710258189,
+    "name": "TgAuto-1.7.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 34770918,
+    "download_url": "https://github.com/vipa-ch-cloud/TgAuto/releases/download/v1.7/TgAuto-1.7.apk",
+    "digest": "sha256:c3a49f25d4e6534762c472ebbb5d69ad4804f294f6b4f6d8c1a91b375f3843b5",
+    "download_count": 1
+   },
+   {
+    "id": 710258188,
+    "name": "TgAuto-nightly-1.7.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 34771458,
+    "download_url": "https://github.com/vipa-ch-cloud/TgAuto/releases/download/v1.7/TgAuto-nightly-1.7.apk",
+    "digest": "sha256:75bda0ba4a92a806d7dab9aa8a9c1045d6826ef20d13104de7ea2e96344c3bda",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1443328481,
+   "full_name": "Derigava/tg-ws-proxy-android",
+   "owner": "Derigava",
+   "avatar_url": "https://avatars.githubusercontent.com/u/159071056?v=4",
+   "description": "Локальный MTProto-прокси для Telegram на Android. Ядро Flowseal, без root и VPN.",
+   "stars": 0,
+   "forks": 0,
+   "topics": [
+    "android",
+    "chaquopy",
+    "jetpack-compose",
+    "kotlin",
+    "mtproto",
+    "mtproto-proxy",
+    "proxy",
+    "telegram",
+    "websocket"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T19:57:28Z",
+   "created_at": "2026-11-02T18:21:49Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://github.com/Derigava/tg-ws-proxy-android/releases/latest",
+   "pushedAt": "2026-11-04T19:57:24Z"
+  },
+  "release": {
+   "id": 434239478,
+   "tag": "v1.0.24",
+   "name": "TG WS Proxy Android 1.0.24",
+   "notes": "Ядро Flowseal: 1.11.4\nAndroid versionCode: 1024\n\nСобрано из зафиксированных исходников после проверок Python, JVM, Android 16 КБ и бинарников ARM64.\nСкачай APK ниже и установи поверх текущей версии. Контрольная сумма лежит в SHA256SUMS.\n\nFlowseal core: 1.11.4. Download the APK below and install it over the current version.\n",
+   "published_at": "2026-11-04T17:34:24Z",
+   "html_url": "https://github.com/Derigava/tg-ws-proxy-android/releases/tag/v1.0.24",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 710333997,
+    "name": "SHA256SUMS",
+    "content_type": "application/octet-stream",
+    "size": 93,
+    "download_url": "https://github.com/Derigava/tg-ws-proxy-android/releases/download/v1.0.24/SHA256SUMS",
+    "digest": "sha256:837f05b73d0c69d4eae33ec06de4586090355b2f67567bfb143d62757ecfff2d",
+    "download_count": 1
+   },
+   {
+    "id": 710333991,
+    "name": "tgwsproxy-1.0.24-arm64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 26829086,
+    "download_url": "https://github.com/Derigava/tg-ws-proxy-android/releases/download/v1.0.24/tgwsproxy-1.0.24-arm64.apk",
+    "digest": "sha256:59faf85d6551b423337087ee349a47ec1393ebd0841e102b98583b5d56b98d25",
+    "download_count": 4
+   },
+   {
+    "id": 710333993,
+    "name": "update.json",
+    "content_type": "application/json",
+    "size": 172,
+    "download_url": "https://github.com/Derigava/tg-ws-proxy-android/releases/download/v1.0.24/update.json",
+    "digest": "sha256:13b91200214c66d75f8711a4a1f9d1fce34c79677f7e20fee1f16df963645851",
+    "download_count": 4
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1430431472,
+   "full_name": "LuKingProgram/previsao-financeira-android",
+   "owner": "LuKingProgram",
+   "avatar_url": "https://avatars.githubusercontent.com/u/342541113?v=4",
+   "description": "Aplicativo Android independente de previsibilidade financeira; identidade, código e planejamento próprios.",
+   "stars": 0,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-28T22:48:58Z",
+   "created_at": "2026-10-23T00:59:19Z",
+   "license": null,
+   "language": "TypeScript",
+   "openIssues": 10,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-28T22:25:41Z"
+  },
+  "release": {
+   "id": 427250078,
+   "tag": "v0.3.0-teste-20261028",
+   "name": "Din Din — teste de entrada no Supabase",
+   "notes": "## Teste de conta\r\n\r\nInstale **DinDin-conta-teste.apk** por cima da versão anterior, sem desinstalar. Abra Configurações → Conta de teste e entre com o usuário criado no projeto de desenvolvimento.\r\n\r\n- Esta compilação inclui a URL e a chave publicável do projeto `dindin-dev`. A senha do usuário e chaves administrativas não foram incluídas.\r\n- Os lançamentos continuam somente no aparelho; o login ainda não protege, envia ou recupera esses dados. Use apenas dados fictícios.\r\n- Recuperação de senha por e-mail, migração do banco, testes RLS e sincronização ainda estão pendentes.\r\n- Android 7.0 ou superior. Mesmo pacote e certificado da prévia anterior; versionCode 2.\r\n- Verificações: 47 testes, TypeScript, lint, compilação Android e abertura da tela de conta no emulador. Login real ainda não testado.\r\n- Código na pasta `prototipo-dindin/` desta tag; a branch `main` não foi alterada.",
+   "published_at": "2026-10-28T22:25:41Z",
+   "html_url": "https://github.com/LuKingProgram/previsao-financeira-android/releases/tag/v0.3.0-teste-20261028",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 686538548,
+    "name": "DinDin-conta-teste.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 108171742,
+    "download_url": "https://github.com/LuKingProgram/previsao-financeira-android/releases/download/v0.3.0-teste-20261028/DinDin-conta-teste.apk",
+    "digest": "sha256:bb8d012714271a867b3e1947fa29b1fc8dd628cf8480222aa4d27edd255b1610",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-05",
+  "repo": {
+   "id": 1358845818,
+   "full_name": "Mazzzuta/TravelLog-android",
+   "owner": "Mazzzuta",
+   "avatar_url": "https://avatars.githubusercontent.com/u/151546893?v=4",
+   "description": "Дневник путешествий - Android приложение",
+   "stars": 0,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-10-19T05:27:47Z",
+   "created_at": "2026-09-06T06:15:34Z",
+   "license": null,
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-19T05:47:13Z"
+  },
+  "release": {
+   "id": 416935882,
+   "tag": "v1.0.1",
+   "name": "TravelLog 1.0.1",
+   "notes": "TravelLog - дневник путешествий для Android. Сохраняйте воспоминания с фотографиями, местоположением и тегами, объединяйте записи в поездки и смотрите статистику.",
+   "published_at": "2026-10-19T05:47:13Z",
+   "html_url": "https://github.com/Mazzzuta/TravelLog-android/releases/tag/v1.0.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 655350460,
+    "name": "app-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 60374483,
+    "download_url": "https://github.com/Mazzzuta/TravelLog-android/releases/download/v1.0.1/app-release.apk",
+    "digest": "sha256:6006e60e7069b1fa1922d55c1e655c30c0a2a5e629f7a13d49a5e333af4c1050",
+    "download_count": 8
    }
   ]
  }
