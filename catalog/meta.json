@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "scanned_at": "2026-11-06T14:44:50.701303+00:00",
+ "scanned_at": "2026-11-07T00:13:27.452244+00:00",
  "tool": "tools/scan.py",
  "query_set": 4,
  "query_sets": [
@@ -22,19 +22,19 @@
   "android email archived:false fork:false",
   "android education archived:false fork:false"
  ],
- "candidates": 9769,
- "pending": 6453,
- "checked": 1692,
+ "candidates": 9770,
+ "pending": 4762,
+ "checked": 0,
  "checked_total": 5008,
- "verified_today": 386,
- "carried_over": 11678,
+ "verified_today": 0,
+ "carried_over": 11685,
  "dropped_stale": 0,
  "truncated": true,
  "resumed": true,
  "interrupted": false,
  "complete": false,
  "error": null,
- "duration_s": 2100.5,
+ "duration_s": 14119.3,
  "matches": 11685,
  "index_matches": 11685,
  "index_bytes": 9668951
