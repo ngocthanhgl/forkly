@@ -486839,7 +486839,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1427924963,
    "full_name": "titi14gj/quiet-tv",
@@ -486856,7 +486856,7 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-03T02:50:26Z",
+   "updated_at": "2026-11-05T03:19:23Z",
    "created_at": "2026-10-21T05:36:31Z",
    "license": "Other",
    "language": "Java",
@@ -486882,7 +486882,7 @@
     "size": 4709804,
     "download_url": "https://github.com/titi14gj/quiet-tv/releases/download/v5.2/QuietTV-5.2.apk",
     "digest": "sha256:526bf1d2b52bdb22b776b4e42bdd347d198d87a027e1f6f3c4fa71661e9fcea9",
-    "download_count": 164
+    "download_count": 171
    },
    {
     "id": 661477684,
@@ -492591,7 +492591,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 879214530,
    "full_name": "techyminati/DeviceDiagnosticsLauncher",
@@ -492635,7 +492635,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1123209028,
    "full_name": "mlm-games/dizzify",
@@ -492682,7 +492682,7 @@
     "size": 4016893,
     "download_url": "https://github.com/mlm-games/dizzify/releases/download/v1.0.4/dizzify-v1.0.4-armeabi-v7a.apk",
     "digest": "sha256:f403468e1611d0b1e691dd51025276aadb35190d82c66ca094ad78fdd8481e32",
-    "download_count": 84
+    "download_count": 89
    },
    {
     "id": 333384542,
@@ -492724,7 +492724,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 196434200,
    "full_name": "carlo-colombo/neurhome",
@@ -492741,75 +492741,75 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-28T04:13:03Z",
+   "updated_at": "2026-11-04T04:11:04Z",
    "created_at": "2019-07-11T16:59:21Z",
    "license": "GPL-3.0",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-28T04:17:19Z"
+   "pushedAt": "2026-11-04T04:17:03Z"
   },
   "release": {
-   "id": 426256747,
-   "tag": "1.1.0-build.238",
-   "name": "1.1.0-build.238",
-   "notes": "Licensed under the GNU General Public License, version 3 or later (GPL-3.0-or-later).\nCopyright (C) 2023-2026 Carlo Colombo.\n\nCorresponding Source for this binary is the source tree at tag\n1.1.0-build.238:\nhttps://github.com/carlo-colombo/neurhome/tree/1.1.0-build.238\n\nThe full license text and the third-party notices are attached to this release and are\nalso packaged inside the APK under `assets/licenses/`.\n",
-   "published_at": "2026-10-28T04:17:35Z",
-   "html_url": "https://github.com/carlo-colombo/neurhome/releases/tag/1.1.0-build.238",
+   "id": 433507341,
+   "tag": "1.1.0-build.239",
+   "name": "1.1.0-build.239",
+   "notes": "Licensed under the GNU General Public License, version 3 or later (GPL-3.0-or-later).\nCopyright (C) 2023-2026 Carlo Colombo.\n\nCorresponding Source for this binary is the source tree at tag\n1.1.0-build.239:\nhttps://github.com/carlo-colombo/neurhome/tree/1.1.0-build.239\n\nThe full license text and the third-party notices are attached to this release and are\nalso packaged inside the APK under `assets/licenses/`.\n",
+   "published_at": "2026-11-04T04:17:19Z",
+   "html_url": "https://github.com/carlo-colombo/neurhome/releases/tag/1.1.0-build.239",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 683793422,
+    "id": 708190460,
     "name": "LICENSE",
     "content_type": "application/octet-stream",
     "size": 35149,
-    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.238/LICENSE",
+    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.239/LICENSE",
     "digest": "sha256:3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
-    "download_count": 0
-   },
-   {
-    "id": 683793421,
-    "name": "neurhome-1.1.0-build.238.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 3390880,
-    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.238/neurhome-1.1.0-build.238.apk",
-    "digest": "sha256:9a0717f0ac36e59d104c538f1de7cdb0d167751cce62d34b03503570ecaec4d9",
     "download_count": 1
    },
    {
-    "id": 683793417,
-    "name": "neurhome-1.1.0-build.238.apk.sha256",
-    "content_type": "application/octet-stream",
-    "size": 95,
-    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.238/neurhome-1.1.0-build.238.apk.sha256",
-    "digest": "sha256:98c693bbc2b468913c424c708d362367524be4f4f10c4adda3ca838fca50aed1",
-    "download_count": 0
+    "id": 708190466,
+    "name": "neurhome-1.1.0-build.239.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 3374496,
+    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.239/neurhome-1.1.0-build.239.apk",
+    "digest": "sha256:6f6415c30ab770f4b8a5697a2e4cc954ac01d947fcf385d09950600bcbed5386",
+    "download_count": 1
    },
    {
-    "id": 683793418,
+    "id": 708190458,
+    "name": "neurhome-1.1.0-build.239.apk.sha256",
+    "content_type": "application/octet-stream",
+    "size": 95,
+    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.239/neurhome-1.1.0-build.239.apk.sha256",
+    "digest": "sha256:35f8cee31e2c7be6bcf896676690e6f1a4ba79557718fbef04399e2c351448a7",
+    "download_count": 1
+   },
+   {
+    "id": 708190457,
     "name": "NOTICE",
     "content_type": "application/octet-stream",
     "size": 911,
-    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.238/NOTICE",
+    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.239/NOTICE",
     "digest": "sha256:dbf2ca2acef4ac857d4607a5fd8b870387d6b0a96573708f0aeabad3e73ce284",
-    "download_count": 0
+    "download_count": 1
    },
    {
-    "id": 683793424,
+    "id": 708190464,
     "name": "THIRD_PARTY_LICENSES.md",
     "content_type": "text/markdown",
     "size": 20425,
-    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.238/THIRD_PARTY_LICENSES.md",
+    "download_url": "https://github.com/carlo-colombo/neurhome/releases/download/1.1.0-build.239/THIRD_PARTY_LICENSES.md",
     "digest": "sha256:a5582dfb2fbfcea599d47e3fc1d15ae8bccd27d5d6a5635b9a8a6b635d6a6a86",
-    "download_count": 0
+    "download_count": 1
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1234584291,
    "full_name": "BorgorNinja/aura-launcher",
@@ -492847,7 +492847,7 @@
     "size": 16677151,
     "download_url": "https://github.com/BorgorNinja/aura-launcher/releases/download/v1.0.65/app-debug.apk",
     "digest": "sha256:388f708e7d4793abafb36c8ec4368d7ff6d6226260f69e60ec32ac0ad564505f",
-    "download_count": 1
+    "download_count": 2
    },
    {
     "id": 605431473,
@@ -492856,13 +492856,13 @@
     "size": 1917690,
     "download_url": "https://github.com/BorgorNinja/aura-launcher/releases/download/v1.0.65/app-release.apk",
     "digest": "sha256:2c04fc18fcb77aca0e86bd69c804e6d1fdd281949f55ef52d2e7644685f2676a",
-    "download_count": 5
+    "download_count": 6
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 356019163,
    "full_name": "nayash/smarter-launcher",
@@ -492912,7 +492912,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1073732526,
    "full_name": "BayonetArch/tx_launch",
@@ -492956,13 +492956,13 @@
     "size": 33761887,
     "download_url": "https://github.com/BayonetArch/tx_launch/releases/download/termux_action_build/termux-app_v0.118.0%2B84a4318-apt-android-7-github-debug_arm64-v8a.apk",
     "digest": "sha256:a492d2eff6da0957612a5bf01ac68ac89e079b3dd3cfd904a4e1024bf58abfb0",
-    "download_count": 29
+    "download_count": 30
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1349570805,
    "full_name": "EnoMettaj123/hello-watch-apple-launcher",
@@ -493021,13 +493021,13 @@
     "size": 6802924,
     "download_url": "https://github.com/EnoMettaj123/hello-watch-apple-launcher/releases/download/v0.3.0-beta/hello-watch-apple-launcher-v0.3.0-beta.apk",
     "digest": "sha256:b637ba9d5dbc10c6c997e89795e978818f82411185045ff24898f726daf77899",
-    "download_count": 57
+    "download_count": 62
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1219705167,
    "full_name": "SysAdminDoc/one-ui-home-clone",
@@ -493084,7 +493084,7 @@
     "size": 4037538,
     "download_url": "https://github.com/SysAdminDoc/one-ui-home-clone/releases/download/v0.2.6/one-ui-home-clone-v0.2.6-release.apk",
     "digest": "sha256:9a140a1cfffb118d0c0d1cf93f43a8307914cf2f1d9725c8b6184ce6b1ed2a56",
-    "download_count": 352
+    "download_count": 383
    },
    {
     "id": 549873130,
@@ -493093,7 +493093,7 @@
     "size": 103,
     "download_url": "https://github.com/SysAdminDoc/one-ui-home-clone/releases/download/v0.2.6/one-ui-home-clone-v0.2.6-release.apk.sha256",
     "digest": "sha256:dd494cfffb298e3504414e088242a1575e69e3dc19281d439241e2a736d4caae",
-    "download_count": 11
+    "download_count": 13
    },
    {
     "id": 549873133,
@@ -493102,13 +493102,13 @@
     "size": 661,
     "download_url": "https://github.com/SysAdminDoc/one-ui-home-clone/releases/download/v0.2.6/one-ui-home-clone-v0.2.6-release.json",
     "digest": "sha256:23506f4b798c0a38956131cc65225dc2d047dc2ea3f0b2175592a2bdd2f2fe64",
-    "download_count": 4
+    "download_count": 5
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1325943312,
    "full_name": "mmwtl/AtlasMediaWidget",
@@ -493120,39 +493120,39 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-16T12:51:52Z",
+   "updated_at": "2026-11-06T14:23:37Z",
    "created_at": "2026-08-06T22:18:59Z",
    "license": null,
    "language": "Java",
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-16T12:51:50Z"
+   "pushedAt": "2026-11-06T14:23:35Z"
   },
   "release": {
-   "id": 414960296,
-   "tag": "4.2.4",
-   "name": "AtlasMediaWidget 4.2.4",
-   "notes": "- На вкладке «Система» появилась рекомендация GStore с QR-кодом для установки и автоматических обновлений.\n- Рядом с заголовком настроек показана версия приложения.\n- Обложки онлайн-плеера показываются на приборной панели, а в диагностике видно, где хранятся обложки для приборки.\n- Автовоспроизведение не включается во время звонка: музыка больше не запускается и не останавливается несколько раз подряд.\n- Если одновременно играют два плеера, кнопки виджета управляют плеером на карточке, а не переключают треки то в одном, то в другом.\n",
-   "published_at": "2026-10-16T12:51:54Z",
-   "html_url": "https://github.com/mmwtl/AtlasMediaWidget/releases/tag/4.2.4",
+   "id": 436592212,
+   "tag": "4.3.2",
+   "name": "AtlasMediaWidget 4.3.2",
+   "notes": "- Карточку с обложкой можно сделать прозрачной: ползунок «Непрозрачность карточки с обложкой» под затемнением обложки на вкладке «Карточка». Работает и в компактной, и в просторной карточке.\n- Новый ползунок «Непрозрачность элементов» делает прозрачнее текст, плашки, прогресс и кнопки поверх фона.\n",
+   "published_at": "2026-11-06T14:23:36Z",
+   "html_url": "https://github.com/mmwtl/AtlasMediaWidget/releases/tag/4.3.2",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 647327934,
-    "name": "AtlasMediaWidget-4.2.4-114.apk",
+    "id": 717417423,
+    "name": "AtlasMediaWidget-4.3.2-130.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 7041562,
-    "download_url": "https://github.com/mmwtl/AtlasMediaWidget/releases/download/4.2.4/AtlasMediaWidget-4.2.4-114.apk",
-    "digest": "sha256:a358a66164e33d161c613cbc5d3fae48076d09bebbe443b59f6d040046d4f2dc",
-    "download_count": 92
+    "size": 7075866,
+    "download_url": "https://github.com/mmwtl/AtlasMediaWidget/releases/download/4.3.2/AtlasMediaWidget-4.3.2-130.apk",
+    "digest": "sha256:4b5d9cda9007fedece45732354e9a1fdba6e6e795a83a5e9e19ca5bcc51bc300",
+    "download_count": 14
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1283190668,
    "full_name": "TheStrongestOfTomorrow/Chipstrap",
@@ -493190,7 +493190,7 @@
     "size": 22070078,
     "download_url": "https://github.com/TheStrongestOfTomorrow/Chipstrap/releases/download/v20260718-090312-fb5ff8a/Chipstrap-debug-fb5ff8a.apk",
     "digest": "sha256:09a85352f5e4b5b738c145f7b8c5374fcb21cdd8d5d0753507630b6b5ff31312",
-    "download_count": 321
+    "download_count": 360
    },
    {
     "id": 481325328,
@@ -493199,7 +493199,7 @@
     "size": 15261408,
     "download_url": "https://github.com/TheStrongestOfTomorrow/Chipstrap/releases/download/v20260718-090312-fb5ff8a/Chipstrap-release-fb5ff8a.apk",
     "digest": "sha256:381f07b0372881242e3b95d04d3aa749ca6525ec59ad1ccfa16200bb429b843d",
-    "download_count": 285
+    "download_count": 316
    }
   ]
  },
@@ -501285,7 +501285,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1329226319,
    "full_name": "LXK-98/zalith-voxy",
@@ -501344,7 +501344,7 @@
     "size": 5522496,
     "download_url": "https://github.com/LXK-98/zalith-voxy/releases/download/v0.1.0/kopper-zink26-plugin.apk",
     "digest": "sha256:8aa2dd635f10ce72cf0cc77d8d203df2ed0b22c3c638f1240d81b7a038c3991b",
-    "download_count": 453
+    "download_count": 481
    },
    {
     "id": 510558746,
@@ -501353,7 +501353,7 @@
     "size": 9256063,
     "download_url": "https://github.com/LXK-98/zalith-voxy/releases/download/v0.1.0/rocksdb-native-plugin.apk",
     "digest": "sha256:62ead44ab1fb7a7dfe9a9ffd2ffe1a9a4031ab1d56f8cbc438213493c31683c5",
-    "download_count": 407
+    "download_count": 429
    },
    {
     "id": 510558745,
@@ -501362,7 +501362,7 @@
     "size": 459,
     "download_url": "https://github.com/LXK-98/zalith-voxy/releases/download/v0.1.0/SHA256SUMS",
     "digest": "sha256:ec8d936fa94dd5c9df91653cb8afdb02e24242e8f657cfddc32f12f55bb2b157",
-    "download_count": 72
+    "download_count": 75
    },
    {
     "id": 510558743,
@@ -501371,7 +501371,7 @@
     "size": 3657636,
     "download_url": "https://github.com/LXK-98/zalith-voxy/releases/download/v0.1.0/turnip-plugin.apk",
     "digest": "sha256:eb849025edd09ab8654e69dfd8f45b5a3b08247878d9cdbf13bb578db7441408",
-    "download_count": 384
+    "download_count": 408
    },
    {
     "id": 510558744,
@@ -501380,7 +501380,7 @@
     "size": 4956,
     "download_url": "https://github.com/LXK-98/zalith-voxy/releases/download/v0.1.0/voxy-android-compat-0.2.0.jar",
     "digest": "sha256:daf67aefbd8f3f608569c7668a6cc9745c90b61920a49aa75e22a0adc73e9208",
-    "download_count": 348
+    "download_count": 366
    },
    {
     "id": 510558755,
@@ -501389,7 +501389,7 @@
     "size": 645190,
     "download_url": "https://github.com/LXK-98/zalith-voxy/releases/download/v0.1.0/zink-env-plugin.apk",
     "digest": "sha256:0508ec880bc27b40356a38de287890d151d18ad936bb7faa9146ac7c76aa3b50",
-    "download_count": 181
+    "download_count": 192
    }
   ]
  },
@@ -507004,7 +507004,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1431147338,
    "full_name": "MatheusJorgee/TvClean",
@@ -507060,13 +507060,13 @@
     "size": 254991,
     "download_url": "https://github.com/MatheusJorgee/TvClean/releases/download/v1.0.0/TvClean.apk",
     "digest": "sha256:c29640254725efe668095d9c2ecf3f472a1b7357006bd3fbc270983ee72b05c7",
-    "download_count": 47
+    "download_count": 53
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1433404783,
    "full_name": "Rashica07/omni-tv",
@@ -507114,7 +507114,7 @@
     "size": 2714989,
     "download_url": "https://github.com/Rashica07/omni-tv/releases/download/1.0.0-rc.10/omni-1.0.0-rc.10.apk",
     "digest": "sha256:35e116730d2a66dd2944ad5945ab00e93880a260b69c0fee6897b258fbd6559e",
-    "download_count": 21
+    "download_count": 27
    }
   ]
  },
@@ -508970,7 +508970,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1256539492,
    "full_name": "LiferLighdow/Iteration",
@@ -508992,66 +508992,66 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-01T11:48:25Z",
+   "updated_at": "2026-11-05T13:25:30Z",
    "created_at": "2026-06-01T21:52:19Z",
    "license": "MIT",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-11-01T11:52:23Z"
+   "pushedAt": "2026-11-05T13:29:21Z"
   },
   "release": {
-   "id": 432745268,
-   "tag": "v6.4.2",
-   "name": "Release v6.4.2",
-   "notes": "Automated release for version 6.4.2.\n\n**Commit Info:**\n- Commit: 0174bebe8c4cdcf58b2467ae7f68e6722c9d676d\n- Timestamp: 2026-11-03T21:32:05+08:00\n\n\n**Full Changelog**: https://github.com/LiferLighdow/Iteration/compare/v6.4.1...v6.4.2",
-   "published_at": "2026-11-03T13:38:47Z",
-   "html_url": "https://github.com/LiferLighdow/Iteration/releases/tag/v6.4.2",
+   "id": 435239567,
+   "tag": "v6.5",
+   "name": "Release v6.5",
+   "notes": "Automated release for version 6.5.\n\n**Commit Info:**\n- Commit: 418511a9e3909f7341ddf8f198b5623b0997f9dd\n- Timestamp: 2026-11-05T21:25:20+08:00\n\n\n**Full Changelog**: https://github.com/LiferLighdow/Iteration/compare/v6.4.3...v6.5",
+   "published_at": "2026-11-05T13:29:22Z",
+   "html_url": "https://github.com/LiferLighdow/Iteration/releases/tag/v6.5",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 705741553,
+    "id": 713513814,
     "name": "app-arm64-v8a-release-unsigned-signed.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 5777256,
-    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.4.2/app-arm64-v8a-release-unsigned-signed.apk",
-    "digest": "sha256:811024f6f46afb201137bb0c73c261982f87a575612932775ff127a50f1dcbce",
-    "download_count": 1
+    "size": 5781352,
+    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.5/app-arm64-v8a-release-unsigned-signed.apk",
+    "digest": "sha256:37fadb8e595c0f24d330ab4727534d8a7eb9e741da04f77d42c69a35d9af23ac",
+    "download_count": 4
    },
    {
-    "id": 705741554,
+    "id": 713513821,
     "name": "app-armeabi-v7a-release-unsigned-signed.apk",
     "content_type": "application/vnd.android.package-archive",
     "size": 5777258,
-    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.4.2/app-armeabi-v7a-release-unsigned-signed.apk",
-    "digest": "sha256:71e549ceae85df8429207bb0b14b72dde21e9b4c121287b8daa2b3595ead5e29",
-    "download_count": 1
+    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.5/app-armeabi-v7a-release-unsigned-signed.apk",
+    "digest": "sha256:128754d1e3740cda4fdb8d348f054cc73310dae2e8901da010c79c4d3191fdbe",
+    "download_count": 0
    },
    {
-    "id": 705741555,
+    "id": 713513811,
     "name": "app-universal-release-unsigned-signed.apk",
     "content_type": "application/vnd.android.package-archive",
     "size": 5830761,
-    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.4.2/app-universal-release-unsigned-signed.apk",
-    "digest": "sha256:781d16af4f97b06b75c9f106047cfbca4c4f58e2ea12d03bd4c01409b642f79b",
+    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.5/app-universal-release-unsigned-signed.apk",
+    "digest": "sha256:093babc73cd817a9ff0138262682c105f5c72f463b483bffa2415d3a69285723",
     "download_count": 1
    },
    {
-    "id": 705741551,
+    "id": 713513815,
     "name": "app-x86_64-release-unsigned-signed.apk",
     "content_type": "application/vnd.android.package-archive",
     "size": 5781349,
-    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.4.2/app-x86_64-release-unsigned-signed.apk",
-    "digest": "sha256:6642700f401b2310d9f81041fca4a65ab369e46cacc91bb14e2aa3e910140e58",
-    "download_count": 1
+    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.5/app-x86_64-release-unsigned-signed.apk",
+    "digest": "sha256:dd1e72fe597afa880a9e575093a4e27d996369c053c51c6896caab80f35f659f",
+    "download_count": 0
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1182308620,
    "full_name": "DHIRAJ-J-S/MinimalSF_Launcher",
@@ -509074,39 +509074,39 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-01T09:13:38Z",
+   "updated_at": "2026-11-06T06:14:03Z",
    "created_at": "2026-03-15T10:44:09Z",
    "license": "MIT",
    "language": "Kotlin",
-   "openIssues": 7,
+   "openIssues": 3,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-04T09:07:07Z"
+   "pushedAt": "2026-11-06T06:13:59Z"
   },
   "release": {
-   "id": 402935139,
-   "tag": "v1.2.2",
-   "name": "v1.2.2 - New app ID",
-   "notes": "### New app ID\r\nThe app ID is now `io.github.dhiraj_j_s.minimalsf` (was `com.minimal.launcher`, which another app on Google Play already uses).\r\n\r\n**Already using MinimalSF?** This installs as a separate app. Install it, set it as your home app, then uninstall the old version. Settings do not carry over.\r\nSorry For the Inconvenience. : )\r\n\r\n---\r\n\r\n📄 **[Full changelog](https://github.com/DHIRAJ-J-S/MinimalSF_Launcher/blob/main/CHANGELOG.md)**",
-   "published_at": "2026-10-04T09:11:04Z",
-   "html_url": "https://github.com/DHIRAJ-J-S/MinimalSF_Launcher/releases/tag/v1.2.2",
+   "id": 436166633,
+   "tag": "v1.3",
+   "name": "v1.3 - Number shortcuts, grid view & more",
+   "notes": "## New\n- **Number shortcuts:** search results are numbered, and typing the number opens that app. `w2` opens the 2nd result for `w`.\n- **Show only what you want:** hide the clock, date, screen time, music bar, todo list or bottom buttons. Buttons can be icon + text, icon only or text only.\n- **All apps as a grid**, with 2-7 columns.\n- **Work profile and dual apps** are listed, as `Name · work` and `Name · dual`, and apps with several icons show all of them.\n- **Landscape layout:** clock, music and todo on one side, search and apps on the other. It works with full and floating keyboards, and uses the full width when the left side is empty.\n- **Keyboard option:** choose whether the keyboard opens on its own on the home screen.\n- **App details:** long press shows the package name and version.\n\n## Changed\n- Settings are grouped into a short menu, and font size is in the font picker.\n- The RAM indicator is removed.\n- Default auto-launch delay is now 100ms. A delay you already chose is kept.\n- Long lists show a scroll bar, so it's clear they scroll.\n- Preinstalled apps that can't be removed no longer offer uninstall.\n\n## Fixed\n- Clock showing the old time after a timezone change\n- Typing going into the todo box after returning home\n- Now playing bar showing \"no music playing\" while music played\n- First flashlight toggle doing nothing when the torch was already on\n- Three crashes: certain app names in search, flashlight errors, and damaged todo data\n- On Android 13+, the app explains how to allow accessibility and notification access when Android blocks them\n\n## Thank you\nThis release was shaped by your suggestions. Thanks to:\n- **@0xlne** for the all apps grid (#5), the option to keep the keyboard closed (#4), app details on long press (#3), and reporting missing work profile apps (#6)\n- **@stevenbogaerts** for the idea to hide the clock, date, todo, RAM and buttons (#8)\n\nKeep the ideas and bug reports coming in [issues](https://github.com/DHIRAJ-J-S/MinimalSF_Launcher/is",
+   "published_at": "2026-11-06T06:13:56Z",
+   "html_url": "https://github.com/DHIRAJ-J-S/MinimalSF_Launcher/releases/tag/v1.3",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 609506294,
-    "name": "MinimalSF_v1.2.2.apk",
+    "id": 716126711,
+    "name": "MinimalSF_v1.3.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 1641789,
-    "download_url": "https://github.com/DHIRAJ-J-S/MinimalSF_Launcher/releases/download/v1.2.2/MinimalSF_v1.2.2.apk",
-    "digest": "sha256:95086360a4a9ec31ce6c1a89af0b24f62e9678c5f9754bb356b5264a88ff642c",
-    "download_count": 42
+    "size": 1657698,
+    "download_url": "https://github.com/DHIRAJ-J-S/MinimalSF_Launcher/releases/download/v1.3/MinimalSF_v1.3.apk",
+    "digest": "sha256:a3bad524e6ae4fbb2855201d047705feb9e10142577fc1ab0c99662677a125a4",
+    "download_count": 7
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1386588777,
    "full_name": "open-flight/openflight-mobile-kmp",
@@ -509118,14 +509118,14 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-02T21:46:07Z",
+   "updated_at": "2026-11-04T16:31:07Z",
    "created_at": "2026-09-25T02:08:03Z",
    "license": "AGPL-3.0",
    "language": "Kotlin",
    "openIssues": 30,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-11-02T19:39:30Z"
+   "pushedAt": "2026-11-06T03:27:36Z"
   },
   "release": {
    "id": 412351007,
@@ -510138,6 +510138,71 @@
     "download_url": "https://github.com/pavunato/CarDroid/releases/download/v0.1.2/CarDroid-v0.1.2.apk",
     "digest": "sha256:f3cd6b698fad9f13d9d3e996bde8f8a61b439d8631f6b55d3cdfb5f5aa72c56f",
     "download_count": 30
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1414621084,
+   "full_name": "jaroslav-sazma/cue-launcher",
+   "owner": "jaroslav-sazma",
+   "avatar_url": "https://avatars.githubusercontent.com/u/151405577?v=4",
+   "description": "Cue: React & Act: Android launcher. Your rules, your triggers. A dynamic dashboard that reacts to your context.",
+   "stars": 6,
+   "forks": 2,
+   "topics": [
+    "android",
+    "launcher"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-03T13:14:54Z",
+   "created_at": "2026-10-11T17:54:29Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 11,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-06T19:17:22Z"
+  },
+  "release": {
+   "id": 428511468,
+   "tag": "v1.1.0",
+   "name": "Cue: 1.1.0",
+   "notes": "Cue: React & Act 1.1.0 brings the Mac bridge: pair the phone with [Cue: Relay & Reply](https://github.com/jaroslav-sazma/cue-bridge), the free companion app on your Mac.\r\n\r\n- The notifications you choose appear on the Mac, where a reply or a dismissal flows back to\r\n  the phone — and what the Mac closes disappears on the phone too.\r\n- **Send to Mac** sits in every app's text-selection menu and share sheet; the Mac's clipboard\r\n  can be fetched to the phone.\r\n- New scenario pieces: the conditions **Mac nearby** and **Mac locked**, and the action\r\n  **Lock the Mac** — a tile can lock the Mac the moment you walk away.\r\n- Pairing is a short code typed on the Mac; everything is end-to-end encrypted between your\r\n  own two devices, with no server and no account. The protocol is public domain:\r\n  [docs/bridge-protocol.md](docs/bridge-protocol.md).\r\n\r\nThe bridge is off until you pair a Mac in *Settings → Mac bridge*; without one, nothing of it runs.\r\n\r\n**Download:** `cue-launcher-1.1.0.apk` below; check it with `shasum -a 256 -c cue-launcher-1.1.0.apk.sha256`. [Obtainium](https://obtainium.imranr.dev/) can watch these releases and offer updates.\r\n\r\n**Tip:** updating over 1.0.x keeps all your data; the Mac side needs [Cue: Relay & Reply 1.0.0](https://github.com/jaroslav-sazma/cue-bridge/releases).\r\n\r\n**Google Play:** the same version reaches the closed test at <https://play.google.com/apps/testing/app.cue.launcher>.",
+   "published_at": "2026-10-29T23:58:00Z",
+   "html_url": "https://github.com/jaroslav-sazma/cue-launcher/releases/tag/v1.1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 690307863,
+    "name": "cue-launcher-1.1.0-mapping.txt",
+    "content_type": "text/plain",
+    "size": 84968327,
+    "download_url": "https://github.com/jaroslav-sazma/cue-launcher/releases/download/v1.1.0/cue-launcher-1.1.0-mapping.txt",
+    "digest": "sha256:98a438a148102675adf251f8f7542d36590494b83c124cc188c25e292c837d93",
+    "download_count": 3
+   },
+   {
+    "id": 690308326,
+    "name": "cue-launcher-1.1.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 7937426,
+    "download_url": "https://github.com/jaroslav-sazma/cue-launcher/releases/download/v1.1.0/cue-launcher-1.1.0.apk",
+    "digest": "sha256:1a821181cea7a19a15381539e4b03c683de5bf3195f16b2456a839e818ee1fa3",
+    "download_count": 20
+   },
+   {
+    "id": 690308382,
+    "name": "cue-launcher-1.1.0.apk.sha256",
+    "content_type": "application/octet-stream",
+    "size": 89,
+    "download_url": "https://github.com/jaroslav-sazma/cue-launcher/releases/download/v1.1.0/cue-launcher-1.1.0.apk.sha256",
+    "digest": "sha256:2bb94c21c5409969b318606b193ff7e78ccd860fa03dc36da118c13038fba114",
+    "download_count": 4
    }
   ]
  },
@@ -514629,7 +514694,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 808584759,
    "full_name": "eja/launcher",
@@ -514679,13 +514744,13 @@
     "size": 5355349,
     "download_url": "https://github.com/eja/launcher/releases/download/v3.7.23/eja_launcher.apk",
     "digest": "sha256:604ed5f07a4b23f184de6563d95ac5cdccd23ed8fd6d764ce18636b57cd70e49",
-    "download_count": 62
+    "download_count": 63
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1398531791,
    "full_name": "hung-eggie-do-covergo/wildermyth-android",
@@ -514723,7 +514788,7 @@
     "size": 157640311,
     "download_url": "https://github.com/hung-eggie-do-covergo/wildermyth-android/releases/download/v0.9.7/Wildermyth-0.9.7.apk",
     "digest": "sha256:f17135e6438cf31d50eb637c6443b4781adadb785c81318f514b1078b2718886",
-    "download_count": 9
+    "download_count": 14
    }
   ]
  },
@@ -514773,7 +514838,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1111867152,
    "full_name": "HonQout/Sume_Launcher",
@@ -514785,39 +514850,39 @@
    "topics": [],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-10-29T05:53:59Z",
+   "updated_at": "2026-11-04T12:17:49Z",
    "created_at": "2025-12-07T19:26:55Z",
    "license": "GPL-3.0",
    "language": "Java",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-29T05:57:15Z"
+   "pushedAt": "2026-11-04T12:20:48Z"
   },
   "release": {
-   "id": 427512624,
-   "tag": "1.3.6",
-   "name": "1.3.6",
-   "notes": "2026-10-29\r\nVersion: 1.3.6 (10)\r\nChanges and improvements:\r\n1. Use unified AppExecutors to execute background tasks.\r\n2. Use LauncherApps to obtain application list and observe changes of applications.\r\n\r\n版本：1.3.6 (10)\r\n变更和改进：\r\n1. 使用统一的AppExecutors执行后台任务。\r\n2. 使用LauncherApps获取应用列表和观察应用变化。",
-   "published_at": "2026-10-29T05:57:15Z",
-   "html_url": "https://github.com/HonQout/Sume_Launcher/releases/tag/1.3.6",
+   "id": 433882083,
+   "tag": "1.3.7",
+   "name": "1.3.7",
+   "notes": "2026-11-04\r\nVersion: 1.3.7 (11)\r\nChanges and improvements:\r\n1. Added a dialog to show current state of device admin.\r\n2. Added a dialog before visiting GitHub page of this project.\r\n3. The state of App Drawer will be reset after close.\r\n\r\n版本：1.3.7 (11)\r\n变更和改进：\r\n1. 增加了一个显示当前设备管理器状态的对话框。\r\n2. 在访问此项目的GitHub页面之前，增加了一个对话框。\r\n3. 每次关闭后，应用抽屉的状态会被重置。",
+   "published_at": "2026-11-04T12:20:48Z",
+   "html_url": "https://github.com/HonQout/Sume_Launcher/releases/tag/1.3.7",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 687531527,
-    "name": "Sume_Launcher_1.3.6_all.apk",
+    "id": 709403348,
+    "name": "Sume_Launcher_1.3.7_all.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 2320579,
-    "download_url": "https://github.com/HonQout/Sume_Launcher/releases/download/1.3.6/Sume_Launcher_1.3.6_all.apk",
-    "digest": "sha256:bf3363394f5576ad3c06ac70795fa1a60d593577e61e8b5e977f3b5e192c3222",
-    "download_count": 3
+    "size": 2323704,
+    "download_url": "https://github.com/HonQout/Sume_Launcher/releases/download/1.3.7/Sume_Launcher_1.3.7_all.apk",
+    "digest": "sha256:0a571d9d8b1289bf66c1bd0732c3c0da1ac8dc9b56e8b375dc6fe08c30639a0c",
+    "download_count": 0
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1372471579,
    "full_name": "jimdeng1221-prog/MiDuo",
@@ -514855,7 +514920,7 @@
     "size": 2328866,
     "download_url": "https://github.com/jimdeng1221-prog/MiDuo/releases/download/v1.0.2/MiDuo-1.0.2-source.zip",
     "digest": "sha256:097ea913de6a0bf97c4fd51af5869473af358de41c5ec4a8b2aca3a3ffde263f",
-    "download_count": 1
+    "download_count": 3
    },
    {
     "id": 567116880,
@@ -514864,7 +514929,7 @@
     "size": 15120251,
     "download_url": "https://github.com/jimdeng1221-prog/MiDuo/releases/download/v1.0.2/MiDuo-1.0.2.apk",
     "digest": "sha256:225ee3ed8313055fdf91738ce828241cbaaa1337cc778287256a96206cd65602",
-    "download_count": 18
+    "download_count": 19
    },
    {
     "id": 567122289,
@@ -518807,7 +518872,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1003081535,
    "full_name": "georgesak/android-custom-app-launcher",
@@ -518845,7 +518910,7 @@
     "size": 6510053,
     "download_url": "https://github.com/georgesak/android-custom-app-launcher/releases/download/v1.5/CustomAppLauncher.v1.5.apk",
     "digest": "sha256:624443059944b3d5244427db7c173baaebf7056936a6fe7b4064349b2d296a18",
-    "download_count": 21
+    "download_count": 22
    }
   ]
  },
@@ -525182,72 +525247,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
-  "repo": {
-   "id": 1414621084,
-   "full_name": "jaroslav-sazma/cue-launcher",
-   "owner": "jaroslav-sazma",
-   "avatar_url": "https://avatars.githubusercontent.com/u/151405577?v=4",
-   "description": "Cue: React & Act: Android launcher. Your rules, your triggers. A dynamic dashboard that reacts to your context.",
-   "stars": 5,
-   "forks": 2,
-   "topics": [
-    "android",
-    "launcher"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-30T00:29:53Z",
-   "created_at": "2026-10-11T17:54:29Z",
-   "license": "GPL-3.0",
-   "language": "Kotlin",
-   "openIssues": 6,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-10-30T19:01:18Z"
-  },
-  "release": {
-   "id": 428511468,
-   "tag": "v1.1.0",
-   "name": "Cue: 1.1.0",
-   "notes": "Cue: React & Act 1.1.0 brings the Mac bridge: pair the phone with [Cue: Relay & Reply](https://github.com/jaroslav-sazma/cue-bridge), the free companion app on your Mac.\r\n\r\n- The notifications you choose appear on the Mac, where a reply or a dismissal flows back to\r\n  the phone — and what the Mac closes disappears on the phone too.\r\n- **Send to Mac** sits in every app's text-selection menu and share sheet; the Mac's clipboard\r\n  can be fetched to the phone.\r\n- New scenario pieces: the conditions **Mac nearby** and **Mac locked**, and the action\r\n  **Lock the Mac** — a tile can lock the Mac the moment you walk away.\r\n- Pairing is a short code typed on the Mac; everything is end-to-end encrypted between your\r\n  own two devices, with no server and no account. The protocol is public domain:\r\n  [docs/bridge-protocol.md](docs/bridge-protocol.md).\r\n\r\nThe bridge is off until you pair a Mac in *Settings → Mac bridge*; without one, nothing of it runs.\r\n\r\n**Download:** `cue-launcher-1.1.0.apk` below; check it with `shasum -a 256 -c cue-launcher-1.1.0.apk.sha256`. [Obtainium](https://obtainium.imranr.dev/) can watch these releases and offer updates.\r\n\r\n**Tip:** updating over 1.0.x keeps all your data; the Mac side needs [Cue: Relay & Reply 1.0.0](https://github.com/jaroslav-sazma/cue-bridge/releases).\r\n\r\n**Google Play:** the same version reaches the closed test at <https://play.google.com/apps/testing/app.cue.launcher>.",
-   "published_at": "2026-10-29T23:58:00Z",
-   "html_url": "https://github.com/jaroslav-sazma/cue-launcher/releases/tag/v1.1.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 690307863,
-    "name": "cue-launcher-1.1.0-mapping.txt",
-    "content_type": "text/plain",
-    "size": 84968327,
-    "download_url": "https://github.com/jaroslav-sazma/cue-launcher/releases/download/v1.1.0/cue-launcher-1.1.0-mapping.txt",
-    "digest": "sha256:98a438a148102675adf251f8f7542d36590494b83c124cc188c25e292c837d93",
-    "download_count": 3
-   },
-   {
-    "id": 690308326,
-    "name": "cue-launcher-1.1.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 7937426,
-    "download_url": "https://github.com/jaroslav-sazma/cue-launcher/releases/download/v1.1.0/cue-launcher-1.1.0.apk",
-    "digest": "sha256:1a821181cea7a19a15381539e4b03c683de5bf3195f16b2456a839e818ee1fa3",
-    "download_count": 16
-   },
-   {
-    "id": 690308382,
-    "name": "cue-launcher-1.1.0.apk.sha256",
-    "content_type": "application/octet-stream",
-    "size": 89,
-    "download_url": "https://github.com/jaroslav-sazma/cue-launcher/releases/download/v1.1.0/cue-launcher-1.1.0.apk.sha256",
-    "digest": "sha256:2bb94c21c5409969b318606b193ff7e78ccd860fa03dc36da118c13038fba114",
-    "download_count": 4
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1244246946,
    "full_name": "syach1/karipap",
@@ -525285,13 +525285,13 @@
     "size": 309860235,
     "download_url": "https://github.com/syach1/karipap/releases/download/v1.0.4-RC1/karipap-1.0.4-RC1-9041e7b.apk",
     "digest": "sha256:43e3cdf2cd5e3d46a65ec6b8b55af15d4d2ec6cac1bcfc8b346f0a8eff0c3ea5",
-    "download_count": 16
+    "download_count": 17
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1271653937,
    "full_name": "Roqak/NothingLauncher",
@@ -525303,7 +525303,7 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-30T15:48:55Z",
+   "updated_at": "2026-11-03T19:44:27Z",
    "created_at": "2026-06-16T22:08:15Z",
    "license": null,
    "language": "Kotlin",
@@ -525329,7 +525329,7 @@
     "size": 1394395,
     "download_url": "https://github.com/Roqak/NothingLauncher/releases/download/v1.0.0/app-release.apk",
     "digest": "sha256:40c39cae68f212dcfda52c464100acda52b6a358173d31123a082bf60a2f9b3a",
-    "download_count": 997
+    "download_count": 1099
    }
   ]
  },
@@ -527217,7 +527217,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1395551773,
    "full_name": "IsraaDeveloper/nuxlabs",
@@ -527233,7 +527233,7 @@
    "created_at": "2026-09-29T14:18:47Z",
    "license": "GPL-3.0",
    "language": "Kotlin",
-   "openIssues": 0,
+   "openIssues": 1,
    "watchers": null,
    "homepage": "https://www.nuxlauncher.site",
    "pushedAt": "2026-11-03T08:22:18Z"
@@ -527255,13 +527255,13 @@
     "size": 260427901,
     "download_url": "https://github.com/IsraaDeveloper/nuxlabs/releases/download/v1.1.6/nuxlauncher-v1.1.6.apk",
     "digest": "sha256:755b6c320e4de5c62cad8ffa300fd53c04536cf15b2f1e1beaeee3c5ab51e95d",
-    "download_count": 1040
+    "download_count": 6496
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1415554689,
    "full_name": "naojiren/wm-launcher",
@@ -527290,50 +527290,32 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-16T13:02:21Z"
+   "pushedAt": "2026-11-06T16:19:07Z"
   },
   "release": {
-   "id": 414970308,
-   "tag": "v0.1.0-wm26",
-   "name": "wm26 · 轻量桌面 / 参数详情、充电显示与一键清理",
-   "notes": "为 Android 6.0.1 车机设计的轻量桌面，功能精简。独立版 APK **1,363,805 字节，约 1.30 MiB / 1.36 MB**。\n\n## wm26 更新（包含 wm24、wm25）\n\n- 点击首页左上角小房子，一键清理第三方后台应用并显示结果，保留桌面、原厂应用和系统服务。只在点击时执行，不增加定时清理或常驻清理服务。\n- 点击时间、日期或指针时钟进入详细参数页，按 13 类展示已查明的安卓/原厂接口项目。分类菜单自动换行，文字加大；目录共 259 项，不代表所有车型均能读取全部参数。\n- 电池内显示百分比，充电时显示闪电。修正慢充状态，普通安装增加本机 root/ADB 读取真实动力电池电量的备用通道。\n- 手机蓝牙媒体连接后，使用原厂音乐的蓝牙播放路径开启声音；默认开启，可在设置中关闭。\n- 保留开机自动进入、Home 固定、CarPlay 当前音乐来源控制、实体左右切歌，以及三列应用布局。\n\n## 精简设计\n\n原生 Kotlin / Android Views，系统字体和矢量图标；无在线天气、内置地图或播放器、广告 SDK，不依赖 Google Play 服务。音乐和导航直接调用已安装的应用，安装包约 1.36 MB。\n\n## 安装与权限\n\n下载 `WM-Launcher-0.1.0-wm26-android6.apk`，包名 `com.wmhome.launcher`。沿用原证书，可覆盖升级并保留桌面配置。本次上传的是已经安装到用户车机的同一份正式签名文件。\n\n车辆数据依赖固件和权限：普通安装电量读取需要已有 root/su 或开启并授权本机 root ADB；其余车辆信息可能仍需系统特权和原厂权限。未知值如实显示不可用。TRIP A/B 当前未接入仪表清零，参数页不包含车辆写入操作。\n\n有 root/ADB 权限时，一键清理会强制停止正在运行的第三方应用，音乐、CarPlay 后台也会结束，点击对应图标可重新打开。无此权限时使用安卓后台进程接口并显示请求结果，系统可能保留或重新启动部分服务。原厂服务与桌面共享 UID 的程序会被排除。\n\n## 验证与源码\n\n两分支 212 项单元/布局检查、36 项安卓 6 界面检查、26 个原生场景通过，lint 无 Error/Fatal，正式 v1/v2 签名有效。模拟器使用自编服务替身；wm26 已安装到车机，本版清理与蓝牙功能的真实硬件效果仍待用户测试。\n\n附件提供独立版 APK、同一标签的完整 GPL-3.0-only 源码和 SHA256 校验文件。保留 Dashline 与图标许可，不公开车辆原始日志、原厂二进制或私钥。\n",
-   "published_at": "2026-10-16T13:03:39Z",
-   "html_url": "https://github.com/naojiren/wm-launcher/releases/tag/v0.1.0-wm26",
+   "id": 436723368,
+   "tag": "v0.1.0-wm57",
+   "name": "wm57 · 轻量桌面 / 蓝牙歌词与横屏优化",
+   "notes": "# 威马桌面 wm57\r\n\r\n适用于威马车机 Android 6.0.1。本版本继续保持精简、体积小、资源占用低。\r\n\r\n## 主要更新\r\n\r\n- 适配蓝牙音乐歌词，支持汽水音乐、QQ音乐、网易云音乐等手机音乐 App。\r\n- 横屏时右侧应用区域增加一排图标，可显示更多应用。\r\n- 桌面设置集成更多功能。\r\n\r\n## 蓝牙歌词使用说明\r\n\r\n蓝牙歌词由手机音乐 App 提供。连接手机蓝牙后，需要先在手机音乐 App 中开启蓝牙歌词、车载歌词或锁屏歌词显示，否则车机只能获得歌名和歌手，无法显示歌词。\r\n\r\n### 常见开启路径\r\n\r\n**QQ 音乐**\r\n\r\n我的 → 右上角菜单 → 设置 → 锁屏车载蓝牙歌词\r\n\r\n**网易云音乐**\r\n\r\n左上角菜单 → 设置 → 通用 → 锁屏歌词\r\n\r\n**酷狗音乐**\r\n\r\n我的 → 右上角菜单 → 设置 → 桌面与歌词 → 车载蓝牙歌词\r\n\r\n**酷我音乐**\r\n\r\n我的 → 右上角菜单 → 设置 → 蓝牙车载歌词\r\n\r\n不同版本的音乐 App 菜单名称可能略有差异。附件仅包含威马桌面主安装包。",
+   "published_at": "2026-11-06T16:19:07Z",
+   "html_url": "https://github.com/naojiren/wm-launcher/releases/tag/v0.1.0-wm57",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 647358107,
-    "name": "SHA256SUMS.txt",
-    "content_type": "text/plain",
-    "size": 204,
-    "download_url": "https://github.com/naojiren/wm-launcher/releases/download/v0.1.0-wm26/SHA256SUMS.txt",
-    "digest": "sha256:2aa383a41887ee5792f60095451bebdad827b81203bc0aa5a2740cf563c9ae2a",
-    "download_count": 7
-   },
-   {
-    "id": 647355994,
-    "name": "WM-Launcher-0.1.0-wm26-android6.apk",
+    "id": 717746921,
+    "name": "WM-Launcher-0.1.0-wm57-android6.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 1363805,
-    "download_url": "https://github.com/naojiren/wm-launcher/releases/download/v0.1.0-wm26/WM-Launcher-0.1.0-wm26-android6.apk",
-    "digest": "sha256:aac663d7ab4c28e9ac245557df0bdacd9080bf930026a23186c3379f776083e2",
-    "download_count": 159
-   },
-   {
-    "id": 647356908,
-    "name": "wm-launcher-0.1.0-wm26-source.zip",
-    "content_type": "application/zip",
-    "size": 1143274,
-    "download_url": "https://github.com/naojiren/wm-launcher/releases/download/v0.1.0-wm26/wm-launcher-0.1.0-wm26-source.zip",
-    "digest": "sha256:e0fde4d147fb5769a4b3be0f12e54a2bcc7220f745102e23c4311301c978e733",
-    "download_count": 5
+    "size": 1402442,
+    "download_url": "https://github.com/naojiren/wm-launcher/releases/download/v0.1.0-wm57/WM-Launcher-0.1.0-wm57-android6.apk",
+    "digest": "sha256:3ec1960ef79e274fd5b402b551f95ec9ce0fed934d1f6db6f086937c9a76a9d2",
+    "download_count": 0
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1427265387,
    "full_name": "0x006E/cleantv",
@@ -527345,7 +527327,7 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-31T13:31:02Z",
+   "updated_at": "2026-11-05T10:49:01Z",
    "created_at": "2026-10-20T16:13:43Z",
    "license": "Apache-2.0",
    "language": "Java",
@@ -527371,7 +527353,7 @@
     "size": 19913131,
     "download_url": "https://github.com/0x006E/cleantv/releases/download/v0.3/cleantv-companion-v0.3.apk",
     "digest": "sha256:b269c5bbcda450f2dccb8588457331ee72ae7f4edd983627ef9fa34482c347e9",
-    "download_count": 315
+    "download_count": 349
    },
    {
     "id": 661298475,
@@ -527380,7 +527362,7 @@
     "size": 3314545,
     "download_url": "https://github.com/0x006E/cleantv/releases/download/v0.3/cleantv-launcher-v0.3.apk",
     "digest": "sha256:6829c2a6d168116ebd2be4f3624f9e2236f7df7d733d07873e07470cdcc623ce",
-    "download_count": 338
+    "download_count": 365
    },
    {
     "id": 661298474,
@@ -527389,13 +527371,13 @@
     "size": 185,
     "download_url": "https://github.com/0x006E/cleantv/releases/download/v0.3/sha256sums.txt",
     "digest": "sha256:01b602fe0f11960b6fab90643ce25403c630e293ecfdbeb18aaa9022e9c75242",
-    "download_count": 38
+    "download_count": 42
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1438321112,
    "full_name": "poligle/Nihil-Launcher",
@@ -527437,7 +527419,7 @@
     "size": 292089,
     "download_url": "https://github.com/poligle/Nihil-Launcher/releases/download/v0.1.0/nihil-launcher-v0.1.0.apk",
     "digest": "sha256:b4a1866bb1c8dbf8ce04489815ac73d4adfc249efad1e8e0ac4b3e4f268ea160",
-    "download_count": 10
+    "download_count": 12
    },
    {
     "id": 688363154,
@@ -591127,7 +591109,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 606821984,
    "full_name": "keetsta/weather-app",
@@ -591180,7 +591162,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 495430869,
    "full_name": "dyjcow/SzWeather",
@@ -591224,7 +591206,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 515261850,
    "full_name": "thesumitkumar/weather-app",
@@ -591268,7 +591250,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 986723407,
    "full_name": "cssnr/noaa-weather-android",
@@ -591309,13 +591291,13 @@
     "size": 2894460,
     "download_url": "https://github.com/cssnr/noaa-weather-android/releases/download/0.6.4/app-release.apk",
     "digest": "sha256:1c4fbd754ec5473a0cf7e372eb0e748682b694f1a37ffb672aea313693ec85df",
-    "download_count": 30
+    "download_count": 33
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1307513266,
    "full_name": "HZkuroko/simple-weather-android",
@@ -591359,7 +591341,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 553153032,
    "full_name": "erdemklync/WeatherApp",
@@ -591408,7 +591390,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 621364891,
    "full_name": "mayank4singh/WeatherForecast",
@@ -592942,7 +592924,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1278042470,
    "full_name": "SandaApp/sanda-data-saver",
@@ -593010,7 +592992,7 @@
     "size": 20139959,
     "download_url": "https://github.com/SandaApp/sanda-data-saver/releases/download/v1.0.16/SandaDataSaver.exe",
     "digest": "sha256:dd5654c94bd062583a0ed467cc55aceecf4464812cc80277ad842561fbdaeb7b",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 506538117,
@@ -606704,7 +606686,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1238128521,
    "full_name": "bzdvdn/kvn-ws",
@@ -606742,7 +606724,7 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-11-02T10:45:41Z"
+   "pushedAt": "2026-11-04T09:10:27Z"
   },
   "release": {
    "id": 430551984,
@@ -607612,7 +607594,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1340553717,
    "full_name": "OvInSol/Ovosch-Link",
@@ -607650,7 +607632,7 @@
     "size": 84773367,
     "download_url": "https://github.com/OvInSol/Ovosch-Link/releases/download/v1.3.2/app-release.apk",
     "digest": "sha256:d651654e6fca780fd3c13cc927eb2894cc5299e27bc115e86dd290ea0971c7a3",
-    "download_count": 3
+    "download_count": 4
    }
   ]
  },
@@ -607737,7 +607719,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1113655208,
    "full_name": "yiguihai11/SmartProxy",
@@ -607761,66 +607743,66 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-03T00:08:53Z",
+   "updated_at": "2026-11-06T21:03:15Z",
    "created_at": "2025-12-10T09:27:22Z",
    "license": "MIT",
    "language": "Go",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-11-03T00:47:05Z"
+   "pushedAt": "2026-11-06T21:03:11Z"
   },
   "release": {
-   "id": 432128344,
-   "tag": "v2.9.2",
-   "name": "v2.9.2 — 后台功耗深度优化、连接明细按需加载与稳定性加固",
-   "notes": "## 🌟 SmartProxy v2.9.2 更新日志 (Changelog)\n\n本版本专注于后台休眠能效与发热深度治理、连接监控体系的按需加载架构解耦，并加固了引擎生命周期测试稳定性。\n\n--------\n\n### 🔋 后台功耗与发热深度治理 (Deep Background Power Optimization)\n\n• **悬浮窗测速息屏智能休眠**：`SpeedMeterOverlay` 悬浮窗测速器全面联动系统 `ACTION_SCREEN_OFF` 广播。屏幕关闭时立即暂停 1s 高频刷新循环并及时释放 `ConnStatsGate`，屏幕点亮时自动恢复，杜绝后台无感空耗。\n• **通知栏定时任务休眠挂起**：`SmartProxyVpnService` 监听息屏事件，锁屏期间完全挂起 20s 周期性前台常驻通知栏刷新调度（`notificationRunnable`），亮屏时即刻刷新并恢复节律，切断后台锁屏定频唤醒源。\n• **lwIP 内核定时器轮询降频**：放宽 `internal/tun/lwip/loop.go` 中 TCP 定时器（Fast/Slow timer）的循环检测间隔（由 25ms 调整为 100ms），在完全保障 TCP 超时重传、快速恢复与滑动窗口推进精度的前提下，减少 75% 的内核事件循环空转唤醒。\n\n--------\n\n### ⚡ 连接监控明细按需加载解耦 (On-Demand Connection Diagnostics)\n\n• **Snapshot 架构解耦与瘦身**：重构内核统计快照（`SnapshotSummary()`），将原本占据快照 JSON 90% 以上体积的全局活跃连接详情列表（`conns: [...]`）彻底从常规推送中剥离，大幅消除序列化/反序列化造成的 CPU 瞬时毛刺与发热。\n• **应用详情 Pin UID 焦点获取**：「联网状态」页重构为优雅的按需加载模式。默认仅传输轻量化应用汇总摘要，仅当用户点击特定应用卡片进入详情时，下发该应用的精准连接明细；关闭即停，实现零多余开销。\n• **热点设备详情 Pin IP 联动**：热点客户端设备详情对话框（`TetheringDialog`）同步适配 Pin IP 聚焦机制，点击具体局域网设备时才定向拉取其连接追踪，避免多设备并发时全量序列化带来的性能瓶颈。\n\n--------\n\n### 🛠️ 测试套件与 CI 稳定性保障 (Test Suite & CI Stability)\n\n• **引擎生命周期测试清理加固**：修复 `internal/engine/engine_block_test.go` 中 `ReloadConfig` 解析失败等测试用例未显式调用 `defer e.Stop()` 导致临时目录句柄占用（`unlinkat: directory not empty`）引发的 CI 偶发中断问题。\n",
-   "published_at": "2026-11-03T00:48:53Z",
-   "html_url": "https://github.com/yiguihai11/SmartProxy/releases/tag/v2.9.2",
+   "id": 436102065,
+   "tag": "v2.9.3",
+   "name": "v2.9.3",
+   "notes": "**Full Changelog**: https://github.com/yiguihai11/SmartProxy/compare/v2.9.2...v2.9.3",
+   "published_at": "2026-11-06T04:33:07Z",
+   "html_url": "https://github.com/yiguihai11/SmartProxy/releases/tag/v2.9.3",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 703742047,
+    "id": 715910895,
     "name": "app-arm64-v8a-release.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 20785620,
-    "download_url": "https://github.com/yiguihai11/SmartProxy/releases/download/v2.9.2/app-arm64-v8a-release.apk",
-    "digest": "sha256:af16d0633e835a977db1854071a8e90344de6cb3cf278651ebf5cc2e0a830c37",
-    "download_count": 3
+    "size": 20880884,
+    "download_url": "https://github.com/yiguihai11/SmartProxy/releases/download/v2.9.3/app-arm64-v8a-release.apk",
+    "digest": "sha256:8862bfe4b85a90f6db2c9349d77260c5185a565e933c22444482e9fdf7bf680d",
+    "download_count": 11
    },
    {
-    "id": 703742049,
+    "id": 715910897,
     "name": "app-armeabi-v7a-release.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 22016296,
-    "download_url": "https://github.com/yiguihai11/SmartProxy/releases/download/v2.9.2/app-armeabi-v7a-release.apk",
-    "digest": "sha256:160f2d5b2ad16a0a92646085c4981e69e332707e63b0eddc9323c7c2b4e58bee",
+    "size": 22118916,
+    "download_url": "https://github.com/yiguihai11/SmartProxy/releases/download/v2.9.3/app-armeabi-v7a-release.apk",
+    "digest": "sha256:230cc97c304370e529aa02c986c74ab834b360d8c15a8261d99c313e73f8a27b",
     "download_count": 2
    },
    {
-    "id": 703742043,
+    "id": 715910900,
     "name": "app-x86-release.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 23444952,
-    "download_url": "https://github.com/yiguihai11/SmartProxy/releases/download/v2.9.2/app-x86-release.apk",
-    "digest": "sha256:a521631441251d22ee2baae9ed49e1f5afb6f32077209d90b030265546103f51",
-    "download_count": 2
+    "size": 23551516,
+    "download_url": "https://github.com/yiguihai11/SmartProxy/releases/download/v2.9.3/app-x86-release.apk",
+    "digest": "sha256:535cf3bcf85b70d62d41a189d45d88b1ef2f7bb627c47a7ce2372e8538491c5a",
+    "download_count": 1
    },
    {
-    "id": 703742041,
+    "id": 715910898,
     "name": "app-x86_64-release.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 22540598,
-    "download_url": "https://github.com/yiguihai11/SmartProxy/releases/download/v2.9.2/app-x86_64-release.apk",
-    "digest": "sha256:14a50d3243856f2608bd874e3c23ec3faf18c258ba15e148399d6bba2f61f809",
-    "download_count": 2
+    "size": 22643146,
+    "download_url": "https://github.com/yiguihai11/SmartProxy/releases/download/v2.9.3/app-x86_64-release.apk",
+    "digest": "sha256:e56d5a7e81376edf128b5ad7736e6c7ca94d8d719433a5286a6724d4773a73e1",
+    "download_count": 1
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1239663728,
    "full_name": "vatandev/v2rayNG-Pro",
@@ -607870,7 +607852,7 @@
     "size": 28350977,
     "download_url": "https://github.com/vatandev/v2rayNG-Pro/releases/download/0.0.6/v2rayNG_0.0.6_arm64-v8a.apk",
     "digest": "sha256:2aab778d18ed4a00a0a4f879820d23b2c3596ea9df9b1835d9f05d65c2d63ddd",
-    "download_count": 352
+    "download_count": 355
    },
    {
     "id": 421282864,
@@ -608008,7 +607990,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1248797990,
    "full_name": "dwdprojects/blokir-ads",
@@ -608096,7 +608078,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1095112413,
    "full_name": "nesdeq/reddlit",
@@ -608200,7 +608182,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 145111930,
    "full_name": "yymin1022/IM-100_Keyboard",
@@ -608253,7 +608235,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1279678431,
    "full_name": "RaibowSky/dynamic-zhuyin-keyboard",
@@ -608303,7 +608285,7 @@
     "size": 17549518,
     "download_url": "https://github.com/RaibowSky/dynamic-zhuyin-keyboard/releases/download/v1.3.1/dynamic-zhuyin-1.3.1.apk",
     "digest": "sha256:7b73ddecb7d12f47eac086d4683ad53d2294a36b01274100cfb385730b275f43",
-    "download_count": 23
+    "download_count": 28
    },
    {
     "id": 653276474,
@@ -608312,13 +608294,13 @@
     "size": 91,
     "download_url": "https://github.com/RaibowSky/dynamic-zhuyin-keyboard/releases/download/v1.3.1/SHA256SUMS.txt",
     "digest": "sha256:dd7402ef37483218050a94970230331f57a7fc4232ad1bc34e1cbb269a0f4f4f",
-    "download_count": 1
+    "download_count": 2
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1253180442,
    "full_name": "Sanju0845/CipherKey-E2EE-Keyboard-for-Android",
@@ -608389,7 +608371,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1323310911,
    "full_name": "quantavil/floris-dict-keyboard",
@@ -608440,7 +608422,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1071030095,
    "full_name": "AnonAmit/AutoKeyboard",
@@ -608501,7 +608483,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1375415610,
    "full_name": "vruukz/RoEnKeyboard",
@@ -608560,7 +608542,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1391603536,
    "full_name": "DiwasKhatri07/AksharAi-GenZ-Keyboards",
@@ -608593,14 +608575,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-30T19:38:33Z",
+   "updated_at": "2026-11-05T08:32:07Z",
    "created_at": "2026-09-28T02:12:49Z",
    "license": "MIT",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-30T19:38:29Z"
+   "pushedAt": "2026-11-05T08:32:02Z"
   },
   "release": {
    "id": 397926935,
@@ -608619,7 +608601,7 @@
     "size": 23864812,
     "download_url": "https://github.com/DiwasKhatri07/AksharAi-GenZ-Keyboards/releases/download/v0.013/AksharAI-GenZ-Keyboards-v0.013-debug.apk",
     "digest": "sha256:97dff9d54c996a2f786e2dc3aab9f793860456b710a293775d8ca4145ff41c97",
-    "download_count": 2
+    "download_count": 3
    },
    {
     "id": 594372980,
@@ -608628,7 +608610,7 @@
     "size": 3474759,
     "download_url": "https://github.com/DiwasKhatri07/AksharAi-GenZ-Keyboards/releases/download/v0.013/AksharAI-GenZ-Keyboards-v0.013-release.apk",
     "digest": "sha256:7f58f82d5fc891c167888b5627d84a5e7bf75b4fac174996ce272daf43d77c28",
-    "download_count": 5
+    "download_count": 7
    },
    {
     "id": 594372979,
@@ -608643,7 +608625,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1125682576,
    "full_name": "xzunk/Foxkeyboard",
@@ -608701,7 +608683,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1349766437,
    "full_name": "steinachim/patchpilot",
@@ -608754,7 +608736,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1358960317,
    "full_name": "whispertypeapp/WhisperType-Android",
@@ -608809,7 +608791,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1254028875,
    "full_name": "tanmaysoren/Expected-keyboard",
@@ -608847,13 +608829,13 @@
     "size": 686603,
     "download_url": "https://github.com/tanmaysoren/Expected-keyboard/releases/download/another-update/app-release.apk",
     "digest": "sha256:7055782e029fc371d016dc8588c3d61d6bc814305143417cc3e335d82695fc66",
-    "download_count": 4
+    "download_count": 6
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1290096622,
    "full_name": "rafiul254/AI_Power-Banglish-keyboard",
@@ -608919,7 +608901,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1301447285,
    "full_name": "alwayszihanx/ZEBOARD",
@@ -608982,7 +608964,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 487805917,
    "full_name": "cyberMilosz/Keybloard",
@@ -609020,13 +609002,13 @@
     "size": 6116756,
     "download_url": "https://github.com/cyberMilosz/Keybloard/releases/download/v.0.1.1-alpha/Keybloard.apk",
     "digest": null,
-    "download_count": 140
+    "download_count": 141
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1405022196,
    "full_name": "sharbvane/qingyu-srf",
@@ -609071,7 +609053,7 @@
     "size": 105805000,
     "download_url": "https://github.com/sharbvane/qingyu-srf/releases/download/v0.7.1/Qingyu-0.7.1.apk",
     "digest": "sha256:2e634fe7bce5afae00745d64520bc007476ef9da0ec362fd8fd265f91bd0ffe8",
-    "download_count": 229
+    "download_count": 230
    },
    {
     "id": 626574298,
@@ -609086,7 +609068,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1391829461,
    "full_name": "andrasulthan-alt/OmniBoard",
@@ -609139,7 +609121,7 @@
     "size": 62631,
     "download_url": "https://github.com/andrasulthan-alt/OmniBoard/releases/download/v0.4.0/omniboard-v0.4.0.apk",
     "digest": "sha256:fd1fd23fcbf54b967ad13b73dbf0b277687396b2590fcbef7c07cb0aaa3ac7ed",
-    "download_count": 26
+    "download_count": 27
    },
    {
     "id": 617677662,
@@ -609154,7 +609136,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1119137489,
    "full_name": "alexey-a-abramov/hyperwhisper",
@@ -609198,7 +609180,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1164941411,
    "full_name": "kunalsahu20/mobile-to-cursor",
@@ -609243,7 +609225,7 @@
     "size": 92278,
     "download_url": "https://github.com/kunalsahu20/mobile-to-cursor/releases/download/v1.1.4/Vexra-Desktop-v1.1.4.zip",
     "digest": "sha256:b3220def5ab554e30bea1d41527b990d16ef625ee3fa89d745c9ff797a45dda1",
-    "download_count": 9
+    "download_count": 10
    },
    {
     "id": 368798635,
@@ -609252,7 +609234,7 @@
     "size": 18161143,
     "download_url": "https://github.com/kunalsahu20/mobile-to-cursor/releases/download/v1.1.4/Vexra.apk",
     "digest": "sha256:ba827463cec5af815095b7b5e7ce01e5c9461a06fdafb6e8859d0997a39ebf7c",
-    "download_count": 193
+    "download_count": 196
    },
    {
     "id": 368876987,
@@ -609261,13 +609243,13 @@
     "size": 12879295,
     "download_url": "https://github.com/kunalsahu20/mobile-to-cursor/releases/download/v1.1.4/Vexra.exe",
     "digest": "sha256:a1db9caaf70f241a23b7589a531aad21ff04e7e7fadc05ab35f55342a1d376b6",
-    "download_count": 125
+    "download_count": 127
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1170905647,
    "full_name": "ArtiomSu/bluetooth-to-keyboard-input-esp32-s3-zero",
@@ -609312,7 +609294,7 @@
     "size": 1827492,
     "download_url": "https://github.com/ArtiomSu/bluetooth-to-keyboard-input-esp32-s3-zero/releases/download/1/app-release.apk",
     "digest": "sha256:5117e1202a0ed355e661ef4f087f3dc9b235d44a3c368b6b6d8b08e2f767b893",
-    "download_count": 16
+    "download_count": 17
    },
    {
     "id": 386315168,
@@ -609381,7 +609363,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1157379867,
    "full_name": "holbizmetrics/SmartTerminal",
@@ -609425,7 +609407,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1305598547,
    "full_name": "andrewginns/nanokvm-mobile",
@@ -609654,7 +609636,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 382119738,
    "full_name": "mktwohy/Synth",
@@ -609698,7 +609680,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1352372021,
    "full_name": "razvan-eduard/borderkeys",
@@ -609760,7 +609742,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1372632477,
    "full_name": "dboycht/keyforge",
@@ -609798,13 +609780,13 @@
     "size": 2646399,
     "download_url": "https://github.com/dboycht/keyforge/releases/download/1.0.4/keyforge-1.0.4.apk",
     "digest": "sha256:c08dcf0d7ae3cd3fcabc0126a43f950665730398d4a2cbf2bc07cb63a0a24a21",
-    "download_count": 30
+    "download_count": 33
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1268126427,
    "full_name": "bepost/hajiku",
@@ -609964,7 +609946,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1083025023,
    "full_name": "renzceee/HIDClient-Macro",
@@ -610002,7 +609984,7 @@
     "size": 2708264,
     "download_url": "https://github.com/renzceee/HIDClient-Macro/releases/download/v3.0.2/HIDClient-Macro-v3.0.2.apk",
     "digest": "sha256:36eb5f84c6af22e4853789fb483e15d42ee0b963573730cf7ff561f667c6cb23",
-    "download_count": 29
+    "download_count": 32
    }
   ]
  },
@@ -623262,7 +623244,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1390275436,
    "full_name": "sampple-korea/honeyboard-x",
@@ -623311,7 +623293,7 @@
     "size": 164793,
     "download_url": "https://github.com/sampple-korea/honeyboard-x/releases/download/v1.0.1/HoneyBoardX.apk",
     "digest": "sha256:612064ea15d1cade69df8e345f511f5f730b74de67eadb138bbfe2e310ae6677",
-    "download_count": 70
+    "download_count": 76
    }
   ]
  },
@@ -640191,7 +640173,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1432996318,
    "full_name": "icangotoanywhere/EasyClash",
@@ -640285,13 +640267,13 @@
     "size": 46485690,
     "download_url": "https://github.com/icangotoanywhere/EasyClash/releases/download/v1.0.24/EasyClash.apk",
     "digest": "sha256:59542cc77537dcfb32901ad250262f7cd137010140b68ccc842349b36ef332c9",
-    "download_count": 3
+    "download_count": 7
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1178808904,
    "full_name": "undisputedP/ShortsBlocker",
@@ -640346,13 +640328,13 @@
     "size": 2236873,
     "download_url": "https://github.com/undisputedP/ShortsBlocker/releases/download/v2.0.0/ShortsBlocker-v2.0.0.apk",
     "digest": "sha256:9dc314651297a4287f276284e0ac98ea101cb43fa0de930316ae7426fe898fe6",
-    "download_count": 146
+    "download_count": 148
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1436278172,
    "full_name": "lolkekxa/WgSwitch",
@@ -640448,7 +640430,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1354568416,
    "full_name": "amitjaju82/KeePassDX-bluetooth-keyboard",
@@ -640505,7 +640487,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1399929291,
    "full_name": "ahmetselmancloud/deckpad",
@@ -640553,13 +640535,13 @@
     "size": 2288425,
     "download_url": "https://github.com/ahmetselmancloud/deckpad/releases/download/v1.2.1/DeckPad-v1.2.1.apk",
     "digest": "sha256:220c0059a6830f94a26816ac130dcdc03897c0401e5c32b65228ec64588df532",
-    "download_count": 7
+    "download_count": 8
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1345002003,
    "full_name": "Jackfood2/WhisperSpeechToText",
@@ -640597,13 +640579,13 @@
     "size": 23233181,
     "download_url": "https://github.com/Jackfood2/WhisperSpeechToText/releases/download/v2.9.2/WhisperSpeechToText-2.9.2.apk",
     "digest": "sha256:af3e119d5da16c1d5a46468cf1ad3391efcdac27a8237403b702b1a76f3b9499",
-    "download_count": 6
+    "download_count": 9
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1112052024,
    "full_name": "dog-broad/KeyBridge",
@@ -640658,7 +640640,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1433939161,
    "full_name": "sxhugo-cell/ScreenHopper",
@@ -640739,7 +640721,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1426938583,
    "full_name": "Meinianda-L/kolibri",
@@ -640787,7 +640769,7 @@
     "size": 85692733,
     "download_url": "https://github.com/Meinianda-L/kolibri/releases/download/v0.3.0/Kolibri-0.3.0-macOS-arm64.zip",
     "digest": "sha256:d51b625a301983d3ad41156f39a66e4c108ab463812eed3049906510d70ce4f4",
-    "download_count": 1
+    "download_count": 2
    },
    {
     "id": 702021444,
@@ -640796,7 +640778,7 @@
     "size": 592334536,
     "download_url": "https://github.com/Meinianda-L/kolibri/releases/download/v0.3.0/Kolibri-Android12-arm64-20261102.zip",
     "digest": "sha256:d795b7fa463369c6652046fc4640cba437b23372a0d0e51cd4544a22169fea16",
-    "download_count": 2
+    "download_count": 8
    },
    {
     "id": 702021424,
@@ -640805,7 +640787,7 @@
     "size": 17317672,
     "download_url": "https://github.com/Meinianda-L/kolibri/releases/download/v0.3.0/KolibriLauncher.apk",
     "digest": "sha256:b96479cc77fbd37ea5db58b1ae74129f33ade0557c31ea51a7a38cb7d6ca881e",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 702021433,
@@ -640820,7 +640802,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1426501523,
    "full_name": "Yashwanthvm06/AirDesk",
@@ -640858,7 +640840,7 @@
     "size": 13057908,
     "download_url": "https://github.com/Yashwanthvm06/AirDesk/releases/download/v1.0.1/AirDesk-v1.0.1-release-signed.apk",
     "digest": "sha256:1601057fbb4752bea25080382ff02cfb76f0eaaf22571b0d94376a4a5d13b636",
-    "download_count": 9
+    "download_count": 10
    },
    {
     "id": 659105878,
@@ -640867,7 +640849,7 @@
     "size": 59971660,
     "download_url": "https://github.com/Yashwanthvm06/AirDesk/releases/download/v1.0.1/AirDesk-v1.0.1-windows-x64.zip",
     "digest": "sha256:ba4ab2f70267f80727930bbc959ba57385be90f84d959dd0f33bc5e2f27957e5",
-    "download_count": 8
+    "download_count": 9
    }
   ]
  },
@@ -645884,7 +645866,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1432413204,
    "full_name": "CrownEmperor-dev/Terminal-Launcher",
@@ -645928,7 +645910,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1420174389,
    "full_name": "Benbone21/NoXXX",
@@ -645961,14 +645943,14 @@
    ],
    "archived": false,
    "default_branch": "master",
-   "updated_at": "2026-11-02T21:57:01Z",
+   "updated_at": "2026-11-04T00:38:19Z",
    "created_at": "2026-10-15T04:38:29Z",
    "license": "GPL-3.0",
    "language": "Kotlin",
    "openIssues": 1,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-19T19:05:21Z"
+   "pushedAt": "2026-11-04T00:38:14Z"
   },
   "release": {
    "id": 417603062,
@@ -645987,13 +645969,13 @@
     "size": 33590081,
     "download_url": "https://github.com/Benbone21/NoXXX/releases/download/v1.0.2/NoXXX-1.0.2.apk",
     "digest": "sha256:138adecc3ccaa0eb5a8bca12bf4df7dd555467c6caa813cd7f0262d0e5c2161d",
-    "download_count": 7
+    "download_count": 10
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1435989727,
    "full_name": "Archer0083/Strata-Mobile-Controller",
@@ -646031,13 +646013,13 @@
     "size": 182113832,
     "download_url": "https://github.com/Archer0083/Strata-Mobile-Controller/releases/download/v0.0.10/strata-mobile-controller-v0.0.10-debug.apk",
     "digest": "sha256:8ec9c173aa8379313edcbecea851216c878b1f443c829364cf41d422403fdbd6",
-    "download_count": 1
+    "download_count": 3
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1283801230,
    "full_name": "ImAngelParraga/OpenVoiceIME",
@@ -646062,39 +646044,39 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-02T01:51:32Z",
+   "updated_at": "2026-11-05T12:34:38Z",
    "created_at": "2026-06-29T08:50:14Z",
    "license": "Apache-2.0",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://imangelparraga.github.io/OpenVoiceIME/#openvoice-family",
-   "pushedAt": "2026-11-01T09:35:34Z"
+   "pushedAt": "2026-11-05T12:34:37Z"
   },
   "release": {
-   "id": 430464132,
-   "tag": "v0.3.18",
-   "name": "v0.3.18",
-   "notes": "Closing the voice panel now cancels and clears the current recording, upload, pending transcript, and retry state. Reopening starts fresh.\n\nNew input sessions also clear old work when the app and field ID are reused, preventing stale retry prompts across chats. Rotation continues to preserve active work; insertion recovery remains available while the panel is open.\n\nVerified: 107 JVM tests, 32 Android integration tests on Android 13, and release APK signature verification.\n",
-   "published_at": "2026-11-01T09:57:57Z",
-   "html_url": "https://github.com/ImAngelParraga/OpenVoiceIME/releases/tag/v0.3.18",
+   "id": 435181157,
+   "tag": "v0.4.0",
+   "name": "v0.4.0: centered keyboard and pause/resume",
+   "notes": "Centered, equally sized Cancel, Pause/Resume, Delete, and Transcribe buttons replace the previous keyboard layout. Settings, language, and keyboard switching remain directly accessible in a compact toolbar. The keyboard follows system light/dark appearance.\n\nPause and resume the same dictation without uploading it or counting paused time. Delete edits text independently of the recording. Existing confirmation, cancellation, and post-insertion preferences are preserved: disable both Return to keyboard after insert and Hide after insert to remain in OpenVoiceIME and start the next recording automatically.\n\nValidation: 109 JVM tests, 44 Android integration tests on Android 13, lint, signed release build, and apksigner verification. The project-site APK matches this release asset.\n",
+   "published_at": "2026-11-05T12:34:40Z",
+   "html_url": "https://github.com/ImAngelParraga/OpenVoiceIME/releases/tag/v0.4.0",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 697815024,
+    "id": 713356667,
     "name": "OpenVoiceIME-release.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 4097590,
-    "download_url": "https://github.com/ImAngelParraga/OpenVoiceIME/releases/download/v0.3.18/OpenVoiceIME-release.apk",
-    "digest": "sha256:48c18cab2020fe102b1984acf298d8e77d3b01cc7a5662d2d2d4076c48bc74b0",
-    "download_count": 5
+    "size": 4108189,
+    "download_url": "https://github.com/ImAngelParraga/OpenVoiceIME/releases/download/v0.4.0/OpenVoiceIME-release.apk",
+    "digest": "sha256:8517c9c4ee321ccb7905e701c5ffe6fe683c3e56b07c6f1510518482d38dbae4",
+    "download_count": 3
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1439230849,
    "full_name": "moikdev/droidcast",
@@ -646113,14 +646095,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-03T01:35:38Z",
+   "updated_at": "2026-11-05T19:53:57Z",
    "created_at": "2026-10-30T03:30:07Z",
    "license": "Other",
    "language": "Kotlin",
-   "openIssues": 39,
+   "openIssues": 42,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-11-03T01:35:27Z"
+   "pushedAt": "2026-11-06T01:32:35Z"
   },
   "release": {
    "id": 430319181,
@@ -646139,7 +646121,7 @@
     "size": 10427259,
     "download_url": "https://github.com/moikdev/droidcast/releases/download/nightly-2026-11-01-r10/Droidcast-nightly-2026-11-01-r10-34b70a5.apk",
     "digest": "sha256:e68b7e7c4a3771c18128221f7d31b71e144db0d64947ae0ee08f91bddccf3f00",
-    "download_count": 5
+    "download_count": 6
    },
    {
     "id": 697110236,
@@ -648930,6 +648912,466 @@
     "download_url": "https://github.com/AliHaider704/wgplus/releases/download/v1.3.0/WireGuardPlus-1.3.0.apk",
     "digest": "sha256:d7bc458e454b684df7bcf69851ee593e1169903c48355474972b8e4cbc5e5f8c",
     "download_count": 6
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1443450262,
+   "full_name": "visiuun/expressive-keyboard",
+   "owner": "visiuun",
+   "avatar_url": "https://avatars.githubusercontent.com/u/118626319?v=4",
+   "description": "Fully local, privacy-first Android keyboard that isn't ugly: Material 3 Expressive design, glide typing, multilingual autocorrect, on-device AI and offline voice typing.",
+   "stars": 2,
+   "forks": 0,
+   "topics": [
+    "android",
+    "android-keyboard",
+    "ime",
+    "jetpack-compose",
+    "keyboard",
+    "kotlin",
+    "material-you",
+    "material3",
+    "offline",
+    "on-device-ai",
+    "privacy",
+    "voice-typing"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-06T09:35:05Z",
+   "created_at": "2026-11-02T20:26:49Z",
+   "license": "Other",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-02T20:33:33Z"
+  },
+  "release": {
+   "id": 431933898,
+   "tag": "v1.1.0",
+   "name": "Expressive Keyboard 1.1.0",
+   "notes": "First public release.\n\n**Download `ExpressiveKeyboard.apk`** (works on every phone), or the smaller APK for your CPU: `ExpressiveKeyboard-arm64-v8a.apk` fits almost every modern phone.\n\n### New\n- Emoji suggestions in the middle of the strip: type `cry` and get 😭. Tapping the emoji replaces the word.\n- Automatic updates: the app checks GitHub once a day and installs new versions with one tap (Settings → Updates & about).\n- Runs on 32-bit phones (armeabi-v7a) and x86 too. AI writing needs a 64-bit phone; everything else works everywhere.\n- New defaults: dark mode with OLED black, bold labels, pill-shaped function keys and an expressive Enter key.\n\n### Privacy\n- Typed text is no longer written to the system log by the AI engine.\n- Removed debug hooks that other apps could trigger.\n\nAlready on an earlier build signed by me? This installs over it and keeps your settings and learned words.\n",
+   "published_at": "2026-11-02T20:27:28Z",
+   "html_url": "https://github.com/visiuun/expressive-keyboard/releases/tag/v1.1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 703077174,
+    "name": "ExpressiveKeyboard-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 48413325,
+    "download_url": "https://github.com/visiuun/expressive-keyboard/releases/download/v1.1.0/ExpressiveKeyboard-arm64-v8a.apk",
+    "digest": "sha256:cc991b4f8ce3b9bbfcb6216f801d826c000a1ebe8f845f9a8416a2659acd4261",
+    "download_count": 15
+   },
+   {
+    "id": 703077190,
+    "name": "ExpressiveKeyboard-armeabi-v7a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 37554389,
+    "download_url": "https://github.com/visiuun/expressive-keyboard/releases/download/v1.1.0/ExpressiveKeyboard-armeabi-v7a.apk",
+    "digest": "sha256:54f5ce2280a6ba08ddb8515d1e108b27781a9f52b4d7ae428b52e91a685fa960",
+    "download_count": 5
+   },
+   {
+    "id": 703077185,
+    "name": "ExpressiveKeyboard-x86.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 40125469,
+    "download_url": "https://github.com/visiuun/expressive-keyboard/releases/download/v1.1.0/ExpressiveKeyboard-x86.apk",
+    "digest": "sha256:78c47d47cf522ddbdbfeecb58b9e586b1ba9b2407fbf42ba96174f247d1a288c",
+    "download_count": 7
+   },
+   {
+    "id": 703077180,
+    "name": "ExpressiveKeyboard-x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 50854507,
+    "download_url": "https://github.com/visiuun/expressive-keyboard/releases/download/v1.1.0/ExpressiveKeyboard-x86_64.apk",
+    "digest": "sha256:3b0b747fa4eddbd42625f82da8277ff5151ebecc4019a91dd5e9b5b3f93a9e35",
+    "download_count": 6
+   },
+   {
+    "id": 703077182,
+    "name": "ExpressiveKeyboard.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 96802667,
+    "download_url": "https://github.com/visiuun/expressive-keyboard/releases/download/v1.1.0/ExpressiveKeyboard.apk",
+    "digest": "sha256:da228766368372369c1b342546610a99e27a6de4daee4700398197d7d6551106",
+    "download_count": 18
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1440848801,
+   "full_name": "AndreyGladkov/ink-keyboard",
+   "owner": "AndreyGladkov",
+   "avatar_url": "https://avatars.githubusercontent.com/u/3080207?v=4",
+   "description": "E-ink-friendly Android keyboard: a HeliBoard (AOSP LatinIME) fork with high-contrast border-only keys, no animations or key popups, and optional screen-clear integration for Hisense A9. Offline, no internet permission.",
+   "stars": 2,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-04T23:50:41Z",
+   "created_at": "2026-10-31T12:44:45Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-04T07:40:53Z"
+  },
+  "release": {
+   "id": 433633158,
+   "tag": "v4.2-ink.2",
+   "name": "Ink Keyboard 4.2-ink.2",
+   "notes": "E-ink keyboard based on HeliBoard 4.2.\n\n• Crisper key labels: even stroke width without antialiasing, medium weight by default\n• Emoji key on by default, left of the space bar or next to Enter\n• Globe key on by default, switches languages; English is enabled next to the system language\n• Hisense A9: fast refresh mode while typing\n• The built-in Russian dictionary is HeliBoard's again; a larger one can be added from a file\n• Line along the top edge of the keyboard, separating it from the app\n\n---\n\nКлавиатура для e-ink на основе HeliBoard 4.2.\n\n• Более чёткие подписи клавиш: ровная толщина штрихов без сглаживания, по умолчанию средняя жирность\n• Клавиша эмодзи включена по умолчанию: слева от пробела или рядом с Enter\n• Клавиша-глобус включена по умолчанию и переключает языки; к системному языку добавляется английский\n• Hisense A9: быстрый режим обновления во время набора\n• Встроенный русский словарь снова из HeliBoard; более полный можно добавить из файла\n• Линия по верхнему краю клавиатуры отделяет её от приложения\n\n---\n\n`InkKeyboard_4.2-ink.2-release.apk`\n- SHA-256: `8a4ce561b15e70e77e2e99757acc42d8d0fec1761758d75157a50a3c831758ca`\n- Signing certificate SHA-256: `bbf5cb9d055856404c6e6676e0633036922f56e5a122804be125c06f16fbbcd9`\n",
+   "published_at": "2026-11-04T07:40:54Z",
+   "html_url": "https://github.com/AndreyGladkov/ink-keyboard/releases/tag/v4.2-ink.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 708679344,
+    "name": "InkKeyboard_4.2-ink.2-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 23614069,
+    "download_url": "https://github.com/AndreyGladkov/ink-keyboard/releases/download/v4.2-ink.2/InkKeyboard_4.2-ink.2-release.apk",
+    "digest": "sha256:8a4ce561b15e70e77e2e99757acc42d8d0fec1761758d75157a50a3c831758ca",
+    "download_count": 23
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1404011586,
+   "full_name": "zstar239/jianxue-android",
+   "owner": "zstar239",
+   "avatar_url": "https://avatars.githubusercontent.com/u/100657248?v=4",
+   "description": "简学输入法：基于青简 Rust 引擎的开源 Android 中文输入法，支持九键/全键拼音、双拼、五笔、离线整句输入与候选译词学习。",
+   "stars": 2,
+   "forks": 0,
+   "topics": [
+    "android",
+    "android-ime",
+    "chinese-input-method",
+    "keyboard",
+    "pinyin",
+    "rust",
+    "t9"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-06T19:18:05Z",
+   "created_at": "2026-10-04T06:29:16Z",
+   "license": "GPL-3.0",
+   "language": "Java",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-04T07:36:25Z"
+  },
+  "release": {
+   "id": 402904190,
+   "tag": "v0.2.0",
+   "name": "简学输入法 v0.2.0",
+   "notes": "简学输入法 0.2.0 正式 Release 构建，支持 Android 8.0+ 的 ARM64 / x86_64 设备。\n\n## 下载与安装\n\n下载下方 **`jianxue-0.2.0-release.apk`**。此 APK 使用独立发布证书，关闭调试，应用版本为 **0.2.0**，versionCode 为 **3**。约 175 MiB，内含离线词库与模型。\n\n安装后打开「简学」，依次点击「启用简学输入法」和「选择简学键盘」。首次启动等待本地资源加载，九键输入 `64426` 后选择「你好」。\n\n**从旧调试版迁移：**由于正式发布证书与此前调试证书不同，需要先导出生词并卸载调试版，再安装此版本。卸载会删除旧版的本地设置与学习记录。后续正式版本继续使用同一发布签名。\n\n## 功能\n\n- 九键全拼、拼音消歧、连续输入、九键 / 二十六键切换和候选展开。\n- 剪贴板与加密收藏、分类表情、常用符号、光标移动和选区编辑。\n- 浅色 / 深色 / 跟随系统主题、键盘高度与可选触感。\n- 拼音、双拼、五笔、注音、离线整句转换、候选译词、生词学习和领域词库。\n- 默认离线；云联想与选区翻译需自行配置兼容的 HTTPS 服务。\n\n## 构建与校验\n\n正式版本通过 Release Java 单元测试与 lint，Rust 17 项回归检查、正式资源与 JNI 检查通过。验证报告记录实际 APK 的版本、关闭调试、独立签名证书及两种 ABI 的 16 KB ELF / ZIP 对齐。功能交互的 Android 11 模拟器 8 项回归来自同功能的 0.2.0-dev 构建，报告中明确区分。\n\n`SHA256SUMS` 提供 APK 与完整源码包的 SHA-256，将这两个文件与校验文件放在同一目录后执行 `sha256sum -c SHA256SUMS`。\n\n`jianxue-android-0.2.0-source.zip` 包含固定版本上游、330 个 Rust 第三方依赖源码与许可。GitHub 自动生成的 Source code 归档只包含仓库文件；完整构建方法见 `docs/BUILD.md`。发布私钥和密码不会进入任何公开附件。\n\n## 当前范围\n\n语音、手写和滑行输入尚未实现；九键使用词库与本地词图，神经重排和云联想目前用于二十六键。厂商编辑器、真实云服务、物理触感与 Android 16 KB 实机仍需进一步验证。\n\n代码许可为 GPL-3.0-or-later，数据来源与各自许可见 `NOTICE.md`。本项目是基于青简 Rust 引擎的独立 Android 移植。\n",
+   "published_at": "2026-10-04T07:49:15Z",
+   "html_url": "https://github.com/zstar239/jianxue-android/releases/tag/v0.2.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 609386282,
+    "name": "android-nine-key-dark.png",
+    "content_type": "image/png",
+    "size": 127634,
+    "download_url": "https://github.com/zstar239/jianxue-android/releases/download/v0.2.0/android-nine-key-dark.png",
+    "digest": "sha256:55ab3c5c5007c543ec61b0f08f94f58f5cc9d404d3adde1af1d662af554fee98",
+    "download_count": 0
+   },
+   {
+    "id": 609386247,
+    "name": "android-nine-key.png",
+    "content_type": "image/png",
+    "size": 131615,
+    "download_url": "https://github.com/zstar239/jianxue-android/releases/download/v0.2.0/android-nine-key.png",
+    "digest": "sha256:35e8bf03f8273cc62a27c18c1629efda1ce116402dc5319814a42f3facab397e",
+    "download_count": 1
+   },
+   {
+    "id": 609386281,
+    "name": "android-tools.png",
+    "content_type": "image/png",
+    "size": 126705,
+    "download_url": "https://github.com/zstar239/jianxue-android/releases/download/v0.2.0/android-tools.png",
+    "digest": "sha256:2287c87c2d6b5175c387f99c5960d61376618a8ab0f61e79f379ddbc49ab901b",
+    "download_count": 0
+   },
+   {
+    "id": 609386249,
+    "name": "jianxue-0.2.0-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 183896535,
+    "download_url": "https://github.com/zstar239/jianxue-android/releases/download/v0.2.0/jianxue-0.2.0-release.apk",
+    "digest": "sha256:0076cd6740d4391095d2c5a027c2792d80c519d6dfe34b57c08e1484f0f4ef3e",
+    "download_count": 78
+   },
+   {
+    "id": 609386246,
+    "name": "jianxue-0.2.0-validation.zip",
+    "content_type": "application/zip",
+    "size": 7999,
+    "download_url": "https://github.com/zstar239/jianxue-android/releases/download/v0.2.0/jianxue-0.2.0-validation.zip",
+    "digest": "sha256:1bbff727e01ed46627a021d9c5e9b0de651cb671f51a37c80b4f2ae7d279b2ff",
+    "download_count": 0
+   },
+   {
+    "id": 609386251,
+    "name": "jianxue-android-0.2.0-source.zip",
+    "content_type": "application/zip",
+    "size": 89328947,
+    "download_url": "https://github.com/zstar239/jianxue-android/releases/download/v0.2.0/jianxue-android-0.2.0-source.zip",
+    "digest": "sha256:35cd414e0e5012b5699e06a92eb09c7fcbc82916834627e2634b8ada3328c109",
+    "download_count": 1
+   },
+   {
+    "id": 609386250,
+    "name": "SHA256SUMS",
+    "content_type": "application/octet-stream",
+    "size": 191,
+    "download_url": "https://github.com/zstar239/jianxue-android/releases/download/v0.2.0/SHA256SUMS",
+    "digest": "sha256:a5fc16b217081a49949d7cbe97cb43dcf18e52c969526c232a1b513efa50cb09",
+    "download_count": 7
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1443006101,
+   "full_name": "pfkellogg/fm1-mirror-spyglass-android",
+   "owner": "pfkellogg",
+   "avatar_url": "https://avatars.githubusercontent.com/u/380063?v=4",
+   "description": "The M-VAVE FM-1's screen big on an Android tablet, plus playing it from a USB keyboard and a note spyglass. Free, GPL-3.0.",
+   "stars": 2,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-05T01:22:25Z",
+   "created_at": "2026-11-02T13:32:46Z",
+   "license": "GPL-3.0",
+   "language": "Java",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-04T00:11:02Z"
+  },
+  "release": {
+   "id": 433358294,
+   "tag": "v1.4.0",
+   "name": "FM-1 Mirror + Spyglass 1.4.0",
+   "notes": "**FM-1 Mirror + Spyglass 1.4.0**\n\n- **The sound playing, on top of the spyglass** (\"T1 ANALOG SAW LEAD\"), in gold, when the FM-1's firmware says it: JIANT FM + Big Screen and Skiff + Big Screen do. It follows the PRESETS knob and track changes.\n- **Installs from V16 too.** On an FM-1 that came from M-VAVE's V16, the install said the connection was lost partway through (the FM-1's updater names itself `ota-FM-1_016`, and the app looked only for V15's). It now finds either. Thanks to a viewer who reported it.\n- **Finds JIANT FM, Skiff and SLOOP** by their own USB names (\"JIANT\", \"Felucca\"), not only \"FM-1\".\n\nDownload **FM-1-Mirror-Spyglass-android.apk** below (not the green Code button). See the README for plugging it in and the one-time setup.\n",
+   "published_at": "2026-11-04T00:11:05Z",
+   "html_url": "https://github.com/pfkellogg/fm1-mirror-spyglass-android/releases/tag/v1.4.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 707589525,
+    "name": "FM-1-Mirror-Spyglass-android.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2680069,
+    "download_url": "https://github.com/pfkellogg/fm1-mirror-spyglass-android/releases/download/v1.4.0/FM-1-Mirror-Spyglass-android.apk",
+    "digest": "sha256:709eeb3d59c4cfa5476a1222ea1b09f9471c84587cc0ff1fa77d24b0b1761d4a",
+    "download_count": 28
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1445792079,
+   "full_name": "SuperProgramer64/HoneyDelight",
+   "owner": "SuperProgramer64",
+   "avatar_url": "https://avatars.githubusercontent.com/u/202731573?v=4",
+   "description": "Samsung Keyboard with Delight5 prediction and Galaxy AI improvements. Experimental alpha for compatible rooted Samsung devices.",
+   "stars": 2,
+   "forks": 0,
+   "topics": [
+    "android",
+    "galaxy-ai",
+    "kernelsu",
+    "magisk",
+    "samsung-keyboard"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-06T06:45:33Z",
+   "created_at": "2026-11-04T14:46:48Z",
+   "license": "MIT",
+   "language": "Java",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-05T03:28:09Z"
+  },
+  "release": {
+   "id": 434086854,
+   "tag": "v0.1.0-alpha",
+   "name": "HoneyDelight 0.1.0-alpha · Experimental",
+   "notes": "[English](#english) · [Español](#espanol)\n\n<a id=\"english\"></a>\n\n# HoneyDelight 0.1.0-alpha · experimental\n\n**Your Samsung Keyboard, with a touch of Delight.**\n\nConnects Delight5 to Samsung Keyboard and expands the Galaxy AI writing tools. This alpha improves context handling, joined-word splitting, repeated-suggestion filtering and reproduced waits in the rewrite editor.\n\n## Packages\n\n- **Module ZIP:** the main package for the development Galaxy S25+ SM-S936B, Android 16 / One UI 8.5 and Samsung Keyboard 5.9.30.97. Checks compatibility and integrity while retaining Samsung's signed APK.\n- **HoneyDelight Updates 0.1.0-alpha.2** (`versionCode=3`): an optional companion with a refreshed amber interface and adaptive icons. Checks public releases, provides notifications and downloads over unmetered networks, using the same signing certificate as the earlier app. Updating the installed app and its main screen were checked on the development phone. Does not require root or read the keyboard's learned data.\n- **Experimental Keyboard APK:** a complete package with the mod, native library and base models. Signed with a project key; cannot directly update Samsung's official keyboard. Installation, signature permissions and Galaxy AI remain unvalidated; see [FULL_APK.md](https://github.com/SuperProgramer64/HoneyDelight/blob/main/docs/FULL_APK.md).\n\n## Requirements and installation\n\nReference: **Galaxy S25+ SM-S936B · Android 16 / One UI 8.5 · Samsung Keyboard 5.9.30.97 · arm64-v8a**, firmware `S936BXXSBCZG3_OWOBCZG3`, compatibility ID `1a9a24823d75`. The development environment uses KernelSU 3.3.0. The packaging supports a Magisk installation route, but no Magisk version has been validated.\n\nThe **ZIP includes the complete mod, Delight5 and base models**. Requires root and an existing compatible Samsung Keyboard installation; does not install the keyboard from scratch or require Gboard. Install through the root manager and keep another keyboard available. The Updates APK is op",
+   "published_at": "2026-11-04T19:32:28Z",
+   "html_url": "https://github.com/SuperProgramer64/HoneyDelight/releases/tag/v0.1.0-alpha",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 710649732,
+    "name": "HoneyDelight-0.1.0-alpha-SM-S936B-1a9a24823d75.zip",
+    "content_type": "application/zip",
+    "size": 50843770,
+    "download_url": "https://github.com/SuperProgramer64/HoneyDelight/releases/download/v0.1.0-alpha/HoneyDelight-0.1.0-alpha-SM-S936B-1a9a24823d75.zip",
+    "digest": "sha256:81c841f929317a5578c3af68787fdba7797e4a11cbafedac1e786c46d7ce2425",
+    "download_count": 3
+   },
+   {
+    "id": 710643749,
+    "name": "HoneyDelight-Keyboard-0.1.0-alpha-experimental.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 169374845,
+    "download_url": "https://github.com/SuperProgramer64/HoneyDelight/releases/download/v0.1.0-alpha/HoneyDelight-Keyboard-0.1.0-alpha-experimental.apk",
+    "digest": "sha256:62da45e34e614a90861ab8850b8b9f9fa1318b4b6730085a54507cea6677b6c8",
+    "download_count": 4
+   },
+   {
+    "id": 710634476,
+    "name": "HoneyDelight-Updater-alpha.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 47122,
+    "download_url": "https://github.com/SuperProgramer64/HoneyDelight/releases/download/v0.1.0-alpha/HoneyDelight-Updater-alpha.apk",
+    "digest": "sha256:2f4b2ac24f882ee706c552142d21a8c46b24588c5811496f67964d90cb70d4a8",
+    "download_count": 4
+   },
+   {
+    "id": 710634475,
+    "name": "LICENSE",
+    "content_type": "application/octet-stream",
+    "size": 1073,
+    "download_url": "https://github.com/SuperProgramer64/HoneyDelight/releases/download/v0.1.0-alpha/LICENSE",
+    "digest": "sha256:0470f27c974b33b30cc9b7bd95b4cc9a18bc8bcbb1db06abf420ae274d08cd87",
+    "download_count": 1
+   },
+   {
+    "id": 710634472,
+    "name": "SHA256SUMS",
+    "content_type": "application/octet-stream",
+    "size": 331,
+    "download_url": "https://github.com/SuperProgramer64/HoneyDelight/releases/download/v0.1.0-alpha/SHA256SUMS",
+    "digest": "sha256:02e52189387466756bbb532492bb615fe1f88f877e8b2ebdd7b7c6a7cfaae8d6",
+    "download_count": 1
+   },
+   {
+    "id": 710649717,
+    "name": "THIRD_PARTY_NOTICES.md",
+    "content_type": "application/octet-stream",
+    "size": 2884,
+    "download_url": "https://github.com/SuperProgramer64/HoneyDelight/releases/download/v0.1.0-alpha/THIRD_PARTY_NOTICES.md",
+    "digest": "sha256:7c228deb8499325cd71ae48b0272eec70983ba2b5586d2686ef7bf77c089d50b",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1422738427,
+   "full_name": "wanderwildwood/enkaku",
+   "owner": "wanderwildwood",
+   "avatar_url": "https://avatars.githubusercontent.com/u/180095147?v=4",
+   "description": "Remote (遠隔 enkaku) — a Bluetooth remote, keyboard and mouse for a television, a media box or a computer, and a Wi-Fi remote for Kodi. It pairs as a keyboard does; nothing to install on the other end. BT Remote underneath.",
+   "stars": 2,
+   "forks": 0,
+   "topics": [
+    "android",
+    "bluetooth",
+    "e-ink",
+    "kotlin",
+    "mudita-kompakt",
+    "remote-control"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-06T02:09:17Z",
+   "created_at": "2026-10-16T22:40:15Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://wanderthe.dev",
+   "pushedAt": "2026-11-06T02:09:14Z"
+  },
+  "release": {
+   "id": 435302754,
+   "tag": "v0.2.18",
+   "name": "v0.2.18",
+   "notes": "Remote 0.2.18: the screen turns with the phone the way Android itself decides it, so it no longer turns sideways while the phone lies on a desk\n",
+   "published_at": "2026-11-05T14:24:14Z",
+   "html_url": "https://github.com/wanderwildwood/enkaku/releases/tag/v0.2.18",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 713673311,
+    "name": "enkaku-v0.2.18.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5062020,
+    "download_url": "https://github.com/wanderwildwood/enkaku/releases/download/v0.2.18/enkaku-v0.2.18.apk",
+    "digest": "sha256:6a15721b37ec5aeef55cbe2704983e8b0808c7ad099708c425ec6e76df565b79",
+    "download_count": 1
+   },
+   {
+    "id": 713673308,
+    "name": "enkaku-v0.2.18.apk.sha256",
+    "content_type": "application/octet-stream",
+    "size": 85,
+    "download_url": "https://github.com/wanderwildwood/enkaku/releases/download/v0.2.18/enkaku-v0.2.18.apk.sha256",
+    "digest": "sha256:21b514fce8f632c18deb9e2247a979f5efd29790f43f46f95e8aea9e0d89c963",
+    "download_count": 1
+   },
+   {
+    "id": 713673307,
+    "name": "enkaku.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5062020,
+    "download_url": "https://github.com/wanderwildwood/enkaku/releases/download/v0.2.18/enkaku.apk",
+    "digest": "sha256:6a15721b37ec5aeef55cbe2704983e8b0808c7ad099708c425ec6e76df565b79",
+    "download_count": 64
+   },
+   {
+    "id": 713673309,
+    "name": "enkaku.apk.sha256",
+    "content_type": "application/octet-stream",
+    "size": 77,
+    "download_url": "https://github.com/wanderwildwood/enkaku/releases/download/v0.2.18/enkaku.apk.sha256",
+    "digest": "sha256:148fa7ad36616f57fbcc583930a717ae9385e4719e2427e36ef4a08f34017efa",
+    "download_count": 2
    }
   ]
  },
@@ -672065,7 +672507,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1138107530,
    "full_name": "twelvehouse/TapToTop",
@@ -672114,7 +672556,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1362559114,
    "full_name": "jarvisrehaans/Jarvis",
@@ -672122,7 +672564,7 @@
    "avatar_url": "https://avatars.githubusercontent.com/u/326915445?v=4",
    "description": "android, kotlin, gemini, gemini-live, ai-assistant, accessibility-service, automation, threejs, webgl, screen-mirroring, firebase, ota-updates",
    "stars": 1,
-   "forks": 3,
+   "forks": 4,
    "topics": [],
    "archived": false,
    "default_branch": "main",
@@ -672152,13 +672594,13 @@
     "size": 88135994,
     "download_url": "https://github.com/jarvisrehaans/Jarvis/releases/download/v1.7.4/Jarvis-AI-v1.7.4.apk",
     "digest": "sha256:64f7c9eecad74fc9175512a5236c7a3a1bd9ec65ef0bca01841c1087b20ae6ba",
-    "download_count": 150
+    "download_count": 151
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1400369477,
    "full_name": "looizao/talk-to-dot",
@@ -672210,13 +672652,13 @@
     "size": 254954,
     "download_url": "https://github.com/looizao/talk-to-dot/releases/download/v1.3.0/talk-to-dot.apk",
     "digest": "sha256:80d229009ece61e0bf762d82dc7b7592080b7e0ebb9ddbb898e8f2fe3d4aff48",
-    "download_count": 100
+    "download_count": 106
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1314959661,
    "full_name": "torak-en/quizzical-cs-306",
@@ -672260,7 +672702,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1260731937,
    "full_name": "mikedistribute/kitty",
@@ -672304,7 +672746,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1334372539,
    "full_name": "Nielk74/coloros-swipe-launcher",
@@ -672352,13 +672794,13 @@
     "size": 72284,
     "download_url": "https://github.com/Nielk74/coloros-swipe-launcher/releases/download/v0.1.2/ColorOS-Swipe-Launcher-v0.1.2.apk",
     "digest": "sha256:558c9e83bdb85701b0eddced0c7785f1166f03ba58ea8fc37b2ddb8d5d53ae90",
-    "download_count": 44
+    "download_count": 46
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1278577793,
    "full_name": "kostyamat/DIGI-Android-TV-box-Keyboard",
@@ -672396,13 +672838,13 @@
     "size": 3891530,
     "download_url": "https://github.com/kostyamat/DIGI-Android-TV-box-Keyboard/releases/download/Beta_4_Stable/DIGI_Keyboard_by_kostyamat.Beta4.apk",
     "digest": "sha256:5798cbc93c5f1825233a4693a26f53c930176222fc225b9945efdfaf21949ce0",
-    "download_count": 5
+    "download_count": 7
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1396300619,
    "full_name": "taseen-t/tapoff",
@@ -672440,13 +672882,13 @@
     "size": 109192,
     "download_url": "https://github.com/taseen-t/tapoff/releases/download/v1.9/TapOff.apk",
     "digest": "sha256:85c1f33f8e0a7a2d8069463b3adaa662484df69f558ed7ca9e06afdfa77e7275",
-    "download_count": 27
+    "download_count": 28
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1403041148,
    "full_name": "Rehanasharmin/phone-whisper",
@@ -672543,7 +672985,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1426433141,
    "full_name": "serrebidev/BlindPilot-Android",
@@ -672581,13 +673023,13 @@
     "size": 9386959,
     "download_url": "https://github.com/serrebidev/BlindPilot-Android/releases/download/v0.2.0/BlindPilot-Android-v0.2.0.apk",
     "digest": "sha256:b000e88577d843fc7196416a49c1b89e8aeea3d94d0f4bfe0633876f5ce94549",
-    "download_count": 9
+    "download_count": 10
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1340725880,
    "full_name": "sundaysebasidian-byte/PixelGesture",
@@ -672707,7 +673149,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1233540476,
    "full_name": "YoshKung/BT-Speaker-Keeper",
@@ -672769,7 +673211,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1273141400,
    "full_name": "AdityaTummuri/Kavach-UPI",
@@ -672813,7 +673255,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1124125700,
    "full_name": "amateur-dev/Astra-Android",
@@ -672867,7 +673309,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1398698349,
    "full_name": "krisauseu/tapstop-android",
@@ -672889,39 +673331,39 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-15T15:24:37Z",
+   "updated_at": "2026-11-05T13:15:44Z",
    "created_at": "2026-09-30T20:12:55Z",
    "license": "MIT",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-15T15:23:24Z"
+   "pushedAt": "2026-11-05T13:16:31Z"
   },
   "release": {
-   "id": 403937329,
-   "tag": "v0.9",
-   "name": "TapStop Android 0.9 – Qualcomm NPU STT",
-   "notes": "TapStop 0.9 ergänzt „Lokal – Qualcomm NPU“ als dritten STT-Provider neben OpenAI und Groq. Whisper Large V3 Turbo FP16 erkennt Sprache auf dem Gerät; ein separat gewählter OpenAI-/Groq-Provider kann anschließend Plus, Chat oder Formal überarbeiten. Roh mit Local benötigt keinen Cloudaufruf.\n\n- Validiert mit echten Mikrofon-Diktaten, direkter Texteingabe und Encoder-/Decoder-HTP-Nachweisen: Samsung Galaxy S24 Ultra (SM8650, V75, socModel 57) und HONOR MagicPad 4 (SM8845P, V81, socModel 97).\n- SoC-basierte Erkennung, geprüfter Modellordnerimport und ein serieller, prozessweiter Runtime-Owner. Keine automatische CPU- oder Cloud-Ausweichverarbeitung.\n- Maximal 30 Sekunden pro Local-Diktat; Cloudlimits bleiben unverändert. Keine eigene Long-Form-Aufteilung.\n- Vorhandene Einstellungen, API-Keys und Statistiken bleiben bei einem kompatibel signierten Update erhalten. SQLite bleibt auf Schema Version 1.\n\n**Bekannte SDK-Grenze:** Bestimmte Aufnahmen nahe 30 Sekunden können in VoiceAI mit `SPECTROGRAM FAIL` scheitern. TapStop weist dieses gesamte Diktat jetzt als Fehler ab, fügt keinen Teiltext ein und startet keinen Rewrite. Ein neues, kürzeres Diktat kann dieselbe Runtime weiterverwenden. Der interne Qualcomm-SDK-Fehler selbst ist nicht behoben.\n\nDie APK enthält die geprüfte Qualcomm-Runtime einschließlich beider HTP-Targets und der unveränderten Lizenzhinweise. Die etwa 2,2 GB großen Modellpakete sind weder in der APK noch als Release-Assets enthalten. Lokaler Import und der reproduzierbare FP16-Buildweg sind im Repository dokumentiert; der normale Quellcode-Build funktioniert auch ohne proprietäre SDK-Dateien.\n\nValidierung: 59 JVM-/Robolectric-Tests, neun Python-Tests, Android-Instrumentierung, Chrome-Einfügetests, Live-API-Regression für OpenAI/Groq und reale Roh-/Plus-Abnahme auf beiden Geräten. Beide separaten PoC-Apps wurden danach entfernt; TapStop und seine eigenen Modelle bleiben installiert.\n\nDies bleibt entsprechend dem bisherigen Projektworkflow ein Pre-release ",
-   "published_at": "2026-10-05T16:56:19Z",
-   "html_url": "https://github.com/krisauseu/tapstop-android/releases/tag/v0.9",
-   "prerelease": true
+   "id": 435224998,
+   "tag": "v0.11",
+   "name": "TapStop Android 0.11",
+   "notes": "## Neu in TapStop 0.11\n\n- Blase und Modusfächer verwenden das Accessibility-Overlay der vorhandenen Bedienungshilfe **TapStop Texteingabe**. Die separate Berechtigung „Über anderen Apps anzeigen“ entfällt.\n- Die Blase lässt sich weiterhin antippen und verschieben. Langes Drücken öffnet die Auswahl für Roh, Plus, Chat und Formal. Position und Modus werden gespeichert.\n- Der Mikrofon-Dienst startet weiterhin aus der sichtbaren TapStop-App. Nach einer erneuten Verbindung der Bedienungshilfe erscheint die Blase wieder, solange der Mikrofon-Dienst läuft. Direktes Einfügen und Clipboard-Fallback verwenden die bisherigen Einfügepfade.\n\n## Installation und Prüfung\n\nDie APK enthält die bisherige Qualcomm-Runtime. Modellpakete werden separat importiert. Die APK verwendet dieselbe Debug-Signatur und Application-ID (`de.kf.blitztext`, `versionCode=11`) und lässt sich über die vorhandene Version installieren. Das Update war auf dem Honor-Tablet von 0.9 und auf dem Galaxy S24 Ultra von 0.10 erfolgreich. Die Einstellungsdatei und die Statistikdatenbank blieben direkt nach beiden Updates bytegleich.\n\nAuf dem Honor-Tablet wurden der tatsächliche Fenstertyp, Gesten, Dienst-Neustarts, Spracheingabe in Chrome und je drei manuelle Einfügevorgänge mit Text und PNG geprüft. Der sporadische Chrome-Dialog trat in diesen Stichproben nicht auf. Ob er im Alltag erneut auftritt, bleibt offen.\n\n111 JVM-/Robolectric-Tests, 18 Python-Tests, die Geräte-Instrumentierung und zwölf Chrome-Einfügefälle bestanden. Android-Lint meldete 0 Fehler und 28 Warnungen.\n\n**APK** `TapStop-Android-0.11.apk` · 47.906.076 Bytes  \n**SHA-256** `8bbc83454ae37a4d32140523871d779dd14855739803dcadc82a6184ea348b58`\n\n[README](https://github.com/krisauseu/tapstop-android/blob/v0.11/README.md) · [Geräteprüfungen](https://github.com/krisauseu/tapstop-android/blob/v0.11/DEVICE_TESTS.md)\n",
+   "published_at": "2026-11-05T13:16:31Z",
+   "html_url": "https://github.com/krisauseu/tapstop-android/releases/tag/v0.11",
+   "prerelease": false
   },
   "assets": [
    {
-    "id": 613149384,
-    "name": "TapStop-Android-0.9.apk",
+    "id": 713475052,
+    "name": "TapStop-Android-0.11.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 85241179,
-    "download_url": "https://github.com/krisauseu/tapstop-android/releases/download/v0.9/TapStop-Android-0.9.apk",
-    "digest": "sha256:9824e0b7cae8a746d69f8fd97edc143858e29c89c6c66706b1364f9d7f21a8d9",
-    "download_count": 0
+    "size": 47906076,
+    "download_url": "https://github.com/krisauseu/tapstop-android/releases/download/v0.11/TapStop-Android-0.11.apk",
+    "digest": "sha256:8bbc83454ae37a4d32140523871d779dd14855739803dcadc82a6184ea348b58",
+    "download_count": 2
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1408810686,
    "full_name": "Maer-Yakov/vpn-client",
@@ -672992,7 +673434,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1121296079,
    "full_name": "surpha/eenth",
@@ -673036,7 +673478,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1344089043,
    "full_name": "Nort321/levik-vpn",
@@ -673048,39 +673490,39 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-02T20:55:19Z",
+   "updated_at": "2026-11-06T15:30:57Z",
    "created_at": "2026-08-23T18:26:34Z",
    "license": "AGPL-3.0",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-11-02T20:55:17Z"
+   "pushedAt": "2026-11-06T15:33:30Z"
   },
   "release": {
-   "id": 431981389,
-   "tag": "v2.8.20",
-   "name": "Levik VPN 2.8.20",
-   "notes": "## Levik VPN 2.8.20\n\n### Что нового\n\n- «Поделиться VPN»: телефон может раздать своё подключение Levik другим устройствам — через точку доступа или по приглашению в Levik на другом устройстве, даже без своей подписки.\n- LevikDrop: способ передачи выбирается до принятия файлов. Передача по локальной сети больше не уходит на сервер посреди отправки и не ограничена по числу и размеру файлов.\n- Smart Auto подключается сразу, без долгого «Подключение…», а лучший сервер подбирает уже после подключения.\n- Исправлено зависание на «Отключение…» после нажатия кнопки выключения.\n- Если выбранный вами сервер блокирует оператор, приложение подскажет это и предложит автоматический выбор.\n- Отчёты для карты белых списков надёжнее доходят с мобильного интернета.\n\n### Установка\n\nСкачайте файл `LevikVPN-direct-2.8.20.apk` и откройте его на Android-устройстве.\n",
-   "published_at": "2026-11-02T21:19:38Z",
-   "html_url": "https://github.com/Nort321/levik-vpn/releases/tag/v2.8.20",
+   "id": 436700072,
+   "tag": "v2.8.24",
+   "name": "Levik VPN 2.8.24",
+   "notes": "## Levik VPN 2.8.24\n\n### Что нового\n\nВход по QR в обе стороны, включая телевизоры без камеры. Более быстрый старт Smart Auto, проверка передачи данных после запуска и исправления восстановления при смене сети. Новый резервный канал карты белых списков с адресом из подписанной конфигурации.\n\n### Установка\n\nСкачайте файл `LevikVPN-direct-2.8.24.apk` и откройте его на Android-устройстве.\n",
+   "published_at": "2026-11-06T16:09:02Z",
+   "html_url": "https://github.com/Nort321/levik-vpn/releases/tag/v2.8.24",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 703216981,
-    "name": "LevikVPN-direct-2.8.20.apk",
+    "id": 717679178,
+    "name": "LevikVPN-direct-2.8.24.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 95306211,
-    "download_url": "https://github.com/Nort321/levik-vpn/releases/download/v2.8.20/LevikVPN-direct-2.8.20.apk",
-    "digest": "sha256:97ecb8376c7b9cb450e9c00828c4b6b35128be9d4ac0fec3ad25fa02ccbaff41",
-    "download_count": 29
+    "size": 95357391,
+    "download_url": "https://github.com/Nort321/levik-vpn/releases/download/v2.8.24/LevikVPN-direct-2.8.24.apk",
+    "digest": "sha256:110695dafbacfcd7c2a3c2f4eaf2b2d6468aeaa822b012ccf6c17e4444bdf4cd",
+    "download_count": 16
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1319314564,
    "full_name": "tjdoolittle/youtube-tv-autoskip",
@@ -673124,7 +673566,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1208084577,
    "full_name": "alisharifi963/IranVPN-Android",
@@ -673177,7 +673619,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 911010786,
    "full_name": "Valay17/MIBA--Mobile-Image-Based-Authentication-on-Android-Devices",
@@ -673228,7 +673670,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1391311539,
    "full_name": "HikaruApps/ShadowVPN-Android",
@@ -673240,14 +673682,14 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-18T21:47:51Z",
+   "updated_at": "2026-11-04T20:38:03Z",
    "created_at": "2026-09-27T19:07:15Z",
    "license": "AGPL-3.0",
    "language": "Go",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-18T21:47:46Z"
+   "pushedAt": "2026-11-04T20:38:15Z"
   },
   "release": {
    "id": 401369985,
@@ -673272,7 +673714,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1408702885,
    "full_name": "LERO-VPN/LERO-VPN-Android",
@@ -673296,32 +673738,32 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://connect.leeroy.uz",
-   "pushedAt": "2026-10-27T18:22:44Z"
+   "pushedAt": "2026-11-06T09:38:25Z"
   },
   "release": {
-   "id": 412000015,
-   "tag": "v1.0.3",
-   "name": "LERO VPN 1.0.3",
-   "notes": "_Вышла 13.10.2026 · Released 13.10.2026_\n\n**Что нового**\n- Пробный период можно включить прямо с главного экрана, если вы его ещё не использовали.\n- Покупка теперь на одном экране: тариф, срок, гигабайты белых списков и промокод. Подписка и гигабайты оплачиваются одним платежом.\n- Итоговая сумма видна сразу, без долгого ожидания.\n\n**What's new**\n- You can start the free trial right from the home screen if you haven't used it yet.\n- Buying is now one screen: plan, period, Whitelists gigabytes and promo code. The subscription and the gigabytes are paid in one payment.\n- The total shows up right away, with no long wait.\n\nAndroid 8.0+ · arm64\n\n**SHA-256:** `39084beb92caee98ccdb17823863fb075fc59d76632b264b046ac03c8a18c264`\n\n**VirusTotal:** [отчёт / report](https://www.virustotal.com/gui/file/39084beb92caee98ccdb17823863fb075fc59d76632b264b046ac03c8a18c264)\n",
-   "published_at": "2026-10-13T18:48:29Z",
-   "html_url": "https://github.com/LERO-VPN/LERO-VPN-Android/releases/tag/v1.0.3",
+   "id": 436320669,
+   "tag": "v1.1.0",
+   "name": "LERO VPN 1.1.0",
+   "notes": "_Вышла 06.11.2026 · Released 06.11.2026_\n\n**Что нового**\n- В экране «Приложения» у каждого приложения три варианта: «Через VPN», «Мимо VPN» и «Без интернета». Приложению «Без интернета» VPN полностью закрывает доступ в сеть. Блокировка работает, только пока VPN включён, на Android 10 и новее.\n- Виджеты стали информативнее и подстраиваются под размер: время подключения, сервер и задержка, срок подписки, остаток белых списков.\n- Если промокод не подошёл, оплатить без скидки по ошибке больше нельзя. Если в поле промокода ввести код приглашения, приложение объяснит, что скидка по приглашению учитывается сама.\n\n**What's new**\n- In the Apps screen each app has three options: \"Through VPN\", \"Bypass VPN\" and \"No internet\". With \"No internet\", the VPN fully blocks that app's network access. Blocking works only while the VPN is on, on Android 10 and newer.\n- Widgets now show more and adapt to their size: connection time, server and latency, subscription end date, remaining Whitelists traffic.\n- If a promo code isn't accepted, you can no longer pay without the discount by mistake. If you enter an invite code as a promo code, the app explains that the invite discount is applied automatically.\n\nAndroid 8.0+ · arm64\n\n**SHA-256:** `ee8c45b030047485ba8572b8212203d9822676ed645cdadc624b2f0d1fb9af73`\n\n**VirusTotal:** [отчёт / report](https://www.virustotal.com/gui/file/ee8c45b030047485ba8572b8212203d9822676ed645cdadc624b2f0d1fb9af73)\n",
+   "published_at": "2026-11-06T09:38:25Z",
+   "html_url": "https://github.com/LERO-VPN/LERO-VPN-Android/releases/tag/v1.1.0",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 637935972,
-    "name": "lero-vpn-1.0.3.apk",
+    "id": 716640572,
+    "name": "lero-vpn-1.1.0.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 39695334,
-    "download_url": "https://github.com/LERO-VPN/LERO-VPN-Android/releases/download/v1.0.3/lero-vpn-1.0.3.apk",
-    "digest": "sha256:39084beb92caee98ccdb17823863fb075fc59d76632b264b046ac03c8a18c264",
-    "download_count": 8
+    "size": 39732354,
+    "download_url": "https://github.com/LERO-VPN/LERO-VPN-Android/releases/download/v1.1.0/lero-vpn-1.1.0.apk",
+    "digest": "sha256:ee8c45b030047485ba8572b8212203d9822676ed645cdadc624b2f0d1fb9af73",
+    "download_count": 2
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1303619262,
    "full_name": "davoodtaba-glitch/BLA-VPN-Android",
@@ -673359,13 +673801,13 @@
     "size": 96787621,
     "download_url": "https://github.com/davoodtaba-glitch/BLA-VPN-Android/releases/download/v2.31/app-release.apk",
     "digest": "sha256:4e7b9379ef8bdb0ea7d98ead85ea34d088b62d86b2a21ad4615a26b1025a226b",
-    "download_count": 39
+    "download_count": 43
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1317680677,
    "full_name": "jdstigma/HackCheck",
@@ -673409,7 +673851,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1312779162,
    "full_name": "Muxa03/MatchaVPN-Android",
@@ -673453,7 +673895,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1405288545,
    "full_name": "leoraijin/NOVA-VPN-Android",
@@ -673491,7 +673933,7 @@
     "size": 107645953,
     "download_url": "https://github.com/leoraijin/NOVA-VPN-Android/releases/download/v0.2.59/app-arm64-v8a-optimized.apk",
     "digest": "sha256:faff8dea9f41e910519b36c5e7874088109b38cc04ce2ed41d940fc8dccd4b34",
-    "download_count": 2
+    "download_count": 5
    },
    {
     "id": 704411642,
@@ -673500,7 +673942,7 @@
     "size": 87567874,
     "download_url": "https://github.com/leoraijin/NOVA-VPN-Android/releases/download/v0.2.59/app-armeabi-v7a-optimized.apk",
     "digest": "sha256:dc2adf00ee167eb26a454cdbfcb510eb1ddaa8a1cc0f24502491e048adf13482",
-    "download_count": 1
+    "download_count": 2
    },
    {
     "id": 704411630,
@@ -673509,7 +673951,7 @@
     "size": 362690695,
     "download_url": "https://github.com/leoraijin/NOVA-VPN-Android/releases/download/v0.2.59/app-universal-optimized.apk",
     "digest": "sha256:b58dfc56db6e6b25c49be05ac4ed594fb25bd8b0ff50bd7cb65700696d91eb95",
-    "download_count": 1
+    "download_count": 2
    },
    {
     "id": 704411616,
@@ -673533,7 +673975,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 879755888,
    "full_name": "Reuben-Shaw/fresh_planner",
@@ -673577,7 +674019,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1213425445,
    "full_name": "ttuuhcsj545/nthlink-android-vpn",
@@ -673621,7 +674063,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1253914854,
    "full_name": "Yining-24/flexible-work-finder",
@@ -673665,7 +674107,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1273008142,
    "full_name": "avanderberg48-collab/AdrianBrowser",
@@ -673709,7 +674151,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1348466129,
    "full_name": "kapovpn/kapo-vpn-android",
@@ -673728,32 +674170,32 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-09-22T10:05:31Z"
+   "pushedAt": "2026-11-06T12:44:43Z"
   },
   "release": {
-   "id": 393621432,
-   "tag": "v1.0.8",
-   "name": "v1.0.8",
-   "notes": "## What's new in 1.0.8\n\n- Fixed split-tunneling app names being nearly invisible in the app picker (low-contrast text color against the dark dialog).\n- Documented the built-in emergency wipe on the Account screen and on the website — the trigger itself stays undocumented by design, but the app now tells you the capability exists and confirms your account stays active on the server if it's ever used, so you can always sign back in with your account number.\n\nSHA-256: `3d14ed8073e659f9eb96d89a8bfde4b027a11a3bc8f8ce83ef485e52b2804416`\n",
-   "published_at": "2026-09-22T10:05:01Z",
-   "html_url": "https://github.com/kapovpn/kapo-vpn-android/releases/tag/v1.0.8",
+   "id": 436490864,
+   "tag": "v1.0.9",
+   "name": "v1.0.9",
+   "notes": "**KAPO VPN 1.0.9**\n\n- Reconnects without restarting a tunnel that already works, and fixes false reconnects after a restart or force-stop.\n- If Android stops the app, an alarm brings the tunnel back on its own, and KAPO tells you afterwards how long protection was off.\n- Home shows an honest status: it no longer says PROTECTED when the tunnel isn't working, and asks before stopping while not protected.\n- New \"What KAPO VPN does and doesn't do\" screen, and a clearer \"Verify my protection\" screen (real DNS check, honest IPv6 rows).\n- New update check: about once a day, only while you are connected through KAPO. You can turn it off in Settings.\n- Wording changed to \"We aim to keep no activity logs\".\n- Settings screen is always dark and easier to read.\n\n**Important:** if Android stops the app while your screen is off, your traffic can go\noutside the tunnel for a few minutes before KAPO notices. To close that gap, turn on\nAndroid's **Always-on VPN** and **Block connections without VPN**: Settings > Network &\ninternet > VPN > the gear next to KAPO VPN.\n\nSHA-256 of the APK: `3effaa9d8c800003ff5f4c4438cec75cf95193043afcf6a5f048258bc6cc336c`\n",
+   "published_at": "2026-11-06T12:44:43Z",
+   "html_url": "https://github.com/kapovpn/kapo-vpn-android/releases/tag/v1.0.9",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 581109191,
+    "id": 717146385,
     "name": "kapo-latest.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 17606100,
-    "download_url": "https://github.com/kapovpn/kapo-vpn-android/releases/download/v1.0.8/kapo-latest.apk",
-    "digest": "sha256:3d14ed8073e659f9eb96d89a8bfde4b027a11a3bc8f8ce83ef485e52b2804416",
-    "download_count": 1
+    "size": 17658957,
+    "download_url": "https://github.com/kapovpn/kapo-vpn-android/releases/download/v1.0.9/kapo-latest.apk",
+    "digest": "sha256:3effaa9d8c800003ff5f4c4438cec75cf95193043afcf6a5f048258bc6cc336c",
+    "download_count": 4
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1176309484,
    "full_name": "yadavnikhil03/AntiScroll",
@@ -673803,7 +674245,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1317077547,
    "full_name": "GHYHC/AutoSign",
@@ -673847,7 +674289,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 923226814,
    "full_name": "vladislavtemmo/EMBREIS-VPN",
@@ -673895,7 +674337,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1326010427,
    "full_name": "aliss32/ADBAutoPairKeeper",
@@ -673939,7 +674381,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 490919507,
    "full_name": "Archett0/Android-Calendar",
@@ -674036,7 +674478,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1423085225,
    "full_name": "Olegu621/xlamBOT-Android--Brawl-Stars--",
@@ -674063,48 +674505,48 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-02T16:56:26Z",
+   "updated_at": "2026-11-05T22:24:25Z",
    "created_at": "2026-10-17T07:50:03Z",
    "license": "Other",
    "language": "Python",
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://olegu621.github.io/xlamBOT-Android--Brawl-Stars--/",
-   "pushedAt": "2026-11-02T16:56:22Z"
+   "pushedAt": "2026-11-05T22:24:20Z"
   },
   "release": {
-   "id": 432747476,
-   "tag": "v1.4.27",
-   "name": "xlamBOT 1.4.27 — AutoAim и Бонни",
-   "notes": "## xlamBOT 1.4.27 — AutoAim и Бонни\n\n- AutoAim точнее сопоставляет обнаруженных противников с их предыдущими позициями, когда рядом несколько целей.\n- Если движение камеры нельзя надёжно определить, бот целится по наблюдаемой позиции вместо ненадёжного упреждения.\n- Улучшено определение формы Бонни при частично заполненной шкале здоровья.\n- Добавлен выбор языка интерфейса при первом запуске. Для распознавания игровых экранов используйте английский язык Brawl Stars.\n- Добавлено распознавание английской кнопки выхода после поражения команды.\n\nAPK собран с защитой и подписан. Автоматические тесты прошли; установка поверх предыдущей версии и работа в бою проверены на BlueStacks. Повышение точности попаданий на серии боёв и распознавание формы Бонни на всех устройствах отдельно не подтверждены.\n\nУстановите APK поверх предыдущей версии. При необходимости заново подключите источник изображения и службу специальных возможностей.\n\n[Сайт и инструкция](https://olegu621.github.io/xlamBOT-Android--Brawl-Stars--/)\n",
-   "published_at": "2026-11-03T13:44:52Z",
-   "html_url": "https://github.com/Olegu621/xlamBOT-Android--Brawl-Stars--/releases/tag/v1.4.27",
+   "id": 435814128,
+   "tag": "v1.4.31",
+   "name": "xlamBOT 1.4.31 — BrawlerRules для Брока",
+   "notes": "# xlamBOT 1.4.31 — BrawlerRules для Брока\n\nДобавлены правила игры за Брока для режима Trio Showdown. При активном Plus и включённом BrawlerRules бот старается держать дистанцию, отходить от близких угроз и после выстрела, возвращаться к союзникам и выбирать доступные цели с учётом препятствий. При доступном распознавании учитываются здоровье и боезапас.\n\nС выключенным BrawlerRules используется прежняя тактика. Правила не требуют конкретного гаджета или звёздной силы.\n\nПроверки: 511 автоматических тестов; подписанная защищённая сборка установлена и проверена в игре на BlueStacks. Наблюдались движение и атаки за Брока; попадание Супером отдельно не подтверждено. Работа может отличаться в зависимости от устройства и игровой ситуации.\n\nСкачайте xlamBOT.apk и установите поверх текущей версии. Сайт и инструкции: https://olegu621.github.io/xlamBOT-Android--Brawl-Stars--/\n",
+   "published_at": "2026-11-05T22:23:27Z",
+   "html_url": "https://github.com/Olegu621/xlamBOT-Android--Brawl-Stars--/releases/tag/v1.4.31",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 705748349,
+    "id": 715021560,
     "name": "SHA256SUMS.txt",
     "content_type": "text/plain; charset=utf-8",
     "size": 79,
-    "download_url": "https://github.com/Olegu621/xlamBOT-Android--Brawl-Stars--/releases/download/v1.4.27/SHA256SUMS.txt",
-    "digest": "sha256:f045f1402f0e7f88800d618380ccd50d0b384a221af8c800def6cb85212f2078",
+    "download_url": "https://github.com/Olegu621/xlamBOT-Android--Brawl-Stars--/releases/download/v1.4.31/SHA256SUMS.txt",
+    "digest": "sha256:30844197dc6c8855be8d9cbb8159581a19658ff89f0a8c74263aef5c479dcd49",
     "download_count": 1
    },
    {
-    "id": 705748351,
+    "id": 715021561,
     "name": "xlamBOT.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 185002475,
-    "download_url": "https://github.com/Olegu621/xlamBOT-Android--Brawl-Stars--/releases/download/v1.4.27/xlamBOT.apk",
-    "digest": "sha256:5bb0b858901e6384dc29856fecb02c6d4d14a7e65b571af5774120f1f11742f2",
-    "download_count": 5
+    "size": 185018859,
+    "download_url": "https://github.com/Olegu621/xlamBOT-Android--Brawl-Stars--/releases/download/v1.4.31/xlamBOT.apk",
+    "digest": "sha256:87db7d49f080126775ba72f60b81b553ca407f4d84394cc7f5e4e11692831a5e",
+    "download_count": 13
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 678771147,
    "full_name": "Starcool20/Zerox_Vpn",
@@ -674175,7 +674617,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1313759137,
    "full_name": "Agroqirax/CalendarTile",
@@ -674224,7 +674666,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1120573221,
    "full_name": "skalover32-a11y/VLF-Android-VPN-client",
@@ -674268,7 +674710,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1328537952,
    "full_name": "thinkerzero2005/turtle-calendar-android",
@@ -674312,7 +674754,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1390671062,
    "full_name": "shyamy1206-ux/Zero-Hunger",
@@ -674356,7 +674798,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1415066080,
    "full_name": "mohsenRahimi1708/jalali-calendar-android",
@@ -674420,7 +674862,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1276436582,
    "full_name": "EvanBoyar/ShawCW",
@@ -674466,13 +674908,13 @@
     "size": 11382644,
     "download_url": "https://github.com/EvanBoyar/ShawCW/releases/download/v0.2.2/shaw-cw-0.2.2.apk",
     "digest": "sha256:d3b49ac121fd634ef9359e5f5ea471e96b220fd316fc7136fddd4d729836edf6",
-    "download_count": 13
+    "download_count": 15
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1409376942,
    "full_name": "eskey-tech/tvpointer",
@@ -674519,13 +674961,13 @@
     "size": 55926,
     "download_url": "https://github.com/eskey-tech/tvpointer/releases/download/v1.0.0/tv-pointer.apk",
     "digest": "sha256:db853b533bc6d0f7c2d05f46f2240bd1d838d39ed01173105eb55c6f7fe2b767",
-    "download_count": 35
+    "download_count": 39
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1246348921,
    "full_name": "aba7nes/AIPTV",
@@ -674572,7 +675014,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1233878782,
    "full_name": "ArtsoftTeam/ArtVPN-Release",
@@ -674616,7 +675058,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1066541914,
    "full_name": "t4paN/AVA",
@@ -674669,7 +675111,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1267303822,
    "full_name": "mrmilad7droid/MrVPN_7_Android",
@@ -674722,7 +675164,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1367456628,
    "full_name": "stailegrow/maxstrike-vpn-client-android",
@@ -674766,7 +675208,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1354310681,
    "full_name": "Elsht666/screen-freeze",
@@ -674817,7 +675259,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1365249207,
    "full_name": "lelecz/nitian",
@@ -674872,7 +675314,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 797989030,
    "full_name": "asivers/mycalendar",
@@ -675510,7 +675952,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1009320517,
    "full_name": "morlec/CalendarApp",
@@ -675845,7 +676287,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 434603859,
    "full_name": "techyminati/android_packages_apps_Calendar",
@@ -676584,7 +677026,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1405464188,
    "full_name": "Jakke77/Varjoaika-Android",
@@ -676969,7 +677411,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 521416367,
    "full_name": "cecicifu/Notendary",
@@ -706082,7 +706524,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1429093724,
    "full_name": "h28716331-netizen/HomeBar",
@@ -706120,13 +706562,13 @@
     "size": 24186304,
     "download_url": "https://github.com/h28716331-netizen/HomeBar/releases/download/v1.7.1/HomeBar-1.7.1-debug.apk",
     "digest": "sha256:40988138a1e781ba011698701355f27870f0a4cb5ce236a3825bc6f0273f8dc5",
-    "download_count": 21
+    "download_count": 24
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1434152096,
    "full_name": "fadayat/voicetyping-android",
@@ -706178,7 +706620,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1368881082,
    "full_name": "sarcx/fassistant-click",
@@ -706218,7 +706660,7 @@
     "size": 70400,
     "download_url": "https://github.com/sarcx/fassistant-click/releases/download/v0.1.3/fassistant-click.apk",
     "digest": "sha256:d887d827646f4e3862c215da0b123bfa07540986409494e1b69ff1cdbe1f591a",
-    "download_count": 16
+    "download_count": 18
    },
    {
     "id": 617348410,
@@ -706233,7 +706675,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1432445207,
    "full_name": "kieranlittle667/sim-ringtones",
@@ -706250,48 +706692,48 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-24T19:05:57Z",
+   "updated_at": "2026-11-04T11:38:49Z",
    "created_at": "2026-10-24T17:50:43Z",
    "license": "MIT",
    "language": "Java",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-24T18:28:58Z"
+   "pushedAt": "2026-11-04T11:39:52Z"
   },
   "release": {
-   "id": 422908407,
-   "tag": "v0.3.0",
-   "name": "SIM Ringtones 0.3.0",
-   "notes": "# SIM Ringtones 0.3.0\n\nSIM Ringtones can now check for updates and install new releases without returning to GitHub in a browser.\n\n- Automatic checks when you open the app, at most once a day, with an off switch.\n- A manual Check for updates button and release notes.\n- Verified APK downloads: SHA-256, size, package, version and signing certificate checks.\n- Installation through Android's normal confirmation screen.\n\nDownload the APK below. Android 17 or later with per-SIM ringtone support is required. Tested on a Pixel 8 running Android 17.\n\nAPK SHA-256: `11a57f4a1234bd45e39ac887bd122c503379e917fa411c0770afd3ab55da7911`\n\nSigning certificate SHA-256: `f61d73f549a87ad1acda8cfd8845f3174f094cdfbd663e59849427262ed3532e`\n\nCreated by Kieran Little, co-authored with OpenAI Codex (GPT-6 Sol). MIT licence.\r\n",
-   "published_at": "2026-10-24T18:28:58Z",
-   "html_url": "https://github.com/kieranlittle667/sim-ringtones/releases/tag/v0.3.0",
+   "id": 433838371,
+   "tag": "v0.3.2",
+   "name": "SIM Ringtones 0.3.2",
+   "notes": "SIM Ringtones 0.3.2 makes the app quieter and more direct, with less repeated guidance.\n\n### Changes\n\n- Removed the main-screen slogan, subtitle, privacy footer and repeated update explanation.\n- Setup controls now appear only when SIM or ringtone permissions are missing.\n- Removed the test-call reminder and hidden the empty ringtone status area.\n- Shortened save, preview, download, verification and installer messages.\n- Kept SIM-specific screen-reader labels, permission controls, reset confirmation and ringtone recovery guidance.\n\n### Update\n\nUse **Check for updates** in the app, or download **sim-ringtones-0.3.2.apk** below. This APK uses the original release signing certificate and can update existing official installations.\n\nRequires Android 17 / API 37 or later and per-account ringtone support. **SHA256SUMS** contains the APK checksum.\n\n### Validation\n\nAll 85 host regression cases and manifest checks passed, along with Windows builds and CodeQL. The signed APK passed signature, alignment, package and version checks; its signing certificate matches 0.3.1. No new device UI or screen-reader testing was performed.\n\n[Full changelog](https://github.com/kieranlittle667/sim-ringtones/compare/v0.3.1...v0.3.2)\n",
+   "published_at": "2026-11-04T11:39:52Z",
+   "html_url": "https://github.com/kieranlittle667/sim-ringtones/releases/tag/v0.3.2",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 672990560,
+    "id": 709278137,
     "name": "SHA256SUMS",
     "content_type": "application/octet-stream",
-    "size": 91,
-    "download_url": "https://github.com/kieranlittle667/sim-ringtones/releases/download/v0.3.0/SHA256SUMS",
-    "digest": "sha256:d9c77756d95341013fed17b1e317a7fb2e2dc447c626d9f9b027b946e94e1346",
-    "download_count": 0
+    "size": 90,
+    "download_url": "https://github.com/kieranlittle667/sim-ringtones/releases/download/v0.3.2/SHA256SUMS",
+    "digest": "sha256:1c074ed220dbe14707da8a8a9a7028b4b1585fc2d5e1d4e38681669db1fe0c1d",
+    "download_count": 1
    },
    {
-    "id": 672990561,
-    "name": "sim-ringtones-0.3.0.apk",
+    "id": 709278134,
+    "name": "sim-ringtones-0.3.2.apk",
     "content_type": "application/vnd.android.package-archive",
     "size": 33252,
-    "download_url": "https://github.com/kieranlittle667/sim-ringtones/releases/download/v0.3.0/sim-ringtones-0.3.0.apk",
-    "digest": "sha256:11a57f4a1234bd45e39ac887bd122c503379e917fa411c0770afd3ab55da7911",
-    "download_count": 1
+    "download_url": "https://github.com/kieranlittle667/sim-ringtones/releases/download/v0.3.2/sim-ringtones-0.3.2.apk",
+    "digest": "sha256:b91f366db2ceadb2d57ff80882d30e2c130cadb742eb403ef648bffad10616c7",
+    "download_count": 3
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1433119331,
    "full_name": "dedmazzay/xiaomi-tv-bt-pairing-fix",
@@ -719541,7 +719983,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1429537182,
    "full_name": "Mubai-meng/FKColorOS",
@@ -719553,14 +719995,14 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-29T08:01:42Z",
+   "updated_at": "2026-11-06T13:37:46Z",
    "created_at": "2026-10-22T09:41:46Z",
    "license": null,
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-28T15:30:32Z"
+   "pushedAt": "2026-11-06T13:37:41Z"
   },
   "release": {
    "id": 426850095,
@@ -719579,7 +720021,7 @@
     "size": 8384203,
     "download_url": "https://github.com/Mubai-meng/FKColorOS/releases/download/%E6%AD%A3%E5%BC%8F%E7%89%88/FKColorOS_v1.2.0_release.apk",
     "digest": "sha256:17101b962d9745edc67db4a743a1f4baec965cb9f5c42050af1ec355d68b533d",
-    "download_count": 20
+    "download_count": 40
    }
   ]
  },
@@ -719645,7 +720087,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1430733572,
    "full_name": "dark-hacker-error/Jarvis-Assistant",
@@ -719852,7 +720294,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1422352635,
    "full_name": "vpn360app/vpn360-android",
@@ -719932,7 +720374,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1402733761,
    "full_name": "yeeyon/touchlock",
@@ -719993,7 +720435,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1414649697,
    "full_name": "sirjoe58/MAILALLEGATI",
@@ -720019,14 +720461,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-18T09:51:59Z",
+   "updated_at": "2026-11-05T10:53:17Z",
    "created_at": "2026-10-11T18:27:07Z",
    "license": "MIT",
    "language": "Python",
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://github.com/sirjoe58/MAILALLEGATI/releases/latest",
-   "pushedAt": "2026-10-18T09:53:18Z"
+   "pushedAt": "2026-11-05T10:53:13Z"
   },
   "release": {
    "id": 416367655,
@@ -720054,7 +720496,7 @@
     "size": 10508241,
     "download_url": "https://github.com/sirjoe58/MAILALLEGATI/releases/download/v1.4.0/MailAllegati-Android.apk",
     "digest": "sha256:af7b9f6b6df5858456b858556cf426d3d125f10bfe66d6c67dac206d472ae2c5",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 653122696,
@@ -720078,7 +720520,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 968132472,
    "full_name": "emrepbu/SMSGateway",
@@ -720145,7 +720587,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1236046349,
    "full_name": "szgenle/agentpost",
@@ -720200,7 +720642,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 623728676,
    "full_name": "ylfyt/next-mail",
@@ -720255,7 +720697,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1438680786,
    "full_name": "Mika777733/VeilVpn",
@@ -720299,7 +720741,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1438637565,
    "full_name": "kekejiang114514/deepseek-harness-android",
@@ -720321,39 +720763,39 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-02T17:24:41Z",
+   "updated_at": "2026-11-05T12:59:39Z",
    "created_at": "2026-10-29T15:53:28Z",
    "license": "MIT",
    "language": "Java",
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-11-02T17:24:57Z"
+   "pushedAt": "2026-11-05T12:59:27Z"
   },
   "release": {
-   "id": 432611866,
-   "tag": "v1.2",
-   "name": "v1.2 Stable release · 正式版",
-   "notes": "## v1.2 official version\n\n### The problems before this version have been fixed one by one.\n\n| legacy from beta stage | Process |\n|---|---|\n| The thinking process is only saved but not displayed: `reasoning` is saved in the history, but is not rendered during playback | Add foldable blocks in history, click to open to view |\n| `browser.cookies` will return the cookie plain text to the model | Changed to return only the number and name, the value is not echoed |\n| The \"Built-in Virtual Machine\" panel does not occupy resources | The bottom displays CPU and memory in real time (read `/proc`, no permissions required) |\n| The terminal can only scroll down all the time | Add \"clear screen\" |\n| The new page name (memory/default/terminal/browser/virtual machine) is not included in the translation table | Already connected |\n\n### v1.2 accumulation function\n\n- **Memory**: Credentials are encrypted with Android Keystore's AES-GCM, AI can \"use\" but not \"see\"\n- **Prompt word preset**: multiple background instructions, independent start and stop, spelling into the system prompt word\n- **Built-in browser**: readable, clickable, inputable, and shares cookies with AI\n- **Built-in virtual machine panel**: displayed step by step, the shell step displays the terminal, the browser step has embedded real-time images, and the bottom CPU/memory\n- **Terminal**: Execute system commands within the application\n- **Usage panel**: balance, number of requests, token consumption\n- **Thinking process**: Streaming expansion, collapse during text, history can be reviewed\n- **Table**: The entire grid is rendered, with header background color and row and column separators\n- Tool capsule, information flow anchoring, status bar\n\n### known boundaries\n\n- Interface copywriting covers 75 interactive skeletons + new page names; long descriptions in the panel are still in Chinese\n- Browser screenshots only include the viewport, and long pages are not spliced.\n- The panel lacks the timeline and manual address ba",
-   "published_at": "2026-11-03T11:32:34Z",
-   "html_url": "https://github.com/kekejiang114514/deepseek-harness-android/releases/tag/v1.2",
+   "id": 434035536,
+   "tag": "v1.4",
+   "name": "v1.4 Stable release · 正式版",
+   "notes": "## v1.4 — Stable release\n\n### Pause mid-reply, then continue\n\nThe send button is a pause button while a reply streams. Pausing keeps everything received so far and marks the reply as interrupted; the button becomes a play arrow and picks up from where it stopped, with a hidden note telling the model it was cut off. Long-press to stop outright.\n\nStreaming is genuinely incremental now — the previous build downloaded the whole response and parsed it at the end, so deltas arrived in one burst and a pause would have waited for the server to finish.\n\n### Floating capsule\n\nWhile a turn runs and the app is in the background, a capsule sits at the screen edge: what the agent is doing (\"浏览 zhihu.com · 4s\", or the page title once it loads), how long, and a pause/continue button. Drag to move, tap to return to the app, long-press to hide until the next turn. Idle means no capsule at all.\n\nIt is a foreground service, so the process stays alive — which is also what keeps the accessibility service from being reclaimed.\n\n### Feature settings\n\nTool settings are one page: 屏幕操作, 悬浮窗, 上下文记忆. The context section adds a switch for automatic compaction (off still keeps the emergency compaction when a request is rejected as too long), current session usage, and a manual compact action.\n\n### Accessibility\n\n- Clicking a text node walks up to the nearest clickable ancestor, typing finds the nearest editable field, scrolling falls back to a gesture\n- `a11y.screen` prints a compact one-line-per-control outline with the same indices as `a11y.dump`; `a11y.app` and `a11y.wait` round it out\n- The service keeps the configuration the system hands it instead of replacing it, subscribes only to window-state/scroll events, and writes connect/unbind/destroy lines to `a11y.log`, which the diagnostics include\n\n### Fixes\n\n- The `/memory` entry in the slash panel used a brain icon that turned into a blob at 16dp; it now uses a bookmark, which also matches what the command does\n- Request bodies only carry fie",
+   "published_at": "2026-11-04T14:30:13Z",
+   "html_url": "https://github.com/kekejiang114514/deepseek-harness-android/releases/tag/v1.4",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 705373741,
-    "name": "DeepSeekHarness-1.2.apk",
+    "id": 709801329,
+    "name": "DeepSeekHarness-1.4.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 307821,
-    "download_url": "https://github.com/kekejiang114514/deepseek-harness-android/releases/download/v1.2/DeepSeekHarness-1.2.apk",
-    "digest": "sha256:db5cf7d51174d823538bde2eab172e2caf1ffe64e1759d8416e6771ffb869d2a",
-    "download_count": 4
+    "size": 377523,
+    "download_url": "https://github.com/kekejiang114514/deepseek-harness-android/releases/download/v1.4/DeepSeekHarness-1.4.apk",
+    "digest": "sha256:d09f08711d6c065a0d174b2458acafe0cd8b7815b5b845727783e56b08009524",
+    "download_count": 5
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1311447392,
    "full_name": "StrikerLUL/LastMessage",
@@ -720488,7 +720930,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1411853199,
    "full_name": "angasko-12345/qr-generator",
@@ -720532,7 +720974,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1281814596,
    "full_name": "socrtwo/annes-post",
@@ -720586,7 +721028,7 @@
     "size": 77388926,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-desktop-v1.6.0-linux-arm64-portable.tar.gz",
     "digest": "sha256:408cf5a6c366fe207ca81dd699695a500a05d4455d8338030d41666126d531f8",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 676595145,
@@ -720595,7 +721037,7 @@
     "size": 67527430,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-desktop-v1.6.0-linux-arm64.deb",
     "digest": "sha256:2d266b6db4c26b97fb13d75784cfa81b23fec0ec09d603be16e5c395f36e8348",
-    "download_count": 2
+    "download_count": 3
    },
    {
     "id": 676594943,
@@ -720604,7 +721046,7 @@
     "size": 79876675,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-desktop-v1.6.0-linux-x64-portable.tar.gz",
     "digest": "sha256:8a1399a81811e9dd27ffec325111beb47ac568fef69d2b6497be2aee7874d025",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 676594945,
@@ -720613,7 +721055,7 @@
     "size": 69737660,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-desktop-v1.6.0-linux-x64.deb",
     "digest": "sha256:fdfbf95ad40768c6165a1b218a3c32b0e3fde4f6b5b78b45ba7acfe1f4aa1f25",
-    "download_count": 3
+    "download_count": 4
    },
    {
     "id": 676596189,
@@ -720622,7 +721064,7 @@
     "size": 80149150,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-desktop-v1.6.0-macos-arm64-portable.tar.gz",
     "digest": "sha256:c19fa0c90f88d7ee07aa8f35d1a754e8e1e9043bd7c01b3a04f797e78763a8b5",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 676596191,
@@ -720631,7 +721073,7 @@
     "size": 84541769,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-desktop-v1.6.0-macos-arm64.dmg",
     "digest": "sha256:016e7e23818beaebc35780fdfa1cb52bdb54c96a650d1e060eccc2af27aa6500",
-    "download_count": 2
+    "download_count": 3
    },
    {
     "id": 676596993,
@@ -720640,7 +721082,7 @@
     "size": 73235264,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-desktop-v1.6.0-windows-x64-portable.zip",
     "digest": "sha256:fd6bc2fcd261aeaead7400f06ff702c85d80defd1e807cd91bce817cd697e5c6",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 676596992,
@@ -720649,7 +721091,7 @@
     "size": 75175325,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-desktop-v1.6.0-windows-x64.msi",
     "digest": "sha256:2eda973f4542acf9269a3ad34d72190cffa76964df4c1c8c00af8aec6d0107fd",
-    "download_count": 2
+    "download_count": 3
    },
    {
     "id": 676591298,
@@ -720658,7 +721100,7 @@
     "size": 539616,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/QuillPost-iOS-simulator-v1.6.0.app.zip",
     "digest": "sha256:886472b068c8dc8885475730f2fef59c172fd556d97130e8f21e360bc47e5757",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 676597001,
@@ -720667,7 +721109,7 @@
     "size": 6943806,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-v1.6.0-debug.apk",
     "digest": "sha256:169179a4adbfd819e5e24501d82d8e48f72eec4592cee520a8a14363af4f59e9",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 676597003,
@@ -720676,7 +721118,7 @@
     "size": 5389839,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-v1.6.0.apk",
     "digest": "sha256:cb577fbc3b2e6d1b4704d83a9871e1d756310fc2ce281059e9d502d8f024fc6e",
-    "download_count": 2
+    "download_count": 4
    },
    {
     "id": 676594251,
@@ -720685,13 +721127,13 @@
     "size": 17858951,
     "download_url": "https://github.com/socrtwo/annes-post/releases/download/v1.6.0/quillpost-web-v1.6.0-any-jvm.zip",
     "digest": "sha256:809e19c407d827f4b55c703b3c8d621e7f284fdb48a88804d35678915122eb62",
-    "download_count": 2
+    "download_count": 3
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 362695233,
    "full_name": "a-givertzman/simple_notes",
@@ -720744,7 +721186,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 808194609,
    "full_name": "AudyDevs/Parrot",
@@ -720799,7 +721241,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1434063076,
    "full_name": "bramafajar25-gif/layar-andro-tv",
@@ -720861,7 +721303,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1202477421,
    "full_name": "balumn/cleanify",
@@ -720899,13 +721341,13 @@
     "size": 8341314,
     "download_url": "https://github.com/balumn/cleanify/releases/download/v1.0.0/app-release.apk",
     "digest": "sha256:26a15abecac748027de652197aa34042dd48360d1e4b9c5e1f1ed5a259a8a5aa",
-    "download_count": 168
+    "download_count": 171
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1434262449,
    "full_name": "ooopev/graphite",
@@ -720949,7 +721391,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1182108659,
    "full_name": "YOGESHVENKATAPATHI/dropbox_auto_creator",
@@ -721051,7 +721493,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1350557633,
    "full_name": "tech-anupam/Googlify",
@@ -721110,7 +721552,7 @@
     "size": 19373045,
     "download_url": "https://github.com/tech-anupam/Googlify/releases/download/release/Googlify.apk",
     "digest": "sha256:9d99e02ee447d85117b1e4dc47e415cc54c097e58b4dde2d449b2ee96c5957c7",
-    "download_count": 29
+    "download_count": 32
    },
    {
     "id": 535217248,
@@ -721119,7 +721561,7 @@
     "size": 8455,
     "download_url": "https://github.com/tech-anupam/Googlify/releases/download/release/Googlify.Chrome.Extension.zip",
     "digest": "sha256:66388ce71a70a2375874fdebbbc6bbbef26b534878791124a099b5af9417b474",
-    "download_count": 16
+    "download_count": 18
    }
   ]
  },
@@ -721196,7 +721638,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1292906670,
    "full_name": "iamLudok/Ludok-wallet",
@@ -726298,7 +726740,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1441211480,
    "full_name": "jonathancruzate/muse-android-auto",
@@ -726317,14 +726759,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-02T21:07:13Z",
+   "updated_at": "2026-11-05T06:19:19Z",
    "created_at": "2026-10-31T20:00:16Z",
    "license": "MIT",
    "language": "Java",
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-11-02T21:07:09Z"
+   "pushedAt": "2026-11-05T06:19:16Z"
   },
   "release": {
    "id": 431969988,
@@ -726343,13 +726785,13 @@
     "size": 747048,
     "download_url": "https://github.com/jonathancruzate/muse-android-auto/releases/download/v2.5.3/Muse-Android-Auto-2.5.3.apk",
     "digest": "sha256:cea71662e010e91935d9857fc4651031f10b0245276cacc104f7c0bc05317257",
-    "download_count": 3
+    "download_count": 6
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1389585211,
    "full_name": "Maopk/dsh-termux-kit",
@@ -726426,13 +726868,13 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1443992233,
    "full_name": "Xing77777/NonogramLens",
    "owner": "Xing77777",
    "avatar_url": "https://avatars.githubusercontent.com/u/350770531?v=4",
-   "description": "数织透镜｜每天数独助手：Android 悬浮窗识别 10x10/15x15 棋盘，求解并叠加答案，可选无障碍自动点击。",
+   "description": "每天数独｜每天数独助手：Android 悬浮窗识别 10x10/15x15 棋盘，求解并叠加答案，可选无障碍自动点击。",
    "stars": 1,
    "forks": 0,
    "topics": [
@@ -726445,13 +726887,13 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-03T08:28:57Z",
+   "updated_at": "2026-11-03T11:01:59Z",
    "created_at": "2026-11-03T08:09:37Z",
    "license": "MIT",
    "language": "Kotlin",
    "openIssues": 0,
    "watchers": null,
-   "homepage": null,
+   "homepage": "",
    "pushedAt": "2026-11-03T08:15:40Z"
   },
   "release": {
@@ -726471,7 +726913,7 @@
     "size": 54669955,
     "download_url": "https://github.com/Xing77777/NonogramLens/releases/download/v1.0.0/NonogramLens-debug.apk",
     "digest": "sha256:624622c0cb3cc8922bd56a8618917f22622e6f85e11acfac7abf73f56563847d",
-    "download_count": 1
+    "download_count": 2
    },
    {
     "id": 704831658,
@@ -726480,7 +726922,7 @@
     "size": 90,
     "download_url": "https://github.com/Xing77777/NonogramLens/releases/download/v1.0.0/SHA256.txt",
     "digest": "sha256:9609afb6875b0989d950210b5b5f3f31124cbc01c26896644a665bd0267a3f89",
-    "download_count": 0
+    "download_count": 2
    }
   ]
  },
@@ -729178,6 +729620,638 @@
     "download_url": "https://github.com/wahaha232/reward-ad-guard/releases/download/v1.1.1/RewardAdGuard-v1.1.1.apk.sha256",
     "digest": "sha256:51c2c5579fee497d1055018c7d0285585a9eb1d426b4c8120c36b44d4decae67",
     "download_count": 4
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1302825167,
+   "full_name": "DrophouseLtd/SightBuddy",
+   "owner": "DrophouseLtd",
+   "avatar_url": "https://avatars.githubusercontent.com/u/252892542?v=4",
+   "description": "Accessible AI vision for blind and low-vision Android users: read text, find objects, check light and colour. On-device models, optional OpenAI with your own key. TalkBack-first.",
+   "stars": 1,
+   "forks": 3,
+   "topics": [
+    "accessibility",
+    "android",
+    "blind",
+    "jetpack-compose",
+    "kotlin",
+    "low-vision",
+    "ocr",
+    "on-device-ai",
+    "talkback",
+    "whisper"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-06T19:42:42Z",
+   "created_at": "2026-07-16T13:37:04Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://www.drophouse.uk/products/sightbuddy",
+   "pushedAt": "2026-09-23T09:32:42Z"
+  },
+  "release": {
+   "id": 394440288,
+   "tag": "v2.3.0",
+   "name": "Sight Buddy v2.3.0",
+   "notes": "Sight Buddy can now answer without a key, an account or an internet connection.\n\nProduct page: **[drophouse.uk/products/sightbuddy](https://www.drophouse.uk/products/sightbuddy/)**\n\n## What's new\n\n- **AI on the phone.** Download a model once from Settings → Model library (about 2.6 GB, English) and Image chat and Text chat answer on the device itself. Nothing is sent anywhere. OpenAI stays as the faster option for anyone who wants it, behind a **Use API** switch in Settings.\n- **Memories.** Save a chat and read it again later. Saved chats live in the app's private storage and are left out of Android's cloud backup, so they stay on the phone that made them.\n- **The app writes down what it says.** \"Looking for text\", \"No text was detected\" and the rest now appear in the conversation as well as being spoken, so a screen reader can read them back. They are left out when a chat is saved: a saved chat holds your questions, the answers, and any page that was read.\n- **Finnish**, alongside English.\n- **TalkBack work throughout**, from blind testers' feedback: real switches and radio buttons in Settings, Back first in the reading order, buttons that no longer rename themselves under the focus, and an open-source licences screen under Settings → Privacy.\n- **Faster where it counts.** The main screen had grown past Android's per-method compile limit and was running interpreted. It is now split into a controller and one composable per screen.\n\n## Install\n\nDownload `SightBuddy-v2.3.0-arm64.apk` below and open it on your phone. Android will ask permission to install from your browser or file manager. Requires Android 11 or newer, on an arm64 phone (anything from roughly 2017 onward).\n\nSHA-256: `90f9b58eb7b097659b61096e573632ddfde2be2ca04f398dca0e3159ebdb48e5`\n\n**Google Play and this APK are signed with different keys**, so Android will not replace one with the other. Pick a source and stay with it; switching means uninstalling first, which erases your saved API key and any downlo",
+   "published_at": "2026-09-23T08:22:45Z",
+   "html_url": "https://github.com/DrophouseLtd/SightBuddy/releases/tag/v2.3.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 583324477,
+    "name": "SightBuddy-v2.3.0-arm64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 88705387,
+    "download_url": "https://github.com/DrophouseLtd/SightBuddy/releases/download/v2.3.0/SightBuddy-v2.3.0-arm64.apk",
+    "digest": "sha256:90f9b58eb7b097659b61096e573632ddfde2be2ca04f398dca0e3159ebdb48e5",
+    "download_count": 11
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1396236725,
+   "full_name": "MalicKAbdullah/tessera",
+   "owner": "MalicKAbdullah",
+   "avatar_url": "https://avatars.githubusercontent.com/u/115897755?v=4",
+   "description": "Six calm, deeply customizable Android home-screen widgets — clock, calendar, battery, weather, countdown, and a note.",
+   "stars": 1,
+   "forks": 2,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-03T17:39:49Z",
+   "created_at": "2026-09-29T17:55:16Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-03T17:39:54Z"
+  },
+  "release": {
+   "id": 433031483,
+   "tag": "v0.3.0",
+   "name": "v0.3.0",
+   "notes": "## What's Changed\n* Configure-screen fixes, dependency refresh and the Offlyne migration plan by @MalicKAbdullah in https://github.com/MalicKAbdullah/tessera/pull/12\n* Tessera, by Offlyne: suite chrome in electric lime by @MalicKAbdullah in https://github.com/MalicKAbdullah/tessera/pull/14\n* Widgets v3: tap to edit, per-orientation layout, reliability and design polish by @MalicKAbdullah in https://github.com/MalicKAbdullah/tessera/pull/13\n* Tessera v0.3.0 by @MalicKAbdullah in https://github.com/MalicKAbdullah/tessera/pull/15\n\n\n**Full Changelog**: https://github.com/MalicKAbdullah/tessera/compare/v0.2.1...v0.3.0",
+   "published_at": "2026-11-03T17:47:42Z",
+   "html_url": "https://github.com/MalicKAbdullah/tessera/releases/tag/v0.3.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 706527884,
+    "name": "app-arm64-v8a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 21102795,
+    "download_url": "https://github.com/MalicKAbdullah/tessera/releases/download/v0.3.0/app-arm64-v8a-release.apk",
+    "digest": "sha256:8331f3188248189f359baf39110fb92b268df4d569195a5cc3a935b15ca1bc79",
+    "download_count": 16
+   },
+   {
+    "id": 706527883,
+    "name": "app-armeabi-v7a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 18618615,
+    "download_url": "https://github.com/MalicKAbdullah/tessera/releases/download/v0.3.0/app-armeabi-v7a-release.apk",
+    "digest": "sha256:ddbbc3d1a6f0a5b97c15dfa897b96945e059a8176607e0afd87daf8d3f6be753",
+    "download_count": 1
+   },
+   {
+    "id": 706527877,
+    "name": "app-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 56560005,
+    "download_url": "https://github.com/MalicKAbdullah/tessera/releases/download/v0.3.0/app-release.apk",
+    "digest": "sha256:ed18c0399adfca73ce20ce83e6078c096bc0ac736fc0422de5ca32ebaed73410",
+    "download_count": 3
+   },
+   {
+    "id": 706527878,
+    "name": "app-x86_64-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 22529823,
+    "download_url": "https://github.com/MalicKAbdullah/tessera/releases/download/v0.3.0/app-x86_64-release.apk",
+    "digest": "sha256:891aeeed52e819a12cf23348dafc5f94342d3f6116a547ee5dab7c2e4e1f48f6",
+    "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1441413835,
+   "full_name": "lorenz-graf/oneback",
+   "owner": "lorenz-graf",
+   "avatar_url": "https://avatars.githubusercontent.com/u/17741979?v=4",
+   "description": "An accessibility-service app for Sailfish OS that adds a movable floating Back button to Android apps and lets you hide the big Android navigation bar.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-04T15:22:40Z",
+   "created_at": "2026-11-01T02:13:16Z",
+   "license": "MIT",
+   "language": "Java",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-03T09:47:38Z"
+  },
+  "release": {
+   "id": 432510059,
+   "tag": "v1.7",
+   "name": "OneBack 1.7",
+   "notes": "## New in 1.7\r\n\r\n- **10 button styles in Sailfish's look.** Pick one under **Button style** in OneBack's settings, with previews in two rows:\r\n  - **Floating** (move it anywhere): Classic, Glow dot, Thin ring, Dotted chevron, Glowing chevron, Halftone disc\r\n  - **At the edge** (sticks to the left or right side, can be moved up and down): Edge glow, Edge tab, Halftone edge, Halftone edge with arrow\r\n- **Matches your ambience.** **Use system accent color** (at the top of OneBack's settings) colors the button with Android's accent color. On Sailfish OS, [ambience-sync](https://github.com/babooo/ambience-sync) sets that color to the ambience color, and the button changes along with it. Off by default.\r\n- **Fix: the button no longer stops when you close OneBack's window.** OneBack's settings screen stayed in the app switcher after you left it, and closing it there stopped the button too, so it had to be switched off and on in the accessibility settings (\"malfunctioning\"). Now the settings screen closes by itself when you leave it.\r\n- **Package:** updates to OneBack are now installed even when the version name stays the same.\r\n\r\n## Install\r\n\r\n**Package (recommended):** download `oneback-1.7-1.noarch.rpm` and open it in the file manager, which installs it. If it refuses, allow untrusted software in Settings first. (Terminal alternative: `devel-su pkcon install-local oneback-1.7-1.noarch.rpm`.)\r\n\r\nIt installs or updates OneBack in AppSupport automatically and adds a **OneBack section to Settings → Android AppSupport**. There: **Open OneBack** → **Turn on in accessibility settings**, and check that **Run in background** is on. Back in Settings, turn **Android navigation bar** off and restart AppSupport. The switch can only be turned off while OneBack is on.\r\n\r\n**APK only:** download `oneback.apk` and open it on the phone. Switch OneBack on in the accessibility settings, and in Settings → Apps → OneBack allow **\"background services to start on bootup\"**. Otherwise Sailfish st",
+   "published_at": "2026-11-03T09:47:39Z",
+   "html_url": "https://github.com/lorenz-graf/oneback/releases/tag/v1.7",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 705085188,
+    "name": "oneback-1.7-1.noarch.rpm",
+    "content_type": "application/x-rpm",
+    "size": 49592,
+    "download_url": "https://github.com/lorenz-graf/oneback/releases/download/v1.7/oneback-1.7-1.noarch.rpm",
+    "digest": "sha256:e48b4b723392a99e475b6b970192c957bf40db83896fcc34157428888f9af31c",
+    "download_count": 20
+   },
+   {
+    "id": 705084812,
+    "name": "oneback.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 37488,
+    "download_url": "https://github.com/lorenz-graf/oneback/releases/download/v1.7/oneback.apk",
+    "digest": "sha256:d7578f32ef6a67cbcdf32911227740a3b8a477b38506ae53edb9cc32c0ba5a21",
+    "download_count": 6
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1395681712,
+   "full_name": "gogibeta/stop-apps-public",
+   "owner": "gogibeta",
+   "avatar_url": "https://avatars.githubusercontent.com/u/129789993?v=4",
+   "description": "Stop Apps — accessibility-only Android app that force-stops selected apps (no root/Shizuku). Public CI mirror with emulator tests.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-06T02:01:30Z",
+   "created_at": "2026-09-29T15:04:47Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-04T06:57:37Z"
+  },
+  "release": {
+   "id": 402872193,
+   "tag": "v1.6.1",
+   "name": "Stop Apps v1.6.1",
+   "notes": "v1.6.1: app-count parity with AppSleep 2.4 (the Running list now shows the same apps as the reference — the extra stopped-app and 24h-usage filters are removed), plus a live on-screen \"X of Y\" progress overlay during stop runs.\n\n**Download (release-signed — installs as an update, no uninstall needed):**\nhttps://github.com/gogibeta/stop-apps-public/releases/download/v1.6.1/stop-apps-1.6.1-release.apk\n\nSHA-256: `6742cc9118fd601cca6d341366c41e618851f35f8dbda4e58cd6ef3d44c1d7d7`\nSize: 1,377,717 bytes\n\nDebug-signed CI build (uninstall any previous install first):\nhttps://github.com/gogibeta/stop-apps-public/releases/download/v1.6.1/app-debug.apk",
+   "published_at": "2026-10-04T06:09:46Z",
+   "html_url": "https://github.com/gogibeta/stop-apps-public/releases/tag/v1.6.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 609258562,
+    "name": "app-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 10050006,
+    "download_url": "https://github.com/gogibeta/stop-apps-public/releases/download/v1.6.1/app-debug.apk",
+    "digest": "sha256:caeb67fd6a16fd114696060ccaad36a0e8dca8136d4fe6add5c0fa3f44c5076e",
+    "download_count": 5
+   },
+   {
+    "id": 609284117,
+    "name": "stop-apps-1.6.1-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 1377717,
+    "download_url": "https://github.com/gogibeta/stop-apps-public/releases/download/v1.6.1/stop-apps-1.6.1-release.apk",
+    "digest": "sha256:6742cc9118fd601cca6d341366c41e618851f35f8dbda4e58cd6ef3d44c1d7d7",
+    "download_count": 12
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1406909348,
+   "full_name": "tealvpn/android",
+   "owner": "tealvpn",
+   "avatar_url": "https://avatars.githubusercontent.com/u/338450244?v=4",
+   "description": "Teal VPN for Android: free, private VPN app (APK) for phones, tablets, Android TV and Chromebook. No logs, built to connect where VPNs are blocked.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "android",
+    "android-tv",
+    "android-vpn",
+    "anti-censorship",
+    "apk",
+    "censorship-circumvention",
+    "chromebook",
+    "free-vpn",
+    "no-logs",
+    "privacy",
+    "teal-vpn",
+    "vpn",
+    "vpn-app"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-06T03:44:47Z",
+   "created_at": "2026-10-06T07:46:48Z",
+   "license": null,
+   "language": null,
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://tealvpn.com/android",
+   "pushedAt": "2026-11-05T22:00:30Z"
+  },
+  "release": {
+   "id": 435793214,
+   "tag": "v1.2.78",
+   "name": "Teal VPN 1.2.78",
+   "notes": "Teal VPN 1.2.78 for Android (phones, tablets and Android TV), direct download.\n\nWhat's new: Live ping for the place you are connected to, a cleaner locations list, a smarter Fastest location and a steadier connection on difficult networks.\n\nSHA-256 of TealVPN.apk: `d178ea548055e290427edc09ff94e3717cc97c91cfa2852a33b50502e9ced732`\n\nSigning certificate (SHA-256): `75:68:15:FB:27:4D:04:A3:8E:E8:C9:BD:CA:A7:1D:0A:AE:65:F3:C6:B1:0D:5F:1C:43:BA:F7:D0:DC:8E:8C:24`\n\nCheck it before installing: `sha256sum -c TealVPN.apk.sha256` (Linux/Mac) or `certutil -hashfile TealVPN.apk SHA256` (Windows).\n\nOfficial site: https://tealvpn.com - Google Play: https://play.google.com/store/apps/details?id=com.tealvpn.client\n",
+   "published_at": "2026-11-05T22:00:31Z",
+   "html_url": "https://github.com/tealvpn/android/releases/tag/v1.2.78",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 714966651,
+    "name": "TealVPN-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 40514087,
+    "download_url": "https://github.com/tealvpn/android/releases/download/v1.2.78/TealVPN-arm64-v8a.apk",
+    "digest": "sha256:d04f5f564f0aad2b214c0cdcdedb4cb38488bfb372630e7e34cd0ffaf9e031e8",
+    "download_count": 82
+   },
+   {
+    "id": 714966755,
+    "name": "TealVPN-arm64-v8a.apk.sha256",
+    "content_type": "text/plain",
+    "size": 78,
+    "download_url": "https://github.com/tealvpn/android/releases/download/v1.2.78/TealVPN-arm64-v8a.apk.sha256",
+    "digest": "sha256:434fe765eb3ac43a6dc020a5dfe751febb86ba02418fd96e2f2c35f7360f2d96",
+    "download_count": 9
+   },
+   {
+    "id": 714966785,
+    "name": "TealVPN-armeabi-v7a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 39276939,
+    "download_url": "https://github.com/tealvpn/android/releases/download/v1.2.78/TealVPN-armeabi-v7a.apk",
+    "digest": "sha256:e7e840e8427e4a443e2e136c6c6d37a8630a290bd235bd779c71da58d814de80",
+    "download_count": 3
+   },
+   {
+    "id": 714966885,
+    "name": "TealVPN-armeabi-v7a.apk.sha256",
+    "content_type": "text/plain",
+    "size": 78,
+    "download_url": "https://github.com/tealvpn/android/releases/download/v1.2.78/TealVPN-armeabi-v7a.apk.sha256",
+    "digest": "sha256:eef537ea804a99e9d9464a7d839cc6ba7aa75271e5a8bfebf51434d71192b4fd",
+    "download_count": 9
+   },
+   {
+    "id": 714966899,
+    "name": "TealVPN-x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 42918657,
+    "download_url": "https://github.com/tealvpn/android/releases/download/v1.2.78/TealVPN-x86_64.apk",
+    "digest": "sha256:cef3c8dfb98e1e287b2835358394e0c5a9b1ea2ef0c26f11ede2cb106c1d1094",
+    "download_count": 2
+   },
+   {
+    "id": 714967029,
+    "name": "TealVPN-x86_64.apk.sha256",
+    "content_type": "text/plain",
+    "size": 78,
+    "download_url": "https://github.com/tealvpn/android/releases/download/v1.2.78/TealVPN-x86_64.apk.sha256",
+    "digest": "sha256:46409725f3146646198356710c949cf2b0323283928d97a91478bbe002112d68",
+    "download_count": 9
+   },
+   {
+    "id": 714966270,
+    "name": "TealVPN.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 113992771,
+    "download_url": "https://github.com/tealvpn/android/releases/download/v1.2.78/TealVPN.apk",
+    "digest": "sha256:d178ea548055e290427edc09ff94e3717cc97c91cfa2852a33b50502e9ced732",
+    "download_count": 4
+   },
+   {
+    "id": 714966619,
+    "name": "TealVPN.apk.sha256",
+    "content_type": "text/plain",
+    "size": 78,
+    "download_url": "https://github.com/tealvpn/android/releases/download/v1.2.78/TealVPN.apk.sha256",
+    "digest": "sha256:5b9910f18480c9ddde5d9486e28f41324146532829d71a723b08bfa9c1eb41a6",
+    "download_count": 9
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1445662157,
+   "full_name": "seko121/oktobot-releases",
+   "owner": "seko121",
+   "avatar_url": "https://avatars.githubusercontent.com/u/219820057?v=4",
+   "description": "Oktobot: AI agent for Android with optional Shizuku support. Signed release builds (closed source).",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "accessibility",
+    "ai-agent",
+    "android",
+    "shizuku"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-06T12:04:55Z",
+   "created_at": "2026-11-04T12:57:17Z",
+   "license": null,
+   "language": null,
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-06T12:04:51Z"
+  },
+  "release": {
+   "id": 433923338,
+   "tag": "v2.6.32",
+   "name": "Oktobot v2.6.32",
+   "notes": "## Oktobot v2.6.32 (build 307)\n\n**Optional Shizuku / Shizuku Next support** (Settings → Permissions → *Shizuku & accessibility watchdog*):\n- Detects Shizuku not installed / not running / no permission / ready (same behavior for Shizuku and Shizuku Next).\n- One button grants Oktobot `WRITE_SECURE_SETTINGS` through Shizuku (survives reboots).\n- Opt-in accessibility watchdog: re-enables only Oktobot's own accessibility entry when the service stops, with a notification each time, bounded retries and a manual fallback.\n- Oktobot works fully without Shizuku.\n\n**Also in this build**\n- Deep thinking toggle and Share chat in the chat ⋮ menu.\n- Send button stays on the right in Arabic.\n- Fixed `analyze_vision` after `take_screenshot` (\"No content provider\") and Codex vision HTTP 400.\n- Removed the built-in free OpenCode model; add your own provider in Settings → Services.\n\n**Status:** tested on a physical device: Shizuku / Shizuku Next detection, the one-tap secure-settings grant and the accessibility watchdog (re-enabling the service after it is turned off) work as described. Please report problems in Issues.\n\n**Install:** download `Oktobot_v2.6.32.apk` below (Android 9+, arm64). Signed with the same key as every Oktobot release:\n`SHA-256 cert: 37:5D:E2:F9:8A:45:19:6F:9E:E9:F0:9C:BC:C3:E5:6F:5B:22:E4:EB:78:43:C8:C2:7D:96:9C:F6:58:FE:B6:DB`\n\n**APK SHA-256:** `f1d3f80e71118a51083536503b8a0874e86babd7f9cafd623a3e1dcc2d4c682a`\n",
+   "published_at": "2026-11-04T12:58:09Z",
+   "html_url": "https://github.com/seko121/oktobot-releases/releases/tag/v2.6.32",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 709515416,
+    "name": "Oktobot_v2.6.32.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 227024959,
+    "download_url": "https://github.com/seko121/oktobot-releases/releases/download/v2.6.32/Oktobot_v2.6.32.apk",
+    "digest": "sha256:f1d3f80e71118a51083536503b8a0874e86babd7f9cafd623a3e1dcc2d4c682a",
+    "download_count": 39
+   },
+   {
+    "id": 709515418,
+    "name": "Oktobot_v2.6.32.apk.sha256",
+    "content_type": "application/octet-stream",
+    "size": 86,
+    "download_url": "https://github.com/seko121/oktobot-releases/releases/download/v2.6.32/Oktobot_v2.6.32.apk.sha256",
+    "digest": "sha256:99fae2ed3b01a0fcf9b9ea2131424d1f7ed575680b7563caadd7ab0e5654c88a",
+    "download_count": 3
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1448345816,
+   "full_name": "mikerikichdimas2000-del/vpn-android",
+   "owner": "mikerikichdimas2000-del",
+   "avatar_url": "https://avatars.githubusercontent.com/u/313355855?v=4",
+   "description": "Лёгкий Android-клиент AmneziaWG: тумблер, плитка в шторке, обновление из приложения без магазина",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-06T14:29:42Z",
+   "created_at": "2026-11-06T14:13:57Z",
+   "license": null,
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-06T14:29:38Z"
+  },
+  "release": {
+   "id": 436589475,
+   "tag": "v0.4.1",
+   "name": "VPN 0.4.1",
+   "notes": "Проверочная версия для механики обновлений.\n\nФункционально совпадает с 0.4.0 — отличается только номером сборки, чтобы проверить\nскачивание и установку поверх.\n",
+   "published_at": "2026-11-06T14:21:00Z",
+   "html_url": "https://github.com/mikerikichdimas2000-del/vpn-android/releases/tag/v0.4.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 717410271,
+    "name": "latest.json",
+    "content_type": "application/json",
+    "size": 564,
+    "download_url": "https://github.com/mikerikichdimas2000-del/vpn-android/releases/download/v0.4.1/latest.json",
+    "digest": "sha256:8df626ca3b91f4ff43eb5925d09f5df761adffbc0f5e982b4a2d85de0c4a15a5",
+    "download_count": 5
+   },
+   {
+    "id": 717410270,
+    "name": "vpn-0.4.1.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 19568315,
+    "download_url": "https://github.com/mikerikichdimas2000-del/vpn-android/releases/download/v0.4.1/vpn-0.4.1.apk",
+    "digest": "sha256:442411546cdc8c184192faa3bae5aa19cf7f874389e1419a72aded729a347f24",
+    "download_count": 3
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1432849205,
+   "full_name": "outsidepro-arts/OAssist",
+   "owner": "outsidepro-arts",
+   "avatar_url": "https://avatars.githubusercontent.com/u/50348694?v=4",
+   "description": "Open-source Android LLM agent assistant: system assist gesture, chat and share modes, 55 on-device tools, Accessibility-first (TalkBack), Shizuku/Root, MCP. Kotlin + Compose, MIT.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-06T18:12:54Z",
+   "created_at": "2026-10-25T05:07:59Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-06T18:12:50Z"
+  },
+  "release": {
+   "id": 423180880,
+   "tag": "v1.1",
+   "name": "OAssist v1.1",
+   "notes": "Подписанный релизный APK (\u000bersionCode 3, \u000bersionName 1.1, minSdk 31 / Android 12+).\n\n## Что нового с v1.0\n- Фикс открытия шторки чатов после переноса состояния в \\ChatSessionViewModel\\ (анимации переведены на composition-scope — \\MonotonicFrameClock\\).\n- Обновление звуков сопровождения и разделение звука вызова инструментов на чтение/запись.\n- Опубликованы README, LICENSE (MIT) и CONTRIBUTING.\n\n## Установка\n\\\\\\\nadb install OAssist_v1.1.apk\n\\\\\\\n\nПакет подписан release-ключом (SHA-256 сертификата \\9a94d8a6…81d7af\\). Обновление встаёт поверх предыдущих сборок с той же подписью.\n\n## Проверки перед публикацией\n- \\\u0007pksigner verify --print-certs\\ — OK\n- \\zipalign -c -v 4\\ — OK\n- badging: \\\ru.outsideproarts.oassist\\, versionCode 3, versionName 1.1, minSdk 31, targetSdk 36",
+   "published_at": "2026-10-25T06:07:58Z",
+   "html_url": "https://github.com/outsidepro-arts/OAssist/releases/tag/v1.1",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 674253218,
+    "name": "OAssist_v1.1.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5681677,
+    "download_url": "https://github.com/outsidepro-arts/OAssist/releases/download/v1.1/OAssist_v1.1.apk",
+    "digest": "sha256:b714539bc9b826a9b797e5b05eba2e17550336b3e6fb397a542765a44e4962b5",
+    "download_count": 27
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1443551190,
+   "full_name": "git-calendar/android-client",
+   "owner": "git-calendar",
+   "avatar_url": "https://avatars.githubusercontent.com/u/264978414?v=4",
+   "description": "An Android client for a Git-backed calendar.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-03T13:41:29Z",
+   "created_at": "2026-11-02T22:24:41Z",
+   "license": null,
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-03T13:40:25Z"
+  },
+  "release": {
+   "id": 432742215,
+   "tag": "1.0.0",
+   "name": "v1.0.0",
+   "notes": "# Git Calendar Android 1.0.0\r\n\r\n- first release of Git Calendar Android\r\n- using modified [Git Calendar Core](https://github.com/jotalac/git-calendar-core)\r\n- 100% AI generated\r\n\r\n**Full Changelog**: https://github.com/git-calendar/android-client/commits/1.0.0",
+   "published_at": "2026-11-03T13:39:09Z",
+   "html_url": "https://github.com/git-calendar/android-client/releases/tag/1.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 705732972,
+    "name": "git-calendar-android-1.0.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 27796976,
+    "download_url": "https://github.com/git-calendar/android-client/releases/download/1.0.0/git-calendar-android-1.0.0.apk",
+    "digest": "sha256:43bca9835ca8a89279bbf2b377663fad6b35c7d393bcd740bc0318b41f13be32",
+    "download_count": 0
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-07",
+  "repo": {
+   "id": 1411760110,
+   "full_name": "Spora-VPN/spora-android",
+   "owner": "Spora-VPN",
+   "avatar_url": "https://avatars.githubusercontent.com/u/340101540?v=4",
+   "description": "Android UI for Spora, the P2P VPN",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-06T17:49:50Z",
+   "created_at": "2026-10-09T11:48:09Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-06T17:52:31Z"
+  },
+  "release": {
+   "id": 436815632,
+   "tag": "v0.3.2",
+   "name": "Spora 0.3.2",
+   "notes": "• Smaller downloads: each release now also comes as one APK per processor type, about 15–20 MB instead of 48 MB. F-Droid gives your phone the one it needs.\r\n",
+   "published_at": "2026-11-06T18:16:36Z",
+   "html_url": "https://github.com/Spora-VPN/spora-android/releases/tag/v0.3.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 718021785,
+    "name": "spora-0.3.2-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 17943704,
+    "download_url": "https://github.com/Spora-VPN/spora-android/releases/download/v0.3.2/spora-0.3.2-arm64-v8a.apk",
+    "digest": "sha256:c7854dff475dfd73ea94501d9f055779d2e92a2456157c3c3fb569fb98c4cd17",
+    "download_count": 4
+   },
+   {
+    "id": 718021791,
+    "name": "spora-0.3.2-armeabi-v7a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 15001498,
+    "download_url": "https://github.com/Spora-VPN/spora-android/releases/download/v0.3.2/spora-0.3.2-armeabi-v7a.apk",
+    "digest": "sha256:bdcc5c6a29555fe20974da4214721d891728eeb33eb9c371e5bd446f4a861800",
+    "download_count": 3
+   },
+   {
+    "id": 718021772,
+    "name": "spora-0.3.2-x86.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 19411454,
+    "download_url": "https://github.com/Spora-VPN/spora-android/releases/download/v0.3.2/spora-0.3.2-x86.apk",
+    "digest": "sha256:c205af317a290bc8dbd84a8de3dc7a14bf576152d68a134d1d62f107054501e0",
+    "download_count": 3
+   },
+   {
+    "id": 718021787,
+    "name": "spora-0.3.2-x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 18734231,
+    "download_url": "https://github.com/Spora-VPN/spora-android/releases/download/v0.3.2/spora-0.3.2-x86_64.apk",
+    "digest": "sha256:4c76d174f59cbdd03c0a04d3ce2baff4e28adbfedf2279471654df2dd4868834",
+    "download_count": 3
+   },
+   {
+    "id": 718021799,
+    "name": "spora-0.3.2.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 47816539,
+    "download_url": "https://github.com/Spora-VPN/spora-android/releases/download/v0.3.2/spora-0.3.2.apk",
+    "digest": "sha256:4c79a5ba9d37934f407cfb396165e492cb7fc6c24514b15262a62bc74ea40cce",
+    "download_count": 1
    }
   ]
  },
@@ -747278,7 +748352,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1354193231,
    "full_name": "sudipkhad12-ship-it/Science-education-",
@@ -747322,7 +748396,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "repo": {
    "id": 1139994972,
    "full_name": "MalyshAnanas/Education-platform_android",
