@@ -294134,6 +294134,59 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1385824149,
+   "full_name": "codepdbh/PSPRecomp-VCS-Android",
+   "owner": "codepdbh",
+   "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
+   "description": "Experimental Android ARM64 port of PSPRecomp's Vice City Stories profile",
+   "stars": 50,
+   "forks": 2,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-09T13:21:03Z",
+   "created_at": "2026-09-24T15:40:25Z",
+   "license": "MIT",
+   "language": "C++",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-22T14:10:54Z"
+  },
+  "release": {
+   "id": 398351484,
+   "tag": "v0.3.0-beta",
+   "name": "VCS Android beta 0.3.0",
+   "notes": "Beta 0.3.0 del port nativo para Android de **Grand Theft Auto: Vice City Stories** (recompilación estática con PSPRecomp; no es un emulador).\n\n> ⚠️ **No incluye datos del juego.** Necesitas tu propia copia de VCS (PSP, USA / ULUS10160) preparada con `setup_vcs.ps1`, copiada en **Almacenamiento interno/VCS**. Ver el [README](https://github.com/codepdbh/PSPRecomp-VCS-Android#instalación-en-android).\n\n## ¿Qué APK descargo?\n- **`VCS-Android-0.3.0-beta-arm64.apk`** → casi todos los celulares. Empieza por este.\n- **`VCS-Android-0.3.0-beta-armv7-32bit.apk`** → solo si el anterior no se instala (celulares con Android de 32 bits). Rinde menos que el de 64 bits. **Experimental:** todavía no se probó en un celular de 32 bits; cuéntanos cómo te va.\n\n## Novedades\n### Celulares de gama baja\n- **Nueva resolución \"PSP original\"** (272 líneas, la de la PSP) en ⚙ → Resolución interna.\n- **Nueva opción ⚙ → Velocidad (FPS):** 30 FPS (la velocidad original de la PSP, la mitad de trabajo) o 60 FPS.\n- **Modo gama baja automático:** la primera vez que se abre en un celular modesto (Helio G85, Snapdragon 6xx/7xx, menos de 4 GB de RAM…) empieza sola en resolución PSP y 30 FPS.\n- **Versión de 32 bits** (ver arriba).\n\n### Rendimiento\n- El juego corre en los núcleos más rápidos del procesador, con prioridad alta, y avisa a Android de su carga en cada fotograma para que suba la frecuencia antes de que haya tirones.\n- Menos trabajo por instrucción del juego y menos calentamiento del procesador.\n\n### Audio\n- **Menos distorsión cuando bajan los FPS:** el audio se pone al día en vez de meter huecos de silencio, y los cortes se suavizan en lugar de hacer clics.\n- Menos retraso entre voces y labios.\n\n### Arreglos\n- Cargar un estado guardado podía dejar el juego congelado. Arreglado.\n\n## Problemas conocidos\n- En celulares muy modestos (Helio G85 y similares) puede no llegar a velocidad completa ni en modo gama baja.\n- En algunos puntos (el icono de guardado del juego, el final de algunas misiones) la p",
+   "published_at": "2026-09-28T14:53:49Z",
+   "html_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases/tag/v0.3.0-beta",
+   "prerelease": true
+  },
+  "assets": [
+   {
+    "id": 595660219,
+    "name": "VCS-Android-0.3.0-beta-arm64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 67936549,
+    "download_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases/download/v0.3.0-beta/VCS-Android-0.3.0-beta-arm64.apk",
+    "digest": "sha256:3907fc5a274a37169e3863ea74c059125a33f782dadc0f62b1190526aafa877a",
+    "download_count": 2191
+   },
+   {
+    "id": 595660216,
+    "name": "VCS-Android-0.3.0-beta-armv7-32bit.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 56332055,
+    "download_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases/download/v0.3.0-beta/VCS-Android-0.3.0-beta-armv7-32bit.apk",
+    "digest": "sha256:42a6b35a4fdbd67e2d032f2882d28826ef766bd97801354ce1d424f59f77ea62",
+    "download_count": 406
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-10",
   "repo": {
    "id": 1155938285,
@@ -295369,6 +295422,172 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1371683614,
+   "full_name": "ZailoxTT/ZettaBridge",
+   "owner": "ZailoxTT",
+   "avatar_url": "https://avatars.githubusercontent.com/u/88113162?v=4",
+   "description": "Run 32-bit Android apps on 64-bit-only ARM phones: source-available ARM32 -> ARM64 native code translator and app launcher",
+   "stars": 49,
+   "forks": 13,
+   "topics": [
+    "32-bit",
+    "aarch64",
+    "android",
+    "android-launcher",
+    "arm",
+    "arm64",
+    "armv7",
+    "binary-translation",
+    "compatibility-layer",
+    "cpp",
+    "dynarmic",
+    "emulator",
+    "jit",
+    "jni",
+    "opengl-es",
+    "translator"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-10T19:13:41Z",
+   "created_at": "2026-09-15T15:15:57Z",
+   "license": "Other",
+   "language": "C++",
+   "openIssues": 24,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-29T16:17:34Z"
+  },
+  "release": {
+   "id": 392094488,
+   "tag": "v0.1.0",
+   "name": "ZettaBridge 0.1.0",
+   "notes": "Run 32-bit Android apps on phones that have no AArch32.\n\n**What works.** Orange Roulette (2014, Haxe/OpenFL): menu and gameplay with sound. Flappy Bird (AndEngine): playable. APK import as a plugin, a home-screen shortcut, GLES 2.0 and 3.0, EGL, assets, input.\n\n**What does not.** Games built on `NativeActivity` (Unity, pure NDK) do not start. Vulkan is not supported. Apps that need real installation are out of scope.\n\n**How to use it.** Install the APK, import a game's APK in the launcher, launch it. If a game fails, long-press it, pick \"Last run report\", and attach the report to an issue.\n\n**Tested on** a OnePlus 13 (Snapdragon 8 Elite), OxygenOS 16. No other device has been tested.\n\n---\n\nЗапуск 32-битных приложений Android на телефонах без AArch32.\n\n**Что работает:** Orange Roulette (2014, Haxe/OpenFL) — меню и игра со звуком; Flappy Bird (AndEngine) — играется. Импорт APK как плагина, ярлык на рабочем столе, GLES 2.0 и 3.0, EGL, ассеты, ввод.\n\n**Что не работает:** игры на `NativeActivity` (Unity, чистый NDK) не запускаются; Vulkan не поддерживается; приложения, требующие настоящей установки, вне области проекта.\n\n**Как пользоваться:** поставить APK, в лаунчере импортировать APK игры, запустить. Если игра не пошла — долгое нажатие, «Last run report», и пришлите отчёт в issues.\n\n**Проверялось на:** OnePlus 13 (Snapdragon 8 Elite), OxygenOS 16. Другие устройства не проверялись.\n",
+   "published_at": "2026-09-19T14:12:47Z",
+   "html_url": "https://github.com/ZailoxTT/ZettaBridge/releases/tag/v0.1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 574887213,
+    "name": "ZettaBridge-0.1.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 6554355,
+    "download_url": "https://github.com/ZailoxTT/ZettaBridge/releases/download/v0.1.0/ZettaBridge-0.1.0.apk",
+    "digest": "sha256:75b95cc6b1aa567d8168dd02034af5d9bb7c8191fbe08144dfdda6ee79c65c41",
+    "download_count": 1200
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1441609474,
+   "full_name": "JaviiDeveloper/eden-nx2-android",
+   "owner": "JaviiDeveloper",
+   "avatar_url": "https://avatars.githubusercontent.com/u/342561275?v=4",
+   "description": "VERY Experimental Nintendo Switch 2 Emulator for Android",
+   "stars": 49,
+   "forks": 3,
+   "topics": [],
+   "archived": false,
+   "default_branch": "nx2-android",
+   "updated_at": "2026-11-11T01:43:03Z",
+   "created_at": "2026-11-01T09:07:52Z",
+   "license": "GPL-3.0",
+   "language": "C++",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-03T16:14:55Z"
+  },
+  "release": {
+   "id": 432979851,
+   "tag": "nx2-android-v0.3.3",
+   "name": "v0.3.3",
+   "notes": "## Eden NX2 Android v0.3.3\r\n\r\n  ### What's new\r\n\r\n  - **New NUP container system**: Eden now reads NUP v1 packages natively, with the current record layouts and checks that reject malformed directories and\r\n  extents.\r\n  - Loose ExeFS dumps in game folders are detected and shown with their name and icon.\r\n  - AV1 movie decoding.\r\n  - Frame presentation: pacing by swap interval, cropping to the 1920x1080 handheld panel, and correct output format for RGB10A2 images.\r\n  - Sparse texture memory: mapping and unmapping of tiles, shared blocks.\r\n  - Expanded shader lowering: 64-bit integers, atomics, warp reductions, conversions, bindless descriptors, and FSEL with floating operand modifiers.\r\n  - Audio: Switch 2 renderer revision accepted, with cleaner input/output manager lifetimes.\r\n  - System keyboard: swkbd config decoding for library version `0x160012`.\r\n  \r\n\r\n  ### Fixes\r\n\r\n  - Duplicate HSETP2 lowering case\r\n  - 69-byte vertices are repacked to 72 bytes instead of being rejected, and large repacks are split rather than refused.\r\n  - Buffer cache and `vk_rasterizer` adjustments.\r\n\r\nAnd a lot more....\r\n\r\n**Full Changelog**: https://github.com/JaviiDeveloper/eden-nx2-android/compare/nx2-android-v0.3.2...nx2-android-v0.3.3",
+   "published_at": "2026-11-03T16:58:02Z",
+   "html_url": "https://github.com/JaviiDeveloper/eden-nx2-android/releases/tag/nx2-android-v0.3.3",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 706377283,
+    "name": "eden-sx2a-v0.3.3.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 32976551,
+    "download_url": "https://github.com/JaviiDeveloper/eden-nx2-android/releases/download/nx2-android-v0.3.3/eden-sx2a-v0.3.3.apk",
+    "digest": "sha256:5b4e911df9bd8ad34b8d4da591fffb344967a44fba77ff34a05678a774fff1f5",
+    "download_count": 2676
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1431760220,
+   "full_name": "PateeerQ/FreedomUniteRecomp",
+   "owner": "PateeerQ",
+   "avatar_url": "https://avatars.githubusercontent.com/u/72560259?v=4",
+   "description": "AI Driven Project to Port Monster Hunter Freedom Unite Natively on Windows and Android, Multiplayer Supports across Platform and Regions.",
+   "stars": 49,
+   "forks": 0,
+   "topics": [
+    "android-port",
+    "mhfu",
+    "monster-hunter",
+    "monster-hunter-freedom-unite",
+    "pc-port",
+    "psprecomp",
+    "recompilation"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-11T08:14:03Z",
+   "created_at": "2026-10-24T03:02:22Z",
+   "license": "GPL-3.0",
+   "language": "C++",
+   "openIssues": 3,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-11T06:36:04Z"
+  },
+  "release": {
+   "id": 441201542,
+   "tag": "v0.4.6",
+   "name": "v0.4.6",
+   "notes": "## Monster Hunter: Freedom Unite Recomp v0.4.6 — Hall Drink & AMD Text Fix\r\n\r\nA native port of Monster Hunter Freedom Unite / Portable 2nd G (PSP) for **Windows** and **Android**, statically\r\nrecompiled. No emulator. Maintained by **PateeerQ**.\r\n\r\nThe Android app offers this update by itself (drawer → *Check for updates*).\r\n\r\n### Fixed\r\n- **FUComplete: crash when drinking in the Gathering Hall** (issue #11). v0.4.5 was meant to fix this, but the fix did\r\n  not make it into the build. FUComplete also patches the Hall code differently depending on your Options settings,\r\n  and two of those versions needed the same fix. It is now in all four.\r\n- **Windows: text missing or broken on newer AMD drivers** (issue #6; RX 9070 XT, driver 26.10). The game draws its\r\n  font text exactly at the edge of the depth range, and those drivers seem to cut off pixels there. Text was missing\r\n  at 1x and broken into pieces at higher resolutions. Depth values now stay just inside the range. Nothing else\r\n  changes on screen. If the text is still broken on your PC, tell us in the issue and attach `run.log`. It now\r\n  names your GPU and driver, and shows `render_gl: depth inset on`.\r\n\r\n### Downloads\r\n| | |\r\n|---|---|\r\n| `FreedomUniteRecomp-v0.4.6-windows-x64-universal.zip` | Windows 10/11, 64-bit: unzip, run `mhfu_launcher.exe` |\r\n| `FreedomUniteRecomp-v0.4.6-android-arm64-universal.apk` | Android 8+, 64-bit ARM, OpenGL ES 3.0 |\r\n\r\nThe APK updates the existing app in place. Your saves stay.\r\n\r\n### Found a bug?\r\nAttach the crash log to your report. On Android, open the menu, choose *Copy crash log*, then *Share .zip*. On\r\nWindows, use the launcher's Log page, then *Copy crash report*.\r\n\r\n*Not affiliated with or endorsed by Capcom. Monster Hunter is a trademark of Capcom. Released under the GNU GPL v3.\r\nTouch button icons by Lorc, Delapouite and SeregaCthtuf, game-icons.net (CC BY 3.0).*",
+   "published_at": "2026-11-11T03:26:01Z",
+   "html_url": "https://github.com/PateeerQ/FreedomUniteRecomp/releases/tag/v0.4.6",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 733962690,
+    "name": "FreedomUniteRecomp-v0.4.6-android-arm64-universal.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 130918333,
+    "download_url": "https://github.com/PateeerQ/FreedomUniteRecomp/releases/download/v0.4.6/FreedomUniteRecomp-v0.4.6-android-arm64-universal.apk",
+    "digest": "sha256:7c70794f98bd176b47cc5081f459c3a00a9f21692974c3f4a4a074eed89c5b9b",
+    "download_count": 109
+   },
+   {
+    "id": 733961883,
+    "name": "FreedomUniteRecomp-v0.4.6-windows-x64-universal.zip",
+    "content_type": "application/x-zip-compressed",
+    "size": 182095077,
+    "download_url": "https://github.com/PateeerQ/FreedomUniteRecomp/releases/download/v0.4.6/FreedomUniteRecomp-v0.4.6-windows-x64-universal.zip",
+    "digest": "sha256:296c360a47f9abd95ed6612d06f0edc9acc4c8e4c4284744f7da9447c26dbcbc",
+    "download_count": 37
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-08",
   "repo": {
    "id": 130401960,
@@ -295416,7 +295635,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1037642255,
    "full_name": "sune-org/sune",
@@ -295466,7 +295685,7 @@
     "size": 2388134,
     "download_url": "https://github.com/sune-org/sune/releases/download/v1.1.1/sune-v1.1.1.apk",
     "digest": "sha256:997dcf3cf2a45dabdcf3c5d3879392bfdddb0331d6d1a740d803bbf499d7bbf5",
-    "download_count": 38
+    "download_count": 58
    },
    {
     "id": 703415885,
@@ -295778,7 +295997,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 440842151,
    "full_name": "ibaiGorordo/depthai-android-jni-example",
@@ -296678,59 +296897,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
-  "repo": {
-   "id": 1385824149,
-   "full_name": "codepdbh/PSPRecomp-VCS-Android",
-   "owner": "codepdbh",
-   "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
-   "description": "Experimental Android ARM64 port of PSPRecomp's Vice City Stories profile",
-   "stars": 48,
-   "forks": 2,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-04T22:24:39Z",
-   "created_at": "2026-09-24T15:40:25Z",
-   "license": "MIT",
-   "language": "C++",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-10-22T14:10:54Z"
-  },
-  "release": {
-   "id": 398351484,
-   "tag": "v0.3.0-beta",
-   "name": "VCS Android beta 0.3.0",
-   "notes": "Beta 0.3.0 del port nativo para Android de **Grand Theft Auto: Vice City Stories** (recompilación estática con PSPRecomp; no es un emulador).\n\n> ⚠️ **No incluye datos del juego.** Necesitas tu propia copia de VCS (PSP, USA / ULUS10160) preparada con `setup_vcs.ps1`, copiada en **Almacenamiento interno/VCS**. Ver el [README](https://github.com/codepdbh/PSPRecomp-VCS-Android#instalación-en-android).\n\n## ¿Qué APK descargo?\n- **`VCS-Android-0.3.0-beta-arm64.apk`** → casi todos los celulares. Empieza por este.\n- **`VCS-Android-0.3.0-beta-armv7-32bit.apk`** → solo si el anterior no se instala (celulares con Android de 32 bits). Rinde menos que el de 64 bits. **Experimental:** todavía no se probó en un celular de 32 bits; cuéntanos cómo te va.\n\n## Novedades\n### Celulares de gama baja\n- **Nueva resolución \"PSP original\"** (272 líneas, la de la PSP) en ⚙ → Resolución interna.\n- **Nueva opción ⚙ → Velocidad (FPS):** 30 FPS (la velocidad original de la PSP, la mitad de trabajo) o 60 FPS.\n- **Modo gama baja automático:** la primera vez que se abre en un celular modesto (Helio G85, Snapdragon 6xx/7xx, menos de 4 GB de RAM…) empieza sola en resolución PSP y 30 FPS.\n- **Versión de 32 bits** (ver arriba).\n\n### Rendimiento\n- El juego corre en los núcleos más rápidos del procesador, con prioridad alta, y avisa a Android de su carga en cada fotograma para que suba la frecuencia antes de que haya tirones.\n- Menos trabajo por instrucción del juego y menos calentamiento del procesador.\n\n### Audio\n- **Menos distorsión cuando bajan los FPS:** el audio se pone al día en vez de meter huecos de silencio, y los cortes se suavizan en lugar de hacer clics.\n- Menos retraso entre voces y labios.\n\n### Arreglos\n- Cargar un estado guardado podía dejar el juego congelado. Arreglado.\n\n## Problemas conocidos\n- En celulares muy modestos (Helio G85 y similares) puede no llegar a velocidad completa ni en modo gama baja.\n- En algunos puntos (el icono de guardado del juego, el final de algunas misiones) la p",
-   "published_at": "2026-09-28T14:53:49Z",
-   "html_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases/tag/v0.3.0-beta",
-   "prerelease": true
-  },
-  "assets": [
-   {
-    "id": 595660219,
-    "name": "VCS-Android-0.3.0-beta-arm64.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 67936549,
-    "download_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases/download/v0.3.0-beta/VCS-Android-0.3.0-beta-arm64.apk",
-    "digest": "sha256:3907fc5a274a37169e3863ea74c059125a33f782dadc0f62b1190526aafa877a",
-    "download_count": 1961
-   },
-   {
-    "id": 595660216,
-    "name": "VCS-Android-0.3.0-beta-armv7-32bit.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 56332055,
-    "download_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/releases/download/v0.3.0-beta/VCS-Android-0.3.0-beta-armv7-32bit.apk",
-    "digest": "sha256:42a6b35a4fdbd67e2d032f2882d28826ef766bd97801354ce1d424f59f77ea62",
-    "download_count": 390
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-09",
   "repo": {
    "id": 1351393401,
@@ -297213,6 +297379,132 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1169511048,
+   "full_name": "nihaina/SubtitleEditforAndroid",
+   "owner": "nihaina",
+   "avatar_url": "https://avatars.githubusercontent.com/u/122545631?v=4",
+   "description": "TsumugiSub是一个在手机上使用的功能齐全的轻量字幕编辑软件，集成了离线的语音转字幕、人声分离、格式转换、文稿匹配等功能 TsumugiSub is a fully functional lightweight subtitle editing software for Android. It integrates offline speech to subtitles, voice separation, format conversion, document matching and other functions.",
+   "stars": 48,
+   "forks": 6,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-11T06:38:45Z",
+   "created_at": "2026-02-28T19:51:37Z",
+   "license": "GPL-3.0",
+   "language": "C++",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-11T05:38:42Z"
+  },
+  "release": {
+   "id": 433772862,
+   "tag": "1.2.5",
+   "name": "1.2.5",
+   "notes": "1.按标点切分可自行选择切分标点\r\n2.优化编辑器，现在可以编辑2w行超大字幕不卡顿\r\n3.AI字幕处理，点击可以暂停正在处理的字幕，退出应用时不会清除待处理文件\r\n4.输出目录可以快速选择保存到源文件夹，避免频繁选择目录\r\n5.移除自动打轴功能\r\n6.AI设置现在可以自行添加更多平台，便于切换\r\n7.支持文件批量重命名",
+   "published_at": "2026-11-04T10:18:27Z",
+   "html_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/tag/1.2.5",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 709081130,
+    "name": "app-qnn-arm64-v8a-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 264908894,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-qnn-arm64-v8a-debug.apk",
+    "digest": "sha256:d129b30dd7723d2432f886d00d582386455552fc7d20248d56cdf936637262e1",
+    "download_count": 66
+   },
+   {
+    "id": 709076007,
+    "name": "app-standard-arm64-v8a-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 123202504,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-arm64-v8a-debug.apk",
+    "digest": "sha256:7c97f3e4857d608be54ea6717e3c071ba2c991d695a9227fb907db25b28932fe",
+    "download_count": 28
+   },
+   {
+    "id": 709077147,
+    "name": "app-standard-armeabi-v7a-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 86591788,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-armeabi-v7a-debug.apk",
+    "digest": "sha256:794ad37600951d54799de7d58d69830b85cf5e364affb75cc8116e94a0fd669d",
+    "download_count": 3
+   },
+   {
+    "id": 709832120,
+    "name": "app-standard-universal-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 305017193,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-universal-debug.apk",
+    "digest": "sha256:bff35b524360f6f2d3ed4475022488d2fceb32f936ce688946a8c5af649dce11",
+    "download_count": 5
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1270825267,
+   "full_name": "Mr-J-369/Fancy-Ai",
+   "owner": "Mr-J-369",
+   "avatar_url": "https://avatars.githubusercontent.com/u/224147496?v=4",
+   "description": "Offline roleplay app where characters have social media app. offline image generations including Sd1.5, SDXL, Flux, ZiT, Moss and Qwen image. Also terminal to run ubuntu and many more. The app is opensource and free. If you like my project, a support is highly appreciated to keep it up. ",
+   "stars": 48,
+   "forks": 7,
+   "topics": [
+    "android",
+    "android-app",
+    "android-application",
+    "flux2-klein",
+    "free",
+    "offline",
+    "offline-first",
+    "privacy",
+    "roleplay",
+    "roleplay-ai"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-10T16:54:17Z",
+   "created_at": "2026-06-16T04:53:25Z",
+   "license": "Apache-2.0",
+   "language": "C++",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://fancyai-os.com/",
+   "pushedAt": "2026-11-10T16:54:12Z"
+  },
+  "release": {
+   "id": 440681670,
+   "tag": "v4.72",
+   "name": "v4.72",
+   "notes": "- Updated llama cpp\r\n- Added Agents mini app (experimental)\r\n\r\n:warning: **Caution** :warning: \r\n* The agents mini app works with local and cloud models (deepinfra, openrouter or your own endpoint via LAN), it has access to your phone storage. Use it with caution it can be dangerous. Especially with Root Access. USE IT AT YOUR OWN RISK. \r\n* DO NOT USE 4B LOCAL MODEL AND THEN COME COMPLAIN THAT THE MINI APP IS NOT WORKING WELL. If your device can handle it use bigger models with long context window. ",
+   "published_at": "2026-11-10T17:32:08Z",
+   "html_url": "https://github.com/Mr-J-369/Fancy-Ai/releases/tag/v4.72",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 732314726,
+    "name": "v4.72.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 195009917,
+    "download_url": "https://github.com/Mr-J-369/Fancy-Ai/releases/download/v4.72/v4.72.apk",
+    "digest": "sha256:48027671615d2ddedb54e45fb2159e3c06aee136166983c8ea9afe6c2417a53d",
+    "download_count": 56
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-10",
   "repo": {
    "id": 1365801397,
@@ -297333,7 +297625,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1149722896,
    "full_name": "chentyjpm/openclaw-android-wechat",
@@ -297708,7 +298000,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 400178543,
    "full_name": "vivekkj123/quiz-app-react-native",
@@ -298583,7 +298875,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-10",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 380339641,
    "full_name": "Rabbit-Company/Passky-Android",
@@ -298626,7 +298918,7 @@
     "size": 2806517,
     "download_url": "https://github.com/Rabbit-Company/Passky-Android/releases/download/v7.1.0/passky-7.1.0.apk",
     "digest": null,
-    "download_count": 1108
+    "download_count": 1111
    }
   ]
  },
@@ -298675,77 +298967,6 @@
     "download_url": "https://github.com/tanujnotes/Ogesture/releases/download/v1.0/Ogesture-v1.0.apk",
     "digest": "sha256:e2a84d9125ba88362cedf14f699fea9d4690e921b8e77250af1097d0f115a252",
     "download_count": 677
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-07",
-  "repo": {
-   "id": 1169511048,
-   "full_name": "nihaina/SubtitleEditforAndroid",
-   "owner": "nihaina",
-   "avatar_url": "https://avatars.githubusercontent.com/u/122545631?v=4",
-   "description": "TsumugiSub是一个在手机上使用的功能齐全的轻量字幕编辑软件，集成了离线的语音转字幕、人声分离、格式转换、文稿匹配等功能 TsumugiSub is a fully functional lightweight subtitle editing software for Android. It integrates offline speech to subtitles, voice separation, format conversion, document matching and other functions.",
-   "stars": 47,
-   "forks": 6,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-07T16:21:07Z",
-   "created_at": "2026-02-28T19:51:37Z",
-   "license": "GPL-3.0",
-   "language": "C++",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-11-07T16:21:04Z"
-  },
-  "release": {
-   "id": 433772862,
-   "tag": "1.2.5",
-   "name": "1.2.5",
-   "notes": "1.按标点切分可自行选择切分标点\r\n2.优化编辑器，现在可以编辑2w行超大字幕不卡顿\r\n3.AI字幕处理，点击可以暂停正在处理的字幕，退出应用时不会清除待处理文件\r\n4.输出目录可以快速选择保存到源文件夹，避免频繁选择目录\r\n5.移除自动打轴功能\r\n6.AI设置现在可以自行添加更多平台，便于切换\r\n7.支持文件批量重命名",
-   "published_at": "2026-11-04T10:18:27Z",
-   "html_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/tag/1.2.5",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 709081130,
-    "name": "app-qnn-arm64-v8a-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 264908894,
-    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-qnn-arm64-v8a-debug.apk",
-    "digest": "sha256:d129b30dd7723d2432f886d00d582386455552fc7d20248d56cdf936637262e1",
-    "download_count": 50
-   },
-   {
-    "id": 709076007,
-    "name": "app-standard-arm64-v8a-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 123202504,
-    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-arm64-v8a-debug.apk",
-    "digest": "sha256:7c97f3e4857d608be54ea6717e3c071ba2c991d695a9227fb907db25b28932fe",
-    "download_count": 16
-   },
-   {
-    "id": 709077147,
-    "name": "app-standard-armeabi-v7a-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 86591788,
-    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-armeabi-v7a-debug.apk",
-    "digest": "sha256:794ad37600951d54799de7d58d69830b85cf5e364affb75cc8116e94a0fd669d",
-    "download_count": 3
-   },
-   {
-    "id": 709832120,
-    "name": "app-standard-universal-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 305017193,
-    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-universal-debug.apk",
-    "digest": "sha256:bff35b524360f6f2d3ed4475022488d2fceb32f936ce688946a8c5af649dce11",
-    "download_count": 4
    }
   ]
  },
@@ -299105,61 +299326,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
-  "repo": {
-   "id": 1270825267,
-   "full_name": "Mr-J-369/Fancy-Ai",
-   "owner": "Mr-J-369",
-   "avatar_url": "https://avatars.githubusercontent.com/u/224147496?v=4",
-   "description": "Offline roleplay app where characters have social media app. offline image generations including Sd1.5, SDXL, Flux, ZiT, Moss and Qwen image. Also terminal to run ubuntu and many more. The app is opensource and free. If you like my project, a support is highly appreciated to keep it up. ",
-   "stars": 47,
-   "forks": 7,
-   "topics": [
-    "android",
-    "android-app",
-    "android-application",
-    "flux2-klein",
-    "free",
-    "offline",
-    "offline-first",
-    "privacy",
-    "roleplay",
-    "roleplay-ai"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-07T19:07:38Z",
-   "created_at": "2026-06-16T04:53:25Z",
-   "license": "Apache-2.0",
-   "language": "C++",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "https://fancyai-os.com/",
-   "pushedAt": "2026-11-07T19:07:34Z"
-  },
-  "release": {
-   "id": 437850532,
-   "tag": "v4.71",
-   "name": "v4.71",
-   "notes": "- Fixed a bug with Low Memory selector for DiT models. \r\n- Fixed a bug where \"USE IN AURA\" was not taking effect.",
-   "published_at": "2026-11-07T21:19:44Z",
-   "html_url": "https://github.com/Mr-J-369/Fancy-Ai/releases/tag/v4.71",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 721970095,
-    "name": "v4.71.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 194258249,
-    "download_url": "https://github.com/Mr-J-369/Fancy-Ai/releases/download/v4.71/v4.71.apk",
-    "digest": "sha256:d34ea378ac489b90ddabe055841e1df72a9a65c67b268d3b702f532e57425e9c",
-    "download_count": 19
-   }
-  ]
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-10",
   "repo": {
    "id": 1336796733,
@@ -299333,67 +299499,6 @@
     "download_url": "https://github.com/bjfwan/yinxing/releases/download/v2.4.1/app-release.apk",
     "digest": "sha256:67001b58879a827878f6ce38ea37bb7668d50199a4879f2700bf461039425ae6",
     "download_count": 36
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-10",
-  "repo": {
-   "id": 1371683614,
-   "full_name": "ZailoxTT/ZettaBridge",
-   "owner": "ZailoxTT",
-   "avatar_url": "https://avatars.githubusercontent.com/u/88113162?v=4",
-   "description": "Run 32-bit Android apps on 64-bit-only ARM phones: source-available ARM32 -> ARM64 native code translator and app launcher",
-   "stars": 47,
-   "forks": 13,
-   "topics": [
-    "32-bit",
-    "aarch64",
-    "android",
-    "android-launcher",
-    "arm",
-    "arm64",
-    "armv7",
-    "binary-translation",
-    "compatibility-layer",
-    "cpp",
-    "dynarmic",
-    "emulator",
-    "jit",
-    "jni",
-    "opengl-es",
-    "translator"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-09T01:23:49Z",
-   "created_at": "2026-09-15T15:15:57Z",
-   "license": "Other",
-   "language": "C++",
-   "openIssues": 24,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-10-29T16:17:34Z"
-  },
-  "release": {
-   "id": 392094488,
-   "tag": "v0.1.0",
-   "name": "ZettaBridge 0.1.0",
-   "notes": "Run 32-bit Android apps on phones that have no AArch32.\n\n**What works.** Orange Roulette (2014, Haxe/OpenFL): menu and gameplay with sound. Flappy Bird (AndEngine): playable. APK import as a plugin, a home-screen shortcut, GLES 2.0 and 3.0, EGL, assets, input.\n\n**What does not.** Games built on `NativeActivity` (Unity, pure NDK) do not start. Vulkan is not supported. Apps that need real installation are out of scope.\n\n**How to use it.** Install the APK, import a game's APK in the launcher, launch it. If a game fails, long-press it, pick \"Last run report\", and attach the report to an issue.\n\n**Tested on** a OnePlus 13 (Snapdragon 8 Elite), OxygenOS 16. No other device has been tested.\n\n---\n\nЗапуск 32-битных приложений Android на телефонах без AArch32.\n\n**Что работает:** Orange Roulette (2014, Haxe/OpenFL) — меню и игра со звуком; Flappy Bird (AndEngine) — играется. Импорт APK как плагина, ярлык на рабочем столе, GLES 2.0 и 3.0, EGL, ассеты, ввод.\n\n**Что не работает:** игры на `NativeActivity` (Unity, чистый NDK) не запускаются; Vulkan не поддерживается; приложения, требующие настоящей установки, вне области проекта.\n\n**Как пользоваться:** поставить APK, в лаунчере импортировать APK игры, запустить. Если игра не пошла — долгое нажатие, «Last run report», и пришлите отчёт в issues.\n\n**Проверялось на:** OnePlus 13 (Snapdragon 8 Elite), OxygenOS 16. Другие устройства не проверялись.\n",
-   "published_at": "2026-09-19T14:12:47Z",
-   "html_url": "https://github.com/ZailoxTT/ZettaBridge/releases/tag/v0.1.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 574887213,
-    "name": "ZettaBridge-0.1.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 6554355,
-    "download_url": "https://github.com/ZailoxTT/ZettaBridge/releases/download/v0.1.0/ZettaBridge-0.1.0.apk",
-    "digest": "sha256:75b95cc6b1aa567d8168dd02034af5d9bb7c8191fbe08144dfdda6ee79c65c41",
-    "download_count": 1170
    }
   ]
  },
@@ -299583,6 +299688,162 @@
     "download_url": "https://github.com/nOneCode4u/mixplorer-google-drive/releases/download/MiXplorer_v6.71.15/MiXplorer_v6.71.15_B26090424-x64.apk",
     "digest": "sha256:5187f1dd972c79a7b1e0380643adc985796d8f88b51ef581d27c0d2b23c3f0b0",
     "download_count": 43
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 14408419,
+   "full_name": "alanwoolley/innoextract-android",
+   "owner": "alanwoolley",
+   "avatar_url": "https://avatars.githubusercontent.com/u/1169466?v=4",
+   "description": "Port of InnoExtract to Android",
+   "stars": 47,
+   "forks": 14,
+   "topics": [
+    "android",
+    "c-plus-plus",
+    "inno-setup",
+    "innoextract",
+    "kotlin",
+    "kotlin-android",
+    "ndk"
+   ],
+   "archived": false,
+   "default_branch": "develop",
+   "updated_at": "2026-11-11T08:47:02Z",
+   "created_at": "2013-11-14T22:10:00Z",
+   "license": "Other",
+   "language": "C++",
+   "openIssues": 10,
+   "watchers": null,
+   "homepage": "https://www.armedpineapple.co.uk/projects/inno-setup-extractor/",
+   "pushedAt": "2026-08-26T18:32:25Z"
+  },
+  "release": {
+   "id": 105864864,
+   "tag": "v4.0.0",
+   "name": "v4.0.0",
+   "notes": "[Release Announcement](https://www.armedpineapple.co.uk/2023/06/inno-setup-extractor-v4-0-0/)\r\n\r\nHighlights:\r\n\r\n- A significant portion of the app has been rewritten in order to support modern versions of Android.\r\n- Upgraded the bundled version of Innoextract to v1.8 for better compatibility with new installers\r\n- Scoped storage is used for reading the Inno Setup executable and writing the output files\r\n- GOG installers are now identified and their details pulled from gog.com\r\n\r\nRemoved features\r\n\r\n- It is no longer possible to open Inno Setup Extractor from another app\r\n- Notifications are no longer shown when extracting\r\n- Viewing of the log files.\r\n\r\n**Full Changelog**: https://github.com/alanwoolley/innoextract-android/compare/v3.2.0...v4.0.0",
+   "published_at": "2023-06-02T17:11:11Z",
+   "html_url": "https://github.com/alanwoolley/innoextract-android/releases/tag/v4.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 111009766,
+    "name": "App-arm64-v8a-release-signed.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 6940011,
+    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-arm64-v8a-release-signed.apk",
+    "digest": null,
+    "download_count": 3384
+   },
+   {
+    "id": 111009796,
+    "name": "App-armeabi-v7a-release-signed.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 6292845,
+    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-armeabi-v7a-release-signed.apk",
+    "digest": null,
+    "download_count": 1173
+   },
+   {
+    "id": 111009809,
+    "name": "App-universal-release-signed.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 15677003,
+    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-universal-release-signed.apk",
+    "digest": null,
+    "download_count": 2202
+   },
+   {
+    "id": 111009754,
+    "name": "App-x86-release-signed.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 6940005,
+    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-x86-release-signed.apk",
+    "digest": null,
+    "download_count": 639
+   },
+   {
+    "id": 111009693,
+    "name": "App-x86_64-release-signed.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 7001448,
+    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-x86_64-release-signed.apk",
+    "digest": null,
+    "download_count": 860
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1333719936,
+   "full_name": "railgun0325/dsh-phone",
+   "owner": "railgun0325",
+   "avatar_url": "https://avatars.githubusercontent.com/u/102395850?v=4",
+   "description": "让 DeepSeek Harness 的 agent 跑在手机里，通过 Magisk root 原生操作安卓系统（截图/点击/滑动/开应用）+ 移动端布局 + WebView APK",
+   "stars": 47,
+   "forks": 10,
+   "topics": [
+    "agent",
+    "android",
+    "deepseek-harness",
+    "dsh-plugin",
+    "termux"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-08T16:14:39Z",
+   "created_at": "2026-08-14T02:38:13Z",
+   "license": "MIT",
+   "language": "JavaScript",
+   "openIssues": 4,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-09-18T10:38:26Z"
+  },
+  "release": {
+   "id": 390653944,
+   "tag": "v0.2.11",
+   "name": "v0.2.11 — 修复无法新建文件夹",
+   "notes": "# v0.2.11\n\n## 修复\n\n- **手机里「新建文件夹」报 `EACCES: permission denied`**：与 root 和系统权限无关。Termux 家目录的属主/权限在拷贝部署文件的过程中被改成了其他用户（模式 775），应用以自己的用户身份在该目录里只有读权限，因此无法新建文件或文件夹。\n  现在部署流程会自检并修正家目录的属主与权限，App 在拷贝部署文件后也会恢复它。\n\n## 升级\n\n- 覆盖安装即可（versionCode 15 / v0.2.11）。\n- 已经出现该问题的设备：安装后点一次「一键部署」会自动修复，也可在 Termux 执行\n  `chown $(id -u):$(id -g) ~ && chmod 700 ~`。\n",
+   "published_at": "2026-09-17T11:24:52Z",
+   "html_url": "https://github.com/railgun0325/dsh-phone/releases/tag/v0.2.11",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 570115607,
+    "name": "dsh-phone-root-v0.2.11.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 42806934,
+    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-root-v0.2.11.apk",
+    "digest": "sha256:f68ffd581f6995edfa4eb80013dc4a7f823997dcb4791de7b6291504afdc4133",
+    "download_count": 1117
+   },
+   {
+    "id": 570115603,
+    "name": "dsh-phone-shizuku-v0.2.11.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 44584368,
+    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-shizuku-v0.2.11.apk",
+    "digest": "sha256:f462ab8db626e8f4f544e4aba899b9032e7624239ff9127c8ac44658627a65db",
+    "download_count": 1407
+   },
+   {
+    "id": 570115606,
+    "name": "SHA256SUMS-v0.2.11.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 193,
+    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/SHA256SUMS-v0.2.11.txt",
+    "digest": "sha256:06e1293afe76c315660f36e39d46db10fa4e426040f30d0a5f01a99d99716f04",
+    "download_count": 158
    }
   ]
  },
@@ -300093,94 +300354,6 @@
     "download_url": "https://github.com/ObfuscatedVoid/Cinderbox-Companion/releases/download/v0.1.1/CinderboxCompanion-v0.1.1.apk",
     "digest": "sha256:4126d4f5ff05fbd936f69f9379e1fb77bcb5693e495570ee12c9dea3ae572e31",
     "download_count": 901
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-05",
-  "repo": {
-   "id": 14408419,
-   "full_name": "alanwoolley/innoextract-android",
-   "owner": "alanwoolley",
-   "avatar_url": "https://avatars.githubusercontent.com/u/1169466?v=4",
-   "description": "Port of InnoExtract to Android",
-   "stars": 46,
-   "forks": 14,
-   "topics": [
-    "android",
-    "c-plus-plus",
-    "inno-setup",
-    "innoextract",
-    "kotlin",
-    "kotlin-android",
-    "ndk"
-   ],
-   "archived": false,
-   "default_branch": "develop",
-   "updated_at": "2026-09-09T19:18:19Z",
-   "created_at": "2013-11-14T22:10:00Z",
-   "license": "Other",
-   "language": "C++",
-   "openIssues": 10,
-   "watchers": null,
-   "homepage": "https://www.armedpineapple.co.uk/projects/inno-setup-extractor/",
-   "pushedAt": "2026-08-26T18:32:25Z"
-  },
-  "release": {
-   "id": 105864864,
-   "tag": "v4.0.0",
-   "name": "v4.0.0",
-   "notes": "[Release Announcement](https://www.armedpineapple.co.uk/2023/06/inno-setup-extractor-v4-0-0/)\r\n\r\nHighlights:\r\n\r\n- A significant portion of the app has been rewritten in order to support modern versions of Android.\r\n- Upgraded the bundled version of Innoextract to v1.8 for better compatibility with new installers\r\n- Scoped storage is used for reading the Inno Setup executable and writing the output files\r\n- GOG installers are now identified and their details pulled from gog.com\r\n\r\nRemoved features\r\n\r\n- It is no longer possible to open Inno Setup Extractor from another app\r\n- Notifications are no longer shown when extracting\r\n- Viewing of the log files.\r\n\r\n**Full Changelog**: https://github.com/alanwoolley/innoextract-android/compare/v3.2.0...v4.0.0",
-   "published_at": "2023-06-02T17:11:11Z",
-   "html_url": "https://github.com/alanwoolley/innoextract-android/releases/tag/v4.0.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 111009766,
-    "name": "App-arm64-v8a-release-signed.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 6940011,
-    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-arm64-v8a-release-signed.apk",
-    "digest": null,
-    "download_count": 3312
-   },
-   {
-    "id": 111009796,
-    "name": "App-armeabi-v7a-release-signed.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 6292845,
-    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-armeabi-v7a-release-signed.apk",
-    "digest": null,
-    "download_count": 1161
-   },
-   {
-    "id": 111009809,
-    "name": "App-universal-release-signed.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 15677003,
-    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-universal-release-signed.apk",
-    "digest": null,
-    "download_count": 2172
-   },
-   {
-    "id": 111009754,
-    "name": "App-x86-release-signed.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 6940005,
-    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-x86-release-signed.apk",
-    "digest": null,
-    "download_count": 635
-   },
-   {
-    "id": 111009693,
-    "name": "App-x86_64-release-signed.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 7001448,
-    "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-x86_64-release-signed.apk",
-    "digest": null,
-    "download_count": 855
    }
   ]
  },
@@ -300888,74 +301061,6 @@
     "download_url": "https://github.com/beenuar/shieldapp-android/releases/download/releases/app-release.apk",
     "digest": "sha256:9e52050963ab93d0a50c06b3c849550b60d8ce70884ff296c4488d13c2e01a2f",
     "download_count": 1332
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-05",
-  "repo": {
-   "id": 1333719936,
-   "full_name": "railgun0325/dsh-phone",
-   "owner": "railgun0325",
-   "avatar_url": "https://avatars.githubusercontent.com/u/102395850?v=4",
-   "description": "让 DeepSeek Harness 的 agent 跑在手机里，通过 Magisk root 原生操作安卓系统（截图/点击/滑动/开应用）+ 移动端布局 + WebView APK",
-   "stars": 46,
-   "forks": 10,
-   "topics": [
-    "agent",
-    "android",
-    "deepseek-harness",
-    "dsh-plugin",
-    "termux"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-04T04:59:39Z",
-   "created_at": "2026-08-14T02:38:13Z",
-   "license": "MIT",
-   "language": "JavaScript",
-   "openIssues": 4,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-09-18T10:38:26Z"
-  },
-  "release": {
-   "id": 390653944,
-   "tag": "v0.2.11",
-   "name": "v0.2.11 — 修复无法新建文件夹",
-   "notes": "# v0.2.11\n\n## 修复\n\n- **手机里「新建文件夹」报 `EACCES: permission denied`**：与 root 和系统权限无关。Termux 家目录的属主/权限在拷贝部署文件的过程中被改成了其他用户（模式 775），应用以自己的用户身份在该目录里只有读权限，因此无法新建文件或文件夹。\n  现在部署流程会自检并修正家目录的属主与权限，App 在拷贝部署文件后也会恢复它。\n\n## 升级\n\n- 覆盖安装即可（versionCode 15 / v0.2.11）。\n- 已经出现该问题的设备：安装后点一次「一键部署」会自动修复，也可在 Termux 执行\n  `chown $(id -u):$(id -g) ~ && chmod 700 ~`。\n",
-   "published_at": "2026-09-17T11:24:52Z",
-   "html_url": "https://github.com/railgun0325/dsh-phone/releases/tag/v0.2.11",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 570115607,
-    "name": "dsh-phone-root-v0.2.11.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 42806934,
-    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-root-v0.2.11.apk",
-    "digest": "sha256:f68ffd581f6995edfa4eb80013dc4a7f823997dcb4791de7b6291504afdc4133",
-    "download_count": 953
-   },
-   {
-    "id": 570115603,
-    "name": "dsh-phone-shizuku-v0.2.11.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 44584368,
-    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-shizuku-v0.2.11.apk",
-    "digest": "sha256:f462ab8db626e8f4f544e4aba899b9032e7624239ff9127c8ac44658627a65db",
-    "download_count": 1271
-   },
-   {
-    "id": 570115606,
-    "name": "SHA256SUMS-v0.2.11.txt",
-    "content_type": "text/plain; charset=utf-8",
-    "size": 193,
-    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/SHA256SUMS-v0.2.11.txt",
-    "digest": "sha256:06e1293afe76c315660f36e39d46db10fa4e426040f30d0a5f01a99d99716f04",
-    "download_count": 139
    }
   ]
  },
@@ -309880,7 +309985,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 114393199,
    "full_name": "pmp-p/pydk",
@@ -311090,6 +311195,68 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1335324287,
+   "full_name": "ahmedhmam1994/voxscribe-ai-voice-dictation",
+   "owner": "ahmedhmam1994",
+   "avatar_url": "https://avatars.githubusercontent.com/u/310312803?v=4",
+   "description": "Free, open-source voice typing for Windows and Android. Talk and the text is typed into any app. Speech-to-text runs offline on your device with Whisper, no cloud, no account.",
+   "stars": 40,
+   "forks": 1,
+   "topics": [
+    "accessibility",
+    "android",
+    "dictation",
+    "faster-whisper",
+    "flutter",
+    "kotlin",
+    "offline-first",
+    "productivity",
+    "productivity-tool",
+    "pyside6",
+    "python",
+    "speech-recognition",
+    "speech-to-text",
+    "voice-recognition",
+    "voice-to-text",
+    "whisper",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-10T22:15:36Z",
+   "created_at": "2026-08-15T18:35:34Z",
+   "license": "MIT",
+   "language": "Python",
+   "openIssues": 3,
+   "watchers": null,
+   "homepage": "https://voxscribe-ai-voice-dictation.vercel.app",
+   "pushedAt": "2026-11-10T21:15:31Z"
+  },
+  "release": {
+   "id": 433991898,
+   "tag": "android-v1.1.4",
+   "name": "VoxScribe for Android 1.1.4",
+   "notes": "Dictating into a draft no longer erases it, plus an English fast model, voice form filling, a privacy receipt and sharing voice notes straight to VoxScribe.\n\nNew\n- Dictating into a draft keeps what you wrote: your words are added at the cursor and the text already in the box stays.\n- English fast model: an optional download (about 131 MB) in Settings, Dictation. It types English several times faster and more accurately. The standard model stays for Arabic and mixed speech.\n- Share a voice note to VoxScribe: in WhatsApp, Files or any app, share an audio or video file to VoxScribe and the text comes back.\n- Fill forms by voice: say \"Name Sam Lee, phone 555 0100\" and every box on the form fills at once.\n- Learns your words: fix a word VoxScribe got wrong and it makes that fix for you from then on.\n- Names shown on screen, like the person you are writing to, are spelled right.\n- Smart formatting reads \"three forty five pm\" as 3:45 PM and \"order number four eight two nine\" as 4829. Missing full stops and big-number commas are fixed too.\n- A privacy receipt in Settings lists every time VoxScribe went online and what it sent. Never your words.\n- Settings is reorganized into Setup, Dictation, Floating button, Voice and words, Pro, Appearance, and Privacy and data.\n\nKnown issue\n- Xiaomi Notes can place dictated text a few characters off, because of its own editor. Gmail, Messages and most other apps are fine.\n\n## How to install\n\n1. On your phone, download **VoxScribe-Android-1.1.4.apk** from Assets below.\n2. Open the downloaded file. Android asks to **allow installs from this source** (your browser or Files app): turn it on once, then go back and tap **Install**.\n3. If Google Play Protect says the app is unknown, tap **More details**, then **Install anyway**. It warns because VoxScribe is not on the Play Store yet, not because anything was found.\n4. Open VoxScribe and follow the setup: allow the microphone, turn on VoxScribe in Accessibility (the only way Android lets an app",
+   "published_at": "2026-11-04T13:56:09Z",
+   "html_url": "https://github.com/ahmedhmam1994/voxscribe-ai-voice-dictation/releases/tag/android-v1.1.4",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 709698761,
+    "name": "VoxScribe-Android-1.1.4.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 120434270,
+    "download_url": "https://github.com/ahmedhmam1994/voxscribe-ai-voice-dictation/releases/download/android-v1.1.4/VoxScribe-Android-1.1.4.apk",
+    "digest": "sha256:affb4b5488459e4af2043a968ba2fd583f74fa3914dabc231a8c900bb0d8c407",
+    "download_count": 50
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-27",
   "repo": {
    "id": 503167694,
@@ -311437,7 +311604,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1202440113,
    "full_name": "1936-zero/ctyun-keepalive-android",
@@ -311475,7 +311642,7 @@
     "size": 137260795,
     "download_url": "https://github.com/1936-zero/ctyun-keepalive-android/releases/download/2.0.7/app-debug.apk",
     "digest": "sha256:bd7f523e30b233058b161af3c7e46dd7e88c92f2539f53807c13f6638795f5b1",
-    "download_count": 423
+    "download_count": 425
    }
   ]
  },
@@ -312377,68 +312544,6 @@
     "download_url": "https://github.com/democard/xmu_assistant/releases/download/v1.8.4/xmu-assistant.exe",
     "digest": "sha256:fd66f62b1cadbec5b8c4bb6276faee71140829dae9dfdc2a37b4c0e6c5dfbaff",
     "download_count": 26
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-10",
-  "repo": {
-   "id": 1335324287,
-   "full_name": "ahmedhmam1994/voxscribe-ai-voice-dictation",
-   "owner": "ahmedhmam1994",
-   "avatar_url": "https://avatars.githubusercontent.com/u/310312803?v=4",
-   "description": "Free, open-source voice typing for Windows and Android. Talk and the text is typed into any app. Speech-to-text runs offline on your device with Whisper, no cloud, no account.",
-   "stars": 39,
-   "forks": 1,
-   "topics": [
-    "accessibility",
-    "android",
-    "dictation",
-    "faster-whisper",
-    "flutter",
-    "kotlin",
-    "offline-first",
-    "productivity",
-    "productivity-tool",
-    "pyside6",
-    "python",
-    "speech-recognition",
-    "speech-to-text",
-    "voice-recognition",
-    "voice-to-text",
-    "whisper",
-    "windows"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-08T14:01:26Z",
-   "created_at": "2026-08-15T18:35:34Z",
-   "license": "MIT",
-   "language": "Python",
-   "openIssues": 3,
-   "watchers": null,
-   "homepage": "https://voxscribe-ai-voice-dictation.vercel.app",
-   "pushedAt": "2026-11-08T14:01:23Z"
-  },
-  "release": {
-   "id": 433991898,
-   "tag": "android-v1.1.4",
-   "name": "VoxScribe for Android 1.1.4",
-   "notes": "Dictating into a draft no longer erases it, plus an English fast model, voice form filling, a privacy receipt and sharing voice notes straight to VoxScribe.\n\nNew\n- Dictating into a draft keeps what you wrote: your words are added at the cursor and the text already in the box stays.\n- English fast model: an optional download (about 131 MB) in Settings, Dictation. It types English several times faster and more accurately. The standard model stays for Arabic and mixed speech.\n- Share a voice note to VoxScribe: in WhatsApp, Files or any app, share an audio or video file to VoxScribe and the text comes back.\n- Fill forms by voice: say \"Name Sam Lee, phone 555 0100\" and every box on the form fills at once.\n- Learns your words: fix a word VoxScribe got wrong and it makes that fix for you from then on.\n- Names shown on screen, like the person you are writing to, are spelled right.\n- Smart formatting reads \"three forty five pm\" as 3:45 PM and \"order number four eight two nine\" as 4829. Missing full stops and big-number commas are fixed too.\n- A privacy receipt in Settings lists every time VoxScribe went online and what it sent. Never your words.\n- Settings is reorganized into Setup, Dictation, Floating button, Voice and words, Pro, Appearance, and Privacy and data.\n\nKnown issue\n- Xiaomi Notes can place dictated text a few characters off, because of its own editor. Gmail, Messages and most other apps are fine.\n\n## How to install\n\n1. On your phone, download **VoxScribe-Android-1.1.4.apk** from Assets below.\n2. Open the downloaded file. Android asks to **allow installs from this source** (your browser or Files app): turn it on once, then go back and tap **Install**.\n3. If Google Play Protect says the app is unknown, tap **More details**, then **Install anyway**. It warns because VoxScribe is not on the Play Store yet, not because anything was found.\n4. Open VoxScribe and follow the setup: allow the microphone, turn on VoxScribe in Accessibility (the only way Android lets an app",
-   "published_at": "2026-11-04T13:56:09Z",
-   "html_url": "https://github.com/ahmedhmam1994/voxscribe-ai-voice-dictation/releases/tag/android-v1.1.4",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 709698761,
-    "name": "VoxScribe-Android-1.1.4.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 120434270,
-    "download_url": "https://github.com/ahmedhmam1994/voxscribe-ai-voice-dictation/releases/download/android-v1.1.4/VoxScribe-Android-1.1.4.apk",
-    "digest": "sha256:affb4b5488459e4af2043a968ba2fd583f74fa3914dabc231a8c900bb0d8c407",
-    "download_count": 40
    }
   ]
  },
@@ -786091,7 +786196,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1240625493,
    "full_name": "Aadi-init/Our_Finance.android",
@@ -786276,7 +786381,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1430884758,
    "full_name": "sikorokoro44/Messenger-Pro",
@@ -786288,48 +786393,48 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-24T13:59:10Z",
+   "updated_at": "2026-11-11T10:13:39Z",
    "created_at": "2026-10-23T10:13:47Z",
    "license": null,
    "language": "Kotlin",
-   "openIssues": 0,
+   "openIssues": 2,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-10-24T14:00:53Z"
+   "pushedAt": "2026-11-11T10:43:31Z"
   },
   "release": {
-   "id": 422764978,
-   "tag": "messenger-pro-build-40100473943",
-   "name": "Messenger Pro build 12",
-   "notes": "Automated build of Messenger Pro from fc0d38b4fd15a05c22cd4f59db00759ec21db1f3.\nFixture status is recorded in feature-registry.json; only COMPLETE entries have test evidence.\n",
-   "published_at": "2026-10-24T14:00:54Z",
-   "html_url": "https://github.com/sikorokoro44/Messenger-Pro/releases/tag/messenger-pro-build-40100473943",
+   "id": 441624123,
+   "tag": "messenger-pro-build-43012963173",
+   "name": "Messenger Pro build 369",
+   "notes": "Signed release build of Messenger Pro from 125acfe2f366f948065654bce8142f25945dfdb5.\nSHA-256 and signature verification reports are attached.\n\nAPK SHA-256: a5ad4c815593d1125de377b1f2d0a2907a23c3082cf66b26a49b919e47b32b65\nSigning certificate SHA-256: ac3637652d2f95eaed7c2ab3f028dc06078587cbd17d12ccf5bff4baeb0e3a26\n",
+   "published_at": "2026-11-11T11:49:31Z",
+   "html_url": "https://github.com/sikorokoro44/Messenger-Pro/releases/tag/messenger-pro-build-43012963173",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 672409664,
+    "id": 735336915,
     "name": "apk.sha256",
     "content_type": "application/octet-stream",
-    "size": 108,
-    "download_url": "https://github.com/sikorokoro44/Messenger-Pro/releases/download/messenger-pro-build-40100473943/apk.sha256",
-    "digest": "sha256:fb67ecdb61ccdd2307ec9badcf7d14e3f515a0a5f76ad036f52af46ae5bfd019",
-    "download_count": 0
+    "size": 112,
+    "download_url": "https://github.com/sikorokoro44/Messenger-Pro/releases/download/messenger-pro-build-43012963173/apk.sha256",
+    "digest": "sha256:7ee8589dd6b4b346396d99333b1744aa6b4728d409e7a3a1c73759d74161d8e6",
+    "download_count": 1
    },
    {
-    "id": 672409661,
-    "name": "app-debug.apk",
+    "id": 735336916,
+    "name": "app-release.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 8892441,
-    "download_url": "https://github.com/sikorokoro44/Messenger-Pro/releases/download/messenger-pro-build-40100473943/app-debug.apk",
-    "digest": "sha256:c5286304b1d36c297e1047377941b84ee8d5a6964416e0e8b51a1b9e1a01952f",
-    "download_count": 1
+    "size": 51441060,
+    "download_url": "https://github.com/sikorokoro44/Messenger-Pro/releases/download/messenger-pro-build-43012963173/app-release.apk",
+    "digest": "sha256:a5ad4c815593d1125de377b1f2d0a2907a23c3082cf66b26a49b919e47b32b65",
+    "download_count": 2
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-05",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1182554499,
    "full_name": "ponrajaruldas/finance-tracker-android",
@@ -786373,7 +786478,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1162261591,
    "full_name": "youngbinkim0/spoke-express",
@@ -786461,7 +786566,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1353372987,
    "full_name": "yongjiangshi/suica-expense",
@@ -786567,7 +786672,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1405674509,
    "full_name": "AquilaWei/OpenPRT",
@@ -786743,7 +786848,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1239342000,
    "full_name": "secondjb/AnnArBoard-Mobile",
@@ -786787,7 +786892,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 237722750,
    "full_name": "akashd50/Snowline",
@@ -786831,7 +786936,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-05",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1411828071,
    "full_name": "vxtor012/finance-secretary-android",
@@ -786884,7 +786989,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1416253583,
    "full_name": "rilclesaraiva/BusBus",
@@ -786905,14 +787010,14 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-07T01:43:47Z",
+   "updated_at": "2026-11-11T03:31:58Z",
    "created_at": "2026-10-13T00:04:48Z",
    "license": "GPL-3.0",
    "language": "JavaScript",
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://bus-bus-qdmb.vercel.app/",
-   "pushedAt": "2026-11-07T01:45:48Z"
+   "pushedAt": "2026-11-11T02:41:39Z"
   },
   "release": {
    "id": 437247776,
@@ -786931,7 +787036,7 @@
     "size": 1956503,
     "download_url": "https://github.com/rilclesaraiva/BusBus/releases/download/v1.8.0/busbus_v1.8.0.apk",
     "digest": "sha256:01ab97db34a76fa2122de4215fbd9c51c2b5f1d883153091df8f95887bb233c0",
-    "download_count": 2
+    "download_count": 4
    }
   ]
  },
@@ -796330,109 +796435,6 @@
     "download_url": "https://github.com/Forestf90/ChatNoir/releases/download/1.0/ChatNoir.apk",
     "digest": null,
     "download_count": 13
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-28",
-  "repo": {
-   "id": 886962935,
-   "full_name": "g3th/LibGDX-Box2D-Shape-Factory",
-   "owner": "g3th",
-   "avatar_url": "https://avatars.githubusercontent.com/u/74467654?v=4",
-   "description": "Create Shapes in LibGDX Box2D",
-   "stars": 0,
-   "forks": 1,
-   "topics": [
-    "android",
-    "box2d-physics-engine",
-    "games",
-    "libgdx",
-    "shapes"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2024-11-12T01:43:04Z",
-   "created_at": "2024-11-11T23:34:43Z",
-   "license": null,
-   "language": "Kotlin",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2024-11-12T01:43:01Z"
-  },
-  "release": {
-   "id": 184782100,
-   "tag": "libgdx",
-   "name": "LibGDX Box2D Shape Factory",
-   "notes": "1.0.1 - Changes:\r\n\r\n- Dynamic Shapes Colour for better visibility\r\n- Static Shapes Colour for better visibility",
-   "published_at": "2024-11-12T01:08:06Z",
-   "html_url": "https://github.com/g3th/LibGDX-Box2D-Shape-Factory/releases/tag/libgdx",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 205802471,
-    "name": "LibGDX_Box2D_Shapes_Factory_1.0.1_121124_0105-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 9256151,
-    "download_url": "https://github.com/g3th/LibGDX-Box2D-Shape-Factory/releases/download/libgdx/LibGDX_Box2D_Shapes_Factory_1.0.1_121124_0105-release.apk",
-    "digest": null,
-    "download_count": 5
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-28",
-  "repo": {
-   "id": 1435286526,
-   "full_name": "TangguhLW/Ambatopia-APK",
-   "owner": "TangguhLW",
-   "avatar_url": "https://avatars.githubusercontent.com/u/182590509?v=4",
-   "description": "Source Godot dan APK Android Ambatopia versi 0.34.1.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-27T05:32:25Z",
-   "created_at": "2026-10-27T05:24:57Z",
-   "license": null,
-   "language": "GDScript",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-10-27T05:32:41Z"
-  },
-  "release": {
-   "id": 425068372,
-   "tag": "v0.34.1",
-   "name": "Ambatopia Android 0.34.1",
-   "notes": "Paket Android terbaru yang tersedia dari project lokal pada 27 Oktober 2026. Versi **0.34.1**. Source code lengkap snapshot ini tersedia pada arsip source otomatis GitHub di bawah.\n\nDownload **Ambatopia-0.34.1.apk** pada Assets. SHA-256 disertakan dalam SHA256SUMS.txt.\n\nAPK 0.34.1 menggunakan debug signing sesuai build lokal. Laporan build mencatat 315.694 pemeriksaan native dan 386 pemeriksaan Windows lolos. Android: 390/393 lolos; tiga kegagalan seed/provider/growth terkait migrasi RPC Supabase yang belum diterapkan. Rilis ini belum memenuhi seluruh target fitur online. Lihat docs/resources/UPDATE-034.md. Website Ambatopia berada di repository Ambatopia-Web.",
-   "published_at": "2026-10-27T05:32:41Z",
-   "html_url": "https://github.com/TangguhLW/Ambatopia-APK/releases/tag/v0.34.1",
-   "prerelease": true
-  },
-  "assets": [
-   {
-    "id": 680572415,
-    "name": "Ambatopia-0.34.1.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 193602733,
-    "download_url": "https://github.com/TangguhLW/Ambatopia-APK/releases/download/v0.34.1/Ambatopia-0.34.1.apk",
-    "digest": "sha256:373c7c622663431ad0623c0ed191fd723d97a6340180e823c7b8123f9891e4e5",
-    "download_count": 3
-   },
-   {
-    "id": 680580891,
-    "name": "SHA256SUMS.txt",
-    "content_type": "application/octet-stream",
-    "size": 88,
-    "download_url": "https://github.com/TangguhLW/Ambatopia-APK/releases/download/v0.34.1/SHA256SUMS.txt",
-    "digest": "sha256:40f6a9283f179302badc4cf935165449f2943fa2b4d63e0a3867f86401c16b92",
-    "download_count": 0
    }
   ]
  }

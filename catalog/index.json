@@ -139813,6 +139813,32 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1385824149,
+   "full_name": "codepdbh/PSPRecomp-VCS-Android",
+   "owner": "codepdbh",
+   "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
+   "description": "Experimental Android ARM64 port of PSPRecomp's Vice City Stories profile",
+   "stars": 50,
+   "forks": 2,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-09T13:21:03Z",
+   "created_at": "2026-09-24T15:40:25Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 398351484,
+   "tag": "v0.3.0-beta",
+   "published_at": "2026-09-28T14:53:49Z",
+   "prerelease": true,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-10",
   "repo": {
    "id": 1155938285,
@@ -140481,6 +140507,109 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1371683614,
+   "full_name": "ZailoxTT/ZettaBridge",
+   "owner": "ZailoxTT",
+   "avatar_url": "https://avatars.githubusercontent.com/u/88113162?v=4",
+   "description": "Run 32-bit Android apps on 64-bit-only ARM phones: source-available ARM32 -> ARM64 native code translator and app launcher",
+   "stars": 49,
+   "forks": 13,
+   "topics": [
+    "32-bit",
+    "aarch64",
+    "android",
+    "android-launcher",
+    "arm",
+    "arm64",
+    "armv7",
+    "binary-translation",
+    "compatibility-layer",
+    "cpp",
+    "dynarmic",
+    "emulator",
+    "jit",
+    "jni",
+    "opengl-es",
+    "translator"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-10T19:13:41Z",
+   "created_at": "2026-09-15T15:15:57Z",
+   "license": "Other"
+  },
+  "release": {
+   "id": 392094488,
+   "tag": "v0.1.0",
+   "published_at": "2026-09-19T14:12:47Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1441609474,
+   "full_name": "JaviiDeveloper/eden-nx2-android",
+   "owner": "JaviiDeveloper",
+   "avatar_url": "https://avatars.githubusercontent.com/u/342561275?v=4",
+   "description": "VERY Experimental Nintendo Switch 2 Emulator for Android",
+   "stars": 49,
+   "forks": 3,
+   "topics": [],
+   "archived": false,
+   "default_branch": "nx2-android",
+   "updated_at": "2026-11-11T01:43:03Z",
+   "created_at": "2026-11-01T09:07:52Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 432979851,
+   "tag": "nx2-android-v0.3.3",
+   "published_at": "2026-11-03T16:58:02Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1431760220,
+   "full_name": "PateeerQ/FreedomUniteRecomp",
+   "owner": "PateeerQ",
+   "avatar_url": "https://avatars.githubusercontent.com/u/72560259?v=4",
+   "description": "AI Driven Project to Port Monster Hunter Freedom Unite Natively on Windows and Android, Multiplayer Supports across Platform and Regions.",
+   "stars": 49,
+   "forks": 0,
+   "topics": [
+    "android-port",
+    "mhfu",
+    "monster-hunter",
+    "monster-hunter-freedom-unite",
+    "pc-port",
+    "psprecomp",
+    "recompilation"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-11T08:14:03Z",
+   "created_at": "2026-10-24T03:02:22Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 441201542,
+   "tag": "v0.4.6",
+   "published_at": "2026-11-11T03:26:01Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-08",
   "repo": {
    "id": 130401960,
@@ -140510,7 +140639,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1037642255,
    "full_name": "sune-org/sune",
@@ -140728,7 +140857,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 440842151,
    "full_name": "ibaiGorordo/depthai-android-jni-example",
@@ -141151,32 +141280,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
-  "repo": {
-   "id": 1385824149,
-   "full_name": "codepdbh/PSPRecomp-VCS-Android",
-   "owner": "codepdbh",
-   "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
-   "description": "Experimental Android ARM64 port of PSPRecomp's Vice City Stories profile",
-   "stars": 48,
-   "forks": 2,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-04T22:24:39Z",
-   "created_at": "2026-09-24T15:40:25Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 398351484,
-   "tag": "v0.3.0-beta",
-   "published_at": "2026-09-28T14:53:49Z",
-   "prerelease": true,
-   "apk_count": 2
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-09",
   "repo": {
    "id": 1351393401,
@@ -141389,6 +141492,69 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1169511048,
+   "full_name": "nihaina/SubtitleEditforAndroid",
+   "owner": "nihaina",
+   "avatar_url": "https://avatars.githubusercontent.com/u/122545631?v=4",
+   "description": "TsumugiSub是一个在手机上使用的功能齐全的轻量字幕编辑软件，集成了离线的语音转字幕、人声分离、格式转换、文稿匹配等功能 TsumugiSub is a fully functional lightweight subtitle editing software for Android. It integrates offline speech to subtitles, voice separation, format conversion, document mat",
+   "stars": 48,
+   "forks": 6,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-11T06:38:45Z",
+   "created_at": "2026-02-28T19:51:37Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 433772862,
+   "tag": "1.2.5",
+   "published_at": "2026-11-04T10:18:27Z",
+   "prerelease": false,
+   "apk_count": 4
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1270825267,
+   "full_name": "Mr-J-369/Fancy-Ai",
+   "owner": "Mr-J-369",
+   "avatar_url": "https://avatars.githubusercontent.com/u/224147496?v=4",
+   "description": "Offline roleplay app where characters have social media app. offline image generations including Sd1.5, SDXL, Flux, ZiT, Moss and Qwen image. Also terminal to run ubuntu and many more. The app is opensource and free. If you like my project,",
+   "stars": 48,
+   "forks": 7,
+   "topics": [
+    "android",
+    "android-app",
+    "android-application",
+    "flux2-klein",
+    "free",
+    "offline",
+    "offline-first",
+    "privacy",
+    "roleplay",
+    "roleplay-ai"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-10T16:54:17Z",
+   "created_at": "2026-06-16T04:53:25Z",
+   "license": "Apache-2.0"
+  },
+  "release": {
+   "id": 440681670,
+   "tag": "v4.72",
+   "published_at": "2026-11-10T17:32:08Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-10",
   "repo": {
    "id": 1365801397,
@@ -141455,7 +141621,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1149722896,
    "full_name": "chentyjpm/openclaw-android-wechat",
@@ -141632,7 +141798,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 400178543,
    "full_name": "vivekkj123/quiz-app-react-native",
@@ -142120,7 +142286,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-10",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 380339641,
    "full_name": "Rabbit-Company/Passky-Android",
@@ -142177,32 +142343,6 @@
    "published_at": "2026-09-18T12:49:00Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-07",
-  "repo": {
-   "id": 1169511048,
-   "full_name": "nihaina/SubtitleEditforAndroid",
-   "owner": "nihaina",
-   "avatar_url": "https://avatars.githubusercontent.com/u/122545631?v=4",
-   "description": "TsumugiSub是一个在手机上使用的功能齐全的轻量字幕编辑软件，集成了离线的语音转字幕、人声分离、格式转换、文稿匹配等功能 TsumugiSub is a fully functional lightweight subtitle editing software for Android. It integrates offline speech to subtitles, voice separation, format conversion, document mat",
-   "stars": 47,
-   "forks": 6,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-07T16:21:07Z",
-   "created_at": "2026-02-28T19:51:37Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 433772862,
-   "tag": "1.2.5",
-   "published_at": "2026-11-04T10:18:27Z",
-   "prerelease": false,
-   "apk_count": 4
   }
  },
  {
@@ -142363,43 +142503,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
-  "repo": {
-   "id": 1270825267,
-   "full_name": "Mr-J-369/Fancy-Ai",
-   "owner": "Mr-J-369",
-   "avatar_url": "https://avatars.githubusercontent.com/u/224147496?v=4",
-   "description": "Offline roleplay app where characters have social media app. offline image generations including Sd1.5, SDXL, Flux, ZiT, Moss and Qwen image. Also terminal to run ubuntu and many more. The app is opensource and free. If you like my project,",
-   "stars": 47,
-   "forks": 7,
-   "topics": [
-    "android",
-    "android-app",
-    "android-application",
-    "flux2-klein",
-    "free",
-    "offline",
-    "offline-first",
-    "privacy",
-    "roleplay",
-    "roleplay-ai"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-07T19:07:38Z",
-   "created_at": "2026-06-16T04:53:25Z",
-   "license": "Apache-2.0"
-  },
-  "release": {
-   "id": 437850532,
-   "tag": "v4.71",
-   "published_at": "2026-11-07T21:19:44Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-10",
   "repo": {
    "id": 1336796733,
@@ -142497,49 +142600,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-10",
-  "repo": {
-   "id": 1371683614,
-   "full_name": "ZailoxTT/ZettaBridge",
-   "owner": "ZailoxTT",
-   "avatar_url": "https://avatars.githubusercontent.com/u/88113162?v=4",
-   "description": "Run 32-bit Android apps on 64-bit-only ARM phones: source-available ARM32 -> ARM64 native code translator and app launcher",
-   "stars": 47,
-   "forks": 13,
-   "topics": [
-    "32-bit",
-    "aarch64",
-    "android",
-    "android-launcher",
-    "arm",
-    "arm64",
-    "armv7",
-    "binary-translation",
-    "compatibility-layer",
-    "cpp",
-    "dynarmic",
-    "emulator",
-    "jit",
-    "jni",
-    "opengl-es",
-    "translator"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-09T01:23:49Z",
-   "created_at": "2026-09-15T15:15:57Z",
-   "license": "Other"
-  },
-  "release": {
-   "id": 392094488,
-   "tag": "v0.1.0",
-   "published_at": "2026-09-19T14:12:47Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-11",
   "repo": {
    "id": 1245259737,
@@ -142626,6 +142686,72 @@
    "published_at": "2026-09-04T10:01:17Z",
    "prerelease": false,
    "apk_count": 5
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 14408419,
+   "full_name": "alanwoolley/innoextract-android",
+   "owner": "alanwoolley",
+   "avatar_url": "https://avatars.githubusercontent.com/u/1169466?v=4",
+   "description": "Port of InnoExtract to Android",
+   "stars": 47,
+   "forks": 14,
+   "topics": [
+    "android",
+    "c-plus-plus",
+    "inno-setup",
+    "innoextract",
+    "kotlin",
+    "kotlin-android",
+    "ndk"
+   ],
+   "archived": false,
+   "default_branch": "develop",
+   "updated_at": "2026-11-11T08:47:02Z",
+   "created_at": "2013-11-14T22:10:00Z",
+   "license": "Other"
+  },
+  "release": {
+   "id": 105864864,
+   "tag": "v4.0.0",
+   "published_at": "2023-06-02T17:11:11Z",
+   "prerelease": false,
+   "apk_count": 5
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1333719936,
+   "full_name": "railgun0325/dsh-phone",
+   "owner": "railgun0325",
+   "avatar_url": "https://avatars.githubusercontent.com/u/102395850?v=4",
+   "description": "让 DeepSeek Harness 的 agent 跑在手机里，通过 Magisk root 原生操作安卓系统（截图/点击/滑动/开应用）+ 移动端布局 + WebView APK",
+   "stars": 47,
+   "forks": 10,
+   "topics": [
+    "agent",
+    "android",
+    "deepseek-harness",
+    "dsh-plugin",
+    "termux"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-08T16:14:39Z",
+   "created_at": "2026-08-14T02:38:13Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 390653944,
+   "tag": "v0.2.11",
+   "published_at": "2026-09-17T11:24:52Z",
+   "prerelease": false,
+   "apk_count": 3
   }
  },
  {
@@ -142893,40 +143019,6 @@
    "published_at": "2026-09-20T18:03:27Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-05",
-  "repo": {
-   "id": 14408419,
-   "full_name": "alanwoolley/innoextract-android",
-   "owner": "alanwoolley",
-   "avatar_url": "https://avatars.githubusercontent.com/u/1169466?v=4",
-   "description": "Port of InnoExtract to Android",
-   "stars": 46,
-   "forks": 14,
-   "topics": [
-    "android",
-    "c-plus-plus",
-    "inno-setup",
-    "innoextract",
-    "kotlin",
-    "kotlin-android",
-    "ndk"
-   ],
-   "archived": false,
-   "default_branch": "develop",
-   "updated_at": "2026-09-09T19:18:19Z",
-   "created_at": "2013-11-14T22:10:00Z",
-   "license": "Other"
-  },
-  "release": {
-   "id": 105864864,
-   "tag": "v4.0.0",
-   "published_at": "2023-06-02T17:11:11Z",
-   "prerelease": false,
-   "apk_count": 5
   }
  },
  {
@@ -143337,38 +143429,6 @@
    "published_at": "2026-02-23T18:30:39Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-05",
-  "repo": {
-   "id": 1333719936,
-   "full_name": "railgun0325/dsh-phone",
-   "owner": "railgun0325",
-   "avatar_url": "https://avatars.githubusercontent.com/u/102395850?v=4",
-   "description": "让 DeepSeek Harness 的 agent 跑在手机里，通过 Magisk root 原生操作安卓系统（截图/点击/滑动/开应用）+ 移动端布局 + WebView APK",
-   "stars": 46,
-   "forks": 10,
-   "topics": [
-    "agent",
-    "android",
-    "deepseek-harness",
-    "dsh-plugin",
-    "termux"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-04T04:59:39Z",
-   "created_at": "2026-08-14T02:38:13Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 390653944,
-   "tag": "v0.2.11",
-   "published_at": "2026-09-17T11:24:52Z",
-   "prerelease": false,
-   "apk_count": 3
   }
  },
  {
@@ -147882,7 +147942,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 114393199,
    "full_name": "pmp-p/pydk",
@@ -148579,6 +148639,50 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-11",
+  "repo": {
+   "id": 1335324287,
+   "full_name": "ahmedhmam1994/voxscribe-ai-voice-dictation",
+   "owner": "ahmedhmam1994",
+   "avatar_url": "https://avatars.githubusercontent.com/u/310312803?v=4",
+   "description": "Free, open-source voice typing for Windows and Android. Talk and the text is typed into any app. Speech-to-text runs offline on your device with Whisper, no cloud, no account.",
+   "stars": 40,
+   "forks": 1,
+   "topics": [
+    "accessibility",
+    "android",
+    "dictation",
+    "faster-whisper",
+    "flutter",
+    "kotlin",
+    "offline-first",
+    "productivity",
+    "productivity-tool",
+    "pyside6",
+    "python",
+    "speech-recognition",
+    "speech-to-text",
+    "voice-recognition",
+    "voice-to-text",
+    "whisper",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-10T22:15:36Z",
+   "created_at": "2026-08-15T18:35:34Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 433991898,
+   "tag": "android-v1.1.4",
+   "published_at": "2026-11-04T13:56:09Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-27",
   "repo": {
    "id": 503167694,
@@ -148746,7 +148850,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1202440113,
    "full_name": "1936-zero/ctyun-keepalive-android",
@@ -149147,50 +149251,6 @@
    "published_at": "2026-10-24T13:35:37Z",
    "prerelease": false,
    "apk_count": 3
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-10",
-  "repo": {
-   "id": 1335324287,
-   "full_name": "ahmedhmam1994/voxscribe-ai-voice-dictation",
-   "owner": "ahmedhmam1994",
-   "avatar_url": "https://avatars.githubusercontent.com/u/310312803?v=4",
-   "description": "Free, open-source voice typing for Windows and Android. Talk and the text is typed into any app. Speech-to-text runs offline on your device with Whisper, no cloud, no account.",
-   "stars": 39,
-   "forks": 1,
-   "topics": [
-    "accessibility",
-    "android",
-    "dictation",
-    "faster-whisper",
-    "flutter",
-    "kotlin",
-    "offline-first",
-    "productivity",
-    "productivity-tool",
-    "pyside6",
-    "python",
-    "speech-recognition",
-    "speech-to-text",
-    "voice-recognition",
-    "voice-to-text",
-    "whisper",
-    "windows"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-08T14:01:26Z",
-   "created_at": "2026-08-15T18:35:34Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 433991898,
-   "tag": "android-v1.1.4",
-   "published_at": "2026-11-04T13:56:09Z",
-   "prerelease": false,
-   "apk_count": 1
   }
  },
  {
@@ -392478,7 +392538,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1240625493,
    "full_name": "Aadi-init/Our_Finance.android",
@@ -392582,7 +392642,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1430884758,
    "full_name": "sikorokoro44/Messenger-Pro",
@@ -392594,21 +392654,21 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-10-24T13:59:10Z",
+   "updated_at": "2026-11-11T10:13:39Z",
    "created_at": "2026-10-23T10:13:47Z",
    "license": null
   },
   "release": {
-   "id": 422764978,
-   "tag": "messenger-pro-build-40100473943",
-   "published_at": "2026-10-24T14:00:54Z",
+   "id": 441624123,
+   "tag": "messenger-pro-build-43012963173",
+   "published_at": "2026-11-11T11:49:31Z",
    "prerelease": false,
    "apk_count": 2
   }
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-05",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1182554499,
    "full_name": "ponrajaruldas/finance-tracker-android",
@@ -392634,7 +392694,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1162261591,
    "full_name": "youngbinkim0/spoke-express",
@@ -392686,7 +392746,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1353372987,
    "full_name": "yongjiangshi/suica-expense",
@@ -392738,7 +392798,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1405674509,
    "full_name": "AquilaWei/OpenPRT",
@@ -392797,7 +392857,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1239342000,
    "full_name": "secondjb/AnnArBoard-Mobile",
@@ -392823,7 +392883,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 237722750,
    "full_name": "akashd50/Snowline",
@@ -392849,7 +392909,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-05",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1411828071,
    "full_name": "vxtor012/finance-secretary-android",
@@ -392875,7 +392935,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-11",
   "repo": {
    "id": 1416253583,
    "full_name": "rilclesaraiva/BusBus",
@@ -392896,7 +392956,7 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-07T01:43:47Z",
+   "updated_at": "2026-11-11T03:31:58Z",
    "created_at": "2026-10-13T00:04:48Z",
    "license": "GPL-3.0"
   },
@@ -398236,64 +398296,6 @@
    "published_at": "2021-03-20T15:12:45Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-28",
-  "repo": {
-   "id": 886962935,
-   "full_name": "g3th/LibGDX-Box2D-Shape-Factory",
-   "owner": "g3th",
-   "avatar_url": "https://avatars.githubusercontent.com/u/74467654?v=4",
-   "description": "Create Shapes in LibGDX Box2D",
-   "stars": 0,
-   "forks": 1,
-   "topics": [
-    "android",
-    "box2d-physics-engine",
-    "games",
-    "libgdx",
-    "shapes"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2024-11-12T01:43:04Z",
-   "created_at": "2024-11-11T23:34:43Z",
-   "license": null
-  },
-  "release": {
-   "id": 184782100,
-   "tag": "libgdx",
-   "published_at": "2024-11-12T01:08:06Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-28",
-  "repo": {
-   "id": 1435286526,
-   "full_name": "TangguhLW/Ambatopia-APK",
-   "owner": "TangguhLW",
-   "avatar_url": "https://avatars.githubusercontent.com/u/182590509?v=4",
-   "description": "Source Godot dan APK Android Ambatopia versi 0.34.1.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-27T05:32:25Z",
-   "created_at": "2026-10-27T05:24:57Z",
-   "license": null
-  },
-  "release": {
-   "id": 425068372,
-   "tag": "v0.34.1",
-   "published_at": "2026-10-27T05:32:41Z",
-   "prerelease": true,
-   "apk_count": 2
   }
  }
 ]
