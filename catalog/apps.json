@@ -433542,7 +433542,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-10",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1342593936,
    "full_name": "Chistovik92/HydraVPN",
@@ -433561,7 +433561,7 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://hydravpn.us",
-   "pushedAt": "2026-11-06T20:51:26Z"
+   "pushedAt": "2026-11-10T18:18:32Z"
   },
   "release": {
    "id": 429444358,
@@ -455453,7 +455453,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1269318625,
    "full_name": "natinael96/sinq",
@@ -455491,7 +455491,7 @@
     "size": 17919208,
     "download_url": "https://github.com/natinael96/sinq/releases/download/v1.8.8/Sinq-v1.8.8-play-upload.aab",
     "digest": "sha256:c497bbf16e926e0347252ddf3c7cde988e5014b73e3138aab7de891d0112ba88",
-    "download_count": 2
+    "download_count": 3
    },
    {
     "id": 675864639,
@@ -455500,13 +455500,13 @@
     "size": 13338396,
     "download_url": "https://github.com/natinael96/sinq/releases/download/v1.8.8/Sinq-v1.8.8.apk",
     "digest": "sha256:742173bb2f560d11f160c5a75c87e7051ae3ea387b5c93198513d5f8746ecddf",
-    "download_count": 3
+    "download_count": 4
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 447875086,
    "full_name": "Clorabase/Clorabase",
@@ -456140,7 +456140,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 42416974,
    "full_name": "DefiantCatgirl/Oneesama",
@@ -457453,7 +457453,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 789520416,
    "full_name": "RikudouSage/AiWallpaperChanger",
@@ -457502,7 +457502,7 @@
     "size": 11853031,
     "download_url": "https://github.com/RikudouSage/AiWallpaperChanger/releases/download/v1.30.1/cz.chrastecky.aiwallpaperchanger_1.30.1_NSFW.apk",
     "digest": null,
-    "download_count": 215
+    "download_count": 221
    },
    {
     "id": 229443019,
@@ -468072,7 +468072,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1329600998,
    "full_name": "TechSetuApps/InstantLiveServer",
@@ -468116,7 +468116,7 @@
     "size": 6151148,
     "download_url": "https://github.com/TechSetuApps/InstantLiveServer/releases/download/v1.4.0/app-release.apk",
     "digest": "sha256:7289f5ddad6aa455e8d08abad80d3e75e7484d96ae0818321cab1c07554d3b7a",
-    "download_count": 1587
+    "download_count": 1612
    }
   ]
  },
@@ -468177,7 +468177,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 904760626,
    "full_name": "T8RIN/ComposeAnimationSamples",
@@ -472590,6 +472590,130 @@
     "download_url": "https://github.com/lapcevichme/BookWeaver/releases/download/v1.0.0/bkw-release.apk",
     "digest": "sha256:5ced3d32602efd7b81c13dbf508147f2a412cb044ca98cbbe720f10f49eefc8a",
     "download_count": 13
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-12",
+  "repo": {
+   "id": 1449549263,
+   "full_name": "siamform/yumeiro",
+   "owner": "siamform",
+   "avatar_url": "https://avatars.githubusercontent.com/u/71690568?v=4",
+   "description": "Yumeiro (夢色) — a free, open-source Android media hub: local music & video player, IPTV playlists, anime tracking (AniList/MAL) and CloudStream extensions, with signed, verifiable releases.",
+   "stars": 9,
+   "forks": 0,
+   "topics": [
+    "android",
+    "anilist",
+    "anime",
+    "cloudstream",
+    "exoplayer",
+    "iptv",
+    "jetpack-compose",
+    "kotlin",
+    "m3u",
+    "material-you",
+    "media3",
+    "music-player",
+    "myanimelist",
+    "open-source",
+    "video-player"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-12T00:30:23Z",
+   "created_at": "2026-11-07T16:46:45Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "https://yumeiro.click",
+   "pushedAt": "2026-11-11T02:45:50Z"
+  },
+  "release": {
+   "id": 439984725,
+   "tag": "v1.5.0",
+   "name": "Yumeiro v1.5.0",
+   "notes": "## Yumeiro v1.5.0\n\n### New features\n- Mihon: extension lib 1.6 and the new store index (Keiyoushi) (#23) ([`af8349e`](https://github.com/siamform/yumeiro/commit/af8349e)) — Asfakul Siam\n\n---\n**Install:** download `release-Yumeiro-v1.5.0.apk` below. Android 9 (API 28) or newer is required.\n\n**SHA-256:** `2dd2cfec707a7ef557576cf6b3d7b546c3d2d6814baa6bcb58e79a1bae0f8924`\n\n**Full Changelog**: https://github.com/siamform/yumeiro/compare/v1.4.0...v1.5.0\n\n<!-- versionCode: 12 -->\n",
+   "published_at": "2026-11-10T05:34:25Z",
+   "html_url": "https://github.com/siamform/yumeiro/releases/tag/v1.5.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 730250672,
+    "name": "release-Yumeiro-v1.5.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 50139065,
+    "download_url": "https://github.com/siamform/yumeiro/releases/download/v1.5.0/release-Yumeiro-v1.5.0.apk",
+    "digest": "sha256:2dd2cfec707a7ef557576cf6b3d7b546c3d2d6814baa6bcb58e79a1bae0f8924",
+    "download_count": 363
+   },
+   {
+    "id": 730250670,
+    "name": "SHA256SUMS.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 93,
+    "download_url": "https://github.com/siamform/yumeiro/releases/download/v1.5.0/SHA256SUMS.txt",
+    "digest": "sha256:968def9897b4e566c50c4f720e01b8cb8023d34174f435c548963859b7e5f6ff",
+    "download_count": 823
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-12",
+  "repo": {
+   "id": 1384272289,
+   "full_name": "Starland9/Open-Quest-Tuner",
+   "owner": "Starland9",
+   "avatar_url": "https://avatars.githubusercontent.com/u/86841267?v=4",
+   "description": "Free, open-source per-game performance profiles for Meta Quest (refresh rate, render resolution, CPU/GPU levels, foveation), applied from inside the headset through an embedded ADB client.",
+   "stars": 9,
+   "forks": 1,
+   "topics": [
+    "adb",
+    "android",
+    "jetpack-compose",
+    "kotlin",
+    "meta-quest",
+    "oculus-quest",
+    "performance",
+    "quest3",
+    "sideloading",
+    "virtual-reality"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-09T23:14:12Z",
+   "created_at": "2026-09-23T22:25:25Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-11T21:20:45Z"
+  },
+  "release": {
+   "id": 409928388,
+   "tag": "0.1.0",
+   "name": "Open Quest Tuner Apk",
+   "notes": "",
+   "published_at": "2026-10-11T21:20:45Z",
+   "html_url": "https://github.com/Starland9/Open-Quest-Tuner/releases/tag/0.1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 631831871,
+    "name": "oqt-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 8871103,
+    "download_url": "https://github.com/Starland9/Open-Quest-Tuner/releases/download/0.1.0/oqt-release.apk",
+    "digest": "sha256:3969d465401668272b5deb4b75f6f1cb59696f53309b34d608d22056a51239d3",
+    "download_count": 94
    }
   ]
  },
@@ -514626,7 +514750,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-09",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1349394235,
    "full_name": "d3afult/Audio-Player",
@@ -515473,7 +515597,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-10",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1126199206,
    "full_name": "timbortnik/widget",
@@ -515536,7 +515660,7 @@
     "size": 52384010,
     "download_url": "https://github.com/timbortnik/widget/releases/download/v1.3.7/app-release.apk",
     "digest": "sha256:ee8d0101d3bca76cbe4fe44c79381679f81a4acb71dbecac100e48c1ddad451a",
-    "download_count": 5
+    "download_count": 8
    }
   ]
  },
@@ -523343,7 +523467,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 841876072,
    "full_name": "chentyjpm/Peach-9B-8K-Roleplay-Android-llama",
@@ -523387,7 +523511,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1239718503,
    "full_name": "NotInsaneYet/sc2d",
@@ -523425,7 +523549,7 @@
     "size": 1960136,
     "download_url": "https://github.com/NotInsaneYet/sc2d/releases/download/1.2/sc2d",
     "digest": "sha256:2f3033ac04299d2b7eaf2dc62d45e0e88894bc480ef09654c5843ab4c50fb1ae",
-    "download_count": 21
+    "download_count": 22
    },
    {
     "id": 421170831,
@@ -523493,7 +523617,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1327362665,
    "full_name": "ashcastle/duckyslicer",
@@ -523540,7 +523664,7 @@
     "size": 30180425,
     "download_url": "https://github.com/ashcastle/duckyslicer/releases/download/v0.2.0-alpha.13/DuckySlicer-0.2.0-alpha.13-arm64.apk",
     "digest": "sha256:ab97a9140811b735382b25d6a50c040f37860801876c8b1ce31ca727233c8ee4",
-    "download_count": 17
+    "download_count": 18
    }
   ]
  },
@@ -523705,7 +523829,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1100594631,
    "full_name": "kafle1/spendrix",
@@ -523800,7 +523924,7 @@
     "size": 47445140,
     "download_url": "https://github.com/kafle1/spendrix/releases/download/v2.3.0/Spendrix-macos.dmg",
     "digest": "sha256:8bb392a40479e4bb19363042d82efddd8b8934924c4881ceb5ab6fc8839d8fd3",
-    "download_count": 2
+    "download_count": 3
    },
    {
     "id": 608189574,
@@ -523877,7 +524001,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 981201845,
    "full_name": "jonhardwick-spec/Ar-Frame-Control",
@@ -533233,7 +533357,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1315700952,
    "full_name": "bedge117/qmonstatek-mobile",
@@ -533271,7 +533395,7 @@
     "size": 54189172,
     "download_url": "https://github.com/bedge117/qmonstatek-mobile/releases/download/v0.1.0-beta/qMonstatek-Mobile-v0.1.0-beta.apk",
     "digest": "sha256:c9b3c07f09ba9bdddbbf7c449edeb4c33b23791183e0cdb50768e9d10363db3b",
-    "download_count": 70
+    "download_count": 72
    }
   ]
  },
@@ -682672,75 +682796,6 @@
   "schema": 1,
   "last_verified": "2026-11-09",
   "repo": {
-   "id": 1449549263,
-   "full_name": "siamform/yumeiro",
-   "owner": "siamform",
-   "avatar_url": "https://avatars.githubusercontent.com/u/71690568?v=4",
-   "description": "Yumeiro (夢色) — a free, open-source Android media hub: local music & video player, IPTV playlists, anime tracking (AniList/MAL) and CloudStream extensions, with signed, verifiable releases.",
-   "stars": 2,
-   "forks": 0,
-   "topics": [
-    "android",
-    "anilist",
-    "anime",
-    "cloudstream",
-    "exoplayer",
-    "iptv",
-    "jetpack-compose",
-    "kotlin",
-    "m3u",
-    "material-you",
-    "media3",
-    "music-player",
-    "myanimelist",
-    "open-source",
-    "video-player"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-09T10:01:49Z",
-   "created_at": "2026-11-07T16:46:45Z",
-   "license": "GPL-3.0",
-   "language": "Kotlin",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "https://yumeiro-phi.vercel.app",
-   "pushedAt": "2026-11-09T10:11:10Z"
-  },
-  "release": {
-   "id": 438977918,
-   "tag": "v1.2.0",
-   "name": "Yumeiro v1.2.0",
-   "notes": "## Yumeiro v1.2.0\n\n### New features\n- SubDL/SubSource subtitles, external download managers, ad shiel… (#17) ([`f7182be`](https://github.com/siamform/yumeiro/commit/f7182be)) — Asfakul Siam\n\n---\n**Install:** download `release-Yumeiro-v1.2.0.apk` below. Android 9 (API 28) or newer is required.\n\n**SHA-256:** `ffd88bc0ebdbf04a71545d0116281ec59680cdfb7ec7140474457908b3adcf6a`\n\n**Full Changelog**: https://github.com/siamform/yumeiro/compare/v1.1.1...v1.2.0\n\n<!-- versionCode: 9 -->\n",
-   "published_at": "2026-11-09T10:11:14Z",
-   "html_url": "https://github.com/siamform/yumeiro/releases/tag/v1.2.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 727029279,
-    "name": "release-Yumeiro-v1.2.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 48485448,
-    "download_url": "https://github.com/siamform/yumeiro/releases/download/v1.2.0/release-Yumeiro-v1.2.0.apk",
-    "digest": "sha256:ffd88bc0ebdbf04a71545d0116281ec59680cdfb7ec7140474457908b3adcf6a",
-    "download_count": 0
-   },
-   {
-    "id": 727029278,
-    "name": "SHA256SUMS.txt",
-    "content_type": "text/plain; charset=utf-8",
-    "size": 93,
-    "download_url": "https://github.com/siamform/yumeiro/releases/download/v1.2.0/SHA256SUMS.txt",
-    "digest": "sha256:d8734192899a55ef3e87388bdc112bf1ebfa77e8752adfb8d6b966182137053a",
-    "download_count": 2
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-09",
-  "repo": {
    "id": 935455452,
    "full_name": "MinerTob/MusicPlayer-android",
    "owner": "MinerTob",
@@ -737197,7 +737252,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1254299649,
    "full_name": "mlm-games/retorrent",
@@ -739091,7 +739146,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1279893531,
    "full_name": "GS1000/epub_Web_Viewer",
@@ -760458,7 +760513,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1277765737,
    "full_name": "vieenrose/live-radio-karaoke-android",
@@ -767055,7 +767110,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1388196856,
    "full_name": "TranquilMT/OpenFootManager-Android-ByTranquil",
@@ -767242,7 +767297,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1432588049,
    "full_name": "Kenneth-Cho-InfoSec/A64_Studio",
@@ -770491,6 +770546,69 @@
     "download_url": "https://github.com/xwlzLSC/paper-translation-studio/releases/download/v2026.11.10/SHA256SUMS.txt",
     "digest": "sha256:0530e9f904d2fb25104476e737748a3a3b1dde2c2b90dd4a05a7c9e96a334108",
     "download_count": 0
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-12",
+  "repo": {
+   "id": 1394723539,
+   "full_name": "my-live-is-a-lie/strings.xml-Translator",
+   "owner": "my-live-is-a-lie",
+   "avatar_url": "https://avatars.githubusercontent.com/u/204233948?v=4",
+   "description": "Android app to translate strings.xml files ",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "ai-translation",
+    "android",
+    "gemini",
+    "i18n",
+    "localization",
+    "strings-xml",
+    "translation",
+    "translator",
+    "xml-translator"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-12T10:10:21Z",
+   "created_at": "2026-09-29T08:28:36Z",
+   "license": "GPL-3.0",
+   "language": "TypeScript",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://my-live-is-a-lie.github.io/strings.xml-Translator/",
+   "pushedAt": "2026-11-11T22:04:02Z"
+  },
+  "release": {
+   "id": 441627111,
+   "tag": "v1.0.4",
+   "name": "v1.0.4",
+   "notes": "## What's new in 1.0.4\n\n### Features\n- One order everywhere: translated, untranslated, and needs-review strings in a single list; a fresh start opens on the first string needing work, and list filters are remembered\n- Filters are now shared between the strings list, the table, and the editor's quick filters, with AI/manual/new chips and counts that follow the active filters\n- Plural/array type filters for mixed files\n- Faster strings list with windowed rows\n- RTL/LTR layout parity in editor rows and the toolbar; key names are tappable and always fully shown\n- Table polish: source text alignment, the open string is highlighted like in the list, and uniform backgrounds in both themes\n- Editor resize handle works only from the pill itself\n\n### Minor fixes\n- Strings list no longer snaps back to the selection, and rows load when scrolling up into the blank window\n- New/updated flags are cleared when a string is saved\n",
+   "published_at": "2026-11-11T11:52:24Z",
+   "html_url": "https://github.com/my-live-is-a-lie/strings.xml-Translator/releases/tag/v1.0.4",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 735344795,
+    "name": "xml-translator-1.0.4.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 3543780,
+    "download_url": "https://github.com/my-live-is-a-lie/strings.xml-Translator/releases/download/v1.0.4/xml-translator-1.0.4.apk",
+    "digest": "sha256:6749d38ef8629091ce448357cbac3faef6f002f1658d831329d1e1b300f4d45e",
+    "download_count": 8
+   },
+   {
+    "id": 735344792,
+    "name": "xml-translator-1.0.4.apk.sha256",
+    "content_type": "application/octet-stream",
+    "size": 91,
+    "download_url": "https://github.com/my-live-is-a-lie/strings.xml-Translator/releases/download/v1.0.4/xml-translator-1.0.4.apk.sha256",
+    "digest": "sha256:9fed00c965ace4e3c5e7a5b10c75da65ac00c143c74ff9263ffd8e56d8f3e477",
+    "download_count": 1
    }
   ]
  },
@@ -797826,7 +797944,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 1080626472,
    "full_name": "amirr-sharifi/HabitTracker-jetpackCompose",
@@ -797885,7 +798003,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "repo": {
    "id": 305626706,
    "full_name": "Adam8234/Expense-Tracker-Android",
@@ -797979,125 +798097,6 @@
     "download_url": "https://github.com/lakshgupta8/habit-tracker/releases/download/1.0.0/HabitualOffender-v1.0-arm64.apk",
     "digest": "sha256:322c5279a93c5c16c6d8ed7249997a33a14388f20e50fce60226c3bc6c7751aa",
     "download_count": 0
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-08",
-  "repo": {
-   "id": 1116649269,
-   "full_name": "tinvu11/habit-tracker",
-   "owner": "tinvu11",
-   "avatar_url": "https://avatars.githubusercontent.com/u/126266332?v=4",
-   "description": null,
-   "stars": 0,
-   "forks": 0,
-   "topics": [
-    "androi-java",
-    "android",
-    "habit",
-    "habit-tracker",
-    "java",
-    "mobile",
-    "mvvm",
-    "room-database",
-    "streak",
-    "todo-list"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2025-12-19T07:55:56Z",
-   "created_at": "2025-12-15T07:21:17Z",
-   "license": null,
-   "language": "Java",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2025-12-19T07:55:53Z"
-  },
-  "release": {
-   "id": 271674348,
-   "tag": "apk",
-   "name": "file apk",
-   "notes": "file apk",
-   "published_at": "2025-12-19T07:59:10Z",
-   "html_url": "https://github.com/tinvu11/habit-tracker/releases/tag/apk",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 330563547,
-    "name": "app-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 12345337,
-    "download_url": "https://github.com/tinvu11/habit-tracker/releases/download/apk/app-debug.apk",
-    "digest": "sha256:88fcb3fc533d2a3fbbf83f71b2f90e0c72387ba90a82814c35a3ac7b17292e6f",
-    "download_count": 1
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-08",
-  "repo": {
-   "id": 1126910905,
-   "full_name": "prathameshlonare/habit-tracker",
-   "owner": "prathameshlonare",
-   "avatar_url": "https://avatars.githubusercontent.com/u/136010260?v=4",
-   "description": "Offline-first habit and streak tracker built with React 19, Capacitor 8, and SQLite. Ships as an installable PWA and native Android app with zero account lock-in.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [
-    "android",
-    "capacitor",
-    "habit-tracker",
-    "material3",
-    "mobile-app",
-    "offline-first",
-    "pwa",
-    "react",
-    "sqlite",
-    "vite"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-09-22T09:45:59Z",
-   "created_at": "2026-01-02T19:58:50Z",
-   "license": null,
-   "language": "JavaScript",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-09-22T09:41:20Z"
-  },
-  "release": {
-   "id": 392878385,
-   "tag": "v1.0.0",
-   "name": "v1.0.0",
-   "notes": "**Full Changelog**: https://github.com/prathameshlonare/habit-tracker/commits/v1.0.0",
-   "published_at": "2026-09-21T10:42:42Z",
-   "html_url": "https://github.com/prathameshlonare/habit-tracker/releases/tag/v1.0.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 578841983,
-    "name": "app-release.aab",
-    "content_type": "application/octet-stream",
-    "size": 8576966,
-    "download_url": "https://github.com/prathameshlonare/habit-tracker/releases/download/v1.0.0/app-release.aab",
-    "digest": "sha256:6ae0cbdf1e6924d864c0b0092f3f3bfd8cdbd71ffb715dd23a13e2b567ff1068",
-    "download_count": 0
-   },
-   {
-    "id": 578841985,
-    "name": "app-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 12548632,
-    "download_url": "https://github.com/prathameshlonare/habit-tracker/releases/download/v1.0.0/app-release.apk",
-    "digest": "sha256:465dd5c566f23e19fe5c9076dd8626b82748d9f2a20ad0ef94582295b9b3e461",
-    "download_count": 5
    }
   ]
  }
