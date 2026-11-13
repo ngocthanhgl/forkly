@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "scanned_at": "2026-11-13T01:07:13.756307+00:00",
+ "scanned_at": "2026-11-13T01:42:26.100159+00:00",
  "tool": "tools/scan.py",
  "query_set": 2,
  "query_sets": [
@@ -20,19 +20,19 @@
   "android manga comic archived:false fork:false"
  ],
  "candidates": 7640,
- "pending": 7640,
- "checked": 1678,
- "checked_total": 1678,
- "verified_today": 575,
+ "pending": 5962,
+ "checked": 1719,
+ "checked_total": 3397,
+ "verified_today": 393,
  "carried_over": 12000,
- "dropped_stale": 4,
+ "dropped_stale": 0,
  "truncated": true,
  "resumed": true,
  "interrupted": false,
  "complete": false,
  "error": null,
- "duration_s": 2101.1,
+ "duration_s": 2100.4,
  "matches": 12000,
  "index_matches": 12000,
- "index_bytes": 9954353
+ "index_bytes": 9955793
 }
