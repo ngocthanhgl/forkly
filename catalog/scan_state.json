@@ -1,26 +1,25 @@
 {
  "schema": 1,
- "slot": 41537,
+ "slot": 41539,
  "query_sets": [
-  12,
-  13
+  2,
+  3
  ],
  "queries": [
-  "android language:Kotlin archived:false fork:false stars:<10",
-  "android language:Java archived:false fork:false stars:<10",
-  "android language:Dart archived:false fork:false stars:<10",
-  "android language:C++ archived:false fork:false stars:<10",
-  "android language:Rust archived:false fork:false stars:<10",
+  "topic:flutter archived:false fork:false",
+  "topic:react-native archived:false fork:false",
+  "android language:Dart archived:false fork:false stars:>50",
+  "android language:C# archived:false fork:false stars:>50",
+  "android music player archived:false fork:false",
+  "android video player archived:false fork:false",
+  "youtube android archived:false fork:false",
+  "android camera archived:false fork:false",
   "android podcast archived:false fork:false",
-  "android ebook reader archived:false fork:false",
-  "android expense tracker archived:false fork:false",
-  "android habit tracker archived:false fork:false",
-  "android translation archived:false fork:false",
-  "android shopping archived:false fork:false"
+  "android manga comic archived:false fork:false"
  ],
  "checked_ids": [],
- "candidates": 8913,
- "started_at": "2026-11-11T21:08:23.331303+00:00",
- "updated_at": "2026-11-12T13:39:01.853869+00:00",
- "complete": true
+ "candidates": 7640,
+ "started_at": "2026-11-12T21:22:51.609004+00:00",
+ "updated_at": "2026-11-13T00:32:06.998882+00:00",
+ "complete": false
 }
