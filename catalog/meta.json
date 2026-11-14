@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "scanned_at": "2026-11-14T12:51:26.596975+00:00",
+ "scanned_at": "2026-11-14T13:26:30.071963+00:00",
  "tool": "tools/scan.py",
  "query_set": 8,
  "query_sets": [
@@ -23,18 +23,18 @@
  ],
  "candidates": 10715,
  "pending": 10715,
- "checked": 0,
- "checked_total": 0,
- "verified_today": 0,
+ "checked": 1731,
+ "checked_total": 1731,
+ "verified_today": 426,
  "carried_over": 12000,
  "dropped_stale": 0,
  "truncated": true,
- "resumed": false,
+ "resumed": true,
  "interrupted": false,
  "complete": false,
  "error": null,
- "duration_s": 14673.4,
+ "duration_s": 2100.7,
  "matches": 12000,
  "index_matches": 12000,
- "index_bytes": 9973875
+ "index_bytes": 9974521
 }
