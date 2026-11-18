@@ -296189,7 +296189,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-16",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 323733486,
    "full_name": "ktzevani/native-camera-vulkan",
@@ -296233,7 +296233,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1270669388,
    "full_name": "iamjosephmj/hydraRaSp",
@@ -296271,7 +296271,7 @@
     "size": 4004484,
     "download_url": "https://github.com/iamjosephmj/hydraRaSp/releases/download/v3.0.9/hydra-sample-v3.0.9.apk",
     "digest": "sha256:16822d80582f708a6ca00e27eb5132ffdbd7899c055a7024e28d3e12237da163",
-    "download_count": 70
+    "download_count": 77
    },
    {
     "id": 573808217,
@@ -296280,7 +296280,7 @@
     "size": 4004496,
     "download_url": "https://github.com/iamjosephmj/hydraRaSp/releases/download/v3.0.9/sample-release.apk",
     "digest": "sha256:60e76c67d8cb123545db91f3564da5437fb6875aef2c579476507f1a4229414b",
-    "download_count": 14
+    "download_count": 16
    }
   ]
  },
@@ -297086,6 +297086,67 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-18",
+  "repo": {
+   "id": 1371683614,
+   "full_name": "ZailoxTT/ZettaBridge",
+   "owner": "ZailoxTT",
+   "avatar_url": "https://avatars.githubusercontent.com/u/88113162?v=4",
+   "description": "Run 32-bit Android apps on 64-bit-only ARM phones: source-available ARM32 -> ARM64 native code translator and app launcher",
+   "stars": 52,
+   "forks": 14,
+   "topics": [
+    "32-bit",
+    "aarch64",
+    "android",
+    "android-launcher",
+    "arm",
+    "arm64",
+    "armv7",
+    "binary-translation",
+    "compatibility-layer",
+    "cpp",
+    "dynarmic",
+    "emulator",
+    "jit",
+    "jni",
+    "opengl-es",
+    "translator"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-18T09:26:02Z",
+   "created_at": "2026-09-15T15:15:57Z",
+   "license": "Other",
+   "language": "C++",
+   "openIssues": 27,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-10-29T16:17:34Z"
+  },
+  "release": {
+   "id": 392094488,
+   "tag": "v0.1.0",
+   "name": "ZettaBridge 0.1.0",
+   "notes": "Run 32-bit Android apps on phones that have no AArch32.\n\n**What works.** Orange Roulette (2014, Haxe/OpenFL): menu and gameplay with sound. Flappy Bird (AndEngine): playable. APK import as a plugin, a home-screen shortcut, GLES 2.0 and 3.0, EGL, assets, input.\n\n**What does not.** Games built on `NativeActivity` (Unity, pure NDK) do not start. Vulkan is not supported. Apps that need real installation are out of scope.\n\n**How to use it.** Install the APK, import a game's APK in the launcher, launch it. If a game fails, long-press it, pick \"Last run report\", and attach the report to an issue.\n\n**Tested on** a OnePlus 13 (Snapdragon 8 Elite), OxygenOS 16. No other device has been tested.\n\n---\n\nЗапуск 32-битных приложений Android на телефонах без AArch32.\n\n**Что работает:** Orange Roulette (2014, Haxe/OpenFL) — меню и игра со звуком; Flappy Bird (AndEngine) — играется. Импорт APK как плагина, ярлык на рабочем столе, GLES 2.0 и 3.0, EGL, ассеты, ввод.\n\n**Что не работает:** игры на `NativeActivity` (Unity, чистый NDK) не запускаются; Vulkan не поддерживается; приложения, требующие настоящей установки, вне области проекта.\n\n**Как пользоваться:** поставить APK, в лаунчере импортировать APK игры, запустить. Если игра не пошла — долгое нажатие, «Last run report», и пришлите отчёт в issues.\n\n**Проверялось на:** OnePlus 13 (Snapdragon 8 Elite), OxygenOS 16. Другие устройства не проверялись.\n",
+   "published_at": "2026-09-19T14:12:47Z",
+   "html_url": "https://github.com/ZailoxTT/ZettaBridge/releases/tag/v0.1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 574887213,
+    "name": "ZettaBridge-0.1.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 6554355,
+    "download_url": "https://github.com/ZailoxTT/ZettaBridge/releases/download/v0.1.0/ZettaBridge-0.1.0.apk",
+    "digest": "sha256:75b95cc6b1aa567d8168dd02034af5d9bb7c8191fbe08144dfdda6ee79c65c41",
+    "download_count": 1404
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-17",
   "repo": {
    "id": 1084523471,
@@ -297194,7 +297255,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 203462018,
    "full_name": "Breta01/docus",
@@ -298410,67 +298471,6 @@
   "schema": 1,
   "last_verified": "2026-11-17",
   "repo": {
-   "id": 1371683614,
-   "full_name": "ZailoxTT/ZettaBridge",
-   "owner": "ZailoxTT",
-   "avatar_url": "https://avatars.githubusercontent.com/u/88113162?v=4",
-   "description": "Run 32-bit Android apps on 64-bit-only ARM phones: source-available ARM32 -> ARM64 native code translator and app launcher",
-   "stars": 51,
-   "forks": 14,
-   "topics": [
-    "32-bit",
-    "aarch64",
-    "android",
-    "android-launcher",
-    "arm",
-    "arm64",
-    "armv7",
-    "binary-translation",
-    "compatibility-layer",
-    "cpp",
-    "dynarmic",
-    "emulator",
-    "jit",
-    "jni",
-    "opengl-es",
-    "translator"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-16T16:35:38Z",
-   "created_at": "2026-09-15T15:15:57Z",
-   "license": "Other",
-   "language": "C++",
-   "openIssues": 25,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-10-29T16:17:34Z"
-  },
-  "release": {
-   "id": 392094488,
-   "tag": "v0.1.0",
-   "name": "ZettaBridge 0.1.0",
-   "notes": "Run 32-bit Android apps on phones that have no AArch32.\n\n**What works.** Orange Roulette (2014, Haxe/OpenFL): menu and gameplay with sound. Flappy Bird (AndEngine): playable. APK import as a plugin, a home-screen shortcut, GLES 2.0 and 3.0, EGL, assets, input.\n\n**What does not.** Games built on `NativeActivity` (Unity, pure NDK) do not start. Vulkan is not supported. Apps that need real installation are out of scope.\n\n**How to use it.** Install the APK, import a game's APK in the launcher, launch it. If a game fails, long-press it, pick \"Last run report\", and attach the report to an issue.\n\n**Tested on** a OnePlus 13 (Snapdragon 8 Elite), OxygenOS 16. No other device has been tested.\n\n---\n\nЗапуск 32-битных приложений Android на телефонах без AArch32.\n\n**Что работает:** Orange Roulette (2014, Haxe/OpenFL) — меню и игра со звуком; Flappy Bird (AndEngine) — играется. Импорт APK как плагина, ярлык на рабочем столе, GLES 2.0 и 3.0, EGL, ассеты, ввод.\n\n**Что не работает:** игры на `NativeActivity` (Unity, чистый NDK) не запускаются; Vulkan не поддерживается; приложения, требующие настоящей установки, вне области проекта.\n\n**Как пользоваться:** поставить APK, в лаунчере импортировать APK игры, запустить. Если игра не пошла — долгое нажатие, «Last run report», и пришлите отчёт в issues.\n\n**Проверялось на:** OnePlus 13 (Snapdragon 8 Elite), OxygenOS 16. Другие устройства не проверялись.\n",
-   "published_at": "2026-09-19T14:12:47Z",
-   "html_url": "https://github.com/ZailoxTT/ZettaBridge/releases/tag/v0.1.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 574887213,
-    "name": "ZettaBridge-0.1.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 6554355,
-    "download_url": "https://github.com/ZailoxTT/ZettaBridge/releases/download/v0.1.0/ZettaBridge-0.1.0.apk",
-    "digest": "sha256:75b95cc6b1aa567d8168dd02034af5d9bb7c8191fbe08144dfdda6ee79c65c41",
-    "download_count": 1366
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-17",
-  "repo": {
    "id": 1383716728,
    "full_name": "Nisaka520/JevGuide",
    "owner": "Nisaka520",
@@ -298690,6 +298690,104 @@
     "download_url": "https://github.com/vitvu/vitRemote/releases/download/v1.0.0/vitRemote-1.0.0.apk",
     "digest": "sha256:2030857a1dff95d61b6ebe99315abdf7fdb8202d485f3fbf0376c77c4a95c94b",
     "download_count": 2047
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-18",
+  "repo": {
+   "id": 1367417480,
+   "full_name": "dyzz/srw64-recomp",
+   "owner": "dyzz",
+   "avatar_url": "https://avatars.githubusercontent.com/u/164275?v=4",
+   "description": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
+   "stars": 51,
+   "forks": 3,
+   "topics": [
+    "android",
+    "chinese-translation",
+    "fan-translation",
+    "game-mods",
+    "korean-translation",
+    "n64",
+    "n64-recompiled",
+    "native-port",
+    "nintendo-64",
+    "nintendo-switch",
+    "recomp",
+    "recompilation",
+    "recomplauncher",
+    "retro-gaming",
+    "srw64",
+    "steam-deck",
+    "super-robot-wars"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-18T03:20:36Z",
+   "created_at": "2026-09-12T15:20:11Z",
+   "license": "GPL-3.0",
+   "language": "C++",
+   "openIssues": 3,
+   "watchers": null,
+   "homepage": "https://srw64.dreamquest.club/",
+   "pushedAt": "2026-11-17T12:07:49Z"
+  },
+  "release": {
+   "id": 433576395,
+   "tag": "v0.5.3",
+   "name": "Marchwind64 0.5.3",
+   "notes": "An unofficial native port of **Super Robot Wars 64** with full English and Chinese translations. No ROM included: you need your own original Japanese ROM. 中文说明见下方。\n\n> **HD pack 1.3** (optional; the Switch has a pack of its own, in the same release): **[Download Marchwind64-HD-1.3.zip (629 MB)](https://github.com/dyzz/srw64-recomp/releases/download/hd-1.3/Marchwind64-HD-1.3.zip)**. This is a new HD pack. How to install it and where its images come from: [the HD 1.3 release](https://github.com/dyzz/srw64-recomp/releases/tag/hd-1.3).\n\n## Downloads\n\n| File | Size | What it is |\n| --- | --- | --- |\n| `Marchwind64-0.5.3-macos14-arm64.zip` | 60 MB | The app. Apple Silicon, macOS 14 or later. Choose your ROM on first launch. |\n| `Marchwind64-0.5.3-linux-x64.tar.gz` | 65 MB | The app. Linux x64 (Steam Deck too), glibc 2.35 or later, Vulkan. Extract and run `marchwind64.sh`; put the ROM at `~/.local/share/srw64-recomp/rom.z64` or next to `marchwind64.sh`. On Steam Deck, `add-to-steam.sh` adds it to Steam; see README.txt inside. |\n| `Marchwind64-0.5.3-windows-x64.zip` | 69 MB | The app. Windows 10 (2004) / 11, x64, D3D12 or Vulkan. Extract, name the ROM `rom.z64` and put it next to `Marchwind64.cmd` (or at `%LOCALAPPDATA%\\SRW64Recomp\\rom.z64`), then double-click `Marchwind64.cmd`. |\n| `Marchwind64-0.5.3-android-arm64.apk` | 56 MB | The app (experimental). arm64, Android 9 or later, Vulkan 1.1. Install the APK and choose the ROM on first launch; open the downloaded HD zip with Marchwind64 to import it. |\n| `Marchwind64-0.5.3-switch.zip` | 53 MB | The app (experimental). A Nintendo Switch with custom firmware (Atmosphère and hbmenu), application mode only (hold R while starting any game to open hbmenu). Extract to the SD card's root and put the ROM in `/switch/Marchwind64/` as `rom.z64`; the first launch imports it on the console in about half a minute. See README.txt inside. |\n| [`Marchwind64-HD-1.3.zip`](https://github.com/dyzz/srw64-recomp/releases/download/hd-1.3/Marchwind64",
+   "published_at": "2026-11-04T06:19:07Z",
+   "html_url": "https://github.com/dyzz/srw64-recomp/releases/tag/v0.5.3",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 708466918,
+    "name": "Marchwind64-0.5.3-android-arm64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 58926845,
+    "download_url": "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-android-arm64.apk",
+    "digest": "sha256:7fa9a9fbce80c2c471ce002a0fb69ff83784a78666e16fca7e28b1366b17377b",
+    "download_count": 515
+   },
+   {
+    "id": 715631605,
+    "name": "Marchwind64-0.5.3-linux-x64.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 67762172,
+    "download_url": "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-linux-x64.tar.gz",
+    "digest": "sha256:bf25265948731bff39a35268b32202fb03c0bffb8a6a5ff0db2685d906d3648e",
+    "download_count": 85
+   },
+   {
+    "id": 715631907,
+    "name": "Marchwind64-0.5.3-macos14-arm64.zip",
+    "content_type": "application/zip",
+    "size": 62999848,
+    "download_url": "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-macos14-arm64.zip",
+    "digest": "sha256:522c9b9a11c171c5a8248e50edf8c5bf4c82fa9ee6946b7b2bc9058c30e20dcf",
+    "download_count": 79
+   },
+   {
+    "id": 708466914,
+    "name": "Marchwind64-0.5.3-switch.zip",
+    "content_type": "application/zip",
+    "size": 55455587,
+    "download_url": "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-switch.zip",
+    "digest": "sha256:5deaeabd60930256780e514d954df2ba0c3c209edb8698f9cabbd33e9bfaa329",
+    "download_count": 29
+   },
+   {
+    "id": 715631340,
+    "name": "Marchwind64-0.5.3-windows-x64.zip",
+    "content_type": "application/zip",
+    "size": 72835958,
+    "download_url": "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-windows-x64.zip",
+    "digest": "sha256:4d17fa883b13c35073a79da1bd2fd1f0872d7e2dad49648d1f67290d894d95a3",
+    "download_count": 505
    }
   ]
  },
@@ -299813,7 +299911,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1324372281,
    "full_name": "felipenalves/Dokke",
@@ -299876,7 +299974,7 @@
     "size": 81785413,
     "download_url": "https://github.com/felipenalves/Dokke/releases/download/v0.2.10/Dokke-macOS.dmg",
     "digest": "sha256:905a1963bd06ed8bd76de4d1ebd95640ca27c6df965dd1d2664f66254c8e504c",
-    "download_count": 51
+    "download_count": 52
    },
    {
     "id": 615365874,
@@ -299885,7 +299983,7 @@
     "size": 1762406,
     "download_url": "https://github.com/felipenalves/Dokke/releases/download/v0.2.10/dokke.apk",
     "digest": "sha256:4b53d5352647b95ceaf4b9257a9c1522c776f809578a526a7ad297db454372d0",
-    "download_count": 116
+    "download_count": 118
    }
   ]
  },
@@ -300047,7 +300145,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1215877898,
    "full_name": "AceAsket/inpx-web",
@@ -300066,7 +300164,7 @@
    "openIssues": 6,
    "watchers": null,
    "homepage": "https://hub.docker.com/r/aceasket/inpx-web-7z",
-   "pushedAt": "2026-11-14T19:22:12Z"
+   "pushedAt": "2026-11-18T11:29:47Z"
   },
   "release": {
    "id": 443618210,
@@ -300079,24 +300177,6 @@
   },
   "assets": [
    {
-    "id": 741442707,
-    "name": "inpx-server-0.7.3-arm32-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 109075541,
-    "download_url": "https://github.com/AceAsket/inpx-web/releases/download/android-v0.7.3/inpx-server-0.7.3-arm32-debug.apk",
-    "digest": "sha256:70ec54a6d59f76c17b1504ec02040676284490eaa7a14d53940b934f0da6a943",
-    "download_count": 2
-   },
-   {
-    "id": 741442709,
-    "name": "inpx-server-0.7.3-arm64-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 110335383,
-    "download_url": "https://github.com/AceAsket/inpx-web/releases/download/android-v0.7.3/inpx-server-0.7.3-arm64-debug.apk",
-    "digest": "sha256:909c6f6bd7a95620477c2a0e15daf1642443e68392ff8cb4b69f3fd0bd6140ff",
-    "download_count": 1
-   },
-   {
     "id": 741442710,
     "name": "android-v0.7.3.json",
     "content_type": "application/json",
@@ -300106,6 +300186,15 @@
     "download_count": 1
    },
    {
+    "id": 741442707,
+    "name": "inpx-server-0.7.3-arm32-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 109075541,
+    "download_url": "https://github.com/AceAsket/inpx-web/releases/download/android-v0.7.3/inpx-server-0.7.3-arm32-debug.apk",
+    "digest": "sha256:70ec54a6d59f76c17b1504ec02040676284490eaa7a14d53940b934f0da6a943",
+    "download_count": 2
+   },
+   {
     "id": 741442711,
     "name": "inpx-server-0.7.3-arm32-debug.apk.sha256",
     "content_type": "application/octet-stream",
@@ -300113,6 +300202,15 @@
     "download_url": "https://github.com/AceAsket/inpx-web/releases/download/android-v0.7.3/inpx-server-0.7.3-arm32-debug.apk.sha256",
     "digest": "sha256:f6db9abb86dcceb60b5e33d178e4edfc15a85ea3c6aca3c8b4410488240b9c2a",
     "download_count": 1
+   },
+   {
+    "id": 741442709,
+    "name": "inpx-server-0.7.3-arm64-debug.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 110335383,
+    "download_url": "https://github.com/AceAsket/inpx-web/releases/download/android-v0.7.3/inpx-server-0.7.3-arm64-debug.apk",
+    "digest": "sha256:909c6f6bd7a95620477c2a0e15daf1642443e68392ff8cb4b69f3fd0bd6140ff",
+    "download_count": 2
    },
    {
     "id": 741442712,
@@ -300889,7 +300987,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1169511048,
    "full_name": "nihaina/SubtitleEditforAndroid",
@@ -300901,60 +300999,60 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-11T18:41:13Z",
+   "updated_at": "2026-11-17T10:26:42Z",
    "created_at": "2026-02-28T19:51:37Z",
    "license": "GPL-3.0",
    "language": "C++",
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-11-14T09:54:14Z"
+   "pushedAt": "2026-11-18T08:48:57Z"
   },
   "release": {
-   "id": 433772862,
-   "tag": "1.2.5",
-   "name": "1.2.5",
-   "notes": "1.按标点切分可自行选择切分标点\r\n2.优化编辑器，现在可以编辑2w行超大字幕不卡顿\r\n3.AI字幕处理，点击可以暂停正在处理的字幕，退出应用时不会清除待处理文件\r\n4.输出目录可以快速选择保存到源文件夹，避免频繁选择目录\r\n5.移除自动打轴功能\r\n6.AI设置现在可以自行添加更多平台，便于切换\r\n7.支持文件批量重命名",
-   "published_at": "2026-11-04T10:18:27Z",
-   "html_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/tag/1.2.5",
+   "id": 447285120,
+   "tag": "1.2.6",
+   "name": "1.2.6",
+   "notes": "1. 优化软件UI，统一风格\r\n\r\n2. 目录选择统一使用软件内置选择器\r\n\r\n3. 音视频格式转换改为音视频处理，提高处理速度，\r\n   提供更多音视频格式的支持\r\n   支持音频和视频分离和合并\r\n   支持字幕封装\r\n\r\n4. 音频和视频可编辑标签\r\n\r\n5. 优化压缩包解压速度和进度显示\r\n\r\n6. 修复草稿箱大文件卡死\r\n\r\n7. **添加音声模式（测试）**\r\n   切换模式后，软件可以当作播放器使用\r\n   可以手动选择目录读取本地音视频文件，软件会自动按标签分类\r\n   可以自己设置歌单，调整播放列表\r\n   软件会自动统计播放数据\r\n   播放器可读取多种字幕格式，音视频文件均可以正常读取使用LRC,SRT,VTT字幕\r\n   可以设置书签标记，记录播放位置\r\n   可以定时播放和定时关闭\r\n   可以调整字幕大小和间距\r\n   ",
+   "published_at": "2026-11-16T16:21:21Z",
+   "html_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/tag/1.2.6",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 709081130,
+    "id": 755540369,
     "name": "app-qnn-arm64-v8a-debug.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 264908894,
-    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-qnn-arm64-v8a-debug.apk",
-    "digest": "sha256:d129b30dd7723d2432f886d00d582386455552fc7d20248d56cdf936637262e1",
-    "download_count": 88
+    "size": 280317014,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.6/app-qnn-arm64-v8a-debug.apk",
+    "digest": "sha256:002f9e256bc256c3251e6c318acd2c896698f4834c6a3633245288fffe29f2bc",
+    "download_count": 27
    },
    {
-    "id": 709076007,
+    "id": 755534819,
     "name": "app-standard-arm64-v8a-debug.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 123202504,
-    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-arm64-v8a-debug.apk",
-    "digest": "sha256:7c97f3e4857d608be54ea6717e3c071ba2c991d695a9227fb907db25b28932fe",
-    "download_count": 39
+    "size": 138610624,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.6/app-standard-arm64-v8a-debug.apk",
+    "digest": "sha256:63e4477e0aa00c142f5c203d8907ecfdd24ebb177aa3ebfec39eb5cff31bb127",
+    "download_count": 9
    },
    {
-    "id": 709077147,
+    "id": 755536228,
     "name": "app-standard-armeabi-v7a-debug.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 86591788,
-    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-armeabi-v7a-debug.apk",
-    "digest": "sha256:794ad37600951d54799de7d58d69830b85cf5e364affb75cc8116e94a0fd669d",
-    "download_count": 5
+    "size": 98723104,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.6/app-standard-armeabi-v7a-debug.apk",
+    "digest": "sha256:7e0ef246eef156b7fc96d9a4f97236e9924bc1dd020f6ed4ce44a2fbb1c6c1ac",
+    "download_count": 2
    },
    {
-    "id": 709832120,
+    "id": 755537045,
     "name": "app-standard-universal-debug.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 305017193,
-    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.5/app-standard-universal-debug.apk",
-    "digest": "sha256:bff35b524360f6f2d3ed4475022488d2fceb32f936ce688946a8c5af649dce11",
-    "download_count": 7
+    "size": 350179013,
+    "download_url": "https://github.com/nihaina/SubtitleEditforAndroid/releases/download/1.2.6/app-standard-universal-debug.apk",
+    "digest": "sha256:61fac86ce8a6c649316f37bffa1890c905706862b33178312ec5839c1246acf9",
+    "download_count": 4
    }
   ]
  },
@@ -301279,6 +301377,74 @@
   "schema": 1,
   "last_verified": "2026-11-18",
   "repo": {
+   "id": 1333719936,
+   "full_name": "railgun0325/dsh-phone",
+   "owner": "railgun0325",
+   "avatar_url": "https://avatars.githubusercontent.com/u/102395850?v=4",
+   "description": "让 DeepSeek Harness 的 agent 跑在手机里，通过 Magisk root 原生操作安卓系统（截图/点击/滑动/开应用）+ 移动端布局 + WebView APK",
+   "stars": 49,
+   "forks": 10,
+   "topics": [
+    "agent",
+    "android",
+    "deepseek-harness",
+    "dsh-plugin",
+    "termux"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-18T02:56:04Z",
+   "created_at": "2026-08-14T02:38:13Z",
+   "license": "MIT",
+   "language": "JavaScript",
+   "openIssues": 4,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-09-18T10:38:26Z"
+  },
+  "release": {
+   "id": 390653944,
+   "tag": "v0.2.11",
+   "name": "v0.2.11 — 修复无法新建文件夹",
+   "notes": "# v0.2.11\n\n## 修复\n\n- **手机里「新建文件夹」报 `EACCES: permission denied`**：与 root 和系统权限无关。Termux 家目录的属主/权限在拷贝部署文件的过程中被改成了其他用户（模式 775），应用以自己的用户身份在该目录里只有读权限，因此无法新建文件或文件夹。\n  现在部署流程会自检并修正家目录的属主与权限，App 在拷贝部署文件后也会恢复它。\n\n## 升级\n\n- 覆盖安装即可（versionCode 15 / v0.2.11）。\n- 已经出现该问题的设备：安装后点一次「一键部署」会自动修复，也可在 Termux 执行\n  `chown $(id -u):$(id -g) ~ && chmod 700 ~`。\n",
+   "published_at": "2026-09-17T11:24:52Z",
+   "html_url": "https://github.com/railgun0325/dsh-phone/releases/tag/v0.2.11",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 570115607,
+    "name": "dsh-phone-root-v0.2.11.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 42806934,
+    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-root-v0.2.11.apk",
+    "digest": "sha256:f68ffd581f6995edfa4eb80013dc4a7f823997dcb4791de7b6291504afdc4133",
+    "download_count": 1253
+   },
+   {
+    "id": 570115603,
+    "name": "dsh-phone-shizuku-v0.2.11.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 44584368,
+    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-shizuku-v0.2.11.apk",
+    "digest": "sha256:f462ab8db626e8f4f544e4aba899b9032e7624239ff9127c8ac44658627a65db",
+    "download_count": 1498
+   },
+   {
+    "id": 570115606,
+    "name": "SHA256SUMS-v0.2.11.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 193,
+    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/SHA256SUMS-v0.2.11.txt",
+    "digest": "sha256:06e1293afe76c315660f36e39d46db10fa4e426040f30d0a5f01a99d99716f04",
+    "download_count": 174
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-18",
+  "repo": {
    "id": 1139349594,
    "full_name": "dedeadend/DTerminal",
    "owner": "dedeadend",
@@ -301458,7 +301624,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1037642255,
    "full_name": "sune-org/sune",
@@ -301489,7 +301655,7 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://sune.planetrenox.com",
-   "pushedAt": "2026-11-13T02:22:50Z"
+   "pushedAt": "2026-11-18T00:45:39Z"
   },
   "release": {
    "id": 432043756,
@@ -301508,7 +301674,7 @@
     "size": 2388134,
     "download_url": "https://github.com/sune-org/sune/releases/download/v1.1.1/sune-v1.1.1.apk",
     "digest": "sha256:997dcf3cf2a45dabdcf3c5d3879392bfdddb0331d6d1a740d803bbf499d7bbf5",
-    "download_count": 90
+    "download_count": 105
    },
    {
     "id": 703415885,
@@ -301517,7 +301683,7 @@
     "size": 82,
     "download_url": "https://github.com/sune-org/sune/releases/download/v1.1.1/sune-v1.1.1.apk.sha256",
     "digest": "sha256:4417fac572a5540ead30f2f6dd47a29f7f5c2cd0db7968336538bf504a4c663e",
-    "download_count": 1
+    "download_count": 2
    }
   ]
  },
@@ -301717,7 +301883,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 440842151,
    "full_name": "ibaiGorordo/depthai-android-jni-example",
@@ -302719,74 +302885,6 @@
     "download_url": "https://github.com/bjfwan/yinxing/releases/download/v2.4.1/app-release.apk",
     "digest": "sha256:67001b58879a827878f6ce38ea37bb7668d50199a4879f2700bf461039425ae6",
     "download_count": 43
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-15",
-  "repo": {
-   "id": 1333719936,
-   "full_name": "railgun0325/dsh-phone",
-   "owner": "railgun0325",
-   "avatar_url": "https://avatars.githubusercontent.com/u/102395850?v=4",
-   "description": "让 DeepSeek Harness 的 agent 跑在手机里，通过 Magisk root 原生操作安卓系统（截图/点击/滑动/开应用）+ 移动端布局 + WebView APK",
-   "stars": 48,
-   "forks": 10,
-   "topics": [
-    "agent",
-    "android",
-    "deepseek-harness",
-    "dsh-plugin",
-    "termux"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-12T06:15:19Z",
-   "created_at": "2026-08-14T02:38:13Z",
-   "license": "MIT",
-   "language": "JavaScript",
-   "openIssues": 4,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-09-18T10:38:26Z"
-  },
-  "release": {
-   "id": 390653944,
-   "tag": "v0.2.11",
-   "name": "v0.2.11 — 修复无法新建文件夹",
-   "notes": "# v0.2.11\n\n## 修复\n\n- **手机里「新建文件夹」报 `EACCES: permission denied`**：与 root 和系统权限无关。Termux 家目录的属主/权限在拷贝部署文件的过程中被改成了其他用户（模式 775），应用以自己的用户身份在该目录里只有读权限，因此无法新建文件或文件夹。\n  现在部署流程会自检并修正家目录的属主与权限，App 在拷贝部署文件后也会恢复它。\n\n## 升级\n\n- 覆盖安装即可（versionCode 15 / v0.2.11）。\n- 已经出现该问题的设备：安装后点一次「一键部署」会自动修复，也可在 Termux 执行\n  `chown $(id -u):$(id -g) ~ && chmod 700 ~`。\n",
-   "published_at": "2026-09-17T11:24:52Z",
-   "html_url": "https://github.com/railgun0325/dsh-phone/releases/tag/v0.2.11",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 570115607,
-    "name": "dsh-phone-root-v0.2.11.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 42806934,
-    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-root-v0.2.11.apk",
-    "digest": "sha256:f68ffd581f6995edfa4eb80013dc4a7f823997dcb4791de7b6291504afdc4133",
-    "download_count": 1174
-   },
-   {
-    "id": 570115603,
-    "name": "dsh-phone-shizuku-v0.2.11.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 44584368,
-    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/dsh-phone-shizuku-v0.2.11.apk",
-    "digest": "sha256:f462ab8db626e8f4f544e4aba899b9032e7624239ff9127c8ac44658627a65db",
-    "download_count": 1440
-   },
-   {
-    "id": 570115606,
-    "name": "SHA256SUMS-v0.2.11.txt",
-    "content_type": "text/plain; charset=utf-8",
-    "size": 193,
-    "download_url": "https://github.com/railgun0325/dsh-phone/releases/download/v0.2.11/SHA256SUMS-v0.2.11.txt",
-    "digest": "sha256:06e1293afe76c315660f36e39d46db10fa4e426040f30d0a5f01a99d99716f04",
-    "download_count": 169
    }
   ]
  },
@@ -304260,7 +304358,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-17",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 380339641,
    "full_name": "Rabbit-Company/Passky-Android",
@@ -304303,7 +304401,7 @@
     "size": 2806517,
     "download_url": "https://github.com/Rabbit-Company/Passky-Android/releases/download/v7.1.0/passky-7.1.0.apk",
     "digest": null,
-    "download_count": 1115
+    "download_count": 1119
    }
   ]
  },
@@ -304537,7 +304635,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 14408419,
    "full_name": "alanwoolley/innoextract-android",
@@ -304583,7 +304681,7 @@
     "size": 6940011,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-arm64-v8a-release-signed.apk",
     "digest": null,
-    "download_count": 3418
+    "download_count": 3475
    },
    {
     "id": 111009796,
@@ -304592,7 +304690,7 @@
     "size": 6292845,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-armeabi-v7a-release-signed.apk",
     "digest": null,
-    "download_count": 1181
+    "download_count": 1193
    },
    {
     "id": 111009809,
@@ -304601,7 +304699,7 @@
     "size": 15677003,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-universal-release-signed.apk",
     "digest": null,
-    "download_count": 2218
+    "download_count": 2241
    },
    {
     "id": 111009754,
@@ -304610,7 +304708,7 @@
     "size": 6940005,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-x86-release-signed.apk",
     "digest": null,
-    "download_count": 642
+    "download_count": 648
    },
    {
     "id": 111009693,
@@ -304619,7 +304717,7 @@
     "size": 7001448,
     "download_url": "https://github.com/alanwoolley/innoextract-android/releases/download/v4.0.0/App-x86_64-release-signed.apk",
     "digest": null,
-    "download_count": 867
+    "download_count": 872
    }
   ]
  },
@@ -314902,7 +315000,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-17",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1335324287,
    "full_name": "ahmedhmam1994/voxscribe-ai-voice-dictation",
@@ -314958,7 +315056,7 @@
     "size": 120434270,
     "download_url": "https://github.com/ahmedhmam1994/voxscribe-ai-voice-dictation/releases/download/android-v1.1.4/VoxScribe-Android-1.1.4.apk",
     "digest": "sha256:affb4b5488459e4af2043a968ba2fd583f74fa3914dabc231a8c900bb0d8c407",
-    "download_count": 81
+    "download_count": 84
    }
   ]
  },
@@ -316280,7 +316378,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1331349025,
    "full_name": "silvershadowkat/pvzf-android-translation",
@@ -316299,53 +316397,53 @@
    "openIssues": 6,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-11-06T03:07:57Z"
+   "pushedAt": "2026-11-17T23:24:24Z"
   },
   "release": {
-   "id": 436052860,
-   "tag": "v4.1-release-3",
-   "name": "PvZ Fusion 4.1 English Android - Pre-release 3",
-   "notes": "# PvZ Fusion 4.1 English Android: Pre-release 3\n\n- Fixed runtime translations and settings controls disappearing after Android restarts the game.\n- Fixed Original intro music playing before a Blooms track and restored the game's roof-track preloading for the selected soundtrack.\n- Added missing plant and zombie descriptions, card effects and a changelog translation.\n- Preserved the Plant Info stat fixes and the Original/Stretch screen control.\n\n**Standard EN** uses the official online Magic Plantbrush service. **Offline ENAI** uses local plant recognition and keeps its model ready while the game runs.\n\nInstall over the matching EN or ENAI app without uninstalling. Your saves stay in place.\n\nSome new 4.1 names remain Chinese until verified English names are available. The intermittent Starbound music repeat still needs more feedback.\n",
-   "published_at": "2026-11-06T03:07:03Z",
-   "html_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/tag/v4.1-release-3",
+   "id": 449318871,
+   "tag": "v4.1-release-4",
+   "name": "PvZ Fusion 4.1 English Android - Pre-release 4",
+   "notes": "# PvZ Fusion 4.1 English Android: Pre-release 4\n\n- Updated 84 plant entries and 17 zombie entries with the latest Blooms 4.1 translations.\n- Added 19 plant names and 3 zombie names, including Tycoonwood, Gravi-nut, Crush-shroom, Chrono-pult and Channeler Pozeidon.\n- Updated 88 gameplay descriptions and 34 flavor-text fields. Android 4.1 mechanics take priority where older PC descriptions differ.\n- Filled missing modifier and equipment text, including Focused Fire, War Machine, Investing, Shrink Ray and Obsidian Formation.\n- Fixed offline recognition releasing a healthy model after a long scheduling pause. Improved its priority while the game is in the foreground.\n\nInstall Standard over EN, or Offline AI over ENAI, without uninstalling. Both retain their existing save locations.\n\nZomboni invisibility in Endless Survival Fog is still under investigation. This release does not claim to fix it.\n\nThanks to the Blooms translators and everyone who shared screenshots and feedback.\n",
+   "published_at": "2026-11-17T23:23:53Z",
+   "html_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/tag/v4.1-release-4",
    "prerelease": true
   },
   "assets": [
    {
-    "id": 715705772,
-    "name": "PvZ-Fusion-4.1-English-prerelease3-AI.apk",
+    "id": 761041938,
+    "name": "PvZ-Fusion-4.1-English-prerelease4-AI.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 1068777914,
-    "download_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/download/v4.1-release-3/PvZ-Fusion-4.1-English-prerelease3-AI.apk",
-    "digest": "sha256:75f9f3758975037fbc8aa665df7155c46b956160fe490f84daaa6af333364223",
-    "download_count": 951
+    "size": 1065386426,
+    "download_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/download/v4.1-release-4/PvZ-Fusion-4.1-English-prerelease4-AI.apk",
+    "digest": "sha256:ab1ff0a0ee890552f85558e04fbd909e0cdaff290c1d2bbce2defdb8a0e36027",
+    "download_count": 44
    },
    {
-    "id": 715705778,
-    "name": "PvZ-Fusion-4.1-English-prerelease3.apk",
+    "id": 761039605,
+    "name": "PvZ-Fusion-4.1-English-prerelease4.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 799407704,
-    "download_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/download/v4.1-release-3/PvZ-Fusion-4.1-English-prerelease3.apk",
-    "digest": "sha256:1b118b7bb2f2a1df4e641ac4da817e9a22d1ba02c9e5594df599d4f129d4a8ed",
-    "download_count": 1469
+    "size": 799759960,
+    "download_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/download/v4.1-release-4/PvZ-Fusion-4.1-English-prerelease4.apk",
+    "digest": "sha256:7c6331a29ca6623d885aba5baf3cd841221d40c9066a0ac9b21dc803aab534e5",
+    "download_count": 88
    },
    {
-    "id": 715705770,
+    "id": 761044468,
     "name": "RELEASE-BUILD.json",
     "content_type": "application/json",
-    "size": 2366,
-    "download_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/download/v4.1-release-3/RELEASE-BUILD.json",
-    "digest": "sha256:47c9af41dde812625755e8c708c7e7735c4b7c98ac51ab909aac5916da8da200",
-    "download_count": 34
+    "size": 2656,
+    "download_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/download/v4.1-release-4/RELEASE-BUILD.json",
+    "digest": "sha256:f6bbc0349e253188a087aea8343913afd6384701a38ce2f20863e4c861d08913",
+    "download_count": 1
    },
    {
-    "id": 715705771,
+    "id": 761044408,
     "name": "SHA256SUMS.txt",
     "content_type": "text/plain; charset=utf-8",
     "size": 215,
-    "download_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/download/v4.1-release-3/SHA256SUMS.txt",
-    "digest": "sha256:fc9c733ce22710207e1cd22d6eb161a6a3621a8c126e943d9efa9b4d3eddb58a",
-    "download_count": 31
+    "download_url": "https://github.com/silvershadowkat/pvzf-android-translation/releases/download/v4.1-release-4/SHA256SUMS.txt",
+    "digest": "sha256:ffc1e2023d8c45a9dac2a539600ae56d8624a58b143cbfcc4833cbd697e69df0",
+    "download_count": 2
    }
   ]
  },
@@ -806726,50 +806824,6 @@
     "download_url": "https://github.com/rafsancoder/RobotSavoCopilot/releases/download/v1.0.0/app-release.apk",
     "digest": "sha256:28ca880e5e0f3165a65f12991182b492bc8ede7a5ecf341b96bc2b8ce86427af",
     "download_count": 9
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1230340607,
-   "full_name": "mtransitapps/ca-port-alberni-transit-bus-android",
-   "owner": "mtransitapps",
-   "avatar_url": "https://avatars.githubusercontent.com/u/6185836?v=4",
-   "description": "Port Alberni Region Transit Systems (BC Transit) buses for MonTransit",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-11T16:35:09Z",
-   "created_at": "2026-05-05T22:48:42Z",
-   "license": "Apache-2.0",
-   "language": "Shell",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "https://play.google.com/store/apps/details?id=org.mtransit.android.ca_port_alberni_transit_bus",
-   "pushedAt": "2026-11-17T12:21:33Z"
-  },
-  "release": {
-   "id": 440969497,
-   "tag": "26.11.10_r2119",
-   "name": "26.11.10_r2119",
-   "notes": "**Full Changelog**: https://github.com/mtransitapps/ca-port-alberni-transit-bus-android/compare/26.10.30_r2112...26.11.10_r2119",
-   "published_at": "2026-11-10T22:06:33Z",
-   "html_url": "https://github.com/mtransitapps/ca-port-alberni-transit-bus-android/releases/tag/26.11.10_r2119",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 733136554,
-    "name": "MT-CA-Port-Alberni-Transit-Bus_v26.11.10_r2119-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 1703673,
-    "download_url": "https://github.com/mtransitapps/ca-port-alberni-transit-bus-android/releases/download/26.11.10_r2119/MT-CA-Port-Alberni-Transit-Bus_v26.11.10_r2119-release.apk",
-    "digest": "sha256:1c2d164c0fa4f1a0e7ea71ea9b2952f1d607bb7d6f8eb6b53d6e57bfab488a8c",
-    "download_count": 1
    }
   ]
  }

@@ -139787,7 +139787,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-16",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 323733486,
    "full_name": "ktzevani/native-camera-vulkan",
@@ -139813,7 +139813,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1270669388,
    "full_name": "iamjosephmj/hydraRaSp",
@@ -140171,6 +140171,49 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-18",
+  "repo": {
+   "id": 1371683614,
+   "full_name": "ZailoxTT/ZettaBridge",
+   "owner": "ZailoxTT",
+   "avatar_url": "https://avatars.githubusercontent.com/u/88113162?v=4",
+   "description": "Run 32-bit Android apps on 64-bit-only ARM phones: source-available ARM32 -> ARM64 native code translator and app launcher",
+   "stars": 52,
+   "forks": 14,
+   "topics": [
+    "32-bit",
+    "aarch64",
+    "android",
+    "android-launcher",
+    "arm",
+    "arm64",
+    "armv7",
+    "binary-translation",
+    "compatibility-layer",
+    "cpp",
+    "dynarmic",
+    "emulator",
+    "jit",
+    "jni",
+    "opengl-es",
+    "translator"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-18T09:26:02Z",
+   "created_at": "2026-09-15T15:15:57Z",
+   "license": "Other"
+  },
+  "release": {
+   "id": 392094488,
+   "tag": "v0.1.0",
+   "published_at": "2026-09-19T14:12:47Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-17",
   "repo": {
    "id": 1084523471,
@@ -140243,7 +140286,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 203462018,
    "full_name": "Breta01/docus",
@@ -140856,49 +140899,6 @@
   "schema": 1,
   "last_verified": "2026-11-17",
   "repo": {
-   "id": 1371683614,
-   "full_name": "ZailoxTT/ZettaBridge",
-   "owner": "ZailoxTT",
-   "avatar_url": "https://avatars.githubusercontent.com/u/88113162?v=4",
-   "description": "Run 32-bit Android apps on 64-bit-only ARM phones: source-available ARM32 -> ARM64 native code translator and app launcher",
-   "stars": 51,
-   "forks": 14,
-   "topics": [
-    "32-bit",
-    "aarch64",
-    "android",
-    "android-launcher",
-    "arm",
-    "arm64",
-    "armv7",
-    "binary-translation",
-    "compatibility-layer",
-    "cpp",
-    "dynarmic",
-    "emulator",
-    "jit",
-    "jni",
-    "opengl-es",
-    "translator"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-16T16:35:38Z",
-   "created_at": "2026-09-15T15:15:57Z",
-   "license": "Other"
-  },
-  "release": {
-   "id": 392094488,
-   "tag": "v0.1.0",
-   "published_at": "2026-09-19T14:12:47Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-17",
-  "repo": {
    "id": 1383716728,
    "full_name": "Nisaka520/JevGuide",
    "owner": "Nisaka520",
@@ -141038,6 +141038,50 @@
    "published_at": "2026-10-14T17:15:48Z",
    "prerelease": false,
    "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-18",
+  "repo": {
+   "id": 1367417480,
+   "full_name": "dyzz/srw64-recomp",
+   "owner": "dyzz",
+   "avatar_url": "https://avatars.githubusercontent.com/u/164275?v=4",
+   "description": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your o",
+   "stars": 51,
+   "forks": 3,
+   "topics": [
+    "android",
+    "chinese-translation",
+    "fan-translation",
+    "game-mods",
+    "korean-translation",
+    "n64",
+    "n64-recompiled",
+    "native-port",
+    "nintendo-64",
+    "nintendo-switch",
+    "recomp",
+    "recompilation",
+    "recomplauncher",
+    "retro-gaming",
+    "srw64",
+    "steam-deck",
+    "super-robot-wars"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-18T03:20:36Z",
+   "created_at": "2026-09-12T15:20:11Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 433576395,
+   "tag": "v0.5.3",
+   "published_at": "2026-11-04T06:19:07Z",
+   "prerelease": false,
+   "apk_count": 5
   }
  },
  {
@@ -141638,7 +141682,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1324372281,
    "full_name": "felipenalves/Dokke",
@@ -141755,7 +141799,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1215877898,
    "full_name": "AceAsket/inpx-web",
@@ -142219,7 +142263,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1169511048,
    "full_name": "nihaina/SubtitleEditforAndroid",
@@ -142231,14 +142275,14 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-11T18:41:13Z",
+   "updated_at": "2026-11-17T10:26:42Z",
    "created_at": "2026-02-28T19:51:37Z",
    "license": "GPL-3.0"
   },
   "release": {
-   "id": 433772862,
-   "tag": "1.2.5",
-   "published_at": "2026-11-04T10:18:27Z",
+   "id": 447285120,
+   "tag": "1.2.6",
+   "published_at": "2026-11-16T16:21:21Z",
    "prerelease": false,
    "apk_count": 4
   }
@@ -142429,6 +142473,38 @@
   "schema": 1,
   "last_verified": "2026-11-18",
   "repo": {
+   "id": 1333719936,
+   "full_name": "railgun0325/dsh-phone",
+   "owner": "railgun0325",
+   "avatar_url": "https://avatars.githubusercontent.com/u/102395850?v=4",
+   "description": "让 DeepSeek Harness 的 agent 跑在手机里，通过 Magisk root 原生操作安卓系统（截图/点击/滑动/开应用）+ 移动端布局 + WebView APK",
+   "stars": 49,
+   "forks": 10,
+   "topics": [
+    "agent",
+    "android",
+    "deepseek-harness",
+    "dsh-plugin",
+    "termux"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-18T02:56:04Z",
+   "created_at": "2026-08-14T02:38:13Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 390653944,
+   "tag": "v0.2.11",
+   "published_at": "2026-09-17T11:24:52Z",
+   "prerelease": false,
+   "apk_count": 3
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-18",
+  "repo": {
    "id": 1139349594,
    "full_name": "dedeadend/DTerminal",
    "owner": "dedeadend",
@@ -142536,7 +142612,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1037642255,
    "full_name": "sune-org/sune",
@@ -142696,7 +142772,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 440842151,
    "full_name": "ibaiGorordo/depthai-android-jni-example",
@@ -143186,38 +143262,6 @@
    "published_at": "2026-10-24T10:22:07Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-15",
-  "repo": {
-   "id": 1333719936,
-   "full_name": "railgun0325/dsh-phone",
-   "owner": "railgun0325",
-   "avatar_url": "https://avatars.githubusercontent.com/u/102395850?v=4",
-   "description": "让 DeepSeek Harness 的 agent 跑在手机里，通过 Magisk root 原生操作安卓系统（截图/点击/滑动/开应用）+ 移动端布局 + WebView APK",
-   "stars": 48,
-   "forks": 10,
-   "topics": [
-    "agent",
-    "android",
-    "deepseek-harness",
-    "dsh-plugin",
-    "termux"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-12T06:15:19Z",
-   "created_at": "2026-08-14T02:38:13Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 390653944,
-   "tag": "v0.2.11",
-   "published_at": "2026-09-17T11:24:52Z",
-   "prerelease": false,
-   "apk_count": 3
   }
  },
  {
@@ -143997,7 +144041,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-17",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 380339641,
    "full_name": "Rabbit-Company/Passky-Android",
@@ -144103,7 +144147,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 14408419,
    "full_name": "alanwoolley/innoextract-android",
@@ -149221,7 +149265,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-17",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1335324287,
    "full_name": "ahmedhmam1994/voxscribe-ai-voice-dictation",
@@ -150014,7 +150058,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-18",
   "repo": {
    "id": 1331349025,
    "full_name": "silvershadowkat/pvzf-android-translation",
@@ -150031,9 +150075,9 @@
    "license": "MIT"
   },
   "release": {
-   "id": 436052860,
-   "tag": "v4.1-release-3",
-   "published_at": "2026-11-06T03:07:03Z",
+   "id": 449318871,
+   "tag": "v4.1-release-4",
+   "published_at": "2026-11-17T23:23:53Z",
    "prerelease": true,
    "apk_count": 4
   }
@@ -400051,32 +400095,6 @@
    "id": 266585057,
    "tag": "v1.0.0",
    "published_at": "2025-12-02T03:57:50Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1230340607,
-   "full_name": "mtransitapps/ca-port-alberni-transit-bus-android",
-   "owner": "mtransitapps",
-   "avatar_url": "https://avatars.githubusercontent.com/u/6185836?v=4",
-   "description": "Port Alberni Region Transit Systems (BC Transit) buses for MonTransit",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-11T16:35:09Z",
-   "created_at": "2026-05-05T22:48:42Z",
-   "license": "Apache-2.0"
-  },
-  "release": {
-   "id": 440969497,
-   "tag": "26.11.10_r2119",
-   "published_at": "2026-11-10T22:06:33Z",
    "prerelease": false,
    "apk_count": 1
   }
