@@ -437544,221 +437544,6 @@
   "schema": 1,
   "last_verified": "2026-11-17",
   "repo": {
-   "id": 1342593936,
-   "full_name": "Chistovik92/HydraVPN",
-   "owner": "Chistovik92",
-   "avatar_url": "https://avatars.githubusercontent.com/u/209808769?v=4",
-   "description": "Cross-platform multi-protocol VPN client for Android, Windows, Linux, macOS and iOS with sing-box, Xray, AmneziaWG, smart routing, split tunneling and router management.",
-   "stars": 10,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-15T21:54:00Z",
-   "created_at": "2026-08-22T08:13:18Z",
-   "license": "GPL-3.0",
-   "language": "Kotlin",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "https://hydravpn.us",
-   "pushedAt": "2026-11-13T16:31:06Z"
-  },
-  "release": {
-   "id": 429444358,
-   "tag": "v0.8.2",
-   "name": "Hydra 0.8.2",
-   "notes": "## Hydra 0.8.2\n\nЧто изменилось — см. [CHANGELOG.md](https://github.com/Chistovik92/HydraVPN/blob/master/CHANGELOG.md).\n\n> **⚠️ Windows: с версии 0.7.20 антивирус (например, Kaspersky: `PDM:Trojan.Win32.Generic`) может блокировать установку и `Hydra.exe`.** Это считаем ложным срабатыванием: код открыт, SHA-256 — в файлах релиза.\n> На время установки отключите защиту или добавьте `%LOCALAPPDATA%\\Hydra` в исключения. Подробности и план исправления — [docs/versions/0.7.21.md](https://github.com/Chistovik92/HydraVPN/blob/master/docs/versions/0.7.21.md).\n\n### Скачать\n| Процессор | Windows | macOS | Debian, Ubuntu, Mint | Fedora, RHEL, openSUSE | Любой Linux | Android | iPhone, iPad |\n|---|---|---|---|---|---|---|---|\n| x86-64 — Intel, AMD | [MSI](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64.msi) · [EXE](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64.exe) · [ZIP](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64-portable.zip) | [DMG](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-macos-x64.dmg) | [DEB](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.deb) | [RPM](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.rpm) | [AppImage](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.AppImage) · [tar.gz](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.tar.gz) | [APK](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-full-0.8.2-x86_64.apk) (эмуляторы, Chromebook) | |\n| ARM64 — Snapdragon, Apple Silicon, телефоны | | [DMG](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-macos-arm64.dmg) | [DEB](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/H",
-   "published_at": "2026-10-30T20:25:49Z",
-   "html_url": "https://github.com/Chistovik92/HydraVPN/releases/tag/v0.8.2",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 693320245,
-    "name": "Hydra-awg-server-0.8.2-amd64.zip",
-    "content_type": "application/zip",
-    "size": 1960988,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-amd64.zip",
-    "digest": "sha256:035219828912d08e7f3195b20028b97c5d0d808c3dcab42f8d1a3dde837fb30b",
-    "download_count": 2
-   },
-   {
-    "id": 693320244,
-    "name": "Hydra-awg-server-0.8.2-amd64.zip.sha256",
-    "content_type": "application/octet-stream",
-    "size": 99,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-amd64.zip.sha256",
-    "digest": "sha256:d06b574711013d0f41cd81714c93df93546034137222046997a17aa511b0a8d7",
-    "download_count": 1
-   },
-   {
-    "id": 693320241,
-    "name": "Hydra-awg-server-0.8.2-arm64.zip",
-    "content_type": "application/zip",
-    "size": 1811433,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-arm64.zip",
-    "digest": "sha256:b77627868dc1acafa41e6730f350030c74bed96fcc923339d3258707a31efb20",
-    "download_count": 2
-   },
-   {
-    "id": 693320240,
-    "name": "Hydra-awg-server-0.8.2-arm64.zip.sha256",
-    "content_type": "application/octet-stream",
-    "size": 99,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-arm64.zip.sha256",
-    "digest": "sha256:2dbde8179f92ae63186c78bbd741ef57031557d17d90f2b9ae953b7b18d772fc",
-    "download_count": 1
-   },
-   {
-    "id": 693320238,
-    "name": "Hydra-awg-server-0.8.2-armv7.zip",
-    "content_type": "application/zip",
-    "size": 1766719,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-armv7.zip",
-    "digest": "sha256:70aafa5776661791b7271071fb66c1ba135bf1157534a23f81801ea2886f97cb",
-    "download_count": 2
-   },
-   {
-    "id": 693320262,
-    "name": "Hydra-awg-server-0.8.2-armv7.zip.sha256",
-    "content_type": "application/octet-stream",
-    "size": 99,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-armv7.zip.sha256",
-    "digest": "sha256:995503b440f448320da274dd99c3745f5c9903c1c16b8bcbbe07db0eea74f1f5",
-    "download_count": 1
-   },
-   {
-    "id": 693320266,
-    "name": "Hydra-desktop-0.8.2-linux-arm64.AppImage",
-    "content_type": "application/vnd.appimage",
-    "size": 116800008,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-arm64.AppImage",
-    "digest": "sha256:d288ab07fff62375e803b7e8a1baba2c6d5e78a8672ac7939df06dfa3a5cccc5",
-    "download_count": 1
-   },
-   {
-    "id": 693320265,
-    "name": "Hydra-desktop-0.8.2-linux-arm64.deb",
-    "content_type": "application/x-debian-package",
-    "size": 104402668,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-arm64.deb",
-    "digest": "sha256:522d2467813771f64e88dad1002e902a4af37165ccd86f0807464c6d8f41afb0",
-    "download_count": 1
-   },
-   {
-    "id": 693320273,
-    "name": "Hydra-desktop-0.8.2-linux-arm64.rpm",
-    "content_type": "application/x-rpm",
-    "size": 123648438,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-arm64.rpm",
-    "digest": "sha256:66e34d88e7823d923012f100a40e202eceac81f6961dd98eeef33570bb6e90d4",
-    "download_count": 1
-   },
-   {
-    "id": 693320275,
-    "name": "Hydra-desktop-0.8.2-linux-arm64.tar.gz",
-    "content_type": "application/x-gtar",
-    "size": 124138762,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-arm64.tar.gz",
-    "digest": "sha256:e6660048597e5d3ce8f6e9a678ec191c90dec907d928e40b0603e328ace31c28",
-    "download_count": 1
-   },
-   {
-    "id": 693320304,
-    "name": "Hydra-desktop-0.8.2-linux-armv7-classic.tar.gz",
-    "content_type": "application/x-gtar",
-    "size": 65075766,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-armv7-classic.tar.gz",
-    "digest": "sha256:24baf17c8751c33a29593201d139a5409a5d745f5b1085c8adbefd1040c0bb55",
-    "download_count": 1
-   },
-   {
-    "id": 693320489,
-    "name": "Hydra-desktop-0.8.2-linux-x64.AppImage",
-    "content_type": "application/vnd.appimage",
-    "size": 175532536,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.AppImage",
-    "digest": "sha256:5a2535e8d24d882c8d070ff4f362c3047fe4555a089a3e54198f04c7fe62f94d",
-    "download_count": 13
-   },
-   {
-    "id": 693320564,
-    "name": "Hydra-desktop-0.8.2-linux-x64.deb",
-    "content_type": "application/x-debian-package",
-    "size": 162149492,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.deb",
-    "digest": "sha256:a0bc80ce697ed94417e83710d87abb72568c7c067634815e99fd6e71b8948ace",
-    "download_count": 8
-   },
-   {
-    "id": 693320644,
-    "name": "Hydra-desktop-0.8.2-linux-x64.rpm",
-    "content_type": "application/x-rpm",
-    "size": 182550195,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.rpm",
-    "digest": "sha256:10d3a8b8ab062d69ed193d71345719a50b206582d5a46db3d238dcba672369df",
-    "download_count": 4
-   },
-   {
-    "id": 693320663,
-    "name": "Hydra-desktop-0.8.2-linux-x64.tar.gz",
-    "content_type": "application/x-gtar",
-    "size": 183173886,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.tar.gz",
-    "digest": "sha256:c8cf303a27bb95bd63cc095d77f7de711797ab3063cabed49659c2226d44d287",
-    "download_count": 1
-   },
-   {
-    "id": 693320715,
-    "name": "Hydra-desktop-0.8.2-linux-x86-classic.tar.gz",
-    "content_type": "application/x-gtar",
-    "size": 65749318,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x86-classic.tar.gz",
-    "digest": "sha256:a0eefb593d3a188ea07a60fb124f5dae869756aaf5d5329771b6e2d209d959fb",
-    "download_count": 1
-   },
-   {
-    "id": 693320873,
-    "name": "Hydra-desktop-0.8.2-macos-arm64.dmg",
-    "content_type": "application/x-apple-diskimage",
-    "size": 178918475,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-macos-arm64.dmg",
-    "digest": "sha256:95160d7b126d38e6be0929c772ce0685d8b2927927964adb4d1643752d1ea9ef",
-    "download_count": 1
-   },
-   {
-    "id": 693320916,
-    "name": "Hydra-desktop-0.8.2-macos-x64.dmg",
-    "content_type": "application/x-apple-diskimage",
-    "size": 177819011,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-macos-x64.dmg",
-    "digest": "sha256:f9dc982cff2a9213f63c432186df4a5074eab536adf2d3fb6c7c8f6430fd1832",
-    "download_count": 1
-   },
-   {
-    "id": 693320950,
-    "name": "Hydra-desktop-0.8.2-windows-x64-classic.zip",
-    "content_type": "application/zip",
-    "size": 109930742,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64-classic.zip",
-    "digest": "sha256:1c6187c83f9e21437dbaa270c60ff1d2d8e5935de5f10ca8b56e0c2753e8c73a",
-    "download_count": 2
-   },
-   {
-    "id": 693321037,
-    "name": "Hydra-desktop-0.8.2-windows-x64-portable.zip",
-    "content_type": "application/zip",
-    "size": 162743398,
-    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64-portable.zip",
-    "digest": "sha256:19b6161632f34354b6598f10443f82bf1c4fb091ee92f9f06dc010f06d0b9ebd",
-    "download_count": 2
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-17",
-  "repo": {
    "id": 1401890944,
    "full_name": "Matt-wzy/ssh-with-tailscale",
    "owner": "Matt-wzy",
@@ -438359,6 +438144,221 @@
     "download_url": "https://github.com/fractalstudio-sd/rally2-recomp-android/releases/download/v0.65-beta/Rally2Recomp-0.65-beta.apk",
     "digest": "sha256:744d03b27335c851f227afbc5c443f5fb283ac469174400a20b5679f0fb3134d",
     "download_count": 146
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-19",
+  "repo": {
+   "id": 1342593936,
+   "full_name": "Chistovik92/HydraVPN",
+   "owner": "Chistovik92",
+   "avatar_url": "https://avatars.githubusercontent.com/u/209808769?v=4",
+   "description": "Cross-platform multi-protocol VPN client for Android, Windows, Linux, macOS and iOS with sing-box, Xray, AmneziaWG, smart routing, split tunneling and router management.",
+   "stars": 9,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-17T01:42:05Z",
+   "created_at": "2026-08-22T08:13:18Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://hydravpn.us",
+   "pushedAt": "2026-11-13T16:31:06Z"
+  },
+  "release": {
+   "id": 429444358,
+   "tag": "v0.8.2",
+   "name": "Hydra 0.8.2",
+   "notes": "## Hydra 0.8.2\n\nЧто изменилось — см. [CHANGELOG.md](https://github.com/Chistovik92/HydraVPN/blob/master/CHANGELOG.md).\n\n> **⚠️ Windows: с версии 0.7.20 антивирус (например, Kaspersky: `PDM:Trojan.Win32.Generic`) может блокировать установку и `Hydra.exe`.** Это считаем ложным срабатыванием: код открыт, SHA-256 — в файлах релиза.\n> На время установки отключите защиту или добавьте `%LOCALAPPDATA%\\Hydra` в исключения. Подробности и план исправления — [docs/versions/0.7.21.md](https://github.com/Chistovik92/HydraVPN/blob/master/docs/versions/0.7.21.md).\n\n### Скачать\n| Процессор | Windows | macOS | Debian, Ubuntu, Mint | Fedora, RHEL, openSUSE | Любой Linux | Android | iPhone, iPad |\n|---|---|---|---|---|---|---|---|\n| x86-64 — Intel, AMD | [MSI](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64.msi) · [EXE](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64.exe) · [ZIP](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64-portable.zip) | [DMG](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-macos-x64.dmg) | [DEB](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.deb) | [RPM](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.rpm) | [AppImage](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.AppImage) · [tar.gz](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.tar.gz) | [APK](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-full-0.8.2-x86_64.apk) (эмуляторы, Chromebook) | |\n| ARM64 — Snapdragon, Apple Silicon, телефоны | | [DMG](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-macos-arm64.dmg) | [DEB](https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/H",
+   "published_at": "2026-10-30T20:25:49Z",
+   "html_url": "https://github.com/Chistovik92/HydraVPN/releases/tag/v0.8.2",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 693320245,
+    "name": "Hydra-awg-server-0.8.2-amd64.zip",
+    "content_type": "application/zip",
+    "size": 1960988,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-amd64.zip",
+    "digest": "sha256:035219828912d08e7f3195b20028b97c5d0d808c3dcab42f8d1a3dde837fb30b",
+    "download_count": 2
+   },
+   {
+    "id": 693320244,
+    "name": "Hydra-awg-server-0.8.2-amd64.zip.sha256",
+    "content_type": "application/octet-stream",
+    "size": 99,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-amd64.zip.sha256",
+    "digest": "sha256:d06b574711013d0f41cd81714c93df93546034137222046997a17aa511b0a8d7",
+    "download_count": 1
+   },
+   {
+    "id": 693320241,
+    "name": "Hydra-awg-server-0.8.2-arm64.zip",
+    "content_type": "application/zip",
+    "size": 1811433,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-arm64.zip",
+    "digest": "sha256:b77627868dc1acafa41e6730f350030c74bed96fcc923339d3258707a31efb20",
+    "download_count": 2
+   },
+   {
+    "id": 693320240,
+    "name": "Hydra-awg-server-0.8.2-arm64.zip.sha256",
+    "content_type": "application/octet-stream",
+    "size": 99,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-arm64.zip.sha256",
+    "digest": "sha256:2dbde8179f92ae63186c78bbd741ef57031557d17d90f2b9ae953b7b18d772fc",
+    "download_count": 1
+   },
+   {
+    "id": 693320238,
+    "name": "Hydra-awg-server-0.8.2-armv7.zip",
+    "content_type": "application/zip",
+    "size": 1766719,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-armv7.zip",
+    "digest": "sha256:70aafa5776661791b7271071fb66c1ba135bf1157534a23f81801ea2886f97cb",
+    "download_count": 2
+   },
+   {
+    "id": 693320262,
+    "name": "Hydra-awg-server-0.8.2-armv7.zip.sha256",
+    "content_type": "application/octet-stream",
+    "size": 99,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-awg-server-0.8.2-armv7.zip.sha256",
+    "digest": "sha256:995503b440f448320da274dd99c3745f5c9903c1c16b8bcbbe07db0eea74f1f5",
+    "download_count": 1
+   },
+   {
+    "id": 693320266,
+    "name": "Hydra-desktop-0.8.2-linux-arm64.AppImage",
+    "content_type": "application/vnd.appimage",
+    "size": 116800008,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-arm64.AppImage",
+    "digest": "sha256:d288ab07fff62375e803b7e8a1baba2c6d5e78a8672ac7939df06dfa3a5cccc5",
+    "download_count": 1
+   },
+   {
+    "id": 693320265,
+    "name": "Hydra-desktop-0.8.2-linux-arm64.deb",
+    "content_type": "application/x-debian-package",
+    "size": 104402668,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-arm64.deb",
+    "digest": "sha256:522d2467813771f64e88dad1002e902a4af37165ccd86f0807464c6d8f41afb0",
+    "download_count": 1
+   },
+   {
+    "id": 693320273,
+    "name": "Hydra-desktop-0.8.2-linux-arm64.rpm",
+    "content_type": "application/x-rpm",
+    "size": 123648438,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-arm64.rpm",
+    "digest": "sha256:66e34d88e7823d923012f100a40e202eceac81f6961dd98eeef33570bb6e90d4",
+    "download_count": 1
+   },
+   {
+    "id": 693320275,
+    "name": "Hydra-desktop-0.8.2-linux-arm64.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 124138762,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-arm64.tar.gz",
+    "digest": "sha256:e6660048597e5d3ce8f6e9a678ec191c90dec907d928e40b0603e328ace31c28",
+    "download_count": 1
+   },
+   {
+    "id": 693320304,
+    "name": "Hydra-desktop-0.8.2-linux-armv7-classic.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 65075766,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-armv7-classic.tar.gz",
+    "digest": "sha256:24baf17c8751c33a29593201d139a5409a5d745f5b1085c8adbefd1040c0bb55",
+    "download_count": 1
+   },
+   {
+    "id": 693320489,
+    "name": "Hydra-desktop-0.8.2-linux-x64.AppImage",
+    "content_type": "application/vnd.appimage",
+    "size": 175532536,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.AppImage",
+    "digest": "sha256:5a2535e8d24d882c8d070ff4f362c3047fe4555a089a3e54198f04c7fe62f94d",
+    "download_count": 13
+   },
+   {
+    "id": 693320564,
+    "name": "Hydra-desktop-0.8.2-linux-x64.deb",
+    "content_type": "application/x-debian-package",
+    "size": 162149492,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.deb",
+    "digest": "sha256:a0bc80ce697ed94417e83710d87abb72568c7c067634815e99fd6e71b8948ace",
+    "download_count": 8
+   },
+   {
+    "id": 693320644,
+    "name": "Hydra-desktop-0.8.2-linux-x64.rpm",
+    "content_type": "application/x-rpm",
+    "size": 182550195,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.rpm",
+    "digest": "sha256:10d3a8b8ab062d69ed193d71345719a50b206582d5a46db3d238dcba672369df",
+    "download_count": 4
+   },
+   {
+    "id": 693320663,
+    "name": "Hydra-desktop-0.8.2-linux-x64.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 183173886,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x64.tar.gz",
+    "digest": "sha256:c8cf303a27bb95bd63cc095d77f7de711797ab3063cabed49659c2226d44d287",
+    "download_count": 1
+   },
+   {
+    "id": 693320715,
+    "name": "Hydra-desktop-0.8.2-linux-x86-classic.tar.gz",
+    "content_type": "application/x-gtar",
+    "size": 65749318,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-linux-x86-classic.tar.gz",
+    "digest": "sha256:a0eefb593d3a188ea07a60fb124f5dae869756aaf5d5329771b6e2d209d959fb",
+    "download_count": 1
+   },
+   {
+    "id": 693320873,
+    "name": "Hydra-desktop-0.8.2-macos-arm64.dmg",
+    "content_type": "application/x-apple-diskimage",
+    "size": 178918475,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-macos-arm64.dmg",
+    "digest": "sha256:95160d7b126d38e6be0929c772ce0685d8b2927927964adb4d1643752d1ea9ef",
+    "download_count": 1
+   },
+   {
+    "id": 693320916,
+    "name": "Hydra-desktop-0.8.2-macos-x64.dmg",
+    "content_type": "application/x-apple-diskimage",
+    "size": 177819011,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-macos-x64.dmg",
+    "digest": "sha256:f9dc982cff2a9213f63c432186df4a5074eab536adf2d3fb6c7c8f6430fd1832",
+    "download_count": 1
+   },
+   {
+    "id": 693320950,
+    "name": "Hydra-desktop-0.8.2-windows-x64-classic.zip",
+    "content_type": "application/zip",
+    "size": 109930742,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64-classic.zip",
+    "digest": "sha256:1c6187c83f9e21437dbaa270c60ff1d2d8e5935de5f10ca8b56e0c2753e8c73a",
+    "download_count": 2
+   },
+   {
+    "id": 693321037,
+    "name": "Hydra-desktop-0.8.2-windows-x64-portable.zip",
+    "content_type": "application/zip",
+    "size": 162743398,
+    "download_url": "https://github.com/Chistovik92/HydraVPN/releases/download/v0.8.2/Hydra-desktop-0.8.2-windows-x64-portable.zip",
+    "digest": "sha256:19b6161632f34354b6598f10443f82bf1c4fb091ee92f9f06dc010f06d0b9ebd",
+    "download_count": 2
    }
   ]
  },
@@ -439280,7 +439280,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-17",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 696661593,
    "full_name": "KiyarashFarahani/WeatherApp",
@@ -459187,7 +459187,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1024300071,
    "full_name": "jodli/CoffeeShotTimer",
@@ -459445,7 +459445,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1059526577,
    "full_name": "Aatricks/llmedge-examples",
@@ -459502,7 +459502,7 @@
     "size": 251115057,
     "download_url": "https://github.com/Aatricks/llmedge-examples/releases/download/V0.3.6.3/app-debug.apk",
     "digest": "sha256:d7fae5642eed77a02dc3ed0842d23dc431a26aa1f0cda75cf7c03adde3b63e1a",
-    "download_count": 85
+    "download_count": 101
    }
   ]
  },
@@ -459603,7 +459603,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 774921226,
    "full_name": "LASTA-OUTDOOR/lasta",
@@ -459795,7 +459795,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 298668650,
    "full_name": "MasoudFallahpour/ReleaseTracker",
@@ -459852,7 +459852,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 260164275,
    "full_name": "cyb3rko/logviewer-for-openhab-app",
@@ -459906,7 +459906,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1292498584,
    "full_name": "UniverseKing4/Discord-App-RPC",
@@ -459914,7 +459914,7 @@
    "avatar_url": "https://avatars.githubusercontent.com/u/89507317?v=4",
    "description": "The absolute peak, ultra-optimized, and highly efficient Discord Rich Presence manager for Android. Automatically sync your currently playing media and foreground apps directly to your Discord status!",
    "stars": 9,
-   "forks": 1,
+   "forks": 0,
    "topics": [
     "android",
     "discord",
@@ -459954,7 +459954,7 @@
     "size": 6508934,
     "download_url": "https://github.com/UniverseKing4/Discord-App-RPC/releases/download/v1.0.0/Discord-App-RPC.apk",
     "digest": "sha256:7985b2f1b9022d7ab7f47d4ba07445c66461edfd181d86948290c9b74ce0a369",
-    "download_count": 942
+    "download_count": 969
    }
   ]
  },
@@ -460526,7 +460526,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 509126794,
    "full_name": "coolsoftrf/P2PMonitoring",
@@ -460871,7 +460871,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 42416974,
    "full_name": "DefiantCatgirl/Oneesama",
@@ -460909,13 +460909,13 @@
     "size": 6931535,
     "download_url": "https://github.com/DefiantCatgirl/Oneesama/releases/download/v0.1.9/Oneesama.apk",
     "digest": null,
-    "download_count": 1534
+    "download_count": 1536
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 119339318,
    "full_name": "wethegreenpeople/TextBomb",
@@ -461130,7 +461130,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1333920537,
    "full_name": "mgdx/RoueLibre",
@@ -461195,7 +461195,7 @@
     "size": 18941023,
     "download_url": "https://github.com/mgdx/RoueLibre/releases/download/v1.6.0/roue-libre-1.6.0-universal.apk",
     "digest": "sha256:586420ffe920dc4f6fae412069b6b328ff5b5ce8b262328c0e603704307e88e3",
-    "download_count": 30
+    "download_count": 44
    },
    {
     "id": 683213766,
@@ -462107,7 +462107,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 789520416,
    "full_name": "RikudouSage/AiWallpaperChanger",
@@ -462156,7 +462156,7 @@
     "size": 11853031,
     "download_url": "https://github.com/RikudouSage/AiWallpaperChanger/releases/download/v1.30.1/cz.chrastecky.aiwallpaperchanger_1.30.1_NSFW.apk",
     "digest": null,
-    "download_count": 224
+    "download_count": 225
    },
    {
     "id": 229443019,
@@ -462165,7 +462165,7 @@
     "size": 11853031,
     "download_url": "https://github.com/RikudouSage/AiWallpaperChanger/releases/download/v1.30.1/cz.chrastecky.aiwallpaperchanger_1.30.1_SFW.apk",
     "digest": null,
-    "download_count": 65
+    "download_count": 66
    }
   ]
  },
@@ -471463,7 +471463,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1260907834,
    "full_name": "M-F-Tushar/Cropora",
@@ -471482,7 +471482,7 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-10-27T15:09:35Z"
+   "pushedAt": "2026-11-16T05:33:01Z"
   },
   "release": {
    "id": 422527306,
@@ -471507,7 +471507,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1437987677,
    "full_name": "noejunior299/notify-later",
@@ -471551,7 +471551,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1417391813,
    "full_name": "evilqin/opencode-pocket",
@@ -471599,7 +471599,7 @@
     "size": 4421482,
     "download_url": "https://github.com/evilqin/opencode-pocket/releases/download/v1.5.0/opencode-pocket-1.5.0-arm64-slim.apk",
     "digest": "sha256:b9a84251428f282a5b22c7e5a26b6cb13b77e2a146dccf663c8d0b6b24bd5f5f",
-    "download_count": 33
+    "download_count": 35
    },
    {
     "id": 723216972,
@@ -471608,7 +471608,7 @@
     "size": 29769011,
     "download_url": "https://github.com/evilqin/opencode-pocket/releases/download/v1.5.0/opencode-pocket-1.5.0-arm64.apk",
     "digest": "sha256:a573ff451c892d7935becffd462274c7c289cd6bc1a147a298e3632a7e6ba72c",
-    "download_count": 93
+    "download_count": 118
    },
    {
     "id": 723216971,
@@ -471617,7 +471617,7 @@
     "size": 38639219,
     "download_url": "https://github.com/evilqin/opencode-pocket/releases/download/v1.5.0/opencode-pocket-1.5.0-debug.apk",
     "digest": "sha256:ef7a95bcd786007574649d54fe6e30541b87f285f3e09e7e3de9ba9d6980d661",
-    "download_count": 6
+    "download_count": 7
    },
    {
     "id": 723216965,
@@ -471626,13 +471626,13 @@
     "size": 299,
     "download_url": "https://github.com/evilqin/opencode-pocket/releases/download/v1.5.0/SHA256SUMS.txt",
     "digest": "sha256:cbf08377ccf209817a48e20acd45ebce911700edda1a101818138f070f201851",
-    "download_count": 1
+    "download_count": 4
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1329600998,
    "full_name": "TechSetuApps/InstantLiveServer",
@@ -471676,7 +471676,7 @@
     "size": 6151204,
     "download_url": "https://github.com/TechSetuApps/InstantLiveServer/releases/download/V1.4.1/app-release.apk",
     "digest": "sha256:0dc825beae52ea12721b2b56041ca9178b318dc4fddfd15fd8867402a2c5f2d4",
-    "download_count": 37
+    "download_count": 88
    }
   ]
  },
@@ -471901,7 +471901,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-17",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1176135970,
    "full_name": "Reset171/RenPlay",
@@ -471949,7 +471949,7 @@
     "size": 29021583,
     "download_url": "https://github.com/Reset171/RenPlay/releases/download/0.3.1/app-arm64-v8a-release.apk",
     "digest": "sha256:2d790c3a02466a9f0e47290caf6374b6ac365a4c56cde9d2b8ef8be97812143a",
-    "download_count": 145
+    "download_count": 146
    },
    {
     "id": 412966777,
@@ -475090,7 +475090,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1069764209,
    "full_name": "lapcevichme/BookWeaver",
@@ -478296,7 +478296,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1442376752,
    "full_name": "lucasclgibson/nimbus",
@@ -478352,7 +478352,7 @@
     "size": 7191552,
     "download_url": "https://github.com/lucasclgibson/nimbus/releases/download/v0.3.2/Nimbus-0.3.2.apk",
     "digest": "sha256:b5cb84e046964984fadd3580433c6bec1b5940abe208832fc6fa838f81e5c31c",
-    "download_count": 33
+    "download_count": 57
    },
    {
     "id": 741057519,
@@ -478361,13 +478361,13 @@
     "size": 83,
     "download_url": "https://github.com/lucasclgibson/nimbus/releases/download/v0.3.2/SHA256SUMS",
     "digest": "sha256:f82a71673890687b63552276ab033c684a9d068f955f4630dab22a9979d05424",
-    "download_count": 3
+    "download_count": 4
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1323567304,
    "full_name": "quiblo-iptv/quiblo-app",
@@ -478407,7 +478407,7 @@
    "openIssues": 9,
    "watchers": null,
    "homepage": "https://quiblo-iptv.github.io/quiblo-wiki/",
-   "pushedAt": "2026-11-13T16:02:11Z"
+   "pushedAt": "2026-11-16T00:26:27Z"
   },
   "release": {
    "id": 444243228,
@@ -478426,7 +478426,7 @@
     "size": 6537942,
     "download_url": "https://github.com/quiblo-iptv/quiblo-app/releases/download/v0.34.1/quiblo-tv-v0.34.1.apk",
     "digest": "sha256:312902bb92403f341bc29a1cf99af42966ad5df1710b371234137b225b2f4578",
-    "download_count": 62
+    "download_count": 129
    },
    {
     "id": 743703037,
@@ -478435,7 +478435,7 @@
     "size": 88,
     "download_url": "https://github.com/quiblo-iptv/quiblo-app/releases/download/v0.34.1/quiblo-tv-v0.34.1.apk.sha256",
     "digest": "sha256:aa47eed699c2e5509e9e448d17bf31d75f4ac096b66d13e3de473ba135655f58",
-    "download_count": 15
+    "download_count": 19
    },
    {
     "id": 743703044,
@@ -478444,7 +478444,7 @@
     "size": 6722240,
     "download_url": "https://github.com/quiblo-iptv/quiblo-app/releases/download/v0.34.1/quiblo-v0.34.1.apk",
     "digest": "sha256:be8e97100bf121062627f029e69525ed62e588c1b9c26941d8ee3bbe2cf2b9f4",
-    "download_count": 28
+    "download_count": 58
    },
    {
     "id": 743703036,
@@ -478453,7 +478453,7 @@
     "size": 85,
     "download_url": "https://github.com/quiblo-iptv/quiblo-app/releases/download/v0.34.1/quiblo-v0.34.1.apk.sha256",
     "digest": "sha256:66d85fffd9221169368cf3b66c5786cf93d3a61166335ae271507bd29a9881ce",
-    "download_count": 3
+    "download_count": 5
    }
   ]
  },
@@ -483143,6 +483143,211 @@
     "download_url": "https://github.com/Moirania/DevCodex/releases/download/v0.4.7/DevCodex-v0.4.7-arm64-release.apk",
     "digest": "sha256:2befd5bb7fcc3e503509d675280c46cec00bb24262c5a3089d9fe94ea3269c2b",
     "download_count": 40
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-19",
+  "repo": {
+   "id": 1256539492,
+   "full_name": "LiferLighdow/Iteration",
+   "owner": "LiferLighdow",
+   "avatar_url": "https://avatars.githubusercontent.com/u/201130555?v=4",
+   "description": "Born for Performance, Built for Freedom.",
+   "stars": 9,
+   "forks": 1,
+   "topics": [
+    "android",
+    "android-app",
+    "android-studio",
+    "launcher",
+    "liferlighdow",
+    "lightweight",
+    "liquid-glass",
+    "material-design",
+    "material-ui"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-18T10:57:55Z",
+   "created_at": "2026-06-01T21:52:19Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-17T13:46:36Z"
+  },
+  "release": {
+   "id": 451344329,
+   "tag": "v6.6",
+   "name": "Release v6.6",
+   "notes": "Automated release for version 6.6.\n\n**Commit Info:**\n- Commit: 9185605a26c3ac105c811177fd0f5ada3f8c174c\n- Timestamp: 2026-11-19T20:57:43+08:00\n\n\n**Full Changelog**: https://github.com/LiferLighdow/Iteration/compare/v6.5.2...v6.6",
+   "published_at": "2026-11-19T12:54:58Z",
+   "html_url": "https://github.com/LiferLighdow/Iteration/releases/tag/v6.6",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 767722470,
+    "name": "Iteration-v6.6-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5777256,
+    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.6/Iteration-v6.6-arm64-v8a.apk",
+    "digest": "sha256:ef7729b2a60de0d8959b33d62d5642fc7e528fd06cee64128051e28c24c6952c",
+    "download_count": 3
+   },
+   {
+    "id": 767722464,
+    "name": "Iteration-v6.6-armeabi-v7a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5773162,
+    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.6/Iteration-v6.6-armeabi-v7a.apk",
+    "digest": "sha256:185f335c8de259947877f34307a911b7c8a50451556485e583d3613734fbd728",
+    "download_count": 0
+   },
+   {
+    "id": 767722471,
+    "name": "Iteration-v6.6-universal.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5826665,
+    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.6/Iteration-v6.6-universal.apk",
+    "digest": "sha256:981bbb85c6f87f739a19a075d7f113c90c7a36fccb38c10763e65fba1df65997",
+    "download_count": 0
+   },
+   {
+    "id": 767722459,
+    "name": "Iteration-v6.6-x86_64.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 5777253,
+    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.6/Iteration-v6.6-x86_64.apk",
+    "digest": "sha256:31d9a6fb2b3e94208d626b71f10e500b53a5d6b2c71a15f99dcdce2fe09cac9f",
+    "download_count": 0
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-19",
+  "repo": {
+   "id": 1449345151,
+   "full_name": "MiamBao/cardface-miuix",
+   "owner": "MiamBao",
+   "avatar_url": "https://avatars.githubusercontent.com/u/231466032?v=4",
+   "description": "卡面工坊：把小米智能卡的卡面换成你喜欢的图片（LSPosed 模块，Miuix 界面，Lanczos3 图像管线）",
+   "stars": 9,
+   "forks": 1,
+   "topics": [
+    "android",
+    "cardface",
+    "compose",
+    "hyperos",
+    "kotlin",
+    "lsposed",
+    "miuix",
+    "xposed"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-18T01:31:28Z",
+   "created_at": "2026-11-07T12:40:23Z",
+   "license": "GPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-18T03:48:42Z"
+  },
+  "release": {
+   "id": 449500791,
+   "tag": "v2.1.0",
+   "name": "卡面工坊 2.1.0",
+   "notes": "# 卡面工坊 2.1.0\n\n## 新增\n- 全新澎湃 4 风格底栏\n- 首页 / 图库 / 设置三个主界面支持左右滑动切换，底栏选中态实时跟随\n- 页签进入子页面时增加滑入滑出转场\n- 关于页改版，新增作者栏：头像、昵称、酷安主页入口\n\n## 优化\n- 精简设置：移除不常用的诊断入口和设置页底部说明文字\n- 关于页「版本与更新」只保留项目地址\n\n## 修复\n- 修复云端卡面下载并重命名后，图库里同时出现改名文件和缓存文件的问题\n- 修复备份恢复后部分卡面显示成默认图、灰图的问题，备份现在包含实际应用的替换图\n- 修复恢复备份后模块显示“未启用”、需要重新激活的问题\n- 恢复完成后自动重启卡包，减少手动操作\n- 修复损坏或无权限图片导致整次备份导出失败的问题；旧备份缺失的替换图会尝试从卡包目录补回\n\n## 注意\n- 本版最低支持 Android 13（API 33）\n- Android 13 以下请继续使用 2.0.1\n- 仍需 root + LSPosed，升级前建议先导出备份\n",
+   "published_at": "2026-11-18T03:48:54Z",
+   "html_url": "https://github.com/MiamBao/cardface-miuix/releases/tag/v2.1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 761779345,
+    "name": "CardFace-v2.1.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 35603438,
+    "download_url": "https://github.com/MiamBao/cardface-miuix/releases/download/v2.1.0/CardFace-v2.1.0.apk",
+    "digest": "sha256:d28e1c65575177834c688e10ad2b3c45ba4f4095a9244d507a5b24b39cba902c",
+    "download_count": 24
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-19",
+  "repo": {
+   "id": 1359897101,
+   "full_name": "lipengzhou/WebTvLive",
+   "owner": "lipengzhou",
+   "avatar_url": "https://avatars.githubusercontent.com/u/23165266?v=4",
+   "description": "面向 Android TV 和触屏设备的全屏官方直播网页播放器，支持 GeckoView/WebView 双内核、遥控器与触屏操作。",
+   "stars": 9,
+   "forks": 2,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-17T08:38:17Z",
+   "created_at": "2026-09-07T07:19:48Z",
+   "license": "MIT",
+   "language": "Kotlin",
+   "openIssues": 2,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-09-11T06:44:01Z"
+  },
+  "release": {
+   "id": 386166563,
+   "tag": "v0.0.6",
+   "name": "WebTvLive 0.0.6",
+   "notes": "# WebTvLive 0.0.6\n\n- 安装包重命名为 `webtvlive-<内核>-<版本>-<架构>-<类型>.apk`，下载后一眼可辨内核、版本和架构。\n\n按设备选择一个 APK 下载安装：`gecko` 兼容旧电视（包更大），`webview` 适合较新设备（包更小）；64 位设备选 `arm64-v8a`，32 位设备选 `armeabi-v7a`。\n\n本项目仅嵌套展示电视台官网公开直播页，不采集、不存储、不转发视频流，不破解登录/付费/清晰度限制，仅供个人学习与非营利使用。\n",
+   "published_at": "2026-09-10T09:55:19Z",
+   "html_url": "https://github.com/lipengzhou/WebTvLive/releases/tag/v0.0.6",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 554733404,
+    "name": "webtvlive-gecko-0.0.6-arm64-v8a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 95349501,
+    "download_url": "https://github.com/lipengzhou/WebTvLive/releases/download/v0.0.6/webtvlive-gecko-0.0.6-arm64-v8a-release.apk",
+    "digest": "sha256:44ce63f425c8a234068611aca5d099f0df9c23c815b1ec3334d03a6e1b23492b",
+    "download_count": 75
+   },
+   {
+    "id": 554733402,
+    "name": "webtvlive-gecko-0.0.6-armeabi-v7a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 92702591,
+    "download_url": "https://github.com/lipengzhou/WebTvLive/releases/download/v0.0.6/webtvlive-gecko-0.0.6-armeabi-v7a-release.apk",
+    "digest": "sha256:f6cf7afecf9d5289661286a219470442ac25cd8f75e6a24374308558182d81df",
+    "download_count": 137
+   },
+   {
+    "id": 554733407,
+    "name": "webtvlive-webview-0.0.6-arm64-v8a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2398582,
+    "download_url": "https://github.com/lipengzhou/WebTvLive/releases/download/v0.0.6/webtvlive-webview-0.0.6-arm64-v8a-release.apk",
+    "digest": "sha256:678d602398c7fe8bf20cb64bd3bfe9b2fa371af94f3bd3461c61d3128ad3ffe6",
+    "download_count": 83
+   },
+   {
+    "id": 554733411,
+    "name": "webtvlive-webview-0.0.6-armeabi-v7a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 2398582,
+    "download_url": "https://github.com/lipengzhou/WebTvLive/releases/download/v0.0.6/webtvlive-webview-0.0.6-armeabi-v7a-release.apk",
+    "digest": "sha256:678d602398c7fe8bf20cb64bd3bfe9b2fa371af94f3bd3461c61d3128ad3ffe6",
+    "download_count": 105
    }
   ]
  },
@@ -499304,87 +499509,6 @@
     "download_url": "https://github.com/BenigJester/Jester-Mods-Launcher/releases/download/v4.6.5/Jester-Mods-Root.apk",
     "digest": "sha256:4fd13b3c7619f80a6d191e1947e5eb49eb00547bf51565ee2f10a666b03392d3",
     "download_count": 104
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-17",
-  "repo": {
-   "id": 1256539492,
-   "full_name": "LiferLighdow/Iteration",
-   "owner": "LiferLighdow",
-   "avatar_url": "https://avatars.githubusercontent.com/u/201130555?v=4",
-   "description": "Born for Performance, Built for Freedom.",
-   "stars": 8,
-   "forks": 1,
-   "topics": [
-    "android",
-    "android-app",
-    "android-studio",
-    "launcher",
-    "liferlighdow",
-    "lightweight",
-    "liquid-glass",
-    "material-design",
-    "material-ui"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-17T07:14:08Z",
-   "created_at": "2026-06-01T21:52:19Z",
-   "license": "MIT",
-   "language": "Kotlin",
-   "openIssues": 1,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-11-15T06:41:33Z"
-  },
-  "release": {
-   "id": 445801270,
-   "tag": "v6.5.2",
-   "name": "Release v6.5.2",
-   "notes": "Automated release for version 6.5.2.\n\n**Commit Info:**\n- Commit: d7dd3821f4fa1fcd417da80cb4939aa5ddab3b22\n- Timestamp: 2026-11-17T21:46:32+08:00\n\n\n**Full Changelog**: https://github.com/LiferLighdow/Iteration/compare/v6.5.1...v6.5.2",
-   "published_at": "2026-11-15T04:09:15Z",
-   "html_url": "https://github.com/LiferLighdow/Iteration/releases/tag/v6.5.2",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 759252396,
-    "name": "Iteration-v6.5.2-arm64-v8a.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 5777256,
-    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.5.2/Iteration-v6.5.2-arm64-v8a.apk",
-    "digest": "sha256:d946fdfef1867940ac47f85499bde8f4d2415f62e1fbee384fbeb213f826179c",
-    "download_count": 0
-   },
-   {
-    "id": 759252385,
-    "name": "Iteration-v6.5.2-armeabi-v7a.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 5773162,
-    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.5.2/Iteration-v6.5.2-armeabi-v7a.apk",
-    "digest": "sha256:0c91940c1673f2fc5b3b1b0729daeafdeb62ed1b188bcd022248dd6e59a42fad",
-    "download_count": 0
-   },
-   {
-    "id": 759252378,
-    "name": "Iteration-v6.5.2-universal.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 5826665,
-    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.5.2/Iteration-v6.5.2-universal.apk",
-    "digest": "sha256:b0cb50f1fece428ab46a2cf6f4b423cc0add752753bbd9f7323b8b679e0ac2ba",
-    "download_count": 0
-   },
-   {
-    "id": 759252388,
-    "name": "Iteration-v6.5.2-x86_64.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 5777253,
-    "download_url": "https://github.com/LiferLighdow/Iteration/releases/download/v6.5.2/Iteration-v6.5.2-x86_64.apk",
-    "digest": "sha256:1aa0d7e47473ca85337391921321a6e4b12a35a731a4f5fdffe3bea7a0528c58",
-    "download_count": 0
    }
   ]
  },
@@ -522995,7 +523119,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1377302506,
    "full_name": "daniei-chen/ZCode-App",
@@ -523042,7 +523166,7 @@
     "size": 30807781,
     "download_url": "https://github.com/daniei-chen/ZCode-App/releases/download/v1.8.5/ZCode-v1.8.5.apk",
     "digest": "sha256:2389c342c79d060b42b60adfc1958a76f0b02d0906e1303e5a7505edd9b0e706",
-    "download_count": 49
+    "download_count": 57
    },
    {
     "id": 681378103,
@@ -526242,7 +526366,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-16",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1349394235,
    "full_name": "d3afult/Audio-Player",
@@ -526280,7 +526404,7 @@
     "size": 40596535,
     "download_url": "https://github.com/d3afult/Audio-Player/releases/download/v1.0.0/app-arm64-v8a-release.apk",
     "digest": "sha256:f919724f899eaa07dbeec7978219ff50ff6cf2a5d22670f512d33d8f8167ed1a",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 533588537,
@@ -534169,7 +534293,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 288404086,
    "full_name": "gruessung/leihen",
@@ -534291,7 +534415,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1313155763,
    "full_name": "alexskvo10/Enitor",
@@ -534318,7 +534442,7 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": "https://alexskvo10.github.io/Enitor/",
-   "pushedAt": "2026-09-30T09:39:51Z"
+   "pushedAt": "2026-11-16T13:50:37Z"
   },
   "release": {
    "id": 399963910,
@@ -534465,7 +534589,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 841876072,
    "full_name": "chentyjpm/Peach-9B-8K-Roleplay-Android-llama",
@@ -534509,7 +534633,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1239718503,
    "full_name": "NotInsaneYet/sc2d",
@@ -534562,7 +534686,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1006244219,
    "full_name": "lostf1sh/Tickly",
@@ -534609,13 +534733,13 @@
     "size": 27047915,
     "download_url": "https://github.com/lostf1sh/Tickly/releases/download/Release/app-release.apk",
     "digest": "sha256:5cc7872b2c282176132c2486312625c07fb0f0b87790be0cadaa184a9fc4820b",
-    "download_count": 29
+    "download_count": 30
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1327362665,
    "full_name": "ashcastle/duckyslicer",
@@ -534662,13 +534786,13 @@
     "size": 30180425,
     "download_url": "https://github.com/ashcastle/duckyslicer/releases/download/v0.2.0-alpha.13/DuckySlicer-0.2.0-alpha.13-arm64.apk",
     "digest": "sha256:ab97a9140811b735382b25d6a50c040f37860801876c8b1ce31ca727233c8ee4",
-    "download_count": 20
+    "download_count": 21
    }
   ]
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 399817104,
    "full_name": "SCCapstone/CapiStonsker",
@@ -534721,7 +534845,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1027254394,
    "full_name": "devinaxo/gatoDex",
@@ -534774,7 +534898,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 645046283,
    "full_name": "tortamque/Passlum",
@@ -543087,7 +543211,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1309609409,
    "full_name": "zhangheng2022/meet_trace",
@@ -543114,7 +543238,7 @@
    "openIssues": 10,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-11-13T17:59:09Z"
+   "pushedAt": "2026-11-16T01:13:14Z"
   },
   "release": {
    "id": 382575255,
@@ -543175,7 +543299,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1315700952,
    "full_name": "bedge117/qmonstatek-mobile",
@@ -543213,7 +543337,7 @@
     "size": 54189172,
     "download_url": "https://github.com/bedge117/qmonstatek-mobile/releases/download/v0.1.0-beta/qMonstatek-Mobile-v0.1.0-beta.apk",
     "digest": "sha256:c9b3c07f09ba9bdddbbf7c449edeb4c33b23791183e0cdb50768e9d10363db3b",
-    "download_count": 73
+    "download_count": 76
    }
   ]
  },
@@ -546239,7 +546363,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1315107132,
    "full_name": "Arct-Development/AniFox",
@@ -546268,10 +546392,10 @@
    "created_at": "2026-07-28T14:57:17Z",
    "license": "GPL-3.0",
    "language": "Dart",
-   "openIssues": 1,
+   "openIssues": 2,
    "watchers": null,
    "homepage": "https://anifox.runs-on.dev",
-   "pushedAt": "2026-11-15T04:43:15Z"
+   "pushedAt": "2026-11-17T10:23:59Z"
   },
   "release": {
    "id": 445392057,
@@ -546290,7 +546414,7 @@
     "size": 27035285,
     "download_url": "https://github.com/Arct-Development/AniFox/releases/download/v1.0.0/anifox-v1.0.0-arm64-v8a.apk",
     "digest": "sha256:c78293752b8dc13008bf6b2455334c17777db2a51ab0eb48574f47508a6bc0bb",
-    "download_count": 16
+    "download_count": 25
    },
    {
     "id": 747901320,
@@ -546335,7 +546459,7 @@
     "size": 69624801,
     "download_url": "https://github.com/Arct-Development/AniFox/releases/download/v1.0.0/anifox-v1.0.0-universal.apk",
     "digest": "sha256:d21491fe15df3ffdc07859ad5249bfaf5ddfb27d121fa5d76b5c70e3e5906bfd",
-    "download_count": 7
+    "download_count": 12
    },
    {
     "id": 747901328,
@@ -546368,7 +546492,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1415789275,
    "full_name": "codepdbh/army-men-rts-android-evolved",
@@ -546376,7 +546500,7 @@
    "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
    "description": "Army Men RTS Android ARM64 port research with Vulkan 1.1 target",
    "stars": 6,
-   "forks": 0,
+   "forks": 1,
    "topics": [],
    "archived": false,
    "default_branch": "main",
@@ -546406,7 +546530,7 @@
     "size": 28443868,
     "download_url": "https://github.com/codepdbh/army-men-rts-android-evolved/releases/download/v0.6.0/ArmyMenRTS-AndroidEvolved-v0.6.0-arm64.apk",
     "digest": "sha256:07b64a67abe5a22025361c1c6eedcd4b44ad9c9757d8bb7088f840471583cf3b",
-    "download_count": 665
+    "download_count": 748
    },
    {
     "id": 681894026,
@@ -546415,7 +546539,7 @@
     "size": 109,
     "download_url": "https://github.com/codepdbh/army-men-rts-android-evolved/releases/download/v0.6.0/ArmyMenRTS-v0.6.0-SHA256SUMS.txt",
     "digest": "sha256:54a34ed9a92f5e7cdba5b1bcf5d2dd1e0ca39ce9172c5de0031e278c0024e654",
-    "download_count": 162
+    "download_count": 187
    }
   ]
  },
@@ -549523,6 +549647,126 @@
     "download_url": "https://github.com/justakhi/hotspot-monitor/releases/download/v1.0.1/SHA256SUMS.txt",
     "digest": "sha256:a98d6b7c5fe6e4d3e75554539e41e3c488de1ea174f6d6517bcd21e6449deb9c",
     "download_count": 1
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-19",
+  "repo": {
+   "id": 1406571011,
+   "full_name": "Granter-z/parcly",
+   "owner": "Granter-z",
+   "avatar_url": "https://avatars.githubusercontent.com/u/245686546?v=4",
+   "description": "拼多多 / 京东 / 淘宝物流聚合追踪 Android 应用（Flutter）。在途优先列表、官方级物流时间轴、后台自动同步与平台保活，解决包裹分散与双端登录互踢。",
+   "stars": 6,
+   "forks": 2,
+   "topics": [
+    "android",
+    "courier",
+    "dart",
+    "express-delivery",
+    "flutter",
+    "hive",
+    "jingdong",
+    "logistics",
+    "package-tracking",
+    "pinduoduo",
+    "riverpod",
+    "taobao",
+    "webview"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-18T06:32:16Z",
+   "created_at": "2026-10-06T01:53:46Z",
+   "license": "GPL-3.0",
+   "language": "Dart",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-17T16:13:48Z"
+  },
+  "release": {
+   "id": 447062641,
+   "tag": "v1.0.0+21",
+   "name": "Parcly 1.0.0+21",
+   "notes": "## Parcly 1.0.0+21\n\n基于 main `1a80264` · Android `versionName 1.0.0` / `versionCode 21`（arm64 split 资产由 Flutter 生成 `2021`）。\n\n### 本版改动\n- **UI 动效（#45）**：SpringCard 按压弹簧、ID 驱动的列表退出/同 ID 重入、已完成菜单会话守卫、Reduce Motion。\n- **保活与 PDD（#47）**：\n  - 后台 worker 改 JSON 桥，不再跨 isolate 写 Hive；WorkManager 4h + keep；电池白名单与通知权限。\n  - PDD 旧件「列表已完成 + 最新轨迹超 7 天」采信完成；补「已取走 / 已领取」签收信号；同步取消与内存上限。\n  - JD 秒送/外卖按结构 + 状态文案双重过滤。\n  - 审查修复：启动链兜底、到件通知成功才落盘、`lastFetchedAt`、手动刷新 force、inexact 24h 提醒、通知 id/图标、增量落盘、超时不记同步、Hive 宽容读取。\n- **PII（#46）**：测试/注释真实样例换合成值；PII 门禁覆盖手机号、运单号、取件码，并修复中文紧贴时的边界漏检。\n- **通知图标（#48）**：release 资源裁剪不再删除 `ic_stat_parcel`。\n\n### 已知限制\n- P45 UI 动效的真机录屏/profile、读屏与键盘、真实触觉/剪贴板、320px / 1.8 倍字号长码溢出等 QA 项仍待补。\n- 保活与 PDD 行为已在真机验证；淘宝 H5 会话长期稳定性仍需继续观察。\n\n### 安装\n- 优先 `adb install -r` 覆盖安装；**勿**卸装 / 清 Hive / 清登录。\n- arm64 设备推荐 `parcly-1.0.0+21-arm64-v8a-release.apk`；不确定架构用 universal。\n- split arm64 的 versionCode 为 `2021`，高于 universal `21`；先装 universal 再装 arm64 会被视为升级，反之需要更高 versionCode。\n\n### 资产\n| 文件 | 说明 |\n| --- | --- |\n| `parcly-1.0.0+21-arm64-v8a-release.apk` | 推荐（arm64，约 26MB） |\n| `parcly-1.0.0+21-universal-release.apk` | 全 ABI（约 62MB） |\n| `SHA256SUMS.txt` | SHA-256 校验 |\n\n签名：仓库惯例 **Android Debug**（release 使用 debug signingConfig，无独立 release keystore）。\n",
+   "published_at": "2026-11-16T13:15:24Z",
+   "html_url": "https://github.com/Granter-z/parcly/releases/tag/v1.0.0%2B21",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 754919182,
+    "name": "parcly-1.0.0+21-arm64-v8a-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 26886657,
+    "download_url": "https://github.com/Granter-z/parcly/releases/download/v1.0.0%2B21/parcly-1.0.0%2B21-arm64-v8a-release.apk",
+    "digest": "sha256:72f23c9189fe802a4bb79fd907ded6d0543a0e731fd215f298eac4d1a772d258",
+    "download_count": 8
+   },
+   {
+    "id": 754919163,
+    "name": "parcly-1.0.0+21-universal-release.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 64113624,
+    "download_url": "https://github.com/Granter-z/parcly/releases/download/v1.0.0%2B21/parcly-1.0.0%2B21-universal-release.apk",
+    "digest": "sha256:bbe87877f271ccc3ac2e3d16872b13c7a7e4d0cd754caf0cc1ed815bfb636634",
+    "download_count": 2
+   },
+   {
+    "id": 754919176,
+    "name": "SHA256SUMS.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 208,
+    "download_url": "https://github.com/Granter-z/parcly/releases/download/v1.0.0%2B21/SHA256SUMS.txt",
+    "digest": "sha256:c611d4ef98d38f6478f0d2fcad34813bc09085e5f6c15af9ace68329b32a4463",
+    "download_count": 2
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-19",
+  "repo": {
+   "id": 1361530758,
+   "full_name": "luisxl15/NAMCO-2x6-ANDROID-EMU",
+   "owner": "luisxl15",
+   "avatar_url": "https://avatars.githubusercontent.com/u/82811784?v=4",
+   "description": null,
+   "stars": 6,
+   "forks": 1,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-19T10:05:45Z",
+   "created_at": "2026-09-08T14:59:58Z",
+   "license": "GPL-3.0",
+   "language": "C++",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-09-16T13:25:06Z"
+  },
+  "release": {
+   "id": 385799833,
+   "tag": "v1.0.0",
+   "name": "Namco System 246 EMU v1.0.0",
+   "notes": "The first public build of **Namco System 246 EMU** — an Android emulator for the NAMCO System\r\n246/256 arcade boards.\r\n\r\n### Which file\r\n\r\n| | |\r\n|---|---|\r\n| `NamcoSystem246EMU-arm64-v8a.apk` | **phones and tablets** — this is the one you want \r\n\r\n**debug** builds — unsigned for the store, a little larger and a little slower than a\r\nrelease build, and exactly what every screenshot and every test in the README was made on.\r\n\r\n### What you still need\r\n\r\nThe app ships no BIOS and no games:\r\n\r\n- a **COH-H** System 246/256 BIOS — or the open-source one the app can download for you from\r\n  inside the BIOS screen\r\n- your game images as `.chd`, with their dongle file\r\n\r\n### In this build\r\n\r\n- The board: ACATA/ACATAPI, ACJV, ACSRAM, ACRAM, ACUART, and ARM64 recompilers taught the 128 MB\r\n  map an arcade boot asks for\r\n- Cabinet switches, six control modes, the analog stick standing in for the lever, wheel with\r\n  deadzone and tilt steering, lightgun by touch or by gyro, Taiko drums, two players on two pads\r\n- `.acgame` wizard, manifest repair, pre-flight check, install from `.zip`/`.7z`/a folder/a PC\r\n  browser over the local network\r\n- Board badges, arcade box art by game id, logos, bezels\r\n- Backup, restore, export and import of the board's SRAM — the high scores\r\n- Per-game settings that never overwrite the global ones\r\n- Link between two devices on one Wi-Fi\r\n\r\n### Known limits\r\n\r\n- Media on `.chd` is read-only: a game that writes to its own disc has those writes dropped\r\n- Shaders compile the first time each variant appears, which is felt as a stutter\r\n- The cabinet link's transport works; whether any of these games links is still unproven\r\n- The interface is Portuguese (Brazil)\r\n\r\nLicensed GPL-3.0. Built on [pcsx2x6](https://github.com/PS2Homebrew-arcade/pcsx2x6),\r\n[ARMSX2](https://github.com/ARMSX2/ARMSX2) and [PCSX2](https://github.com/PCSX2/pcsx2).\r\nNot affiliated with Bandai Namco.\r\n",
+   "published_at": "2026-09-09T19:47:42Z",
+   "html_url": "https://github.com/luisxl15/NAMCO-2x6-ANDROID-EMU/releases/tag/v1.0.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 553454379,
+    "name": "NamcoSystem246EMU-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 79412404,
+    "download_url": "https://github.com/luisxl15/NAMCO-2x6-ANDROID-EMU/releases/download/v1.0.0/NamcoSystem246EMU-arm64-v8a.apk",
+    "digest": "sha256:b6892208b7bb795316a826013f9232fa441c68dfcf77b7434aa805cb511a64b9",
+    "download_count": 156
    }
   ]
  },
@@ -723711,7 +723955,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-16",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1328443168,
    "full_name": "genericusername2709/android_video_player",
@@ -759266,7 +759510,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 901534589,
    "full_name": "aveltras/android-tablet-bridge",
@@ -759310,7 +759554,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1359891526,
    "full_name": "wyyyz1937365497/WezTerm_Android",
@@ -759354,7 +759598,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1160569106,
    "full_name": "SR-Zhou/EC-Wallet-Android",
@@ -759398,7 +759642,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 933496260,
    "full_name": "51simple/MyRustdeskAndroid",
@@ -761140,7 +761384,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 356360237,
    "full_name": "islamstatus360/me_azkar",
@@ -761193,7 +761437,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 586718570,
    "full_name": "yuriisurzhykov/KMM-MobileTranslator",
@@ -761254,7 +761498,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1408312346,
    "full_name": "relax-sketch/pikpak-live-subtitles",
@@ -761298,7 +761542,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1293021110,
    "full_name": "akarakuts/durak-android-game",
@@ -761405,7 +761649,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1343159482,
    "full_name": "Harishprc/word-lookup-android",
@@ -781469,7 +781713,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1431248607,
    "full_name": "Zwiebelrostbraten/phonon-tts-android",
@@ -781515,7 +781759,7 @@
     "size": 18065764,
     "download_url": "https://github.com/Zwiebelrostbraten/phonon-tts-android/releases/download/v1.1.0/Phonon-TTS-Community-v1.1.0.apk",
     "digest": "sha256:c14b42833d61cc06c288f0274ae0ef10a073ccc1c93d814dc3981be5577eb8bb",
-    "download_count": 21
+    "download_count": 30
    },
    {
     "id": 720970864,
@@ -781530,7 +781774,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1419680413,
    "full_name": "brittonr/herdr-gpui-android",
@@ -781568,7 +781812,7 @@
     "size": 28942651,
     "download_url": "https://github.com/brittonr/herdr-gpui-android/releases/download/android-preview-0.5.0-gpui-remote.9/herdr-arm64-v8a-debug.apk",
     "digest": "sha256:cf65fdf1c124dd4c49681a0da15a771982f29820e7c9e27d4cddd2fb89217416",
-    "download_count": 1
+    "download_count": 2
    },
    {
     "id": 692310219,
@@ -781577,7 +781821,7 @@
     "size": 1237,
     "download_url": "https://github.com/brittonr/herdr-gpui-android/releases/download/android-preview-0.5.0-gpui-remote.9/herdr-arm64-v8a-debug.apk.badging.txt",
     "digest": "sha256:2c593e348882043cd86f90725eb64cb3c32b368e9c862efc44dd0d76f838a568",
-    "download_count": 0
+    "download_count": 1
    },
    {
     "id": 692310231,
@@ -781680,7 +781924,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1425588298,
    "full_name": "Godoshi9/AirBridge-Android",
@@ -781848,7 +782092,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1395805015,
    "full_name": "Hexalyse/wisprcheap-android",
@@ -781901,7 +782145,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1414519994,
    "full_name": "legendary-cookie/translation-practice-platform",
@@ -781979,7 +782223,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1429912382,
    "full_name": "NickCh11/PaperFlow",
@@ -782468,7 +782712,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1424013416,
    "full_name": "HoangDeXiong01/Android-Localization",
@@ -782494,26 +782738,26 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-11-15T07:26:57Z"
+   "pushedAt": "2026-11-19T00:57:05Z"
   },
   "release": {
-   "id": 445883011,
-   "tag": "v1.5.4",
-   "name": "Android Localization 1.5.4",
+   "id": 450743918,
+   "tag": "v1.5.8",
+   "name": "Android Localization 1.5.8",
    "notes": "",
-   "published_at": "2026-11-15T07:26:58Z",
-   "html_url": "https://github.com/HoangDeXiong01/Android-Localization/releases/tag/v1.5.4",
+   "published_at": "2026-11-19T00:57:06Z",
+   "html_url": "https://github.com/HoangDeXiong01/Android-Localization/releases/tag/v1.5.8",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 750205159,
-    "name": "Android-Localization-1.5.4.apk",
+    "id": 765653408,
+    "name": "Android-Localization-1.5.8.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 3248070,
-    "download_url": "https://github.com/HoangDeXiong01/Android-Localization/releases/download/v1.5.4/Android-Localization-1.5.4.apk",
-    "digest": "sha256:a7fa67aa8e34b3f04bb83d7a9aa28802f59426ac536d56ec78f5430374d9506e",
-    "download_count": 1
+    "size": 3256938,
+    "download_url": "https://github.com/HoangDeXiong01/Android-Localization/releases/download/v1.5.8/Android-Localization-1.5.8.apk",
+    "digest": "sha256:da82af66df6bebcd30815dc9df95539e16424b2ddd91d90e399a8e816cc6229c",
+    "download_count": 2
    }
   ]
  },
@@ -788140,7 +788384,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1444417261,
    "full_name": "Gabo-Tech/grok-voice-android",
@@ -788178,7 +788422,7 @@
     "size": 45743184,
     "download_url": "https://github.com/Gabo-Tech/grok-voice-android/releases/download/v0.1.46/GrokVoice-0.1.46.apk",
     "digest": "sha256:fd79cad46bf5a66ca9a0a6de50d56c7d09295b8e4a8073d6fb7f221b3f66f80b",
-    "download_count": 13
+    "download_count": 31
    }
   ]
  },
@@ -788406,7 +788650,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1446633041,
    "full_name": "oswin-creator/tingqiao-realtime-translation",
@@ -788462,7 +788706,7 @@
     "size": 348809,
     "download_url": "https://github.com/oswin-creator/tingqiao-realtime-translation/releases/download/v0.2.31/TingQiao-Captions-Android-0.3.2.apk",
     "digest": "sha256:d19da9edbb70443e12db911f7dc7583a921e2b64e600cbf4cc73206a8bef1995",
-    "download_count": 3
+    "download_count": 4
    },
    {
     "id": 723795004,
@@ -788471,7 +788715,7 @@
     "size": 10309450,
     "download_url": "https://github.com/oswin-creator/tingqiao-realtime-translation/releases/download/v0.2.31/TingQiao-macOS-arm64-0.2.31.dmg",
     "digest": "sha256:3dd453348e00841db0e29768cf290d7cba763a8c1dfa371f91b1077199db7bb9",
-    "download_count": 1
+    "download_count": 2
    }
   ]
  },
@@ -791193,7 +791437,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1451642022,
    "full_name": "xwlzLSC/paper-translation-studio",
@@ -794879,7 +795123,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1455864295,
    "full_name": "nak1ost/idevice-pair-android",
@@ -794923,7 +795167,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-15",
+  "last_verified": "2026-11-19",
   "repo": {
    "id": 1458120518,
    "full_name": "serrebidev/BlindRadio-Android",
@@ -794942,34 +795186,34 @@
    "openIssues": 0,
    "watchers": null,
    "homepage": "",
-   "pushedAt": "2026-11-15T10:17:44Z"
+   "pushedAt": "2026-11-19T06:07:06Z"
   },
   "release": {
-   "id": 445968488,
-   "tag": "v0.3.1",
-   "name": "v0.3.1",
-   "notes": "- Stations on older secure servers play, such as Radio Koszalin (https://stream6.nadaje.com:8503/). They said \"Unreachable\" while VLC played them: their servers only speak an old kind of encryption, and BlindRadio now falls back to one that speaks it.",
-   "published_at": "2026-11-15T10:18:05Z",
-   "html_url": "https://github.com/serrebidev/BlindRadio-Android/releases/tag/v0.3.1",
+   "id": 450930282,
+   "tag": "v0.3.4",
+   "name": "v0.3.4",
+   "notes": "\n- Last.fm scrobbling is gone: it needed an API key and secret of your own. Old Last.fm settings are dropped.\n- Libre.fm scrobbling signs in with just your user name and password: Settings, Songs, Sign in to Libre.fm. It says whose account it signed in to and keeps only the sign-in, never the password. Clear the user name to sign out.\n- ListenBrainz can scrobble to a server of your own, or to Maloja or Koito: type its address in ListenBrainz server. Blank is listenbrainz.org.\n- Check ListenBrainz says whose token it is, or why the server refused it.\n- A song whose title names no artist is no longer sent to be scrobbled. Both services refuse such listens.\n- The version number matches BlindRadio for desktop.\n\n",
+   "published_at": "2026-11-19T05:48:33Z",
+   "html_url": "https://github.com/serrebidev/BlindRadio-Android/releases/tag/v0.3.4",
    "prerelease": false
   },
   "assets": [
    {
-    "id": 750606558,
-    "name": "BlindRadio-Android-v0.3.1.apk",
+    "id": 766421033,
+    "name": "BlindRadio-Android-v0.3.4.apk",
     "content_type": "application/vnd.android.package-archive",
-    "size": 34098007,
-    "download_url": "https://github.com/serrebidev/BlindRadio-Android/releases/download/v0.3.1/BlindRadio-Android-v0.3.1.apk",
-    "digest": "sha256:e7ec3bd15674c5508d51abe5f48be56c800e8b4297c85cbdef29a871ad8c1857",
+    "size": 34738847,
+    "download_url": "https://github.com/serrebidev/BlindRadio-Android/releases/download/v0.3.4/BlindRadio-Android-v0.3.4.apk",
+    "digest": "sha256:547b06162ce43a1ddfd83eea2c4fd4bf2738c3635321016ed0e4081d7f19e392",
     "download_count": 1
    },
    {
-    "id": 750606605,
-    "name": "BlindRadio-Android-v0.3.1.apk.sha256",
+    "id": 766421105,
+    "name": "BlindRadio-Android-v0.3.4.apk.sha256",
     "content_type": "application/octet-stream",
     "size": 96,
-    "download_url": "https://github.com/serrebidev/BlindRadio-Android/releases/download/v0.3.1/BlindRadio-Android-v0.3.1.apk.sha256",
-    "digest": "sha256:a51a17aa8dfc4cebf7a0af1625efcb5d3254b4923317a11a01a032e7f5598859",
+    "download_url": "https://github.com/serrebidev/BlindRadio-Android/releases/download/v0.3.4/BlindRadio-Android-v0.3.4.apk.sha256",
+    "digest": "sha256:7480469bf69c75acbd68da941f6bfa6553750951a892d9c3355d3a16607581c2",
     "download_count": 1
    }
   ]
@@ -798105,6 +798349,68 @@
     "download_url": "https://github.com/enhulsman/kudde/releases/download/v0.5.0/SHA256SUMS",
     "digest": "sha256:09c2930ebd80239e8f5899802d396ecd44de43681d45bd6142f1dd5df3cd3e17",
     "download_count": 3
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-19",
+  "repo": {
+   "id": 1412542885,
+   "full_name": "toddsmith456/nurunuru-android",
+   "owner": "toddsmith456",
+   "avatar_url": "https://avatars.githubusercontent.com/u/326279892?v=4",
+   "description": "Nurunuru (null--nostr) Nostr client for Android, translated to English",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-17T16:34:50Z",
+   "created_at": "2026-10-09T23:13:30Z",
+   "license": "Unlicense",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-10-10T04:04:19Z"
+  },
+  "release": {
+   "id": 408626468,
+   "tag": "v1.5.4-en",
+   "name": "Nurunuru 1.5.4 (English) — Android",
+   "notes": "# Nurunuru 1.5.4 (English) — Android\n\nEnglish translation of the Android client from [tami1A84/null--nostr v1.5.4](https://github.com/tami1A84/null--nostr/releases/tag/v1.5.4).\n\n## Downloads\n- **nurunuru-1.5.4-arm64-v8a.apk**: Android APK for arm64 devices (minSdk 26, targetSdk 35)\n- **Source code (zip / tar.gz)**: attached below, also available from the tag\n\n## What changed\n- All user-facing text (UI, errors, notifications, settings, mini-app labels) translated to English\n- Code comments remain in Japanese\n- Tutorial hashtag `#nostrはじめました` kept as-is for discovery compatibility\n- Web app, iOS app, and the Node (napi) binding removed; this repo is Android only\n\n## Signing\nThis APK is signed with a **new release key** created for this English fork. It is not signed with the original project's key, so it **cannot be installed over** the original Nurunuru app; uninstall the original first.\n\n## Build from source\nSee the README. Requires JDK 17+ and the Android SDK (platform 35).\n",
+   "published_at": "2026-10-10T04:04:19Z",
+   "html_url": "https://github.com/toddsmith456/nurunuru-android/releases/tag/v1.5.4-en",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 626950927,
+    "name": "nurunuru-1.5.4-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 36066017,
+    "download_url": "https://github.com/toddsmith456/nurunuru-android/releases/download/v1.5.4-en/nurunuru-1.5.4-arm64-v8a.apk",
+    "digest": "sha256:b6b1a29d22c24e19393f5ba3f1c67a20552d5e7b90e69e8a7c5a70181f235b54",
+    "download_count": 5
+   },
+   {
+    "id": 626951039,
+    "name": "nurunuru-android-1.5.4-en-source.tar.gz",
+    "content_type": "application/gzip",
+    "size": 15300329,
+    "download_url": "https://github.com/toddsmith456/nurunuru-android/releases/download/v1.5.4-en/nurunuru-android-1.5.4-en-source.tar.gz",
+    "digest": "sha256:32eb9051f829a1ef49aa16d6a735797d94b81ce5fa0905ce68a6a28121507c22",
+    "download_count": 0
+   },
+   {
+    "id": 626950982,
+    "name": "nurunuru-android-1.5.4-en-source.zip",
+    "content_type": "application/zip",
+    "size": 15421065,
+    "download_url": "https://github.com/toddsmith456/nurunuru-android/releases/download/v1.5.4-en/nurunuru-android-1.5.4-en-source.zip",
+    "digest": "sha256:1533de440b7c35837350862349533def02b4543d264251e6231bc921c3d65401",
+    "download_count": 0
    }
   ]
  },
@@ -808348,268 +808654,6 @@
     "download_url": "https://github.com/FreedoomForm/jimmy-agent-android/releases/download/v0.7.7/JimmyAgent-v0.7.7.apk",
     "digest": "sha256:6dfb61ef715ad1b07f4a510e2e921d0c0b8baccae6209c15459c89e0a2d7755c",
     "download_count": 6
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1447101016,
-   "full_name": "itsrawdevvvvvv-arch/xp-android",
-   "owner": "itsrawdevvvvvv-arch",
-   "avatar_url": "https://avatars.githubusercontent.com/u/334441510?v=4",
-   "description": "XP — Android video editor for Python scripts. Kotlin + Compose + Chaquopy (Python 3.11), custom timeline, MediaCodec export.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-05T14:59:56Z",
-   "created_at": "2026-11-05T14:26:14Z",
-   "license": null,
-   "language": "Kotlin",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-11-05T15:02:39Z"
-  },
-  "release": {
-   "id": 435349055,
-   "tag": "build-8",
-   "name": "XP build 8",
-   "notes": "XP — Android video editor. Kotlin + Compose + Chaquopy (Python 3.11).\n\n**Install:** download `XP-1.0.0.apk` below and sideload it (Android 9+ / arm64).\n",
-   "published_at": "2026-11-05T15:02:40Z",
-   "html_url": "https://github.com/itsrawdevvvvvv-arch/xp-android/releases/tag/build-8",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 713785967,
-    "name": "XP-1.0.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 50320242,
-    "download_url": "https://github.com/itsrawdevvvvvv-arch/xp-android/releases/download/build-8/XP-1.0.0.apk",
-    "digest": "sha256:d968fee6da88548127d70eac709db7453b42b0f2ae92890e882a0fe3554fb325",
-    "download_count": 1
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1408750921,
-   "full_name": "Ahmed69450/ovos-android-arabic-assistant",
-   "owner": "Ahmed69450",
-   "avatar_url": "https://avatars.githubusercontent.com/u/104768735?v=4",
-   "description": "Local Offline Arabic Voice Assistant for Android adapted from OpenVoiceOS (ovos-core) with Chaquopy embedded Python",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-08T10:46:53Z",
-   "created_at": "2026-10-07T12:29:17Z",
-   "license": null,
-   "language": "Python",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-10-08T10:46:46Z"
-  },
-  "release": {
-   "id": 406719629,
-   "tag": "v2.3.0",
-   "name": "OVOS Arabic Assistant v2.3.0",
-   "notes": "### المساعد الصوتي العربي (OVOS Voice Assistant v2.3.0 - ONNX Semantic Router Edition)\nتحول معماري ذكي نحو نماذج التضمين الدلالي وموجه المعاني:\n\n- **موجه المعاني الدلالي (ONNX Semantic Router):** استبدال TF-IDF بنموذج Dense Multilingual Embedding (384 أبعاد) لفهم المعنى البشري واللهجات بدقة (مثل فهم \"اني زين\" و\"الحمد لله\").\n- **منطق التراجع الصارم (Strict Fallback - Zero Hallucinations):** حظر البحث العشوائي في ويكيبيديا؛ إذا قلت ثقة المطابقة عن 65% يتراجع المساعد فوراً وبأمان.\n- **ذاكرة سياق الحوار (Conversational Chitchat Memory):** استكمال تبادل التحايا والاطمئنان على الحال بمرونة ذكية ودون وسائط خارجية.\n- **الاستدلال السريع وخفة المعالج:** حساب التشابه الزاوي (Cosine Similarity) في أقل من 15 ملي ثانية عبر معالجات أندرويد.\n",
-   "published_at": "2026-10-08T10:49:21Z",
-   "html_url": "https://github.com/Ahmed69450/ovos-android-arabic-assistant/releases/tag/v2.3.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 621545339,
-    "name": "app-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 236609670,
-    "download_url": "https://github.com/Ahmed69450/ovos-android-arabic-assistant/releases/download/v2.3.0/app-debug.apk",
-    "digest": "sha256:dfc5ebaf3f5cd4e71cfe5dfa316d8c10c4d67250074fe5e12b16570338ee6f50",
-    "download_count": 1
-   },
-   {
-    "id": 621545342,
-    "name": "app-debug.apk.sha256",
-    "content_type": "application/octet-stream",
-    "size": 80,
-    "download_url": "https://github.com/Ahmed69450/ovos-android-arabic-assistant/releases/download/v2.3.0/app-debug.apk.sha256",
-    "digest": "sha256:82dc0c19f6ca1f440dcf2cc44867e9d42eb28a6df7ecfb825a9cd6bc319d9ed1",
-    "download_count": 0
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1445898264,
-   "full_name": "Hakim3691/EdgeVision-Wallpaper",
-   "owner": "Hakim3691",
-   "avatar_url": "https://avatars.githubusercontent.com/u/334849664?v=4",
-   "description": "Transparent Android live wallpaper with on-device Camera2 hazard detection (Chaquopy + TFLite).",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-08T16:18:44Z",
-   "created_at": "2026-11-04T16:14:16Z",
-   "license": null,
-   "language": "Kotlin",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-11-08T16:18:40Z"
-  },
-  "release": {
-   "id": 437786710,
-   "tag": "v1.5.0",
-   "name": "v1.5.0",
-   "notes": "**Full Changelog**: https://github.com/Hakim3691/EdgeVision-Wallpaper/compare/v1.4.1...v1.5.0",
-   "published_at": "2026-11-07T19:17:50Z",
-   "html_url": "https://github.com/Hakim3691/EdgeVision-Wallpaper/releases/tag/v1.5.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 721679499,
-    "name": "app-arm64-v8a-debug.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 36672730,
-    "download_url": "https://github.com/Hakim3691/EdgeVision-Wallpaper/releases/download/v1.5.0/app-arm64-v8a-debug.apk",
-    "digest": "sha256:b3c2651bf4b5af45baf171269ee5460ef6a774aa594ca2d3103f26f30893120a",
-    "download_count": 5
-   },
-   {
-    "id": 721679500,
-    "name": "app-arm64-v8a-release.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 35452412,
-    "download_url": "https://github.com/Hakim3691/EdgeVision-Wallpaper/releases/download/v1.5.0/app-arm64-v8a-release.apk",
-    "digest": "sha256:1ec5f7cdf73e4de13aee42f638242ccdb341ef84b51abf8cab120957aa423b57",
-    "download_count": 6
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1303561707,
-   "full_name": "azlan194/Pogo-Scanner-Android",
-   "owner": "azlan194",
-   "avatar_url": "https://avatars.githubusercontent.com/u/25945462?v=4",
-   "description": "A persistent, background-aware Pokémon Go scanner application built for Android using Kotlin and Python (via Chaquopy).",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-07-17T04:38:41Z",
-   "created_at": "2026-07-17T04:36:49Z",
-   "license": null,
-   "language": "Python",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-07-17T04:41:56Z"
-  },
-  "release": {
-   "id": 355475716,
-   "tag": "v1.0",
-   "name": "v1.0",
-   "notes": "Official v1.0 release",
-   "published_at": "2026-07-17T04:41:56Z",
-   "html_url": "https://github.com/azlan194/Pogo-Scanner-Android/releases/tag/v1.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 479974983,
-    "name": "PogoScanner_v1.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 41696161,
-    "download_url": "https://github.com/azlan194/Pogo-Scanner-Android/releases/download/v1.0/PogoScanner_v1.0.apk",
-    "digest": "sha256:4eb862b4d72ebc855e8b179a0a283e09e1eec416a21ee312ad32b7c9dba6b4e2",
-    "download_count": 0
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1426583614,
-   "full_name": "usamanadim/Qivaryn_Android_app",
-   "owner": "usamanadim",
-   "avatar_url": "https://avatars.githubusercontent.com/u/117066055?v=4",
-   "description": "Qivaryn Android app: serverless, on-device Instagram media downloader. Releases here feed the in-app updater.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [
-    "android",
-    "chaquopy",
-    "instagram-downloader",
-    "jetpack-compose",
-    "kotlin"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-23T03:24:48Z",
-   "created_at": "2026-10-20T06:12:37Z",
-   "license": null,
-   "language": "Kotlin",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-10-20T09:17:47Z"
-  },
-  "release": {
-   "id": 418216146,
-   "tag": "v0.1.1",
-   "name": "Qivaryn v0.1.1",
-   "notes": "# Qivaryn 0.1.1\n\nMaintenance release that fixes the audio track of downloaded Reels and makes\nthe app report why a download failed.\n\nThis is a **pre-1.0 beta**. The app currently targets a single platform, so the\nversion stays on the `0.x` line; `1.0.0` is reserved for the feature-complete\nrelease that works across every planned platform.\n\n## Highlights\n\n- **Reels keep their sound.** Instagram serves Reel video as DASH streams that\n  are often VP9 or AV1. Android's own MP4 writer only stores H.264 and H.265, so\n  the audio track could not be muxed into the video and the Reel was saved\n  silent. Media3 does the muxing now, so the 1080p stream keeps its audio. If a\n  device cannot copy a codec, the engine falls back to Instagram's progressive\n  stream, which already carries the final audio — a download can no longer end\n  up without sound.\n- **Failures say what went wrong.** A failed download now shows the actual\n  reason (an expired Instagram session, a private post, rate limiting, a\n  network problem) instead of a generic message, and tapping the row opens the\n  details with a shortcut to the cookie manager.\n- **A real cookie check.** \"Check Cookie Status\" contacts Instagram and reports\n  whether the imported session is still valid, rather than only checking that a\n  file exists.\n- **Smaller app.** The bundled FFmpeg copies are gone: Android does not allow\n  executing binaries from app storage, so they could never run. The APK is now\n  37 MB instead of 84 MB.\n- **Cookie imports are tidier.** Only `instagram.com` cookies are kept from an\n  export, so a full browser export no longer copies unrelated sessions into\n  the app.\n\n## Updating\n\nThis build follows the beta channel: it offers newer `0.x` pre-releases and\n`1.0.0`+ stable releases. Installing an update preserves cookies, download\nhistory, settings, and `Downloads/Qivaryn`.\n\n## Notes\n\n- Beta software: expect rough edges; report issues on the repository.\n- Reels already downloaded without audio are not re-processe",
-   "published_at": "2026-10-20T09:20:49Z",
-   "html_url": "https://github.com/usamanadim/Qivaryn_Android_app/releases/tag/v0.1.1",
-   "prerelease": true
-  },
-  "assets": [
-   {
-    "id": 658843295,
-    "name": "checksums.txt",
-    "content_type": "text/plain; charset=utf-8",
-    "size": 94,
-    "download_url": "https://github.com/usamanadim/Qivaryn_Android_app/releases/download/v0.1.1/checksums.txt",
-    "digest": "sha256:7fdddfeb4133adb11da648bd353cbdf2c36cbeeaabf8b94f17c393ba8732520a",
-    "download_count": 1
-   },
-   {
-    "id": 658843292,
-    "name": "Qivaryn-0.1.1-universal.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 33893304,
-    "download_url": "https://github.com/usamanadim/Qivaryn_Android_app/releases/download/v0.1.1/Qivaryn-0.1.1-universal.apk",
-    "digest": "sha256:7fede3a39ad0af6a022e04cc79a9595584af7342e0228f269eba326a7280c43a",
-    "download_count": 2
-   },
-   {
-    "id": 658843297,
-    "name": "Qivaryn-0.1.1-universal.apk.sha256",
-    "content_type": "application/octet-stream",
-    "size": 65,
-    "download_url": "https://github.com/usamanadim/Qivaryn_Android_app/releases/download/v0.1.1/Qivaryn-0.1.1-universal.apk.sha256",
-    "digest": "sha256:a046c74c0fc14876c7f9849151c22bb3489c7ec0857f12cd797e505bf0fce495",
-    "download_count": 0
    }
   ]
  }
