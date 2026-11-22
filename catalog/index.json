@@ -7830,6 +7830,50 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1449548089,
+   "full_name": "ersinkoc/phonebox",
+   "owner": "ersinkoc",
+   "avatar_url": "https://avatars.githubusercontent.com/u/408479?v=4",
+   "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud req",
+   "stars": 4614,
+   "forks": 580,
+   "topics": [
+    "android",
+    "claude-code",
+    "codex",
+    "dashboard",
+    "desk-panel",
+    "dotnet",
+    "home-assistant",
+    "linux",
+    "macos",
+    "old-phone",
+    "smart-stack",
+    "stream-deck",
+    "system-monitor",
+    "tailscale",
+    "webhooks",
+    "widgets",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T21:38:06Z",
+   "created_at": "2026-11-07T16:45:16Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 453954055,
+   "tag": "v0.9.27",
+   "published_at": "2026-11-21T20:13:36Z",
+   "prerelease": false,
+   "apk_count": 8
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-21",
   "repo": {
    "id": 31138452,
@@ -9522,50 +9566,6 @@
    "published_at": "2022-09-30T08:53:08Z",
    "prerelease": false,
    "apk_count": 4
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-20",
-  "repo": {
-   "id": 1449548089,
-   "full_name": "ersinkoc/phonebox",
-   "owner": "ersinkoc",
-   "avatar_url": "https://avatars.githubusercontent.com/u/408479?v=4",
-   "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud req",
-   "stars": 3831,
-   "forks": 507,
-   "topics": [
-    "android",
-    "claude-code",
-    "codex",
-    "dashboard",
-    "desk-panel",
-    "dotnet",
-    "home-assistant",
-    "linux",
-    "macos",
-    "old-phone",
-    "smart-stack",
-    "stream-deck",
-    "system-monitor",
-    "tailscale",
-    "webhooks",
-    "widgets",
-    "windows"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-19T23:04:46Z",
-   "created_at": "2026-11-07T16:45:16Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 451587638,
-   "tag": "v0.9.22",
-   "published_at": "2026-11-19T16:09:22Z",
-   "prerelease": false,
-   "apk_count": 8
   }
  },
  {
@@ -33077,40 +33077,6 @@
    "published_at": "2026-11-11T13:18:29Z",
    "prerelease": false,
    "apk_count": 4
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-22",
-  "repo": {
-   "id": 1181530136,
-   "full_name": "tinypinglite/sakuramedia",
-   "owner": "tinypinglite",
-   "avatar_url": "https://avatars.githubusercontent.com/u/267566910?v=4",
-   "description": "面向 NAS 用户的 Jav 一站式平台：刮削、订阅、下载、播放，提供全平台APP支持win/mac/ios/android",
-   "stars": 964,
-   "forks": 68,
-   "topics": [
-    "115",
-    "jav",
-    "jav-scraper",
-    "javbus",
-    "javlibrary",
-    "nas",
-    "sakuramedia"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-22T17:26:01Z",
-   "created_at": "2026-03-14T09:09:17Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 418185792,
-   "tag": "v0.11.1",
-   "published_at": "2026-10-20T08:52:19Z",
-   "prerelease": false,
-   "apk_count": 8
   }
  },
  {
@@ -69517,6 +69483,45 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1438966048,
+   "full_name": "SAINTTaiYi/SpektraLab-Android",
+   "owner": "SAINTTaiYi",
+   "avatar_url": "https://avatars.githubusercontent.com/u/72588713?v=4",
+   "description": "Two spectral film engines on one phone: RAW in, physically modelled film and paper out. 72 films, 23 output media, 17 real film gates, 7-stop paper latitude, Ultra HDR and live photos. Unofficial Android port (Vulkan + CPU).",
+   "stars": 302,
+   "forks": 24,
+   "topics": [
+    "analog-photography",
+    "android",
+    "color-grading",
+    "darkroom",
+    "film-look",
+    "film-simulation",
+    "halation",
+    "live-photo",
+    "photography",
+    "raw",
+    "ultra-hdr",
+    "vulkan"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-21T21:13:29Z",
+   "created_at": "2026-10-29T21:14:49Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 453740874,
+   "tag": "v1.7.0",
+   "published_at": "2026-11-21T14:15:41Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-28",
   "repo": {
    "id": 458145792,
@@ -83935,39 +83940,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-22",
-  "repo": {
-   "id": 1289784624,
-   "full_name": "imjyotiraditya/dmt",
-   "owner": "imjyotiraditya",
-   "avatar_url": "https://avatars.githubusercontent.com/u/81803340?v=4",
-   "description": "a tui-inspired local music player for android. dear music, thanks.",
-   "stars": 178,
-   "forks": 7,
-   "topics": [
-    "android",
-    "jetpack-compose",
-    "kotlin",
-    "media3",
-    "music-player",
-    "tui"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-22T10:44:08Z",
-   "created_at": "2026-07-05T07:43:10Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 363654341,
-   "tag": "v1.4.0",
-   "published_at": "2026-08-01T23:46:50Z",
-   "prerelease": false,
-   "apk_count": 6
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-10-28",
   "repo": {
    "id": 1417097325,
@@ -86304,7 +86276,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 595480410,
    "full_name": "FuShengPing/android-qinglong",
@@ -86660,6 +86632,32 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1337536120,
+   "full_name": "coding-parrot/pothole-reporter",
+   "owner": "coding-parrot",
+   "avatar_url": "https://avatars.githubusercontent.com/u/59478396?v=4",
+   "description": "Pothole Reporter is an independent Android app for documenting potholes, garbage and open manholes, with background Drive Mode, Maharashtra-wide handoffs and reviewed routes across supported Indian areas.",
+   "stars": 162,
+   "forks": 45,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-19T20:18:10Z",
+   "created_at": "2026-08-17T18:53:24Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 412710427,
+   "tag": "v1.43.0",
+   "published_at": "2026-10-14T12:48:25Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-21",
   "repo": {
    "id": 532480163,
@@ -86851,32 +86849,6 @@
    "published_at": "2026-10-28T07:03:26Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1337536120,
-   "full_name": "coding-parrot/pothole-reporter",
-   "owner": "coding-parrot",
-   "avatar_url": "https://avatars.githubusercontent.com/u/59478396?v=4",
-   "description": "Pothole Reporter is an independent Android app for documenting potholes, garbage and open manholes, with background Drive Mode, Maharashtra-wide handoffs and reviewed routes across supported Indian areas.",
-   "stars": 161,
-   "forks": 45,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-11T07:10:37Z",
-   "created_at": "2026-08-17T18:53:24Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 412710427,
-   "tag": "v1.43.0",
-   "published_at": "2026-10-14T12:48:25Z",
-   "prerelease": false,
-   "apk_count": 2
   }
  },
  {
@@ -87951,6 +87923,69 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 978714467,
+   "full_name": "nihui/ncnn-android-yolo11",
+   "owner": "nihui",
+   "avatar_url": "https://avatars.githubusercontent.com/u/171016?v=4",
+   "description": "ncnn android yolo11 realtime detection, segmentation, pose estimation, classification and obb",
+   "stars": 156,
+   "forks": 30,
+   "topics": [
+    "android",
+    "classification",
+    "detection",
+    "ncnn",
+    "obb",
+    "pose-estimation",
+    "realtime",
+    "segmentation",
+    "yolo",
+    "yolo11"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-21T05:39:46Z",
+   "created_at": "2025-05-06T12:03:13Z",
+   "license": null
+  },
+  "release": {
+   "id": 418152795,
+   "tag": "20261020.5f73d53",
+   "published_at": "2026-10-20T08:17:25Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1456664752,
+   "full_name": "luisxl15/GOD-OF-WAR-HD-COLLECTION-ANDROID-PORT",
+   "owner": "luisxl15",
+   "avatar_url": "https://avatars.githubusercontent.com/u/82811784?v=4",
+   "description": "",
+   "stars": 156,
+   "forks": 14,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T20:24:46Z",
+   "created_at": "2026-11-13T13:57:57Z",
+   "license": null
+  },
+  "release": {
+   "id": 446444589,
+   "tag": "v0.1.2",
+   "published_at": "2026-11-15T23:24:44Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-19",
   "repo": {
    "id": 392237606,
@@ -88082,7 +88117,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 229729393,
    "full_name": "Akaflieg-Freiburg/enroute",
@@ -88363,43 +88398,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 978714467,
-   "full_name": "nihui/ncnn-android-yolo11",
-   "owner": "nihui",
-   "avatar_url": "https://avatars.githubusercontent.com/u/171016?v=4",
-   "description": "ncnn android yolo11 realtime detection, segmentation, pose estimation, classification and obb",
-   "stars": 154,
-   "forks": 30,
-   "topics": [
-    "android",
-    "classification",
-    "detection",
-    "ncnn",
-    "obb",
-    "pose-estimation",
-    "realtime",
-    "segmentation",
-    "yolo",
-    "yolo11"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-17T09:36:02Z",
-   "created_at": "2025-05-06T12:03:13Z",
-   "license": null
-  },
-  "release": {
-   "id": 418152795,
-   "tag": "20261020.5f73d53",
-   "published_at": "2026-10-20T08:17:25Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 971996890,
@@ -88550,7 +88548,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 453897641,
    "full_name": "adeeteya/Random-Face-Generator",
@@ -88637,6 +88635,45 @@
    "published_at": "2026-11-19T16:30:53Z",
    "prerelease": false,
    "apk_count": 20
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1177753671,
+   "full_name": "dadaloop82/EverShelf",
+   "owner": "dadaloop82",
+   "avatar_url": "https://avatars.githubusercontent.com/u/48093535?v=4",
+   "description": "EverShelf: Your pantry's best friend. A self-hosted, open source smart pantry manager with AI expiry tracking, barcode scanning, smart shopping lists, and Android Kiosk support.",
+   "stars": 153,
+   "forks": 16,
+   "topics": [
+    "android-kiosk",
+    "docker",
+    "food-waste",
+    "home-automation",
+    "inventory-management",
+    "inventory-tracking",
+    "iot",
+    "open-source",
+    "pantry-manager",
+    "self-hosted",
+    "smart-kitchen",
+    "sustainability"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-20T15:27:22Z",
+   "created_at": "2026-03-10T10:38:29Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 446323519,
+   "tag": "health-bridge-2.0.2",
+   "published_at": "2026-11-15T19:54:42Z",
+   "prerelease": false,
+   "apk_count": 1
   }
  },
  {
@@ -88831,45 +88868,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1177753671,
-   "full_name": "dadaloop82/EverShelf",
-   "owner": "dadaloop82",
-   "avatar_url": "https://avatars.githubusercontent.com/u/48093535?v=4",
-   "description": "EverShelf: Your pantry's best friend. A self-hosted, open source smart pantry manager with AI expiry tracking, barcode scanning, smart shopping lists, and Android Kiosk support.",
-   "stars": 152,
-   "forks": 16,
-   "topics": [
-    "android-kiosk",
-    "docker",
-    "food-waste",
-    "home-automation",
-    "inventory-management",
-    "inventory-tracking",
-    "iot",
-    "open-source",
-    "pantry-manager",
-    "self-hosted",
-    "smart-kitchen",
-    "sustainability"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-14T15:13:28Z",
-   "created_at": "2026-03-10T10:38:29Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 446323519,
-   "tag": "health-bridge-2.0.2",
-   "published_at": "2026-11-15T19:54:42Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-16",
   "repo": {
    "id": 1288478802,
@@ -88946,6 +88944,36 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 749675426,
+   "full_name": "eqgis/Sceneform-EQR",
+   "owner": "eqgis",
+   "avatar_url": "https://avatars.githubusercontent.com/u/52307942?v=4",
+   "description": "Sceneform-EQR extends Google’s Sceneform Android SDK, supporting graphics, video, AR, and VR applications. It integrates ARCore, AREngine, and ORB-SLAM, and provides AR, VR, and custom background scenes to meet diverse native 3D development",
+   "stars": 151,
+   "forks": 26,
+   "topics": [
+    "3d",
+    "ar",
+    "vr"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-20T10:19:44Z",
+   "created_at": "2024-01-29T07:00:04Z",
+   "license": "Apache-2.0"
+  },
+  "release": {
+   "id": 366627774,
+   "tag": "v1.2.1",
+   "published_at": "2026-08-07T09:02:02Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 68071563,
@@ -89009,7 +89037,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 762007606,
    "full_name": "ostoaleonardo/notes",
@@ -89222,36 +89250,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 749675426,
-   "full_name": "eqgis/Sceneform-EQR",
-   "owner": "eqgis",
-   "avatar_url": "https://avatars.githubusercontent.com/u/52307942?v=4",
-   "description": "Sceneform-EQR extends Google’s Sceneform Android SDK, supporting graphics, video, AR, and VR applications. It integrates ARCore, AREngine, and ORB-SLAM, and provides AR, VR, and custom background scenes to meet diverse native 3D development",
-   "stars": 150,
-   "forks": 26,
-   "topics": [
-    "3d",
-    "ar",
-    "vr"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-16T08:29:48Z",
-   "created_at": "2024-01-29T07:00:04Z",
-   "license": "Apache-2.0"
-  },
-  "release": {
-   "id": 366627774,
-   "tag": "v1.2.1",
-   "published_at": "2026-08-07T09:02:02Z",
-   "prerelease": false,
-   "apk_count": 2
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 1266581060,
@@ -89283,7 +89281,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 936034669,
    "full_name": "mpj1234/ncnn-yolov12-android",
@@ -90292,6 +90290,39 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1411941361,
+   "full_name": "Nycolazs/WindWakerHD-Android-Plus",
+   "owner": "Nycolazs",
+   "avatar_url": "https://avatars.githubusercontent.com/u/43688404?v=4",
+   "description": "The Legend of Zelda: The Wind Waker HD natively on Android (static recompilation, Vulkan). Built-in Brazilian Portuguese translation, HUD editor, .wua support, controller gyro, and more. Bring your own game.",
+   "stars": 146,
+   "forks": 6,
+   "topics": [
+    "android",
+    "recompilation",
+    "vulkan",
+    "wii-u",
+    "wind-waker",
+    "zelda"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T17:37:59Z",
+   "created_at": "2026-10-09T14:02:08Z",
+   "license": "MPL-2.0"
+  },
+  "release": {
+   "id": 421724633,
+   "tag": "v1.14",
+   "published_at": "2026-10-23T10:43:35Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 600533119,
@@ -90582,7 +90613,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 161802190,
    "full_name": "shuiRong/Gakki",
@@ -90687,6 +90718,53 @@
    "published_at": "2026-11-09T17:14:24Z",
    "prerelease": false,
    "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1338151032,
+   "full_name": "xuange6610/SyncWatch",
+   "owner": "xuange6610",
+   "avatar_url": "https://avatars.githubusercontent.com/u/275109838?v=4",
+   "description": "SyncWatch：开源、自托管、服务器、客户端、跨平台的 Watch Party / 同步观影 / 视频同步系统，支持 Windows、Android、macOS、Web，可远程一起看电影、一起看视频、一起看小说、同步播放、聊天、语音与屏幕共享、语音厅、房间、聊天频道、好友系统、免费实时实况看电影、免费实时实况看电视剧、免费实时实况视频、免费看vip和国外电影电视。服务器管理，支持一键部署，一键开启公网访问，独立数据库文件夹存储方便管理升级和更新，支持内网穿透，同一局域网0",
+   "stars": 144,
+   "forks": 7,
+   "topics": [
+    "co-watching",
+    "electron",
+    "family",
+    "flutter",
+    "friend",
+    "media",
+    "media-server",
+    "nodejs",
+    "opaque",
+    "p2p",
+    "passkeys",
+    "self-hosted",
+    "synctv",
+    "syncwatch",
+    "theater",
+    "video-player",
+    "webauthn",
+    "webrtc",
+    "websocket",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-19T10:38:24Z",
+   "created_at": "2026-08-18T08:20:03Z",
+   "license": "Apache-2.0"
+  },
+  "release": {
+   "id": 383430060,
+   "tag": "v2.4.4",
+   "published_at": "2026-09-06T01:49:08Z",
+   "prerelease": false,
+   "apk_count": 8
   }
  },
  {
@@ -90847,86 +90925,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1338151032,
-   "full_name": "xuange6610/SyncWatch",
-   "owner": "xuange6610",
-   "avatar_url": "https://avatars.githubusercontent.com/u/275109838?v=4",
-   "description": "SyncWatch：开源、自托管、服务器、客户端、跨平台的 Watch Party / 同步观影 / 视频同步系统，支持 Windows、Android、macOS、Web，可远程一起看电影、一起看视频、一起看小说、同步播放、聊天、语音与屏幕共享、语音厅、房间、聊天频道、好友系统、免费实时实况看电影、免费实时实况看电视剧、免费实时实况视频、免费看vip和国外电影电视。服务器管理，支持一键部署，一键开启公网访问，独立数据库文件夹存储方便管理升级和更新，支持内网穿透，同一局域网0",
-   "stars": 143,
-   "forks": 7,
-   "topics": [
-    "co-watching",
-    "electron",
-    "family",
-    "flutter",
-    "friend",
-    "media",
-    "media-server",
-    "nodejs",
-    "opaque",
-    "p2p",
-    "passkeys",
-    "self-hosted",
-    "synctv",
-    "syncwatch",
-    "theater",
-    "video-player",
-    "webauthn",
-    "webrtc",
-    "websocket",
-    "windows"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T08:43:33Z",
-   "created_at": "2026-08-18T08:20:03Z",
-   "license": "Apache-2.0"
-  },
-  "release": {
-   "id": 383430060,
-   "tag": "v2.4.4",
-   "published_at": "2026-09-06T01:49:08Z",
-   "prerelease": false,
-   "apk_count": 8
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-19",
-  "repo": {
-   "id": 1411941361,
-   "full_name": "Nycolazs/WindWakerHD-Android-Plus",
-   "owner": "Nycolazs",
-   "avatar_url": "https://avatars.githubusercontent.com/u/43688404?v=4",
-   "description": "The Legend of Zelda: The Wind Waker HD natively on Android (static recompilation, Vulkan). Built-in Brazilian Portuguese translation, HUD editor, .wua support, controller gyro, and more. Bring your own game.",
-   "stars": 143,
-   "forks": 5,
-   "topics": [
-    "android",
-    "recompilation",
-    "vulkan",
-    "wii-u",
-    "wind-waker",
-    "zelda"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T04:26:54Z",
-   "created_at": "2026-10-09T14:02:08Z",
-   "license": "MPL-2.0"
-  },
-  "release": {
-   "id": 421724633,
-   "tag": "v1.14",
-   "published_at": "2026-10-23T10:43:35Z",
-   "prerelease": false,
-   "apk_count": 2
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 103409542,
@@ -91061,6 +91059,58 @@
    "published_at": "2026-07-29T20:56:54Z",
    "prerelease": false,
    "apk_count": 5
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1427862314,
+   "full_name": "RanggaCasper/ShaolinMonks-Android",
+   "owner": "RanggaCasper",
+   "avatar_url": "https://avatars.githubusercontent.com/u/76829603?v=4",
+   "description": "Unofficial Android (arm64) port of Mortal Kombat: Shaolin Monks (Xbox), statically recompiled with XboxXBE-Recomp. Vulkan renderer, touch controls, gamepad support, optional CRT/scanline filters, FXAA/SSAA and cheats. No game files included",
+   "stars": 143,
+   "forks": 16,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T07:19:37Z",
+   "created_at": "2026-10-21T04:10:20Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 430330709,
+   "tag": "v1.1.2",
+   "published_at": "2026-11-01T03:04:35Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1445102821,
+   "full_name": "kvse/dsr-native",
+   "owner": "kvse",
+   "avatar_url": "https://avatars.githubusercontent.com/u/120284120?v=4",
+   "description": "Static Recompilation of Dark Souls Remastered for Nintendo Switch on Android.",
+   "stars": 143,
+   "forks": 17,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T18:47:45Z",
+   "created_at": "2026-11-04T03:15:29Z",
+   "license": null
+  },
+  "release": {
+   "id": 444951527,
+   "tag": "v0.2.1",
+   "published_at": "2026-11-14T02:22:09Z",
+   "prerelease": false,
+   "apk_count": 1
   }
  },
  {
@@ -91523,6 +91573,49 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1305556195,
+   "full_name": "manhpham90vn/Deskhub",
+   "owner": "manhpham90vn",
+   "avatar_url": "https://avatars.githubusercontent.com/u/40340023?v=4",
+   "description": "Open-source remote desktop for Windows, macOS, Linux, Android and iOS. Share your screen and control your computer over your own network or VPN.",
+   "stars": 141,
+   "forks": 39,
+   "topics": [
+    "android",
+    "cpp20",
+    "cross-platform",
+    "game-streaming",
+    "hardware-acceleration",
+    "ios",
+    "linux",
+    "low-latency",
+    "macos",
+    "nvenc",
+    "parsec-alternative",
+    "quic",
+    "remote-desktop",
+    "rustdesk-alternative",
+    "screen-sharing",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-20T13:58:52Z",
+   "created_at": "2026-07-19T08:48:46Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 416002290,
+   "tag": "v9.3.1",
+   "published_at": "2026-10-17T18:59:36Z",
+   "prerelease": false,
+   "apk_count": 5
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 15371977,
@@ -91639,36 +91732,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 792909941,
-   "full_name": "hufrea/byedpi-neko",
-   "owner": "hufrea",
-   "avatar_url": "https://avatars.githubusercontent.com/u/135158507?v=4",
-   "description": "ByeDPI plugin for NekoBox",
-   "stars": 140,
-   "forks": 4,
-   "topics": [
-    "android",
-    "anticensorship",
-    "dpi"
-   ],
-   "archived": false,
-   "default_branch": "dev",
-   "updated_at": "2026-11-14T22:34:59Z",
-   "created_at": "2024-04-27T22:31:55Z",
-   "license": null
-  },
-  "release": {
-   "id": 200488013,
-   "tag": "v0.2.2",
-   "published_at": "2025-02-15T00:08:34Z",
-   "prerelease": false,
-   "apk_count": 3
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 1156497205,
@@ -91730,45 +91793,72 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-20",
+  "last_verified": "2026-11-22",
   "repo": {
-   "id": 1305556195,
-   "full_name": "manhpham90vn/Deskhub",
-   "owner": "manhpham90vn",
-   "avatar_url": "https://avatars.githubusercontent.com/u/40340023?v=4",
-   "description": "Open-source remote desktop for Windows, macOS, Linux, Android and iOS. Share your screen and control your computer over your own network or VPN.",
+   "id": 1358365242,
+   "full_name": "JackandBeans/Snap64Recomp",
+   "owner": "JackandBeans",
+   "avatar_url": "https://avatars.githubusercontent.com/u/325058581?v=4",
+   "description": "Native Windows, Linux, macOS and Android (beta) port of Pokémon Snap (N64) by static recompilation. Plays like the cartridge by default; every enhancement is opt-in. Bring your own dump; no game data is included.",
    "stars": 140,
-   "forks": 39,
+   "forks": 12,
    "topics": [
     "android",
-    "cpp20",
-    "cross-platform",
-    "game-streaming",
-    "hardware-acceleration",
-    "ios",
     "linux",
-    "low-latency",
     "macos",
-    "nvenc",
-    "parsec-alternative",
-    "quic",
-    "remote-desktop",
-    "rustdesk-alternative",
-    "screen-sharing",
+    "n64",
+    "n64recomp",
+    "nintendo-64",
+    "pokemon",
+    "pokemon-snap",
+    "recompilation",
+    "rt64",
+    "static-recompilation",
+    "steam-deck",
     "windows"
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-19T21:32:48Z",
-   "created_at": "2026-07-19T08:48:46Z",
-   "license": "MIT"
+   "updated_at": "2026-11-19T21:15:41Z",
+   "created_at": "2026-09-05T16:28:12Z",
+   "license": "GPL-3.0"
   },
   "release": {
-   "id": 416002290,
-   "tag": "v9.3.1",
-   "published_at": "2026-10-17T18:59:36Z",
+   "id": 446613159,
+   "tag": "v1.1.8",
+   "published_at": "2026-11-16T04:42:16Z",
    "prerelease": false,
-   "apk_count": 5
+   "apk_count": 12
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 792909941,
+   "full_name": "hufrea/byedpi-neko",
+   "owner": "hufrea",
+   "avatar_url": "https://avatars.githubusercontent.com/u/135158507?v=4",
+   "description": "ByeDPI plugin for NekoBox",
+   "stars": 139,
+   "forks": 4,
+   "topics": [
+    "android",
+    "anticensorship",
+    "dpi"
+   ],
+   "archived": false,
+   "default_branch": "dev",
+   "updated_at": "2026-11-20T12:11:46Z",
+   "created_at": "2024-04-27T22:31:55Z",
+   "license": null
+  },
+  "release": {
+   "id": 200488013,
+   "tag": "v0.2.2",
+   "published_at": "2025-02-15T00:08:34Z",
+   "prerelease": false,
+   "apk_count": 3
   }
  },
  {
@@ -91861,46 +91951,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1358365242,
-   "full_name": "JackandBeans/Snap64Recomp",
-   "owner": "JackandBeans",
-   "avatar_url": "https://avatars.githubusercontent.com/u/325058581?v=4",
-   "description": "Native Windows, Linux, macOS and Android (beta) port of Pokémon Snap (N64) by static recompilation. Plays like the cartridge by default; every enhancement is opt-in. Bring your own dump; no game data is included.",
-   "stars": 139,
-   "forks": 11,
-   "topics": [
-    "android",
-    "linux",
-    "macos",
-    "n64",
-    "n64recomp",
-    "nintendo-64",
-    "pokemon",
-    "pokemon-snap",
-    "recompilation",
-    "rt64",
-    "static-recompilation",
-    "steam-deck",
-    "windows"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T03:01:11Z",
-   "created_at": "2026-09-05T16:28:12Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 446613159,
-   "tag": "v1.1.8",
-   "published_at": "2026-11-16T04:42:16Z",
-   "prerelease": false,
-   "apk_count": 12
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 1224248279,
@@ -91923,6 +91973,32 @@
    "published_at": "2026-06-16T11:17:10Z",
    "prerelease": false,
    "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1426442578,
+   "full_name": "OTPR26/Ocarina-ReTuned",
+   "owner": "OTPR26",
+   "avatar_url": "https://avatars.githubusercontent.com/u/306326493?v=4",
+   "description": "OOT3D, recompiled for Windows, Mac, Linux, Android, iOS and Apple TV. A substantially modified TriAevum fork with the Ocarina ReFramed single-screen HUD, HD dialogue fonts and controller-friendly menus.",
+   "stars": 139,
+   "forks": 5,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T20:14:16Z",
+   "created_at": "2026-10-20T03:15:12Z",
+   "license": null
+  },
+  "release": {
+   "id": 452848661,
+   "tag": "v0.7.2",
+   "published_at": "2026-11-20T15:21:03Z",
+   "prerelease": true,
+   "apk_count": 11
   }
  },
  {
@@ -92255,6 +92331,32 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 301261559,
+   "full_name": "Devilx86/ImpostorModmenu",
+   "owner": "Devilx86",
+   "avatar_url": "https://avatars.githubusercontent.com/u/28275191?v=4",
+   "description": "Mod menu for Among Us on Android (supports both armeabi-v7a and arm64-v8a)",
+   "stars": 138,
+   "forks": 69,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T19:47:30Z",
+   "created_at": "2020-10-05T01:09:58Z",
+   "license": null
+  },
+  "release": {
+   "id": 32667702,
+   "tag": "v1.3",
+   "published_at": "2020-10-16T11:30:20Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-27",
   "repo": {
    "id": 585499655,
@@ -92430,32 +92532,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 301261559,
-   "full_name": "Devilx86/ImpostorModmenu",
-   "owner": "Devilx86",
-   "avatar_url": "https://avatars.githubusercontent.com/u/28275191?v=4",
-   "description": "Mod menu for Among Us on Android (supports both armeabi-v7a and arm64-v8a)",
-   "stars": 137,
-   "forks": 68,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-05T05:49:03Z",
-   "created_at": "2020-10-05T01:09:58Z",
-   "license": null
-  },
-  "release": {
-   "id": 32667702,
-   "tag": "v1.3",
-   "published_at": "2020-10-16T11:30:20Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 1444377057,
@@ -92495,7 +92571,76 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1050814997,
+   "full_name": "pythonnative/pythonnative",
+   "owner": "pythonnative",
+   "avatar_url": "https://avatars.githubusercontent.com/u/135093967?v=4",
+   "description": "Build native Android and iOS apps in Python.",
+   "stars": 137,
+   "forks": 21,
+   "topics": [
+    "android",
+    "cli",
+    "cross-platform",
+    "gradle",
+    "ios",
+    "kotlin",
+    "mobile-development",
+    "native-ui",
+    "python",
+    "swift",
+    "ui-components",
+    "xcode"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-20T09:13:29Z",
+   "created_at": "2025-09-05T01:41:48Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 445809904,
+   "tag": "v0.55.0",
+   "published_at": "2026-11-15T04:30:32Z",
+   "prerelease": false,
+   "apk_count": 15
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1425981694,
+   "full_name": "krmanik/kioku",
+   "owner": "krmanik",
+   "avatar_url": "https://avatars.githubusercontent.com/u/12841290?v=4",
+   "description": "Anki Desktop for iOS and Android",
+   "stars": 137,
+   "forks": 9,
+   "topics": [
+    "anki",
+    "anki-desktop",
+    "termux"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T20:56:35Z",
+   "created_at": "2026-10-19T17:53:37Z",
+   "license": "AGPL-3.0"
+  },
+  "release": {
+   "id": 450070397,
+   "tag": "v0.2.9",
+   "published_at": "2026-11-18T14:29:29Z",
+   "prerelease": false,
+   "apk_count": 7
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 82457743,
    "full_name": "friimaind/pi-hole-droid",
@@ -92868,7 +93013,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 934793072,
    "full_name": "gauravxdev/Orbit",
@@ -92946,45 +93091,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1050814997,
-   "full_name": "pythonnative/pythonnative",
-   "owner": "pythonnative",
-   "avatar_url": "https://avatars.githubusercontent.com/u/135093967?v=4",
-   "description": "Build native Android and iOS apps in Python.",
-   "stars": 135,
-   "forks": 22,
-   "topics": [
-    "android",
-    "cli",
-    "cross-platform",
-    "gradle",
-    "ios",
-    "kotlin",
-    "mobile-development",
-    "native-ui",
-    "python",
-    "swift",
-    "ui-components",
-    "xcode"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-11T23:28:02Z",
-   "created_at": "2025-09-05T01:41:48Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 445809904,
-   "tag": "v0.55.0",
-   "published_at": "2026-11-15T04:30:32Z",
-   "prerelease": false,
-   "apk_count": 15
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 1179757591,
@@ -93011,7 +93117,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 131591499,
    "full_name": "mintme-com/miner",
@@ -93199,32 +93305,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1427862314,
-   "full_name": "RanggaCasper/ShaolinMonks-Android",
-   "owner": "RanggaCasper",
-   "avatar_url": "https://avatars.githubusercontent.com/u/76829603?v=4",
-   "description": "Unofficial Android (arm64) port of Mortal Kombat: Shaolin Monks (Xbox), statically recompiled with XboxXBE-Recomp. Vulkan renderer, touch controls, gamepad support, optional CRT/scanline filters, FXAA/SSAA and cheats. No game files included",
-   "stars": 134,
-   "forks": 15,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T05:17:12Z",
-   "created_at": "2026-10-21T04:10:20Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 430330709,
-   "tag": "v1.1.2",
-   "published_at": "2026-11-01T03:04:35Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 1138058683,
@@ -93307,6 +93387,32 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 17780277,
+   "full_name": "pelya/openttd-android",
+   "owner": "pelya",
+   "avatar_url": "https://avatars.githubusercontent.com/u/155328?v=4",
+   "description": "OpenTTD for Android",
+   "stars": 134,
+   "forks": 28,
+   "topics": [],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-21T05:27:43Z",
+   "created_at": "2014-03-15T16:51:54Z",
+   "license": "Other"
+  },
+  "release": {
+   "id": 17010521,
+   "tag": "1.9.1.77",
+   "published_at": "2019-04-26T20:39:42Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 444892046,
@@ -93333,32 +93439,6 @@
    "published_at": "2023-10-22T17:15:43Z",
    "prerelease": false,
    "apk_count": 20
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 17780277,
-   "full_name": "pelya/openttd-android",
-   "owner": "pelya",
-   "avatar_url": "https://avatars.githubusercontent.com/u/155328?v=4",
-   "description": "OpenTTD for Android",
-   "stars": 133,
-   "forks": 28,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-10-22T02:49:12Z",
-   "created_at": "2014-03-15T16:51:54Z",
-   "license": "Other"
-  },
-  "release": {
-   "id": 17010521,
-   "tag": "1.9.1.77",
-   "published_at": "2019-04-26T20:39:42Z",
-   "prerelease": false,
-   "apk_count": 2
   }
  },
  {
@@ -93436,7 +93516,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 272304891,
    "full_name": "obfusk/jiten",
@@ -93736,6 +93816,53 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1432126971,
+   "full_name": "skydeadpeng/hongguo-android-cast",
+   "owner": "skydeadpeng",
+   "avatar_url": "https://avatars.githubusercontent.com/u/45809304?v=4",
+   "description": "红果短剧（Hongguo Drama）+ 黄果漫剧（Huangguo）多端客户端：Android 手机 / Android TV / Windows / macOS / Linux 已发布；webOS、Apple TV 开发中。内置黄果漫剧（AI 漫剧 / AI 短剧）免费在线播放，红果短剧播放下载、DLNA 投屏、整部无损合并、扫码登录云同步。",
+   "stars": 132,
+   "forks": 21,
+   "topics": [
+    "ai-drama",
+    "android",
+    "android-tv",
+    "appimage",
+    "apple-tv",
+    "desktop-app",
+    "dlna",
+    "dlna-cast",
+    "duanju",
+    "electron",
+    "hongguo",
+    "huangguo",
+    "lg-webos",
+    "linux",
+    "macos",
+    "short-drama",
+    "tvos",
+    "video-player",
+    "webos",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T20:12:18Z",
+   "created_at": "2026-10-24T11:47:38Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 453591762,
+   "tag": "v0.12.86",
+   "published_at": "2026-11-21T09:54:37Z",
+   "prerelease": false,
+   "apk_count": 7
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 33689441,
@@ -93865,32 +93992,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1456664752,
-   "full_name": "luisxl15/GOD-OF-WAR-HD-COLLECTION-ANDROID-PORT",
-   "owner": "luisxl15",
-   "avatar_url": "https://avatars.githubusercontent.com/u/82811784?v=4",
-   "description": "",
-   "stars": 131,
-   "forks": 11,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T07:35:42Z",
-   "created_at": "2026-11-13T13:57:57Z",
-   "license": null
-  },
-  "release": {
-   "id": 446444589,
-   "tag": "v0.1.2",
-   "published_at": "2026-11-15T23:24:44Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-19",
   "repo": {
    "id": 1289796105,
@@ -93931,6 +94032,41 @@
    "published_at": "2026-11-18T08:54:07Z",
    "prerelease": false,
    "apk_count": 5
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1380768510,
+   "full_name": "YuutaTsubasa/Free-Riders-Recompiled",
+   "owner": "YuutaTsubasa",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81959102?v=4",
+   "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
+   "stars": 131,
+   "forks": 8,
+   "topics": [
+    "kinect",
+    "motion-tracking",
+    "recompilation",
+    "sonic",
+    "sonic-free-riders",
+    "vrm",
+    "vulkan",
+    "xbox360"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T00:14:51Z",
+   "created_at": "2026-09-22T02:29:49Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 454042651,
+   "tag": "v0.10.74",
+   "published_at": "2026-11-21T22:56:06Z",
+   "prerelease": false,
+   "apk_count": 10
   }
  },
  {
@@ -94116,32 +94252,6 @@
    "published_at": "2022-07-28T15:17:29Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1426442578,
-   "full_name": "OTPR26/Ocarina-ReTuned",
-   "owner": "OTPR26",
-   "avatar_url": "https://avatars.githubusercontent.com/u/306326493?v=4",
-   "description": "OOT3D, recompiled for Windows, Mac, Linux, Android, iOS and Apple TV. A substantially modified TriAevum fork with the Ocarina ReFramed single-screen HUD, HD dialogue fonts and controller-friendly menus.",
-   "stars": 130,
-   "forks": 5,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T08:58:27Z",
-   "created_at": "2026-10-20T03:15:12Z",
-   "license": null
-  },
-  "release": {
-   "id": 444726305,
-   "tag": "v0.7.1",
-   "published_at": "2026-11-13T20:58:17Z",
-   "prerelease": true,
-   "apk_count": 11
   }
  },
  {
@@ -94341,41 +94451,6 @@
   "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
-   "id": 1380768510,
-   "full_name": "YuutaTsubasa/Free-Riders-Recompiled",
-   "owner": "YuutaTsubasa",
-   "avatar_url": "https://avatars.githubusercontent.com/u/81959102?v=4",
-   "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
-   "stars": 129,
-   "forks": 8,
-   "topics": [
-    "kinect",
-    "motion-tracking",
-    "recompilation",
-    "sonic",
-    "sonic-free-riders",
-    "vrm",
-    "vulkan",
-    "xbox360"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-20T03:17:03Z",
-   "created_at": "2026-09-22T02:29:49Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 451852326,
-   "tag": "v0.10.69",
-   "published_at": "2026-11-19T19:51:27Z",
-   "prerelease": false,
-   "apk_count": 10
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-20",
-  "repo": {
    "id": 1220450682,
    "full_name": "foxhole-team/foxhole-guard",
    "owner": "foxhole-team",
@@ -94553,7 +94628,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 136413087,
    "full_name": "kike-canaries/canairio_firmware",
@@ -94780,6 +94855,39 @@
    "published_at": "2026-05-31T11:44:24Z",
    "prerelease": false,
    "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1428281988,
+   "full_name": "dddhs3347/shzu-charging",
+   "owner": "dddhs3347",
+   "avatar_url": "https://avatars.githubusercontent.com/u/201790930?v=4",
+   "description": "石河子大学六个校区充电桩空闲情况查询（1974 个端口，精确到每个桩）· 安卓/鸿蒙 APK + 网页版 + 自部署",
+   "stars": 128,
+   "forks": 25,
+   "topics": [
+    "android",
+    "charging-pile",
+    "cloudflare-workers",
+    "pwa",
+    "python",
+    "shzu"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T19:09:54Z",
+   "created_at": "2026-10-21T11:24:20Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 422002832,
+   "tag": "V1.0.3",
+   "published_at": "2026-10-23T15:25:44Z",
+   "prerelease": false,
+   "apk_count": 2
   }
  },
  {
@@ -95055,7 +95163,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 169393949,
    "full_name": "experiment322/controlloid-client",
@@ -95529,6 +95637,39 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1251338186,
+   "full_name": "ilhamdanials/baca.",
+   "owner": "ilhamdanials",
+   "avatar_url": "https://avatars.githubusercontent.com/u/241779999?v=4",
+   "description": "A privacy-first, local e-book reader built with Material 3 Expressive design",
+   "stars": 125,
+   "forks": 7,
+   "topics": [
+    "android",
+    "ebook-reader",
+    "epub-reader",
+    "material-3-expressive",
+    "material-ui",
+    "pdf-reader"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-19T16:05:56Z",
+   "created_at": "2026-05-27T13:33:08Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 357211796,
+   "tag": "v2.2.0",
+   "published_at": "2026-07-21T08:46:48Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 446325077,
@@ -95819,65 +95960,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1251338186,
-   "full_name": "ilhamdanials/baca.",
-   "owner": "ilhamdanials",
-   "avatar_url": "https://avatars.githubusercontent.com/u/241779999?v=4",
-   "description": "A privacy-first, local e-book reader built with Material 3 Expressive design",
-   "stars": 124,
-   "forks": 7,
-   "topics": [
-    "android",
-    "ebook-reader",
-    "epub-reader",
-    "material-3-expressive",
-    "material-ui",
-    "pdf-reader"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-16T23:08:05Z",
-   "created_at": "2026-05-27T13:33:08Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 357211796,
-   "tag": "v2.2.0",
-   "published_at": "2026-07-21T08:46:48Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1445102821,
-   "full_name": "kvse/dsr-native",
-   "owner": "kvse",
-   "avatar_url": "https://avatars.githubusercontent.com/u/120284120?v=4",
-   "description": "Static Recompilation of Dark Souls Remastered for Nintendo Switch on Android.",
-   "stars": 124,
-   "forks": 15,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T10:58:03Z",
-   "created_at": "2026-11-04T03:15:29Z",
-   "license": null
-  },
-  "release": {
-   "id": 444951527,
-   "tag": "v0.2.1",
-   "published_at": "2026-11-14T02:22:09Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 1323894993,
@@ -96075,7 +96157,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 293796123,
    "full_name": "realsenseai/RealSenseID",
@@ -96248,7 +96330,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 137012935,
    "full_name": "SummerOak/CrashSDK",
@@ -96375,7 +96457,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1400733556,
    "full_name": "codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
@@ -96829,7 +96911,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 881729302,
    "full_name": "utkabobr/SliceBeam",
@@ -97032,7 +97114,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 411997272,
    "full_name": "RapidAI/RapidOcrAndroidOnnx",
@@ -97152,6 +97234,44 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1244919648,
+   "full_name": "maxwhipw/marmalade-tts-android",
+   "owner": "maxwhipw",
+   "avatar_url": "https://avatars.githubusercontent.com/u/222173221?v=4",
+   "description": "Native Android TTS app with on-device neural voices and emotion-aware prosody — sister project to marmalade-tts (CLI).",
+   "stars": 119,
+   "forks": 10,
+   "topics": [
+    "android",
+    "jetpack-compose",
+    "kokoro-tts",
+    "kotlin",
+    "local-ai",
+    "marmalade",
+    "on-device-ai",
+    "piper-tts",
+    "sherpa-onnx",
+    "text-to-speech",
+    "tts"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T21:18:14Z",
+   "created_at": "2026-05-20T18:21:29Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 437981595,
+   "tag": "v1.3.4",
+   "published_at": "2026-11-08T02:19:08Z",
+   "prerelease": false,
+   "apk_count": 4
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 307193656,
@@ -97192,7 +97312,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 153516732,
    "full_name": "ElijaxApps-org/android-xmrig-miner",
@@ -97784,7 +97904,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 98707631,
    "full_name": "bunsenbrowser/bunsen",
@@ -98187,7 +98307,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 296437901,
    "full_name": "aki65/aki65.github.io",
@@ -98216,44 +98336,6 @@
    "published_at": "2026-11-05T23:03:32Z",
    "prerelease": false,
    "apk_count": 3
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1244919648,
-   "full_name": "maxwhipw/marmalade-tts-android",
-   "owner": "maxwhipw",
-   "avatar_url": "https://avatars.githubusercontent.com/u/222173221?v=4",
-   "description": "Native Android TTS app with on-device neural voices and emotion-aware prosody — sister project to marmalade-tts (CLI).",
-   "stars": 116,
-   "forks": 10,
-   "topics": [
-    "android",
-    "jetpack-compose",
-    "kokoro-tts",
-    "kotlin",
-    "local-ai",
-    "marmalade",
-    "on-device-ai",
-    "piper-tts",
-    "sherpa-onnx",
-    "text-to-speech",
-    "tts"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-17T23:14:03Z",
-   "created_at": "2026-05-20T18:21:29Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 437981595,
-   "tag": "v1.3.4",
-   "published_at": "2026-11-08T02:19:08Z",
-   "prerelease": false,
-   "apk_count": 4
   }
  },
  {
@@ -98527,7 +98609,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 572345635,
    "full_name": "Eltion/Snapchat-SSL-Pinning-Bypass",
@@ -98622,6 +98704,53 @@
    "published_at": "2026-09-26T10:19:12Z",
    "prerelease": false,
    "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1396132820,
+   "full_name": "guzhou079-arch/deepseek-harness-android",
+   "owner": "guzhou079-arch",
+   "avatar_url": "https://avatars.githubusercontent.com/u/287430788?v=4",
+   "description": "把 DeepSeek Harness 打包成能直接装的安卓 APK：不用 Termux、不用 root、不用配电脑，读屏/点按/虚拟屏/定时任务和整套技能都随包；它还能在手机上自己编译、打包、签名、发布。 Android APK for DeepSeek Harness — no Termux, no root, no PC. Screen control, virtual display, scheduled tasks and bundled skills out of ",
+   "stars": 115,
+   "forks": 9,
+   "topics": [
+    "ai-agent",
+    "ai-tools",
+    "android",
+    "android-app",
+    "apk",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "llm",
+    "local-first",
+    "mobile",
+    "no-root",
+    "on-device-ai",
+    "proot",
+    "screen-automation",
+    "self-hosted",
+    "shizuku",
+    "termux",
+    "termux-alternative"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-20T18:58:33Z",
+   "created_at": "2026-09-29T17:19:08Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 448147144,
+   "tag": "v1.49.5",
+   "published_at": "2026-11-17T04:57:15Z",
+   "prerelease": false,
+   "apk_count": 1
   }
  },
  {
@@ -98894,6 +99023,32 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1450506695,
+   "full_name": "khorne-hub/4u-native",
+   "owner": "khorne-hub",
+   "avatar_url": "https://avatars.githubusercontent.com/u/351190368?v=4",
+   "description": "Monster Hunter 4 Ultimate recompiled to native code for Android. Bring your own copy of the game.",
+   "stars": 114,
+   "forks": 6,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T19:15:00Z",
+   "created_at": "2026-11-08T17:33:31Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 453361064,
+   "tag": "v1.0.2",
+   "published_at": "2026-11-21T01:41:41Z",
+   "prerelease": false,
+   "apk_count": 4
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 300973527,
@@ -98926,7 +99081,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 306239745,
    "full_name": "benjaminwan/OcrLiteAndroidNcnn",
@@ -99105,6 +99260,51 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 680181846,
+   "full_name": "varshneydevansh/FilterTube",
+   "owner": "varshneydevansh",
+   "avatar_url": "https://avatars.githubusercontent.com/u/20411128?v=4",
+   "description": "Filter & Control Anything on YouTube or YouTube Kids",
+   "stars": 113,
+   "forks": 12,
+   "topics": [
+    "android",
+    "blocker",
+    "brave",
+    "brave-extension",
+    "browser-extension",
+    "chrome",
+    "edge",
+    "edge-extension",
+    "extension",
+    "extension-chrome",
+    "filter",
+    "firefox",
+    "firefox-extension",
+    "google",
+    "ios",
+    "youtube",
+    "youtube-player",
+    "youtubekids"
+   ],
+   "archived": false,
+   "default_branch": "master",
+   "updated_at": "2026-11-19T23:02:50Z",
+   "created_at": "2023-08-18T14:38:17Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 453027283,
+   "tag": "v3.6.3",
+   "published_at": "2026-11-20T18:12:26Z",
+   "prerelease": false,
+   "apk_count": 20
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-28",
   "repo": {
    "id": 56549856,
@@ -99180,51 +99380,6 @@
    "published_at": "2021-04-06T20:28:51Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 680181846,
-   "full_name": "varshneydevansh/FilterTube",
-   "owner": "varshneydevansh",
-   "avatar_url": "https://avatars.githubusercontent.com/u/20411128?v=4",
-   "description": "Filter & Control Anything on YouTube or YouTube Kids",
-   "stars": 112,
-   "forks": 12,
-   "topics": [
-    "android",
-    "blocker",
-    "brave",
-    "brave-extension",
-    "browser-extension",
-    "chrome",
-    "edge",
-    "edge-extension",
-    "extension",
-    "extension-chrome",
-    "filter",
-    "firefox",
-    "firefox-extension",
-    "google",
-    "ios",
-    "youtube",
-    "youtube-player",
-    "youtubekids"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-14T06:55:52Z",
-   "created_at": "2023-08-18T14:38:17Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 436966645,
-   "tag": "v3.6.0",
-   "published_at": "2026-11-06T20:21:57Z",
-   "prerelease": false,
-   "apk_count": 13
   }
  },
  {
@@ -99378,7 +99533,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1334123684,
    "full_name": "hongshuxifan321/dsh-mobile-app",
@@ -99390,7 +99545,7 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-18T08:32:25Z",
+   "updated_at": "2026-11-21T03:15:18Z",
    "created_at": "2026-08-14T11:45:36Z",
    "license": "MIT"
   },
@@ -99404,7 +99559,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1394538882,
    "full_name": "asfaraguest/tatap",
@@ -99439,53 +99594,6 @@
    "published_at": "2026-11-11T07:25:57Z",
    "prerelease": false,
    "apk_count": 4
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1396132820,
-   "full_name": "guzhou079-arch/deepseek-harness-android",
-   "owner": "guzhou079-arch",
-   "avatar_url": "https://avatars.githubusercontent.com/u/287430788?v=4",
-   "description": "把 DeepSeek Harness 打包成能直接装的安卓 APK：不用 Termux、不用 root、不用配电脑，读屏/点按/虚拟屏/定时任务和整套技能都随包；它还能在手机上自己编译、打包、签名、发布。 Android APK for DeepSeek Harness — no Termux, no root, no PC. Screen control, virtual display, scheduled tasks and bundled skills out of ",
-   "stars": 111,
-   "forks": 8,
-   "topics": [
-    "ai-agent",
-    "ai-tools",
-    "android",
-    "android-app",
-    "apk",
-    "deepseek",
-    "deepseek-harness",
-    "dsh",
-    "dsh-plugin",
-    "llm",
-    "local-first",
-    "mobile",
-    "no-root",
-    "on-device-ai",
-    "proot",
-    "screen-automation",
-    "self-hosted",
-    "shizuku",
-    "termux",
-    "termux-alternative"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T05:27:08Z",
-   "created_at": "2026-09-29T17:19:08Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 448147144,
-   "tag": "v1.49.5",
-   "published_at": "2026-11-17T04:57:15Z",
-   "prerelease": false,
-   "apk_count": 1
   }
  },
  {
@@ -99827,6 +99935,32 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1423181591,
+   "full_name": "sherlock-dev-ai/Clipify-AI-Video-Clipper-FREE",
+   "owner": "sherlock-dev-ai",
+   "avatar_url": "https://avatars.githubusercontent.com/u/143820899?v=4",
+   "description": "🎬 Free & Open-Source AI Video Clipper, Live Stream Highlights & 9:16 Shorts Studio (OpusClip / Munch alternative) for Windows & Android",
+   "stars": 110,
+   "forks": 14,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T20:39:19Z",
+   "created_at": "2026-10-17T09:53:57Z",
+   "license": "Other"
+  },
+  "release": {
+   "id": 452385338,
+   "tag": "v3.9.0",
+   "published_at": "2026-11-20T07:25:40Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 268339865,
@@ -99964,7 +100098,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1216569752,
    "full_name": "vw2x/Mira",
@@ -100482,6 +100616,104 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1164295495,
+   "full_name": "RohanBhattacharyya/oSBM",
+   "owner": "RohanBhattacharyya",
+   "avatar_url": "https://avatars.githubusercontent.com/u/73246001?v=4",
+   "description": "An OpenStarbound port to mobile devices.",
+   "stars": 108,
+   "forks": 15,
+   "topics": [
+    "android",
+    "apk",
+    "game",
+    "ios",
+    "ipa",
+    "mobile-port",
+    "nintendo-switch",
+    "starbound",
+    "switch"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-20T11:14:37Z",
+   "created_at": "2026-02-22T22:59:08Z",
+   "license": null
+  },
+  "release": {
+   "id": 356479594,
+   "tag": "v1.1",
+   "published_at": "2026-07-24T02:06:27Z",
+   "prerelease": false,
+   "apk_count": 10
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1417908549,
+   "full_name": "codepdbh/nfsu1-recompiled",
+   "owner": "codepdbh",
+   "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
+   "description": "Need for Speed Underground (2003) statically recompiled to native code for Windows and Android — no emulator. Requires your own copy of the game.",
+   "stars": 108,
+   "forks": 5,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-19T15:37:24Z",
+   "created_at": "2026-10-13T20:12:46Z",
+   "license": null
+  },
+  "release": {
+   "id": 452798835,
+   "tag": "v0.2.15",
+   "published_at": "2026-11-20T14:33:33Z",
+   "prerelease": false,
+   "apk_count": 3
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1406153922,
+   "full_name": "nautilusbits/mdk-sdl",
+   "owner": "nautilusbits",
+   "avatar_url": "https://avatars.githubusercontent.com/u/11296903?v=4",
+   "description": "Port of MDK (Shiny Entertainment, 1997) to C# and SDL3, based on reverse engineering: stereo 3D, VR viewer (Cardboard) on Android and desktop, gamepads - work in progress",
+   "stars": 108,
+   "forks": 9,
+   "topics": [
+    "android",
+    "csharp",
+    "dotnet",
+    "game-port",
+    "mdk",
+    "reverse-engineering",
+    "sdl3",
+    "stereoscopic-3d",
+    "vr"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T19:42:54Z",
+   "created_at": "2026-10-05T17:34:00Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 453908280,
+   "tag": "v2.0.0",
+   "published_at": "2026-11-21T18:53:27Z",
+   "prerelease": false,
+   "apk_count": 6
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 393801129,
@@ -100874,42 +101106,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1164295495,
-   "full_name": "RohanBhattacharyya/oSBM",
-   "owner": "RohanBhattacharyya",
-   "avatar_url": "https://avatars.githubusercontent.com/u/73246001?v=4",
-   "description": "An OpenStarbound port to mobile devices.",
-   "stars": 107,
-   "forks": 15,
-   "topics": [
-    "android",
-    "apk",
-    "game",
-    "ios",
-    "ipa",
-    "mobile-port",
-    "nintendo-switch",
-    "starbound",
-    "switch"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-14T07:46:43Z",
-   "created_at": "2026-02-22T22:59:08Z",
-   "license": null
-  },
-  "release": {
-   "id": 356479594,
-   "tag": "v1.1",
-   "published_at": "2026-07-24T02:06:27Z",
-   "prerelease": false,
-   "apk_count": 10
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 1291985755,
@@ -100947,7 +101143,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 808722458,
    "full_name": "1596941391qq/pokerogue-ios-android",
@@ -100964,9 +101160,9 @@
    "license": "AGPL-3.0"
   },
   "release": {
-   "id": 449048846,
-   "tag": "pokerogue20261118",
-   "published_at": "2026-11-17T18:42:17Z",
+   "id": 453741189,
+   "tag": "pokerogue20261121",
+   "published_at": "2026-11-21T14:16:38Z",
    "prerelease": false,
    "apk_count": 2
   }
@@ -101286,6 +101482,49 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1408975565,
+   "full_name": "ExpertKT/notice-hub",
+   "owner": "ExpertKT",
+   "avatar_url": "https://avatars.githubusercontent.com/u/185672471?v=4",
+   "description": "群里的通知自动变成待办和日历：QQ 群、钉钉、微信群、超星学习通 → 一个本地待办台 + 月历，可订阅手机日历。Windows 出货包、安卓 App，数据只存本机。",
+   "stars": 106,
+   "forks": 9,
+   "topics": [
+    "android",
+    "calendar",
+    "chaoxing",
+    "dingtalk",
+    "napcat",
+    "notification",
+    "onebot",
+    "productivity",
+    "python",
+    "qq",
+    "self-hosted",
+    "sqlite",
+    "study",
+    "todo",
+    "wechat",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T06:31:32Z",
+   "created_at": "2026-10-07T15:02:37Z",
+   "license": "Other"
+  },
+  "release": {
+   "id": 446090861,
+   "tag": "v1.1.0",
+   "published_at": "2026-11-15T13:44:17Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-10-27",
   "repo": {
    "id": 523394858,
@@ -101318,7 +101557,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 24274633,
    "full_name": "danbeck/green-mahjong",
@@ -101659,7 +101898,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 95167188,
    "full_name": "mobile-insight/mobileinsight-mobile",
@@ -101750,7 +101989,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1339888634,
    "full_name": "zexadev/dsh-tether",
@@ -101783,7 +102022,7 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-18T10:13:05Z",
+   "updated_at": "2026-11-21T06:49:49Z",
    "created_at": "2026-08-19T18:09:51Z",
    "license": "MIT"
   },
@@ -101793,32 +102032,6 @@
    "published_at": "2026-11-18T13:29:52Z",
    "prerelease": false,
    "apk_count": 11
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1417908549,
-   "full_name": "codepdbh/nfsu1-recompiled",
-   "owner": "codepdbh",
-   "avatar_url": "https://avatars.githubusercontent.com/u/251194930?v=4",
-   "description": "Need for Speed Underground (2003) statically recompiled to native code for Windows and Android — no emulator. Requires your own copy of the game.",
-   "stars": 105,
-   "forks": 5,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-17T11:52:39Z",
-   "created_at": "2026-10-13T20:12:46Z",
-   "license": null
-  },
-  "release": {
-   "id": 449145396,
-   "tag": "v0.2.14",
-   "published_at": "2026-11-17T20:15:51Z",
-   "prerelease": false,
-   "apk_count": 3
   }
  },
  {
@@ -101861,42 +102074,6 @@
   "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
-   "id": 1406153922,
-   "full_name": "nautilusbits/mdk-sdl",
-   "owner": "nautilusbits",
-   "avatar_url": "https://avatars.githubusercontent.com/u/11296903?v=4",
-   "description": "Port of MDK (Shiny Entertainment, 1997) to C# and SDL3, based on reverse engineering: stereo 3D, VR viewer (Cardboard) on Android and desktop, gamepads - work in progress",
-   "stars": 105,
-   "forks": 8,
-   "topics": [
-    "android",
-    "csharp",
-    "dotnet",
-    "game-port",
-    "mdk",
-    "reverse-engineering",
-    "sdl3",
-    "stereoscopic-3d",
-    "vr"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-19T06:31:32Z",
-   "created_at": "2026-10-05T17:34:00Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 436524063,
-   "tag": "v1.2.6",
-   "published_at": "2026-11-06T13:18:32Z",
-   "prerelease": false,
-   "apk_count": 5
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-20",
-  "repo": {
    "id": 1261335980,
    "full_name": "Team-Juicr/Juicr",
    "owner": "Team-Juicr",
@@ -101917,49 +102094,6 @@
    "published_at": "2026-06-06T15:36:17Z",
    "prerelease": false,
    "apk_count": 8
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-20",
-  "repo": {
-   "id": 1408975565,
-   "full_name": "ExpertKT/notice-hub",
-   "owner": "ExpertKT",
-   "avatar_url": "https://avatars.githubusercontent.com/u/185672471?v=4",
-   "description": "群里的通知自动变成待办和日历：QQ 群、钉钉、微信群、超星学习通 → 一个本地待办台 + 月历，可订阅手机日历。Windows 出货包、安卓 App，数据只存本机。",
-   "stars": 105,
-   "forks": 9,
-   "topics": [
-    "android",
-    "calendar",
-    "chaoxing",
-    "dingtalk",
-    "napcat",
-    "notification",
-    "onebot",
-    "productivity",
-    "python",
-    "qq",
-    "self-hosted",
-    "sqlite",
-    "study",
-    "todo",
-    "wechat",
-    "windows"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T16:36:55Z",
-   "created_at": "2026-10-07T15:02:37Z",
-   "license": "Other"
-  },
-  "release": {
-   "id": 446090861,
-   "tag": "v1.1.0",
-   "published_at": "2026-11-15T13:44:17Z",
-   "prerelease": false,
-   "apk_count": 2
   }
  },
  {
@@ -101998,6 +102132,116 @@
    "published_at": "2026-11-07T12:07:20Z",
    "prerelease": false,
    "apk_count": 5
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 612311901,
+   "full_name": "rn0x/altaqwaa-android",
+   "owner": "rn0x",
+   "avatar_url": "https://avatars.githubusercontent.com/u/76129163?v=4",
+   "description": "تطبيق إسلامي سهل الإستخدام و جامع للكثير من الميزات التي يحتاجها المسلم في يومه",
+   "stars": 105,
+   "forks": 15,
+   "topics": [
+    "adhkar",
+    "android",
+    "app-islam",
+    "azkar",
+    "cordova",
+    "islam",
+    "islamic",
+    "mp3",
+    "prayer",
+    "prayer-times",
+    "quran"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-20T16:23:11Z",
+   "created_at": "2023-03-10T16:54:31Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 384502487,
+   "tag": "v3.1.0",
+   "published_at": "2026-09-08T07:05:53Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1115275689,
+   "full_name": "conanizer/pockettracker",
+   "owner": "conanizer",
+   "avatar_url": "https://avatars.githubusercontent.com/u/240594017?v=4",
+   "description": "Android music tracker inspired by M8 and LGPT",
+   "stars": 105,
+   "forks": 11,
+   "topics": [
+    "cross-platform",
+    "handhelds",
+    "tracker-music"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T00:17:31Z",
+   "created_at": "2025-12-12T15:50:45Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 453307910,
+   "tag": "v0.9.9.3",
+   "published_at": "2026-11-21T00:07:30Z",
+   "prerelease": false,
+   "apk_count": 5
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1423577893,
+   "full_name": "Shikasar7/CicaTavern",
+   "owner": "Shikasar7",
+   "avatar_url": "https://avatars.githubusercontent.com/u/34180672?v=4",
+   "description": "Agent 式的 SillyTavern 角色卡酒馆：高缓存命中，兼容酒馆角色卡与世界书，自带配图和一键朗读，角色形象固定，引导式创作角色卡。An agent-style SillyTavern card player for your own LLM API.",
+   "stars": 105,
+   "forks": 8,
+   "topics": [
+    "ai-roleplay",
+    "android",
+    "character-cards",
+    "character-creator",
+    "chatbot",
+    "claude",
+    "deepseek",
+    "image-generation",
+    "llm",
+    "novelai",
+    "openrouter",
+    "roleplay",
+    "sillytavern",
+    "text-to-speech",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T15:43:35Z",
+   "created_at": "2026-10-17T17:30:55Z",
+   "license": "AGPL-3.0"
+  },
+  "release": {
+   "id": 449607252,
+   "tag": "v2.6.2",
+   "published_at": "2026-11-18T06:45:07Z",
+   "prerelease": false,
+   "apk_count": 8
   }
  },
  {
@@ -102042,7 +102286,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 64882136,
    "full_name": "inclement/Pyonic-interpreter",
@@ -102312,44 +102556,6 @@
    "published_at": "2024-04-13T02:56:21Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 612311901,
-   "full_name": "rn0x/altaqwaa-android",
-   "owner": "rn0x",
-   "avatar_url": "https://avatars.githubusercontent.com/u/76129163?v=4",
-   "description": "تطبيق إسلامي سهل الإستخدام و جامع للكثير من الميزات التي يحتاجها المسلم في يومه",
-   "stars": 104,
-   "forks": 15,
-   "topics": [
-    "adhkar",
-    "android",
-    "app-islam",
-    "azkar",
-    "cordova",
-    "islam",
-    "islamic",
-    "mp3",
-    "prayer",
-    "prayer-times",
-    "quran"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-11T17:24:18Z",
-   "created_at": "2023-03-10T16:54:31Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 384502487,
-   "tag": "v3.1.0",
-   "published_at": "2026-09-08T07:05:53Z",
-   "prerelease": false,
-   "apk_count": 2
   }
  },
  {
@@ -102646,36 +102852,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1115275689,
-   "full_name": "conanizer/pockettracker",
-   "owner": "conanizer",
-   "avatar_url": "https://avatars.githubusercontent.com/u/240594017?v=4",
-   "description": "Android music tracker inspired by M8 and LGPT",
-   "stars": 103,
-   "forks": 11,
-   "topics": [
-    "cross-platform",
-    "handhelds",
-    "tracker-music"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-17T02:43:22Z",
-   "created_at": "2025-12-12T15:50:45Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 440507230,
-   "tag": "v0.9.9.2",
-   "published_at": "2026-11-10T15:02:12Z",
-   "prerelease": false,
-   "apk_count": 5
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 1323197040,
@@ -102754,7 +102930,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 81997077,
    "full_name": "nextcloud/passman-android",
@@ -103078,7 +103254,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 630713358,
    "full_name": "Innovative-CST/Android-Code-Editor",
@@ -104136,7 +104312,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1274755774,
    "full_name": "DreamFekk/YoloTouchHelp",
@@ -104283,7 +104459,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 783515635,
    "full_name": "DataXujing/Qwen1.5-0.5b-chat-android",
@@ -104681,48 +104857,6 @@
    "published_at": "2026-11-01T15:55:59Z",
    "prerelease": true,
    "apk_count": 2
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1423577893,
-   "full_name": "Shikasar7/CicaTavern",
-   "owner": "Shikasar7",
-   "avatar_url": "https://avatars.githubusercontent.com/u/34180672?v=4",
-   "description": "Agent 式的 SillyTavern 角色卡酒馆：高缓存命中，兼容酒馆角色卡与世界书，自带配图和一键朗读，角色形象固定，引导式创作角色卡。An agent-style SillyTavern card player for your own LLM API.",
-   "stars": 99,
-   "forks": 8,
-   "topics": [
-    "ai-roleplay",
-    "android",
-    "character-cards",
-    "character-creator",
-    "chatbot",
-    "claude",
-    "deepseek",
-    "image-generation",
-    "llm",
-    "novelai",
-    "openrouter",
-    "roleplay",
-    "sillytavern",
-    "text-to-speech",
-    "windows"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T09:45:22Z",
-   "created_at": "2026-10-17T17:30:55Z",
-   "license": "AGPL-3.0"
-  },
-  "release": {
-   "id": 449607252,
-   "tag": "v2.6.2",
-   "published_at": "2026-11-18T06:45:07Z",
-   "prerelease": false,
-   "apk_count": 8
   }
  },
  {
@@ -106354,7 +106488,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 162946998,
    "full_name": "GToad/Android_Anti_Debug",
@@ -107145,6 +107279,41 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1421066736,
+   "full_name": "Pixelgamer4k/graden",
+   "owner": "Pixelgamer4k",
+   "avatar_url": "https://avatars.githubusercontent.com/u/139259340?v=4",
+   "description": "Multi-layer video editor and colour grading app for Android — proxy editing, native-resolution preview, colour wheels and scopes, full-quality H.264/H.265 export. Beta.",
+   "stars": 96,
+   "forks": 4,
+   "topics": [
+    "android",
+    "color-grading",
+    "hevc",
+    "jetpack-compose",
+    "kotlin",
+    "media3",
+    "video-editing",
+    "video-editor"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T10:28:32Z",
+   "created_at": "2026-10-15T17:01:36Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 448983378,
+   "tag": "v0.5.0-beta",
+   "published_at": "2026-11-17T17:41:13Z",
+   "prerelease": true,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 606641451,
@@ -107845,6 +108014,39 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1067795575,
+   "full_name": "Ark-Repoleved/BDroid_X",
+   "owner": "Ark-Repoleved",
+   "avatar_url": "https://avatars.githubusercontent.com/u/167792817?v=4",
+   "description": "PC-free Browndust II Mod manager for Android",
+   "stars": 95,
+   "forks": 6,
+   "topics": [
+    "2",
+    "bd2",
+    "brown",
+    "brown-dust-2",
+    "browndust2",
+    "dust"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T15:22:26Z",
+   "created_at": "2025-10-01T12:01:06Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 453747354,
+   "tag": "1.5.1",
+   "published_at": "2026-11-21T14:25:59Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-21",
   "repo": {
    "id": 1058097696,
@@ -108398,65 +108600,6 @@
    "published_at": "2026-11-17T03:11:44Z",
    "prerelease": false,
    "apk_count": 13
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1067795575,
-   "full_name": "Ark-Repoleved/BDroid_X",
-   "owner": "Ark-Repoleved",
-   "avatar_url": "https://avatars.githubusercontent.com/u/167792817?v=4",
-   "description": "PC-free Browndust II Mod manager for Android",
-   "stars": 94,
-   "forks": 6,
-   "topics": [
-    "2",
-    "bd2",
-    "brown",
-    "brown-dust-2",
-    "browndust2",
-    "dust"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T03:58:04Z",
-   "created_at": "2025-10-01T12:01:06Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 443852773,
-   "tag": "1.5.0",
-   "published_at": "2026-11-13T05:30:08Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1450506695,
-   "full_name": "khorne-hub/4u-native",
-   "owner": "khorne-hub",
-   "avatar_url": "https://avatars.githubusercontent.com/u/351190368?v=4",
-   "description": "Monster Hunter 4 Ultimate recompiled to native code for Android. Bring your own copy of the game.",
-   "stars": 94,
-   "forks": 6,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T02:17:37Z",
-   "created_at": "2026-11-08T17:33:31Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 449421478,
-   "tag": "v1.0.1.1",
-   "published_at": "2026-11-18T01:47:22Z",
-   "prerelease": false,
-   "apk_count": 2
   }
  },
  {
@@ -110329,7 +110472,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 13093740,
    "full_name": "spacecowboy/AndroidGCMTutorial",
@@ -110501,36 +110644,6 @@
    "published_at": "2026-09-13T14:13:42Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1425981694,
-   "full_name": "krmanik/kioku",
-   "owner": "krmanik",
-   "avatar_url": "https://avatars.githubusercontent.com/u/12841290?v=4",
-   "description": "Anki Desktop for iOS and Android",
-   "stars": 91,
-   "forks": 5,
-   "topics": [
-    "anki",
-    "anki-desktop",
-    "termux"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T10:15:01Z",
-   "created_at": "2026-10-19T17:53:37Z",
-   "license": "AGPL-3.0"
-  },
-  "release": {
-   "id": 450070397,
-   "tag": "v0.2.9",
-   "published_at": "2026-11-18T14:29:29Z",
-   "prerelease": false,
-   "apk_count": 7
   }
  },
  {
@@ -112232,53 +112345,6 @@
    "published_at": "2026-07-16T09:21:56Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1432126971,
-   "full_name": "skydeadpeng/hongguo-android-cast",
-   "owner": "skydeadpeng",
-   "avatar_url": "https://avatars.githubusercontent.com/u/45809304?v=4",
-   "description": "红果短剧（Hongguo Drama）+ 黄果漫剧（Huangguo）多端客户端：Android 手机 / Android TV / Windows / macOS / Linux 已发布；webOS、Apple TV 开发中。内置黄果漫剧（AI 漫剧 / AI 短剧）免费在线播放，红果短剧播放下载、DLNA 投屏、整部无损合并、扫码登录云同步。",
-   "stars": 89,
-   "forks": 18,
-   "topics": [
-    "ai-drama",
-    "android",
-    "android-tv",
-    "appimage",
-    "apple-tv",
-    "desktop-app",
-    "dlna",
-    "dlna-cast",
-    "duanju",
-    "electron",
-    "hongguo",
-    "huangguo",
-    "lg-webos",
-    "linux",
-    "macos",
-    "short-drama",
-    "tvos",
-    "video-player",
-    "webos",
-    "windows"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T09:46:10Z",
-   "created_at": "2026-10-24T11:47:38Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 448298200,
-   "tag": "v0.12.80",
-   "published_at": "2026-11-17T07:46:38Z",
-   "prerelease": false,
-   "apk_count": 8
   }
  },
  {
@@ -114807,41 +114873,6 @@
    "published_at": "2026-11-04T14:11:48Z",
    "prerelease": false,
    "apk_count": 3
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-18",
-  "repo": {
-   "id": 1421066736,
-   "full_name": "Pixelgamer4k/graden",
-   "owner": "Pixelgamer4k",
-   "avatar_url": "https://avatars.githubusercontent.com/u/139259340?v=4",
-   "description": "Multi-layer video editor and colour grading app for Android — proxy editing, native-resolution preview, colour wheels and scopes, full-quality H.264/H.265 export. Beta.",
-   "stars": 86,
-   "forks": 4,
-   "topics": [
-    "android",
-    "color-grading",
-    "hevc",
-    "jetpack-compose",
-    "kotlin",
-    "media3",
-    "video-editing",
-    "video-editor"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T04:34:47Z",
-   "created_at": "2026-10-15T17:01:36Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 448983378,
-   "tag": "v0.5.0-beta",
-   "published_at": "2026-11-17T17:41:13Z",
-   "prerelease": true,
-   "apk_count": 1
   }
  },
  {
@@ -134197,44 +134228,6 @@
    "published_at": "2025-11-22T10:15:12Z",
    "prerelease": false,
    "apk_count": 3
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-22",
-  "repo": {
-   "id": 825123377,
-   "full_name": "mllrr96/Neumorphic-Calculator",
-   "owner": "mllrr96",
-   "avatar_url": "https://avatars.githubusercontent.com/u/28247455?v=4",
-   "description": "A beautifully designed, customizable calculator app with a soft, modern neumorphic style. Built in Flutter for Android and iOS.",
-   "stars": 60,
-   "forks": 12,
-   "topics": [
-    "android",
-    "calculator",
-    "calculator-app",
-    "calculator-application",
-    "flutter",
-    "flutter-app",
-    "flutter-apps",
-    "flutter-calculator",
-    "flutter-calculator-app",
-    "flutter-calculator-mathematics-opensource",
-    "ios"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-11T00:46:11Z",
-   "created_at": "2024-07-06T21:05:39Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 228836746,
-   "tag": "v1.0.3",
-   "published_at": "2025-06-30T15:54:37Z",
-   "prerelease": false,
-   "apk_count": 5
   }
  },
  {
@@ -202145,32 +202138,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-22",
-  "repo": {
-   "id": 1292731455,
-   "full_name": "ianshulyadav/Pixel-Music",
-   "owner": "ianshulyadav",
-   "avatar_url": "https://avatars.githubusercontent.com/u/232447597?v=4",
-   "description": "Material 3 Expressive yt music and local music player for Android. Enjoy a beautiful, free Spotify and YT Premium alternative with local playback, high-res YouTube Music, and Telegram streaming. Loaded with synchronized LRC lyrics, custom 1",
-   "stars": 11,
-   "forks": 1,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-15T12:57:57Z",
-   "created_at": "2026-07-07T19:49:41Z",
-   "license": "Other"
-  },
-  "release": {
-   "id": 350559398,
-   "tag": "v1.5",
-   "published_at": "2026-07-07T20:30:21Z",
-   "prerelease": false,
-   "apk_count": 2
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 233819913,
@@ -213407,32 +213374,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-22",
-  "repo": {
-   "id": 701282059,
-   "full_name": "quantum6/Android-OpenCamera",
-   "owner": "quantum6",
-   "avatar_url": "https://avatars.githubusercontent.com/u/10150643?v=4",
-   "description": "",
-   "stars": 9,
-   "forks": 1,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-08-06T08:41:18Z",
-   "created_at": "2023-10-06T10:09:14Z",
-   "license": null
-  },
-  "release": {
-   "id": 124118336,
-   "tag": "1.52",
-   "published_at": "2023-10-06T22:59:22Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 164945557,
@@ -214566,7 +214507,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1389724043,
    "full_name": "omkarnub/Kanri",
@@ -214575,17 +214516,30 @@
    "description": "An offline, privacy-first expense tracker for Android that tracks your spending automatically from bank SMS.",
    "stars": 9,
    "forks": 3,
-   "topics": [],
+   "topics": [
+    "android",
+    "android-app",
+    "android-application",
+    "android-development",
+    "android-library",
+    "android-package",
+    "android-studio",
+    "androidstudio",
+    "expense-tracker",
+    "finance",
+    "money",
+    "upi"
+   ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-11T22:50:03Z",
+   "updated_at": "2026-11-21T20:24:32Z",
    "created_at": "2026-09-26T19:38:27Z",
    "license": "GPL-3.0"
   },
   "release": {
-   "id": 442242196,
-   "tag": "v1.19.0",
-   "published_at": "2026-11-11T22:08:38Z",
+   "id": 453191926,
+   "tag": "v1.19.8",
+   "published_at": "2026-11-20T21:22:52Z",
    "prerelease": false,
    "apk_count": 1
   }
@@ -281256,6 +281210,48 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1391672365,
+   "full_name": "ankitjha67/Munora",
+   "owner": "ankitjha67",
+   "avatar_url": "https://avatars.githubusercontent.com/u/33821383?v=4",
+   "description": "Local-first personal finance for your whole household, on Windows & Android. Accounts, transactions, investments, loans, property, goal planning and multi-currency, with every figure kept on your own device.",
+   "stars": 5,
+   "forks": 0,
+   "topics": [
+    "android",
+    "budgeting",
+    "capacitor",
+    "electron",
+    "fire",
+    "household",
+    "local-first",
+    "money-management",
+    "net-worth",
+    "offline-first",
+    "personal-finance",
+    "privacy",
+    "react",
+    "typescript",
+    "windows"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T17:03:16Z",
+   "created_at": "2026-09-28T03:09:56Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 398378820,
+   "tag": "v0.1.0",
+   "published_at": "2026-09-28T15:25:18Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-21",
   "repo": {
    "id": 1374454704,
@@ -320962,45 +320958,6 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-10-22",
-  "repo": {
-   "id": 417859513,
-   "full_name": "alkatrazstudio/sonus-presto",
-   "owner": "alkatrazstudio",
-   "avatar_url": "https://avatars.githubusercontent.com/u/20016690?v=4",
-   "description": "Filesystem-based music player for Android",
-   "stars": 2,
-   "forks": 1,
-   "topics": [
-    "android",
-    "android-application",
-    "cue",
-    "cue-sheet",
-    "internet-radio",
-    "internet-radio-player",
-    "m3u",
-    "m3u-playlist",
-    "music",
-    "music-player",
-    "music-player-application",
-    "playlist"
-   ],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-09-11T19:46:02Z",
-   "created_at": "2021-10-16T14:54:43Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 273691570,
-   "tag": "v1.0.0",
-   "published_at": "2026-01-01T10:34:18Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
   "last_verified": "2026-11-20",
   "repo": {
    "id": 276571207,
@@ -354605,7 +354562,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1323340576,
    "full_name": "core-dev-group/core-finance-app",
@@ -356403,7 +356360,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1240851349,
    "full_name": "achimgrothkopp-ux/songtabs-app",
@@ -356429,7 +356386,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 989177803,
    "full_name": "SNEHASISHROY-125/legacycam",
@@ -356455,7 +356412,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1185579809,
    "full_name": "Eutalix/android-python-wheels",
@@ -356490,7 +356447,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 288719668,
    "full_name": "FriendlyTroll/dalYinski",
@@ -356523,7 +356480,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 46358827,
    "full_name": "KeyWeeUsr/Fish",
@@ -356556,7 +356513,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1348118406,
    "full_name": "Danielmrosu/Gym_Fit_Tracker",
@@ -356592,7 +356549,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 365769329,
    "full_name": "EmptyLibra/Fractals",
@@ -356626,7 +356583,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1395239437,
    "full_name": "ppcplant2sigma-boop/pdf-to-excel",
@@ -356662,7 +356619,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1156864416,
    "full_name": "ErManoj-Sharma/Youtube-download",
@@ -356701,7 +356658,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 638000133,
    "full_name": "mosesab/AbuseAlert",
@@ -356742,7 +356699,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1283584297,
    "full_name": "dwkw98/QR-Code-Generator",
@@ -356778,7 +356735,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1381968409,
    "full_name": "JohnDoeAnonITA/reclip-apk",
@@ -356815,7 +356772,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-20",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1212252759,
    "full_name": "PaulElHilany/multi_grade",
@@ -357262,37 +357219,6 @@
    "id": 264470113,
    "tag": "v1.0.1",
    "published_at": "2025-11-21T22:37:45Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-22",
-  "repo": {
-   "id": 1423964974,
-   "full_name": "joergmlpts/only-podcasts",
-   "owner": "joergmlpts",
-   "avatar_url": "https://avatars.githubusercontent.com/u/66563749?v=4",
-   "description": "This is an Android podcast player app that only plays podcasts. It doesn't request permissions, show ads, steal information, or ask for payments - it only plays podcasts.",
-   "stars": 1,
-   "forks": 0,
-   "topics": [
-    "android",
-    "app",
-    "player",
-    "podcasts"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-22T20:39:46Z",
-   "created_at": "2026-10-18T03:49:55Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 416788976,
-   "tag": "v1.0.0",
-   "published_at": "2026-10-19T00:15:08Z",
    "prerelease": false,
    "apk_count": 1
   }
@@ -367633,7 +367559,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1117599617,
    "full_name": "qtremors/eonslate",
@@ -367664,7 +367590,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1144515429,
    "full_name": "Deepankar-Siddharth/instant-ledger",
@@ -367716,7 +367642,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1374207551,
    "full_name": "BitcordMessenger/Android",
@@ -367779,7 +367705,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1179130897,
    "full_name": "pomegranate2/FitnessTracker",
@@ -367871,7 +367797,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1342286050,
    "full_name": "abdullah270602/spendwise-local",
@@ -367897,7 +367823,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1318056434,
    "full_name": "devxsachin/ivy-wallet-community",
@@ -367923,7 +367849,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1250636425,
    "full_name": "DanielX8/Pesalytics-Budget-and-M-pesa-Tracker",
@@ -367963,7 +367889,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 102892264,
    "full_name": "SCCapstone/Cupboard",
@@ -368018,7 +367944,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 146712618,
    "full_name": "skynet-im/skynet-android",
@@ -368049,7 +367975,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1240504437,
    "full_name": "yihan-bin/mediapipe-android-Fitness",
@@ -368075,7 +368001,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1039165432,
    "full_name": "ferdianfariza/Artha-Manager",
@@ -368106,7 +368032,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 987184382,
    "full_name": "Lonely0710/travel-in-android",
@@ -368136,7 +368062,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1372640911,
    "full_name": "JhonLipaSRT/APP-PERSONAL-FINANCE",
@@ -368162,7 +368088,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 591377901,
    "full_name": "vonbrank/ForkifyForAndroid",
@@ -368188,7 +368114,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 950843051,
    "full_name": "sw-consulting/noth-android",
@@ -368214,7 +368140,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1299088875,
    "full_name": "popshia/nikon-recipes-android",
@@ -368240,7 +368166,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1411610493,
    "full_name": "zxyzx0430/open-margin",
@@ -368272,7 +368198,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1406552737,
    "full_name": "zeana9658-alt/finance_hub",
@@ -368319,7 +368245,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1257398422,
    "full_name": "dhruvforge/expense-tracker",
@@ -368345,7 +368271,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 296418846,
    "full_name": "Airidasz/personal-recipe-app",
@@ -368371,7 +368297,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1126163137,
    "full_name": "indra7777/SpendWise",
@@ -368397,7 +368323,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1327170879,
    "full_name": "loic-fejoz/dtn-android-messenger",
@@ -368430,7 +368356,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1318256727,
    "full_name": "robinwang23/offline-travel-poster-android",
@@ -368456,7 +368382,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1350237099,
    "full_name": "linshp7-create/wudakan",
@@ -368488,7 +368414,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1108838956,
    "full_name": "StringManolo/DarkMessengerAndroid",
@@ -368514,7 +368440,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1121350169,
    "full_name": "pratee-k-umar/Android-MDM",
@@ -368540,7 +368466,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1005203100,
    "full_name": "lucasdillmann/firefly-companion",
@@ -368573,7 +368499,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1424765410,
    "full_name": "liuben3223380369-ops/panboost",
@@ -368609,7 +368535,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1063522147,
    "full_name": "R0GUE-A5H/SpendTrackrQ",
@@ -368645,7 +368571,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1367272516,
    "full_name": "having5548/TravelerNote",
@@ -368669,16 +368595,16 @@
    "license": "GPL-3.0"
   },
   "release": {
-   "id": 415687137,
-   "tag": "v1.1.16",
-   "published_at": "2026-10-17T08:54:05Z",
+   "id": 453685750,
+   "tag": "v1.1.17",
+   "published_at": "2026-11-21T12:45:41Z",
    "prerelease": false,
    "apk_count": 1
   }
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 933583459,
    "full_name": "IntroGymApp/intro-gym-android",
@@ -368707,7 +368633,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1280594813,
    "full_name": "SonaMother/Zarbin",
@@ -368733,7 +368659,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1141730055,
    "full_name": "navi705/MyBudget",
@@ -368763,7 +368689,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 821522794,
    "full_name": "IsD4n73/iTravel-Plan",
@@ -368795,7 +368721,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1288694057,
    "full_name": "pokejgameryt-ship-it/pokefinanzas",
@@ -368828,7 +368754,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1299882454,
    "full_name": "dravidpa7/Rupeer",
@@ -368860,7 +368786,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 222505030,
    "full_name": "MuizZer07/Thunder-Storm-Messenger-Android",
@@ -368890,7 +368816,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1201975485,
    "full_name": "HazemDaw/spendo",
@@ -368927,7 +368853,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1426743925,
    "full_name": "gmorb/msn-messenger-android-public",
@@ -368953,7 +368879,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 96936878,
    "full_name": "amagh/project.kitchen",
@@ -368979,7 +368905,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1027894991,
    "full_name": "Nityam-Arora/Expense-Tracker-App",
@@ -369005,7 +368931,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1430694199,
    "full_name": "abrarmughal4480/hisably",
@@ -369044,7 +368970,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 593276967,
    "full_name": "BogdanSvirsky/health-tracker",
@@ -369070,7 +368996,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 900112347,
    "full_name": "q2L3ntk/Tunica",
@@ -369096,7 +369022,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1269776664,
    "full_name": "MoRoKonst/Subrosa-messenger",
@@ -369124,16 +369050,16 @@
    "license": "AGPL-3.0"
   },
   "release": {
-   "id": 441462168,
-   "tag": "v1.1.2",
-   "published_at": "2026-11-11T09:26:26Z",
+   "id": 451705344,
+   "tag": "v1.1.4",
+   "published_at": "2026-11-19T17:46:19Z",
    "prerelease": false,
-   "apk_count": 3
+   "apk_count": 4
   }
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 168961154,
    "full_name": "devendrakushwah/CoinDesk",
@@ -369171,7 +369097,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1330209870,
    "full_name": "PedroVinicins/pingo-financas",
@@ -369205,7 +369131,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 804593533,
    "full_name": "nikolasluiz123/FitnessProApp",
@@ -369231,7 +369157,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1312531227,
    "full_name": "Toxiclikith/budgetBuddy-apk",
@@ -369257,7 +369183,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1035860077,
    "full_name": "nixodmin/SMTS-client-android",
@@ -369283,7 +369209,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 249253129,
    "full_name": "nicolasfguillaume/cuisine_mobile",
@@ -369317,7 +369243,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1374467684,
    "full_name": "CodeShowOff/XPENC",
@@ -369343,7 +369269,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 357534986,
    "full_name": "VaibhavJadiya/CookBook",
@@ -369401,7 +369327,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1377034866,
    "full_name": "Losleo1211/LeoMessenger",
@@ -369540,7 +369466,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 230281088,
    "full_name": "wlghdu97/NotEnoughProductionAndroid",
@@ -369566,7 +369492,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1412765720,
    "full_name": "xp20011002-cmd/MSN-Messenger-7.5---Android-Edition-",
@@ -369760,7 +369686,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 658790965,
    "full_name": "rpshkarki1/BuildGainz",
@@ -369866,7 +369792,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1349270607,
    "full_name": "andreibarburas/qarib-android",
@@ -369899,7 +369825,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1412878042,
    "full_name": "dknaidu2008-code/Gym-Partner-AI",
@@ -369925,7 +369851,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 442451857,
    "full_name": "Anifyuli/uenak-recipes",
@@ -370230,7 +370156,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1075413618,
    "full_name": "borislava-ivn/tourly-android",
@@ -370370,7 +370296,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 814141919,
    "full_name": "dinaraparanid/Cooking-Corner-KMP",
@@ -370587,7 +370513,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1283263368,
    "full_name": "Xyraveil/SubShare",
@@ -380567,7 +380493,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1433486227,
    "full_name": "CrashBandit82/CashBandit",
@@ -380592,9 +380518,9 @@
    "license": "GPL-3.0"
   },
   "release": {
-   "id": 448953435,
-   "tag": "v1.0.2",
-   "published_at": "2026-11-17T17:12:41Z",
+   "id": 453141135,
+   "tag": "v1.0.3",
+   "published_at": "2026-11-20T20:20:40Z",
    "prerelease": false,
    "apk_count": 4
   }
@@ -387673,7 +387599,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1434856268,
    "full_name": "Zoro1228/mubafaapp",
@@ -387699,7 +387625,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1434551204,
    "full_name": "Rogeriocsantana/MeuFinanceiro",
@@ -387716,16 +387642,16 @@
    "license": null
   },
   "release": {
-   "id": 445540425,
-   "tag": "v0.3.68",
-   "published_at": "2026-11-14T19:34:03Z",
+   "id": 450794950,
+   "tag": "v0.3.75",
+   "published_at": "2026-11-19T02:15:40Z",
    "prerelease": false,
    "apk_count": 2
   }
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1433666723,
    "full_name": "Jonesie/adventure-timeline",
@@ -387742,16 +387668,16 @@
    "license": "GPL-3.0"
   },
   "release": {
-   "id": 447357398,
-   "tag": "v1.0.0",
-   "published_at": "2026-11-16T17:22:47Z",
+   "id": 451825991,
+   "tag": "v1.1.0",
+   "published_at": "2026-11-19T19:26:55Z",
    "prerelease": false,
    "apk_count": 2
   }
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1379294101,
    "full_name": "MrFluffycloud/kite",
@@ -387777,7 +387703,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1349262089,
    "full_name": "Gu-Haojia/lantale",
@@ -387810,7 +387736,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1434525674,
    "full_name": "yichen520-1/yichen-ledger",
@@ -387836,7 +387762,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1423422178,
    "full_name": "GreensGoblin/steadydots",
@@ -387862,7 +387788,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1358815352,
    "full_name": "kartikdeshpande18/SpendTrackNative",
@@ -387899,7 +387825,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1432608120,
    "full_name": "itsmeayusharyan/sumvalo",
@@ -387961,7 +387887,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1376115456,
    "full_name": "Skerpsh/Ostrich_Messenger",
@@ -387993,9 +387919,9 @@
    "license": "MIT"
   },
   "release": {
-   "id": 434446416,
-   "tag": "v1.5.21",
-   "published_at": "2026-11-04T20:58:27Z",
+   "id": 450392917,
+   "tag": "v1.5.23",
+   "published_at": "2026-11-18T18:29:35Z",
    "prerelease": false,
    "apk_count": 20
   }
@@ -389959,7 +389885,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1386818771,
    "full_name": "ksksmnejs/PicoKey-Manager-Android",
@@ -391196,7 +391122,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1355329265,
    "full_name": "ribollitiago/monexi",
@@ -391219,7 +391145,7 @@
    ],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-10T13:03:54Z",
+   "updated_at": "2026-11-19T17:02:25Z",
    "created_at": "2026-09-02T23:34:02Z",
    "license": null
   },
@@ -391233,7 +391159,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1391908772,
    "full_name": "theohalden/Tinward",
@@ -391267,7 +391193,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1404854150,
    "full_name": "godsmustb/FitnessGym",
@@ -391319,7 +391245,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1442600767,
    "full_name": "ZiChen-hub/fitness-plan",
@@ -394248,7 +394174,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1445357072,
    "full_name": "DreamyXiam/FreeMyFinance",
@@ -394321,7 +394247,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1307946146,
    "full_name": "Arnav-Sharma-codes/FinX-Android",
@@ -394354,7 +394280,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1438045631,
    "full_name": "resolik/butter",
@@ -394386,7 +394312,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 575539626,
    "full_name": "XilinJia/WWTranslate",
@@ -394419,7 +394345,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1306856410,
    "full_name": "Cinqic-Research/Cinqic-Calculator",
@@ -394461,7 +394387,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1352649748,
    "full_name": "mohashemi2002-arch/smart-wallet-android",
@@ -394487,7 +394413,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1458030891,
    "full_name": "Bloodexchange/ASDTrecker",
@@ -394499,21 +394425,21 @@
    "topics": [],
    "archived": false,
    "default_branch": "main",
-   "updated_at": "2026-11-14T18:11:40Z",
+   "updated_at": "2026-11-19T06:15:16Z",
    "created_at": "2026-11-14T18:04:50Z",
    "license": null
   },
   "release": {
-   "id": 449587746,
-   "tag": "v1.3.0",
-   "published_at": "2026-11-18T06:05:15Z",
+   "id": 450933258,
+   "tag": "v1.4.0",
+   "published_at": "2026-11-19T05:52:52Z",
    "prerelease": false,
    "apk_count": 2
   }
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1442682875,
    "full_name": "avishekpandit14/PULSE-Fitness",
@@ -394539,7 +394465,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1410682666,
    "full_name": "LazizYT/NoteSphere",
@@ -394577,7 +394503,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 257644003,
    "full_name": "Hatzen/ParAnnoying-Releases",
@@ -394608,7 +394534,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1457056508,
    "full_name": "Jhtin/Casha",
@@ -394643,7 +394569,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1455597932,
    "full_name": "rst1slav/MewGram-Android",
@@ -396169,7 +396095,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1458415133,
    "full_name": "M-Aqilaz/Aegis-Finance-Track",
@@ -396204,7 +396130,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1462672593,
    "full_name": "mrmello06/vault-spend-android",
@@ -396238,7 +396164,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1459936565,
    "full_name": "binharoon-1/paisa-ledger",
@@ -396264,7 +396190,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-18",
+  "last_verified": "2026-11-22",
   "repo": {
    "id": 1299260118,
    "full_name": "ali-alashkar/military-finance-inventory",
@@ -398062,6 +397988,252 @@
    "id": 338818858,
    "tag": "v1.0",
    "published_at": "2026-06-12T21:38:53Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1460921778,
+   "full_name": "ENDDREAM-ZM/Tracing",
+   "owner": "ENDDREAM-ZM",
+   "avatar_url": "https://avatars.githubusercontent.com/u/91729504?v=4",
+   "description": "追迹 - 公交与地铁查询",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "android",
+    "bus",
+    "compose",
+    "kotlin",
+    "metro",
+    "transit"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T17:28:40Z",
+   "created_at": "2026-11-17T04:44:02Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 450468443,
+   "tag": "1.5.0",
+   "published_at": "2026-11-18T19:41:01Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1461107328,
+   "full_name": "alindodhar/Hisab-App",
+   "owner": "alindodhar",
+   "avatar_url": "https://avatars.githubusercontent.com/u/261198913?v=4",
+   "description": "A simple and smooth Android Hisab Management Application with android, android-app, personal-finance, expense-tracker, money-manager, budget-tracker, finance-management, transaction-manager, savings-goals, offline-first",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T11:24:37Z",
+   "created_at": "2026-11-17T08:12:44Z",
+   "license": null
+  },
+  "release": {
+   "id": 448351445,
+   "tag": "v1.0.0",
+   "published_at": "2026-11-17T08:42:25Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1425144520,
+   "full_name": "Akash-Sriram/MyExpenses",
+   "owner": "Akash-Sriram",
+   "avatar_url": "https://avatars.githubusercontent.com/u/39720035?v=4",
+   "description": "Debloated, privacy-first, fully unlocked personal finance app for Android",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T12:19:06Z",
+   "created_at": "2026-10-19T05:20:40Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 454043546,
+   "tag": "v1.0.7",
+   "published_at": "2026-11-21T22:57:19Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1455985603,
+   "full_name": "luannamorim/myfinance",
+   "owner": "luannamorim",
+   "avatar_url": "https://avatars.githubusercontent.com/u/107324830?v=4",
+   "description": "Private, offline-first personal finance and portfolio app for Android. MyFit's sibling.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-19T20:20:25Z",
+   "created_at": "2026-11-13T00:39:14Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 449955825,
+   "tag": "v1.4.1",
+   "published_at": "2026-11-18T12:29:46Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1465569835,
+   "full_name": "ArizoOwner/Arizo_Manage",
+   "owner": "ArizoOwner",
+   "avatar_url": "https://avatars.githubusercontent.com/u/234813062?v=4",
+   "description": "Offline-first, zero-knowledge Persian finance vault — Android APK + iPhone PWA. No server, no trackers.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "android",
+    "capacitor",
+    "encryption",
+    "jalali",
+    "offline-first",
+    "persian",
+    "personal-finance",
+    "privacy",
+    "pwa",
+    "react"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T10:39:59Z",
+   "created_at": "2026-11-20T15:08:44Z",
+   "license": "Other"
+  },
+  "release": {
+   "id": 453245887,
+   "tag": "v1.1.3",
+   "published_at": "2026-11-20T22:34:34Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1424842201,
+   "full_name": "pioneer/textmoney",
+   "owner": "pioneer",
+   "avatar_url": "https://avatars.githubusercontent.com/u/200538?v=4",
+   "description": "Offline personal finance app for Android, Windows and Linux. Track spending, balances and budgets with plain-text Beancount records.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T01:24:07Z",
+   "created_at": "2026-10-18T21:36:08Z",
+   "license": null
+  },
+  "release": {
+   "id": 453373490,
+   "tag": "v0.4.18",
+   "published_at": "2026-11-21T02:07:07Z",
+   "prerelease": false,
+   "apk_count": 6
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1463761362,
+   "full_name": "muhammadsaadjadoon/HisaabKitaab",
+   "owner": "muhammadsaadjadoon",
+   "avatar_url": "https://avatars.githubusercontent.com/u/296918965?v=4",
+   "description": "Hisaab Kitaab: offline Android personal and household finance manager. Track income, expenses and savings on your device, no account needed.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "android",
+    "android-app",
+    "budget-tracker",
+    "expense-tracker",
+    "finance-manager",
+    "household-budget",
+    "java",
+    "offline-first",
+    "personal-finance",
+    "webview"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-19T13:22:56Z",
+   "created_at": "2026-11-19T06:35:55Z",
+   "license": "MIT"
+  },
+  "release": {
+   "id": 450996397,
+   "tag": "v6.0",
+   "published_at": "2026-11-19T07:16:50Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-22",
+  "repo": {
+   "id": 1441798327,
+   "full_name": "Felitendo/kontor",
+   "owner": "Felitendo",
+   "avatar_url": "https://avatars.githubusercontent.com/u/95575686?v=4",
+   "description": "[PRIVATE] I've developed this app for my dad. It's complete AI slop and only in german so you probably don't wanna use it :)",
+   "stars": 1,
+   "forks": 0,
+   "topics": [
+    "android",
+    "etf",
+    "finance",
+    "gold",
+    "jetpack-compose",
+    "kotlin",
+    "portfolio-tracker",
+    "wealth"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-20T17:36:59Z",
+   "created_at": "2026-11-01T12:31:25Z",
+   "license": "GPL-3.0"
+  },
+  "release": {
+   "id": 449772807,
+   "tag": "v1.1.2",
+   "published_at": "2026-11-18T09:40:28Z",
    "prerelease": false,
    "apk_count": 1
   }
@@ -400451,199 +400623,6 @@
    "id": 412822316,
    "tag": "v0.1.1",
    "published_at": "2026-10-14T14:34:50Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-27",
-  "repo": {
-   "id": 1416848036,
-   "full_name": "rdiecv/paradiddle",
-   "owner": "rdiecv",
-   "avatar_url": "https://avatars.githubusercontent.com/u/77533304?v=4",
-   "description": "Learn the 40 PAS drum rudiments on Android: notation, listen mode and tap practice with timing feedback. Free software (GPL-3.0).",
-   "stars": 0,
-   "forks": 0,
-   "topics": [
-    "android",
-    "drumming",
-    "drums",
-    "f-droid",
-    "jetpack-compose",
-    "kotlin",
-    "metronome",
-    "music-education",
-    "rudiments"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-13T18:38:05Z",
-   "created_at": "2026-10-13T10:31:13Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 411991928,
-   "tag": "v1.1.0-test8",
-   "published_at": "2026-10-13T18:38:17Z",
-   "prerelease": true,
-   "apk_count": 2
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-27",
-  "repo": {
-   "id": 1392229739,
-   "full_name": "radiium/fabrique",
-   "owner": "radiium",
-   "avatar_url": "https://avatars.githubusercontent.com/u/16139621?v=4",
-   "description": "Flutter app for Android and web with five offline woodworking calculators and exportable dimensioned drawings, built with Riverpod, freezed and CustomPainter.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [
-    "android",
-    "calculator",
-    "custompainter",
-    "dart",
-    "diy",
-    "f-droid",
-    "flutter",
-    "flutter-web",
-    "freezed",
-    "go-router",
-    "gpl3",
-    "i18n",
-    "material-design",
-    "offline-first",
-    "riverpod",
-    "woodworking"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-09-29T07:25:22Z",
-   "created_at": "2026-09-28T08:35:49Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 398682315,
-   "tag": "v0.1.0",
-   "published_at": "2026-09-28T22:45:54Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-27",
-  "repo": {
-   "id": 1338661011,
-   "full_name": "3duardobn/sorteio",
-   "owner": "3duardobn",
-   "avatar_url": "https://avatars.githubusercontent.com/u/18537291?v=4",
-   "description": "Sorteie uma palavra de listas salvas no seu dispositivo. Agite o celular ou toque para sortear. Sem anúncios, sem rastreamento, 100% offline. Flutter/GPL-3.0.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [
-    "android",
-    "dart",
-    "decision-making",
-    "f-droid",
-    "flutter",
-    "gpl3",
-    "material-design",
-    "no-ads",
-    "offline",
-    "privacy",
-    "random",
-    "randomizer",
-    "roulette",
-    "spinner",
-    "wheel",
-    "word-picker"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-09-07T23:37:35Z",
-   "created_at": "2026-08-18T17:17:43Z",
-   "license": "Other"
-  },
-  "release": {
-   "id": 374454725,
-   "tag": "v1.0.1",
-   "published_at": "2026-08-21T14:18:53Z",
-   "prerelease": false,
-   "apk_count": 2
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-27",
-  "repo": {
-   "id": 1418967803,
-   "full_name": "AndSni/HyperBit-Launcher",
-   "owner": "AndSni",
-   "avatar_url": "https://avatars.githubusercontent.com/u/76739213?v=4",
-   "description": "A neon, ultra-HD take on the retro desktop launcher for Android, with live backdrops",
-   "stars": 0,
-   "forks": 0,
-   "topics": [
-    "android",
-    "f-droid",
-    "jetpack-compose",
-    "kotlin",
-    "launcher"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-15T10:57:42Z",
-   "created_at": "2026-10-14T13:17:56Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 412750623,
-   "tag": "v0.1.0",
-   "published_at": "2026-10-14T13:28:24Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-10-27",
-  "repo": {
-   "id": 1413709420,
-   "full_name": "turnerglenn-cmyk/swellcheck",
-   "owner": "turnerglenn-cmyk",
-   "avatar_url": "https://avatars.githubusercontent.com/u/340759722?v=4",
-   "description": "Private surf and sea kayak forecast for Android: swell, wind, tides. No ads, no tracking.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [
-    "android",
-    "f-droid",
-    "kayaking",
-    "kotlin",
-    "open-meteo",
-    "privacy",
-    "sea-kayaking",
-    "surf",
-    "surfing",
-    "tides",
-    "weather",
-    "widget"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-10-27T17:42:18Z",
-   "created_at": "2026-10-10T22:10:19Z",
-   "license": "GPL-3.0"
-  },
-  "release": {
-   "id": 425870212,
-   "tag": "v0.4.1",
-   "published_at": "2026-10-27T19:03:46Z",
    "prerelease": false,
    "apk_count": 1
   }
