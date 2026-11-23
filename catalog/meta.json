@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "scanned_at": "2026-11-23T00:42:35.587726+00:00",
+ "scanned_at": "2026-11-23T00:44:02.136133+00:00",
  "tool": "tools/scan.py",
  "query_set": 12,
  "query_sets": [
@@ -21,18 +21,18 @@
   "android shopping archived:false fork:false"
  ],
  "candidates": 8969,
- "pending": 1681,
- "checked": 1621,
- "checked_total": 8929,
- "verified_today": 309,
+ "pending": 60,
+ "checked": 60,
+ "checked_total": 8989,
+ "verified_today": 10,
  "carried_over": 12000,
- "dropped_stale": 26,
+ "dropped_stale": 0,
  "truncated": true,
  "resumed": true,
  "interrupted": false,
- "complete": false,
+ "complete": true,
  "error": null,
- "duration_s": 2101.2,
+ "duration_s": 78.1,
  "matches": 12000,
  "index_matches": 12000,
  "index_bytes": 10021307

@@ -463621,7 +463621,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-23",
   "repo": {
    "id": 260164275,
    "full_name": "cyb3rko/logviewer-for-openhab-app",
@@ -463669,7 +463669,7 @@
     "size": 4062493,
     "download_url": "https://github.com/cyb3rko/logviewer-for-openhab-app/releases/download/v2.0.2/LogViewerforopenHAB_2.0.2.apk",
     "digest": null,
-    "download_count": 39
+    "download_count": 40
    }
   ]
  },
@@ -490554,6 +490554,71 @@
  },
  {
   "schema": 1,
+  "last_verified": "2026-11-23",
+  "repo": {
+   "id": 1361052497,
+   "full_name": "MelismaApp/melisma",
+   "owner": "MelismaApp",
+   "avatar_url": "https://avatars.githubusercontent.com/u/327649780?v=4",
+   "description": "A standalone Android app that shows word-by-word synced lyrics for whatever your phone is playing — Spotify, YouTube Music, Apple Music, a local player, anything — with the look and motion of https://github.com/Spikerko/spicy-lyrics from Spicetify.  No Spotify login. No account of any kind.",
+   "stars": 9,
+   "forks": 3,
+   "topics": [
+    "android",
+    "android-auto",
+    "apple-music",
+    "furigana",
+    "jetpack-compose",
+    "karaoke",
+    "kotlin",
+    "lrc",
+    "lyrics",
+    "media-session",
+    "musixmatch",
+    "netease",
+    "romanization",
+    "self-hosted",
+    "spicetify",
+    "spicy-lyrics",
+    "spotify",
+    "synced-lyrics",
+    "ttml",
+    "youtube-music"
+   ],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-21T14:42:48Z",
+   "created_at": "2026-09-08T07:18:15Z",
+   "license": "AGPL-3.0",
+   "language": "Kotlin",
+   "openIssues": 1,
+   "watchers": null,
+   "homepage": "",
+   "pushedAt": "2026-11-22T13:11:27Z"
+  },
+  "release": {
+   "id": 454459868,
+   "tag": "v2.13.0",
+   "name": "v2.13.0",
+   "notes": "**Old lyrics stay for offline play; Spicy Lyrics' words keep to its 30-day limit.**\r\n\r\n- **A song played with no connection keeps its lyrics.** After 30 days a cached song is still looked up afresh the next time it plays, but the old copy is no longer thrown away first: it is what shows when there is no connection, when the sources cannot be reached, or when they come back with nothing.\r\n- **Words from Spicy Lyrics are deleted once their time is up**, as its terms require. They are never shown past 28 days, and are removed from the device the next time the app starts, whether or not the song is played again. This applies to Spicy Lyrics' words only, whether they came straight from it or through a cache server.\r\n- A cache server can now say where an answer came from and when it must be discarded (`source`, `expiresAt`) — see [docs/CACHE-SERVER.md](https://github.com/MelismaApp/melisma/blob/main/docs/CACHE-SERVER.md#the-response).\r\n\r\n---\r\n\r\nDownload the APK below and open it; Android will ask you to allow installing from this source. Grant notification access on first run — that is how it sees what is playing.\r\n\r\nSigned with the project release key; `arm64-v8a`, minSdk 29.\r\n",
+   "published_at": "2026-11-22T13:16:10Z",
+   "html_url": "https://github.com/MelismaApp/melisma/releases/tag/v2.13.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 779126671,
+    "name": "melisma-2.13.0.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 36827313,
+    "download_url": "https://github.com/MelismaApp/melisma/releases/download/v2.13.0/melisma-2.13.0.apk",
+    "digest": "sha256:a3f372f51c119bf53bbc188c3b4e8069526940520211266ae28731743490dd3e",
+    "download_count": 19
+   }
+  ]
+ },
+ {
+  "schema": 1,
   "last_verified": "2026-11-21",
   "repo": {
    "id": 1379330604,
@@ -506609,71 +506674,6 @@
     "download_url": "https://github.com/SambuddhaRoy/Verza/releases/download/v2.4.1/Verza-v2.4.1.apk",
     "digest": "sha256:8ecb3d07d3bbe71556a675b853e31bd0439decc7d50cf4912ef06418df4ce51e",
     "download_count": 19
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-20",
-  "repo": {
-   "id": 1361052497,
-   "full_name": "MelismaApp/melisma",
-   "owner": "MelismaApp",
-   "avatar_url": "https://avatars.githubusercontent.com/u/327649780?v=4",
-   "description": "A standalone Android app that shows word-by-word synced lyrics for whatever your phone is playing — Spotify, YouTube Music, Apple Music, a local player, anything — with the look and motion of https://github.com/Spikerko/spicy-lyrics from Spicetify.  No Spotify login. No account of any kind.",
-   "stars": 8,
-   "forks": 3,
-   "topics": [
-    "android",
-    "android-auto",
-    "apple-music",
-    "furigana",
-    "jetpack-compose",
-    "karaoke",
-    "kotlin",
-    "lrc",
-    "lyrics",
-    "media-session",
-    "musixmatch",
-    "netease",
-    "romanization",
-    "self-hosted",
-    "spicetify",
-    "spicy-lyrics",
-    "spotify",
-    "synced-lyrics",
-    "ttml",
-    "youtube-music"
-   ],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-18T16:37:43Z",
-   "created_at": "2026-09-08T07:18:15Z",
-   "license": "AGPL-3.0",
-   "language": "Kotlin",
-   "openIssues": 1,
-   "watchers": null,
-   "homepage": "",
-   "pushedAt": "2026-11-14T15:57:49Z"
-  },
-  "release": {
-   "id": 445413308,
-   "tag": "v2.12.0",
-   "name": "v2.12.0",
-   "notes": "**Spicy Lyrics arrives as a source; Musixmatch leaves.**\n\n- **Musixmatch is no longer a source.** Musixmatch asked that the app stop using its services, and there is no licensed route that fits an app with no account, so the integration is gone: the source, its token field, and every mention. On the first start after updating, the app deletes any Musixmatch token it held and clears Musixmatch lyrics from its cache. Songs it used to supply now come from the other sources — Spotify's lyrics, which Musixmatch supplies to Spotify, are reachable through Spicy Lyrics below.\n- **Spicy Lyrics**, under *Settings → Where lyrics come from*: hand-made community syncs first, then Apple Music's and Spotify's lyrics, looked up by the exact recording. It needs a free key of your own — press **Add** on [Melisma's page in the Spicy Lyrics catalog](https://developers.spicylyrics.org/catalog/melisma) and paste the `sl_pk_` key under *Tokens and endpoints*. No developer account; the key is yours, with its own limit. A secret key is refused, because that kind belongs on a server. Community syncs are credited under the lyrics to the people who made and uploaded them, and tapping a name opens their page. The catalog page is still being reviewed by Spicy Lyrics as this release goes out; the *Get a Spicy Lyrics key* button leads there once it is up.\n- A cache server can now pass a source's credits, link and credit requirement through to the app — see [docs/CACHE-SERVER.md](https://github.com/MelismaApp/melisma/blob/main/docs/CACHE-SERVER.md#the-response).\n- A credit a source's terms insist on now stays on the Android Auto screen too, with credits switched off.\n\n---\n\nDownload the APK below and open it; Android will ask you to allow installing from this source. Grant notification access on first run — that is how it sees what is playing.\n\nSigned with the project release key; `arm64-v8a`, minSdk 29.\n",
-   "published_at": "2026-11-14T16:02:03Z",
-   "html_url": "https://github.com/MelismaApp/melisma/releases/tag/v2.12.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 747997152,
-    "name": "melisma-2.12.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 36827313,
-    "download_url": "https://github.com/MelismaApp/melisma/releases/download/v2.12.0/melisma-2.12.0.apk",
-    "digest": "sha256:1aa4dd5dced9fb1e7b86ea0b432eeaf703618e004f577d328b3a418981faf6f1",
-    "download_count": 131
    }
   ]
  },
@@ -542000,7 +542000,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-23",
   "repo": {
    "id": 841876072,
    "full_name": "chentyjpm/Peach-9B-8K-Roleplay-Android-llama",
@@ -542044,7 +542044,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-23",
   "repo": {
    "id": 1239718503,
    "full_name": "NotInsaneYet/sc2d",
@@ -771782,7 +771782,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-23",
   "repo": {
    "id": 933496260,
    "full_name": "51simple/MyRustdeskAndroid",
@@ -773577,7 +773577,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-23",
   "repo": {
    "id": 586718570,
    "full_name": "yuriisurzhykov/KMM-MobileTranslator",
@@ -773682,7 +773682,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-23",
   "repo": {
    "id": 1293021110,
    "full_name": "akarakuts/durak-android-game",
@@ -793671,7 +793671,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-19",
+  "last_verified": "2026-11-23",
   "repo": {
    "id": 1419680413,
    "full_name": "brittonr/herdr-gpui-android",
@@ -793690,7 +793690,7 @@
    "openIssues": 2,
    "watchers": null,
    "homepage": null,
-   "pushedAt": "2026-11-12T20:18:11Z"
+   "pushedAt": "2026-11-19T20:17:37Z"
   },
   "release": {
    "id": 429105926,
