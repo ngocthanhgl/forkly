@@ -1,25 +1,29 @@
 {
  "schema": 1,
- "slot": 41560,
+ "slot": 41562,
  "query_sets": [
-  2,
-  3
+  6,
+  7
  ],
  "queries": [
-  "topic:flutter archived:false fork:false",
-  "topic:react-native archived:false fork:false",
-  "android language:Dart archived:false fork:false stars:>50",
-  "android language:C# archived:false fork:false stars:>50",
-  "android music player archived:false fork:false",
-  "android video player archived:false fork:false",
-  "youtube android archived:false fork:false",
-  "android camera archived:false fork:false",
-  "android podcast archived:false fork:false",
-  "android manga comic archived:false fork:false"
+  "topic:f-droid archived:false fork:false",
+  "android adblock archived:false fork:false",
+  "android firewall archived:false fork:false",
+  "android backup archived:false fork:false",
+  "android privacy archived:false fork:false",
+  "android encryption archived:false fork:false",
+  "android 2fa archived:false fork:false",
+  "godot android archived:false fork:false",
+  "unity android archived:false fork:false",
+  "android game archived:false fork:false",
+  "android emulator archived:false fork:false",
+  "android libgdx archived:false fork:false",
+  "android bevy archived:false fork:false",
+  "android renpy archived:false fork:false"
  ],
  "checked_ids": [],
- "candidates": 6852,
- "started_at": "2026-11-23T10:29:57.116899+00:00",
- "updated_at": "2026-11-23T15:42:13.446919+00:00",
- "complete": true
+ "candidates": 9174,
+ "started_at": "2026-11-24T01:31:59.903763+00:00",
+ "updated_at": "2026-11-24T05:11:46.839213+00:00",
+ "complete": false
 }
