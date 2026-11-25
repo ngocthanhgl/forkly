@@ -1,29 +1,27 @@
 {
  "schema": 1,
- "slot": 41562,
+ "slot": 41563,
  "query_sets": [
-  6,
-  7
+  8,
+  9
  ],
  "queries": [
-  "topic:f-droid archived:false fork:false",
-  "android adblock archived:false fork:false",
-  "android firewall archived:false fork:false",
-  "android backup archived:false fork:false",
-  "android privacy archived:false fork:false",
-  "android encryption archived:false fork:false",
-  "android 2fa archived:false fork:false",
-  "godot android archived:false fork:false",
-  "unity android archived:false fork:false",
-  "android game archived:false fork:false",
-  "android emulator archived:false fork:false",
-  "android libgdx archived:false fork:false",
-  "android bevy archived:false fork:false",
-  "android renpy archived:false fork:false"
+  "kivy android archived:false fork:false",
+  "chaquopy android archived:false fork:false",
+  "android language:Python archived:false fork:false",
+  "android language:C++ archived:false fork:false",
+  "android language:JavaScript archived:false fork:false",
+  "android messenger archived:false fork:false",
+  "android maps navigation archived:false fork:false",
+  "android finance archived:false fork:false",
+  "android fitness archived:false fork:false",
+  "android travel archived:false fork:false",
+  "android transit archived:false fork:false",
+  "android recipes archived:false fork:false"
  ],
  "checked_ids": [],
- "candidates": 8545,
- "started_at": "2026-11-24T01:31:59.903763+00:00",
- "updated_at": "2026-11-24T17:00:50.824713+00:00",
- "complete": true
+ "candidates": 10758,
+ "started_at": "2026-11-24T23:25:24.707509+00:00",
+ "updated_at": "2026-11-25T03:30:51.851478+00:00",
+ "complete": false
 }
