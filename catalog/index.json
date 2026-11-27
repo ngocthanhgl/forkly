@@ -217004,7 +217004,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-23",
+  "last_verified": "2026-11-27",
   "repo": {
    "id": 41747304,
    "full_name": "RacZo/ColorExtractor",
@@ -399576,6 +399576,58 @@
   "schema": 1,
   "last_verified": "2026-11-27",
   "repo": {
+   "id": 1440569695,
+   "full_name": "codescv/miniplayer",
+   "owner": "codescv",
+   "avatar_url": "https://avatars.githubusercontent.com/u/124190?v=4",
+   "description": "Minimalist offline-first Android M3 Music & Video Player with Practice Mode (A-B Loop, Sonic Speed/Pitch, Section Bookmarks), Keyless Online Metadata & Lyrics, and PC LAN Web Studio",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-18T09:32:31Z",
+   "created_at": "2026-10-31T06:18:35Z",
+   "license": null
+  },
+  "release": {
+   "id": 459221872,
+   "tag": "v1.0.18",
+   "published_at": "2026-11-26T09:54:53Z",
+   "prerelease": false,
+   "apk_count": 2
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-27",
+  "repo": {
+   "id": 1461590001,
+   "full_name": "22-db-22/SUBCOLAB",
+   "owner": "22-db-22",
+   "avatar_url": "https://avatars.githubusercontent.com/u/356321975?v=4",
+   "description": "Watch non-English videos on Android with real-time translated English subtitles using Whisper large-v3 on free Google Colab T4 GPUs and a built-in libmpv player.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-19T01:49:25Z",
+   "created_at": "2026-11-17T15:21:02Z",
+   "license": "Other"
+  },
+  "release": {
+   "id": 449010260,
+   "tag": "v1.0",
+   "published_at": "2026-11-17T18:08:52Z",
+   "prerelease": false,
+   "apk_count": 1
+  }
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-27",
+  "repo": {
    "id": 1432139916,
    "full_name": "ariakamali06-jpg/stellar-android",
    "owner": "ariakamali06-jpg",
@@ -401289,58 +401341,6 @@
    "published_at": "2026-10-03T22:18:23Z",
    "prerelease": false,
    "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-27",
-  "repo": {
-   "id": 1464440016,
-   "full_name": "amatsagu/reson",
-   "owner": "amatsagu",
-   "avatar_url": "https://avatars.githubusercontent.com/u/81469656?v=4",
-   "description": "An Android App to listen youtube videos as podcasts in peace.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-19T17:14:14Z",
-   "created_at": "2026-11-19T17:10:46Z",
-   "license": null
-  },
-  "release": {
-   "id": 457205550,
-   "tag": "v1.0",
-   "published_at": "2026-11-24T19:02:29Z",
-   "prerelease": false,
-   "apk_count": 1
-  }
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-27",
-  "repo": {
-   "id": 1427089413,
-   "full_name": "Nanobuo/myPodder",
-   "owner": "Nanobuo",
-   "avatar_url": "https://avatars.githubusercontent.com/u/162648401?v=4",
-   "description": "Un lettore di podcast audio per Android con grafica Material You",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-10T16:03:37Z",
-   "created_at": "2026-10-20T13:48:53Z",
-   "license": "MIT"
-  },
-  "release": {
-   "id": 446614733,
-   "tag": "v1.8.1",
-   "published_at": "2026-11-16T04:43:15Z",
-   "prerelease": false,
-   "apk_count": 7
   }
  }
 ]

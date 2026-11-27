@@ -454793,7 +454793,7 @@
  },
  {
   "schema": 1,
-  "last_verified": "2026-11-23",
+  "last_verified": "2026-11-27",
   "repo": {
    "id": 41747304,
    "full_name": "RacZo/ColorExtractor",
@@ -814917,6 +814917,103 @@
   "schema": 1,
   "last_verified": "2026-11-27",
   "repo": {
+   "id": 1440569695,
+   "full_name": "codescv/miniplayer",
+   "owner": "codescv",
+   "avatar_url": "https://avatars.githubusercontent.com/u/124190?v=4",
+   "description": "Minimalist offline-first Android M3 Music & Video Player with Practice Mode (A-B Loop, Sonic Speed/Pitch, Section Bookmarks), Keyless Online Metadata & Lyrics, and PC LAN Web Studio",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-18T09:32:31Z",
+   "created_at": "2026-10-31T06:18:35Z",
+   "license": null,
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": null,
+   "pushedAt": "2026-11-26T09:54:21Z"
+  },
+  "release": {
+   "id": 459221872,
+   "tag": "v1.0.18",
+   "name": "Play (MiniPlayer) v1.0.18",
+   "notes": "### What's Changed\n- **Single-language UI in 简体中文 / English / 日本語**: Every screen, sheet, dialog, snackbar, error and Agent Feedback summary/diagnostic now appears in exactly one language. Bilingual labels such as `标题 (Title)`, the English `Bass` stem label in the Chinese UI, English-only bookmark presets, and the `Various Artists` / `未知专辑` mix are gone. Stem labels, section presets and unknown album/artist placeholders are localized for each language.\n- **New Language setting with live switching**: Settings now opens with a Language section offering `跟随系统` / `System Default` / `システムに従う` (the default), `中文`, `English` and `日本語`. System Default maps `zh*` to Simplified Chinese, `ja*` to Japanese, and everything else to English. Your choice is saved and applies immediately, with no restart. Android `values-zh-rCN` / `values-ja` resources and `locales_config.xml` register the 3 locales with the system.\n- **PC LAN Web Studio follows the app language**: The served page sets `<html lang=\"zh-CN|en|ja\">` and localizes all HTML and JS text, including toasts, modals, the PIN and upload flows, and the unsupported-file-type error for drag-and-drop uploads.\n- **Unchanged by design**: Music metadata, `.lrc` lyrics, folder and file names, and technical units (`BPM`, `st`, `ct`, `Hz`, `dB`, `HTDemucs`) are not translated.\n\n### Verification\n- `./gradlew test assembleDebug assembleRelease`: 184 tests in each of the debug and release variants, 0 failures (1 optional local-model end-to-end test skipped). This includes the new `AppI18nTest`, which checks language resolution, persistence, key/placeholder parity across zh/en/ja, that no bilingual text is left, and localized LAN HTML.\n- `versionCode = 10018`. The signing certificate SHA-256 (`a2be41f8…dcf5`) matches v1.0.5–v1.0.17, so in-app updates install in place.\n\n**SHA-256** (`MiniPlayer-v1.0.18.apk`): `df9f05f15dc0f2bb5673270c253ebc9c847c6dc0a70663db2f99e81460132975`\n",
+   "published_at": "2026-11-26T09:54:53Z",
+   "html_url": "https://github.com/codescv/miniplayer/releases/tag/v1.0.18",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 795249266,
+    "name": "MiniPlayer-v1.0.18.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 85436125,
+    "download_url": "https://github.com/codescv/miniplayer/releases/download/v1.0.18/MiniPlayer-v1.0.18.apk",
+    "digest": "sha256:df9f05f15dc0f2bb5673270c253ebc9c847c6dc0a70663db2f99e81460132975",
+    "download_count": 2
+   },
+   {
+    "id": 795249255,
+    "name": "SHA256SUMS.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "size": 89,
+    "download_url": "https://github.com/codescv/miniplayer/releases/download/v1.0.18/SHA256SUMS.txt",
+    "digest": "sha256:d4f237ced24cd8bb6f6e0079c58984e1ed0d7334581be2862df71bc68e13a3fb",
+    "download_count": 2
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-27",
+  "repo": {
+   "id": 1461590001,
+   "full_name": "22-db-22/SUBCOLAB",
+   "owner": "22-db-22",
+   "avatar_url": "https://avatars.githubusercontent.com/u/356321975?v=4",
+   "description": "Watch non-English videos on Android with real-time translated English subtitles using Whisper large-v3 on free Google Colab T4 GPUs and a built-in libmpv player.",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "archived": false,
+   "default_branch": "main",
+   "updated_at": "2026-11-19T01:49:25Z",
+   "created_at": "2026-11-17T15:21:02Z",
+   "license": "Other",
+   "language": "Kotlin",
+   "openIssues": 0,
+   "watchers": null,
+   "homepage": "https://github.com/22-db-22/SUBCOLAB/releases",
+   "pushedAt": "2026-11-25T00:54:30Z"
+  },
+  "release": {
+   "id": 449010260,
+   "tag": "v1.0",
+   "name": "SUBCOLAB v1.0",
+   "notes": "# SUBCOLAB v1.0\r\n\r\n**Real-time English subtitles for international, social, and offline videos on Android — in a single standalone APK.**\r\n\r\nSUBCOLAB pairs an on-device `youtubedl-android` (`yt-dlp` + `ffmpeg` + `aria2c`) extractor and embedded `libmpv` cinema player with Whisper `large-v3` running on your own free Google Colab T4 GPU—no browser tabs, Termux scripts, or third-party servers required.\r\n\r\n---\r\n\r\n### Highlights in v1.0\r\n\r\n- **Single-Frame Share Overlay:** Share any link from **Instagram**, **Reddit**, **Dailymotion**, **Bilibili**, TikTok, Vimeo, browsers *(or fallback sites like X and YouTube)* directly to **SUBCOLAB** to configure everything on one screen without scrolling:\r\n  - One-row quick language presets (**Auto**, **Chinese**, **Korean**, **Jap**) plus searchable **All ~99 Whisper languages**\r\n  - Whisper model switcher: **`large-v3 (Best)`** or **`turbo (Fast)`**\r\n  - **Clean Audio** (noise reduction + loudness boost), **Vocal Boost / Cut Music** (voice isolation over songs/BGM), and **High-Precision Beam Search** (beam width 8)\r\n- **Watch Now & Download Workflows:**\r\n  - **Watch Now:** Extracts adaptive `15s–60s` audio-only chunks via local `127.0.0.1` proxy and automatically opens `libmpv` as soon as initial English subtitles arrive *(with 2s confirmation overlay)*.\r\n  - **Download:** Saves `<=720p` *(or `360p`–`1080p` re-download)* `.mp4` along with `.srt`, `.ass`, and `.vtt` packs to `Downloads/SUBCOLAB/<title>/`.\r\n  - **Local Video Support:** Pick `.mp4`, `.mkv`, `.webm`, `.mov`, or audio files straight from device storage.\r\n- **Smart Multi-Video Queue & Non-Interrupting Playback:**\r\n  - Sharing additional links while a job runs queues them cleanly (**Queued No. 1**, **Queued No. 2**, ...) and promotes the next job automatically upon completion.\r\n  - Queued **Watch Now** jobs stay ready in a top notification and in-app banner with **Watch Now** *(switch immediately)* or **Cancel Job** *(cancel and start the next item)*—never cutting off th",
+   "published_at": "2026-11-17T18:08:52Z",
+   "html_url": "https://github.com/22-db-22/SUBCOLAB/releases/tag/v1.0",
+   "prerelease": false
+  },
+  "assets": [
+   {
+    "id": 775151776,
+    "name": "SUBCOLAB-v1.0-arm64-v8a.apk",
+    "content_type": "application/vnd.android.package-archive",
+    "size": 83597605,
+    "download_url": "https://github.com/22-db-22/SUBCOLAB/releases/download/v1.0/SUBCOLAB-v1.0-arm64-v8a.apk",
+    "digest": "sha256:11c87af45a7f316170c8369c6d5511f33fa33aa47242a624843513edd036b6d2",
+    "download_count": 3
+   }
+  ]
+ },
+ {
+  "schema": 1,
+  "last_verified": "2026-11-27",
+  "repo": {
    "id": 1432139916,
    "full_name": "ariakamali06-jpg/stellar-android",
    "owner": "ariakamali06-jpg",
@@ -818231,148 +818328,6 @@
     "download_url": "https://github.com/Burton-Workspaces/burton-pod/releases/download/v1.5.0/burton-pod-1.5.0.apk",
     "digest": "sha256:158f0a018b9434a18be25e94e63c0ef886237c260dd3268817ff8b9d80542961",
     "download_count": 1
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-27",
-  "repo": {
-   "id": 1464440016,
-   "full_name": "amatsagu/reson",
-   "owner": "amatsagu",
-   "avatar_url": "https://avatars.githubusercontent.com/u/81469656?v=4",
-   "description": "An Android App to listen youtube videos as podcasts in peace.",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "master",
-   "updated_at": "2026-11-19T17:14:14Z",
-   "created_at": "2026-11-19T17:10:46Z",
-   "license": null,
-   "language": "Kotlin",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-11-24T19:02:29Z"
-  },
-  "release": {
-   "id": 457205550,
-   "tag": "v1.0",
-   "name": "v1.0",
-   "notes": "This is the first stable & feature complete release of Reson, built for:\r\n- **Architecture**: 64-bit ARM (`arm64-v8a`)\r\n- **Minimum Android version**: Android 16 (API level 36)\r\n\r\n**Full Changelog**: https://github.com/amatsagu/reson/commits/v1.0",
-   "published_at": "2026-11-24T19:02:29Z",
-   "html_url": "https://github.com/amatsagu/reson/releases/tag/v1.0",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 788462373,
-    "name": "Reson-v1.0.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 62890344,
-    "download_url": "https://github.com/amatsagu/reson/releases/download/v1.0/Reson-v1.0.apk",
-    "digest": "sha256:9c36e56d03cd3aaccf3c7bbb8f95e7244e2c6b68cc1054cbb1bd323e469f4c86",
-    "download_count": 2
-   }
-  ]
- },
- {
-  "schema": 1,
-  "last_verified": "2026-11-27",
-  "repo": {
-   "id": 1427089413,
-   "full_name": "Nanobuo/myPodder",
-   "owner": "Nanobuo",
-   "avatar_url": "https://avatars.githubusercontent.com/u/162648401?v=4",
-   "description": "Un lettore di podcast audio per Android con grafica Material You",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "archived": false,
-   "default_branch": "main",
-   "updated_at": "2026-11-10T16:03:37Z",
-   "created_at": "2026-10-20T13:48:53Z",
-   "license": "MIT",
-   "language": "Kotlin",
-   "openIssues": 0,
-   "watchers": null,
-   "homepage": null,
-   "pushedAt": "2026-11-16T04:43:15Z"
-  },
-  "release": {
-   "id": 446614733,
-   "tag": "v1.8.1",
-   "name": "myPodder 1.8.1",
-   "notes": "### Novità\n- **Ascolta senza iscriverti**: nell'anteprima di un podcast ogni episodio ha il pulsante ▶.\n  - Il podcast non compare tra le iscrizioni, ma posizione, cronologia e coda funzionano lo stesso.\n  - Se ti piace, puoi iscriverti dalla sua pagina.\n\n### Correzioni\n- Android: il numero di episodi in coda nel player non viene più tagliato dal bordo del pulsante.\n",
-   "published_at": "2026-11-16T04:43:15Z",
-   "html_url": "https://github.com/Nanobuo/myPodder/releases/tag/v1.8.1",
-   "prerelease": false
-  },
-  "assets": [
-   {
-    "id": 753477432,
-    "name": "latest.json",
-    "content_type": "application/json",
-    "size": 2861,
-    "download_url": "https://github.com/Nanobuo/myPodder/releases/download/v1.8.1/latest.json",
-    "digest": "sha256:c4aafd567a16b3ee1e5a8ee228eecdf38d7f1e9f9b850a4dca0385d53041aad7",
-    "download_count": 3
-   },
-   {
-    "id": 753477425,
-    "name": "myPodder-v1.8.1.apk",
-    "content_type": "application/vnd.android.package-archive",
-    "size": 3802443,
-    "download_url": "https://github.com/Nanobuo/myPodder/releases/download/v1.8.1/myPodder-v1.8.1.apk",
-    "digest": "sha256:a07f27e15932e38f4bdaea052ba33a07578a167f5d5b9b9e54e51c756779b7bc",
-    "download_count": 3
-   },
-   {
-    "id": 753477433,
-    "name": "myPodder_1.8.1_amd64.AppImage",
-    "content_type": "application/vnd.appimage",
-    "size": 172620280,
-    "download_url": "https://github.com/Nanobuo/myPodder/releases/download/v1.8.1/myPodder_1.8.1_amd64.AppImage",
-    "digest": "sha256:47bc373afdd8e35d58c125285cd210787722dced3f5faf8d2600612dc7eca5cf",
-    "download_count": 1
-   },
-   {
-    "id": 753477431,
-    "name": "myPodder_1.8.1_amd64.deb",
-    "content_type": "application/x-debian-package",
-    "size": 12131656,
-    "download_url": "https://github.com/Nanobuo/myPodder/releases/download/v1.8.1/myPodder_1.8.1_amd64.deb",
-    "digest": "sha256:5250305d7d6595fda5b3581cc28039518f7e295324c794890c91adaee739c217",
-    "download_count": 1
-   },
-   {
-    "id": 753477430,
-    "name": "myPodder_1.8.1_universal.app.tar.gz",
-    "content_type": "application/x-gtar",
-    "size": 23236904,
-    "download_url": "https://github.com/Nanobuo/myPodder/releases/download/v1.8.1/myPodder_1.8.1_universal.app.tar.gz",
-    "digest": "sha256:649a62a93a609938b779bfda0aa171a7dc3f76b365ceb6ccbf88594b79e18efb",
-    "download_count": 1
-   },
-   {
-    "id": 753477461,
-    "name": "myPodder_1.8.1_universal.dmg",
-    "content_type": "application/x-apple-diskimage",
-    "size": 22979493,
-    "download_url": "https://github.com/Nanobuo/myPodder/releases/download/v1.8.1/myPodder_1.8.1_universal.dmg",
-    "digest": "sha256:fb664da008fdfd4eb27349bf3b33d0196427626aa3d5b7f3e25ddeb3b565caf2",
-    "download_count": 1
-   },
-   {
-    "id": 753477479,
-    "name": "myPodder_1.8.1_x64-setup.exe",
-    "content_type": "application/octet-stream",
-    "size": 10496484,
-    "download_url": "https://github.com/Nanobuo/myPodder/releases/download/v1.8.1/myPodder_1.8.1_x64-setup.exe",
-    "digest": "sha256:db3754f3d6866bd7a2059eb64c8efc64074692bc3f254a8a6037b27bc0868ed2",
-    "download_count": 2
    }
   ]
  }
