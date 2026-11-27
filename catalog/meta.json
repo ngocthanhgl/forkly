@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "scanned_at": "2026-11-27T15:12:50.711548+00:00",
+ "scanned_at": "2026-11-27T15:48:00.265400+00:00",
  "tool": "tools/scan.py",
  "query_set": 4,
  "query_sets": [
@@ -23,10 +23,10 @@
   "android education archived:false fork:false"
  ],
  "candidates": 9868,
- "pending": 9868,
- "checked": 1638,
- "checked_total": 1638,
- "verified_today": 610,
+ "pending": 8230,
+ "checked": 1663,
+ "checked_total": 3301,
+ "verified_today": 503,
  "carried_over": 12000,
  "dropped_stale": 0,
  "truncated": true,
@@ -34,8 +34,8 @@
  "interrupted": false,
  "complete": false,
  "error": null,
- "duration_s": 2100.9,
+ "duration_s": 2100.1,
  "matches": 12000,
  "index_matches": 12000,
- "index_bytes": 10027947
+ "index_bytes": 10033122
 }
